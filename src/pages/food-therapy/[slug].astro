@@ -1,0 +1,110 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { foodTherapyArticles } from "../../data/articles";
+
+export function getStaticPaths() {
+  return foodTherapyArticles.map((article) => ({
+    params: { slug: article.slug },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+---
+
+<BaseLayout
+  title={`${article.title} | HerbGuide`}
+  description={article.description}
+  structuredData={[
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: article.title,
+      description: article.description,
+      url: `https://herbguide.store/food-therapy/${article.slug}/`,
+      author: {
+        "@type": "Organization",
+        name: "HerbGuide",
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "HerbGuide",
+      },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://herbguide.store/",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Food Therapy",
+          item: "https://herbguide.store/food-therapy/",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: article.title,
+          item: `https://herbguide.store/food-therapy/${article.slug}/`,
+        },
+      ],
+    },
+  ]}
+>
+  <section class="page-hero">
+    <div class="shell narrow prose-block">
+      <p class="eyebrow">{article.eyebrow}</p>
+      <h1>{article.title}</h1>
+      <p>{article.intro}</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell narrow stack">
+      {article.sections.map((section) => (
+        <article class="prose-block card">
+          <h2>{section.title}</h2>
+          {section.paragraphs.map((paragraph) => (
+            <p>{paragraph}</p>
+          ))}
+          {section.bullets && (
+            <ul>
+              {section.bullets.map((bullet) => (
+                <li>{bullet}</li>
+              ))}
+            </ul>
+          )}
+        </article>
+      ))}
+      <article class="prose-block card">
+        <p class="eyebrow">Ingredient links</p>
+        <h2>Related herb pages for this topic</h2>
+        <p>
+          These kitchen articles work best when they connect directly to ingredient profiles so
+          readers can check traditional terms, food uses, and caution notes in one place.
+        </p>
+        <ul>
+          <li><a href="/herbs/fresh-ginger/">Fresh Ginger</a></li>
+          <li><a href="/herbs/jujube-red-date/">Jujube</a></li>
+          <li><a href="/herbs/goji-berry/">Goji Berry</a></li>
+          <li><a href="/herbs/chrysanthemum-flower/">Chrysanthemum</a></li>
+          <li><a href="/herbs/black-sesame-seed/">Black Sesame Seed</a></li>
+        </ul>
+      </article>
+      <article class="prose-block card">
+        <p class="eyebrow">Keep exploring</p>
+        <h2>Back to Food Therapy</h2>
+        <p>
+          This article is part of the <a href="/food-therapy/">Food Therapy</a> section. Return
+          there for more kitchen-focused reading and ingredient ideas.
+        </p>
+      </article>
+    </div>
+  </section>
+</BaseLayout>

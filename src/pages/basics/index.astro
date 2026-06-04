@@ -68,8 +68,9 @@ import { basicsCards } from "../../data/content";
       <div class="card-grid">
         {basicsCards.map((card) => (
           <article class="card">
-            <h2>{card.title}</h2>
+            <h2><a href={`/basics/${card.slug}/`}>{card.title}</a></h2>
             <p>{card.text}</p>
+            <p class="card-link"><a href={`/basics/${card.slug}/`}>Read article</a></p>
           </article>
         ))}
       </div>

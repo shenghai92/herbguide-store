@@ -141,8 +141,9 @@ import { featuredHerbs, launchHerbList } from "../data/herbs";
         <div class="stack">
           {recipeCards.map((card) => (
             <article class="list-card">
-              <h3>{card.title}</h3>
+              <h3><a href={`/food-therapy/${card.slug}/`}>{card.title}</a></h3>
               <p>{card.text}</p>
+              <p class="card-link"><a href={`/food-therapy/${card.slug}/`}>Read article</a></p>
             </article>
           ))}
         </div>
@@ -156,8 +157,9 @@ import { featuredHerbs, launchHerbList } from "../data/herbs";
         <div class="stack">
           {basicsCards.map((card) => (
             <article class="list-card">
-              <h3>{card.title}</h3>
+              <h3><a href={`/basics/${card.slug}/`}>{card.title}</a></h3>
               <p>{card.text}</p>
+              <p class="card-link"><a href={`/basics/${card.slug}/`}>Read article</a></p>
             </article>
           ))}
         </div>
@@ -176,8 +178,9 @@ import { featuredHerbs, launchHerbList } from "../data/herbs";
         <div class="stack">
           {classicsCards.map((card) => (
             <article class="list-card">
-              <h3>{card.title}</h3>
+              <h3><a href={`/classics/${card.slug}/`}>{card.title}</a></h3>
               <p>{card.text}</p>
+              <p class="card-link"><a href={`/classics/${card.slug}/`}>Read article</a></p>
             </article>
           ))}
         </div>

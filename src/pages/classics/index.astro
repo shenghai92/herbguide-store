@@ -60,8 +60,9 @@ import { classicsCards } from "../../data/content";
       <div class="card-grid">
         {classicsCards.map((card) => (
           <article class="card">
-            <h2>{card.title}</h2>
+            <h2><a href={`/classics/${card.slug}/`}>{card.title}</a></h2>
             <p>{card.text}</p>
+            <p class="card-link"><a href={`/classics/${card.slug}/`}>Read article</a></p>
           </article>
         ))}
       </div>
