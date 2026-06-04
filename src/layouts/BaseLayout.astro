@@ -1,6 +1,6 @@
 ---
 import "../styles/global.css";
-import { footerNav, siteConfig, supportOptions, topNav } from "../data/site";
+import { footerNav, siteConfig, topNav } from "../data/site";
 
 interface Props {
   title?: string;
@@ -110,22 +110,6 @@ const schemaGraph = [
         </nav>
       </div>
     </header>
-    <aside class="support-rail" aria-label="Support HerbGuide">
-      <p class="eyebrow">Support HerbGuide</p>
-      <h2>Help keep this site growing</h2>
-      <p>
-        If the herb guides are useful, you can leave a small tip to support research,
-        writing, and site upkeep.
-      </p>
-      <div class="support-actions">
-        {supportOptions.map((option) => (
-          <a class="support-chip" href={option.href} target="_blank" rel="noreferrer">
-            <span>{option.label}</span>
-            <strong>{option.amount}</strong>
-          </a>
-        ))}
-      </div>
-    </aside>
     <main>
       <slot />
     </main>

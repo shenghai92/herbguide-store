@@ -13,19 +13,6 @@ export const siteConfig = {
   socialImage: "/og-default.jpg",
 };
 
-export const supportOptions = [
-  {
-    label: "Light Support",
-    amount: "$4.90",
-    href: "https://www.creem.io/payment/prod_62enhXkEPtQenAbsRaWGws",
-  },
-  {
-    label: "Extra Support",
-    amount: "$9.90",
-    href: "https://www.creem.io/payment/prod_13ox4BOGc0Fk7T9ip3wb86",
-  },
-];
-
 export const topNav = [
   { href: "/herbs/", label: "Herb Library" },
   { href: "/food-therapy/", label: "Food Therapy" },
