@@ -8,6 +8,7 @@ export const siteConfig = {
   description:
     "Friendly, practical guides to Traditional Chinese herbs, food therapy, and classic wellness concepts in clear American English.",
   newsletterTitle: "One practical herb note each week",
+  tagline: "Traditional Chinese herbs and food therapy in clear American English.",
   adsenseClient: "ca-pub-4966684354825438",
   socialImage: "/og-default.jpg",
 };

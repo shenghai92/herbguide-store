@@ -5,19 +5,46 @@ import { footerNav, siteConfig, supportOptions, topNav } from "../data/site";
 interface Props {
   title?: string;
   description?: string;
+  image?: string;
   path?: string;
+  robots?: string;
+  structuredData?: Record<string, unknown> | Array<Record<string, unknown>>;
 }
 
 const {
   title = siteConfig.title,
   description = siteConfig.description,
+  image = new URL(siteConfig.socialImage, siteConfig.url).toString(),
   path = Astro.url.pathname,
+  robots = "index, follow",
+  structuredData,
 } = Astro.props;
 
 const canonical = new URL(path, siteConfig.url).toString();
 const googleToken = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
 const bingToken = import.meta.env.PUBLIC_BING_SITE_VERIFICATION;
 const gaMeasurementId = import.meta.env.PUBLIC_GA_MEASUREMENT_ID || siteConfig.gaMeasurementId;
+const schemaGraph = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: siteConfig.name,
+    url: siteConfig.url,
+    description: siteConfig.description,
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: siteConfig.name,
+    url: siteConfig.url,
+    email: siteConfig.supportEmail,
+  },
+  ...(structuredData
+    ? Array.isArray(structuredData)
+      ? structuredData
+      : [structuredData]
+    : []),
+];
 ---
 
 <!doctype html>
@@ -27,6 +54,7 @@ const gaMeasurementId = import.meta.env.PUBLIC_GA_MEASUREMENT_ID || siteConfig.g
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <meta name="robots" content={robots} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="shortcut icon" href="/favicon.svg" />
     <link rel="canonical" href={canonical} />
@@ -36,7 +64,12 @@ const gaMeasurementId = import.meta.env.PUBLIC_GA_MEASUREMENT_ID || siteConfig.g
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonical} />
     <meta property="og:site_name" content={siteConfig.name} />
+    <meta property="og:image" content={image} />
+    <meta property="og:image:alt" content={siteConfig.tagline} />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={image} />
     {googleToken && <meta name="google-site-verification" content={googleToken} />}
     {bingToken && <meta name="msvalidate.01" content={bingToken} />}
     {gaMeasurementId && (
@@ -53,17 +86,7 @@ const gaMeasurementId = import.meta.env.PUBLIC_GA_MEASUREMENT_ID || siteConfig.g
         />
       </>
     )}
-    <script
-      is:inline
-      type="application/ld+json"
-      set:html={JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        name: siteConfig.name,
-        url: siteConfig.url,
-        description: siteConfig.description,
-      })}
-    />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(schemaGraph)} />
     <script
       async
       src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${siteConfig.adsenseClient}`}
@@ -111,14 +134,15 @@ const gaMeasurementId = import.meta.env.PUBLIC_GA_MEASUREMENT_ID || siteConfig.g
         <div>
           <h2>{siteConfig.name}</h2>
           <p>
-            Chinese herbs and food therapy, explained simply for curious readers
-            who want clarity without hype.
+            Chinese herbs and food therapy, explained simply for curious readers who want
+            clarity without hype.
           </p>
           <p>
             Support: <a href={`mailto:${siteConfig.supportEmail}`}>{siteConfig.supportEmail}</a>
           </p>
           <p class="footer-note">
-            Educational content only. HerbGuide does not diagnose, treat, cure, or prevent disease.
+            Educational content only. HerbGuide does not diagnose, treat, cure, or prevent
+            disease.
           </p>
         </div>
         <div>

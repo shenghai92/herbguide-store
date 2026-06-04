@@ -10,11 +10,56 @@ export function getStaticPaths() {
 }
 
 const { herb } = Astro.props;
+const relatedHerbs = herbs.filter((item) => item.slug !== herb.slug && item.category === herb.category).slice(0, 3);
+const fallbackHerbs = herbs.filter((item) => item.slug !== herb.slug).slice(0, 3);
+const suggestedHerbs = relatedHerbs.length > 0 ? relatedHerbs : fallbackHerbs;
 ---
 
 <BaseLayout
   title={`${herb.name} (${herb.pinyin}) | HerbGuide`}
   description={herb.summary}
+  structuredData={[
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      headline: `${herb.name} (${herb.pinyin})`,
+      description: herb.summary,
+      url: `https://herbguide.store/herbs/${herb.slug}/`,
+      about: ["Traditional Chinese herbs", herb.name, herb.pinyin, herb.latin],
+      author: {
+        "@type": "Organization",
+        name: "HerbGuide",
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "HerbGuide",
+      },
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://herbguide.store/",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Herb Library",
+          item: "https://herbguide.store/herbs/",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: herb.name,
+          item: `https://herbguide.store/herbs/${herb.slug}/`,
+        },
+      ],
+    },
+  ]}
 >
   <section class="page-hero herb-detail-hero">
     <div class="shell herb-detail-grid">
@@ -147,6 +192,14 @@ const { herb } = Astro.props;
           <p class="card-link">
             <a href="/herbs/">Back to Herb Library</a>
           </p>
+        </div>
+        <div class="sidebar-card">
+          <p class="eyebrow">Related herbs</p>
+          <ul class="related-links">
+            {suggestedHerbs.map((item) => (
+              <li><a href={`/herbs/${item.slug}/`}>{item.name}</a></li>
+            ))}
+          </ul>
         </div>
       </aside>
     </div>

@@ -7,6 +7,26 @@ import { herbs } from "../../data/herbs";
 <BaseLayout
   title="Herb Library | HerbGuide"
   description="Browse beginner-friendly Traditional Chinese herb profiles with plain-English summaries and food therapy context."
+  structuredData={[
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: "Herb Library",
+      description:
+        "Browse beginner-friendly Traditional Chinese herb profiles with plain-English summaries and food therapy context.",
+      url: "https://herbguide.store/herbs/",
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      itemListElement: herbs.slice(0, 10).map((herb, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        url: `https://herbguide.store/herbs/${herb.slug}/`,
+        name: herb.name,
+      })),
+    },
+  ]}
 >
   <section class="page-hero">
     <div class="shell narrow">
@@ -35,7 +55,8 @@ import { herbs } from "../../data/herbs";
         <p class="search-note">Start with terms like goji, huang qi, tea, or digestive.</p>
       </div>
       <p class="search-empty" id="search-empty" hidden>
-        No herbs matched that search yet. Try an English name, pinyin, a food use, or a broader term like tea or soup.
+        No herbs matched that search yet. Try an English name, pinyin, a food use, or a
+        broader term like tea or soup.
       </p>
       <div class="card-grid" id="herb-results">
         {herbs.map((herb) => (
@@ -67,11 +88,11 @@ import { herbs } from "../../data/herbs";
         <p class="eyebrow">How to use this library</p>
         <h2>Browse Chinese herbs by name, use, and traditional category</h2>
         <p>
-          This herb library is built for readers who want a beginner-friendly way to explore
-          Chinese herbs without getting lost in untranslated terminology. Each herb page
-          includes the English name, pinyin, Chinese characters, Latin name, traditional
-          nature and flavor, channel entry, food use ideas where appropriate, and a visible
-          safety note.
+          This herb library is built for readers who want a beginner-friendly way to
+          explore Chinese herbs without getting lost in untranslated terminology. Each herb
+          page includes the English name, pinyin, Chinese characters, Latin name,
+          traditional nature and flavor, channel entry, food use ideas where appropriate,
+          and a visible safety note.
         </p>
         <p>
           The easiest way to use the library is to search by the word you already know.

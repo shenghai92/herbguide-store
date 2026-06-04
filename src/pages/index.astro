@@ -5,7 +5,42 @@ import { basicsCards, classicsCards, goalCards, recipeCards } from "../data/cont
 import { featuredHerbs, launchHerbList } from "../data/herbs";
 ---
 
-<BaseLayout>
+<BaseLayout
+  title="Chinese Herbs Explained in English | HerbGuide"
+  description="Explore beginner-friendly Chinese herb profiles, TCM basics, food therapy ideas, and classic Chinese medicine books in clear American English."
+  structuredData={[
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: "Chinese Herbs Explained in English",
+      description:
+        "A practical starting point for Chinese herb profiles, food therapy, TCM basics, and classical reading.",
+      url: "https://herbguide.store/",
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "What is HerbGuide about?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "HerbGuide explains Traditional Chinese herbs, food therapy ideas, and core TCM terms in clear American English for educational reading.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Does HerbGuide give treatment advice?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "No. HerbGuide is an educational site and does not diagnose, treat, cure, or prevent disease.",
+          },
+        },
+      ],
+    },
+  ]}
+>
   <section class="hero">
     <div class="shell hero-grid">
       <div>
@@ -62,7 +97,7 @@ import { featuredHerbs, launchHerbList } from "../data/herbs";
         {featuredHerbs.map((herb) => (
           <article class="card">
             <p class="eyebrow">{herb.pinyin} · {herb.chinese}</p>
-            <h3>{herb.name}</h3>
+            <h3><a href={`/herbs/${herb.slug}/`}>{herb.name}</a></h3>
             <p>{herb.summary}</p>
             <p class="meta-label">TCM nature: {herb.nature}</p>
             <ul class="tag-list">
@@ -70,6 +105,9 @@ import { featuredHerbs, launchHerbList } from "../data/herbs";
                 <li>{use}</li>
               ))}
             </ul>
+            <p class="card-link">
+              <a href={`/herbs/${herb.slug}/`}>Read herb profile</a>
+            </p>
           </article>
         ))}
       </div>
@@ -132,8 +170,8 @@ import { featuredHerbs, launchHerbList } from "../data/herbs";
         <p class="eyebrow">Safety first</p>
         <h2>This site is for education, not treatment advice.</h2>
         <p>
-          HerbGuide shares traditional context, modern research summaries, and
-          food therapy ideas. It does not diagnose, treat, cure, or prevent disease.
+          HerbGuide shares traditional context, modern research summaries, and food therapy
+          ideas. It does not diagnose, treat, cure, or prevent disease.
         </p>
         <a class="button button-secondary" href="/safety/">Read the safety guide</a>
       </aside>
@@ -146,8 +184,8 @@ import { featuredHerbs, launchHerbList } from "../data/herbs";
         <p class="eyebrow">Future growth</p>
         <h2>One practical herb note each week</h2>
         <p>
-          A lightweight newsletter can become the easiest long-term growth loop:
-          one herb, one kitchen use, one TCM term, and one caution note.
+          A lightweight newsletter can become the easiest long-term growth loop: one herb,
+          one kitchen use, one TCM term, and one caution note.
         </p>
       </div>
       <div class="newsletter-note">
@@ -172,6 +210,43 @@ import { featuredHerbs, launchHerbList } from "../data/herbs";
           <span>{herb}</span>
         ))}
       </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell two-up">
+      <article class="prose-block card">
+        <p class="eyebrow">Reader questions</p>
+        <h2>Chinese herb guide FAQ</h2>
+        <h3>What are the easiest Chinese herbs for beginners?</h3>
+        <p>
+          Goji berry, fresh ginger, jujube, chrysanthemum, and black sesame are among the
+          easiest starting points because they connect naturally to tea, soup, and food
+          therapy.
+        </p>
+        <h3>Can I use this site to learn TCM terms in plain English?</h3>
+        <p>
+          Yes. HerbGuide is built to explain pinyin names, channel entry, warming and
+          cooling qualities, and other TCM terms in a more readable style.
+        </p>
+      </article>
+
+      <article class="prose-block card">
+        <p class="eyebrow">Best next clicks</p>
+        <h2>Start with the most searchable pages</h2>
+        <p>
+          If you want popular herbs first, go to
+          <a href="/herbs/goji-berry/"> Goji Berry</a>,
+          <a href="/herbs/fresh-ginger/"> Fresh Ginger</a>, and
+          <a href="/herbs/astragalus-root/"> Astragalus Root</a>.
+        </p>
+        <p>
+          If you want supporting context, continue to
+          <a href="/basics/"> TCM Basics</a>,
+          <a href="/food-therapy/"> Food Therapy</a>, and
+          <a href="/classics/"> Chinese Classics</a>.
+        </p>
+      </article>
     </div>
   </section>
 </BaseLayout>
