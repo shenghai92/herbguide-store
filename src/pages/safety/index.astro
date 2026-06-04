@@ -5,6 +5,38 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 <BaseLayout
   title="Safety | HerbGuide"
   description="Important safety notes, sourcing guidance, and plain-language boundaries for educational herb content."
+  structuredData={[
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      name: "Safety",
+      description:
+        "Important safety notes, sourcing guidance, and plain-language boundaries for educational herb content.",
+      url: "https://herbguide.store/safety/",
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Are kitchen herbs always safe because they are foods?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "No. Food-level use is often gentler, but quantity, concentration, product quality, medications, and personal context still matter.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Does HerbGuide recommend herbs for illness?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "No. HerbGuide explains traditional use, food therapy context, and safety language. It does not diagnose, treat, or replace medical care.",
+          },
+        },
+      ],
+    },
+  ]}
 >
   <section class="page-hero">
     <div class="shell narrow prose-block">
@@ -76,7 +108,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
         <p>
           If discomfort is persistent, severe, worsening, or confusing, readers should not
           rely on blog content alone. The right next step may involve a physician, a
-          pharmacist, or a qualified herbal professional depending on the situation.
+          pharmacist, or another qualified professional depending on the situation.
         </p>
         <p>
           The site can help readers ask better questions. It should not pretend to replace

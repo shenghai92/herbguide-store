@@ -5,6 +5,17 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 <BaseLayout
   title="Privacy Policy | HerbGuide"
   description="Basic privacy policy placeholder for HerbGuide's lightweight Cloudflare Pages launch."
+  robots="noindex, follow"
+  structuredData={[
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      name: "Privacy Policy",
+      description:
+        "Basic privacy policy for HerbGuide's lightweight informational launch.",
+      url: "https://herbguide.store/privacy-policy/",
+    },
+  ]}
 >
   <section class="page-hero">
     <div class="shell narrow prose-block">
@@ -55,16 +66,16 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
           Microsoft Bing Webmaster Tools, and Google advertising technologies to understand
           site performance, indexing, and general traffic behavior. These third-party
           services may collect standard usage information according to their own policies.
+          Users should review those providers' own privacy policies for more detail.
         </p>
       </article>
 
       <article class="prose-block card">
-        <h2>Support payments and third-party checkout</h2>
+        <h2>How this policy may change later</h2>
         <p>
-          If readers choose to support HerbGuide through third-party checkout links, payment
-          processing is handled by the external payment platform, not directly by HerbGuide.
-          Users should review the payment provider's own privacy and security policies before
-          completing a transaction.
+          As the site grows, this page may be updated to reflect expanded analytics,
+          advertising settings, contact workflows, or additional publishing tools. The goal
+          is to keep the policy accurate without making the launch unnecessarily complex.
         </p>
       </article>
     </div>

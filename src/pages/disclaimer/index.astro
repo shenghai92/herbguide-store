@@ -5,6 +5,17 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 <BaseLayout
   title="Disclaimer | HerbGuide"
   description="Educational use disclaimer for HerbGuide's Traditional Chinese herb and food therapy content."
+  robots="noindex, follow"
+  structuredData={[
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      name: "Disclaimer",
+      description:
+        "Educational use disclaimer for HerbGuide's Traditional Chinese herb and food therapy content.",
+      url: "https://herbguide.store/disclaimer/",
+    },
+  ]}
 >
   <section class="page-hero">
     <div class="shell narrow prose-block">

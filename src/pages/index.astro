@@ -7,14 +7,14 @@ import { featuredHerbs, launchHerbList } from "../data/herbs";
 
 <BaseLayout
   title="Chinese Herbs Explained in English | HerbGuide"
-  description="Explore beginner-friendly Chinese herb profiles, TCM basics, food therapy ideas, and classic Chinese medicine books in clear American English."
+  description="Explore beginner-friendly Chinese herb profiles, TCM basics, Chinese food traditions, and classic Chinese medicine books in clear American English."
   structuredData={[
     {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
       name: "Chinese Herbs Explained in English",
       description:
-        "A practical starting point for Chinese herb profiles, food therapy, TCM basics, and classical reading.",
+        "A practical starting point for Chinese herb profiles, TCM basics, Chinese food traditions, and classical reading.",
       url: "https://herbguide.store/",
     },
     {
@@ -26,7 +26,7 @@ import { featuredHerbs, launchHerbList } from "../data/herbs";
           name: "What is HerbGuide about?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "HerbGuide explains Traditional Chinese herbs, food therapy ideas, and core TCM terms in clear American English for educational reading.",
+            text: "HerbGuide explains Traditional Chinese herbs, food traditions, and core TCM terms in clear American English for educational reading.",
           },
         },
         {
@@ -37,6 +37,22 @@ import { featuredHerbs, launchHerbList } from "../data/herbs";
             text: "No. HerbGuide is an educational site and does not diagnose, treat, cure, or prevent disease.",
           },
         },
+        {
+          "@type": "Question",
+          name: "What are the easiest Chinese herbs for beginners?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Goji berry, fresh ginger, jujube, chrysanthemum, and black sesame are among the easiest starting points because they connect naturally to tea, soup, and food traditions.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Can I use this site to learn TCM terms in plain English?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. HerbGuide is built to explain pinyin names, channel entry, warming and cooling qualities, and other TCM terms in a more readable style.",
+          },
+        },
       ],
     },
   ]}
@@ -45,10 +61,10 @@ import { featuredHerbs, launchHerbList } from "../data/herbs";
     <div class="shell hero-grid">
       <div>
         <p class="eyebrow">Friendly and practical TCM learning</p>
-        <h1>Traditional Chinese herbs, explained clearly for modern everyday wellness.</h1>
+        <h1>Traditional Chinese herbs, explained clearly for modern readers.</h1>
         <p class="hero-copy">
-          Explore herb profiles, beginner-friendly TCM concepts, and practical food
-          therapy ideas rooted in Chinese tradition and written in clear American English.
+          Explore herb profiles, beginner-friendly TCM concepts, and practical Chinese food
+          traditions written in clear American English.
         </p>
         <div class="hero-actions">
           <a class="button button-primary" href="/herbs/">Start with the Herb Library</a>
@@ -65,7 +81,7 @@ import { featuredHerbs, launchHerbList } from "../data/herbs";
         <ul class="tag-list">
           <li>tea</li>
           <li>broths</li>
-          <li>daily wellness</li>
+          <li>daily use</li>
         </ul>
       </aside>
     </div>
@@ -75,8 +91,8 @@ import { featuredHerbs, launchHerbList } from "../data/herbs";
     <div class="shell">
       <SectionIntro
         eyebrow="Start with familiar needs"
-        title="Browse by everyday goal"
-        text="We organize TCM content around recognizable wellness themes so new readers have an easy starting point."
+        title="Browse by everyday topic"
+        text="We organize TCM content around recognizable themes so new readers have an easy starting point."
       />
       <div class="pill-grid">
         {goalCards.map((goal) => (
@@ -119,7 +135,7 @@ import { featuredHerbs, launchHerbList } from "../data/herbs";
       <div>
         <SectionIntro
           eyebrow="Kitchen-first content"
-          title="Food therapy picks"
+          title="Food tradition picks"
           text="Simple soups, teas, pantry guides, and gentle routines help the site feel practical instead of abstract."
         />
         <div class="stack">
@@ -170,8 +186,8 @@ import { featuredHerbs, launchHerbList } from "../data/herbs";
         <p class="eyebrow">Safety first</p>
         <h2>This site is for education, not treatment advice.</h2>
         <p>
-          HerbGuide shares traditional context, modern research summaries, and food therapy
-          ideas. It does not diagnose, treat, cure, or prevent disease.
+          HerbGuide shares traditional context, research summaries, and food culture ideas.
+          It does not diagnose, treat, cure, or prevent disease.
         </p>
         <a class="button button-secondary" href="/safety/">Read the safety guide</a>
       </aside>
@@ -222,7 +238,7 @@ import { featuredHerbs, launchHerbList } from "../data/herbs";
         <p>
           Goji berry, fresh ginger, jujube, chrysanthemum, and black sesame are among the
           easiest starting points because they connect naturally to tea, soup, and food
-          therapy.
+          traditions.
         </p>
         <h3>Can I use this site to learn TCM terms in plain English?</h3>
         <p>

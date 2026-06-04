@@ -6,14 +6,14 @@ import { herbs } from "../../data/herbs";
 
 <BaseLayout
   title="Herb Library | HerbGuide"
-  description="Browse beginner-friendly Traditional Chinese herb profiles with plain-English summaries and food therapy context."
+  description="Browse beginner-friendly Traditional Chinese herb profiles with plain-English summaries and food tradition context."
   structuredData={[
     {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
       name: "Herb Library",
       description:
-        "Browse beginner-friendly Traditional Chinese herb profiles with plain-English summaries and food therapy context.",
+        "Browse beginner-friendly Traditional Chinese herb profiles with plain-English summaries and food tradition context.",
       url: "https://herbguide.store/herbs/",
     },
     {
@@ -25,6 +25,36 @@ import { herbs } from "../../data/herbs";
         url: `https://herbguide.store/herbs/${herb.slug}/`,
         name: herb.name,
       })),
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Can I search by Chinese name or pinyin?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. The Herb Library search is designed to work with English names, pinyin, Chinese characters, tags, and common food uses.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Which herbs are best for beginners?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Goji berry, fresh ginger, jujube, chrysanthemum, black sesame, and lotus seed are among the easiest herbs to understand because they sit close to everyday food use.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Are all herbs here meant for self-use?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "No. Some pages are food-friendly and beginner-oriented, while others are included for educational depth and should be read more cautiously.",
+          },
+        },
+      ],
     },
   ]}
 >
@@ -98,7 +128,7 @@ import { herbs } from "../../data/herbs";
           The easiest way to use the library is to search by the word you already know.
           Some readers search by English name such as goji berry or ginseng. Others search
           by pinyin such as Huang Qi, Dang Shen, or Bai He. Many also search by broad goals
-          like digestive, tea, soup, warming, cooling, or food therapy.
+          like digestive, tea, soup, warming, cooling, or food tradition.
         </p>
       </article>
 

@@ -5,6 +5,17 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 <BaseLayout
   title="Editorial Policy | HerbGuide"
   description="Editorial principles for HerbGuide's educational content about Chinese herbs, classics, and food therapy."
+  robots="noindex, follow"
+  structuredData={[
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      name: "Editorial Policy",
+      description:
+        "Editorial principles for HerbGuide's educational content about Chinese herbs, classics, and food therapy.",
+      url: "https://herbguide.store/editorial-policy/",
+    },
+  ]}
 >
   <section class="page-hero">
     <div class="shell narrow prose-block">

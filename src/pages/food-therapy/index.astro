@@ -7,6 +7,38 @@ import { recipeCards } from "../../data/content";
 <BaseLayout
   title="Food Therapy | HerbGuide"
   description="Practical Chinese food therapy ideas with simple soups, teas, pantry basics, and beginner-friendly routines."
+  structuredData={[
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: "Food Therapy",
+      description:
+        "Practical Chinese food therapy ideas with simple soups, teas, pantry basics, and beginner-friendly routines.",
+      url: "https://herbguide.store/food-therapy/",
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Is Chinese food therapy the same as taking herbs like medicine?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Not necessarily. Food therapy usually begins with ingredient-level use such as soups, teas, porridges, and seasonal cooking.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What are the easiest Chinese food therapy ingredients to start with?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Ginger, jujube, goji berry, chrysanthemum, mint, black sesame, lotus seed, and pear are among the easiest beginner-friendly ingredients.",
+          },
+        },
+      ],
+    },
+  ]}
 >
   <section class="page-hero">
     <div class="shell narrow">

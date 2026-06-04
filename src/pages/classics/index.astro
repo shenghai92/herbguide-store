@@ -7,6 +7,38 @@ import { classicsCards } from "../../data/content";
 <BaseLayout
   title="Chinese Classics | HerbGuide"
   description="Introductory guides to the major Chinese medical classics that shape herb and food therapy traditions."
+  structuredData={[
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: "Chinese Classics",
+      description:
+        "Introductory guides to the major Chinese medical classics that shape herb and food therapy traditions.",
+      url: "https://herbguide.store/classics/",
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Do I need to read these books to understand Chinese herbs?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "No. Most readers only need a clear introduction to what these works are and why their language still influences modern herb writing.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Why does a food therapy site need classical context?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "The classics help explain where seasonal thinking, ingredient pairing, and herb categories come from in Chinese medicine.",
+          },
+        },
+      ],
+    },
+  ]}
 >
   <section class="page-hero">
     <div class="shell narrow">

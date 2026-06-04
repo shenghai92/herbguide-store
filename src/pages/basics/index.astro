@@ -7,6 +7,46 @@ import { basicsCards } from "../../data/content";
 <BaseLayout
   title="TCM Basics | HerbGuide"
   description="Learn core Traditional Chinese Medicine ideas in clear, careful English without overpromising or overcomplicating."
+  structuredData={[
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: "TCM Basics",
+      description:
+        "Plain-English introductions to core Traditional Chinese Medicine terms and concepts for general educational reading.",
+      url: "https://herbguide.store/basics/",
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Is qi a scientific term?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "No. On HerbGuide, qi is explained as a traditional concept inside Chinese medicine, usually translated into plain English ideas like function, activity, resilience, or vitality.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Does dampness mean water retention?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Not exactly. Dampness is a broader traditional pattern term used inside Chinese medicine, and it should not be reduced to one modern medical label.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Why do Chinese herb pages list channels?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Channel entry helps show how a herb is categorized in TCM theory. It gives readers context for traditional usage, even though it does not map directly to anatomy.",
+          },
+        },
+      ],
+    },
+  ]}
 >
   <section class="page-hero">
     <div class="shell narrow">
@@ -50,8 +90,8 @@ import { basicsCards } from "../../data/content";
         <p>
           On HerbGuide, we treat TCM as a cultural and educational framework. We explain
           how a traditional herb is described, where that language comes from, and how food
-          therapy is commonly discussed in Chinese tradition. We do not present those ideas
-          as personalized treatment instructions.
+          traditions are commonly discussed in Chinese culture. We do not present those
+          ideas as personal instructions or health promises.
         </p>
       </article>
 
@@ -79,16 +119,16 @@ import { basicsCards } from "../../data/content";
       <article class="prose-block list-card">
         <h2>What does qi mean in Traditional Chinese Medicine?</h2>
         <p>
-          <strong>Qi</strong> is one of the first Chinese medicine words many readers encounter, and it is
-          also one of the easiest to misunderstand. A practical translation is
-          <em>functional vitality</em> or the body's capacity to do what it needs to do:
-          warm, move, transform, protect, and recover.
+          <strong>Qi</strong> is one of the first Chinese medicine words many readers
+          encounter, and it is also one of the easiest to misunderstand. A practical
+          translation is <em>functional vitality</em> or the body's capacity to do what it
+          needs to do: warm, move, transform, protect, and recover.
         </p>
         <p>
           When TCM writing says a herb may support qi, the site will usually translate that
-          into everyday language such as stamina, appetite, recovery, resilience, or general
-          strength, while still making it clear that this is traditional language rather
-          than a medical claim.
+          into everyday language such as stamina, appetite, recovery, resilience, or
+          general strength, while still making it clear that this is traditional language
+          rather than a medical claim.
         </p>
       </article>
 
@@ -102,7 +142,7 @@ import { basicsCards } from "../../data/content";
         </p>
         <p>
           This is why ginger, chrysanthemum, mint, and pear often get discussed so
-          differently in Chinese food therapy. HerbGuide will keep translating these labels
+          differently in Chinese food traditions. HerbGuide keeps translating these labels
           into simple, practical language instead of assuming the reader already knows the
           system.
         </p>
@@ -115,15 +155,15 @@ import { basicsCards } from "../../data/content";
       <article class="prose-block list-card">
         <h2>What does dampness mean in Chinese medicine?</h2>
         <p>
-          <strong>Dampness</strong> is a classic example of a TCM term that sounds strange in English.
-          It does not literally mean the body is wet. In plain English, it often points to
-          patterns of heaviness, stickiness, cloudiness, sluggish digestion, or a sense that
-          things are not transforming smoothly.
+          <strong>Dampness</strong> is a classic example of a TCM term that sounds strange
+          in English. It does not literally mean the body is wet. In plain English, it
+          often points to patterns of heaviness, stickiness, cloudiness, sluggish
+          digestion, or a sense that things are not transforming smoothly.
         </p>
         <p>
           That is why grains, soups, aromatic peels, and certain lighter foods often appear
-          in traditional discussions of dampness. The site will keep that language general
-          and educational rather than turning it into treatment advice.
+          in traditional discussions of dampness. The site keeps that language general and
+          educational rather than turning it into personal guidance.
         </p>
       </article>
 
@@ -135,10 +175,11 @@ import { basicsCards } from "../../data/content";
           organ names often represent broader functional networks.
         </p>
         <p>
-          For example, the TCM <strong>Spleen</strong> system has a lot to do with transformation of food,
-          fluids, and daily nourishment. The TCM <strong>Liver</strong> system often appears in discussions
-          of flow, tension, and stored blood. HerbGuide will explain these terms directly on
-          herb pages so readers are not left guessing.
+          For example, the TCM <strong>Spleen</strong> system has a lot to do with
+          transformation of food, fluids, and daily nourishment. The TCM
+          <strong>Liver</strong> system often appears in discussions of flow, tension, and
+          stored blood. HerbGuide explains these terms directly on herb pages so readers are
+          not left guessing.
         </p>
       </article>
     </div>
@@ -157,7 +198,8 @@ import { basicsCards } from "../../data/content";
         </p>
         <p>
           That search intent matches the real purpose of HerbGuide: help readers understand
-          the language first so they can read herb and food therapy content more confidently.
+          the language first so they can read herb and food tradition content more
+          confidently.
         </p>
       </article>
 
@@ -181,9 +223,9 @@ import { basicsCards } from "../../data/content";
         <h2>TCM basics FAQ</h2>
         <h3>Is qi a scientific term?</h3>
         <p>
-          No. On HerbGuide, qi is explained as a traditional concept inside Chinese medicine,
-          usually translated into plain English ideas like function, activity, resilience, or
-          vitality.
+          No. On HerbGuide, qi is explained as a traditional concept inside Chinese
+          medicine, usually translated into plain English ideas like function, activity,
+          resilience, or vitality.
         </p>
         <h3>Does dampness mean water retention?</h3>
         <p>
@@ -193,8 +235,9 @@ import { basicsCards } from "../../data/content";
         </p>
         <h3>Why do Chinese herb pages list channels?</h3>
         <p>
-          Channel entry helps show how a herb is categorized in TCM theory. It gives readers
-          context for traditional usage, even though it does not map directly to anatomy.
+          Channel entry helps show how a herb is categorized in TCM theory. It gives
+          readers context for traditional usage, even though it does not map directly to
+          anatomy.
         </p>
       </article>
 
