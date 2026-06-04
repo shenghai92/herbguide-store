@@ -32,8 +32,11 @@ import { herbs } from "../../data/herbs";
           type="search"
           placeholder="Search by English name, pinyin, Chinese name, tag, or use"
         />
-        <p class="search-note">Start with terms like `goji`, `huang qi`, `tea`, or `digestive`.</p>
+        <p class="search-note">Start with terms like goji, huang qi, tea, or digestive.</p>
       </div>
+      <p class="search-empty" id="search-empty" hidden>
+        No herbs matched that search yet. Try an English name, pinyin, a food use, or a broader term like tea or soup.
+      </p>
       <div class="card-grid" id="herb-results">
         {herbs.map((herb) => (
           <article
@@ -141,15 +144,27 @@ import { herbs } from "../../data/herbs";
   <script is:inline>
     const searchInput = document.querySelector("#herb-search");
     const herbCards = Array.from(document.querySelectorAll(".herb-card"));
+    const emptyState = document.querySelector("#search-empty");
 
     if (searchInput && herbCards.length > 0) {
       searchInput.addEventListener("input", (event) => {
         const value = event.target.value.trim().toLowerCase();
 
+        let visibleCount = 0;
+
         herbCards.forEach((card) => {
           const haystack = card.dataset.search ?? "";
-          card.style.display = haystack.includes(value) ? "" : "none";
+          const isMatch = haystack.includes(value);
+          card.style.display = isMatch ? "" : "none";
+
+          if (isMatch) {
+            visibleCount += 1;
+          }
         });
+
+        if (emptyState) {
+          emptyState.hidden = visibleCount > 0;
+        }
       });
     }
   </script>

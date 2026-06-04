@@ -268,7 +268,7 @@ main {
 }
 
 .hero-actions,
-.newsletter-form {
+.newsletter-note {
   display: flex;
   flex-wrap: wrap;
   gap: 0.85rem;
@@ -342,6 +342,16 @@ main {
 
 .search-note {
   margin: 0.75rem 0 0;
+}
+
+.search-empty {
+  margin: 0 0 1.2rem;
+  padding: 1rem 1.15rem;
+  border-radius: 18px;
+  border: 1px dashed rgba(93, 115, 88, 0.35);
+  background: rgba(255, 250, 243, 0.78);
+  color: var(--muted);
+  font-family: "Segoe UI", Arial, sans-serif;
 }
 
 .pill-grid,
@@ -418,15 +428,12 @@ main {
   align-items: center;
 }
 
-.newsletter-form input {
-  flex: 1;
-  min-width: 15rem;
-  min-height: 2.9rem;
-  padding: 0.8rem 1rem;
-  border-radius: 999px;
-  border: 1px solid var(--line);
-  background: rgba(255, 250, 243, 0.9);
-  font: inherit;
+.newsletter-note {
+  align-items: flex-start;
+}
+
+.newsletter-note p {
+  margin: 0;
 }
 
 .prose-block ul {
