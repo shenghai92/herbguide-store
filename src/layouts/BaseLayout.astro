@@ -17,6 +17,7 @@ const {
 const canonical = new URL(path, siteConfig.url).toString();
 const googleToken = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
 const bingToken = import.meta.env.PUBLIC_BING_SITE_VERIFICATION;
+const gaMeasurementId = import.meta.env.PUBLIC_GA_MEASUREMENT_ID || siteConfig.gaMeasurementId;
 ---
 
 <!doctype html>
@@ -38,6 +39,20 @@ const bingToken = import.meta.env.PUBLIC_BING_SITE_VERIFICATION;
     <meta name="twitter:card" content="summary_large_image" />
     {googleToken && <meta name="google-site-verification" content={googleToken} />}
     {bingToken && <meta name="msvalidate.01" content={bingToken} />}
+    {gaMeasurementId && (
+      <>
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${gaMeasurementId}`}></script>
+        <script
+          is:inline
+          set:html={`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${gaMeasurementId}');
+          `}
+        />
+      </>
+    )}
     <script
       is:inline
       type="application/ld+json"

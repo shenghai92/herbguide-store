@@ -3,6 +3,7 @@ export const siteConfig = {
   domain: "herbguide.store",
   url: "https://herbguide.store",
   supportEmail: "support@herbguide.store",
+  gaMeasurementId: "G-4RCT0E2PL5",
   title: "HerbGuide | Traditional Chinese herbs explained clearly",
   description:
     "Friendly, practical guides to Traditional Chinese herbs, food therapy, and classic wellness concepts in clear American English.",
