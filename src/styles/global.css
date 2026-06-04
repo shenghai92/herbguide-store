@@ -1,0 +1,483 @@
+:root {
+  --bg: #f6f0e6;
+  --bg-alt: #efe6d7;
+  --panel: rgba(255, 250, 243, 0.8);
+  --paper: #fffaf3;
+  --text: #2b241d;
+  --muted: #65584c;
+  --line: rgba(83, 68, 55, 0.18);
+  --accent: #5d7358;
+  --accent-dark: #324d34;
+  --warm: #9b6048;
+  --shadow: 0 16px 48px rgba(58, 37, 23, 0.08);
+  --radius: 24px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Georgia, "Times New Roman", serif;
+  background:
+    radial-gradient(circle at top left, rgba(93, 115, 88, 0.12), transparent 32%),
+    linear-gradient(180deg, #fbf7f0 0%, var(--bg) 100%);
+  color: var(--text);
+}
+
+body {
+  margin: 0;
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.shell {
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto;
+}
+
+.narrow {
+  width: min(760px, 100%);
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  backdrop-filter: blur(12px);
+  background: rgba(251, 247, 240, 0.8);
+  border-bottom: 1px solid var(--line);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.brand strong,
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.brand small {
+  display: block;
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.brand-mark {
+  display: inline-grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #6f8968, var(--accent-dark));
+  color: #f8f2eb;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 1rem;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 0.95rem;
+}
+
+.main-nav a {
+  color: var(--muted);
+}
+
+.main-nav a:hover,
+.brand:hover,
+.site-footer a:hover {
+  color: var(--accent-dark);
+}
+
+.hero,
+.page-hero {
+  padding: 4.5rem 0 3rem;
+}
+
+.herb-detail-hero {
+  padding-bottom: 2rem;
+}
+
+.hero-grid,
+.two-up,
+.footer-grid,
+.herb-detail-grid,
+.herb-body-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.hero-grid {
+  grid-template-columns: 1.45fr 0.9fr;
+  align-items: center;
+}
+
+.herb-detail-grid {
+  grid-template-columns: 1.2fr 0.8fr;
+  align-items: start;
+}
+
+.herb-body-grid {
+  grid-template-columns: 1.2fr 0.7fr;
+  align-items: start;
+}
+
+.hero h1,
+.page-hero h1 {
+  font-size: clamp(2.8rem, 6vw, 5.1rem);
+  margin: 0.35rem 0 1rem;
+  max-width: 11ch;
+}
+
+.hero-copy,
+.detail-subtitle,
+.page-hero p,
+.section-intro p,
+.card p,
+.list-card p,
+.info-panel p,
+.newsletter-panel p,
+.prose-block p,
+.prose-block li,
+.site-footer p,
+.site-footer li {
+  color: var(--muted);
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 1rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.5rem;
+  color: var(--warm);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.hero-card,
+.card,
+.list-card,
+.info-panel,
+.newsletter-panel,
+.search-panel,
+.sidebar-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.hero-card {
+  padding: 2rem;
+}
+
+.hero-actions,
+.newsletter-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  margin-top: 1.5rem;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.9rem;
+  padding: 0.8rem 1.2rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 600;
+}
+
+.button-primary {
+  background: var(--accent-dark);
+  color: #f8f2eb;
+}
+
+.button-secondary {
+  background: transparent;
+  border-color: var(--line);
+  color: var(--text);
+}
+
+.section {
+  padding: 1.5rem 0 4rem;
+}
+
+.section-alt {
+  background: linear-gradient(180deg, rgba(239, 230, 215, 0.5), rgba(239, 230, 215, 0));
+}
+
+.section-intro {
+  max-width: 42rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-intro h2,
+.hero-card h2,
+.info-panel h2,
+.newsletter-panel h2,
+.card h2,
+.card h3,
+.list-card h2,
+.list-card h3,
+.site-footer h2,
+.site-footer h3 {
+  margin: 0 0 0.75rem;
+  font-size: clamp(1.5rem, 2.5vw, 2.2rem);
+}
+
+.search-panel {
+  padding: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.search-panel input {
+  width: 100%;
+  min-height: 3.2rem;
+  padding: 0.9rem 1rem;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  background: rgba(255, 250, 243, 0.95);
+  font: inherit;
+}
+
+.search-note {
+  margin: 0.75rem 0 0;
+}
+
+.pill-grid,
+.card-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.pill-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.pill-card,
+.launch-list span {
+  display: block;
+  padding: 1rem 1.15rem;
+  border-radius: 999px;
+  background: rgba(255, 250, 243, 0.7);
+  border: 1px solid var(--line);
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 600;
+}
+
+.card-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.card,
+.list-card,
+.info-panel {
+  padding: 1.5rem;
+}
+
+.stack {
+  display: grid;
+  gap: 1rem;
+}
+
+.two-up {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+}
+
+.meta-label {
+  font-size: 0.9rem;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: var(--accent-dark);
+}
+
+.tag-list,
+.launch-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  padding: 0;
+  margin: 1rem 0 0;
+  list-style: none;
+}
+
+.tag-list li {
+  padding: 0.42rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(93, 115, 88, 0.1);
+  color: var(--accent-dark);
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 0.88rem;
+}
+
+.newsletter-panel {
+  padding: 1.75rem;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.newsletter-form input {
+  flex: 1;
+  min-width: 15rem;
+  min-height: 2.9rem;
+  padding: 0.8rem 1rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255, 250, 243, 0.9);
+  font: inherit;
+}
+
+.prose-block ul {
+  margin: 1rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.site-footer {
+  padding: 3rem 0;
+  border-top: 1px solid var(--line);
+  background: rgba(255, 250, 243, 0.5);
+}
+
+.footer-grid {
+  grid-template-columns: 1.4fr 0.8fr 0.8fr;
+}
+
+.site-footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.card-link {
+  margin-top: 1rem;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 600;
+}
+
+.card-link a {
+  color: var(--accent-dark);
+}
+
+.facts-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 0;
+}
+
+.facts-grid dt {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 0.82rem;
+  color: var(--warm);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+}
+
+.facts-grid dd {
+  margin: 0.35rem 0 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: var(--text);
+}
+
+.detail-section + .detail-section {
+  margin-top: 2rem;
+}
+
+.detail-section h2 {
+  margin-bottom: 0.75rem;
+}
+
+.detail-sidebar {
+  display: grid;
+  gap: 1rem;
+}
+
+.sidebar-card {
+  padding: 1.3rem;
+}
+
+.caution-section {
+  padding: 1.3rem;
+  background: rgba(155, 96, 72, 0.08);
+  border: 1px solid rgba(155, 96, 72, 0.2);
+  border-radius: 20px;
+}
+
+@media (max-width: 900px) {
+  .hero-grid,
+  .two-up,
+  .newsletter-panel,
+  .footer-grid,
+  .pill-grid,
+  .card-grid,
+  .herb-detail-grid,
+  .herb-body-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .header-inner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .main-nav {
+    justify-content: flex-start;
+  }
+
+  .hero h1,
+  .page-hero h1 {
+    max-width: none;
+  }
+}

@@ -1,0 +1,38 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import SectionIntro from "../../components/SectionIntro.astro";
+import { recipeCards } from "../../data/content";
+---
+
+<BaseLayout
+  title="Food Therapy | HerbGuide"
+  description="Practical Chinese food therapy ideas with simple soups, teas, pantry basics, and beginner-friendly routines."
+>
+  <section class="page-hero">
+    <div class="shell narrow">
+      <p class="eyebrow">Food Therapy</p>
+      <h1>Simple recipes and gentle routines</h1>
+      <p>
+        This section keeps TCM practical through soups, teas, pantry guides, and seasonal
+        kitchen ideas that are easier to try than dense theory.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell">
+      <SectionIntro
+        title="Starter topics"
+        text="The launch site focuses on beginner-friendly recipe content with familiar ingredients and careful safety language."
+      />
+      <div class="stack">
+        {recipeCards.map((card) => (
+          <article class="list-card">
+            <h2>{card.title}</h2>
+            <p>{card.text}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

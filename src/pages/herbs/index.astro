@@ -1,0 +1,76 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import SectionIntro from "../../components/SectionIntro.astro";
+import { herbs } from "../../data/herbs";
+---
+
+<BaseLayout
+  title="Herb Library | HerbGuide"
+  description="Browse beginner-friendly Traditional Chinese herb profiles with plain-English summaries and food therapy context."
+>
+  <section class="page-hero">
+    <div class="shell narrow">
+      <p class="eyebrow">Herb Library</p>
+      <h1>Beginner-friendly herb profiles</h1>
+      <p>
+        Every herb has its own dedicated page. Use the library search to jump directly to
+        the herb a reader wants instead of making them scroll through an oversized list.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell">
+      <SectionIntro
+        title="Search the herb library"
+        text="This first version keeps search simple and fast with client-side filtering. That gives readers direct access to each herb page without needing a database or external search service."
+      />
+      <div class="search-panel">
+        <label class="sr-only" for="herb-search">Search herbs</label>
+        <input
+          id="herb-search"
+          type="search"
+          placeholder="Search by English name, pinyin, Chinese name, tag, or use"
+        />
+        <p class="search-note">Start with terms like `goji`, `huang qi`, `tea`, or `digestive`.</p>
+      </div>
+      <div class="card-grid" id="herb-results">
+        {herbs.map((herb) => (
+          <article
+            class="card herb-card"
+            data-search={`${herb.name} ${herb.pinyin} ${herb.chinese} ${herb.summary} ${herb.tags.join(" ")} ${herb.foodUses.join(" ")}`.toLowerCase()}
+          >
+            <p class="eyebrow">{herb.pinyin} · {herb.chinese}</p>
+            <h2><a href={`/herbs/${herb.slug}/`}>{herb.name}</a></h2>
+            <p>{herb.summary}</p>
+            <p class="meta-label">Category: {herb.category}</p>
+            <ul class="tag-list">
+              {herb.tags.slice(0, 4).map((tag) => (
+                <li>{tag}</li>
+              ))}
+            </ul>
+            <p class="card-link">
+              <a href={`/herbs/${herb.slug}/`}>Open herb page</a>
+            </p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <script is:inline>
+    const searchInput = document.querySelector("#herb-search");
+    const herbCards = Array.from(document.querySelectorAll(".herb-card"));
+
+    if (searchInput && herbCards.length > 0) {
+      searchInput.addEventListener("input", (event) => {
+        const value = event.target.value.trim().toLowerCase();
+
+        herbCards.forEach((card) => {
+          const haystack = card.dataset.search ?? "";
+          card.style.display = haystack.includes(value) ? "" : "none";
+        });
+      });
+    }
+  </script>
+</BaseLayout>

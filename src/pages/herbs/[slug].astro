@@ -1,0 +1,130 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { herbs } from "../../data/herbs";
+
+export function getStaticPaths() {
+  return herbs.map((herb) => ({
+    params: { slug: herb.slug },
+    props: { herb },
+  }));
+}
+
+const { herb } = Astro.props;
+---
+
+<BaseLayout
+  title={`${herb.name} (${herb.pinyin}) | HerbGuide`}
+  description={herb.summary}
+>
+  <section class="page-hero herb-detail-hero">
+    <div class="shell herb-detail-grid">
+      <div>
+        <p class="eyebrow">{herb.category}</p>
+        <h1>{herb.name}</h1>
+        <p class="detail-subtitle">
+          {herb.pinyin} · {herb.chinese} · {herb.latin}
+        </p>
+        <p>{herb.summary}</p>
+      </div>
+      <aside class="info-panel">
+        <p class="eyebrow">Quick facts</p>
+        <dl class="facts-grid">
+          <div>
+            <dt>Part used</dt>
+            <dd>{herb.partUsed}</dd>
+          </div>
+          <div>
+            <dt>Nature</dt>
+            <dd>{herb.nature}</dd>
+          </div>
+          <div>
+            <dt>Flavor</dt>
+            <dd>{herb.flavor}</dd>
+          </div>
+          <div>
+            <dt>Channel entry</dt>
+            <dd>{herb.channels}</dd>
+          </div>
+        </dl>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell herb-body-grid">
+      <article class="prose-block">
+        <section class="detail-section">
+          <h2>What this herb is</h2>
+          <p>{herb.whatItIs}</p>
+        </section>
+
+        <section class="detail-section">
+          <h2>How TCM describes it</h2>
+          <p>
+            In TCM language, <strong>nature</strong> describes whether a herb is warming,
+            cooling, neutral, and so on. <strong>Flavor</strong> refers to a traditional
+            framework such as sweet, bitter, pungent, sour, or salty, each with its own
+            functional associations.
+          </p>
+          <ul>
+            <li><strong>Nature:</strong> {herb.nature}</li>
+            <li><strong>Flavor:</strong> {herb.flavor}</li>
+            <li><strong>Traditionally associated with:</strong> {herb.channels}</li>
+          </ul>
+        </section>
+
+        <section class="detail-section">
+          <h2>Traditional uses in plain English</h2>
+          <ul>
+            {herb.traditionalUses.map((item) => (
+              <li>{item}</li>
+            ))}
+          </ul>
+        </section>
+
+        <section class="detail-section">
+          <h2>Common food therapy uses</h2>
+          <p>
+            This site focuses on practical, kitchen-adjacent learning whenever possible.
+            For {herb.name}, the most approachable formats are:
+          </p>
+          <ul>
+            {herb.foodUses.map((item) => (
+              <li>{item}</li>
+            ))}
+          </ul>
+        </section>
+
+        <section class="detail-section caution-section">
+          <h2>Safety note</h2>
+          <p>{herb.caution}</p>
+          <p>
+            HerbGuide is an educational resource. This page does not provide diagnosis,
+            treatment advice, or a recommendation that this herb is right for any specific person.
+          </p>
+        </section>
+      </article>
+
+      <aside class="detail-sidebar">
+        <div class="sidebar-card">
+          <p class="eyebrow">Tags</p>
+          <ul class="tag-list">
+            {herb.tags.map((tag) => (
+              <li>{tag}</li>
+            ))}
+          </ul>
+        </div>
+        <div class="sidebar-card">
+          <p class="eyebrow">Keep exploring</p>
+          <p>
+            Use the full library if you want to compare this herb with other foods, roots,
+            flowers, and pantry-style ingredients.
+          </p>
+          <p class="card-link">
+            <a href="/herbs/">Back to Herb Library</a>
+          </p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,104 @@
+---
+import "../styles/global.css";
+import { footerNav, siteConfig, topNav } from "../data/site";
+
+interface Props {
+  title?: string;
+  description?: string;
+  path?: string;
+}
+
+const {
+  title = siteConfig.title,
+  description = siteConfig.description,
+  path = Astro.url.pathname,
+} = Astro.props;
+
+const canonical = new URL(path, siteConfig.url).toString();
+const googleToken = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
+const bingToken = import.meta.env.PUBLIC_BING_SITE_VERIFICATION;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta name="generator" content={Astro.generator} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content={siteConfig.name} />
+    <meta name="twitter:card" content="summary_large_image" />
+    {googleToken && <meta name="google-site-verification" content={googleToken} />}
+    {bingToken && <meta name="msvalidate.01" content={bingToken} />}
+    <script
+      is:inline
+      type="application/ld+json"
+      set:html={JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        name: siteConfig.name,
+        url: siteConfig.url,
+        description: siteConfig.description,
+      })}
+    />
+    <script
+      async
+      src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${siteConfig.adsenseClient}`}
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="/">
+          <span class="brand-mark">HG</span>
+          <span>
+            <strong>{siteConfig.name}</strong>
+            <small>{siteConfig.domain}</small>
+          </span>
+        </a>
+        <nav class="main-nav" aria-label="Primary">
+          {topNav.map((item) => (
+            <a href={item.href}>{item.label}</a>
+          ))}
+        </nav>
+      </div>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div>
+          <h2>{siteConfig.name}</h2>
+          <p>
+            Chinese herbs and food therapy, explained simply for curious readers
+            who want clarity without hype.
+          </p>
+        </div>
+        <div>
+          <h3>Explore</h3>
+          <ul>
+            {topNav.map((item) => (
+              <li><a href={item.href}>{item.label}</a></li>
+            ))}
+          </ul>
+        </div>
+        <div>
+          <h3>Trust</h3>
+          <ul>
+            {footerNav.map((item) => (
+              <li><a href={item.href}>{item.label}</a></li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

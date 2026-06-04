@@ -1,0 +1,38 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import SectionIntro from "../../components/SectionIntro.astro";
+import { classicsCards } from "../../data/content";
+---
+
+<BaseLayout
+  title="Chinese Classics | HerbGuide"
+  description="Introductory guides to the major Chinese medical classics that shape herb and food therapy traditions."
+>
+  <section class="page-hero">
+    <div class="shell narrow">
+      <p class="eyebrow">Chinese Classics</p>
+      <h1>Where the tradition comes from</h1>
+      <p>
+        These pages give readers cultural context without turning the site into a dense
+        academic archive.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell">
+      <SectionIntro
+        title="Foundational reading"
+        text="Each introduction answers what the text is, why it matters, and what modern readers can still learn from it."
+      />
+      <div class="card-grid">
+        {classicsCards.map((card) => (
+          <article class="card">
+            <h2>{card.title}</h2>
+            <p>{card.text}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

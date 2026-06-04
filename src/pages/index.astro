@@ -1,0 +1,175 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import SectionIntro from "../components/SectionIntro.astro";
+import { basicsCards, classicsCards, goalCards, recipeCards } from "../data/content";
+import { featuredHerbs, launchHerbList } from "../data/herbs";
+---
+
+<BaseLayout>
+  <section class="hero">
+    <div class="shell hero-grid">
+      <div>
+        <p class="eyebrow">Friendly and practical TCM learning</p>
+        <h1>Traditional Chinese herbs, explained clearly for modern everyday wellness.</h1>
+        <p class="hero-copy">
+          Explore herb profiles, beginner-friendly TCM concepts, and practical food
+          therapy ideas rooted in Chinese tradition and written in clear American English.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="/herbs/">Start with the Herb Library</a>
+          <a class="button button-secondary" href="/food-therapy/">Browse Food Therapy</a>
+        </div>
+      </div>
+      <aside class="hero-card">
+        <p class="eyebrow">Herb of the day</p>
+        <h2>Goji Berry</h2>
+        <p>
+          A bright, beginner-friendly herb that bridges food, tradition, and everyday
+          kitchen use without feeling intimidating.
+        </p>
+        <ul class="tag-list">
+          <li>tea</li>
+          <li>broths</li>
+          <li>daily wellness</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell">
+      <SectionIntro
+        eyebrow="Start with familiar needs"
+        title="Browse by everyday goal"
+        text="We organize TCM content around recognizable wellness themes so new readers have an easy starting point."
+      />
+      <div class="pill-grid">
+        {goalCards.map((goal) => (
+          <a class="pill-card" href="/basics/">{goal}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="shell">
+      <SectionIntro
+        eyebrow="Launch collection"
+        title="Featured herbs"
+        text="These are the first herbs we recommend for an English-language launch because they are easier to explain, easier to cook with, and easier to trust."
+      />
+      <div class="card-grid">
+        {featuredHerbs.map((herb) => (
+          <article class="card">
+            <p class="eyebrow">{herb.pinyin} · {herb.chinese}</p>
+            <h3>{herb.name}</h3>
+            <p>{herb.summary}</p>
+            <p class="meta-label">TCM nature: {herb.nature}</p>
+            <ul class="tag-list">
+              {herb.foodUses.map((use) => (
+                <li>{use}</li>
+              ))}
+            </ul>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell two-up">
+      <div>
+        <SectionIntro
+          eyebrow="Kitchen-first content"
+          title="Food therapy picks"
+          text="Simple soups, teas, pantry guides, and gentle routines help the site feel practical instead of abstract."
+        />
+        <div class="stack">
+          {recipeCards.map((card) => (
+            <article class="list-card">
+              <h3>{card.title}</h3>
+              <p>{card.text}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+      <div>
+        <SectionIntro
+          eyebrow="Plain-English learning"
+          title="Learn TCM basics without the jargon wall"
+          text="We keep foundational concepts simple, careful, and clearly separated from medical claims."
+        />
+        <div class="stack">
+          {basicsCards.map((card) => (
+            <article class="list-card">
+              <h3>{card.title}</h3>
+              <p>{card.text}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="shell two-up">
+      <div>
+        <SectionIntro
+          eyebrow="Cultural depth"
+          title="Chinese classics worth knowing"
+          text="The site opens with a grounded introduction to a few core books so readers understand where these ideas come from."
+        />
+        <div class="stack">
+          {classicsCards.map((card) => (
+            <article class="list-card">
+              <h3>{card.title}</h3>
+              <p>{card.text}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+      <aside class="info-panel">
+        <p class="eyebrow">Safety first</p>
+        <h2>This site is for education, not treatment advice.</h2>
+        <p>
+          HerbGuide shares traditional context, modern research summaries, and
+          food therapy ideas. It does not diagnose, treat, cure, or prevent disease.
+        </p>
+        <a class="button button-secondary" href="/safety/">Read the safety guide</a>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell newsletter-panel">
+      <div>
+        <p class="eyebrow">Future growth</p>
+        <h2>One practical herb note each week</h2>
+        <p>
+          A lightweight newsletter can become the easiest long-term growth loop:
+          one herb, one kitchen use, one TCM term, and one caution note.
+        </p>
+      </div>
+      <form class="newsletter-form">
+        <label class="sr-only" for="email">Email address</label>
+        <input id="email" name="email" type="email" placeholder="Email address" />
+        <button class="button button-primary" type="button">Join later</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="shell">
+      <SectionIntro
+        eyebrow="Launch scope"
+        title="First herbs in the launch plan"
+        text="This first batch keeps the site light enough for Cloudflare Pages while still giving it strong SEO and editorial depth."
+      />
+      <div class="launch-list">
+        {launchHerbList.map((herb) => (
+          <span>{herb}</span>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
