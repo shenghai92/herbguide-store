@@ -57,7 +57,7 @@ export const herbs: Herb[] = [
     flavor: "Sweet",
     channels: "Lung, Spleen",
     traditionalUses: [
-      "Traditionally used in TCM to support qi, often described as functional vitality.",
+      "Traditionally used in TCM discussions of qi, often described in English as functional vitality.",
       "Frequently used in long-simmered soups and broth-focused food traditions.",
       "Often associated with defensive qi and seasonal context in TCM writing.",
     ],
@@ -203,7 +203,7 @@ export const herbs: Herb[] = [
     traditionalUses: [
       "Traditionally used in TCM discussions of dampness and fluid regulation.",
       "Often included in formulas and some food tradition recipes.",
-      "Useful for explaining how TCM pattern language differs from disease labels.",
+      "Useful for explaining how TCM pattern language differs from modern diagnostic labels.",
     ],
     foodUses: ["Soup", "Porridge", "Powder blends"],
     caution:
@@ -273,7 +273,7 @@ export const herbs: Herb[] = [
     flavor: "Sweet, slightly bitter",
     channels: "Lung, Spleen, Heart",
     traditionalUses: [
-      "Traditionally used to strongly support qi in TCM theory.",
+      "Traditionally used in TCM theory for strong qi-focused discussion.",
       "Often used as a benchmark herb when discussing tonic categories.",
       "Useful for explaining why famous herbs still need context.",
     ],
@@ -290,14 +290,14 @@ export const herbs: Herb[] = [
     latin: "Panacis Quinquefolii Radix",
     partUsed: "Root",
     category: "Qi-supporting herbs",
-    summary: "An important comparison herb that helps readers understand why TCM does not treat all ginseng as the same.",
+    summary: "An important comparison herb that helps readers understand why TCM does not describe all ginseng as the same.",
     whatItIs:
       "American ginseng is valuable editorially because it helps explain the difference between names readers assume are interchangeable.",
     nature: "Cool",
     flavor: "Sweet, slightly bitter",
     channels: "Heart, Lung, Kidney",
     traditionalUses: [
-      "Traditionally used to support qi while also nourishing fluids in TCM theory.",
+      "Traditionally used in TCM theory for qi-related discussion while also nourishing fluids.",
       "Useful in comparison content against Ren Shen.",
       "Supports more nuanced educational writing.",
     ],
@@ -321,7 +321,7 @@ export const herbs: Herb[] = [
     flavor: "Sweet",
     channels: "Lung, Spleen",
     traditionalUses: [
-      "Traditionally used to support qi in a gentler everyday way.",
+      "Traditionally used in TCM for a gentler everyday qi-related context.",
       "Common in home-style soups and kitchen medicine content.",
       "Helps widen the site's pantry-like approach.",
     ],
@@ -362,14 +362,14 @@ export const herbs: Herb[] = [
     latin: "Schisandrae Chinensis Fructus",
     partUsed: "Fruit",
     category: "Astringent herbs",
-    summary: "A well-known five-flavor berry that stands out in both TCM and modern wellness writing.",
+    summary: "A well-known five-flavor berry that stands out in both TCM and modern lifestyle writing.",
     whatItIs:
       "Schisandra has strong storytelling value because its 'five flavor' identity is memorable and distinctive in English content.",
     nature: "Warm",
     flavor: "Sour, sweet, salty, bitter, pungent",
     channels: "Heart, Lung, Kidney",
     traditionalUses: [
-      "Traditionally used in TCM to astringe and support lung and kidney-related patterns.",
+      "Traditionally used in TCM to astringe and in discussions of lung and kidney-related patterns.",
       "Frequently referenced in lifestyle media because of its unique flavor identity.",
       "Useful for glossary content about flavor theory.",
     ],
@@ -393,7 +393,7 @@ export const herbs: Herb[] = [
     flavor: "Sweet",
     channels: "Lung, Spleen, Kidney",
     traditionalUses: [
-      "Traditionally used to support spleen and lung functions in TCM theory.",
+      "Traditionally used in TCM theory in discussions of spleen and lung functions.",
       "A natural fit for porridge, soup, and ingredient-based pages.",
       "Helps show the overlap between nourishment and traditional herbal classification.",
     ],
@@ -519,7 +519,7 @@ export const herbs: Herb[] = [
     ],
     foodUses: ["Tea", "Infusion", "Cooling blends"],
     caution:
-      "Keep all language general and avoid turning simple herb profiles into symptom-treatment instructions.",
+      "Keep all language general and avoid turning simple herb profiles into condition-specific instructions.",
     tags: ["familiar", "tea", "cooling", "aromatic", "beginner"],
   },
   {
@@ -626,7 +626,7 @@ export const herbs: Herb[] = [
     latin: "Rehmanniae Radix Praeparata",
     partUsed: "Prepared root",
     category: "Blood-related herbs",
-    summary: "A classic dense tonic herb that belongs in the library for depth, not for casual beginner self-use.",
+    summary: "A classic dense tonic herb that belongs in the library for depth, not as a casual beginner ingredient.",
     whatItIs:
       "Prepared rehmannia is an authority-building herb. It signals that the site covers more than grocery-friendly ingredients, while still demanding careful tone.",
     nature: "Slightly warm",
@@ -729,7 +729,7 @@ export const herbs: Herb[] = [
     flavor: "Sweet",
     channels: "Kidney, Liver",
     traditionalUses: [
-      "Traditionally used in TCM to support liver and kidney systems.",
+      "Traditionally used in TCM in discussions of liver and kidney systems.",
       "Useful for explaining structural support concepts in traditional language.",
       "Best published after core beginner content is stable.",
     ],
