@@ -6,9 +6,9 @@ export const siteConfig = {
   gaMeasurementId: "G-4RCT0E2PL5",
   title: "HerbGuide | Traditional Chinese herbs explained clearly",
   description:
-    "Friendly, practical guides to Traditional Chinese herbs, food therapy, and classic wellness concepts in clear American English.",
+    "Friendly, practical guides to Traditional Chinese herbs, kitchen traditions, and classic terminology in clear American English.",
   newsletterTitle: "One practical herb note each week",
-  tagline: "Traditional Chinese herbs and food therapy in clear American English.",
+  tagline: "Traditional Chinese herbs and kitchen traditions in clear American English.",
   adsenseClient: "ca-pub-4966684354825438",
   socialImage: "/og-default.jpg",
 };

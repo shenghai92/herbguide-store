@@ -1,10 +1,10 @@
 export const goalCards = [
-  "Digestive Comfort",
-  "Better Sleep",
-  "Seasonal Wellness",
+  "Digestive Traditions",
+  "Evening Teas",
+  "Seasonal Kitchen Ideas",
   "Warming Foods",
-  "Skin and Beauty Foods",
-  "Calm and Balance",
+  "Beauty Foods",
+  "Balanced Pantry Habits",
 ];
 
 export const basicsCards = [
@@ -48,7 +48,7 @@ export const recipeCards = [
   },
   {
     title: "A Simple Warming Soup Guide for Cold Weather",
-    text: "A gentle introduction to comfort-focused seasonal food therapy.",
+    text: "A gentle introduction to seasonal kitchen traditions built around warming ingredients.",
   },
   {
     title: "Jujube and Ginger Tea for Busy Weeks",

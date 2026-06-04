@@ -26,21 +26,21 @@ export const herbs: Herb[] = [
     latin: "Lycii Fructus",
     partUsed: "Fruit",
     category: "Nourishing herbs",
-    summary: "A well-known tonic berry often used in teas, soups, porridge, and simple everyday wellness recipes.",
+    summary: "A well-known berry often used in teas, soups, porridge, and simple everyday kitchen recipes.",
     whatItIs:
-      "Goji berry is one of the easiest Chinese herbs for English-speaking readers to recognize because it already appears in wellness foods, snack mixes, teas, and modern grocery products.",
+      "Goji berry is one of the easiest Chinese herbs for English-speaking readers to recognize because it already appears in snack mixes, teas, and modern grocery products.",
     nature: "Neutral to slightly warming",
     flavor: "Sweet",
     channels: "Liver, Kidney",
     traditionalUses: [
       "Traditionally used in TCM to nourish liver and kidney systems.",
-      "Often discussed in TCM for eye comfort and gentle daily replenishment.",
+      "Often discussed in TCM for traditional eye-related language and gentle daily use.",
       "Commonly framed as a food-grade tonic rather than an intimidating medicinal.",
     ],
     foodUses: ["Tea", "Broth", "Congee"],
     caution:
       "Readers taking medication, especially blood-thinning medication, should check with a qualified clinician before using goji regularly.",
-    tags: ["beginner", "berry", "tea", "food therapy", "daily wellness"],
+    tags: ["beginner", "berry", "tea", "food traditions", "daily cooking"],
   },
   {
     slug: "astragalus-root",
@@ -50,21 +50,21 @@ export const herbs: Herb[] = [
     latin: "Astragali Radix",
     partUsed: "Root",
     category: "Qi-supporting herbs",
-    summary: "A foundational soup herb traditionally used in TCM to support qi and seasonal resilience.",
+    summary: "A foundational soup herb traditionally used in TCM writing about qi and seasonal routines.",
     whatItIs:
-      "Astragalus root is a classic kitchen-to-clinic bridge herb. In English-language content it often shows up in broths, tonic soups, and gentle seasonal wellness articles.",
+      "Astragalus root is a classic kitchen-to-library bridge herb. In English-language content it often shows up in broths, tonic soups, and seasonal kitchen articles.",
     nature: "Slightly warming",
     flavor: "Sweet",
     channels: "Lung, Spleen",
     traditionalUses: [
       "Traditionally used in TCM to support qi, often described as functional vitality.",
-      "Frequently used in long-simmered soups and broth-focused food therapy.",
-      "Often associated with defensive qi and seasonal support in TCM writing.",
+      "Frequently used in long-simmered soups and broth-focused food traditions.",
+      "Often associated with defensive qi and seasonal context in TCM writing.",
     ],
     foodUses: ["Soup", "Broth", "Decoction"],
     caution:
-      "Not every tonic herb is appropriate for every pattern. Readers with complex conditions should avoid self-prescribing based on one article.",
-    tags: ["root", "soup", "qi", "seasonal wellness", "popular"],
+      "Not every tonic herb is appropriate for every pattern. Readers with complex health situations should avoid making personal decisions from one article.",
+    tags: ["root", "soup", "qi", "seasonal kitchen", "popular"],
   },
   {
     slug: "fresh-ginger",
@@ -74,21 +74,21 @@ export const herbs: Herb[] = [
     latin: "Zingiberis Rhizoma Recens",
     partUsed: "Fresh rhizome",
     category: "Kitchen herbs",
-    summary: "A familiar kitchen ingredient that gives TCM food therapy an easy and practical entry point.",
+    summary: "A familiar kitchen ingredient that gives TCM food traditions an easy and practical entry point.",
     whatItIs:
-      "Fresh ginger is one of the most useful bridge ingredients for this site because readers already know it from cooking, tea, and home wellness routines.",
+      "Fresh ginger is one of the most useful bridge ingredients for this site because readers already know it from cooking, tea, and home routines.",
     nature: "Warm",
     flavor: "Pungent",
     channels: "Lung, Spleen, Stomach",
     traditionalUses: [
-      "Traditionally used to warm the middle and support digestion in TCM language.",
-      "Often used in simple teas and soups for cold-weather comfort.",
-      "Commonly included in beginner-friendly food therapy articles.",
+      "Traditionally used to warm the middle and explain digestive language in TCM.",
+      "Often used in simple teas and soups for cold-weather cooking.",
+      "Commonly included in beginner-friendly food tradition articles.",
     ],
     foodUses: ["Tea", "Soup", "Stir-fry"],
     caution:
       "Even familiar food herbs can be irritating in excess. Readers with special medical needs should still use caution.",
-    tags: ["kitchen", "warming", "tea", "beginner", "digestive comfort"],
+    tags: ["kitchen", "warming", "tea", "beginner", "digestive traditions"],
   },
   {
     slug: "jujube-red-date",
@@ -98,9 +98,9 @@ export const herbs: Herb[] = [
     latin: "Jujubae Fructus",
     partUsed: "Fruit",
     category: "Nourishing herbs",
-    summary: "Sweet red dates that make Chinese food therapy feel warm, familiar, and approachable.",
+    summary: "Sweet red dates that make Chinese food traditions feel warm, familiar, and approachable.",
     whatItIs:
-      "Jujube, often called red date in Chinese cooking, appears in teas, broths, sweet soups, and many daily food therapy recipes.",
+      "Jujube, often called red date in Chinese cooking, appears in teas, broths, sweet soups, and many everyday kitchen recipes.",
     nature: "Warm",
     flavor: "Sweet",
     channels: "Spleen, Stomach",
@@ -122,15 +122,15 @@ export const herbs: Herb[] = [
     latin: "Chrysanthemi Flos",
     partUsed: "Flower",
     category: "Tea herbs",
-    summary: "A floral tea herb known for its cooling place in traditional food therapy.",
+    summary: "A floral tea herb known for its cooling place in traditional kitchen use.",
     whatItIs:
       "Chrysanthemum tea is one of the easiest TCM beverage concepts to explain to U.S. readers because it is light, visual, and already recognizable in Asian grocery culture.",
     nature: "Cool",
     flavor: "Sweet, bitter",
     channels: "Liver, Lung",
     traditionalUses: [
-      "Traditionally used in TCM to clear heat and support comfort in warm or irritated states.",
-      "Often discussed for head and eye-related comfort in traditional theory.",
+      "Traditionally used in TCM discussions of clear heat and warm or irritated states.",
+      "Often discussed for head and eye-related language in traditional theory.",
       "A frequent entry point for cooling-food conversations.",
     ],
     foodUses: ["Tea", "Iced tea", "Floral blends"],
@@ -148,7 +148,7 @@ export const herbs: Herb[] = [
     category: "Digestive herbs",
     summary: "A tart fruit traditionally associated with food stagnation and digestive heaviness in TCM.",
     whatItIs:
-      "Hawthorn is useful for SEO and education because it overlaps with Western herbal familiarity while still having a distinct place in Chinese food therapy.",
+      "Hawthorn is useful for SEO and education because it overlaps with Western herbal familiarity while still having a distinct place in Chinese food traditions.",
     nature: "Slightly warm",
     flavor: "Sour, sweet",
     channels: "Spleen, Stomach, Liver",
@@ -159,7 +159,7 @@ export const herbs: Herb[] = [
     ],
     foodUses: ["Tea", "Fruit snacks", "Digestive drink"],
     caution:
-      "Digestive discomfort can have many causes. Articles should not imply hawthorn is a substitute for evaluation of ongoing symptoms.",
+      "Digestive concerns can have many causes. Articles should not imply hawthorn is a substitute for evaluation of ongoing issues.",
     tags: ["digestive", "fruit", "tea", "seo", "food stagnation"],
   },
   {
@@ -194,7 +194,7 @@ export const herbs: Herb[] = [
     latin: "Poria",
     partUsed: "Fungal body",
     category: "Dampness-related herbs",
-    summary: "A classic TCM ingredient often used in conversations about dampness, fluid balance, and gentle support.",
+    summary: "A classic TCM ingredient often used in conversations about dampness, fluid balance, and traditional context.",
     whatItIs:
       "Poria appears often in Chinese herbal education but is less familiar to mainstream U.S. readers, which makes it valuable for building authority once the site has a beginner base.",
     nature: "Neutral",
@@ -202,7 +202,7 @@ export const herbs: Herb[] = [
     channels: "Heart, Spleen, Kidney, Lung",
     traditionalUses: [
       "Traditionally used in TCM discussions of dampness and fluid regulation.",
-      "Often included in formulas and some food therapy recipes.",
+      "Often included in formulas and some food tradition recipes.",
       "Useful for explaining how TCM pattern language differs from disease labels.",
     ],
     foodUses: ["Soup", "Porridge", "Powder blends"],
@@ -225,7 +225,7 @@ export const herbs: Herb[] = [
     flavor: "Sweet",
     channels: "Heart, Spleen",
     traditionalUses: [
-      "Traditionally used for gentle nourishment and calming support in TCM language.",
+      "Traditionally used for gentle nourishment and calming context in TCM language.",
       "Often appears in sweet soups and tonifying kitchen recipes.",
       "Pairs well with jujube and lotus seed content.",
     ],
@@ -242,21 +242,21 @@ export const herbs: Herb[] = [
     latin: "Lilii Bulbus",
     partUsed: "Bulb",
     category: "Food therapy herbs",
-    summary: "A soft food therapy ingredient that works especially well in gentle dessert and soup content.",
+    summary: "A soft food-tradition ingredient that works especially well in gentle dessert and soup content.",
     whatItIs:
-      "Lily bulb is especially useful for food therapy pages because it feels more like an ingredient than a supplement and helps the site keep a warm editorial tone.",
+      "Lily bulb is especially useful for kitchen pages because it feels more like an ingredient than a supplement and helps the site keep a warm editorial tone.",
     nature: "Slightly cold",
     flavor: "Sweet",
     channels: "Heart, Lung",
     traditionalUses: [
       "Traditionally used in TCM to moisten and gently calm.",
-      "Often discussed in soothing soups and dessert-style food therapy.",
+      "Often discussed in soothing soups and dessert-style food traditions.",
       "Works well in seasonal dryness content.",
     ],
     foodUses: ["Sweet soup", "Pear soup", "Congee"],
     caution:
       "Use careful language around emotional or sleep-related topics and avoid medical promises.",
-    tags: ["dessert soup", "gentle", "dryness", "recipe", "food therapy"],
+    tags: ["dessert soup", "gentle", "dryness", "recipe", "food traditions"],
   },
   {
     slug: "ginseng",
@@ -268,7 +268,7 @@ export const herbs: Herb[] = [
     category: "Qi-supporting herbs",
     summary: "A famous tonic root that needs careful explanation because recognition is high but assumptions are often vague.",
     whatItIs:
-      "Ginseng is widely known in English-speaking wellness culture, which makes it important for search visibility, but it also requires careful framing to avoid hype.",
+      "Ginseng is widely known in English-speaking popular culture, which makes it important for search visibility, but it also requires careful framing to avoid hype.",
     nature: "Slightly warm",
     flavor: "Sweet, slightly bitter",
     channels: "Lung, Spleen, Heart",
@@ -345,7 +345,7 @@ export const herbs: Herb[] = [
     flavor: "Sweet",
     channels: "Heart, Lung, Spleen, Stomach",
     traditionalUses: [
-      "Traditionally used to harmonize formulas and support digestive or respiratory comfort in TCM theory.",
+      "Traditionally used to harmonize formulas and explain digestive or respiratory language in TCM theory.",
       "Frequently discussed as a formula-balancing herb.",
       "Useful for teaching why one herb can have several roles in TCM.",
     ],
@@ -370,7 +370,7 @@ export const herbs: Herb[] = [
     channels: "Heart, Lung, Kidney",
     traditionalUses: [
       "Traditionally used in TCM to astringe and support lung and kidney-related patterns.",
-      "Frequently referenced in wellness media because of its unique flavor identity.",
+      "Frequently referenced in lifestyle media because of its unique flavor identity.",
       "Useful for glossary content about flavor theory.",
     ],
     foodUses: ["Tea", "Tincture discussions", "Herbal blends"],
@@ -410,7 +410,7 @@ export const herbs: Herb[] = [
     latin: "Nelumbinis Semen",
     partUsed: "Seed",
     category: "Food therapy herbs",
-    summary: "A classic ingredient for soups and desserts that adds depth to nourishing food therapy content.",
+    summary: "A classic ingredient for soups and desserts that adds depth to nourishing kitchen content.",
     whatItIs:
       "Lotus seed supports the site's recipe layer because it appears naturally in sweet soups, porridge, and family-style Chinese kitchen traditions.",
     nature: "Neutral",
@@ -418,7 +418,7 @@ export const herbs: Herb[] = [
     channels: "Heart, Kidney, Spleen",
     traditionalUses: [
       "Traditionally used for gentle nourishment and stabilization in TCM language.",
-      "Appears often in household food therapy traditions.",
+      "Appears often in household food traditions.",
       "Useful for cross-linking with longan and lily bulb.",
     ],
     foodUses: ["Sweet soup", "Congee", "Dessert"],
@@ -434,7 +434,7 @@ export const herbs: Herb[] = [
     latin: "Coicis Semen",
     partUsed: "Seed",
     category: "Dampness-related herbs",
-    summary: "A grain-like ingredient often used in TCM food therapy discussions about dampness and heaviness.",
+    summary: "A grain-like ingredient often used in TCM kitchen discussions about dampness and heaviness.",
     whatItIs:
       "Job's tears helps the site explain dampness through a grain-like ingredient that sits naturally inside recipe and pantry education.",
     nature: "Slightly cold",
@@ -491,7 +491,7 @@ export const herbs: Herb[] = [
     traditionalUses: [
       "Traditionally used in TCM to nourish and moisten.",
       "A natural fit for pantry-forward recipe content.",
-      "Useful for ingredient-based wellness pages.",
+      "Useful for ingredient-based lifestyle pages.",
     ],
     foodUses: ["Porridge", "Paste", "Dessert"],
     caution:
@@ -615,7 +615,7 @@ export const herbs: Herb[] = [
     ],
     foodUses: ["Advanced traditional preparations"],
     caution:
-      "Because this page can attract symptom-focused searching, the disclaimer and cautious wording need to be especially visible.",
+      "Because this page can attract problem-focused searching, the disclaimer and cautious wording need to be especially visible.",
     tags: ["blood", "yin", "authority", "glossary", "advanced"],
   },
   {
@@ -658,8 +658,8 @@ export const herbs: Herb[] = [
     channels: "Heart, Lung, Stomach",
     traditionalUses: [
       "Traditionally used to nourish fluids and moisten dryness in TCM language.",
-      "Useful in dry-weather and throat-comfort educational writing.",
-      "Pairs well with lily bulb and pear-style food therapy content.",
+      "Useful in dry-weather and throat-focused educational writing.",
+      "Pairs well with lily bulb and pear-style food content.",
     ],
     foodUses: ["Advanced tea", "Soup pairings"],
     caution:
@@ -711,7 +711,7 @@ export const herbs: Herb[] = [
     ],
     foodUses: ["Starch use", "Traditional drinks", "Powder"],
     caution:
-      "Because this page can draw broad internet wellness traffic, it should stay tightly grounded and not overstate evidence.",
+      "Because this page can draw broad internet lifestyle traffic, it should stay tightly grounded and not overstate evidence.",
     tags: ["root", "cooling", "seo", "cross-cultural", "authority"],
   },
   {
