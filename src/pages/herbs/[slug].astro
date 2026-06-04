@@ -56,6 +56,11 @@ const { herb } = Astro.props;
         <section class="detail-section">
           <h2>What this herb is</h2>
           <p>{herb.whatItIs}</p>
+          <p>
+            We show the English name, pinyin, Chinese characters, and Latin name together
+            so readers can connect grocery familiarity, traditional terminology, and
+            reference naming in one place.
+          </p>
         </section>
 
         <section class="detail-section">
@@ -71,6 +76,10 @@ const { herb } = Astro.props;
             <li><strong>Flavor:</strong> {herb.flavor}</li>
             <li><strong>Traditionally associated with:</strong> {herb.channels}</li>
           </ul>
+          <p>
+            `Channel entry` is a TCM term. It describes traditional functional
+            relationships, not a direct claim about modern anatomy.
+          </p>
         </section>
 
         <section class="detail-section">
@@ -93,6 +102,20 @@ const { herb } = Astro.props;
               <li>{item}</li>
             ))}
           </ul>
+        </section>
+
+        <section class="detail-section">
+          <h2>How to read this page in context</h2>
+          <p>
+            A herb profile is an educational overview, not a full prescribing guide. In
+            traditional practice, herbs are often combined, prepared in different ways, and
+            interpreted according to pattern, constitution, season, and dose.
+          </p>
+          <p>
+            That is why HerbGuide emphasizes careful wording, cultural context, food use
+            examples, and safety notes instead of presenting any one herb as a universal
+            answer.
+          </p>
         </section>
 
         <section class="detail-section caution-section">

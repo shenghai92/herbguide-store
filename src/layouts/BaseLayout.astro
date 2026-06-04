@@ -1,6 +1,6 @@
 ---
 import "../styles/global.css";
-import { footerNav, siteConfig, topNav } from "../data/site";
+import { footerNav, siteConfig, supportOptions, topNav } from "../data/site";
 
 interface Props {
   title?: string;
@@ -72,6 +72,22 @@ const bingToken = import.meta.env.PUBLIC_BING_SITE_VERIFICATION;
         </nav>
       </div>
     </header>
+    <aside class="support-rail" aria-label="Support HerbGuide">
+      <p class="eyebrow">Support HerbGuide</p>
+      <h2>Help keep this site growing</h2>
+      <p>
+        If the herb guides are useful, you can leave a small tip to support research,
+        writing, and site upkeep.
+      </p>
+      <div class="support-actions">
+        {supportOptions.map((option) => (
+          <a class="support-chip" href={option.href} target="_blank" rel="noreferrer">
+            <span>{option.label}</span>
+            <strong>{option.amount}</strong>
+          </a>
+        ))}
+      </div>
+    </aside>
     <main>
       <slot />
     </main>
@@ -83,9 +99,15 @@ const bingToken = import.meta.env.PUBLIC_BING_SITE_VERIFICATION;
             Chinese herbs and food therapy, explained simply for curious readers
             who want clarity without hype.
           </p>
+          <p>
+            Support: <a href={`mailto:${siteConfig.supportEmail}`}>{siteConfig.supportEmail}</a>
+          </p>
+          <p class="footer-note">
+            Educational content only. HerbGuide does not diagnose, treat, cure, or prevent disease.
+          </p>
         </div>
         <div>
-          <h3>Explore</h3>
+          <h3>Main Pages</h3>
           <ul>
             {topNav.map((item) => (
               <li><a href={item.href}>{item.label}</a></li>
@@ -93,13 +115,26 @@ const bingToken = import.meta.env.PUBLIC_BING_SITE_VERIFICATION;
           </ul>
         </div>
         <div>
-          <h3>Trust</h3>
+          <h3>All Site Links</h3>
           <ul>
             {footerNav.map((item) => (
               <li><a href={item.href}>{item.label}</a></li>
             ))}
           </ul>
         </div>
+        <div>
+          <h3>Contact & Review</h3>
+          <ul>
+            <li><a href={`mailto:${siteConfig.supportEmail}`}>Email Support</a></li>
+            <li><a href="/about/">About HerbGuide</a></li>
+            <li><a href="/editorial-policy/">Editorial Policy</a></li>
+            <li><a href="/privacy-policy/">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="shell footer-bottom">
+        <p>&copy; 2026 {siteConfig.name}. All rights reserved.</p>
+        <p>{siteConfig.domain}</p>
       </div>
     </footer>
   </body>
