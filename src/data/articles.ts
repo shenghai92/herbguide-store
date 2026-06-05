@@ -2148,4 +2148,155 @@ export const foodTherapyArticles: ContentArticle[] = [
       },
     ],
   },
+  {
+    slug: "mulberry-and-goji-tea-basics",
+    title: "Mulberry and Goji Tea Basics",
+    description:
+      "A simple berry-style tea page that connects mulberry fruit and goji berry through a soft, pantry-friendly recipe.",
+    eyebrow: "Food Therapy",
+    intro:
+      "Mulberry and goji make an easy next-step pairing for readers who already understand pantry berries but want a gentler, more seasonal tea idea. The ingredients feel recognizable, the color is memorable, and the recipe gives HerbGuide a clearer bridge between mulberry fruit, goji berry, and nourishment-style language.",
+    recipe: {
+      recipeYield: "2 mugs",
+      prepTime: "PT5M",
+      totalTime: "PT12M",
+      ingredients: [
+        "1 tablespoon dried mulberry fruit",
+        "1 tablespoon goji berries",
+        "2 1/2 cups hot water",
+        "Optional: 1 thin slice pear for a softer finish",
+      ],
+      steps: [
+        "Rinse the mulberry fruit and goji berries briefly.",
+        "Place them in a teapot or heat-safe cup.",
+        "Pour the hot water over the berries and cover lightly.",
+        "Steep for 6 to 8 minutes until the fruit softens and the tea deepens in color.",
+        "Add the optional pear slice only if you want a lighter, softer finish.",
+      ],
+      servingNotes: [
+        "This page works best as a gentle pantry tea, not a concentrated tonic-style routine.",
+        "Keeping the ingredient list short helps readers notice the flavor and role of each berry.",
+      ],
+      caution: [
+        "Nourishing and moisture-style language here belongs to traditional food context, not personal medical guidance.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why this pairing fits the site",
+        paragraphs: [
+          "Mulberry fruit adds a softer second-berry pathway beyond the site's stronger goji content.",
+          "That makes this page useful for readers who want one more pantry tea before moving into denser TCM terms.",
+        ],
+      },
+      {
+        title: "What the tea teaches beyond the cup",
+        paragraphs: [
+          "A page like this helps readers understand that many Chinese kitchen traditions work through familiar pairings, not huge ingredient lists.",
+          "It also creates a stronger internal link path between mulberry fruit, goji berry, dryness language, and beauty-food style reading.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "perilla-and-ginger-soup-for-cool-days",
+    title: "Perilla and Ginger Soup for Cool Days",
+    description:
+      "A warming kitchen soup that connects perilla leaf and fresh ginger through a simple cold-weather pantry recipe.",
+    eyebrow: "Food Therapy",
+    intro:
+      "Perilla leaf is one of the easiest herbs to understand when it appears next to ginger in a small, warming soup. The pairing feels practical, aromatic, and seasonal, which helps new readers trust the traditional language around release and movement without getting lost in jargon.",
+    recipe: {
+      recipeYield: "2 bowls",
+      prepTime: "PT10M",
+      totalTime: "PT30M",
+      ingredients: [
+        "4 cups light broth or water",
+        "2 to 3 slices fresh ginger",
+        "1 small handful fresh perilla leaves or 1 teaspoon dried perilla",
+        "1 small carrot, thinly sliced",
+        "A small pinch of salt near the end",
+      ],
+      steps: [
+        "Add the broth or water, ginger, and carrot to a small pot and bring to a gentle boil.",
+        "Lower the heat and simmer until the carrot softens.",
+        "Add the perilla during the last 3 to 5 minutes so the aroma stays fresh.",
+        "Season lightly with a small pinch of salt.",
+        "Serve warm as a very simple cool-weather bowl.",
+      ],
+      servingNotes: [
+        "This soup works best when the flavor stays light and aromatic rather than heavy.",
+        "Adding perilla near the end helps keep the page tied to real kitchen practice.",
+      ],
+      caution: [
+        "Warming and release-style language here belongs to traditional culinary context, not a diagnosis or treatment claim.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why this page adds useful range",
+        paragraphs: [
+          "It gives the site a more aromatic warming soup pathway beyond ginger-only content.",
+          "That makes perilla leaf easier to connect with actual cooking instead of leaving it trapped on a standalone herb page.",
+        ],
+      },
+      {
+        title: "How this soup supports site structure",
+        paragraphs: [
+          "A perilla and ginger soup page links naturally to fresh ginger, warming foods, and plain-English pages about movement language.",
+          "It also gives the seasonal kitchen section another savory bowl that is distinct from dessert soups and teas.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "schisandra-and-jujube-tea-basics",
+    title: "Schisandra and Jujube Tea Basics",
+    description:
+      "A gentle berry-and-date tea that introduces schisandra through a simple pantry recipe with clear boundaries.",
+    eyebrow: "Food Therapy",
+    intro:
+      "Schisandra can feel abstract on its own, but it becomes much easier to picture when paired with jujube in a very simple tea. That makes this page a useful bridge between pantry familiarity and the more classical language readers often see around schisandra berry.",
+    recipe: {
+      recipeYield: "2 mugs",
+      prepTime: "PT5M",
+      totalTime: "PT15M",
+      ingredients: [
+        "1 teaspoon dried schisandra berries",
+        "3 dried jujubes, split",
+        "2 1/2 cups water",
+        "Optional: 1 small slice fresh ginger for a warmer finish",
+      ],
+      steps: [
+        "Rinse the schisandra berries and jujubes briefly.",
+        "Add them to a small pot with the water.",
+        "Bring to a gentle boil, then lower the heat and simmer for 8 to 10 minutes.",
+        "Add the optional ginger during the last few minutes if you want a slightly warmer finish.",
+        "Strain into mugs and serve warm.",
+      ],
+      servingNotes: [
+        "This page works best as a light educational tea with a short ingredient list.",
+        "A very small amount of schisandra is enough to keep the flavor clear for beginners.",
+      ],
+      caution: [
+        "Calming, astringing, or nourishing language here belongs to traditional kitchen context, not personalized medical advice.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why this pairing is helpful for beginners",
+        paragraphs: [
+          "Jujube gives the recipe a familiar anchor, which makes schisandra feel less intimidating.",
+          "That helps readers move from everyday pantry content into slightly deeper herb vocabulary without losing trust.",
+        ],
+      },
+      {
+        title: "What this tea adds to the site",
+        paragraphs: [
+          "This page creates a new route between schisandra berry, jujube, evening-style kitchen pages, and shen-related basics content.",
+          "It also adds another tea that feels distinct from the floral and cooling branches already on the site.",
+        ],
+      },
+    ],
+  },
 ];

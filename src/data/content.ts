@@ -269,4 +269,19 @@ export const recipeCards = [
     title: "Tremella and Lotus Seed Sweet Soup Basics",
     text: "A soft dessert-soup page that deepens the tremella and lotus seed network with one easy bowl.",
   },
+  {
+    slug: "mulberry-and-goji-tea-basics",
+    title: "Mulberry and Goji Tea Basics",
+    text: "A simple berry tea page that gives mulberry fruit a clearer pantry-friendly path beside goji berry.",
+  },
+  {
+    slug: "perilla-and-ginger-soup-for-cool-days",
+    title: "Perilla and Ginger Soup for Cool Days",
+    text: "A light warming soup that turns perilla leaf into a practical kitchen ingredient for cool-weather reading.",
+  },
+  {
+    slug: "schisandra-and-jujube-tea-basics",
+    title: "Schisandra and Jujube Tea Basics",
+    text: "A gentle pantry tea that makes schisandra easier to understand through a familiar jujube pairing.",
+  },
 ];
