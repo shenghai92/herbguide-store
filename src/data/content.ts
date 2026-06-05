@@ -175,11 +175,6 @@ export const classicsCards = [
 
 export const recipeCards = [
   {
-    slug: "5-easy-chinese-food-therapy-ingredients-for-beginners",
-    title: "5 Easy Chinese Food Therapy Ingredients for Beginners",
-    text: "Start with simple pantry ingredients that feel familiar and useful.",
-  },
-  {
     slug: "a-simple-warming-soup-guide-for-cold-weather",
     title: "A Simple Warming Soup Guide for Cold Weather",
     text: "A gentle introduction to seasonal kitchen traditions built around warming ingredients.",
@@ -208,6 +203,11 @@ export const recipeCards = [
     slug: "goji-berry-porridge-for-gentle-mornings",
     title: "Goji Berry Porridge for Gentle Mornings",
     text: "A soft breakfast-style page built around one of the easiest pantry herbs for beginners.",
+  },
+  {
+    slug: "5-easy-chinese-food-therapy-ingredients-for-beginners",
+    title: "5 Easy Chinese Food Therapy Ingredients for Beginners",
+    text: "Start with simple pantry ingredients that feel familiar and useful.",
   },
   {
     slug: "lotus-seed-and-longan-sweet-soup-basics",
@@ -240,6 +240,11 @@ export const recipeCards = [
     text: "A light seasonal tea page that supports cooling and dryness pathways without overclaiming.",
   },
   {
+    slug: "mulberry-and-goji-tea-basics",
+    title: "Mulberry and Goji Tea Basics",
+    text: "A simple berry tea page that gives mulberry fruit a clearer pantry-friendly path beside goji berry.",
+  },
+  {
     slug: "goji-and-chrysanthemum-tea-basics",
     title: "Goji and Chrysanthemum Tea Basics",
     text: "A visual pantry tea page that connects one popular berry with one of the site's clearest cooling herbs.",
@@ -265,19 +270,14 @@ export const recipeCards = [
     text: "A very simple beginner soup that makes Chinese yam feel practical, mild, and easy to trust.",
   },
   {
-    slug: "tremella-and-lotus-seed-sweet-soup-basics",
-    title: "Tremella and Lotus Seed Sweet Soup Basics",
-    text: "A soft dessert-soup page that deepens the tremella and lotus seed network with one easy bowl.",
-  },
-  {
-    slug: "mulberry-and-goji-tea-basics",
-    title: "Mulberry and Goji Tea Basics",
-    text: "A simple berry tea page that gives mulberry fruit a clearer pantry-friendly path beside goji berry.",
-  },
-  {
     slug: "perilla-and-ginger-soup-for-cool-days",
     title: "Perilla and Ginger Soup for Cool Days",
     text: "A light warming soup that turns perilla leaf into a practical kitchen ingredient for cool-weather reading.",
+  },
+  {
+    slug: "tremella-and-lotus-seed-sweet-soup-basics",
+    title: "Tremella and Lotus Seed Sweet Soup Basics",
+    text: "A soft dessert-soup page that deepens the tremella and lotus seed network with one easy bowl.",
   },
   {
     slug: "schisandra-and-jujube-tea-basics",
