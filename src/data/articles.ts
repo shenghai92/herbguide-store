@@ -351,7 +351,7 @@ export const basicsArticles: ContentArticle[] = [
         title: "The deeper lesson behind the comparison",
         paragraphs: [
           "This is not only a ginseng lesson. It is a reading lesson. TCM herb pages are easier to trust when they explain how names, forms, and qualities differ instead of flattening everything into broad marketing terms.",
-          "That is why comparison pages are useful for SEO and for reader education at the same time.",
+          "That is why comparison pages are so useful for reader education.",
         ],
       },
     ],
@@ -681,10 +681,10 @@ export const basicsArticles: ContentArticle[] = [
         ],
       },
       {
-        title: "Why this page helps the site",
+        title: "Why this page matters",
         paragraphs: [
           "A clear jing explainer supports herb pages that would otherwise sound too dense for beginners.",
-          "It also adds a stronger glossary layer for searchers who are curious about TCM vocabulary before they are ready for individual herb profiles.",
+          "It also gives curious readers a clearer glossary layer before they move into individual herb profiles.",
         ],
       },
     ],
@@ -850,7 +850,7 @@ export const basicsArticles: ContentArticle[] = [
         title: "Why readers compare these two ingredients",
         paragraphs: [
           "Both ingredients are approachable, food-adjacent, and easier to picture than many dense formula herbs.",
-          "They also appear near the same search intent: what to read after a heavy meal, what digestive pantry herbs mean in TCM, and how to understand aromatic versus tart digestive language.",
+          "They also appear near the same kinds of questions: what to read after a heavy meal, what digestive pantry herbs mean in TCM, and how to understand aromatic versus tart digestive language.",
         ],
       },
       {
@@ -1686,7 +1686,7 @@ export const foodTherapyArticles: ContentArticle[] = [
     },
     sections: [
       {
-        title: "Why this page matters for site depth",
+        title: "Why this page adds range",
         paragraphs: [
           "It expands the editorial voice beyond soups and teas while staying inside familiar food traditions.",
           "That variety helps HerbGuide feel more complete and makes the pantry ingredient network stronger.",
@@ -1743,7 +1743,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         ],
       },
       {
-        title: "How this page supports the wider site",
+        title: "How this page fits broader reading",
         paragraphs: [
           "A simple chen pi tea article strengthens digestive topic hubs, aromatic herb reading, and comparison-style pantry content.",
           "It also gives returning readers something more specific than a broad concept page.",
@@ -1838,10 +1838,10 @@ export const foodTherapyArticles: ContentArticle[] = [
     },
     sections: [
       {
-        title: "Why this page fits the site well",
+        title: "Why this page works well",
         paragraphs: [
           "It builds on two of the strongest pantry ingredients already on HerbGuide while adding a more repeatable breakfast-style use case.",
-          "That helps the site deepen second-click behavior for readers who start with goji, jujube, or black sesame and want one more practical step.",
+          "That gives readers who start with goji, jujube, or black sesame one more practical step to explore.",
         ],
       },
       {
@@ -1946,10 +1946,10 @@ export const foodTherapyArticles: ContentArticle[] = [
         ],
       },
       {
-        title: "How this page supports the wider site",
+        title: "How this page fits related reading",
         paragraphs: [
           "This tea article strengthens the link between chrysanthemum, pear-style seasonal content, glossary pages about clear heat, and the seasonal kitchen topic hub.",
-          "It also gives visitors who land on warming pages a useful contrast page instead of letting the session stop at one concept.",
+          "It also gives readers who begin with warming pages a useful contrast page instead of stopping at one concept.",
         ],
       },
     ],
@@ -1989,10 +1989,10 @@ export const foodTherapyArticles: ContentArticle[] = [
     },
     sections: [
       {
-        title: "Why this pairing works so well for the site",
+        title: "Why this pairing works so well",
         paragraphs: [
           "Both ingredients are highly visual and already familiar enough to lower reader anxiety.",
-          "That makes this page strong for shares, search, and second-click behavior from goji or cooling-related entries.",
+          "That makes this page an easy next step for readers who begin with goji or cooling-related pages.",
         ],
       },
       {
@@ -2142,7 +2142,7 @@ export const foodTherapyArticles: ContentArticle[] = [
     },
     sections: [
       {
-        title: "Why this page fits the site well",
+        title: "Why this page works well",
         paragraphs: [
           "It gives digestive and dampness visitors a very concrete food page after they read one abstract concept article.",
           "That makes the terminology easier to remember through a real food example.",
@@ -2244,7 +2244,7 @@ export const foodTherapyArticles: ContentArticle[] = [
     },
     sections: [
       {
-        title: "Why this page fits the site so well",
+        title: "Why this page works so well",
         paragraphs: [
           "It adds another dessert-soup example without making the recipes feel repetitive.",
           "It also gives tremella and lotus seed readers one more concrete kitchen page that feels easy to trust.",
@@ -2294,7 +2294,7 @@ export const foodTherapyArticles: ContentArticle[] = [
     },
     sections: [
       {
-        title: "Why this pairing fits the site",
+        title: "Why this pairing works well",
         paragraphs: [
           "Mulberry fruit adds a softer second-berry pathway beyond the more familiar goji content.",
           "That makes this page useful for readers who want one more pantry tea before moving into denser TCM terms.",
