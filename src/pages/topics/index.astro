@@ -1,0 +1,75 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import SectionIntro from "../../components/SectionIntro.astro";
+import { topics } from "../../data/topics";
+---
+
+<BaseLayout
+  title="Topics | HerbGuide"
+  description="Curated topic hubs that connect Chinese herbs, TCM basics, and food therapy into clear beginner-friendly reading paths."
+  structuredData={[
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: "Topics",
+      description:
+        "Curated topic hubs that connect Chinese herbs, TCM basics, and food therapy into clear beginner-friendly reading paths.",
+      url: "https://herbguide.store/topics/",
+    },
+  ]}
+>
+  <section class="page-hero">
+    <div class="shell narrow">
+      <p class="eyebrow">Topics</p>
+      <h1>Browse HerbGuide by real reader intent</h1>
+      <p>
+        These topic hubs connect herb pages, food therapy articles, and TCM basics into
+        clearer reading paths so beginners do not have to guess where to go next.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell">
+      <SectionIntro
+        eyebrow="Curated hubs"
+        title="Start with a familiar theme"
+        text="Each topic page groups related articles together, making the site feel more practical and easier to browse."
+      />
+      <div class="card-grid">
+        {topics.map((topic) => (
+          <article class="card">
+            <p class="eyebrow">{topic.eyebrow}</p>
+            <h2><a href={`/topics/${topic.slug}/`}>{topic.title}</a></h2>
+            <p>{topic.description}</p>
+            <p class="card-link"><a href={`/topics/${topic.slug}/`}>Open topic hub</a></p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="shell two-up">
+      <article class="prose-block card">
+        <p class="eyebrow">Why topics help</p>
+        <h2>From scattered pages to stronger journeys</h2>
+        <p>
+          Topic hubs make the site easier to understand for both readers and search engines.
+          Instead of treating every article as isolated, HerbGuide can now connect pantry
+          herbs, comparison pages, and recipe-style articles into more coherent clusters.
+        </p>
+      </article>
+
+      <article class="prose-block card">
+        <p class="eyebrow">Best starting points</p>
+        <h2>Strongest hubs right now</h2>
+        <ul>
+          <li><a href="/topics/warming-foods/">Warming Foods</a></li>
+          <li><a href="/topics/seasonal-kitchen-ideas/">Seasonal Kitchen Ideas</a></li>
+          <li><a href="/topics/balanced-pantry-habits/">Balanced Pantry Habits</a></li>
+        </ul>
+      </article>
+    </div>
+  </section>
+</BaseLayout>

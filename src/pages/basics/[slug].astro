@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { basicsArticles } from "../../data/articles";
+import { getTopicsForBasics } from "../../data/topics";
 
 export function getStaticPaths() {
   return basicsArticles.map((article) => ({
@@ -10,6 +11,7 @@ export function getStaticPaths() {
 }
 
 const { article } = Astro.props;
+const relatedTopics = getTopicsForBasics(article.slug);
 ---
 
 <BaseLayout
@@ -104,6 +106,17 @@ const { article } = Astro.props;
           for more plain-English explanations of traditional Chinese medicine terms.
         </p>
       </article>
+      {relatedTopics.length > 0 && (
+        <article class="prose-block card">
+          <p class="eyebrow">Topic hubs</p>
+          <h2>Browse this idea by theme</h2>
+          <ul>
+            {relatedTopics.map((topic) => (
+              <li><a href={`/topics/${topic.slug}/`}>{topic.title}</a></li>
+            ))}
+          </ul>
+        </article>
+      )}
     </div>
   </section>
 </BaseLayout>

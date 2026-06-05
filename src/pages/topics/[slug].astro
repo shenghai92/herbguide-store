@@ -1,0 +1,102 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { topics } from "../../data/topics";
+
+export function getStaticPaths() {
+  return topics.map((topic) => ({
+    params: { slug: topic.slug },
+    props: { topic },
+  }));
+}
+
+const { topic } = Astro.props;
+---
+
+<BaseLayout
+  title={`${topic.title} | HerbGuide`}
+  description={topic.description}
+  structuredData={[
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: topic.title,
+      description: topic.description,
+      url: `https://herbguide.store/topics/${topic.slug}/`,
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://herbguide.store/",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Topics",
+          item: "https://herbguide.store/topics/",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: topic.title,
+          item: `https://herbguide.store/topics/${topic.slug}/`,
+        },
+      ],
+    },
+  ]}
+>
+  <section class="page-hero">
+    <div class="shell narrow prose-block">
+      <p class="eyebrow">{topic.eyebrow}</p>
+      <h1>{topic.title}</h1>
+      <p>{topic.intro}</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell narrow stack">
+      {topic.sections.map((section) => (
+        <article class="prose-block card">
+          <h2>{section.title}</h2>
+          {section.paragraphs.map((paragraph) => (
+            <p>{paragraph}</p>
+          ))}
+          {section.bullets && (
+            <ul>
+              {section.bullets.map((bullet) => (
+                <li>{bullet}</li>
+              ))}
+            </ul>
+          )}
+        </article>
+      ))}
+
+      <article class="prose-block card">
+        <p class="eyebrow">Best next reads</p>
+        <h2>Follow this topic through the site</h2>
+        <div class="stack">
+          {topic.featuredLinks.map((link) => (
+            <article class="list-card">
+              <h3><a href={link.href}>{link.title}</a></h3>
+              <p>{link.text}</p>
+              <p class="card-link"><a href={link.href}>Open page</a></p>
+            </article>
+          ))}
+        </div>
+      </article>
+
+      <article class="prose-block card">
+        <p class="eyebrow">Keep exploring</p>
+        <h2>Browse more topic hubs</h2>
+        <p>
+          Return to <a href="/topics/">Topics</a> for more curated paths through herbs, basics,
+          and kitchen content.
+        </p>
+      </article>
+    </div>
+  </section>
+</BaseLayout>

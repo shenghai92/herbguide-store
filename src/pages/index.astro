@@ -3,6 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import SectionIntro from "../components/SectionIntro.astro";
 import { basicsCards, classicsCards, goalCards, recipeCards } from "../data/content";
 import { featuredHerbs, launchHerbList } from "../data/herbs";
+import { topics } from "../data/topics";
 ---
 
 <BaseLayout
@@ -96,7 +97,29 @@ import { featuredHerbs, launchHerbList } from "../data/herbs";
       />
       <div class="pill-grid">
         {goalCards.map((goal) => (
-          <a class="pill-card" href="/basics/">{goal}</a>
+          <a class="pill-card" href={`/topics/${goal.slug}/`}>{goal.title}</a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="shell">
+      <SectionIntro
+        eyebrow="Topic hubs"
+        title="Follow clearer reading paths"
+        text="These curated topic hubs connect herbs, basics, and recipe-style pages so readers can explore by intent instead of jumping around blindly."
+      />
+      <div class="card-grid">
+        {topics.slice(0, 3).map((topic) => (
+          <article class="card">
+            <p class="eyebrow">{topic.eyebrow}</p>
+            <h3><a href={`/topics/${topic.slug}/`}>{topic.title}</a></h3>
+            <p>{topic.description}</p>
+            <p class="card-link">
+              <a href={`/topics/${topic.slug}/`}>Open topic hub</a>
+            </p>
+          </article>
         ))}
       </div>
     </div>
@@ -262,6 +285,7 @@ import { featuredHerbs, launchHerbList } from "../data/herbs";
         <p>
           If you want supporting context, continue to
           <a href="/basics/"> TCM Basics</a>,
+          <a href="/glossary/"> TCM Glossary</a>,
           <a href="/food-therapy/"> Food Therapy</a>, and
           <a href="/classics/"> Chinese Classics</a>.
         </p>

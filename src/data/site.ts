@@ -15,6 +15,8 @@ export const siteConfig = {
 
 export const topNav = [
   { href: "/herbs/", label: "Herb Library" },
+  { href: "/topics/", label: "Topics" },
+  { href: "/glossary/", label: "Glossary" },
   { href: "/food-therapy/", label: "Food Therapy" },
   { href: "/basics/", label: "TCM Basics" },
   { href: "/classics/", label: "Chinese Classics" },
@@ -25,10 +27,13 @@ export const topNav = [
 export const footerNav = [
   { href: "/", label: "Home" },
   { href: "/herbs/", label: "Herb Library" },
+  { href: "/topics/", label: "Topics" },
+  { href: "/glossary/", label: "Glossary" },
   { href: "/food-therapy/", label: "Food Therapy" },
   { href: "/basics/", label: "TCM Basics" },
   { href: "/classics/", label: "Chinese Classics" },
   { href: "/safety/", label: "Safety" },
+  { href: "/sitemap/", label: "HTML Sitemap" },
   { href: "/disclaimer/", label: "Disclaimer" },
   { href: "/editorial-policy/", label: "Editorial Policy" },
   { href: "/privacy-policy/", label: "Privacy Policy" },

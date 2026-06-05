@@ -138,7 +138,8 @@ main {
 .two-up,
 .footer-grid,
 .herb-detail-grid,
-.herb-body-grid {
+.herb-body-grid,
+.recipe-grid {
   display: grid;
   gap: 2rem;
 }
@@ -337,6 +338,10 @@ main {
   align-items: start;
 }
 
+.recipe-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .meta-label {
   font-size: 0.9rem;
   font-family: "Segoe UI", Arial, sans-serif;
@@ -381,6 +386,17 @@ main {
 .prose-block ul {
   margin: 1rem 0 0;
   padding-left: 1.25rem;
+}
+
+.recipe-steps {
+  margin: 1rem 0 0;
+  padding-left: 1.35rem;
+  color: var(--muted);
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.recipe-steps li + li {
+  margin-top: 0.75rem;
 }
 
 .site-footer {

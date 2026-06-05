@@ -1,10 +1,10 @@
 export const goalCards = [
-  "Digestive Traditions",
-  "Evening Teas",
-  "Seasonal Kitchen Ideas",
-  "Warming Foods",
-  "Beauty Foods",
-  "Balanced Pantry Habits",
+  { slug: "digestive-traditions", title: "Digestive Traditions" },
+  { slug: "evening-teas", title: "Evening Teas" },
+  { slug: "seasonal-kitchen-ideas", title: "Seasonal Kitchen Ideas" },
+  { slug: "warming-foods", title: "Warming Foods" },
+  { slug: "beauty-foods", title: "Beauty Foods" },
+  { slug: "balanced-pantry-habits", title: "Balanced Pantry Habits" },
 ];
 
 export const basicsCards = [
@@ -28,6 +28,51 @@ export const basicsCards = [
     title: "What Is Dampness?",
     text: "An accessible explanation of a TCM pattern beginners often see but rarely understand.",
   },
+  {
+    slug: "what-is-yin-and-yang",
+    title: "What Is Yin and Yang?",
+    text: "A plain-English guide to one of the most famous but most flattened TCM ideas.",
+  },
+  {
+    slug: "what-does-blood-mean-in-tcm",
+    title: "What Does Blood Mean in TCM?",
+    text: "A careful beginner explanation of what blood means inside traditional theory.",
+  },
+  {
+    slug: "what-is-qi-stagnation",
+    title: "What Is Qi Stagnation?",
+    text: "A simple guide to a common TCM pattern phrase readers often see online.",
+  },
+  {
+    slug: "fresh-ginger-vs-dried-ginger",
+    title: "Fresh Ginger vs Dried Ginger",
+    text: "Why traditional herb pages treat two forms of ginger as related but not identical.",
+  },
+  {
+    slug: "ginseng-vs-american-ginseng",
+    title: "Ginseng vs American Ginseng",
+    text: "A clear comparison that shows why TCM does not flatten all ginseng into one idea.",
+  },
+  {
+    slug: "goji-berry-vs-jujube",
+    title: "Goji Berry vs Jujube",
+    text: "A pantry-friendly comparison of two of the most popular beginner ingredients.",
+  },
+  {
+    slug: "what-does-clear-heat-mean",
+    title: "What Does Clear Heat Mean?",
+    text: "A plain-English explanation of one of the most common cooling-herb phrases.",
+  },
+  {
+    slug: "what-does-tonify-mean-in-tcm",
+    title: "What Does Tonify Mean in TCM?",
+    text: "A simple guide to one of the most common translation words in Chinese herb content.",
+  },
+  {
+    slug: "what-does-moisten-dryness-mean",
+    title: "What Does Moisten Dryness Mean?",
+    text: "A beginner-friendly explanation of a classic phrase used on gentle food and herb pages.",
+  },
 ];
 
 export const classicsCards = [
@@ -46,6 +91,21 @@ export const classicsCards = [
     title: "Shanghan Lun",
     text: "How classical formula thinking continues to influence traditional practice.",
   },
+  {
+    slug: "shen-nong-ben-cao-jing",
+    title: "Shen Nong Ben Cao Jing",
+    text: "An early classical herb text that helps readers understand where herb categories began.",
+  },
+  {
+    slug: "jin-gui-yao-lue",
+    title: "Jin Gui Yao Lue",
+    text: "A key classic for formula thinking, practical patterns, and educational depth.",
+  },
+  {
+    slug: "wen-bing-xue",
+    title: "Wen Bing Xue",
+    text: "A simple introduction to the warm disease tradition behind later heat-language.",
+  },
 ];
 
 export const recipeCards = [
@@ -63,5 +123,20 @@ export const recipeCards = [
     slug: "jujube-and-ginger-tea-for-busy-weeks",
     title: "Jujube and Ginger Tea for Busy Weeks",
     text: "A short, practical routine article made for repeat visits and shares.",
+  },
+  {
+    slug: "pear-and-lily-bulb-soup-for-dry-days",
+    title: "Pear and Lily Bulb Soup for Dry Days",
+    text: "A gentle seasonal kitchen article built around an easy dryness-related pairing.",
+  },
+  {
+    slug: "black-sesame-breakfast-ideas-for-beginners",
+    title: "Black Sesame Breakfast Ideas for Beginners",
+    text: "A pantry-friendly article that turns black sesame into an everyday-use topic hub.",
+  },
+  {
+    slug: "chrysanthemum-and-mint-cooling-tea-basics",
+    title: "Chrysanthemum and Mint Cooling Tea Basics",
+    text: "A simple tea guide that explains cooling language through two familiar ingredients.",
   },
 ];

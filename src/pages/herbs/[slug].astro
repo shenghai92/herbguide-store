@@ -1,6 +1,8 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { herbs } from "../../data/herbs";
+import { getHerbEnhancement } from "../../data/herb-enhancements";
+import { getTopicsForHerb } from "../../data/topics";
 
 export function getStaticPaths() {
   return herbs.map((herb) => ({
@@ -13,6 +15,8 @@ const { herb } = Astro.props;
 const relatedHerbs = herbs.filter((item) => item.slug !== herb.slug && item.category === herb.category).slice(0, 3);
 const fallbackHerbs = herbs.filter((item) => item.slug !== herb.slug).slice(0, 3);
 const suggestedHerbs = relatedHerbs.length > 0 ? relatedHerbs : fallbackHerbs;
+const relatedTopics = getTopicsForHerb(herb.slug);
+const enhancement = getHerbEnhancement(herb.slug);
 ---
 
 <BaseLayout
@@ -149,6 +153,32 @@ const suggestedHerbs = relatedHerbs.length > 0 ? relatedHerbs : fallbackHerbs;
           </ul>
         </section>
 
+        {enhancement?.kitchenPairings && (
+          <section class="detail-section">
+            <h2>Common pairings and reading paths</h2>
+            <p>
+              Readers often understand a herb faster when they see what it tends to be paired
+              with in soups, teas, pantry routines, or comparison pages.
+            </p>
+            <ul>
+              {enhancement.kitchenPairings.map((item) => (
+                <li>{item}</li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {enhancement?.goodStartingPoints && (
+          <section class="detail-section">
+            <h2>Best way to start with this page</h2>
+            <ul>
+              {enhancement.goodStartingPoints.map((item) => (
+                <li>{item}</li>
+              ))}
+            </ul>
+          </section>
+        )}
+
         <section class="detail-section">
           <h2>How to read this page in context</h2>
           <p>
@@ -201,6 +231,26 @@ const suggestedHerbs = relatedHerbs.length > 0 ? relatedHerbs : fallbackHerbs;
             ))}
           </ul>
         </div>
+        {relatedTopics.length > 0 && (
+          <div class="sidebar-card">
+            <p class="eyebrow">Topic hubs</p>
+            <ul class="related-links">
+              {relatedTopics.map((topic) => (
+                <li><a href={`/topics/${topic.slug}/`}>{topic.title}</a></li>
+              ))}
+            </ul>
+          </div>
+        )}
+        {enhancement?.compareLinks && (
+          <div class="sidebar-card">
+            <p class="eyebrow">Compare and learn</p>
+            <ul class="related-links">
+              {enhancement.compareLinks.map((link) => (
+                <li><a href={link.href}>{link.title}</a></li>
+              ))}
+            </ul>
+          </div>
+        )}
       </aside>
     </div>
   </section>

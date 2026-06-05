@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { foodTherapyArticles } from "../../data/articles";
+import { getTopicsForFood } from "../../data/topics";
 
 export function getStaticPaths() {
   return foodTherapyArticles.map((article) => ({
@@ -10,6 +11,34 @@ export function getStaticPaths() {
 }
 
 const { article } = Astro.props;
+const relatedTopics = getTopicsForFood(article.slug);
+const formatDuration = (value: string) =>
+  value
+    .replace("PT", "")
+    .replace("H", " hr ")
+    .replace("M", " min")
+    .trim();
+const recipeSchema = article.recipe
+  ? {
+      "@context": "https://schema.org",
+      "@type": "Recipe",
+      name: article.title,
+      description: article.description,
+      recipeYield: article.recipe.recipeYield,
+      prepTime: article.recipe.prepTime,
+      totalTime: article.recipe.totalTime,
+      recipeIngredient: article.recipe.ingredients,
+      recipeInstructions: article.recipe.steps.map((step) => ({
+        "@type": "HowToStep",
+        text: step,
+      })),
+      keywords: ["Chinese food therapy", "traditional kitchen", "HerbGuide"],
+      author: {
+        "@type": "Organization",
+        name: "HerbGuide",
+      },
+    }
+  : null;
 ---
 
 <BaseLayout
@@ -55,6 +84,7 @@ const { article } = Astro.props;
         },
       ],
     },
+    ...(recipeSchema ? [recipeSchema] : []),
   ]}
 >
   <section class="page-hero">
@@ -82,6 +112,60 @@ const { article } = Astro.props;
           )}
         </article>
       ))}
+      {article.recipe && (
+        <>
+          <div class="recipe-grid">
+            <article class="prose-block card">
+              <p class="eyebrow">Recipe basics</p>
+              <h2>Ingredients</h2>
+              <p>
+                Yield: {article.recipe.recipeYield} | Prep: {formatDuration(article.recipe.prepTime)} | Total: {formatDuration(article.recipe.totalTime)}
+              </p>
+              <ul>
+                {article.recipe.ingredients.map((ingredient) => (
+                  <li>{ingredient}</li>
+                ))}
+              </ul>
+            </article>
+
+            <article class="prose-block card">
+              <p class="eyebrow">Step by step</p>
+              <h2>How to make it</h2>
+              <ol class="recipe-steps">
+                {article.recipe.steps.map((step) => (
+                  <li>{step}</li>
+                ))}
+              </ol>
+            </article>
+          </div>
+          {(article.recipe.servingNotes || article.recipe.caution) && (
+            <div class="recipe-grid">
+              {article.recipe.servingNotes && (
+                <article class="prose-block card">
+                  <p class="eyebrow">Serving notes</p>
+                  <h2>Keep it simple</h2>
+                  <ul>
+                    {article.recipe.servingNotes.map((note) => (
+                      <li>{note}</li>
+                    ))}
+                  </ul>
+                </article>
+              )}
+              {article.recipe.caution && (
+                <article class="prose-block caution-section">
+                  <p class="eyebrow">Caution</p>
+                  <h2>Read this recipe in context</h2>
+                  <ul>
+                    {article.recipe.caution.map((item) => (
+                      <li>{item}</li>
+                    ))}
+                  </ul>
+                </article>
+              )}
+            </div>
+          )}
+        </>
+      )}
       <article class="prose-block card">
         <p class="eyebrow">Ingredient links</p>
         <h2>Related herb pages for this topic</h2>
@@ -105,6 +189,17 @@ const { article } = Astro.props;
           there for more kitchen-focused reading and ingredient ideas.
         </p>
       </article>
+      {relatedTopics.length > 0 && (
+        <article class="prose-block card">
+          <p class="eyebrow">Topic hubs</p>
+          <h2>Continue this kitchen theme</h2>
+          <ul>
+            {relatedTopics.map((topic) => (
+              <li><a href={`/topics/${topic.slug}/`}>{topic.title}</a></li>
+            ))}
+          </ul>
+        </article>
+      )}
     </div>
   </section>
 </BaseLayout>

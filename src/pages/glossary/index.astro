@@ -1,0 +1,73 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import SectionIntro from "../../components/SectionIntro.astro";
+import { basicsArticles } from "../../data/articles";
+---
+
+<BaseLayout
+  title="TCM Glossary | HerbGuide"
+  description="A plain-English glossary of core Traditional Chinese Medicine terms used across HerbGuide."
+  structuredData={[
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: "TCM Glossary",
+      description: "A plain-English glossary of core Traditional Chinese Medicine terms used across HerbGuide.",
+      url: "https://herbguide.store/glossary/",
+    },
+  ]}
+>
+  <section class="page-hero">
+    <div class="shell narrow">
+      <p class="eyebrow">TCM Glossary</p>
+      <h1>Core TCM terms in plain English</h1>
+      <p>
+        This glossary collects the core Traditional Chinese Medicine ideas that readers see
+        repeatedly across herb pages, recipe articles, and topic hubs.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell">
+      <SectionIntro
+        eyebrow="Glossary paths"
+        title="Start with the terms people actually search"
+        text="These pages are designed to answer direct beginner questions clearly, without drifting into hype or confusing jargon."
+      />
+      <div class="card-grid">
+        {basicsArticles.map((article) => (
+          <article class="card">
+            <p class="eyebrow">{article.eyebrow}</p>
+            <h2><a href={`/basics/${article.slug}/`}>{article.title}</a></h2>
+            <p>{article.description}</p>
+            <p class="card-link"><a href={`/basics/${article.slug}/`}>Read term guide</a></p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="shell two-up">
+      <article class="prose-block card">
+        <p class="eyebrow">Why glossary pages matter</p>
+        <h2>Short questions often lead to the best entry pages</h2>
+        <p>
+          Searches like what is qi, what does dampness mean, what is yin and yang, or fresh
+          ginger vs dried ginger are often the first touchpoint for new readers. A strong
+          glossary layer helps HerbGuide meet those readers early.
+        </p>
+      </article>
+
+      <article class="prose-block card">
+        <p class="eyebrow">Keep exploring</p>
+        <h2>Use the glossary with topic hubs</h2>
+        <p>
+          After learning one term, the best next step is usually a <a href="/topics/">Topic Hub</a>
+          or a concrete ingredient page in the <a href="/herbs/">Herb Library</a>.
+        </p>
+      </article>
+    </div>
+  </section>
+</BaseLayout>
