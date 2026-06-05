@@ -5,8 +5,8 @@ import { topics } from "../../data/topics";
 ---
 
 <BaseLayout
-  title="Topics | HerbGuide"
-  description="Curated topic hubs that connect Chinese herbs, TCM basics, and food therapy into clear beginner-friendly reading paths."
+  title="Chinese Herb Topics and TCM Reading Paths | HerbGuide"
+  description="Browse Chinese herb topics, TCM reading paths, pantry ingredient clusters, and food therapy hubs built around real beginner search intent."
   structuredData={[
     {
       "@context": "https://schema.org",
@@ -15,6 +15,28 @@ import { topics } from "../../data/topics";
       description:
         "Curated topic hubs that connect Chinese herbs, TCM basics, and food therapy into clear beginner-friendly reading paths.",
       url: "https://herbguide.store/topics/",
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "What are HerbGuide topic hubs for?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "HerbGuide topic hubs group related herbs, food therapy pages, and TCM basics into clearer reading paths so visitors can browse by intent instead of isolated pages.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Which topic pages are best for beginners?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Balanced Pantry Habits, Seasonal Kitchen Ideas, Warming Foods, and Evening Teas are among the easiest starting points for beginner readers.",
+          },
+        },
+      ],
     },
   ]}
 >
@@ -46,6 +68,35 @@ import { topics } from "../../data/topics";
           </article>
         ))}
       </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="shell two-up">
+      <article class="prose-block card">
+        <p class="eyebrow">Search intent</p>
+        <h2>Browse Chinese herbs by topic, not just by ingredient</h2>
+        <p>
+          Many readers do not start with a single herb name. They start with broader questions
+          like which Chinese ingredients feel warming, which pantry herbs fit quiet evening tea,
+          or which pages explain dampness through food.
+        </p>
+        <p>
+          That is why these topic hubs matter. They help HerbGuide answer intent-level searches
+          in a way that feels more useful than a flat archive.
+        </p>
+      </article>
+
+      <article class="prose-block card">
+        <p class="eyebrow">Best clusters</p>
+        <h2>Topic clusters that already work well on this site</h2>
+        <ul>
+          <li>Warming foods, ginger pages, and cold-weather soups</li>
+          <li>Cooling teas, chrysanthemum, mint, and seasonal kitchen reading</li>
+          <li>Pantry berries, breakfast bowls, and gentle food therapy basics</li>
+          <li>Digestive traditions, chen pi, hawthorn, and simple grain-style pages</li>
+        </ul>
+      </article>
     </div>
   </section>
 
