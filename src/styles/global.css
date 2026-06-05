@@ -297,6 +297,54 @@ main {
   font-family: "Segoe UI", Arial, sans-serif;
 }
 
+.filter-panel {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.filter-group {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.filter-label {
+  margin: 0;
+  color: var(--muted);
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.filter-chip {
+  min-height: 2.35rem;
+  padding: 0.52rem 0.88rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255, 250, 243, 0.92);
+  color: var(--muted);
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.filter-chip.is-active {
+  background: var(--accent-dark);
+  color: #f8f2eb;
+  border-color: var(--accent-dark);
+}
+
+.filter-chip-small {
+  min-width: 2.35rem;
+  padding-inline: 0.7rem;
+}
+
 .pill-grid,
 .card-grid {
   display: grid;
@@ -322,10 +370,49 @@ main {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.directory-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
 .card,
 .list-card,
 .info-panel {
   padding: 1.5rem;
+}
+
+.directory-card {
+  padding: 1.1rem 1.2rem;
+  background: rgba(255, 250, 243, 0.82);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.directory-card h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.35rem;
+}
+
+.directory-card .eyebrow {
+  margin-bottom: 0.3rem;
+}
+
+.directory-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-top: 0.75rem;
+}
+
+.compact-tags {
+  margin-top: 0.75rem;
+}
+
+.compact-tags li {
+  font-size: 0.82rem;
+  padding: 0.32rem 0.58rem;
 }
 
 .stack {
@@ -520,6 +607,7 @@ main {
   .footer-grid,
   .pill-grid,
   .card-grid,
+  .directory-grid,
   .herb-detail-grid,
   .herb-body-grid {
     grid-template-columns: 1fr;

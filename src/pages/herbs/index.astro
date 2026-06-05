@@ -1,7 +1,10 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import SectionIntro from "../../components/SectionIntro.astro";
-import { herbs } from "../../data/herbs";
+import { featuredHerbs, herbs } from "../../data/herbs";
+
+const herbCategories = Array.from(new Set(herbs.map((herb) => herb.category))).sort();
+const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperCase()))).sort();
 ---
 
 <BaseLayout
@@ -63,8 +66,9 @@ import { herbs } from "../../data/herbs";
       <p class="eyebrow">Herb Library</p>
       <h1>Beginner-friendly herb profiles</h1>
       <p>
-        Every herb has its own dedicated page. Use the library search to jump directly to
-        the herb a reader wants instead of making them scroll through an oversized list.
+        Every herb has its own dedicated page. Use the library search, category filters, and
+        alphabet filters to jump directly to the herb a reader wants instead of making them
+        scroll through an oversized list.
       </p>
     </div>
   </section>
@@ -73,7 +77,7 @@ import { herbs } from "../../data/herbs";
     <div class="shell">
       <SectionIntro
         title="Search the herb library"
-        text="This first version keeps search simple and fast with client-side filtering. That gives readers direct access to each herb page without needing a database or external search service."
+        text="This version keeps herb browsing fast with client-side search plus simple filters, so the library can stay usable even as the total herb count keeps growing."
       />
       <div class="search-panel">
         <label class="sr-only" for="herb-search">Search herbs</label>
@@ -82,24 +86,85 @@ import { herbs } from "../../data/herbs";
           type="search"
           placeholder="Search by English name, pinyin, Chinese name, tag, or use"
         />
-        <p class="search-note">Start with terms like goji, huang qi, tea, or digestive.</p>
+        <p class="search-note">Start with terms like goji, huang qi, tea, digestive, or warming.</p>
       </div>
+      <div class="filter-panel">
+        <div class="filter-group">
+          <p class="filter-label">Browse by category</p>
+          <div class="filter-row" id="category-filters">
+            <button class="filter-chip is-active" type="button" data-category-filter="all">All categories</button>
+            {herbCategories.map((category) => (
+              <button class="filter-chip" type="button" data-category-filter={category}>{category}</button>
+            ))}
+          </div>
+        </div>
+        <div class="filter-group">
+          <p class="filter-label">Jump by letter</p>
+          <div class="filter-row" id="letter-filters">
+            <button class="filter-chip is-active" type="button" data-letter-filter="all">All letters</button>
+            {herbLetters.map((letter) => (
+              <button class="filter-chip filter-chip-small" type="button" data-letter-filter={letter}>{letter}</button>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="shell">
+      <SectionIntro
+        eyebrow="Best first clicks"
+        title="Start with the easiest food-friendly herbs"
+        text="These herbs are the strongest first clicks for new readers because they connect naturally to tea, soup, porridge, and practical kitchen learning."
+      />
+      <div class="card-grid">
+        {featuredHerbs.map((herb) => (
+          <article class="card">
+            <p class="eyebrow">{herb.pinyin} 路 {herb.chinese}</p>
+            <h2><a href={`/herbs/${herb.slug}/`}>{herb.name}</a></h2>
+            <p>{herb.summary}</p>
+            <p class="meta-label">Category: {herb.category}</p>
+            <p class="card-link">
+              <a href={`/herbs/${herb.slug}/`}>Open herb page</a>
+            </p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell">
+      <SectionIntro
+        eyebrow="Compact directory"
+        title="Browse the full herb library without endless scrolling"
+        text="The full library now uses a denser directory layout. Search, category filters, and letter filters work together so the page stays usable as the site grows."
+      />
       <p class="search-empty" id="search-empty" hidden>
         No herbs matched that search yet. Try an English name, pinyin, a food use, or a
         broader term like tea or soup.
       </p>
-      <div class="card-grid" id="herb-results">
+      <div class="directory-grid" id="herb-results">
         {herbs.map((herb) => (
           <article
-            class="card herb-card"
+            class="directory-card herb-card"
+            data-category={herb.category}
+            data-letter={herb.name[0].toUpperCase()}
             data-search={`${herb.name} ${herb.pinyin} ${herb.chinese} ${herb.summary} ${herb.tags.join(" ")} ${herb.foodUses.join(" ")}`.toLowerCase()}
           >
-            <p class="eyebrow">{herb.pinyin} · {herb.chinese}</p>
+            <p class="eyebrow">{herb.pinyin} 路 {herb.chinese}</p>
             <h2><a href={`/herbs/${herb.slug}/`}>{herb.name}</a></h2>
             <p>{herb.summary}</p>
-            <p class="meta-label">Category: {herb.category}</p>
-            <ul class="tag-list">
-              {herb.tags.slice(0, 4).map((tag) => (
+            <div class="directory-meta">
+              <p class="meta-label">Category: {herb.category}</p>
+              <p class="meta-label">Nature: {herb.nature}</p>
+            </div>
+            <ul class="tag-list compact-tags">
+              {herb.foodUses.slice(0, 3).map((use) => (
+                <li>{use}</li>
+              ))}
+              {herb.tags.slice(0, 2).map((tag) => (
                 <li>{tag}</li>
               ))}
             </ul>
@@ -233,27 +298,61 @@ import { herbs } from "../../data/herbs";
     const searchInput = document.querySelector("#herb-search");
     const herbCards = Array.from(document.querySelectorAll(".herb-card"));
     const emptyState = document.querySelector("#search-empty");
+    const categoryButtons = Array.from(document.querySelectorAll("[data-category-filter]"));
+    const letterButtons = Array.from(document.querySelectorAll("[data-letter-filter]"));
 
-    if (searchInput && herbCards.length > 0) {
-      searchInput.addEventListener("input", (event) => {
-        const value = event.target.value.trim().toLowerCase();
+    let activeCategory = "all";
+    let activeLetter = "all";
 
-        let visibleCount = 0;
+    const renderResults = () => {
+      const value = searchInput ? searchInput.value.trim().toLowerCase() : "";
+      let visibleCount = 0;
 
-        herbCards.forEach((card) => {
-          const haystack = card.dataset.search ?? "";
-          const isMatch = haystack.includes(value);
-          card.style.display = isMatch ? "" : "none";
+      herbCards.forEach((card) => {
+        const haystack = card.dataset.search ?? "";
+        const matchesSearch = haystack.includes(value);
+        const matchesCategory =
+          activeCategory === "all" || (card.dataset.category ?? "") === activeCategory;
+        const matchesLetter =
+          activeLetter === "all" || (card.dataset.letter ?? "") === activeLetter;
+        const isMatch = matchesSearch && matchesCategory && matchesLetter;
 
-          if (isMatch) {
-            visibleCount += 1;
-          }
-        });
+        card.style.display = isMatch ? "" : "none";
 
-        if (emptyState) {
-          emptyState.hidden = visibleCount > 0;
+        if (isMatch) {
+          visibleCount += 1;
         }
       });
+
+      if (emptyState) {
+        emptyState.hidden = visibleCount > 0;
+      }
+    };
+
+    if (searchInput && herbCards.length > 0) {
+      searchInput.addEventListener("input", () => {
+        renderResults();
+      });
     }
+
+    categoryButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        activeCategory = button.dataset.categoryFilter ?? "all";
+        categoryButtons.forEach((item) =>
+          item.classList.toggle("is-active", item === button),
+        );
+        renderResults();
+      });
+    });
+
+    letterButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        activeLetter = button.dataset.letterFilter ?? "all";
+        letterButtons.forEach((item) =>
+          item.classList.toggle("is-active", item === button),
+        );
+        renderResults();
+      });
+    });
   </script>
 </BaseLayout>
