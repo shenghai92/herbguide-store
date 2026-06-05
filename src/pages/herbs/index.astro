@@ -121,7 +121,7 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
       <div class="card-grid">
         {featuredHerbs.map((herb) => (
           <article class="card">
-            <p class="eyebrow">{herb.pinyin} 路 {herb.chinese}</p>
+            <p class="eyebrow">{herb.pinyin} | {herb.chinese}</p>
             <h2><a href={`/herbs/${herb.slug}/`}>{herb.name}</a></h2>
             <p>{herb.summary}</p>
             <p class="meta-label">Category: {herb.category}</p>
@@ -153,7 +153,7 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
             data-letter={herb.name[0].toUpperCase()}
             data-search={`${herb.name} ${herb.pinyin} ${herb.chinese} ${herb.summary} ${herb.tags.join(" ")} ${herb.foodUses.join(" ")}`.toLowerCase()}
           >
-            <p class="eyebrow">{herb.pinyin} 路 {herb.chinese}</p>
+            <p class="eyebrow">{herb.pinyin} | {herb.chinese}</p>
             <h2><a href={`/herbs/${herb.slug}/`}>{herb.name}</a></h2>
             <p>{herb.summary}</p>
             <div class="directory-meta">
@@ -256,6 +256,12 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
           <a href="/herbs/astragalus-root/">Astragalus Root</a>,
           <a href="/herbs/ginseng/">Ginseng</a>, and
           <a href="/herbs/codonopsis/">Codonopsis</a>.
+        </p>
+        <p>
+          If you want softer pantry ingredients, a strong alternate route is
+          <a href="/herbs/mulberry-fruit/">Mulberry Fruit</a>,
+          <a href="/herbs/lotus-seed/">Lotus Seed</a>, and
+          <a href="/herbs/tremella-mushroom/">Tremella Mushroom</a>.
         </p>
       </article>
     </div>
