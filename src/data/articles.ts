@@ -1149,6 +1149,34 @@ export const foodTherapyArticles: ContentArticle[] = [
     eyebrow: "Food Therapy",
     intro:
       "For many readers, the easiest entry into Chinese food traditions is not a complicated formula. It is a handful of familiar ingredients that already make sense in soups, teas, porridge, and pantry habits.",
+    recipe: {
+      recipeYield: "2 to 3 servings",
+      prepTime: "PT10M",
+      totalTime: "PT30M",
+      ingredients: [
+        "4 cups water",
+        "2 slices fresh ginger",
+        "3 dried jujubes, split",
+        "1 tablespoon goji berries",
+        "1 teaspoon dried chrysanthemum flowers",
+        "1 teaspoon black sesame seeds",
+        "Optional: 1 thin slice pear for a softer finish",
+      ],
+      steps: [
+        "Add the ginger, jujube, and water to a small pot and bring to a gentle boil.",
+        "Lower the heat and simmer for about 15 minutes so the base tastes light and fragrant.",
+        "Add the goji berries and optional pear during the last 5 minutes of simmering.",
+        "Turn off the heat, then add the chrysanthemum and cover for 3 to 5 minutes.",
+        "Pour into cups or small bowls and finish with a light sprinkle of black sesame before serving.",
+      ],
+      servingNotes: [
+        "This simple mixed base works best as a teaching recipe that introduces several beginner ingredients at once.",
+        "Keep the flavor light so each ingredient stays easy to recognize.",
+      ],
+      caution: [
+        "This page is a food-level introduction to familiar ingredients, not a personalized formula or treatment plan.",
+      ],
+    },
     sections: [
       {
         title: "A simple beginner list",
@@ -1354,6 +1382,32 @@ export const foodTherapyArticles: ContentArticle[] = [
     eyebrow: "Food Therapy",
     intro:
       "Black sesame works especially well in breakfast-style content because it already feels at home in porridge, paste, buns, desserts, and simple topping ideas. That makes it one of the strongest bridge ingredients between search traffic and repeat readers.",
+    recipe: {
+      recipeYield: "2 bowls",
+      prepTime: "PT5M",
+      totalTime: "PT15M",
+      ingredients: [
+        "1 1/2 cups cooked oatmeal or warm rice porridge",
+        "1 tablespoon black sesame seeds, lightly ground",
+        "1 teaspoon black sesame paste or tahini, optional",
+        "1 to 2 chopped jujubes or a few goji berries",
+        "A small splash of warm milk or oat milk if needed",
+      ],
+      steps: [
+        "Prepare the oatmeal or rice porridge so it is warm and soft.",
+        "Stir in the ground black sesame while the bowl is still hot.",
+        "Add the optional black sesame paste and a small splash of warm milk if you want a smoother texture.",
+        "Top with the chopped jujube or goji berries.",
+        "Serve warm as a simple breakfast bowl with very little added sweetness.",
+      ],
+      servingNotes: [
+        "A soft grain base makes black sesame easier for beginners to picture in a real breakfast routine.",
+        "This page works best as a practical pantry bowl, not a dessert-heavy recipe.",
+      ],
+      caution: [
+        "Black sesame breakfast language here belongs to traditional food context and everyday kitchen use, not a medical claim.",
+      ],
+    },
     sections: [
       {
         title: "Why breakfast content is useful",

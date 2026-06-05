@@ -36,6 +36,14 @@ import { recipeCards } from "../../data/content";
             text: "Ginger, jujube, goji berry, chrysanthemum, mint, black sesame, lotus seed, and pear are among the easiest beginner-friendly ingredients.",
           },
         },
+        {
+          "@type": "Question",
+          name: "Do these food therapy pages include ingredients and step-by-step instructions?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. HerbGuide food therapy pages include ingredient lists, simple preparation steps, serving notes when helpful, and caution language when context matters.",
+          },
+        },
       ],
     },
   ]}
@@ -55,14 +63,14 @@ import { recipeCards } from "../../data/content";
     <div class="shell">
       <SectionIntro
         title="Starter topics"
-        text="The launch site focuses on beginner-friendly recipe content with familiar ingredients, cultural context, and careful safety language."
+        text="These beginner-friendly recipe pages already include familiar ingredients, simple how-to steps, cultural context, and careful safety language."
       />
       <div class="stack">
         {recipeCards.map((card) => (
           <article class="list-card">
             <h2><a href={`/food-therapy/${card.slug}/`}>{card.title}</a></h2>
             <p>{card.text}</p>
-            <p class="card-link"><a href={`/food-therapy/${card.slug}/`}>Read article</a></p>
+            <p class="card-link"><a href={`/food-therapy/${card.slug}/`}>Read ingredients and steps</a></p>
           </article>
         ))}
       </div>
@@ -196,14 +204,13 @@ import { recipeCards } from "../../data/content";
         <p class="eyebrow">Depth plan</p>
         <h2>Traditional soup recipes with step-by-step instructions</h2>
         <p>
-          As this section expands, the strongest premium-style topics are detailed Chinese
-          traditional soup recipes, herbal tea recipes with step-by-step instructions, and
-          simple weekly meal structures built around season, comfort, and pantry-friendly
-          ingredients.
+          This section now includes detailed Chinese traditional soup recipes, herbal tea
+          recipes with step-by-step instructions, and simple pantry-style bowls built around
+          season, comfort, and familiar ingredients.
         </p>
         <p>
-          Each page can start with a clear ingredient list, explain why those ingredients are
-          traditionally paired, and then walk through timing, simmering, preparation, and
+          Each page starts with a clear ingredient list, explains why those ingredients are
+          traditionally paired, and walks through timing, simmering, preparation, and
           practical serving ideas.
         </p>
       </article>
@@ -226,10 +233,10 @@ import { recipeCards } from "../../data/content";
           Ginger, jujube, goji berry, chrysanthemum, mint, black sesame, lotus seed, and
           pear are among the easiest to explain because they already feel close to food.
         </p>
-        <h3>Will HerbGuide include full recipe steps later?</h3>
+        <h3>Do HerbGuide recipe pages include full preparation steps?</h3>
         <p>
-          Yes. The strongest next-stage pages for this section are detailed soups, teas, and
-          ingredient pairings with exact preparation steps and practical serving notes.
+          Yes. Current food therapy pages include ingredients, exact preparation steps,
+          and practical serving notes when they help the recipe feel easier to use.
         </p>
       </article>
 
