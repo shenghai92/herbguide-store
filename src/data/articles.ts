@@ -689,6 +689,80 @@ export const basicsArticles: ContentArticle[] = [
       },
     ],
   },
+  {
+    slug: "what-does-channel-entry-mean",
+    title: "What Does Channel Entry Mean?",
+    description:
+      "A plain-English explanation of channel entry and why it appears on so many Chinese herb pages.",
+    eyebrow: "TCM Basics",
+    intro:
+      "Channel entry is one of the most common lines on Chinese herb pages and one of the least explained. In TCM writing, it describes the traditional functional systems and pathways an herb is said to relate to. It does not mean the herb only affects one literal organ in the modern anatomical sense.",
+    sections: [
+      {
+        title: "Why this line confuses beginners",
+        paragraphs: [
+          "Readers often see channel entry next to nature and flavor, but no one explains what it is doing there. That can make the whole herb page feel more technical than it needs to be.",
+          "A clearer explanation is that channel entry helps organize how a herb is traditionally grouped inside TCM theory. It belongs to a traditional map, not a lab-based body map.",
+        ],
+      },
+      {
+        title: "What organ names mean in this context",
+        paragraphs: [
+          "When a herb is said to enter the Lung, Spleen, Liver, or Kidney channel, the names point to broader TCM functional systems rather than one-to-one anatomical structures.",
+          "That is why one herb can be discussed in relation to digestion, mood, seasonal dryness, or fluid balance while still listing only a few channels on the page.",
+        ],
+        bullets: [
+          "Channel entry is traditional classification language.",
+          "It gives context, not a personal recommendation.",
+          "It works best when read together with nature, flavor, and practical use.",
+        ],
+      },
+      {
+        title: "How HerbGuide uses channel entry",
+        paragraphs: [
+          "HerbGuide keeps channel entry visible because it is part of real TCM herb reading, but we always pair it with plain-English explanation.",
+          "That helps readers understand why fresh ginger, chrysanthemum, goji berry, and poria are described differently even when all four can appear in food-friendly content.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "what-is-food-stagnation-in-tcm",
+    title: "What Is Food Stagnation in TCM?",
+    description:
+      "A plain-English guide to the TCM term food stagnation and why it appears on digestive tea and pantry pages.",
+    eyebrow: "TCM Basics",
+    intro:
+      "Food stagnation is a traditional TCM phrase that usually appears in digestive writing around fullness, heaviness, rich meals, and the feeling that food is not moving or transforming smoothly in the traditional model. It is not a modern diagnosis label, but it is a very common educational term on pantry-style herb pages.",
+    sections: [
+      {
+        title: "Why this term matters for beginners",
+        paragraphs: [
+          "Readers looking up hawthorn berry, chen pi, dampness, or digestive tea pages often run into food stagnation language quickly.",
+          "Without explanation, the phrase can sound either too literal or too mystical. A plain-English definition makes digestive content much easier to trust.",
+        ],
+      },
+      {
+        title: "How the phrase is usually used",
+        paragraphs: [
+          "On a careful educational site, food stagnation often points to heaviness after eating, rich-meal context, sluggishness, or the traditional idea that food is lingering rather than processing smoothly.",
+          "This is one reason hawthorn berry, chen pi, ginger, and lighter porridge content fit so naturally around the term.",
+        ],
+        bullets: [
+          "Food stagnation is a traditional digestive phrase.",
+          "It is often discussed near rich meals and heavy foods.",
+          "It should not be treated as self-diagnosis from one article.",
+        ],
+      },
+      {
+        title: "How HerbGuide handles the term",
+        paragraphs: [
+          "HerbGuide uses food stagnation to translate digestive kitchen language more clearly, especially on tea pages and topic hubs.",
+          "The goal is to help readers understand why certain ingredients are paired traditionally without pushing them toward personal treatment decisions.",
+        ],
+      },
+    ],
+  },
 ];
 
 export const classicsArticles: ContentArticle[] = [
@@ -1388,6 +1462,107 @@ export const foodTherapyArticles: ContentArticle[] = [
         paragraphs: [
           "This bowl teaches that Chinese food therapy can be gentle, ordinary, and ingredient-focused rather than dramatic.",
           "It also strengthens the beauty-food, balanced-pantry, and beginner breakfast pathways across the site.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "jobs-tears-porridge-for-heavy-days",
+    title: "Job's Tears Porridge for Heavy Days",
+    description:
+      "A gentle grain-style food therapy page that helps readers understand dampness language through a practical pantry recipe.",
+    eyebrow: "Food Therapy",
+    intro:
+      "Job's tears is one of the most useful ingredients for turning TCM dampness language into something concrete. A simple porridge page helps readers picture the ingredient in a real bowl, which is much easier to trust than abstract digestive theory on its own.",
+    recipe: {
+      recipeYield: "2 bowls",
+      prepTime: "PT10M",
+      totalTime: "PT50M",
+      ingredients: [
+        "1/2 cup job's tears",
+        "4 cups water",
+        "2 thin slices fresh ginger, optional",
+        "A small pinch of salt or leave plain",
+        "Optional: a few diced carrots for a softer savory version",
+      ],
+      steps: [
+        "Rinse the job's tears well and soak briefly if the grains are very firm.",
+        "Add the grains and water to a small pot and bring to a gentle boil.",
+        "Lower the heat and simmer until the grains soften into a light porridge texture.",
+        "Add the optional ginger during the second half of cooking if you want a slightly warmer profile.",
+        "Serve warm and keep the seasoning simple.",
+      ],
+      servingNotes: [
+        "A plain version usually works best for educational pantry content.",
+        "This page is strongest as a seasonal kitchen idea rather than a daily rule.",
+      ],
+      caution: [
+        "Heavy-day language here belongs to traditional food context, not diagnosis or treatment advice.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why this page works so well for dampness reading",
+        paragraphs: [
+          "Readers can immediately see how a grain-style ingredient fits into Chinese kitchen traditions.",
+          "That makes the TCM idea of heaviness or dampness feel much less abstract than a definition page on its own.",
+        ],
+      },
+      {
+        title: "What the bowl teaches beyond the recipe",
+        paragraphs: [
+          "A job's tears porridge page helps connect dampness, digestive traditions, poria, and lighter pantry routines into one reading path.",
+          "It also gives glossary visitors a practical next click after terms like dampness or food stagnation.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "pear-and-chrysanthemum-tea-for-warm-afternoons",
+    title: "Pear and Chrysanthemum Tea for Warm Afternoons",
+    description:
+      "A light seasonal tea page that supports cooling and dryness pathways with familiar ingredients and low-hype language.",
+    eyebrow: "Food Therapy",
+    intro:
+      "Pear and chrysanthemum make a useful pairing for seasonal content because the ingredients already feel recognizable and the traditional language around them often connects to warmth, lightness, and dryness. A simple tea page gives readers a gentle way to understand that vocabulary through the kitchen first.",
+    recipe: {
+      recipeYield: "2 mugs",
+      prepTime: "PT6M",
+      totalTime: "PT20M",
+      ingredients: [
+        "1 small pear, sliced thinly",
+        "1 tablespoon dried chrysanthemum flowers",
+        "3 cups water",
+        "Optional: 2 to 3 goji berries added near the end",
+      ],
+      steps: [
+        "Rinse the chrysanthemum and slice the pear.",
+        "Add the water and pear to a small pot and bring to a light simmer.",
+        "After 8 minutes, add the chrysanthemum and optional goji berries.",
+        "Simmer gently for another 3 to 4 minutes, then turn off the heat.",
+        "Strain or pour directly into mugs and serve warm.",
+      ],
+      servingNotes: [
+        "The flavor should stay light and floral rather than heavily sweet.",
+        "This page works well as a seasonal tea idea, not as a fixed daily instruction.",
+      ],
+      caution: [
+        "Warm-afternoon language here is traditional seasonal context, not personal medical guidance.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why this is a strong seasonal teaching page",
+        paragraphs: [
+          "Pear makes the page approachable while chrysanthemum carries the traditional cooling story clearly.",
+          "Together they create a calmer, easier entry into pages about clear heat, dryness, and warm-weather kitchen ideas.",
+        ],
+      },
+      {
+        title: "How this page supports the wider site",
+        paragraphs: [
+          "This tea article strengthens the link between chrysanthemum, pear-style seasonal content, glossary pages about clear heat, and the seasonal kitchen topic hub.",
+          "It also gives visitors who land on warming pages a useful contrast page instead of letting the session stop at one concept.",
         ],
       },
     ],

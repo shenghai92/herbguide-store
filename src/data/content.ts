@@ -98,6 +98,16 @@ export const basicsCards = [
     title: "What Does Jing Mean in TCM?",
     text: "A careful beginner guide to the traditional idea of essence without turning it into hype.",
   },
+  {
+    slug: "what-does-channel-entry-mean",
+    title: "What Does Channel Entry Mean?",
+    text: "A plain-English explanation of one of the most confusing lines on many Chinese herb pages.",
+  },
+  {
+    slug: "what-is-food-stagnation-in-tcm",
+    title: "What Is Food Stagnation in TCM?",
+    text: "A careful beginner guide to one of the most common digestive terms in Chinese kitchen-style herb content.",
+  },
 ];
 
 export const classicsCards = [
@@ -188,5 +198,15 @@ export const recipeCards = [
     slug: "black-sesame-and-jujube-breakfast-bowl",
     title: "Black Sesame and Jujube Breakfast Bowl",
     text: "A soft pantry-style breakfast page that deepens the site's black sesame and jujube pathways.",
+  },
+  {
+    slug: "jobs-tears-porridge-for-heavy-days",
+    title: "Job's Tears Porridge for Heavy Days",
+    text: "A gentle grain-style page that turns dampness language into a concrete pantry recipe readers can picture.",
+  },
+  {
+    slug: "pear-and-chrysanthemum-tea-for-warm-afternoons",
+    title: "Pear and Chrysanthemum Tea for Warm Afternoons",
+    text: "A light seasonal tea page that supports cooling and dryness pathways without overclaiming.",
   },
 ];

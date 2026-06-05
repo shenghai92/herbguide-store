@@ -93,6 +93,54 @@ export const herbEnhancements: HerbEnhancement[] = [
       { title: "Digestive Traditions", href: "/topics/digestive-traditions/" },
     ],
   },
+  {
+    slug: "hawthorn-berry",
+    kitchenPairings: ["Chen pi", "Fresh ginger", "Light tart tea", "Rich meal contrast"],
+    goodStartingPoints: [
+      "Hawthorn is easiest to understand through rich-meal and pantry-tea language rather than isolated claims.",
+      "Use it as a digestive reading page that connects glossary terms with practical kitchen context.",
+    ],
+    compareLinks: [
+      { title: "Hawthorn Berry Tea for Rich Meals", href: "/food-therapy/hawthorn-berry-tea-for-rich-meals/" },
+      { title: "What Is Food Stagnation in TCM?", href: "/basics/what-is-food-stagnation-in-tcm/" },
+    ],
+  },
+  {
+    slug: "poria",
+    kitchenPairings: ["Job's tears", "Light soups", "Plain porridge", "Chen pi in broader digestive reading"],
+    goodStartingPoints: [
+      "Poria makes the most sense after reading one plain-English page about dampness first.",
+      "Think of it as a context herb for traditional fluid and heaviness language, not a quick-fix ingredient.",
+    ],
+    compareLinks: [
+      { title: "What Is Dampness?", href: "/basics/what-is-dampness/" },
+      { title: "Job's Tears Porridge for Heavy Days", href: "/food-therapy/jobs-tears-porridge-for-heavy-days/" },
+    ],
+  },
+  {
+    slug: "lotus-seed",
+    kitchenPairings: ["Longan fruit", "Jujube", "Sweet soups", "Black sesame in broader pantry routines"],
+    goodStartingPoints: [
+      "Lotus seed is easiest to trust when introduced through dessert soups and gentle evening-style kitchen pages.",
+      "Use it as a bridge between pantry familiarity and calmer traditional vocabulary.",
+    ],
+    compareLinks: [
+      { title: "Lotus Seed and Longan Sweet Soup Basics", href: "/food-therapy/lotus-seed-and-longan-sweet-soup-basics/" },
+      { title: "What Does Shen Mean in TCM?", href: "/basics/what-does-shen-mean-in-tcm/" },
+    ],
+  },
+  {
+    slug: "jobs-tears",
+    kitchenPairings: ["Poria", "Fresh ginger", "Light savory porridge", "Simple grain bowls"],
+    goodStartingPoints: [
+      "Job's tears works best for readers who want a concrete food example for dampness language.",
+      "A porridge or grain-style page is usually the easiest way to make this ingredient memorable.",
+    ],
+    compareLinks: [
+      { title: "Job's Tears Porridge for Heavy Days", href: "/food-therapy/jobs-tears-porridge-for-heavy-days/" },
+      { title: "Digestive Traditions", href: "/topics/digestive-traditions/" },
+    ],
+  },
 ];
 
 export const getHerbEnhancement = (slug: string) =>
