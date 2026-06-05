@@ -69,6 +69,30 @@ export const herbEnhancements: HerbEnhancement[] = [
       { title: "Chrysanthemum and Mint Cooling Tea Basics", href: "/food-therapy/chrysanthemum-and-mint-cooling-tea-basics/" },
     ],
   },
+  {
+    slug: "black-sesame-seed",
+    kitchenPairings: ["Goji berry", "Warm porridge", "Sesame paste", "Lotus seed desserts"],
+    goodStartingPoints: [
+      "Black sesame is easiest to understand through pantry use, breakfast pages, and dessert-style routines.",
+      "It is strongest on HerbGuide when treated as a food-first ingredient rather than a hype-heavy beauty shortcut.",
+    ],
+    compareLinks: [
+      { title: "Black Sesame Breakfast Ideas for Beginners", href: "/food-therapy/black-sesame-breakfast-ideas-for-beginners/" },
+      { title: "Beauty Foods", href: "/topics/beauty-foods/" },
+    ],
+  },
+  {
+    slug: "chen-pi",
+    kitchenPairings: ["Fresh ginger", "Hawthorn", "Light teas", "Soup bases"],
+    goodStartingPoints: [
+      "Chen pi becomes much easier to understand when read as an aromatic pantry ingredient first.",
+      "A tea-style page is often the simplest way for readers to connect the traditional story with practical kitchen use.",
+    ],
+    compareLinks: [
+      { title: "Chen Pi Tea for Heavy Meal Days", href: "/food-therapy/chen-pi-tea-for-heavy-meal-days/" },
+      { title: "Digestive Traditions", href: "/topics/digestive-traditions/" },
+    ],
+  },
 ];
 
 export const getHerbEnhancement = (slug: string) =>

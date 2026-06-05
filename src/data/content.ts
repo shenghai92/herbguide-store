@@ -73,6 +73,21 @@ export const basicsCards = [
     title: "What Does Moisten Dryness Mean?",
     text: "A beginner-friendly explanation of a classic phrase used on gentle food and herb pages.",
   },
+  {
+    slug: "what-does-spleen-mean-in-tcm",
+    title: "What Does Spleen Mean in TCM?",
+    text: "A plain-English guide to one of the most important organ-system words in food therapy writing.",
+  },
+  {
+    slug: "what-does-liver-mean-in-tcm",
+    title: "What Does Liver Mean in TCM?",
+    text: "A clear explanation of why the TCM liver is broader than a modern anatomy label.",
+  },
+  {
+    slug: "what-does-yin-deficiency-mean",
+    title: "What Does Yin Deficiency Mean?",
+    text: "A cautious beginner guide to one of the most searched TCM pattern phrases.",
+  },
 ];
 
 export const classicsCards = [
@@ -138,5 +153,20 @@ export const recipeCards = [
     slug: "chrysanthemum-and-mint-cooling-tea-basics",
     title: "Chrysanthemum and Mint Cooling Tea Basics",
     text: "A simple tea guide that explains cooling language through two familiar ingredients.",
+  },
+  {
+    slug: "goji-berry-porridge-for-gentle-mornings",
+    title: "Goji Berry Porridge for Gentle Mornings",
+    text: "A soft breakfast-style page built around one of the easiest pantry herbs for beginners.",
+  },
+  {
+    slug: "lotus-seed-and-longan-sweet-soup-basics",
+    title: "Lotus Seed and Longan Sweet Soup Basics",
+    text: "A gentle dessert-soup article that adds depth to the site's nourishing kitchen content.",
+  },
+  {
+    slug: "chen-pi-tea-for-heavy-meal-days",
+    title: "Chen Pi Tea for Heavy Meal Days",
+    text: "A pantry-style tea page that gives digestive visitors a very practical chen pi entry point.",
   },
 ];

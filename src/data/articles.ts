@@ -504,6 +504,117 @@ export const basicsArticles: ContentArticle[] = [
       },
     ],
   },
+  {
+    slug: "what-does-spleen-mean-in-tcm",
+    title: "What Does Spleen Mean in TCM?",
+    description:
+      "A beginner-friendly explanation of why the TCM spleen is not exactly the same thing as the organ name many readers know from modern anatomy.",
+    eyebrow: "TCM Basics",
+    intro:
+      "The TCM spleen is one of the most misunderstood terms in Chinese medicine writing because readers naturally assume it means only the modern anatomical organ. In traditional herb and food language, the spleen usually points to a broader functional system connected with transformation, nourishment, and daily digestive rhythm.",
+    sections: [
+      {
+        title: "Why the term causes confusion",
+        paragraphs: [
+          "When readers see spleen on a herb page, they often think they are looking at a direct organ-targeting claim. In TCM, organ names often describe functional networks rather than one anatomical structure alone.",
+          "That difference matters because many food therapy pages, tonic herb pages, and dampness pages rely on spleen-language heavily.",
+        ],
+      },
+      {
+        title: "How the TCM spleen is usually described",
+        paragraphs: [
+          "On HerbGuide, the TCM spleen is usually explained through food transformation, appetite, heaviness, fluid handling, and general nourishment language.",
+          "That makes it easier for readers to understand why astragalus, codonopsis, jujube, Chinese yam, and Job's Tears appear so often near spleen references.",
+        ],
+        bullets: [
+          "The term belongs to a traditional model.",
+          "It often appears in digestive and dampness-related content.",
+          "It should not be read as a direct anatomical claim.",
+        ],
+      },
+      {
+        title: "Why this page helps the rest of the site",
+        paragraphs: [
+          "Once readers understand what spleen means in TCM, a large part of the herb library becomes much easier to read.",
+          "It is one of the highest-value glossary pages because it removes confusion from many other articles at once.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "what-does-liver-mean-in-tcm",
+    title: "What Does Liver Mean in TCM?",
+    description:
+      "A plain-English guide to one of the most common and most misunderstood organ-system words in Chinese herb writing.",
+    eyebrow: "TCM Basics",
+    intro:
+      "The TCM liver is not just a one-to-one match for the modern anatomical liver. In traditional Chinese medicine writing, liver often appears in discussions of flow, tension, blood storage, emotion, and the smooth movement of qi. That is why the word shows up on many herb pages that seem unrelated at first glance.",
+    sections: [
+      {
+        title: "Why the term appears so often",
+        paragraphs: [
+          "Readers meet liver-language on pages about goji berry, chrysanthemum, white peony root, mint, and many comparison or pattern pages.",
+          "Without explanation, this can make TCM writing feel either mystical or overly medical. A clear translation keeps the language grounded.",
+        ],
+      },
+      {
+        title: "How HerbGuide explains liver-language",
+        paragraphs: [
+          "On HerbGuide, the TCM liver is usually introduced through ideas of movement, stored blood, balance, and smoothness rather than through direct medical-sounding claims.",
+          "That style helps readers understand why qi stagnation, blood-related pages, and cooling tea pages may all touch the same term in different ways.",
+        ],
+        bullets: [
+          "The TCM liver is a traditional functional system.",
+          "It often overlaps with qi movement and blood-language.",
+          "It should not be collapsed into one modern organ meaning.",
+        ],
+      },
+      {
+        title: "Where to see the concept in action",
+        paragraphs: [
+          "Comparison pages, cooling herb pages, and some nourishing herb pages are the easiest places to see this term used well.",
+          "Once readers know what the TCM liver means, they can interpret a wider range of herb descriptions with much more confidence.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "what-does-yin-deficiency-mean",
+    title: "What Does Yin Deficiency Mean?",
+    description:
+      "A cautious beginner guide to one of the most searched pattern phrases in Chinese medicine content.",
+    eyebrow: "TCM Basics",
+    intro:
+      "Yin deficiency is one of the most common phrases readers search after seeing Chinese herb content online. It belongs to a traditional pattern vocabulary that often overlaps with dryness, heat, and depletion language, but it should not be turned into a self-diagnosis shortcut.",
+    sections: [
+      {
+        title: "Why readers look for this term",
+        paragraphs: [
+          "Many herb pages use yin-language without fully explaining it, which leaves readers with a phrase but no useful framework.",
+          "A better approach is to explain yin deficiency as part of traditional pattern reading and then show where that language appears in food, herb, and seasonal content.",
+        ],
+      },
+      {
+        title: "How the term usually behaves on educational sites",
+        paragraphs: [
+          "On a careful site, yin deficiency is usually explained through ideas of dryness, relative heat, depletion, or lack of cooling and moistening support in the traditional model.",
+          "That is why readers may see it near pages about lily bulb, pear, mulberry, ophiopogon, and other softer ingredients.",
+        ],
+        bullets: [
+          "It is a traditional pattern phrase.",
+          "It often overlaps with dryness-related educational language.",
+          "It should not be treated as a personal label from one article.",
+        ],
+      },
+      {
+        title: "How HerbGuide uses the phrase",
+        paragraphs: [
+          "HerbGuide explains yin deficiency in plain English and then connects it to practical examples like moistening food pages and seasonal topic hubs.",
+          "That helps readers learn the vocabulary without drifting into exaggerated advice.",
+        ],
+      },
+    ],
+  },
 ];
 
 export const classicsArticles: ContentArticle[] = [
@@ -949,6 +1060,158 @@ export const foodTherapyArticles: ContentArticle[] = [
           "Flavor notes",
           "Traditional context in plain English",
           "Visible caution language",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "goji-berry-porridge-for-gentle-mornings",
+    title: "Goji Berry Porridge for Gentle Mornings",
+    description:
+      "A simple breakfast-style food therapy page built around one of the easiest Chinese pantry ingredients for beginners.",
+    eyebrow: "Food Therapy",
+    intro:
+      "Goji berry porridge is the kind of page that works well for new and returning readers alike. It is easy to picture, easy to prepare, and easy to connect with the broader HerbGuide tone of pantry-first, practical, low-hype learning.",
+    recipe: {
+      recipeYield: "2 bowls",
+      prepTime: "PT5M",
+      totalTime: "PT30M",
+      ingredients: [
+        "1/2 cup rice or a mild porridge grain",
+        "4 cups water",
+        "2 tablespoons goji berries",
+        "Optional: 1 split jujube for a softer sweetness",
+        "Optional: a small spoon of black sesame on top",
+      ],
+      steps: [
+        "Rinse the grain and place it in a pot with the water.",
+        "Bring to a gentle boil, then lower the heat and cook until the porridge texture softens.",
+        "Add the goji berries during the last 8 to 10 minutes of cooking.",
+        "Add the optional jujube if you want a rounder flavor.",
+        "Serve warm and finish with a light spoon of black sesame if desired.",
+      ],
+      servingNotes: [
+        "Keep the flavor mild and breakfast-friendly rather than heavily sweetened.",
+        "This page works best as a soft pantry recipe, not as a promise about outcomes.",
+      ],
+      caution: [
+        "Goji berry is food-friendly for many readers, but regular use still deserves context when medication or special health situations are involved.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why this is a strong beginner breakfast page",
+        paragraphs: [
+          "It connects directly with one of the site's most familiar herbs while staying fully in the kitchen.",
+          "That makes it easier for readers to trust and easier for the site to reuse in pantry, beauty-food, and gentle routine topic hubs.",
+        ],
+      },
+      {
+        title: "What the page teaches beyond the bowl itself",
+        paragraphs: [
+          "A porridge page helps explain how Chinese food therapy often uses repeated soft routines rather than dramatic one-time solutions.",
+          "It also creates useful bridges between goji, jujube, black sesame, and beginner pantry reading.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "lotus-seed-and-longan-sweet-soup-basics",
+    title: "Lotus Seed and Longan Sweet Soup Basics",
+    description:
+      "A gentle dessert-soup style article that introduces two classic nourishing pantry ingredients through a simple kitchen routine.",
+    eyebrow: "Food Therapy",
+    intro:
+      "Lotus seed and longan are a natural pair for expanding HerbGuide beyond tea and soup into traditional dessert-soup territory. This kind of page feels soft, memorable, and culturally grounded while still staying simple enough for beginners.",
+    recipe: {
+      recipeYield: "2 bowls",
+      prepTime: "PT10M",
+      totalTime: "PT45M",
+      ingredients: [
+        "1/4 cup dried lotus seed",
+        "1/4 cup dried longan fruit",
+        "3 1/2 cups water",
+        "1 to 2 jujubes, optional",
+        "A very small amount of rock sugar or leave unsweetened",
+      ],
+      steps: [
+        "Rinse the lotus seed and longan.",
+        "Add the water and lotus seed to a small pot and simmer first until the seed begins to soften.",
+        "Add the longan and optional jujube, then continue simmering gently for another 15 to 20 minutes.",
+        "Add only a light touch of sweetness if needed.",
+        "Serve warm as a light dessert soup or gentle evening-style bowl.",
+      ],
+      servingNotes: [
+        "The page works best when framed as a household-style routine, not a heavy tonic formula.",
+        "Keeping sweetness moderate makes the content feel more practical and trustworthy.",
+      ],
+      caution: [
+        "Sweet nourishing foods are not automatically a fit for every dietary situation.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why this page matters for site depth",
+        paragraphs: [
+          "It expands the editorial voice beyond soups and teas while staying inside familiar food traditions.",
+          "That variety helps HerbGuide feel more complete and makes the pantry ingredient network stronger.",
+        ],
+      },
+      {
+        title: "What beginners learn from this pairing",
+        paragraphs: [
+          "Readers see that Chinese kitchen content can be gentle, repetitive, and comforting without becoming vague or mystical.",
+          "The page also creates natural links to longan, lotus seed, jujube, and evening-themed topic hubs.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "chen-pi-tea-for-heavy-meal-days",
+    title: "Chen Pi Tea for Heavy Meal Days",
+    description:
+      "A pantry-style tea article that helps readers understand chen pi through one of its easiest food-adjacent use cases.",
+    eyebrow: "Food Therapy",
+    intro:
+      "Chen pi is one of the best storytelling herbs on the site because it turns dried citrus peel into a full traditional pantry concept. A simple tea-style article gives readers an immediate way to understand why this ingredient shows up so often in digestive writing.",
+    recipe: {
+      recipeYield: "2 cups",
+      prepTime: "PT5M",
+      totalTime: "PT15M",
+      ingredients: [
+        "1 to 2 small pieces chen pi",
+        "2 1/2 cups water",
+        "Optional: 1 thin slice fresh ginger",
+        "Optional: a small piece of hawthorn for a more tart finish",
+      ],
+      steps: [
+        "Rinse the chen pi briefly under cool water.",
+        "Add it to a small pot with the water and optional ginger.",
+        "Bring to a gentle boil, then lower the heat and simmer for about 10 minutes.",
+        "Strain into cups before serving.",
+        "Keep the flavor light and aromatic rather than overly strong.",
+      ],
+      servingNotes: [
+        "This is a pantry-style educational tea page, not a formula guide.",
+        "The simplest version is often the easiest for readers to remember and trust.",
+      ],
+      caution: [
+        "Heavy-meal language here belongs to traditional digestive context, not medical diagnosis or treatment advice.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why chen pi deserves its own tea page",
+        paragraphs: [
+          "It is one of the clearest examples of how ordinary kitchen ingredients become traditional categories through preparation and aging.",
+          "That makes it excellent for both education and SEO because the story is memorable and the use case is practical.",
+        ],
+      },
+      {
+        title: "How this page supports the wider site",
+        paragraphs: [
+          "A simple chen pi tea article strengthens digestive topic hubs, aromatic herb reading, and comparison-style pantry content.",
+          "It also gives returning readers something more specific than a broad concept page.",
         ],
       },
     ],
