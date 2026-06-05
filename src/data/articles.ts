@@ -911,6 +911,80 @@ export const basicsArticles: ContentArticle[] = [
       },
     ],
   },
+  {
+    slug: "chrysanthemum-vs-mint",
+    title: "Chrysanthemum vs Mint",
+    description:
+      "A plain-English comparison of chrysanthemum and mint for readers learning cooling tea language in TCM content.",
+    eyebrow: "TCM Basics",
+    intro:
+      "Chrysanthemum and mint are two of the easiest cooling herbs on the site for beginners to recognize. They often appear together in tea content, but they do not play the same role. One usually reads more floral and gentle, while the other feels more aromatic and brisk. A direct comparison makes cooling language much easier to understand.",
+    sections: [
+      {
+        title: "Why readers compare these two so often",
+        paragraphs: [
+          "Both ingredients feel familiar, both are easy to picture in tea, and both sit close to seasonal or clear-heat vocabulary.",
+          "That overlap is useful for search, but it can also blur the differences unless the site explains them directly.",
+        ],
+      },
+      {
+        title: "How the two usually differ",
+        paragraphs: [
+          "Chrysanthemum is often introduced through floral tea, warm-afternoon reading, and a softer cooling story that pairs well with pear or goji.",
+          "Mint is usually easier to frame through freshness, aroma, lighter blends, and a more immediately brisk style of cooling language.",
+        ],
+        bullets: [
+          "Chrysanthemum usually feels more floral and visually gentle.",
+          "Mint usually feels more aromatic and sharp.",
+          "Both are part of traditional cooling language, not universal advice.",
+        ],
+      },
+      {
+        title: "What beginners should learn from the comparison",
+        paragraphs: [
+          "The most useful lesson is that even familiar herbs can carry different traditional stories and different kitchen tones.",
+          "Once readers understand this, tea pages and seasonal topic hubs stop feeling repetitive and start feeling more intentional.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "goji-berry-tea-vs-goji-berry-porridge",
+    title: "Goji Berry Tea vs Goji Berry Porridge",
+    description:
+      "A kitchen-first comparison of goji berry tea and goji berry porridge for readers deciding where to start with this popular pantry ingredient.",
+    eyebrow: "TCM Basics",
+    intro:
+      "Goji berry is one of the most approachable ingredients on HerbGuide, but the same ingredient can feel very different depending on whether it is steeped in a cup or cooked into a bowl. Comparing tea and porridge use helps readers understand how Chinese kitchen traditions change the feel of an ingredient without changing its identity.",
+    sections: [
+      {
+        title: "Why this comparison matters",
+        paragraphs: [
+          "Many beginners meet goji through tea first because it is quick and visual. Others trust porridge more because it feels closer to food and daily routine.",
+          "A side-by-side page helps both readers see that the difference is not only taste. It is also about texture, mood, and how the site frames kitchen learning.",
+        ],
+      },
+      {
+        title: "How the two formats usually differ",
+        paragraphs: [
+          "Goji tea is lighter, faster, and easier to pair with other gentle ingredients like chrysanthemum or pear.",
+          "Goji porridge is softer, slower, and better for readers who like breakfast-style pantry content or repeated food routines rather than a simple infusion.",
+        ],
+        bullets: [
+          "Tea feels lighter and more visual.",
+          "Porridge feels more grounding and meal-like.",
+          "Both are food-first uses, but they create different reading paths on the site.",
+        ],
+      },
+      {
+        title: "What this teaches about HerbGuide's style",
+        paragraphs: [
+          "This comparison shows how HerbGuide prefers practical kitchen distinctions over vague wellness claims.",
+          "It also helps readers move between herb pages, tea pages, and breakfast pages with a clearer sense of what to click next.",
+        ],
+      },
+    ],
+  },
 ];
 
 export const classicsArticles: ContentArticle[] = [

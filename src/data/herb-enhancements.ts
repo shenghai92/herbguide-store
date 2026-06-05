@@ -20,6 +20,7 @@ export const herbEnhancements: HerbEnhancement[] = [
       { title: "Goji Berry vs Jujube", href: "/basics/goji-berry-vs-jujube/" },
       { title: "Balanced Pantry Habits", href: "/topics/balanced-pantry-habits/" },
       { title: "Goji and Chrysanthemum Tea Basics", href: "/food-therapy/goji-and-chrysanthemum-tea-basics/" },
+      { title: "Goji Berry Tea vs Goji Berry Porridge", href: "/basics/goji-berry-tea-vs-goji-berry-porridge/" },
     ],
   },
   {
@@ -70,6 +71,19 @@ export const herbEnhancements: HerbEnhancement[] = [
       { title: "What Does Clear Heat Mean?", href: "/basics/what-does-clear-heat-mean/" },
       { title: "Chrysanthemum and Mint Cooling Tea Basics", href: "/food-therapy/chrysanthemum-and-mint-cooling-tea-basics/" },
       { title: "Goji and Chrysanthemum Tea Basics", href: "/food-therapy/goji-and-chrysanthemum-tea-basics/" },
+      { title: "Chrysanthemum vs Mint", href: "/basics/chrysanthemum-vs-mint/" },
+    ],
+  },
+  {
+    slug: "mint",
+    kitchenPairings: ["Chrysanthemum", "Pear", "Light tea blends", "Fresh aromatic contrast"],
+    goodStartingPoints: [
+      "Mint is easiest to understand when paired with one more recognizable cooling herb rather than read alone.",
+      "Tea pages usually explain mint better than abstract theory pages on their own.",
+    ],
+    compareLinks: [
+      { title: "Chrysanthemum vs Mint", href: "/basics/chrysanthemum-vs-mint/" },
+      { title: "Chrysanthemum and Mint Cooling Tea Basics", href: "/food-therapy/chrysanthemum-and-mint-cooling-tea-basics/" },
     ],
   },
   {

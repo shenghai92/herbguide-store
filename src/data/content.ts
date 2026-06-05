@@ -128,6 +128,16 @@ export const basicsCards = [
     title: "Poria vs Job's Tears",
     text: "A practical comparison for readers trying to understand dampness-related pantry ingredients in TCM content.",
   },
+  {
+    slug: "chrysanthemum-vs-mint",
+    title: "Chrysanthemum vs Mint",
+    text: "A plain-English comparison of two familiar cooling herbs that often appear together in tea pages.",
+  },
+  {
+    slug: "goji-berry-tea-vs-goji-berry-porridge",
+    title: "Goji Berry Tea vs Goji Berry Porridge",
+    text: "A kitchen-first comparison that helps readers understand how the same ingredient reads differently in a cup and in a bowl.",
+  },
 ];
 
 export const classicsCards = [
