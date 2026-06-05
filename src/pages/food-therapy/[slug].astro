@@ -113,6 +113,119 @@ const relatedHerbs = herbLinkMap[article.slug] ?? [
   { name: "Jujube", href: "/herbs/jujube-red-date/" },
   { name: "Goji Berry", href: "/herbs/goji-berry/" },
 ];
+const recipeLinkMap: Record<string, Array<{ title: string; href: string }>> = {
+  "5-easy-chinese-food-therapy-ingredients-for-beginners": [
+    { title: "Jujube and Ginger Tea for Busy Weeks", href: "/food-therapy/jujube-and-ginger-tea-for-busy-weeks/" },
+    { title: "Goji Berry Porridge for Gentle Mornings", href: "/food-therapy/goji-berry-porridge-for-gentle-mornings/" },
+    { title: "Black Sesame Breakfast Ideas for Beginners", href: "/food-therapy/black-sesame-breakfast-ideas-for-beginners/" },
+  ],
+  "a-simple-warming-soup-guide-for-cold-weather": [
+    { title: "Perilla and Ginger Soup for Cool Days", href: "/food-therapy/perilla-and-ginger-soup-for-cool-days/" },
+    { title: "Chinese Yam and Carrot Soup Basics", href: "/food-therapy/chinese-yam-and-carrot-soup-basics/" },
+    { title: "Jujube and Ginger Tea for Busy Weeks", href: "/food-therapy/jujube-and-ginger-tea-for-busy-weeks/" },
+  ],
+  "jujube-and-ginger-tea-for-busy-weeks": [
+    { title: "Schisandra and Jujube Tea Basics", href: "/food-therapy/schisandra-and-jujube-tea-basics/" },
+    { title: "A Simple Warming Soup Guide for Cold Weather", href: "/food-therapy/a-simple-warming-soup-guide-for-cold-weather/" },
+    { title: "Jujube and Lotus Seed Congee for Quiet Evenings", href: "/food-therapy/jujube-and-lotus-seed-congee-for-quiet-evenings/" },
+  ],
+  "pear-and-lily-bulb-soup-for-dry-days": [
+    { title: "Tremella and Pear Sweet Soup Basics", href: "/food-therapy/tremella-and-pear-sweet-soup-basics/" },
+    { title: "Pear and Chrysanthemum Tea for Warm Afternoons", href: "/food-therapy/pear-and-chrysanthemum-tea-for-warm-afternoons/" },
+    { title: "Mulberry and Goji Tea Basics", href: "/food-therapy/mulberry-and-goji-tea-basics/" },
+  ],
+  "black-sesame-breakfast-ideas-for-beginners": [
+    { title: "Black Sesame and Jujube Breakfast Bowl", href: "/food-therapy/black-sesame-and-jujube-breakfast-bowl/" },
+    { title: "Goji Berry Porridge for Gentle Mornings", href: "/food-therapy/goji-berry-porridge-for-gentle-mornings/" },
+    { title: "5 Easy Chinese Food Therapy Ingredients for Beginners", href: "/food-therapy/5-easy-chinese-food-therapy-ingredients-for-beginners/" },
+  ],
+  "chrysanthemum-and-mint-cooling-tea-basics": [
+    { title: "Pear and Chrysanthemum Tea for Warm Afternoons", href: "/food-therapy/pear-and-chrysanthemum-tea-for-warm-afternoons/" },
+    { title: "Goji and Chrysanthemum Tea Basics", href: "/food-therapy/goji-and-chrysanthemum-tea-basics/" },
+    { title: "Mulberry and Goji Tea Basics", href: "/food-therapy/mulberry-and-goji-tea-basics/" },
+  ],
+  "goji-berry-porridge-for-gentle-mornings": [
+    { title: "Goji and Chrysanthemum Tea Basics", href: "/food-therapy/goji-and-chrysanthemum-tea-basics/" },
+    { title: "Mulberry and Goji Tea Basics", href: "/food-therapy/mulberry-and-goji-tea-basics/" },
+    { title: "Black Sesame and Jujube Breakfast Bowl", href: "/food-therapy/black-sesame-and-jujube-breakfast-bowl/" },
+  ],
+  "lotus-seed-and-longan-sweet-soup-basics": [
+    { title: "Jujube and Lotus Seed Congee for Quiet Evenings", href: "/food-therapy/jujube-and-lotus-seed-congee-for-quiet-evenings/" },
+    { title: "Tremella and Lotus Seed Sweet Soup Basics", href: "/food-therapy/tremella-and-lotus-seed-sweet-soup-basics/" },
+    { title: "Schisandra and Jujube Tea Basics", href: "/food-therapy/schisandra-and-jujube-tea-basics/" },
+  ],
+  "chen-pi-tea-for-heavy-meal-days": [
+    { title: "Hawthorn Berry Tea for Rich Meals", href: "/food-therapy/hawthorn-berry-tea-for-rich-meals/" },
+    { title: "Job's Tears Porridge for Heavy Days", href: "/food-therapy/jobs-tears-porridge-for-heavy-days/" },
+    { title: "Adzuki Bean and Job's Tears Soup Basics", href: "/food-therapy/adzuki-bean-and-jobs-tears-soup-basics/" },
+  ],
+  "hawthorn-berry-tea-for-rich-meals": [
+    { title: "Chen Pi Tea for Heavy Meal Days", href: "/food-therapy/chen-pi-tea-for-heavy-meal-days/" },
+    { title: "Job's Tears Porridge for Heavy Days", href: "/food-therapy/jobs-tears-porridge-for-heavy-days/" },
+    { title: "Adzuki Bean and Job's Tears Soup Basics", href: "/food-therapy/adzuki-bean-and-jobs-tears-soup-basics/" },
+  ],
+  "black-sesame-and-jujube-breakfast-bowl": [
+    { title: "Black Sesame Breakfast Ideas for Beginners", href: "/food-therapy/black-sesame-breakfast-ideas-for-beginners/" },
+    { title: "Goji Berry Porridge for Gentle Mornings", href: "/food-therapy/goji-berry-porridge-for-gentle-mornings/" },
+    { title: "Jujube and Lotus Seed Congee for Quiet Evenings", href: "/food-therapy/jujube-and-lotus-seed-congee-for-quiet-evenings/" },
+  ],
+  "jobs-tears-porridge-for-heavy-days": [
+    { title: "Adzuki Bean and Job's Tears Soup Basics", href: "/food-therapy/adzuki-bean-and-jobs-tears-soup-basics/" },
+    { title: "Chen Pi Tea for Heavy Meal Days", href: "/food-therapy/chen-pi-tea-for-heavy-meal-days/" },
+    { title: "Hawthorn Berry Tea for Rich Meals", href: "/food-therapy/hawthorn-berry-tea-for-rich-meals/" },
+  ],
+  "pear-and-chrysanthemum-tea-for-warm-afternoons": [
+    { title: "Chrysanthemum and Mint Cooling Tea Basics", href: "/food-therapy/chrysanthemum-and-mint-cooling-tea-basics/" },
+    { title: "Goji and Chrysanthemum Tea Basics", href: "/food-therapy/goji-and-chrysanthemum-tea-basics/" },
+    { title: "Pear and Lily Bulb Soup for Dry Days", href: "/food-therapy/pear-and-lily-bulb-soup-for-dry-days/" },
+  ],
+  "goji-and-chrysanthemum-tea-basics": [
+    { title: "Chrysanthemum and Mint Cooling Tea Basics", href: "/food-therapy/chrysanthemum-and-mint-cooling-tea-basics/" },
+    { title: "Pear and Chrysanthemum Tea for Warm Afternoons", href: "/food-therapy/pear-and-chrysanthemum-tea-for-warm-afternoons/" },
+    { title: "Mulberry and Goji Tea Basics", href: "/food-therapy/mulberry-and-goji-tea-basics/" },
+  ],
+  "jujube-and-lotus-seed-congee-for-quiet-evenings": [
+    { title: "Lotus Seed and Longan Sweet Soup Basics", href: "/food-therapy/lotus-seed-and-longan-sweet-soup-basics/" },
+    { title: "Tremella and Lotus Seed Sweet Soup Basics", href: "/food-therapy/tremella-and-lotus-seed-sweet-soup-basics/" },
+    { title: "Schisandra and Jujube Tea Basics", href: "/food-therapy/schisandra-and-jujube-tea-basics/" },
+  ],
+  "tremella-and-pear-sweet-soup-basics": [
+    { title: "Pear and Lily Bulb Soup for Dry Days", href: "/food-therapy/pear-and-lily-bulb-soup-for-dry-days/" },
+    { title: "Tremella and Lotus Seed Sweet Soup Basics", href: "/food-therapy/tremella-and-lotus-seed-sweet-soup-basics/" },
+    { title: "Mulberry and Goji Tea Basics", href: "/food-therapy/mulberry-and-goji-tea-basics/" },
+  ],
+  "adzuki-bean-and-jobs-tears-soup-basics": [
+    { title: "Job's Tears Porridge for Heavy Days", href: "/food-therapy/jobs-tears-porridge-for-heavy-days/" },
+    { title: "Chen Pi Tea for Heavy Meal Days", href: "/food-therapy/chen-pi-tea-for-heavy-meal-days/" },
+    { title: "Hawthorn Berry Tea for Rich Meals", href: "/food-therapy/hawthorn-berry-tea-for-rich-meals/" },
+  ],
+  "chinese-yam-and-carrot-soup-basics": [
+    { title: "Perilla and Ginger Soup for Cool Days", href: "/food-therapy/perilla-and-ginger-soup-for-cool-days/" },
+    { title: "A Simple Warming Soup Guide for Cold Weather", href: "/food-therapy/a-simple-warming-soup-guide-for-cold-weather/" },
+    { title: "Adzuki Bean and Job's Tears Soup Basics", href: "/food-therapy/adzuki-bean-and-jobs-tears-soup-basics/" },
+  ],
+  "tremella-and-lotus-seed-sweet-soup-basics": [
+    { title: "Lotus Seed and Longan Sweet Soup Basics", href: "/food-therapy/lotus-seed-and-longan-sweet-soup-basics/" },
+    { title: "Tremella and Pear Sweet Soup Basics", href: "/food-therapy/tremella-and-pear-sweet-soup-basics/" },
+    { title: "Jujube and Lotus Seed Congee for Quiet Evenings", href: "/food-therapy/jujube-and-lotus-seed-congee-for-quiet-evenings/" },
+  ],
+  "mulberry-and-goji-tea-basics": [
+    { title: "Goji and Chrysanthemum Tea Basics", href: "/food-therapy/goji-and-chrysanthemum-tea-basics/" },
+    { title: "Goji Berry Porridge for Gentle Mornings", href: "/food-therapy/goji-berry-porridge-for-gentle-mornings/" },
+    { title: "Pear and Lily Bulb Soup for Dry Days", href: "/food-therapy/pear-and-lily-bulb-soup-for-dry-days/" },
+  ],
+  "perilla-and-ginger-soup-for-cool-days": [
+    { title: "A Simple Warming Soup Guide for Cold Weather", href: "/food-therapy/a-simple-warming-soup-guide-for-cold-weather/" },
+    { title: "Chinese Yam and Carrot Soup Basics", href: "/food-therapy/chinese-yam-and-carrot-soup-basics/" },
+    { title: "Jujube and Ginger Tea for Busy Weeks", href: "/food-therapy/jujube-and-ginger-tea-for-busy-weeks/" },
+  ],
+  "schisandra-and-jujube-tea-basics": [
+    { title: "Jujube and Ginger Tea for Busy Weeks", href: "/food-therapy/jujube-and-ginger-tea-for-busy-weeks/" },
+    { title: "Jujube and Lotus Seed Congee for Quiet Evenings", href: "/food-therapy/jujube-and-lotus-seed-congee-for-quiet-evenings/" },
+    { title: "Lotus Seed and Longan Sweet Soup Basics", href: "/food-therapy/lotus-seed-and-longan-sweet-soup-basics/" },
+  ],
+};
+const relatedRecipes = recipeLinkMap[article.slug] ?? [];
 const articleKeywords = [
   article.title,
   ...relatedHerbs.map((herb) => herb.name),
@@ -259,6 +372,7 @@ const faqSchema = article.recipe
             <li><a href="#ingredients">Jump to the ingredient list</a></li>
             <li><a href="#steps">Jump to the preparation steps</a></li>
             <li><a href="#related-herbs">Open related herb profiles</a></li>
+            {relatedRecipes.length > 0 && <li><a href="#related-recipes">Open related recipe pages</a></li>}
           </ul>
         </article>
       )}
@@ -344,6 +458,21 @@ const faqSchema = article.recipe
           ))}
         </ul>
       </article>
+      {relatedRecipes.length > 0 && (
+        <article class="prose-block card" id="related-recipes">
+          <p class="eyebrow">Next recipes</p>
+          <h2>Related food therapy pages to open next</h2>
+          <p>
+            If this recipe matches what the reader wants, the best next click is usually another
+            kitchen page with a similar ingredient, season, or pantry theme.
+          </p>
+          <ul>
+            {relatedRecipes.map((recipe) => (
+              <li><a href={recipe.href}>{recipe.title}</a></li>
+            ))}
+          </ul>
+        </article>
+      )}
       <article class="prose-block card">
         <p class="eyebrow">Keep exploring</p>
         <h2>Back to Food Therapy</h2>
