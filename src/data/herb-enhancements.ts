@@ -19,6 +19,7 @@ export const herbEnhancements: HerbEnhancement[] = [
     compareLinks: [
       { title: "Goji Berry vs Jujube", href: "/basics/goji-berry-vs-jujube/" },
       { title: "Balanced Pantry Habits", href: "/topics/balanced-pantry-habits/" },
+      { title: "Goji and Chrysanthemum Tea Basics", href: "/food-therapy/goji-and-chrysanthemum-tea-basics/" },
     ],
   },
   {
@@ -55,6 +56,7 @@ export const herbEnhancements: HerbEnhancement[] = [
     compareLinks: [
       { title: "Goji Berry vs Jujube", href: "/basics/goji-berry-vs-jujube/" },
       { title: "Evening Teas", href: "/topics/evening-teas/" },
+      { title: "Jujube and Lotus Seed Congee for Quiet Evenings", href: "/food-therapy/jujube-and-lotus-seed-congee-for-quiet-evenings/" },
     ],
   },
   {
@@ -67,6 +69,7 @@ export const herbEnhancements: HerbEnhancement[] = [
     compareLinks: [
       { title: "What Does Clear Heat Mean?", href: "/basics/what-does-clear-heat-mean/" },
       { title: "Chrysanthemum and Mint Cooling Tea Basics", href: "/food-therapy/chrysanthemum-and-mint-cooling-tea-basics/" },
+      { title: "Goji and Chrysanthemum Tea Basics", href: "/food-therapy/goji-and-chrysanthemum-tea-basics/" },
     ],
   },
   {
@@ -127,6 +130,7 @@ export const herbEnhancements: HerbEnhancement[] = [
     compareLinks: [
       { title: "Lotus Seed and Longan Sweet Soup Basics", href: "/food-therapy/lotus-seed-and-longan-sweet-soup-basics/" },
       { title: "What Does Shen Mean in TCM?", href: "/basics/what-does-shen-mean-in-tcm/" },
+      { title: "Jujube and Lotus Seed Congee for Quiet Evenings", href: "/food-therapy/jujube-and-lotus-seed-congee-for-quiet-evenings/" },
     ],
   },
   {

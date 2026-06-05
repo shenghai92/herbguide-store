@@ -108,6 +108,16 @@ export const basicsCards = [
     title: "What Is Food Stagnation in TCM?",
     text: "A careful beginner guide to one of the most common digestive terms in Chinese kitchen-style herb content.",
   },
+  {
+    slug: "what-does-nourish-blood-mean-in-tcm",
+    title: "What Does Nourish Blood Mean in TCM?",
+    text: "A plain-English guide to one of the most common traditional phrases on nourishing herb pages.",
+  },
+  {
+    slug: "what-is-damp-heat-in-tcm",
+    title: "What Is Damp Heat in TCM?",
+    text: "A careful beginner explanation of a very common TCM pattern phrase in digestive and seasonal content.",
+  },
 ];
 
 export const classicsCards = [
@@ -208,5 +218,15 @@ export const recipeCards = [
     slug: "pear-and-chrysanthemum-tea-for-warm-afternoons",
     title: "Pear and Chrysanthemum Tea for Warm Afternoons",
     text: "A light seasonal tea page that supports cooling and dryness pathways without overclaiming.",
+  },
+  {
+    slug: "goji-and-chrysanthemum-tea-basics",
+    title: "Goji and Chrysanthemum Tea Basics",
+    text: "A visual pantry tea page that connects one popular berry with one of the site's clearest cooling herbs.",
+  },
+  {
+    slug: "jujube-and-lotus-seed-congee-for-quiet-evenings",
+    title: "Jujube and Lotus Seed Congee for Quiet Evenings",
+    text: "A soft evening-style pantry page that deepens jujube and lotus seed pathways with a very approachable bowl.",
   },
 ];

@@ -763,6 +763,80 @@ export const basicsArticles: ContentArticle[] = [
       },
     ],
   },
+  {
+    slug: "what-does-nourish-blood-mean-in-tcm",
+    title: "What Does Nourish Blood Mean in TCM?",
+    description:
+      "A plain-English explanation of the common TCM phrase nourish blood and how HerbGuide uses it carefully.",
+    eyebrow: "TCM Basics",
+    intro:
+      "Nourish blood is one of the most common phrases on Chinese herb pages, but it can sound confusing or overly medical in English if no one explains it. On a careful educational site, the phrase points to a traditional idea of support, replenishment, and steadiness inside TCM theory rather than a direct modern medical claim.",
+    sections: [
+      {
+        title: "Why this phrase needs translation",
+        paragraphs: [
+          "Readers naturally hear blood and assume the page is making a direct claim about lab values or diagnosis. In TCM writing, blood is a broader traditional concept tied to nourishment, grounding, moisture, and rhythm.",
+          "That is why a phrase like nourish blood needs plain-English explanation instead of being repeated as if it were self-explanatory.",
+        ],
+      },
+      {
+        title: "Where readers see nourish blood language",
+        paragraphs: [
+          "This phrase often appears on pages about jujube, goji berry, white peony root, mulberry fruit, prepared rehmannia, and other nourishing ingredients or classic herbs.",
+          "On kitchen pages, the meaning is usually softer and more contextual: repeated gentle foods, soups, porridges, and dessert-soup traditions rather than dramatic promises.",
+        ],
+        bullets: [
+          "Nourish blood is traditional TCM language.",
+          "It often overlaps with steadiness, softness, and replenishing context.",
+          "It should not be treated as a personal diagnosis or treatment instruction.",
+        ],
+      },
+      {
+        title: "How HerbGuide uses the phrase",
+        paragraphs: [
+          "HerbGuide keeps the phrase visible because it is part of real herb reading, but we always explain it in a more grounded voice.",
+          "That makes blood-related herb pages easier to trust and helps readers move from glossary learning into food-friendly pages without confusion.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "what-is-damp-heat-in-tcm",
+    title: "What Is Damp Heat in TCM?",
+    description:
+      "A careful beginner guide to the TCM phrase damp heat and why it appears in digestive and seasonal content.",
+    eyebrow: "TCM Basics",
+    intro:
+      "Damp heat is a very common pattern phrase in Chinese medicine content, especially on digestive, seasonal, or skin-adjacent pages. It belongs to a traditional descriptive system, not a modern diagnosis label, but readers see it often enough that it deserves a clear, low-hype explanation.",
+    sections: [
+      {
+        title: "Why this term feels confusing at first",
+        paragraphs: [
+          "The two words sound concrete in English, but together they refer to a traditional pattern idea rather than literal weather inside the body.",
+          "A useful beginner approach is to understand damp heat as a TCM way of describing heaviness, stickiness, and heat-like qualities appearing together in the traditional model.",
+        ],
+      },
+      {
+        title: "How the phrase is used on educational sites",
+        paragraphs: [
+          "Readers often meet damp heat near digestive pages, richer food discussions, aromatic herbs, or seasonal articles that explain why some ingredients are framed as lighter, more cooling, or more drying in context.",
+          "Without translation, the phrase can push readers toward self-labeling. With translation, it becomes a vocabulary tool instead.",
+        ],
+        bullets: [
+          "Damp heat is a traditional pattern phrase.",
+          "It often appears around digestive and seasonal content.",
+          "It should be read as educational context rather than self-diagnosis.",
+        ],
+      },
+      {
+        title: "Why this page helps HerbGuide",
+        paragraphs: [
+          "A damp heat explainer makes digestive topic hubs and glossary reading more complete, especially for visitors who arrive through comparison or kitchen pages.",
+          "It also gives the site another strong long-tail term page that can connect directly to hawthorn, chen pi, poria, mint, and lighter recipe pathways.",
+        ],
+      },
+    ],
+  },
 ];
 
 export const classicsArticles: ContentArticle[] = [
@@ -1563,6 +1637,107 @@ export const foodTherapyArticles: ContentArticle[] = [
         paragraphs: [
           "This tea article strengthens the link between chrysanthemum, pear-style seasonal content, glossary pages about clear heat, and the seasonal kitchen topic hub.",
           "It also gives visitors who land on warming pages a useful contrast page instead of letting the session stop at one concept.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "goji-and-chrysanthemum-tea-basics",
+    title: "Goji and Chrysanthemum Tea Basics",
+    description:
+      "A simple visual tea page that connects a familiar nourishing berry with one of HerbGuide's clearest cooling flowers.",
+    eyebrow: "Food Therapy",
+    intro:
+      "Goji and chrysanthemum are one of the most recognizable pairings on the site because the color is vivid, the ingredients already feel familiar, and the traditional language around them is easier to explain than denser herb theory. A tea page makes that pairing practical without becoming exaggerated.",
+    recipe: {
+      recipeYield: "2 mugs",
+      prepTime: "PT5M",
+      totalTime: "PT12M",
+      ingredients: [
+        "1 tablespoon dried chrysanthemum flowers",
+        "1 tablespoon goji berries",
+        "2 1/2 cups hot water",
+        "Optional: 1 thin slice pear for a softer finish",
+      ],
+      steps: [
+        "Rinse the chrysanthemum and goji briefly.",
+        "Place them in a teapot or heat-safe cup.",
+        "Pour the hot water over the ingredients and cover lightly.",
+        "Steep for 5 to 7 minutes until the goji softens and the tea turns golden.",
+        "Add the optional pear slice only if you want a gentler fruit note.",
+      ],
+      servingNotes: [
+        "This page works best as a light educational tea, not a concentrated herbal routine.",
+        "Keeping the ingredient list short helps the pairing stay clear for beginners.",
+      ],
+      caution: [
+        "Cooling and nourishing language here belongs to traditional kitchen context, not personal medical guidance.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why this pairing works so well for the site",
+        paragraphs: [
+          "Both ingredients are highly visual and already familiar enough to lower reader anxiety.",
+          "That makes this page strong for shares, search, and second-click behavior from goji or cooling-related entries.",
+        ],
+      },
+      {
+        title: "What readers learn from this tea",
+        paragraphs: [
+          "This page teaches that Chinese food therapy often pairs contrast and balance rather than collapsing every ingredient into one broad wellness label.",
+          "It also creates a stronger route between goji, chrysanthemum, clear heat language, and pantry-friendly tea content.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "jujube-and-lotus-seed-congee-for-quiet-evenings",
+    title: "Jujube and Lotus Seed Congee for Quiet Evenings",
+    description:
+      "A gentle evening-style pantry bowl that deepens HerbGuide's jujube and lotus seed pathways with simple kitchen language.",
+    eyebrow: "Food Therapy",
+    intro:
+      "Jujube and lotus seed make a calm, memorable pair for site growth because both ingredients already feel closely tied to household food traditions. A simple congee page lets readers picture a real bowl, which is often more effective than abstract evening-themed language by itself.",
+    recipe: {
+      recipeYield: "2 bowls",
+      prepTime: "PT10M",
+      totalTime: "PT45M",
+      ingredients: [
+        "1/2 cup rice",
+        "4 cups water",
+        "3 dried jujubes, split",
+        "1/4 cup lotus seed",
+        "Optional: a few longan pieces for a slightly sweeter finish",
+      ],
+      steps: [
+        "Rinse the rice, jujube, and lotus seed.",
+        "Add the rice, water, and lotus seed to a small pot and bring to a gentle boil.",
+        "Lower the heat and simmer until the porridge begins to soften.",
+        "Add the jujube during the second half of cooking and the optional longan near the end.",
+        "Serve warm with a mild texture and very little added sweetness.",
+      ],
+      servingNotes: [
+        "This is strongest as a gentle household-style bowl, not a rigid nightly rule.",
+        "A softer, lighter bowl fits the site's tone better than a very rich dessert version.",
+      ],
+      caution: [
+        "Quiet-evening language here is traditional and culinary in tone, not a claim about sleep or treatment outcomes.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why this page adds useful depth",
+        paragraphs: [
+          "It extends the site's pantry and evening content without relying only on teas.",
+          "That makes the evening pathway feel more complete and gives jujube and lotus seed visitors another concrete next click.",
+        ],
+      },
+      {
+        title: "What the bowl teaches beyond the recipe",
+        paragraphs: [
+          "A congee page like this helps readers understand that traditional Chinese kitchen learning is often repetitive, simple, and food-first.",
+          "It also strengthens links between jujube, lotus seed, longan, and plain-English pages about shen or nourishment language.",
         ],
       },
     ],
