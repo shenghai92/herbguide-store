@@ -138,6 +138,16 @@ export const basicsCards = [
     title: "Goji Berry Tea vs Goji Berry Porridge",
     text: "A kitchen-first comparison that helps readers understand how the same ingredient reads differently in a cup and in a bowl.",
   },
+  {
+    slug: "what-does-astringent-mean-in-tcm",
+    title: "What Does Astringent Mean in TCM?",
+    text: "A plain-English explanation of one of the most confusing traditional quality words on many herb pages.",
+  },
+  {
+    slug: "mulberry-fruit-vs-goji-berry",
+    title: "Mulberry Fruit vs Goji Berry",
+    text: "A pantry-friendly comparison that helps readers separate two popular Chinese berries in tea and gentle nourishment content.",
+  },
 ];
 
 export const classicsCards = [

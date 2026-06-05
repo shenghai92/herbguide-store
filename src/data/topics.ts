@@ -84,7 +84,7 @@ export const topics: Topic[] = [
     intro:
       "Tea pages are some of the most approachable content on the site because readers can picture them instantly. This topic hub groups together the tea-style pages and pantry herbs that feel light, familiar, and easy to revisit.",
     herbSlugs: ["jujube-red-date", "chrysanthemum-flower", "longan-fruit", "lotus-seed", "mint", "schisandra-berry"],
-    basicsSlugs: ["goji-berry-vs-jujube", "warming-vs-cooling-foods", "what-does-clear-heat-mean", "what-does-shen-mean-in-tcm", "chrysanthemum-vs-mint"],
+    basicsSlugs: ["goji-berry-vs-jujube", "warming-vs-cooling-foods", "what-does-clear-heat-mean", "what-does-shen-mean-in-tcm", "chrysanthemum-vs-mint", "what-does-astringent-mean-in-tcm"],
     foodSlugs: ["jujube-and-ginger-tea-for-busy-weeks", "chrysanthemum-and-mint-cooling-tea-basics", "lotus-seed-and-longan-sweet-soup-basics", "pear-and-chrysanthemum-tea-for-warm-afternoons", "goji-and-chrysanthemum-tea-basics", "jujube-and-lotus-seed-congee-for-quiet-evenings", "schisandra-and-jujube-tea-basics"],
     sections: [
       {
@@ -138,7 +138,7 @@ export const topics: Topic[] = [
     intro:
       "Seasonality is one of the easiest ways to make Chinese herb content practical. Readers may not know every TCM term, but they understand cold weather, dry days, summer drinks, and comfort foods. This topic hub organizes the site through that familiar lens.",
     herbSlugs: ["fresh-ginger", "mint", "chrysanthemum-flower", "lily-bulb", "tremella-mushroom", "chinese-yam", "perilla-leaf", "mulberry-fruit"],
-    basicsSlugs: ["warming-vs-cooling-foods", "what-does-moisten-dryness-mean", "what-does-clear-heat-mean", "what-does-yin-deficiency-mean", "what-does-channel-entry-mean", "what-is-damp-heat-in-tcm", "chrysanthemum-vs-mint"],
+    basicsSlugs: ["warming-vs-cooling-foods", "what-does-moisten-dryness-mean", "what-does-clear-heat-mean", "what-does-yin-deficiency-mean", "what-does-channel-entry-mean", "what-is-damp-heat-in-tcm", "chrysanthemum-vs-mint", "mulberry-fruit-vs-goji-berry"],
     foodSlugs: ["a-simple-warming-soup-guide-for-cold-weather", "pear-and-lily-bulb-soup-for-dry-days", "chrysanthemum-and-mint-cooling-tea-basics", "goji-berry-porridge-for-gentle-mornings", "pear-and-chrysanthemum-tea-for-warm-afternoons", "goji-and-chrysanthemum-tea-basics", "tremella-and-pear-sweet-soup-basics", "chinese-yam-and-carrot-soup-basics", "mulberry-and-goji-tea-basics", "perilla-and-ginger-soup-for-cool-days"],
     sections: [
       {
@@ -247,7 +247,7 @@ export const topics: Topic[] = [
     intro:
       "Beauty food content is highly searchable, but it can easily turn exaggerated. This topic hub keeps the tone grounded by focusing on pantry ingredients, traditional context, and food-first routines instead of dramatic promises.",
     herbSlugs: ["black-sesame-seed", "goji-berry", "lily-bulb", "mulberry-fruit", "tremella-mushroom", "lotus-seed"],
-    basicsSlugs: ["goji-berry-vs-jujube", "what-does-moisten-dryness-mean", "what-does-yin-deficiency-mean", "what-does-jing-mean-in-tcm", "what-does-nourish-blood-mean-in-tcm", "goji-berry-tea-vs-goji-berry-porridge"],
+    basicsSlugs: ["goji-berry-vs-jujube", "what-does-moisten-dryness-mean", "what-does-yin-deficiency-mean", "what-does-jing-mean-in-tcm", "what-does-nourish-blood-mean-in-tcm", "goji-berry-tea-vs-goji-berry-porridge", "mulberry-fruit-vs-goji-berry"],
     foodSlugs: ["black-sesame-breakfast-ideas-for-beginners", "pear-and-lily-bulb-soup-for-dry-days", "goji-berry-porridge-for-gentle-mornings", "black-sesame-and-jujube-breakfast-bowl", "goji-and-chrysanthemum-tea-basics", "tremella-and-pear-sweet-soup-basics", "tremella-and-lotus-seed-sweet-soup-basics", "mulberry-and-goji-tea-basics"],
     sections: [
       {
@@ -301,7 +301,7 @@ export const topics: Topic[] = [
     intro:
       "Some of the best HerbGuide content is not about advanced herbs at all. It is about pantry familiarity. This hub gathers the pages that help readers build confidence through ingredients they can actually picture using in tea, soup, porridge, and breakfast routines.",
     herbSlugs: ["goji-berry", "jujube-red-date", "black-sesame-seed", "chrysanthemum-flower", "fresh-ginger", "adzuki-bean", "tremella-mushroom", "chinese-yam", "mulberry-fruit", "schisandra-berry"],
-    basicsSlugs: ["what-is-tcm", "goji-berry-vs-jujube", "what-does-tonify-mean-in-tcm", "what-does-jing-mean-in-tcm", "what-does-channel-entry-mean", "what-does-nourish-blood-mean-in-tcm", "poria-vs-jobs-tears", "goji-berry-tea-vs-goji-berry-porridge"],
+    basicsSlugs: ["what-is-tcm", "goji-berry-vs-jujube", "what-does-tonify-mean-in-tcm", "what-does-jing-mean-in-tcm", "what-does-channel-entry-mean", "what-does-nourish-blood-mean-in-tcm", "poria-vs-jobs-tears", "goji-berry-tea-vs-goji-berry-porridge", "what-does-astringent-mean-in-tcm", "mulberry-fruit-vs-goji-berry"],
     foodSlugs: ["5-easy-chinese-food-therapy-ingredients-for-beginners", "black-sesame-breakfast-ideas-for-beginners", "jujube-and-ginger-tea-for-busy-weeks", "goji-berry-porridge-for-gentle-mornings", "lotus-seed-and-longan-sweet-soup-basics", "black-sesame-and-jujube-breakfast-bowl", "jobs-tears-porridge-for-heavy-days", "jujube-and-lotus-seed-congee-for-quiet-evenings", "tremella-and-pear-sweet-soup-basics", "adzuki-bean-and-jobs-tears-soup-basics", "chinese-yam-and-carrot-soup-basics", "tremella-and-lotus-seed-sweet-soup-basics", "mulberry-and-goji-tea-basics", "schisandra-and-jujube-tea-basics"],
     sections: [
       {

@@ -985,6 +985,80 @@ export const basicsArticles: ContentArticle[] = [
       },
     ],
   },
+  {
+    slug: "what-does-astringent-mean-in-tcm",
+    title: "What Does Astringent Mean in TCM?",
+    description:
+      "A plain-English explanation of astringent as a traditional herb quality in Chinese medicine writing.",
+    eyebrow: "TCM Basics",
+    intro:
+      "Astringent is one of the most confusing words on many herb pages because English-speaking readers usually know it only as a taste or a skin-care term. In TCM writing, it is a traditional quality that often points to holding, containing, or preventing excessive leakage in the classical sense.",
+    sections: [
+      {
+        title: "Why the word feels strange at first",
+        paragraphs: [
+          "Most beginners do not expect to see the word astringent on a Chinese herb page, much less on berries or seeds. That is why it needs explanation instead of repetition.",
+          "In TCM writing, astringent belongs to a traditional descriptive system, not a modern diagnosis label.",
+        ],
+      },
+      {
+        title: "How astringent language appears on herb pages",
+        paragraphs: [
+          "Readers often meet this word on pages about schisandra berry, lotus seed, and some other ingredients that are described as helping hold things in or reduce excess loss in the traditional framework.",
+          "A responsible site should explain that this is historical herb vocabulary, not a reason for self-diagnosis or self-treatment.",
+        ],
+        bullets: [
+          "Astringent is a traditional herb quality.",
+          "It often overlaps with language about containment or restraint.",
+          "The word should be read in context, not as a one-word personal recommendation.",
+        ],
+      },
+      {
+        title: "Why this matters for HerbGuide",
+        paragraphs: [
+          "Explaining astringent clearly helps schisandra, lotus seed, and related pages feel much easier to trust.",
+          "It also supports a more educational tone across pantry tea and evening-style content.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "mulberry-fruit-vs-goji-berry",
+    title: "Mulberry Fruit vs Goji Berry",
+    description:
+      "A pantry-friendly comparison of two popular Chinese berries that often appear in tea, gentle nourishment pages, and seasonal food writing.",
+    eyebrow: "TCM Basics",
+    intro:
+      "Mulberry fruit and goji berry can look similar in broad pantry content, but they do not create the same feeling on the page. A side-by-side comparison helps readers understand why goji often anchors beginner pages while mulberry fruit tends to show up in softer dryness, moisture, or berry-tea pathways.",
+    sections: [
+      {
+        title: "Why these two berries get confused",
+        paragraphs: [
+          "Both ingredients are small fruits, both are highly visual, and both can appear in tea or gentle food-style content.",
+          "That overlap makes a comparison page useful for readers who want clearer distinctions without dense technical theory.",
+        ],
+      },
+      {
+        title: "How HerbGuide usually separates them",
+        paragraphs: [
+          "Goji berry usually reads as the easier all-purpose beginner berry because it already feels familiar in porridge, soups, teas, and grocery culture.",
+          "Mulberry fruit often feels softer, more seasonal, and slightly more niche, which makes it useful for moisture and berry-tea pathways rather than for every beginner page.",
+        ],
+        bullets: [
+          "Goji usually fits broader pantry and breakfast routes.",
+          "Mulberry often fits softer tea and seasonal berry content.",
+          "The same format does not make two herbs interchangeable.",
+        ],
+      },
+      {
+        title: "What readers should click after this comparison",
+        paragraphs: [
+          "The best next step is usually either a practical recipe page or the individual herb profiles for goji berry and mulberry fruit.",
+          "That lets readers move from comparison language into real kitchen context immediately.",
+        ],
+      },
+    ],
+  },
 ];
 
 export const classicsArticles: ContentArticle[] = [
