@@ -24,8 +24,8 @@ export const topics: Topic[] = [
     slug: "digestive-traditions",
     title: "Digestive Traditions",
     description:
-      "A practical topic hub for Chinese herbs, soups, pantry ingredients, and TCM terms commonly linked with digestive traditions.",
-    eyebrow: "Topic Hub",
+      "A practical topic page for Chinese herbs, soups, pantry ingredients, and TCM terms commonly linked with digestive traditions.",
+    eyebrow: "Topic Page",
     intro:
       "Digestive content is one of the easiest places for beginners to enter Chinese herb education because it overlaps with soup, tea, pantry ingredients, and everyday meal language. This hub groups the gentlest entry points together.",
     herbSlugs: ["fresh-ginger", "dried-ginger", "chen-pi", "hawthorn-berry", "poria", "jobs-tears", "adzuki-bean"],
@@ -36,13 +36,13 @@ export const topics: Topic[] = [
         title: "Why digestive pages work so well",
         paragraphs: [
           "Readers already understand meals, heaviness, comfort food, and tea routines. That makes digestive content feel grounded rather than abstract.",
-          "It is also one of the best areas for internal linking because herb pages, comparison guides, and food therapy articles all meet here naturally.",
+          "It is also one of the clearest areas for connecting herb pages, comparison guides, and food therapy articles.",
         ],
       },
       {
         title: "What this topic usually includes",
         paragraphs: [
-          "On HerbGuide, digestive traditions usually connect to warming soups, aromatic peels, pantry-style teas, and beginner explanations of qi movement or dampness.",
+          "Digestive traditions usually connect to warming soups, aromatic peels, pantry-style teas, and beginner explanations of qi movement or dampness.",
         ],
         bullets: [
           "Fresh ginger and dried ginger for warming comparison",
@@ -79,10 +79,10 @@ export const topics: Topic[] = [
     slug: "evening-teas",
     title: "Evening Teas",
     description:
-      "A topic hub for gentle tea-style content, approachable Chinese ingredients, and plain-English guidance around calming kitchen routines.",
-    eyebrow: "Topic Hub",
+      "A topic page for gentle tea-style content, approachable Chinese ingredients, and plain-English guidance around calming kitchen routines.",
+    eyebrow: "Topic Page",
     intro:
-      "Tea pages are often approachable because readers can picture them instantly. This topic hub groups together tea-style pages and pantry herbs that feel light, familiar, and easy to revisit.",
+      "Tea pages are often approachable because readers can picture them instantly. This topic page groups together tea-style pages and pantry herbs that feel light, familiar, and easy to revisit.",
     herbSlugs: ["jujube-red-date", "chrysanthemum-flower", "longan-fruit", "lotus-seed", "mint", "schisandra-berry"],
     basicsSlugs: ["goji-berry-vs-jujube", "warming-vs-cooling-foods", "what-does-clear-heat-mean", "what-does-shen-mean-in-tcm", "chrysanthemum-vs-mint", "what-does-astringent-mean-in-tcm"],
     foodSlugs: ["jujube-and-ginger-tea-for-busy-weeks", "chrysanthemum-and-mint-cooling-tea-basics", "lotus-seed-and-longan-sweet-soup-basics", "pear-and-chrysanthemum-tea-for-warm-afternoons", "goji-and-chrysanthemum-tea-basics", "jujube-and-lotus-seed-congee-for-quiet-evenings", "schisandra-and-jujube-tea-basics"],
@@ -97,12 +97,12 @@ export const topics: Topic[] = [
       {
         title: "What belongs in this topic",
         paragraphs: [
-          "Evening teas on HerbGuide are not presented as medical sleep solutions. They are presented as gentle kitchen routines, ingredient pairings, and cultural explanations in plain English.",
+          "Evening teas are not presented as medical sleep solutions. They are presented as gentle kitchen routines, ingredient pairings, and cultural explanations in plain English.",
         ],
         bullets: [
           "Jujube and ginger tea for warm routine content",
           "Chrysanthemum and mint for lighter cooling tea content",
-          "Longan and lotus seed for softer dessert-soup and tea pathways",
+          "Longan and lotus seed for softer dessert-soup and tea themes",
         ],
       },
     ],
@@ -120,7 +120,7 @@ export const topics: Topic[] = [
       {
         title: "Jujube",
         href: "/herbs/jujube-red-date/",
-        text: "A pantry-friendly herb profile for one of the site's most useful tea ingredients.",
+        text: "A pantry-friendly herb profile for one of the most useful tea ingredients in the library.",
       },
       {
         title: "Chrysanthemum",
@@ -133,10 +133,10 @@ export const topics: Topic[] = [
     slug: "seasonal-kitchen-ideas",
     title: "Seasonal Kitchen Ideas",
     description:
-      "A topic hub for soups, teas, warming and cooling ingredients, and practical seasonal reading paths across HerbGuide.",
-    eyebrow: "Topic Hub",
+      "A topic page for soups, teas, warming and cooling ingredients, and practical seasonal reading across HerbGuide.",
+    eyebrow: "Topic Page",
     intro:
-      "Seasonality is one of the easiest ways to make Chinese herb content practical. Readers may not know every TCM term, but they understand cold weather, dry days, summer drinks, and comfort foods. This topic hub organizes the site through that familiar lens.",
+      "Seasonality is one of the easiest ways to make Chinese herb content practical. Readers may not know every TCM term, but they understand cold weather, dry days, summer drinks, and comfort foods. This topic page organizes the material through that familiar lens.",
     herbSlugs: ["fresh-ginger", "mint", "chrysanthemum-flower", "lily-bulb", "tremella-mushroom", "chinese-yam", "perilla-leaf", "mulberry-fruit"],
     basicsSlugs: ["warming-vs-cooling-foods", "what-does-moisten-dryness-mean", "what-does-clear-heat-mean", "what-does-yin-deficiency-mean", "what-does-channel-entry-mean", "what-is-damp-heat-in-tcm", "chrysanthemum-vs-mint", "mulberry-fruit-vs-goji-berry"],
     foodSlugs: ["a-simple-warming-soup-guide-for-cold-weather", "pear-and-lily-bulb-soup-for-dry-days", "chrysanthemum-and-mint-cooling-tea-basics", "goji-berry-porridge-for-gentle-mornings", "pear-and-chrysanthemum-tea-for-warm-afternoons", "goji-and-chrysanthemum-tea-basics", "tremella-and-pear-sweet-soup-basics", "chinese-yam-and-carrot-soup-basics", "mulberry-and-goji-tea-basics", "perilla-and-ginger-soup-for-cool-days"],
@@ -151,11 +151,11 @@ export const topics: Topic[] = [
       {
         title: "What readers can do from here",
         paragraphs: [
-          "This topic hub helps readers move between basics, herb profiles, and food therapy pages without losing the thread.",
+          "This topic page helps readers move between basics, herb profiles, and food therapy pages without losing the thread.",
         ],
         bullets: [
-          "Use warming pages in cold-weather reading paths",
-          "Use cooling pages in tea and summer-style reading paths",
+          "Use warming pages in cold-weather reading",
+          "Use cooling pages in tea and summer-style reading",
           "Use dryness pages when soup and pear-style content feels more relevant",
         ],
       },
@@ -187,8 +187,8 @@ export const topics: Topic[] = [
     slug: "warming-foods",
     title: "Warming Foods",
     description:
-      "A topic hub for warming herbs, soup pages, ginger comparisons, and plain-English TCM language around cold-weather food traditions.",
-    eyebrow: "Topic Hub",
+      "A topic page for warming herbs, soup pages, ginger comparisons, and plain-English TCM language around cold-weather food traditions.",
+    eyebrow: "Topic Page",
     intro:
       "Warming foods are one of the strongest beginner topics because the idea feels intuitive and useful. This hub gathers together the pages that explain warming language through herbs, tea, and soup rather than abstract theory alone.",
     herbSlugs: ["fresh-ginger", "dried-ginger", "astragalus-root", "cinnamon-twig", "perilla-leaf", "licorice-root"],
@@ -242,10 +242,10 @@ export const topics: Topic[] = [
     slug: "beauty-foods",
     title: "Beauty Foods",
     description:
-      "A topic hub for pantry ingredients often associated with nourishment, moisture, and food-first beauty traditions in Chinese kitchen culture.",
-    eyebrow: "Topic Hub",
+      "A topic page for pantry ingredients often associated with nourishment, moisture, and food-first beauty traditions in Chinese kitchen culture.",
+    eyebrow: "Topic Page",
     intro:
-      "Beauty food content is highly searchable, but it can easily turn exaggerated. This topic hub keeps the tone grounded by focusing on pantry ingredients, traditional context, and food-first routines instead of dramatic promises.",
+      "Beauty food content is popular, but it can easily turn exaggerated. This topic page keeps the tone grounded by focusing on pantry ingredients, traditional context, and food-first routines instead of dramatic promises.",
     herbSlugs: ["black-sesame-seed", "goji-berry", "lily-bulb", "mulberry-fruit", "tremella-mushroom", "lotus-seed"],
     basicsSlugs: ["goji-berry-vs-jujube", "what-does-moisten-dryness-mean", "what-does-yin-deficiency-mean", "what-does-jing-mean-in-tcm", "what-does-nourish-blood-mean-in-tcm", "goji-berry-tea-vs-goji-berry-porridge", "mulberry-fruit-vs-goji-berry"],
     foodSlugs: ["black-sesame-breakfast-ideas-for-beginners", "pear-and-lily-bulb-soup-for-dry-days", "goji-berry-porridge-for-gentle-mornings", "black-sesame-and-jujube-breakfast-bowl", "goji-and-chrysanthemum-tea-basics", "tremella-and-pear-sweet-soup-basics", "tremella-and-lotus-seed-sweet-soup-basics", "mulberry-and-goji-tea-basics"],
@@ -283,7 +283,7 @@ export const topics: Topic[] = [
       {
         title: "Goji Berry",
         href: "/herbs/goji-berry/",
-        text: "A visually strong, highly searchable herb that bridges food and tradition.",
+        text: "A visually strong, familiar herb that bridges food and tradition.",
       },
       {
         title: "Pear and Lily Bulb Soup for Dry Days",
@@ -296,8 +296,8 @@ export const topics: Topic[] = [
     slug: "balanced-pantry-habits",
     title: "Balanced Pantry Habits",
     description:
-      "A topic hub for pantry-friendly Chinese ingredients, gentle routines, and simple learning paths through everyday herbs and foods.",
-    eyebrow: "Topic Hub",
+      "A topic page for pantry-friendly Chinese ingredients, gentle routines, and simple ways to learn through everyday herbs and foods.",
+    eyebrow: "Topic Page",
     intro:
       "Some of the best HerbGuide content is not about advanced herbs at all. It is about pantry familiarity. This hub gathers the pages that help readers build confidence through ingredients they can actually picture using in tea, soup, porridge, and breakfast routines.",
     herbSlugs: ["goji-berry", "jujube-red-date", "black-sesame-seed", "chrysanthemum-flower", "fresh-ginger", "adzuki-bean", "tremella-mushroom", "chinese-yam", "mulberry-fruit", "schisandra-berry", "licorice-root"],
@@ -312,9 +312,9 @@ export const topics: Topic[] = [
         ],
       },
       {
-        title: "How to use this topic hub",
+        title: "How to use this topic page",
         paragraphs: [
-          "A good reading path begins with one or two herb profiles, then moves into a recipe or comparison page, and finally into a basics page that explains the language behind the ingredient choices.",
+          "A good sequence begins with one or two herb profiles, then moves into a recipe or comparison page, and finally into a basics page that explains the language behind the ingredient choices.",
         ],
         bullets: [
           "Start with goji berry, jujube, or black sesame",
@@ -327,7 +327,7 @@ export const topics: Topic[] = [
       {
         title: "5 Easy Chinese Food Therapy Ingredients for Beginners",
         href: "/food-therapy/5-easy-chinese-food-therapy-ingredients-for-beginners/",
-        text: "A broad starter page for pantry-friendly site exploration.",
+        text: "A broad starter page for pantry-friendly exploration.",
       },
       {
         title: "Goji Berry vs Jujube",
@@ -337,7 +337,7 @@ export const topics: Topic[] = [
       {
         title: "Black Sesame Seed",
         href: "/herbs/black-sesame-seed/",
-        text: "A pantry herb profile that supports breakfast, dessert, and beauty-food pathways.",
+        text: "A pantry herb profile that supports breakfast, dessert, and beauty-food themes.",
       },
       {
         title: "What Is TCM?",

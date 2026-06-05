@@ -5,15 +5,15 @@ import { topics } from "../../data/topics";
 ---
 
 <BaseLayout
-  title="Chinese Herb Topics and TCM Reading Paths | HerbGuide"
-  description="Browse Chinese herb topics, TCM reading paths, pantry ingredient clusters, and food therapy hubs for beginner-friendly exploration."
+  title="Chinese Herb Topics and TCM Guides | HerbGuide"
+  description="Browse Chinese herb topics, pantry ingredient groups, and food therapy guides for beginner-friendly exploration."
   structuredData={[
     {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
       name: "Topics",
       description:
-        "Curated topic hubs that connect Chinese herbs, TCM basics, and food therapy into clear beginner-friendly reading paths.",
+        "Curated topic pages that connect Chinese herbs, TCM basics, and food therapy into clear beginner-friendly guides.",
       url: "https://herbguide.store/topics/",
     },
     {
@@ -22,10 +22,10 @@ import { topics } from "../../data/topics";
       mainEntity: [
         {
           "@type": "Question",
-          name: "What are HerbGuide topic hubs for?",
+          name: "What are HerbGuide topic pages for?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "HerbGuide topic hubs group related herbs, food therapy pages, and TCM basics into clearer reading paths so visitors can browse by intent instead of isolated pages.",
+            text: "HerbGuide topic pages group related herbs, food therapy pages, and TCM basics so readers can browse by theme instead of isolated pages.",
           },
         },
         {
@@ -43,10 +43,10 @@ import { topics } from "../../data/topics";
   <section class="page-hero">
     <div class="shell narrow">
       <p class="eyebrow">Topics</p>
-      <h1>Browse HerbGuide by theme and reading path</h1>
+      <h1>Browse HerbGuide by theme</h1>
       <p>
-        These topic hubs connect herb pages, food therapy articles, and TCM basics into
-        clearer reading paths so beginners do not have to guess where to go next.
+        These topic pages connect herb pages, food therapy articles, and TCM basics so
+        beginners do not have to guess what to read next.
       </p>
     </div>
   </section>
@@ -54,7 +54,7 @@ import { topics } from "../../data/topics";
   <section class="section">
     <div class="shell">
       <SectionIntro
-        eyebrow="Curated hubs"
+        eyebrow="Curated guides"
         title="Start with a familiar theme"
         text="Each topic page groups related articles together, making the library feel more practical and easier to browse."
       />
@@ -64,7 +64,7 @@ import { topics } from "../../data/topics";
             <p class="eyebrow">{topic.eyebrow}</p>
             <h2><a href={`/topics/${topic.slug}/`}>{topic.title}</a></h2>
             <p>{topic.description}</p>
-            <p class="card-link"><a href={`/topics/${topic.slug}/`}>Open topic hub</a></p>
+            <p class="card-link"><a href={`/topics/${topic.slug}/`}>Open topic page</a></p>
           </article>
         ))}
       </div>
@@ -74,7 +74,7 @@ import { topics } from "../../data/topics";
   <section class="section section-alt">
     <div class="shell two-up">
       <article class="prose-block card">
-        <p class="eyebrow">Reading paths</p>
+        <p class="eyebrow">By theme</p>
         <h2>Browse Chinese herbs by topic, not just by ingredient</h2>
         <p>
           Many readers do not start with a single herb name. They start with broader questions
@@ -82,7 +82,7 @@ import { topics } from "../../data/topics";
           or which pages explain dampness through food.
         </p>
         <p>
-          That is why these topic hubs matter. They help readers move through broader themes
+          That is why these topic pages matter. They help readers move through broader themes
           in a way that feels more useful than a flat archive.
         </p>
       </article>
@@ -104,9 +104,9 @@ import { topics } from "../../data/topics";
     <div class="shell two-up">
       <article class="prose-block card">
         <p class="eyebrow">Why topics help</p>
-        <h2>From scattered pages to stronger journeys</h2>
+        <h2>From scattered pages to clearer groups</h2>
         <p>
-          Topic hubs make the library easier to understand. Instead of treating every article
+          Topic pages make the library easier to understand. Instead of treating every article
           as isolated, HerbGuide can connect pantry herbs, comparison pages, and recipe-style
           articles into more coherent clusters.
         </p>
@@ -114,7 +114,7 @@ import { topics } from "../../data/topics";
 
       <article class="prose-block card">
         <p class="eyebrow">Best starting points</p>
-        <h2>Strongest hubs right now</h2>
+        <h2>Strong starting points right now</h2>
         <ul>
           <li><a href="/topics/warming-foods/">Warming Foods</a></li>
           <li><a href="/topics/seasonal-kitchen-ideas/">Seasonal Kitchen Ideas</a></li>
@@ -128,7 +128,7 @@ import { topics } from "../../data/topics";
     <div class="shell two-up">
       <article class="prose-block card">
         <p class="eyebrow">If readers arrived for recipes</p>
-        <h2>Best kitchen-first topic hubs</h2>
+        <h2>Best kitchen-first topic pages</h2>
         <ul>
           <li><a href="/topics/evening-teas/">Evening Teas</a></li>
           <li><a href="/topics/digestive-traditions/">Digestive Traditions</a></li>
@@ -149,11 +149,11 @@ import { topics } from "../../data/topics";
 
       <article class="prose-block card">
         <p class="eyebrow">If readers arrived for definitions</p>
-        <h2>Use topics with the glossary</h2>
+        <h2>Use topic pages with the glossary</h2>
         <p>
-          Topic hubs work especially well after one short glossary read. If a visitor first
+          Topic pages work especially well after one short glossary read. If a reader first
           learns a phrase like qi, dampness, tonify, or clear heat, a topic page gives them a
-          practical next click instead of letting the session end right there.
+          practical follow-up instead of leaving the term abstract.
         </p>
         <p>
           The best partner page for this is the <a href="/glossary/">TCM Glossary</a>.

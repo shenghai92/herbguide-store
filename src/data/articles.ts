@@ -30,7 +30,7 @@ export const basicsArticles: ContentArticle[] = [
       "A clear first look at Traditional Chinese Medicine in plain American English, with practical explanations and clear boundaries.",
     eyebrow: "TCM Basics",
     intro:
-      "Traditional Chinese Medicine, often shortened to TCM, is a long-running body of ideas about the body, food, herbs, climate, rhythm, and patterns. On HerbGuide, it is presented as a traditional framework that helps readers understand herb language and food traditions, not as personalized medical advice.",
+      "Traditional Chinese Medicine, often shortened to TCM, is a long-running body of ideas about the body, food, herbs, climate, rhythm, and patterns. Here, it is presented as a traditional framework that helps readers understand herb language and food traditions, not as personalized medical advice.",
     sections: [
       {
         title: "A traditional framework, not a modern diagnosis system",
@@ -178,7 +178,7 @@ export const basicsArticles: ContentArticle[] = [
       "A simple explanation of yin and yang for readers who want to understand Chinese herb and food language without mystifying it.",
     eyebrow: "TCM Basics",
     intro:
-      "Yin and yang are among the most recognizable terms in Chinese thought, but they are often flattened into vague internet slogans. On HerbGuide, they are explained as a traditional way of describing relationship, balance, contrast, and change.",
+      "Yin and yang are among the most recognizable terms in Chinese thought, but they are often flattened into vague internet slogans. Here, they are explained as a traditional way of describing relationship, balance, contrast, and change.",
     sections: [
       {
         title: "A language of relationship, not two magic substances",
@@ -228,7 +228,7 @@ export const basicsArticles: ContentArticle[] = [
         title: "How blood shows up in herb pages",
         paragraphs: [
           "Some herbs are traditionally described as nourishing blood, moving blood, or preserving blood. Those phrases are part of a historical vocabulary used in Chinese herb education.",
-          "On HerbGuide, that language is translated carefully so readers understand it as traditional theory rather than a promise about one personal condition.",
+          "Here, that language is translated carefully so readers understand it as traditional theory rather than a promise about one personal condition.",
         ],
         bullets: [
           "Blood in TCM is a traditional concept.",
@@ -338,7 +338,7 @@ export const basicsArticles: ContentArticle[] = [
       {
         title: "How the two are usually framed",
         paragraphs: [
-          "On HerbGuide, Ren Shen is introduced as a stronger classic tonic herb that needs careful framing. American ginseng is usually presented with a cooler profile and often appears in comparison articles for nuance.",
+          "Here, Ren Shen is introduced as a stronger classic tonic herb that needs careful framing. American ginseng is usually presented with a cooler profile and often appears in comparison articles for nuance.",
           "That contrast helps readers move past the idea that more famous or more expensive automatically means more appropriate.",
         ],
         bullets: [
@@ -368,7 +368,7 @@ export const basicsArticles: ContentArticle[] = [
       {
         title: "Why readers compare these two so often",
         paragraphs: [
-          "Both ingredients are approachable, highly searchable, and closely tied to tea and soup content. That makes them natural beginner favorites.",
+          "Both ingredients are approachable, familiar, and closely tied to tea and soup content. That makes them natural beginner favorites.",
           "At the same time, they feel different in the kitchen. Goji berry is usually lighter and smaller, while jujube adds sweetness, body, and a more obvious soup or tea presence.",
         ],
       },
@@ -385,9 +385,9 @@ export const basicsArticles: ContentArticle[] = [
         ],
       },
       {
-        title: "Why this comparison fits HerbGuide well",
+        title: "Why this comparison fits the library well",
         paragraphs: [
-          "This is exactly the kind of page that supports both search and usability. It answers a real beginner question while strengthening links between pantry-friendly herb profiles and food therapy content.",
+          "This is exactly the kind of page that supports both clarity and usability. It answers a real beginner question while strengthening links between pantry-friendly herb profiles and food therapy content.",
           "It also stays safely educational rather than drifting into overpromised wellness language.",
         ],
       },
@@ -425,7 +425,7 @@ export const basicsArticles: ContentArticle[] = [
         title: "How HerbGuide handles the phrase",
         paragraphs: [
           "HerbGuide uses clear heat as a traditional category label and then explains what kind of food or herb context that label usually points to.",
-          "That keeps the site educational, readable, and more trustworthy.",
+          "That keeps the page educational, readable, and more trustworthy.",
         ],
       },
     ],
@@ -486,7 +486,7 @@ export const basicsArticles: ContentArticle[] = [
       {
         title: "How to read it responsibly",
         paragraphs: [
-          "On HerbGuide, moisten dryness is explained as part of traditional classification and seasonal food language.",
+          "Here, moisten dryness is explained as part of traditional classification and seasonal food language.",
           "It is not presented as a direct promise about one symptom or one person. That distinction matters for safe and credible content.",
         ],
         bullets: [
@@ -523,7 +523,7 @@ export const basicsArticles: ContentArticle[] = [
       {
         title: "How the TCM spleen is usually described",
         paragraphs: [
-          "On HerbGuide, the TCM spleen is usually explained through food transformation, appetite, heaviness, fluid handling, and general nourishment language.",
+          "Here, the TCM spleen is usually explained through food transformation, appetite, heaviness, fluid handling, and general nourishment language.",
           "That makes it easier for readers to understand why astragalus, codonopsis, jujube, Chinese yam, and Job's Tears appear so often near spleen references.",
         ],
         bullets: [
@@ -558,9 +558,9 @@ export const basicsArticles: ContentArticle[] = [
         ],
       },
       {
-        title: "How HerbGuide explains liver-language",
+        title: "How this guide explains liver-language",
         paragraphs: [
-          "On HerbGuide, the TCM liver is usually introduced through ideas of movement, stored blood, balance, and smoothness rather than through direct medical-sounding claims.",
+          "Here, the TCM liver is usually introduced through ideas of movement, stored blood, balance, and smoothness rather than through direct medical-sounding claims.",
           "That style helps readers understand why qi stagnation, blood-related pages, and cooling tea pages may all touch the same term in different ways.",
         ],
         bullets: [
@@ -607,9 +607,9 @@ export const basicsArticles: ContentArticle[] = [
         ],
       },
       {
-        title: "How HerbGuide uses the phrase",
+        title: "How this guide uses the phrase",
         paragraphs: [
-          "HerbGuide explains yin deficiency in plain English and then connects it to practical examples like moistening food pages and seasonal topic hubs.",
+          "This guide explains yin deficiency in plain English and then connects it to practical examples like moistening food pages and seasonal topic pages.",
           "That helps readers learn the vocabulary without drifting into exaggerated advice.",
         ],
       },
@@ -755,9 +755,9 @@ export const basicsArticles: ContentArticle[] = [
         ],
       },
       {
-        title: "How HerbGuide handles the term",
+        title: "How this guide handles the term",
         paragraphs: [
-          "HerbGuide uses food stagnation to translate digestive kitchen language more clearly, especially on tea pages and topic hubs.",
+          "Food stagnation is used here to translate digestive kitchen language more clearly, especially on tea pages and topic pages.",
           "The goal is to help readers understand why certain ingredients are paired traditionally without pushing them toward personal treatment decisions.",
         ],
       },
@@ -831,7 +831,7 @@ export const basicsArticles: ContentArticle[] = [
       {
         title: "Why this page matters",
         paragraphs: [
-          "A damp heat explainer makes digestive topic hubs and glossary reading more complete, especially for visitors who arrive through comparison or kitchen pages.",
+          "A damp heat explainer makes digestive topic pages and glossary reading more complete, especially for readers who arrive through comparison or kitchen pages.",
           "It also connects directly to hawthorn, chen pi, poria, mint, and lighter recipe pages that use similar language.",
         ],
       },
@@ -869,7 +869,7 @@ export const basicsArticles: ContentArticle[] = [
         title: "How beginners should use this comparison",
         paragraphs: [
           "The point is not that one ingredient is better. The point is that TCM kitchen language separates ingredients by story, flavor, context, and traditional role.",
-          "Once readers understand this, digestive topic hubs and tea pages become much easier to follow.",
+          "Once readers understand this, digestive topic pages and tea pages become much easier to follow.",
         ],
       },
     ],
@@ -924,7 +924,7 @@ export const basicsArticles: ContentArticle[] = [
         title: "Why readers compare these two so often",
         paragraphs: [
           "Both ingredients feel familiar, both are easy to picture in tea, and both sit close to seasonal or clear-heat vocabulary.",
-          "That overlap is useful for search, but it can also blur the differences unless the site explains them directly.",
+          "That overlap is useful for discovery, but it can also blur the differences unless the page explains them directly.",
         ],
       },
       {
@@ -943,7 +943,7 @@ export const basicsArticles: ContentArticle[] = [
         title: "What beginners should learn from the comparison",
         paragraphs: [
           "The most useful lesson is that even familiar herbs can carry different traditional stories and different kitchen tones.",
-          "Once readers understand this, tea pages and seasonal topic hubs stop feeling repetitive and start feeling more intentional.",
+          "Once readers understand this, tea pages and seasonal topic pages stop feeling repetitive and start feeling more intentional.",
         ],
       },
     ],
@@ -961,7 +961,7 @@ export const basicsArticles: ContentArticle[] = [
         title: "Why this comparison matters",
         paragraphs: [
           "Many beginners meet goji through tea first because it is quick and visual. Others trust porridge more because it feels closer to food and daily routine.",
-          "A side-by-side page helps both readers see that the difference is not only taste. It is also about texture, mood, and how the site frames kitchen learning.",
+          "A side-by-side page helps both readers see that the difference is not only taste. It is also about texture, mood, and how kitchen learning is framed.",
         ],
       },
       {
@@ -977,7 +977,7 @@ export const basicsArticles: ContentArticle[] = [
         ],
       },
       {
-        title: "What this teaches about HerbGuide's style",
+        title: "What this teaches about the library's style",
         paragraphs: [
           "This comparison shows how HerbGuide prefers practical kitchen distinctions over vague wellness claims.",
           "It also helps readers move between herb pages, tea pages, and breakfast pages with a clearer sense of what to click next.",
@@ -1014,7 +1014,7 @@ export const basicsArticles: ContentArticle[] = [
         ],
       },
       {
-        title: "Why this matters for HerbGuide",
+        title: "Why this matters here",
         paragraphs: [
           "Explaining astringent clearly helps schisandra, lotus seed, and related pages feel much easier to trust.",
           "It also supports a more educational tone across pantry tea and evening-style content.",
@@ -1051,7 +1051,7 @@ export const basicsArticles: ContentArticle[] = [
         ],
       },
       {
-        title: "Why this matters for HerbGuide",
+        title: "Why this matters here",
         paragraphs: [
           "Explaining harmonizing clearly makes pages like licorice root easier to trust because readers can see why the herb keeps appearing in broader formula discussions.",
           "It also gives beginners a better bridge between pantry-friendly herb pages and more classical content where formulas matter much more.",
@@ -1066,7 +1066,7 @@ export const basicsArticles: ContentArticle[] = [
       "A pantry-friendly comparison of two popular Chinese berries that often appear in tea, gentle nourishment pages, and seasonal food writing.",
     eyebrow: "TCM Basics",
     intro:
-      "Mulberry fruit and goji berry can look similar in broad pantry content, but they do not create the same feeling on the page. A side-by-side comparison helps readers understand why goji often anchors beginner pages while mulberry fruit tends to show up in softer dryness, moisture, or berry-tea pathways.",
+      "Mulberry fruit and goji berry can look similar in broad pantry content, but they do not create the same feeling on the page. A side-by-side comparison helps readers understand why goji often anchors beginner pages while mulberry fruit tends to show up in softer dryness, moisture, or berry-tea themes.",
     sections: [
       {
         title: "Why these two berries get confused",
@@ -1079,7 +1079,7 @@ export const basicsArticles: ContentArticle[] = [
         title: "How HerbGuide usually separates them",
         paragraphs: [
           "Goji berry usually reads as the easier all-purpose beginner berry because it already feels familiar in porridge, soups, teas, and grocery culture.",
-          "Mulberry fruit often feels softer, more seasonal, and slightly more niche, which makes it useful for moisture and berry-tea pathways rather than for every beginner page.",
+          "Mulberry fruit often feels softer, more seasonal, and slightly more niche, which makes it useful for moisture and berry-tea themes rather than for every beginner page.",
         ],
         bullets: [
           "Goji usually fits broader pantry and breakfast routes.",
@@ -1141,9 +1141,9 @@ export const classicsArticles: ContentArticle[] = [
         ],
       },
       {
-        title: "Why it fits HerbGuide",
+        title: "Why it fits this library",
         paragraphs: [
-          "HerbGuide focuses on kitchen-friendly explanations, plain English, and traditional context.",
+          "This library focuses on kitchen-friendly explanations, plain English, and traditional context.",
           "Bencao Gangmu supports that approach because it reflects a wide world of observation, culinary knowledge, and herb description rather than narrow marketing language.",
         ],
       },
@@ -1216,10 +1216,10 @@ export const classicsArticles: ContentArticle[] = [
         ],
       },
       {
-        title: "Why it belongs on a beginner-friendly site",
+        title: "Why it belongs in a beginner-friendly guide",
         paragraphs: [
           "Readers do not need technical mastery of the book. They only need to understand that practical herb and formula language comes from a lineage with real depth.",
-          "Including this text strengthens the site's educational credibility without making the tone overly academic.",
+          "Including this text strengthens the library's educational credibility without making the tone overly academic.",
         ],
       },
     ],
@@ -1244,7 +1244,7 @@ export const classicsArticles: ContentArticle[] = [
         title: "What readers gain from this context",
         paragraphs: [
           "Understanding the warm disease tradition helps readers see that heat-related language has a historical framework behind it.",
-          "It also reinforces one of HerbGuide's core principles: traditional descriptions should be explained carefully, not exaggerated into modern promises.",
+          "It also reinforces one core principle here: traditional descriptions should be explained carefully, not exaggerated into modern promises.",
         ],
       },
     ],
@@ -1298,7 +1298,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         bullets: [
           "Fresh ginger: easy to connect with warming soups and teas.",
           "Jujube: familiar in sweet broths, teas, and kitchen routines.",
-          "Goji berry: highly searchable and easy to place in porridge or soup.",
+          "Goji berry: familiar and easy to place in porridge or soup.",
           "Chrysanthemum: approachable as a light floral tea ingredient.",
           "Black sesame: useful for pantry-style, dessert-style, and breakfast-style content.",
         ],
@@ -1638,7 +1638,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         title: "Why this is a strong beginner breakfast page",
         paragraphs: [
           "It centers one of the most familiar pantry herbs while staying fully in the kitchen.",
-          "That makes it easier for readers to trust and easier to connect with pantry, beauty-food, and gentle routine reading paths.",
+          "That makes it easier for readers to trust and easier to connect with pantry, beauty-food, and gentle routine reading.",
         ],
       },
       {
@@ -1689,14 +1689,14 @@ export const foodTherapyArticles: ContentArticle[] = [
         title: "Why this page adds range",
         paragraphs: [
           "It expands the editorial voice beyond soups and teas while staying inside familiar food traditions.",
-          "That variety helps HerbGuide feel more complete and makes the pantry ingredient network stronger.",
+          "That variety makes the library feel more complete and makes the pantry ingredient network stronger.",
         ],
       },
       {
         title: "What beginners learn from this pairing",
         paragraphs: [
           "Readers see that Chinese kitchen content can be gentle, repetitive, and comforting without becoming vague or mystical.",
-          "The page also creates natural links to longan, lotus seed, jujube, and evening-themed topic hubs.",
+          "The page also creates natural links to longan, lotus seed, jujube, and evening-themed topic pages.",
         ],
       },
     ],
@@ -1797,7 +1797,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         title: "What the page teaches beyond the pot",
         paragraphs: [
           "A page like this shows how Chinese food therapy often uses gentle, food-adjacent preparations to explain traditional ingredient roles.",
-          "It also creates a natural bridge into digestive topic hubs, chen pi reading, and dampness or qi movement vocabulary for readers who want more context.",
+          "It also creates a natural bridge into digestive topic pages, chen pi reading, and dampness or qi movement vocabulary for readers who want more context.",
         ],
       },
     ],
@@ -1806,7 +1806,7 @@ export const foodTherapyArticles: ContentArticle[] = [
     slug: "black-sesame-and-jujube-breakfast-bowl",
     title: "Black Sesame and Jujube Breakfast Bowl",
     description:
-      "A soft breakfast-style pantry page that deepens HerbGuide's black sesame and jujube pathways without overcomplicating the recipe.",
+      "A soft breakfast-style pantry page that deepens black sesame and jujube reading without overcomplicating the recipe.",
     eyebrow: "Food Therapy",
     intro:
       "Black sesame and jujube make a strong breakfast pair because the flavor feels grounded and the ingredients already connect with some of the most approachable pantry pages. A simple bowl-style page helps readers imagine a real routine while staying fully inside kitchen-first educational content.",
@@ -1899,7 +1899,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         title: "What the bowl teaches beyond the recipe",
         paragraphs: [
           "A job's tears porridge page helps connect dampness, digestive traditions, poria, and lighter pantry routines into one reading path.",
-          "It also gives glossary visitors a practical next click after terms like dampness or food stagnation.",
+          "It also gives glossary readers a practical follow-up after terms like dampness or food stagnation.",
         ],
       },
     ],
@@ -1908,7 +1908,7 @@ export const foodTherapyArticles: ContentArticle[] = [
     slug: "pear-and-chrysanthemum-tea-for-warm-afternoons",
     title: "Pear and Chrysanthemum Tea for Warm Afternoons",
     description:
-      "A light seasonal tea page that supports cooling and dryness pathways with familiar ingredients and low-hype language.",
+      "A light seasonal tea page that supports cooling and dryness themes with familiar ingredients and low-hype language.",
     eyebrow: "Food Therapy",
     intro:
       "Pear and chrysanthemum make a useful pairing for seasonal content because the ingredients already feel recognizable and the traditional language around them often connects to warmth, lightness, and dryness. A simple tea page gives readers a gentle way to understand that vocabulary through the kitchen first.",
@@ -1948,7 +1948,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       {
         title: "How this page fits related reading",
         paragraphs: [
-          "This tea article strengthens the link between chrysanthemum, pear-style seasonal content, glossary pages about clear heat, and the seasonal kitchen topic hub.",
+          "This tea article strengthens the link between chrysanthemum, pear-style seasonal content, glossary pages about clear heat, and the seasonal kitchen topic page.",
           "It also gives readers who begin with warming pages a useful contrast page instead of stopping at one concept.",
         ],
       },
@@ -1958,7 +1958,7 @@ export const foodTherapyArticles: ContentArticle[] = [
     slug: "goji-and-chrysanthemum-tea-basics",
     title: "Goji and Chrysanthemum Tea Basics",
     description:
-      "A simple visual tea page that connects a familiar nourishing berry with one of HerbGuide's clearest cooling flowers.",
+      "A simple visual tea page that connects a familiar nourishing berry with one especially clear cooling flower.",
     eyebrow: "Food Therapy",
     intro:
       "Goji and chrysanthemum are one of the most recognizable pairings in beginner-friendly tea writing because the color is vivid, the ingredients already feel familiar, and the traditional language around them is easier to explain than denser herb theory. A tea page makes that pairing practical without becoming exaggerated.",
@@ -2008,7 +2008,7 @@ export const foodTherapyArticles: ContentArticle[] = [
     slug: "jujube-and-lotus-seed-congee-for-quiet-evenings",
     title: "Jujube and Lotus Seed Congee for Quiet Evenings",
     description:
-      "A gentle evening-style pantry bowl that deepens HerbGuide's jujube and lotus seed pathways with simple kitchen language.",
+      "A gentle evening-style pantry bowl that deepens jujube and lotus seed reading with simple kitchen language.",
     eyebrow: "Food Therapy",
     intro:
       "Jujube and lotus seed make a calm, memorable pair because both ingredients already feel closely tied to household food traditions. A simple congee page lets readers picture a real bowl more easily than abstract evening-themed language alone.",
@@ -2144,7 +2144,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       {
         title: "Why this page works well",
         paragraphs: [
-          "It gives digestive and dampness visitors a very concrete food page after they read one abstract concept article.",
+          "It gives readers interested in digestive and dampness language a very concrete food page after one abstract concept article.",
           "That makes the terminology easier to remember through a real food example.",
         ],
       },

@@ -113,9 +113,9 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
   <section class="section section-alt">
     <div class="shell">
       <SectionIntro
-        eyebrow="Topic hubs"
-        title="Follow clearer reading paths"
-        text="These curated topic hubs connect herbs, basics, and recipe-style pages so readers can explore by intent instead of jumping around blindly."
+        eyebrow="Topic guides"
+        title="Follow clearer topic guides"
+        text="These curated topic pages connect herbs, basics, and recipe-style pages so readers can explore by theme instead of jumping around blindly."
       />
       <div class="card-grid">
         {topics.slice(0, 3).map((topic) => (
@@ -124,7 +124,7 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
             <h3><a href={`/topics/${topic.slug}/`}>{topic.title}</a></h3>
             <p>{topic.description}</p>
             <p class="card-link">
-              <a href={`/topics/${topic.slug}/`}>Open topic hub</a>
+              <a href={`/topics/${topic.slug}/`}>Open topic page</a>
             </p>
           </article>
         ))}
@@ -237,7 +237,7 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
         <p class="eyebrow">Natural follow-ups</p>
         <h2>Move from one page into related reading</h2>
         <p>
-          A recipe often pairs well with a herb page or a topic hub. A glossary page often
+          A recipe often pairs well with a herb page or a topic page. A glossary page often
           makes more sense after one practical kitchen article. Reading across these formats
           makes the traditional language easier to understand.
         </p>
@@ -305,7 +305,7 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
         <h2>Start with a familiar herb, then branch outward</h2>
         <p>
           A familiar herb page often becomes easier to understand when it is paired with a
-          topic hub, a basics explainer, or a kitchen article. These are some of the clearest
+          topic page, a basics explainer, or a kitchen article. These are some of the clearest
           starting points on the homepage.
         </p>
         <ul>

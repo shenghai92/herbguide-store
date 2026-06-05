@@ -76,8 +76,8 @@ const { topic } = Astro.props;
       ))}
 
       <article class="prose-block card">
-        <p class="eyebrow">Best next reads</p>
-        <h2>Follow this topic through the site</h2>
+        <p class="eyebrow">Related reading</p>
+        <h2>Continue with pages in the same theme</h2>
         <div class="stack">
           {topic.featuredLinks.map((link) => (
             <article class="list-card">
@@ -91,9 +91,9 @@ const { topic } = Astro.props;
 
       <article class="prose-block card">
         <p class="eyebrow">Keep exploring</p>
-        <h2>Browse more topic hubs</h2>
+        <h2>Browse more topic pages</h2>
         <p>
-          Return to <a href="/topics/">Topics</a> for more curated paths through herbs, basics,
+          Return to <a href="/topics/">Topics</a> for more guided routes through herbs, basics,
           and kitchen content.
         </p>
       </article>

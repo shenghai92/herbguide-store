@@ -207,7 +207,7 @@ export const recipeCards = [
   {
     slug: "black-sesame-breakfast-ideas-for-beginners",
     title: "Black Sesame Breakfast Ideas for Beginners",
-    text: "A pantry-friendly article that turns black sesame into an everyday-use topic hub.",
+    text: "A pantry-friendly article that turns black sesame into an everyday-use kitchen guide.",
   },
   {
     slug: "chrysanthemum-and-mint-cooling-tea-basics",
@@ -232,7 +232,7 @@ export const recipeCards = [
   {
     slug: "chen-pi-tea-for-heavy-meal-days",
     title: "Chen Pi Tea for Heavy Meal Days",
-    text: "A pantry-style tea page that gives digestive visitors a very practical chen pi entry point.",
+    text: "A pantry-style tea page that gives digestive readers a very practical chen pi entry point.",
   },
   {
     slug: "hawthorn-berry-tea-for-rich-meals",
@@ -242,7 +242,7 @@ export const recipeCards = [
   {
     slug: "black-sesame-and-jujube-breakfast-bowl",
     title: "Black Sesame and Jujube Breakfast Bowl",
-    text: "A soft pantry-style breakfast page that deepens black sesame and jujube reading paths.",
+    text: "A soft pantry-style breakfast page that deepens black sesame and jujube kitchen reading.",
   },
   {
     slug: "jobs-tears-porridge-for-heavy-days",
@@ -252,7 +252,7 @@ export const recipeCards = [
   {
     slug: "pear-and-chrysanthemum-tea-for-warm-afternoons",
     title: "Pear and Chrysanthemum Tea for Warm Afternoons",
-    text: "A light seasonal tea page that supports cooling and dryness pathways without overclaiming.",
+    text: "A light seasonal tea page that supports cooling and dryness themes without overclaiming.",
   },
   {
     slug: "mulberry-and-goji-tea-basics",
@@ -267,7 +267,7 @@ export const recipeCards = [
   {
     slug: "jujube-and-lotus-seed-congee-for-quiet-evenings",
     title: "Jujube and Lotus Seed Congee for Quiet Evenings",
-    text: "A soft evening-style pantry page that deepens jujube and lotus seed pathways with a very approachable bowl.",
+    text: "A soft evening-style pantry page that deepens jujube and lotus seed reading with a very approachable bowl.",
   },
   {
     slug: "tremella-and-pear-sweet-soup-basics",

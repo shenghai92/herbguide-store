@@ -202,7 +202,7 @@ export const herbs: Herb[] = [
     category: "Dampness-related herbs",
     summary: "A classic TCM ingredient often used in conversations about dampness, fluid balance, and traditional context.",
     whatItIs:
-      "Poria appears often in Chinese herbal education but is less familiar to mainstream U.S. readers, which makes it valuable for building authority once the site has a beginner base.",
+      "Poria appears often in Chinese herbal education but is less familiar to many mainstream U.S. readers, which makes it useful once beginners want a broader herb vocabulary.",
     nature: "Neutral",
     flavor: "Sweet, bland",
     channels: "Heart, Spleen, Kidney, Lung",
@@ -329,7 +329,7 @@ export const herbs: Herb[] = [
     traditionalUses: [
       "Traditionally used in TCM for a gentler everyday qi-related context.",
       "Common in home-style soups and kitchen medicine content.",
-      "Helps widen the site's pantry-like approach.",
+      "Helps widen the pantry-style side of the library.",
     ],
     foodUses: ["Soup", "Broth", "Stew"],
     caution:
@@ -418,7 +418,7 @@ export const herbs: Herb[] = [
     category: "Food therapy herbs",
     summary: "A classic ingredient for soups and desserts that adds depth to nourishing kitchen content.",
     whatItIs:
-      "Lotus seed supports the site's recipe layer because it appears naturally in sweet soups, porridge, and family-style Chinese kitchen traditions.",
+      "Lotus seed fits naturally into sweet soups, porridge, and family-style Chinese kitchen traditions.",
     nature: "Neutral",
     flavor: "Sweet, astringent",
     channels: "Heart, Kidney, Spleen",
@@ -490,7 +490,7 @@ export const herbs: Herb[] = [
     category: "Food therapy herbs",
     summary: "A familiar kitchen ingredient with strong potential for accessible beauty and nourishment content.",
     whatItIs:
-      "Black sesame lets the site meet users where they already are: in food, desserts, breakfast bowls, and pantry curiosity.",
+      "Black sesame meets readers where they already are: in food, desserts, breakfast bowls, and pantry curiosity.",
     nature: "Neutral",
     flavor: "Sweet",
     channels: "Liver, Kidney, Large Intestine",
@@ -536,7 +536,7 @@ export const herbs: Herb[] = [
     latin: "Perillae Folium",
     partUsed: "Leaf",
     category: "Kitchen herbs",
-    summary: "An aromatic culinary leaf that expands the site's food-first and pantry-first storytelling.",
+    summary: "An aromatic culinary leaf that expands the library's food-first and pantry-first range.",
     whatItIs:
       "Perilla leaf is useful because it connects TCM herb writing with real cooking traditions and ingredient recognition across Asian food cultures.",
     nature: "Warm",
@@ -592,7 +592,7 @@ export const herbs: Herb[] = [
     channels: "Liver, Gallbladder, Pericardium",
     traditionalUses: [
       "Traditionally used in TCM discussions of blood movement and qi movement.",
-      "A strong example of why the site needs careful terminology explanations.",
+      "A strong example of why careful terminology explanations matter.",
       "Useful for later-stage depth content rather than day-one emphasis.",
     ],
     foodUses: ["Advanced formula discussions"],
@@ -634,7 +634,7 @@ export const herbs: Herb[] = [
     category: "Blood-related herbs",
     summary: "A classic dense tonic herb that belongs in the library for depth, not as a casual beginner ingredient.",
     whatItIs:
-      "Prepared rehmannia is an authority-building herb. It signals that the site covers more than grocery-friendly ingredients, while still demanding careful tone.",
+      "Prepared rehmannia is a denser traditional herb that shows the library covers more than grocery-friendly ingredients while still demanding careful tone.",
     nature: "Slightly warm",
     flavor: "Sweet",
     channels: "Heart, Kidney, Liver",
@@ -689,7 +689,7 @@ export const herbs: Herb[] = [
     traditionalUses: [
       "Traditionally used for stronger internal warming discussions in TCM.",
       "Works especially well in comparison content against fresh ginger.",
-      "Helps the site teach nuance instead of oversimplification.",
+      "Helps the library teach nuance instead of oversimplification.",
     ],
     foodUses: ["Warm blends", "Decoction", "Comparison content"],
     caution:
@@ -778,7 +778,7 @@ export const herbs: Herb[] = [
     category: "Food therapy herbs",
     summary: "A pantry-friendly bean that fits naturally into lighter soups and dampness-related kitchen reading.",
     whatItIs:
-      "Adzuki bean helps HerbGuide stay grounded in food-first content because readers can understand it through soup, porridge, and pantry routines before needing much theory.",
+      "Adzuki bean keeps the library grounded in food-first content because readers can understand it through soup, porridge, and pantry routines before needing much theory.",
     nature: "Neutral",
     flavor: "Sweet, slightly sour",
     channels: "Heart, Small Intestine",
