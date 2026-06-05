@@ -197,7 +197,7 @@ export const recipeCards = [
   {
     slug: "jujube-and-ginger-tea-for-busy-weeks",
     title: "Jujube and Ginger Tea for Busy Weeks",
-    text: "A short, practical routine article made for repeat visits and shares.",
+    text: "A short, practical routine article built around two approachable kitchen ingredients.",
   },
   {
     slug: "pear-and-lily-bulb-soup-for-dry-days",
@@ -227,7 +227,7 @@ export const recipeCards = [
   {
     slug: "lotus-seed-and-longan-sweet-soup-basics",
     title: "Lotus Seed and Longan Sweet Soup Basics",
-    text: "A gentle dessert-soup article that adds depth to the site's nourishing kitchen content.",
+    text: "A gentle dessert-soup article that adds depth to nourishing kitchen reading.",
   },
   {
     slug: "chen-pi-tea-for-heavy-meal-days",
@@ -242,7 +242,7 @@ export const recipeCards = [
   {
     slug: "black-sesame-and-jujube-breakfast-bowl",
     title: "Black Sesame and Jujube Breakfast Bowl",
-    text: "A soft pantry-style breakfast page that deepens the site's black sesame and jujube pathways.",
+    text: "A soft pantry-style breakfast page that deepens black sesame and jujube reading paths.",
   },
   {
     slug: "jobs-tears-porridge-for-heavy-days",
@@ -262,7 +262,7 @@ export const recipeCards = [
   {
     slug: "goji-and-chrysanthemum-tea-basics",
     title: "Goji and Chrysanthemum Tea Basics",
-    text: "A visual pantry tea page that connects one popular berry with one of the site's clearest cooling herbs.",
+    text: "A visual pantry tea page that connects one popular berry with one especially clear cooling herb.",
   },
   {
     slug: "jujube-and-lotus-seed-congee-for-quiet-evenings",

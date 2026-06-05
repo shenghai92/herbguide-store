@@ -154,7 +154,7 @@ export const herbs: Herb[] = [
     category: "Digestive herbs",
     summary: "A tart fruit traditionally associated with food stagnation and digestive heaviness in TCM.",
     whatItIs:
-      "Hawthorn is useful for SEO and education because it overlaps with Western herbal familiarity while still having a distinct place in Chinese food traditions.",
+      "Hawthorn overlaps with Western herbal familiarity while still holding a distinct place in Chinese food traditions, which makes it easier for many readers to approach.",
     nature: "Slightly warm",
     flavor: "Sour, sweet",
     channels: "Spleen, Stomach, Liver",
@@ -226,7 +226,7 @@ export const herbs: Herb[] = [
     category: "Nourishing herbs",
     summary: "A sweet dried fruit often used in traditional dessert soups and gentle restorative recipes.",
     whatItIs:
-      "Longan fruit helps the site expand beyond the most common herbs while staying within approachable food-oriented content.",
+      "Longan fruit helps readers move beyond the most common herbs while staying within approachable food-oriented content.",
     nature: "Warm",
     flavor: "Sweet",
     channels: "Heart, Spleen",
@@ -250,7 +250,7 @@ export const herbs: Herb[] = [
     category: "Food therapy herbs",
     summary: "A soft food-tradition ingredient that works especially well in gentle dessert and soup content.",
     whatItIs:
-      "Lily bulb is especially useful for kitchen pages because it feels more like an ingredient than a supplement and helps the site keep a warm editorial tone.",
+      "Lily bulb is especially useful for kitchen pages because it feels more like an ingredient than a supplement and keeps the tone warm and approachable.",
     nature: "Slightly cold",
     flavor: "Sweet",
     channels: "Heart, Lung",
@@ -392,7 +392,7 @@ export const herbs: Herb[] = [
     latin: "Dioscoreae Rhizoma",
     partUsed: "Rhizome",
     category: "Food therapy herbs",
-    summary: "A food-grade staple that helps the site blend kitchen use with TCM education.",
+    summary: "A food-grade staple that blends kitchen use with TCM education.",
     whatItIs:
       "Chinese yam is especially helpful for a practical site because it feels more like a pantry ingredient and less like an intimidating medicinal.",
     nature: "Neutral",
@@ -442,7 +442,7 @@ export const herbs: Herb[] = [
     category: "Dampness-related herbs",
     summary: "A grain-like ingredient often used in TCM kitchen discussions about dampness and heaviness.",
     whatItIs:
-      "Job's tears helps the site explain dampness through a grain-like ingredient that sits naturally inside recipe and pantry education.",
+      "Job's tears helps explain dampness through a grain-like ingredient that fits naturally into recipe and pantry education.",
     nature: "Slightly cold",
     flavor: "Sweet, bland",
     channels: "Lung, Spleen, Stomach",
@@ -610,7 +610,7 @@ export const herbs: Herb[] = [
     category: "Blood-related herbs",
     summary: "An important classic herb for explaining nourishment, moderation, and the TCM concept of blood.",
     whatItIs:
-      "White peony root helps the site teach one of the most misunderstood ideas in English-language TCM writing: what 'blood' means in traditional theory.",
+      "White peony root helps teach one of the most misunderstood ideas in English-language TCM writing: what 'blood' means in traditional theory.",
     nature: "Slightly cold",
     flavor: "Bitter, sour",
     channels: "Liver, Spleen",
@@ -658,7 +658,7 @@ export const herbs: Herb[] = [
     category: "Moistening herbs",
     summary: "A classic herb for dryness-related explanations and fluid-nourishing discussions in TCM.",
     whatItIs:
-      "Ophiopogon helps the site build a more refined educational vocabulary around dryness and fluids without relying on exaggerated health promises.",
+      "Ophiopogon helps build a more refined educational vocabulary around dryness and fluids without relying on exaggerated health promises.",
     nature: "Slightly cold",
     flavor: "Sweet, slightly bitter",
     channels: "Heart, Lung, Stomach",
@@ -713,11 +713,11 @@ export const herbs: Herb[] = [
     traditionalUses: [
       "Traditionally used in TCM discussions involving the neck, fluids, and exterior patterns.",
       "A good example of a herb with multiple contexts across food and tradition.",
-      "Useful for long-tail SEO later in the site's growth.",
+      "Useful for readers who want to explore more cross-cultural herb traditions.",
     ],
     foodUses: ["Starch use", "Traditional drinks", "Powder"],
     caution:
-      "Because this page can draw broad internet lifestyle traffic, it should stay tightly grounded and not overstate evidence.",
+      "Because this page can attract broad lifestyle curiosity, it should stay tightly grounded and not overstate evidence.",
     tags: ["root", "cooling", "seo", "cross-cultural", "authority"],
   },
   {
@@ -730,7 +730,7 @@ export const herbs: Herb[] = [
     category: "Kidney-related herbs",
     summary: "A classic herb that helps round out the library with deeper traditional categories.",
     whatItIs:
-      "Eucommia bark is more advanced than launch favorites, but it helps the site mature from a beginner site into a real library over time.",
+      "Eucommia bark is more advanced than beginner favorites, but it helps the library grow beyond entry-level ingredients over time.",
     nature: "Warm",
     flavor: "Sweet",
     channels: "Kidney, Liver",
@@ -795,8 +795,6 @@ export const herbs: Herb[] = [
 ];
 
 export const featuredHerbs = herbs.slice(0, 6);
-
-export const launchHerbList = herbs.slice(0, 8).map((herb) => `${herb.name} (${herb.pinyin})`);
 
 const normalizeLabel = (value: string) => value.trim().replace(/\s+/g, " ");
 

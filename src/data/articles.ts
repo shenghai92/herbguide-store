@@ -331,7 +331,7 @@ export const basicsArticles: ContentArticle[] = [
       {
         title: "Why this comparison is so useful",
         paragraphs: [
-          "This is one of the best beginner comparisons on the whole site because the name overlap is strong while the traditional descriptions are not identical.",
+          "This is one of the strongest beginner comparisons because the name overlap is strong while the traditional descriptions are not identical.",
           "It teaches readers that famous names can still hide important distinctions in TCM herb education.",
         ],
       },
@@ -533,10 +533,10 @@ export const basicsArticles: ContentArticle[] = [
         ],
       },
       {
-        title: "Why this page helps the rest of the site",
+        title: "Why this page matters for beginners",
         paragraphs: [
           "Once readers understand what spleen means in TCM, a large part of the herb library becomes much easier to read.",
-          "It is one of the highest-value glossary pages because it removes confusion from many other articles at once.",
+          "It is one of the most useful glossary pages because it removes confusion from many other articles at once.",
         ],
       },
     ],
@@ -659,7 +659,7 @@ export const basicsArticles: ContentArticle[] = [
       "A careful beginner guide to the traditional TCM idea of jing, often translated as essence.",
     eyebrow: "TCM Basics",
     intro:
-      "Jing is commonly translated as essence in Chinese medicine writing, but that translation can feel abstract or overly dramatic without context. On HerbGuide, jing is explained as a traditional idea tied to deep reserves, growth, development, reproduction, and long-term constitutional strength inside TCM theory.",
+      "Jing is commonly translated as essence in Chinese medicine writing, but that translation can feel abstract or overly dramatic without context. Here, jing is explained as a traditional idea tied to deep reserves, development, reproduction, and long-term constitutional strength inside TCM theory.",
     sections: [
       {
         title: "Why the term gets overhyped online",
@@ -829,10 +829,10 @@ export const basicsArticles: ContentArticle[] = [
         ],
       },
       {
-        title: "Why this page helps HerbGuide",
+        title: "Why this page matters",
         paragraphs: [
           "A damp heat explainer makes digestive topic hubs and glossary reading more complete, especially for visitors who arrive through comparison or kitchen pages.",
-          "It also gives the site another strong long-tail term page that can connect directly to hawthorn, chen pi, poria, mint, and lighter recipe pathways.",
+          "It also connects directly to hawthorn, chen pi, poria, mint, and lighter recipe pages that use similar language.",
         ],
       },
     ],
@@ -918,7 +918,7 @@ export const basicsArticles: ContentArticle[] = [
       "A plain-English comparison of chrysanthemum and mint for readers learning cooling tea language in TCM content.",
     eyebrow: "TCM Basics",
     intro:
-      "Chrysanthemum and mint are two of the easiest cooling herbs on the site for beginners to recognize. They often appear together in tea content, but they do not play the same role. One usually reads more floral and gentle, while the other feels more aromatic and brisk. A direct comparison makes cooling language much easier to understand.",
+      "Chrysanthemum and mint are two of the easiest cooling herbs for beginners to recognize. They often appear together in tea content, but they do not play the same role. One usually reads more floral and gentle, while the other feels more aromatic and brisk. A direct comparison makes cooling language much easier to understand.",
     sections: [
       {
         title: "Why readers compare these two so often",
@@ -973,7 +973,7 @@ export const basicsArticles: ContentArticle[] = [
         bullets: [
           "Tea feels lighter and more visual.",
           "Porridge feels more grounding and meal-like.",
-          "Both are food-first uses, but they create different reading paths on the site.",
+          "Both are food-first uses, but they help readers understand the ingredient in different ways.",
         ],
       },
       {
@@ -1708,7 +1708,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       "A pantry-style tea article that helps readers understand chen pi through one of its easiest food-adjacent use cases.",
     eyebrow: "Food Therapy",
     intro:
-      "Chen pi is one of the best storytelling herbs on the site because it turns dried citrus peel into a full traditional pantry concept. A simple tea-style article gives readers an immediate way to understand why this ingredient shows up so often in digestive writing.",
+      "Chen pi is one of the clearest pantry herbs to explain because it turns dried citrus peel into a full traditional kitchen concept. A simple tea-style article gives readers an immediate way to understand why this ingredient shows up so often in digestive writing.",
     recipe: {
       recipeYield: "2 cups",
       prepTime: "PT5M",
@@ -1739,14 +1739,14 @@ export const foodTherapyArticles: ContentArticle[] = [
         title: "Why chen pi deserves its own tea page",
         paragraphs: [
           "It is one of the clearest examples of how ordinary kitchen ingredients become traditional categories through preparation and aging.",
-          "That makes it excellent for both education and SEO because the story is memorable and the use case is practical.",
+          "That makes it especially useful for education because the story is memorable and the use case is practical.",
         ],
       },
       {
         title: "How this page fits broader reading",
         paragraphs: [
-          "A simple chen pi tea article strengthens digestive topic hubs, aromatic herb reading, and comparison-style pantry content.",
-          "It also gives returning readers something more specific than a broad concept page.",
+          "A simple chen pi tea article connects naturally with digestive topics, aromatic herb reading, and comparison-style pantry content.",
+          "It also gives readers a specific everyday example instead of only a broad concept page.",
         ],
       },
     ],
@@ -1809,7 +1809,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       "A soft breakfast-style pantry page that deepens HerbGuide's black sesame and jujube pathways without overcomplicating the recipe.",
     eyebrow: "Food Therapy",
     intro:
-      "Black sesame and jujube make a strong breakfast pair because the flavor feels grounded and the ingredients already connect with some of the most approachable pages on the site. A simple bowl-style page helps readers imagine a real routine while staying fully inside kitchen-first educational content.",
+      "Black sesame and jujube make a strong breakfast pair because the flavor feels grounded and the ingredients already connect with some of the most approachable pantry pages. A simple bowl-style page helps readers imagine a real routine while staying fully inside kitchen-first educational content.",
     recipe: {
       recipeYield: "2 bowls",
       prepTime: "PT8M",
@@ -1848,7 +1848,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         title: "What readers learn from the pairing",
         paragraphs: [
           "This bowl teaches that Chinese food therapy can be gentle, ordinary, and ingredient-focused rather than dramatic.",
-          "It also strengthens the beauty-food, balanced-pantry, and beginner breakfast pathways across the site.",
+          "It also connects naturally with beauty-food, balanced-pantry, and beginner breakfast reading.",
         ],
       },
     ],
@@ -1961,7 +1961,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       "A simple visual tea page that connects a familiar nourishing berry with one of HerbGuide's clearest cooling flowers.",
     eyebrow: "Food Therapy",
     intro:
-      "Goji and chrysanthemum are one of the most recognizable pairings on the site because the color is vivid, the ingredients already feel familiar, and the traditional language around them is easier to explain than denser herb theory. A tea page makes that pairing practical without becoming exaggerated.",
+      "Goji and chrysanthemum are one of the most recognizable pairings in beginner-friendly tea writing because the color is vivid, the ingredients already feel familiar, and the traditional language around them is easier to explain than denser herb theory. A tea page makes that pairing practical without becoming exaggerated.",
     recipe: {
       recipeYield: "2 mugs",
       prepTime: "PT5M",
@@ -2251,7 +2251,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         ],
       },
       {
-        title: "How this bowl helps the wider site",
+        title: "How this bowl fits related reading",
         paragraphs: [
           "This recipe deepens links between tremella, lotus seed, jujube, longan, and soft nourishment language.",
           "It also keeps the focus on pantry familiarity rather than drifting toward claim-heavy herb language.",
