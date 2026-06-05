@@ -738,6 +738,54 @@ export const herbs: Herb[] = [
       "This page should avoid targeted medical-sounding claims and keep the language clearly educational.",
     tags: ["advanced", "bark", "kidney", "authority", "library depth"],
   },
+  {
+    slug: "tremella-mushroom",
+    name: "Tremella Mushroom",
+    pinyin: "Yin Er",
+    chinese: "银耳",
+    latin: "Tremellae Fuciformis Sporophorum",
+    partUsed: "Fruiting body",
+    category: "Food therapy herbs",
+    summary: "A gentle edible mushroom often used in sweet soups and soft seasonal kitchen content.",
+    whatItIs:
+      "Tremella mushroom is one of the most approachable Chinese food-therapy ingredients because it behaves like a real kitchen ingredient first and a traditional teaching ingredient second.",
+    nature: "Neutral to slightly cool",
+    flavor: "Sweet, mild",
+    channels: "Lung, Stomach",
+    traditionalUses: [
+      "Traditionally used in TCM-style food writing to support moisture and softness.",
+      "Often associated with dessert soups, pear pairings, and gentle seasonal dryness content.",
+      "A strong bridge ingredient between pantry cooking and plain-English TCM vocabulary.",
+    ],
+    foodUses: ["Sweet soup", "Pear soup", "Dessert bowl"],
+    caution:
+      "Even food-like ingredients should be framed carefully. Readers should avoid turning a sweet soup page into personal health guidance.",
+    tags: ["mushroom", "dryness", "sweet soup", "pantry", "beginner"],
+  },
+  {
+    slug: "adzuki-bean",
+    name: "Adzuki Bean",
+    pinyin: "Chi Xiao Dou",
+    chinese: "赤小豆",
+    latin: "Vignae Semen",
+    partUsed: "Bean",
+    category: "Food therapy herbs",
+    summary: "A pantry-friendly bean that fits naturally into lighter soups and dampness-related kitchen reading.",
+    whatItIs:
+      "Adzuki bean helps HerbGuide stay grounded in food-first content because readers can understand it through soup, porridge, and pantry routines before needing much theory.",
+    nature: "Neutral",
+    flavor: "Sweet, slightly sour",
+    channels: "Heart, Small Intestine",
+    traditionalUses: [
+      "Traditionally used in Chinese kitchen writing around lightness, drainage, and food-level dampness language.",
+      "Often paired with grains or beans in simple soups and porridge-style meals.",
+      "Useful for connecting pantry cooking with beginner TCM explanation.",
+    ],
+    foodUses: ["Soup", "Bean porridge", "Light stew"],
+    caution:
+      "Food-first pages should still avoid implying that one bean or soup is the answer to ongoing symptoms or personal health concerns.",
+    tags: ["bean", "pantry", "dampness", "soup", "beginner"],
+  },
 ];
 
 export const featuredHerbs = herbs.slice(0, 6);

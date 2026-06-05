@@ -1890,4 +1890,106 @@ export const foodTherapyArticles: ContentArticle[] = [
       },
     ],
   },
+  {
+    slug: "tremella-and-pear-sweet-soup-basics",
+    title: "Tremella and Pear Sweet Soup Basics",
+    description:
+      "A very simple dessert-soup page that introduces tremella and pear through a soft, beginner-friendly seasonal recipe.",
+    eyebrow: "Food Therapy",
+    intro:
+      "Tremella and pear make one of the softest seasonal pairings on HerbGuide. The ingredients are easy to picture, the preparation is simple, and the traditional language around moisture and gentle kitchen routines becomes much easier to understand when readers can imagine the actual bowl.",
+    recipe: {
+      recipeYield: "2 bowls",
+      prepTime: "PT10M",
+      totalTime: "PT40M",
+      ingredients: [
+        "1 small handful dried tremella mushroom",
+        "1 ripe pear, peeled and cut into chunks",
+        "3 1/2 cups water",
+        "1 to 2 jujubes, optional",
+        "A very small piece of rock sugar or skip it entirely",
+      ],
+      steps: [
+        "Rinse the tremella and soak it briefly until it softens enough to trim and tear into small pieces.",
+        "Add the tremella and water to a small pot and simmer gently for about 20 minutes.",
+        "Add the pear and optional jujubes, then continue simmering until the pear softens.",
+        "Add only a light touch of sweetness if needed.",
+        "Serve warm as a soft dessert soup or gentle seasonal bowl.",
+      ],
+      servingNotes: [
+        "The page works best when the flavor stays light and the texture stays soft.",
+        "This recipe is strongest as a calm kitchen idea, not a fixed daily routine.",
+      ],
+      caution: [
+        "Dryness and softness language here belongs to traditional food context, not diagnosis or treatment advice.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why this is such a strong beginner page",
+        paragraphs: [
+          "Both ingredients feel gentle and low-pressure, which makes the page easier to trust than heavier claim-driven content.",
+          "It also gives HerbGuide a clearer dessert-soup pathway beyond tea and porridge.",
+        ],
+      },
+      {
+        title: "What the bowl teaches beyond the recipe",
+        paragraphs: [
+          "A tremella and pear page helps readers understand how Chinese food therapy often explains softness and moisture through food texture rather than abstract theory alone.",
+          "It also creates useful links between tremella, pear, lily bulb, and the site's dryness-related glossary pages.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "adzuki-bean-and-jobs-tears-soup-basics",
+    title: "Adzuki Bean and Job's Tears Soup Basics",
+    description:
+      "A very simple pantry-style soup that connects adzuki bean and Job's Tears to digestive and dampness-related kitchen reading.",
+    eyebrow: "Food Therapy",
+    intro:
+      "Adzuki bean and Job's Tears create one of the clearest pantry-style pairings for readers who want a practical bowl after landing on dampness or digestive terminology. The ingredients feel recognizable enough to trust, and the preparation is simple enough to support second clicks from glossary and topic pages.",
+    recipe: {
+      recipeYield: "2 bowls",
+      prepTime: "PT10M",
+      totalTime: "PT55M",
+      ingredients: [
+        "1/3 cup adzuki beans",
+        "1/3 cup Job's Tears",
+        "4 1/2 cups water",
+        "2 thin slices fresh ginger, optional",
+        "A small pinch of salt for a savory version",
+      ],
+      steps: [
+        "Rinse the adzuki beans and Job's Tears well.",
+        "Add them to a small pot with the water and bring to a gentle boil.",
+        "Lower the heat and simmer until both ingredients soften into a light soup texture.",
+        "Add the optional ginger during the last 15 minutes if you want a slightly warmer finish.",
+        "Serve warm and keep the seasoning simple.",
+      ],
+      servingNotes: [
+        "This kind of page works best when it stays plain, practical, and easy to remember.",
+        "A lighter soup style fits HerbGuide better than a very heavy bean stew.",
+      ],
+      caution: [
+        "Dampness and digestive language here belongs to traditional educational context, not personal medical guidance.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why this page fits the site well",
+        paragraphs: [
+          "It gives digestive and dampness visitors a very concrete food page after they read one abstract concept article.",
+          "That makes it useful for bounce reduction as well as search growth.",
+        ],
+      },
+      {
+        title: "How this page supports the wider library",
+        paragraphs: [
+          "This soup connects adzuki bean, Job's Tears, poria, and lighter pantry language into one clearer pathway.",
+          "It also gives HerbGuide another meal-style page that is simpler than dessert soup and less repetitive than tea.",
+        ],
+      },
+    ],
+  },
 ];

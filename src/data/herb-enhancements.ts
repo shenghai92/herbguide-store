@@ -163,6 +163,30 @@ export const herbEnhancements: HerbEnhancement[] = [
       { title: "Chen Pi vs Hawthorn Berry", href: "/basics/chen-pi-vs-hawthorn-berry/" },
     ],
   },
+  {
+    slug: "tremella-mushroom",
+    kitchenPairings: ["Pear", "Jujube", "Lily bulb", "Light dessert soups"],
+    goodStartingPoints: [
+      "Tremella is easiest to understand through texture, sweetness, and very simple dessert-soup pages.",
+      "It works best as a food-first ingredient that helps explain moisture and softness language gently.",
+    ],
+    compareLinks: [
+      { title: "Tremella and Pear Sweet Soup Basics", href: "/food-therapy/tremella-and-pear-sweet-soup-basics/" },
+      { title: "Seasonal Kitchen Ideas", href: "/topics/seasonal-kitchen-ideas/" },
+    ],
+  },
+  {
+    slug: "adzuki-bean",
+    kitchenPairings: ["Job's Tears", "Fresh ginger", "Plain soups", "Lighter pantry meals"],
+    goodStartingPoints: [
+      "Adzuki bean makes the most sense on HerbGuide when it appears in light soup or porridge content.",
+      "Readers usually understand this page best after one plain-English article about dampness or digestive heaviness.",
+    ],
+    compareLinks: [
+      { title: "Adzuki Bean and Job's Tears Soup Basics", href: "/food-therapy/adzuki-bean-and-jobs-tears-soup-basics/" },
+      { title: "Digestive Traditions", href: "/topics/digestive-traditions/" },
+    ],
+  },
 ];
 
 export const getHerbEnhancement = (slug: string) =>

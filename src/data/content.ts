@@ -249,4 +249,14 @@ export const recipeCards = [
     title: "Jujube and Lotus Seed Congee for Quiet Evenings",
     text: "A soft evening-style pantry page that deepens jujube and lotus seed pathways with a very approachable bowl.",
   },
+  {
+    slug: "tremella-and-pear-sweet-soup-basics",
+    title: "Tremella and Pear Sweet Soup Basics",
+    text: "A very simple dessert-soup page that turns tremella and pear into a gentle seasonal beginner recipe.",
+  },
+  {
+    slug: "adzuki-bean-and-jobs-tears-soup-basics",
+    title: "Adzuki Bean and Job's Tears Soup Basics",
+    text: "A pantry-style soup page that gives dampness and digestive readers one clear, low-hype bowl to picture.",
+  },
 ];
