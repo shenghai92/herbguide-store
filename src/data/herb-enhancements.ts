@@ -200,6 +200,45 @@ export const herbEnhancements: HerbEnhancement[] = [
       { title: "Balanced Pantry Habits", href: "/topics/balanced-pantry-habits/" },
     ],
   },
+  {
+    slug: "licorice-root",
+    kitchenPairings: ["Mild tea blends", "Broth support", "Formula context", "Pantry-style comparison reading"],
+    goodStartingPoints: [
+      "Licorice root makes the most sense on HerbGuide when readers understand it as a harmonizing herb rather than as a casual everyday sweet root.",
+      "The best first click after this page is usually a plain-English basics article about harmonizing or a gentle digestive pathway page.",
+    ],
+    compareLinks: [
+      { title: "What Does Harmonizing Mean in TCM?", href: "/basics/what-does-harmonizing-mean-in-tcm/" },
+      { title: "What Does Tonify Mean in TCM?", href: "/basics/what-does-tonify-mean-in-tcm/" },
+      { title: "Balanced Pantry Habits", href: "/topics/balanced-pantry-habits/" },
+    ],
+  },
+  {
+    slug: "schisandra-berry",
+    kitchenPairings: ["Jujube", "Lotus seed", "Light tea blends", "Evening-style pantry routes"],
+    goodStartingPoints: [
+      "Schisandra is easiest to trust when introduced through very small, tea-style pairings instead of abstract five-flavor hype.",
+      "It works best when readers connect the berry to astringent language and then move into one gentle recipe page.",
+    ],
+    compareLinks: [
+      { title: "What Does Astringent Mean in TCM?", href: "/basics/what-does-astringent-mean-in-tcm/" },
+      { title: "Schisandra and Jujube Tea Basics", href: "/food-therapy/schisandra-and-jujube-tea-basics/" },
+      { title: "Evening Teas", href: "/topics/evening-teas/" },
+    ],
+  },
+  {
+    slug: "mulberry-fruit",
+    kitchenPairings: ["Goji berry", "Pear", "Light berry teas", "Gentle seasonal pantry reading"],
+    goodStartingPoints: [
+      "Mulberry fruit is strongest on HerbGuide when readers approach it as a softer berry ingredient with clear seasonal and tea-style context.",
+      "A comparison page or berry-tea page usually explains mulberry better than a dense theory-first route.",
+    ],
+    compareLinks: [
+      { title: "Mulberry Fruit vs Goji Berry", href: "/basics/mulberry-fruit-vs-goji-berry/" },
+      { title: "Mulberry and Goji Tea Basics", href: "/food-therapy/mulberry-and-goji-tea-basics/" },
+      { title: "Seasonal Kitchen Ideas", href: "/topics/seasonal-kitchen-ideas/" },
+    ],
+  },
 ];
 
 export const getHerbEnhancement = (slug: string) =>

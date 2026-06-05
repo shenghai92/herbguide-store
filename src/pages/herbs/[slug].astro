@@ -12,11 +12,52 @@ export function getStaticPaths() {
 }
 
 const { herb } = Astro.props;
-const relatedHerbs = herbs.filter((item) => item.slug !== herb.slug && item.category === herb.category).slice(0, 3);
+const relatedHerbs = herbs
+  .filter((item) => item.slug !== herb.slug && item.category === herb.category)
+  .slice(0, 3);
 const fallbackHerbs = herbs.filter((item) => item.slug !== herb.slug).slice(0, 3);
 const suggestedHerbs = relatedHerbs.length > 0 ? relatedHerbs : fallbackHerbs;
 const relatedTopics = getTopicsForHerb(herb.slug);
 const enhancement = getHerbEnhancement(herb.slug);
+const herbKeywords = [
+  herb.name,
+  herb.pinyin,
+  herb.chinese,
+  herb.latin,
+  herb.category,
+  ...herb.tags,
+  ...herb.foodUses,
+];
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: `What is ${herb.name} in TCM?`,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: `${herb.name} is presented on HerbGuide as a traditional Chinese herb profile with plain-English context, naming, category, kitchen uses where relevant, and a visible safety note.`,
+      },
+    },
+    {
+      "@type": "Question",
+      name: `Does this ${herb.name} page include food use ideas?`,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: `Yes. HerbGuide highlights approachable kitchen or food-adjacent uses whenever they help readers understand the herb more clearly, while keeping the page educational rather than prescriptive.`,
+      },
+    },
+    {
+      "@type": "Question",
+      name: `Is ${herb.name} on HerbGuide medical advice?`,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: `No. HerbGuide presents ${herb.name} as educational content about traditional terminology, cultural context, and safety boundaries, not as diagnosis or personalized treatment advice.`,
+      },
+    },
+  ],
+};
 ---
 
 <BaseLayout
@@ -29,6 +70,9 @@ const enhancement = getHerbEnhancement(herb.slug);
       headline: `${herb.name} (${herb.pinyin})`,
       description: herb.summary,
       url: `https://herbguide.store/herbs/${herb.slug}/`,
+      mainEntityOfPage: `https://herbguide.store/herbs/${herb.slug}/`,
+      keywords: herbKeywords.join(", "),
+      articleSection: herb.category,
       about: ["Traditional Chinese herbs", herb.name, herb.pinyin, herb.latin],
       author: {
         "@type": "Organization",
@@ -63,6 +107,7 @@ const enhancement = getHerbEnhancement(herb.slug);
         },
       ],
     },
+    faqSchema,
   ]}
 >
   <section class="page-hero herb-detail-hero">
@@ -71,7 +116,7 @@ const enhancement = getHerbEnhancement(herb.slug);
         <p class="eyebrow">{herb.category}</p>
         <h1>{herb.name}</h1>
         <p class="detail-subtitle">
-          {herb.pinyin} · {herb.chinese} · {herb.latin}
+          {herb.pinyin} | {herb.chinese} | {herb.latin}
         </p>
         <p>{herb.summary}</p>
       </div>
@@ -101,8 +146,23 @@ const enhancement = getHerbEnhancement(herb.slug);
 
   <section class="section">
     <div class="shell herb-body-grid">
-      <article class="prose-block">
-        <section class="detail-section">
+      <article class="prose-block stack">
+        <article class="prose-block card detail-jump-card">
+          <p class="eyebrow">Quick guide</p>
+          <h2>How to use this herb page</h2>
+          <p>
+            This page is structured to help readers move from naming and traditional context
+            into kitchen use, comparison links, and caution notes without scrolling blindly.
+          </p>
+          <ul>
+            <li><a href="#what-this-herb-is">Jump to what this herb is</a></li>
+            <li><a href="#how-tcm-describes-it">Jump to traditional description</a></li>
+            <li><a href="#kitchen-uses">Jump to common kitchen uses</a></li>
+            <li><a href="#safety-note">Jump to the safety note</a></li>
+          </ul>
+        </article>
+
+        <section class="detail-section card" id="what-this-herb-is">
           <h2>What this herb is</h2>
           <p>{herb.whatItIs}</p>
           <p>
@@ -112,7 +172,7 @@ const enhancement = getHerbEnhancement(herb.slug);
           </p>
         </section>
 
-        <section class="detail-section">
+        <section class="detail-section card" id="how-tcm-describes-it">
           <h2>How TCM describes it</h2>
           <p>
             In TCM language, <strong>nature</strong> describes whether a herb is warming,
@@ -131,7 +191,7 @@ const enhancement = getHerbEnhancement(herb.slug);
           </p>
         </section>
 
-        <section class="detail-section">
+        <section class="detail-section card">
           <h2>Traditional uses in plain English</h2>
           <ul>
             {herb.traditionalUses.map((item) => (
@@ -140,7 +200,7 @@ const enhancement = getHerbEnhancement(herb.slug);
           </ul>
         </section>
 
-        <section class="detail-section">
+        <section class="detail-section card" id="kitchen-uses">
           <h2>Common kitchen uses</h2>
           <p>
             This site focuses on practical, kitchen-adjacent learning whenever possible.
@@ -154,7 +214,7 @@ const enhancement = getHerbEnhancement(herb.slug);
         </section>
 
         {enhancement?.kitchenPairings && (
-          <section class="detail-section">
+          <section class="detail-section card">
             <h2>Common pairings and reading paths</h2>
             <p>
               Readers often understand a herb faster when they see what it tends to be paired
@@ -169,7 +229,7 @@ const enhancement = getHerbEnhancement(herb.slug);
         )}
 
         {enhancement?.goodStartingPoints && (
-          <section class="detail-section">
+          <section class="detail-section card">
             <h2>Best way to start with this page</h2>
             <ul>
               {enhancement.goodStartingPoints.map((item) => (
@@ -179,7 +239,7 @@ const enhancement = getHerbEnhancement(herb.slug);
           </section>
         )}
 
-        <section class="detail-section">
+        <section class="detail-section card">
           <h2>How to read this page in context</h2>
           <p>
             A herb profile is an educational overview, not a full practice guide. In
@@ -193,7 +253,7 @@ const enhancement = getHerbEnhancement(herb.slug);
           </p>
         </section>
 
-        <section class="detail-section caution-section">
+        <section class="detail-section caution-section" id="safety-note">
           <h2>Safety note</h2>
           <p>{herb.caution}</p>
           <p>
@@ -251,6 +311,15 @@ const enhancement = getHerbEnhancement(herb.slug);
             </ul>
           </div>
         )}
+        <div class="sidebar-card">
+          <p class="eyebrow">Reader questions</p>
+          <h2 class="sidebar-heading">Quick answers</h2>
+          <ul class="related-links">
+            <li>{herb.name} is explained here as an educational herb profile, not a product recommendation.</li>
+            <li>Kitchen and pantry uses are included when they make the herb easier to understand.</li>
+            <li>Safety context stays visible because not every herb is meant for casual self-use.</li>
+          </ul>
+        </div>
       </aside>
     </div>
   </section>

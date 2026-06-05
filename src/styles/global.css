@@ -382,6 +382,10 @@ main {
   padding: 1.5rem;
 }
 
+.detail-jump-card {
+  margin-bottom: 0;
+}
+
 .directory-card {
   padding: 1.1rem 1.2rem;
   background: rgba(255, 250, 243, 0.82);
@@ -584,6 +588,10 @@ main {
   margin-bottom: 0.75rem;
 }
 
+.detail-section.card {
+  padding: 1.5rem;
+}
+
 .detail-sidebar {
   display: grid;
   gap: 1rem;
@@ -591,6 +599,11 @@ main {
 
 .sidebar-card {
   padding: 1.3rem;
+}
+
+.sidebar-heading {
+  margin: 0 0 0.9rem;
+  font-size: 1.2rem;
 }
 
 .caution-section {
