@@ -12,6 +12,113 @@ export function getStaticPaths() {
 
 const { article } = Astro.props;
 const relatedTopics = getTopicsForFood(article.slug);
+const herbLinkMap: Record<string, Array<{ name: string; href: string }>> = {
+  "5-easy-chinese-food-therapy-ingredients-for-beginners": [
+    { name: "Fresh Ginger", href: "/herbs/fresh-ginger/" },
+    { name: "Jujube", href: "/herbs/jujube-red-date/" },
+    { name: "Goji Berry", href: "/herbs/goji-berry/" },
+    { name: "Chrysanthemum", href: "/herbs/chrysanthemum-flower/" },
+    { name: "Black Sesame Seed", href: "/herbs/black-sesame-seed/" },
+  ],
+  "a-simple-warming-soup-guide-for-cold-weather": [
+    { name: "Fresh Ginger", href: "/herbs/fresh-ginger/" },
+    { name: "Jujube", href: "/herbs/jujube-red-date/" },
+    { name: "Astragalus Root", href: "/herbs/astragalus-root/" },
+  ],
+  "jujube-and-ginger-tea-for-busy-weeks": [
+    { name: "Jujube", href: "/herbs/jujube-red-date/" },
+    { name: "Fresh Ginger", href: "/herbs/fresh-ginger/" },
+  ],
+  "pear-and-lily-bulb-soup-for-dry-days": [
+    { name: "Lily Bulb", href: "/herbs/lily-bulb/" },
+  ],
+  "black-sesame-breakfast-ideas-for-beginners": [
+    { name: "Black Sesame Seed", href: "/herbs/black-sesame-seed/" },
+    { name: "Jujube", href: "/herbs/jujube-red-date/" },
+    { name: "Goji Berry", href: "/herbs/goji-berry/" },
+  ],
+  "chrysanthemum-and-mint-cooling-tea-basics": [
+    { name: "Chrysanthemum", href: "/herbs/chrysanthemum-flower/" },
+    { name: "Mint", href: "/herbs/mint/" },
+  ],
+  "goji-berry-porridge-for-gentle-mornings": [
+    { name: "Goji Berry", href: "/herbs/goji-berry/" },
+  ],
+  "lotus-seed-and-longan-sweet-soup-basics": [
+    { name: "Lotus Seed", href: "/herbs/lotus-seed/" },
+    { name: "Longan Fruit", href: "/herbs/longan-fruit/" },
+  ],
+  "chen-pi-tea-for-heavy-meal-days": [
+    { name: "Chen Pi", href: "/herbs/chen-pi/" },
+    { name: "Fresh Ginger", href: "/herbs/fresh-ginger/" },
+  ],
+  "hawthorn-berry-tea-for-rich-meals": [
+    { name: "Hawthorn Berry", href: "/herbs/hawthorn-berry/" },
+    { name: "Chen Pi", href: "/herbs/chen-pi/" },
+  ],
+  "black-sesame-and-jujube-breakfast-bowl": [
+    { name: "Black Sesame Seed", href: "/herbs/black-sesame-seed/" },
+    { name: "Jujube", href: "/herbs/jujube-red-date/" },
+  ],
+  "jobs-tears-porridge-for-heavy-days": [
+    { name: "Job's Tears", href: "/herbs/jobs-tears/" },
+    { name: "Poria", href: "/herbs/poria/" },
+  ],
+  "pear-and-chrysanthemum-tea-for-warm-afternoons": [
+    { name: "Chrysanthemum", href: "/herbs/chrysanthemum-flower/" },
+  ],
+  "goji-and-chrysanthemum-tea-basics": [
+    { name: "Goji Berry", href: "/herbs/goji-berry/" },
+    { name: "Chrysanthemum", href: "/herbs/chrysanthemum-flower/" },
+  ],
+  "jujube-and-lotus-seed-congee-for-quiet-evenings": [
+    { name: "Jujube", href: "/herbs/jujube-red-date/" },
+    { name: "Lotus Seed", href: "/herbs/lotus-seed/" },
+    { name: "Longan Fruit", href: "/herbs/longan-fruit/" },
+  ],
+  "tremella-and-pear-sweet-soup-basics": [
+    { name: "Tremella Mushroom", href: "/herbs/tremella-mushroom/" },
+    { name: "Lily Bulb", href: "/herbs/lily-bulb/" },
+  ],
+  "adzuki-bean-and-jobs-tears-soup-basics": [
+    { name: "Adzuki Bean", href: "/herbs/adzuki-bean/" },
+    { name: "Job's Tears", href: "/herbs/jobs-tears/" },
+    { name: "Poria", href: "/herbs/poria/" },
+  ],
+  "chinese-yam-and-carrot-soup-basics": [
+    { name: "Chinese Yam", href: "/herbs/chinese-yam/" },
+    { name: "Fresh Ginger", href: "/herbs/fresh-ginger/" },
+  ],
+  "tremella-and-lotus-seed-sweet-soup-basics": [
+    { name: "Tremella Mushroom", href: "/herbs/tremella-mushroom/" },
+    { name: "Lotus Seed", href: "/herbs/lotus-seed/" },
+    { name: "Jujube", href: "/herbs/jujube-red-date/" },
+  ],
+  "mulberry-and-goji-tea-basics": [
+    { name: "Mulberry Fruit", href: "/herbs/mulberry-fruit/" },
+    { name: "Goji Berry", href: "/herbs/goji-berry/" },
+  ],
+  "perilla-and-ginger-soup-for-cool-days": [
+    { name: "Perilla Leaf", href: "/herbs/perilla-leaf/" },
+    { name: "Fresh Ginger", href: "/herbs/fresh-ginger/" },
+  ],
+  "schisandra-and-jujube-tea-basics": [
+    { name: "Schisandra Berry", href: "/herbs/schisandra-berry/" },
+    { name: "Jujube", href: "/herbs/jujube-red-date/" },
+    { name: "Fresh Ginger", href: "/herbs/fresh-ginger/" },
+  ],
+};
+const relatedHerbs = herbLinkMap[article.slug] ?? [
+  { name: "Fresh Ginger", href: "/herbs/fresh-ginger/" },
+  { name: "Jujube", href: "/herbs/jujube-red-date/" },
+  { name: "Goji Berry", href: "/herbs/goji-berry/" },
+];
+const articleKeywords = [
+  article.title,
+  ...relatedHerbs.map((herb) => herb.name),
+  "Chinese food therapy",
+  "TCM food therapy recipe",
+];
 const formatDuration = (value: string) =>
   value
     .replace("PT", "")
@@ -32,17 +139,55 @@ const recipeSchema = article.recipe
         "@type": "HowToStep",
         text: step,
       })),
-      keywords: ["Chinese food therapy", "traditional kitchen", "HerbGuide"],
+      mainEntityOfPage: `https://herbguide.store/food-therapy/${article.slug}/`,
+      keywords: articleKeywords,
       author: {
         "@type": "Organization",
         name: "HerbGuide",
       },
+      isPartOf: {
+        "@type": "CollectionPage",
+        name: "Food Therapy",
+        url: "https://herbguide.store/food-therapy/",
+      },
+    }
+  : null;
+const faqSchema = article.recipe
+  ? {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: `What ingredients are used in ${article.title}?`,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: `${article.title} uses simple pantry ingredients and a short ingredient list designed for beginner-friendly Chinese food therapy reading.`,
+          },
+        },
+        {
+          "@type": "Question",
+          name: `Does ${article.title} include step-by-step preparation?`,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: `Yes. This HerbGuide page includes ingredients, preparation steps, serving notes when helpful, and caution language for context.`,
+          },
+        },
+        {
+          "@type": "Question",
+          name: `Is ${article.title} medical advice?`,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: `No. HerbGuide presents this page as educational kitchen content with traditional context, not as diagnosis, treatment, or personalized medical advice.`,
+          },
+        },
+      ],
     }
   : null;
 ---
 
 <BaseLayout
-  title={`${article.title} | HerbGuide`}
+  title={`${article.title} Recipe | HerbGuide`}
   description={article.description}
   structuredData={[
     {
@@ -51,6 +196,9 @@ const recipeSchema = article.recipe
       headline: article.title,
       description: article.description,
       url: `https://herbguide.store/food-therapy/${article.slug}/`,
+      mainEntityOfPage: `https://herbguide.store/food-therapy/${article.slug}/`,
+      keywords: articleKeywords.join(", "),
+      articleSection: "Food Therapy",
       author: {
         "@type": "Organization",
         name: "HerbGuide",
@@ -84,6 +232,7 @@ const recipeSchema = article.recipe
         },
       ],
     },
+    ...(faqSchema ? [faqSchema] : []),
     ...(recipeSchema ? [recipeSchema] : []),
   ]}
 >
@@ -97,6 +246,22 @@ const recipeSchema = article.recipe
 
   <section class="section">
     <div class="shell narrow stack">
+      {article.recipe && (
+        <article class="prose-block card">
+          <p class="eyebrow">Quick guide</p>
+          <h2>What this recipe page includes</h2>
+          <p>
+            This page explains the traditional kitchen context behind <strong>{article.title}</strong>,
+            then shows the ingredient list, step-by-step method, related herb pages, and
+            topic hubs for deeper reading.
+          </p>
+          <ul>
+            <li><a href="#ingredients">Jump to the ingredient list</a></li>
+            <li><a href="#steps">Jump to the preparation steps</a></li>
+            <li><a href="#related-herbs">Open related herb profiles</a></li>
+          </ul>
+        </article>
+      )}
       {article.sections.map((section) => (
         <article class="prose-block card">
           <h2>{section.title}</h2>
@@ -115,7 +280,7 @@ const recipeSchema = article.recipe
       {article.recipe && (
         <>
           <div class="recipe-grid">
-            <article class="prose-block card">
+            <article class="prose-block card" id="ingredients">
               <p class="eyebrow">Recipe basics</p>
               <h2>Ingredients</h2>
               <p>
@@ -128,7 +293,7 @@ const recipeSchema = article.recipe
               </ul>
             </article>
 
-            <article class="prose-block card">
+            <article class="prose-block card" id="steps">
               <p class="eyebrow">Step by step</p>
               <h2>How to make it</h2>
               <ol class="recipe-steps">
@@ -166,19 +331,17 @@ const recipeSchema = article.recipe
           )}
         </>
       )}
-      <article class="prose-block card">
+      <article class="prose-block card" id="related-herbs">
         <p class="eyebrow">Ingredient links</p>
-        <h2>Related herb pages for this topic</h2>
+        <h2>Related herb pages for this recipe</h2>
         <p>
-          These kitchen articles work best when they connect directly to ingredient profiles so
+          These kitchen pages perform best when they connect directly to ingredient profiles so
           readers can check traditional terms, food uses, and caution notes in one place.
         </p>
         <ul>
-          <li><a href="/herbs/fresh-ginger/">Fresh Ginger</a></li>
-          <li><a href="/herbs/jujube-red-date/">Jujube</a></li>
-          <li><a href="/herbs/goji-berry/">Goji Berry</a></li>
-          <li><a href="/herbs/chrysanthemum-flower/">Chrysanthemum</a></li>
-          <li><a href="/herbs/black-sesame-seed/">Black Sesame Seed</a></li>
+          {relatedHerbs.map((herb) => (
+            <li><a href={herb.href}>{herb.name}</a></li>
+          ))}
         </ul>
       </article>
       <article class="prose-block card">

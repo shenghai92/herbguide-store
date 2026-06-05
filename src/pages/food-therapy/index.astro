@@ -5,8 +5,8 @@ import { recipeCards } from "../../data/content";
 ---
 
 <BaseLayout
-  title="Food Therapy | HerbGuide"
-  description="Practical Chinese kitchen ideas with simple soups, teas, pantry basics, and beginner-friendly routines."
+  title="Chinese Food Therapy Recipes | HerbGuide"
+  description="Browse Chinese food therapy recipes with ingredients, step-by-step instructions, pantry teas, simple soups, and beginner-friendly kitchen guidance."
   structuredData={[
     {
       "@context": "https://schema.org",
@@ -46,6 +46,17 @@ import { recipeCards } from "../../data/content";
         },
       ],
     },
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      name: "Chinese Food Therapy Recipes",
+      itemListElement: recipeCards.slice(0, 10).map((card, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: card.title,
+        url: `https://herbguide.store/food-therapy/${card.slug}/`,
+      })),
+    },
   ]}
 >
   <section class="page-hero">
@@ -83,6 +94,9 @@ import { recipeCards } from "../../data/content";
         <p class="eyebrow">New kitchen pages</p>
         <h2>Best new recipe-style articles</h2>
         <ul>
+          <li><a href="/food-therapy/mulberry-and-goji-tea-basics/">Mulberry and Goji Tea Basics</a></li>
+          <li><a href="/food-therapy/perilla-and-ginger-soup-for-cool-days/">Perilla and Ginger Soup for Cool Days</a></li>
+          <li><a href="/food-therapy/schisandra-and-jujube-tea-basics/">Schisandra and Jujube Tea Basics</a></li>
           <li><a href="/food-therapy/goji-berry-porridge-for-gentle-mornings/">Goji Berry Porridge for Gentle Mornings</a></li>
           <li><a href="/food-therapy/lotus-seed-and-longan-sweet-soup-basics/">Lotus Seed and Longan Sweet Soup Basics</a></li>
           <li><a href="/food-therapy/chen-pi-tea-for-heavy-meal-days/">Chen Pi Tea for Heavy Meal Days</a></li>
@@ -101,7 +115,7 @@ import { recipeCards } from "../../data/content";
 
       <article class="prose-block card">
         <p class="eyebrow">Best first clicks</p>
-        <h2>What to open after one recipe page</h2>
+        <h2>What to open after one Chinese food therapy recipe</h2>
         <p>
           If a visitor lands on one practical page, the strongest next step is usually either
           a pantry herb profile or a topic hub with more pages in the same style.
