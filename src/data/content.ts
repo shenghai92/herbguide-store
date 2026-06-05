@@ -88,6 +88,16 @@ export const basicsCards = [
     title: "What Does Yin Deficiency Mean?",
     text: "A cautious beginner guide to one of the most searched TCM pattern phrases.",
   },
+  {
+    slug: "what-does-shen-mean-in-tcm",
+    title: "What Does Shen Mean in TCM?",
+    text: "A plain-English explanation of one of the most misunderstood mind-and-spirit terms in TCM writing.",
+  },
+  {
+    slug: "what-does-jing-mean-in-tcm",
+    title: "What Does Jing Mean in TCM?",
+    text: "A careful beginner guide to the traditional idea of essence without turning it into hype.",
+  },
 ];
 
 export const classicsCards = [
@@ -168,5 +178,15 @@ export const recipeCards = [
     slug: "chen-pi-tea-for-heavy-meal-days",
     title: "Chen Pi Tea for Heavy Meal Days",
     text: "A pantry-style tea page that gives digestive visitors a very practical chen pi entry point.",
+  },
+  {
+    slug: "hawthorn-berry-tea-for-rich-meals",
+    title: "Hawthorn Berry Tea for Rich Meals",
+    text: "A simple digestive tea page built around one of the clearest food-adjacent traditional ingredients.",
+  },
+  {
+    slug: "black-sesame-and-jujube-breakfast-bowl",
+    title: "Black Sesame and Jujube Breakfast Bowl",
+    text: "A soft pantry-style breakfast page that deepens the site's black sesame and jujube pathways.",
   },
 ];

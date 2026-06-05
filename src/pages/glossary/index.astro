@@ -15,6 +15,36 @@ import { basicsArticles } from "../../data/articles";
       description: "A plain-English glossary of core Traditional Chinese Medicine terms used across HerbGuide.",
       url: "https://herbguide.store/glossary/",
     },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "What are the most important TCM terms for beginners?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Qi, dampness, warming and cooling, yin and yang, blood, spleen, liver, and channel entry are among the most useful beginner terms because they appear repeatedly across herb and food pages.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Is the HerbGuide glossary for diagnosis?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "No. The glossary is for plain-English educational reading and helps readers understand traditional Chinese medicine vocabulary without turning terms into self-diagnosis.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Should I read glossary pages or herb pages first?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Either path can work, but many beginners learn faster by reading one glossary page and then opening a related herb or food therapy page right away.",
+          },
+        },
+      ],
+    },
   ]}
 >
   <section class="page-hero">
@@ -50,6 +80,18 @@ import { basicsArticles } from "../../data/articles";
 
   <section class="section section-alt">
     <div class="shell two-up">
+      <article class="prose-block card">
+        <p class="eyebrow">Best glossary starts</p>
+        <h2>Highest-value term pages for beginners</h2>
+        <ul>
+          <li><a href="/basics/what-does-qi-mean/">What Does Qi Mean?</a></li>
+          <li><a href="/basics/what-is-dampness/">What Is Dampness?</a></li>
+          <li><a href="/basics/what-does-spleen-mean-in-tcm/">What Does Spleen Mean in TCM?</a></li>
+          <li><a href="/basics/what-does-clear-heat-mean/">What Does Clear Heat Mean?</a></li>
+          <li><a href="/basics/what-does-tonify-mean-in-tcm/">What Does Tonify Mean in TCM?</a></li>
+        </ul>
+      </article>
+
       <article class="prose-block card">
         <p class="eyebrow">Why glossary pages matter</p>
         <h2>Short questions often lead to the best entry pages</h2>

@@ -615,6 +615,80 @@ export const basicsArticles: ContentArticle[] = [
       },
     ],
   },
+  {
+    slug: "what-does-shen-mean-in-tcm",
+    title: "What Does Shen Mean in TCM?",
+    description:
+      "A plain-English guide to the TCM idea of shen and why the term is broader than mind alone.",
+    eyebrow: "TCM Basics",
+    intro:
+      "Shen is one of the most misunderstood words in Chinese medicine writing. It is often translated as spirit, but on a careful beginner site it usually needs a fuller explanation: shen can point to presence, clarity, emotional steadiness, expression, and the visible quality of someone's overall state inside a traditional framework.",
+    sections: [
+      {
+        title: "Why the word is hard to translate",
+        paragraphs: [
+          "If shen is translated only as spirit, many readers assume the term is purely mystical. If it is translated only as mind, important traditional nuance gets lost.",
+          "A better plain-English approach is to explain shen as a traditional idea that overlaps with alertness, composure, expression, and mental-emotional presence.",
+        ],
+      },
+      {
+        title: "Where readers usually see shen-language",
+        paragraphs: [
+          "Readers often meet this word on pages about longan, lotus seed, jujube, schisandra, and other ingredients associated with gentler evening or nourishing traditions.",
+          "Without explanation, those pages can sound vague. With explanation, they become much easier to understand as part of a broader cultural vocabulary.",
+        ],
+        bullets: [
+          "Shen is a traditional concept, not a modern diagnosis.",
+          "It often appears in calm, grounding, or evening-style content.",
+          "It should not be turned into a promise about mental health outcomes.",
+        ],
+      },
+      {
+        title: "How HerbGuide uses the term",
+        paragraphs: [
+          "HerbGuide treats shen-language as educational context. We explain why the term appears, what it usually gestures toward in traditional writing, and where gentle food or tea pages make that language easier to grasp.",
+          "That keeps the concept readable without drifting into mystical marketing or personal advice.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "what-does-jing-mean-in-tcm",
+    title: "What Does Jing Mean in TCM?",
+    description:
+      "A careful beginner guide to the traditional TCM idea of jing, often translated as essence.",
+    eyebrow: "TCM Basics",
+    intro:
+      "Jing is commonly translated as essence in Chinese medicine writing, but that translation can feel abstract or overly dramatic without context. On HerbGuide, jing is explained as a traditional idea tied to deep reserves, growth, development, reproduction, and long-term constitutional strength inside TCM theory.",
+    sections: [
+      {
+        title: "Why the term gets overhyped online",
+        paragraphs: [
+          "Because essence sounds important, many websites use jing-language to make herbs sound more powerful than the evidence supports.",
+          "A more responsible approach is to explain that jing belongs to a traditional model and is usually discussed in relation to long-term depth rather than quick effects.",
+        ],
+      },
+      {
+        title: "How readers may encounter jing",
+        paragraphs: [
+          "Jing often appears on pages about black sesame, goji berry, prepared rehmannia, eucommia bark, and other ingredients associated with nourishment or deeper reserve in traditional writing.",
+          "That does not mean every page should make sweeping claims. It means the language needs careful translation and visible caution.",
+        ],
+        bullets: [
+          "Jing is a traditional concept, not a measurable substance.",
+          "It is often linked with long-term nourishment and constitutional depth.",
+          "It should not be read as a shortcut to self-diagnosis or anti-aging promises.",
+        ],
+      },
+      {
+        title: "Why this page helps the site",
+        paragraphs: [
+          "A clear jing explainer supports herb pages that would otherwise sound too dense for beginners.",
+          "It also adds a stronger glossary layer for searchers who are curious about TCM vocabulary before they are ready for individual herb profiles.",
+        ],
+      },
+    ],
+  },
 ];
 
 export const classicsArticles: ContentArticle[] = [
@@ -1212,6 +1286,108 @@ export const foodTherapyArticles: ContentArticle[] = [
         paragraphs: [
           "A simple chen pi tea article strengthens digestive topic hubs, aromatic herb reading, and comparison-style pantry content.",
           "It also gives returning readers something more specific than a broad concept page.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "hawthorn-berry-tea-for-rich-meals",
+    title: "Hawthorn Berry Tea for Rich Meals",
+    description:
+      "A simple pantry-style tea page that introduces hawthorn berry through one of its most intuitive traditional food contexts.",
+    eyebrow: "Food Therapy",
+    intro:
+      "Hawthorn berry is one of the easiest herbs to explain through food culture because the fruit already feels familiar and its traditional use often appears next to rich meals, heaviness, and digestion-related kitchen language. A tea-style page makes that context easy to picture without overcomplicating it.",
+    recipe: {
+      recipeYield: "2 cups",
+      prepTime: "PT5M",
+      totalTime: "PT18M",
+      ingredients: [
+        "1 tablespoon dried hawthorn berry pieces",
+        "2 1/2 cups water",
+        "Optional: 1 small piece chen pi",
+        "Optional: 1 thin slice fresh ginger for a warmer finish",
+      ],
+      steps: [
+        "Rinse the hawthorn briefly under cool water.",
+        "Add the water, hawthorn, and optional chen pi or ginger to a small pot.",
+        "Bring to a gentle boil, then lower the heat and simmer for 10 to 12 minutes.",
+        "Strain into cups and keep the flavor light rather than very concentrated.",
+        "Serve warm after a heavier meal or as a simple pantry tea on its own.",
+      ],
+      servingNotes: [
+        "A lighter tea is usually the easiest version for beginners to understand and repeat.",
+        "Chen pi adds aroma while ginger changes the profile toward a slightly warmer cup.",
+      ],
+      caution: [
+        "Rich-meal language here belongs to traditional food context, not diagnosis or treatment advice.",
+        "Readers using medications or managing ongoing health concerns should not treat a tea page as personal guidance.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why this is a strong digestive entry page",
+        paragraphs: [
+          "The use case is easy to picture: a tart fruit tea after a heavy meal. That makes the page more practical and memorable than a vague theory article on its own.",
+          "It also gives HerbGuide a stronger connection between hawthorn, chen pi, digestive traditions, and pantry-style tea routines.",
+        ],
+      },
+      {
+        title: "What the page teaches beyond the pot",
+        paragraphs: [
+          "A page like this shows how Chinese food therapy often uses gentle, food-adjacent preparations to explain traditional ingredient roles.",
+          "It also creates a natural bridge into digestive topic hubs, chen pi reading, and dampness or qi movement vocabulary for readers who want more context.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "black-sesame-and-jujube-breakfast-bowl",
+    title: "Black Sesame and Jujube Breakfast Bowl",
+    description:
+      "A soft breakfast-style pantry page that deepens HerbGuide's black sesame and jujube pathways without overcomplicating the recipe.",
+    eyebrow: "Food Therapy",
+    intro:
+      "Black sesame and jujube make a strong breakfast pair because the flavor feels grounded and the ingredients already connect with some of the most approachable pages on the site. A simple bowl-style page helps readers imagine a real routine while staying fully inside kitchen-first educational content.",
+    recipe: {
+      recipeYield: "2 bowls",
+      prepTime: "PT8M",
+      totalTime: "PT20M",
+      ingredients: [
+        "1 cup cooked oats or soft rice porridge",
+        "2 tablespoons black sesame powder or lightly ground seeds",
+        "2 dried jujubes, split and sliced thinly",
+        "1 1/2 cups water or unsweetened plant milk",
+        "Optional: 1 teaspoon chopped walnuts",
+      ],
+      steps: [
+        "Warm the cooked oats or porridge base with the water or plant milk in a small pot.",
+        "Stir in the black sesame until the bowl turns evenly dark and nutty.",
+        "Add the sliced jujube and simmer gently for 3 to 4 minutes.",
+        "Top with the optional walnuts if you want a little more texture.",
+        "Serve warm and keep the sweetness very light or skip it entirely.",
+      ],
+      servingNotes: [
+        "This works best as a simple breakfast idea rather than a strict daily routine.",
+        "A mild base keeps the black sesame flavor clear without making the bowl too heavy.",
+      ],
+      caution: [
+        "Even food-style pantry pages should avoid implying the same routine fits every reader.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why this page fits the site well",
+        paragraphs: [
+          "It builds on two of the strongest pantry ingredients already on HerbGuide while adding a more repeatable breakfast-style use case.",
+          "That helps the site deepen second-click behavior for readers who start with goji, jujube, or black sesame and want one more practical step.",
+        ],
+      },
+      {
+        title: "What readers learn from the pairing",
+        paragraphs: [
+          "This bowl teaches that Chinese food therapy can be gentle, ordinary, and ingredient-focused rather than dramatic.",
+          "It also strengthens the beauty-food, balanced-pantry, and beginner breakfast pathways across the site.",
         ],
       },
     ],
