@@ -6,7 +6,7 @@ import { topics } from "../../data/topics";
 
 <BaseLayout
   title="Chinese Herb Topics and TCM Reading Paths | HerbGuide"
-  description="Browse Chinese herb topics, TCM reading paths, pantry ingredient clusters, and food therapy hubs built around real beginner search intent."
+  description="Browse Chinese herb topics, TCM reading paths, pantry ingredient clusters, and food therapy hubs for beginner-friendly exploration."
   structuredData={[
     {
       "@context": "https://schema.org",
@@ -43,7 +43,7 @@ import { topics } from "../../data/topics";
   <section class="page-hero">
     <div class="shell narrow">
       <p class="eyebrow">Topics</p>
-      <h1>Browse HerbGuide by real reader intent</h1>
+      <h1>Browse HerbGuide by theme and reading path</h1>
       <p>
         These topic hubs connect herb pages, food therapy articles, and TCM basics into
         clearer reading paths so beginners do not have to guess where to go next.
@@ -56,7 +56,7 @@ import { topics } from "../../data/topics";
       <SectionIntro
         eyebrow="Curated hubs"
         title="Start with a familiar theme"
-        text="Each topic page groups related articles together, making the site feel more practical and easier to browse."
+        text="Each topic page groups related articles together, making the library feel more practical and easier to browse."
       />
       <div class="card-grid">
         {topics.map((topic) => (
@@ -74,7 +74,7 @@ import { topics } from "../../data/topics";
   <section class="section section-alt">
     <div class="shell two-up">
       <article class="prose-block card">
-        <p class="eyebrow">Search intent</p>
+        <p class="eyebrow">Reading paths</p>
         <h2>Browse Chinese herbs by topic, not just by ingredient</h2>
         <p>
           Many readers do not start with a single herb name. They start with broader questions
@@ -82,14 +82,14 @@ import { topics } from "../../data/topics";
           or which pages explain dampness through food.
         </p>
         <p>
-          That is why these topic hubs matter. They help HerbGuide answer intent-level searches
+          That is why these topic hubs matter. They help readers move through broader themes
           in a way that feels more useful than a flat archive.
         </p>
       </article>
 
       <article class="prose-block card">
         <p class="eyebrow">Best clusters</p>
-        <h2>Topic clusters that already work well on this site</h2>
+        <h2>Useful topic clusters to start with</h2>
         <ul>
           <li>Warming foods, ginger pages, and cold-weather soups</li>
           <li>Cooling teas, chrysanthemum, mint, and seasonal kitchen reading</li>
@@ -106,9 +106,9 @@ import { topics } from "../../data/topics";
         <p class="eyebrow">Why topics help</p>
         <h2>From scattered pages to stronger journeys</h2>
         <p>
-          Topic hubs make the site easier to understand for both readers and search engines.
-          Instead of treating every article as isolated, HerbGuide can now connect pantry
-          herbs, comparison pages, and recipe-style articles into more coherent clusters.
+          Topic hubs make the library easier to understand. Instead of treating every article
+          as isolated, HerbGuide can connect pantry herbs, comparison pages, and recipe-style
+          articles into more coherent clusters.
         </p>
       </article>
 

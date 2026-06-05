@@ -2,7 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import SectionIntro from "../components/SectionIntro.astro";
 import { basicsCards, classicsCards, goalCards, recipeCards } from "../data/content";
-import { featuredHerbs, getHerbDisplayNames, launchHerbList } from "../data/herbs";
+import { featuredHerbs, getHerbDisplayNames } from "../data/herbs";
 import { topics } from "../data/topics";
 
 const featuredTopicLinks = topics.slice(0, 4);
@@ -135,9 +135,9 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
   <section class="section section-alt">
     <div class="shell">
       <SectionIntro
-        eyebrow="Launch collection"
+        eyebrow="Featured collection"
         title="Featured herbs"
-        text="These are the first herbs we recommend for an English-language launch because they are easier to explain, easier to cook with, and easier to trust."
+        text="These are some of the easiest herbs to begin with because they are simpler to explain, easier to cook with, and easier to recognize in everyday kitchen use."
       />
       <div class="card-grid">
         {featuredHerbs.map((herb) => {
@@ -204,7 +204,7 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
   <section class="section section-alt">
     <div class="shell two-up">
       <article class="prose-block card">
-        <p class="eyebrow">Search intent</p>
+        <p class="eyebrow">Reader paths</p>
         <h2>Chinese herbs, TCM basics, and food therapy in one place</h2>
         <p>
           Most visitors arrive with mixed intent. Some want a single herb like goji berry or
@@ -212,8 +212,8 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
           practical kitchen guidance that feels easier to trust than generic wellness writing.
         </p>
         <p>
-          HerbGuide is organized around those real reading patterns so visitors can move from
-          one clear answer into a deeper path instead of bouncing after one page.
+          HerbGuide is organized around those reading patterns so visitors can move from one
+          clear answer into a deeper path instead of feeling stuck after one page.
         </p>
       </article>
 
@@ -234,15 +234,16 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
       </article>
 
       <article class="prose-block card">
-        <p class="eyebrow">Lower bounce paths</p>
+        <p class="eyebrow">Good next steps</p>
         <h2>Where visitors should go next</h2>
         <p>
           If a visitor starts with a recipe, send them to a herb page or a topic hub. If they
           start with a glossary page, send them to one practical kitchen article immediately.
-          That is the simplest way to turn short visits into deeper sessions on this site.
+          That is one of the simplest ways to turn a single useful page into a clearer
+          learning path.
         </p>
         <p>
-          The strongest current path is <a href="/glossary/">Glossary</a> to
+          One especially useful path is <a href="/glossary/">Glossary</a> to
           <a href="/topics/"> Topics</a> to
           <a href="/food-therapy/"> Food Therapy</a>.
         </p>
@@ -260,8 +261,8 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
         <h2>Start with a topic hub when the reader has a broad goal</h2>
         <p>
           Topic hubs work especially well for homepage visitors who know the kind of help
-          they want, but not the ingredient name yet. They also create stronger second-click
-          behavior than sending every reader straight into isolated herb pages.
+          they want, but not the ingredient name yet. They often work better than sending
+          every reader straight into isolated herb pages.
         </p>
         <ul>
           {featuredTopicLinks.map((topic) => (
@@ -305,8 +306,8 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
         <h2>Best herb pages to pair with broader guides</h2>
         <p>
           Readers who land on one searchable herb page should have a clear path into a topic
-          hub, a basics explainer, or a kitchen article right away. These are the strongest
-          homepage herb entries for that pattern.
+          hub, a basics explainer, or a kitchen article right away. These are some of the
+          clearest homepage herb entries for that pattern.
         </p>
         <ul>
           {featuredHerbLinks.map((herb) => (
@@ -350,11 +351,11 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
   <section class="section">
     <div class="shell newsletter-panel">
       <div>
-        <p class="eyebrow">Future growth</p>
+        <p class="eyebrow">Stay connected</p>
         <h2>One practical herb note each week</h2>
         <p>
-          A lightweight newsletter can become the easiest long-term growth loop: one herb,
-          one kitchen use, one TCM term, and one caution note.
+          A simple weekly note could share one herb, one kitchen use, one TCM term, and one
+          caution note in an easy-to-read format.
         </p>
       </div>
       <div class="newsletter-note">
@@ -363,21 +364,6 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
           Therapy sections to follow new herb profiles and practical kitchen content.
         </p>
         <a class="button button-primary" href="/herbs/">Browse current herb pages</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="section section-alt">
-    <div class="shell">
-      <SectionIntro
-        eyebrow="Launch scope"
-        title="First herbs in the launch plan"
-        text="This first batch keeps the site light enough for Cloudflare Pages while still giving it strong SEO and editorial depth."
-      />
-      <div class="launch-list">
-        {launchHerbList.map((herb) => (
-          <span>{herb}</span>
-        ))}
       </div>
     </div>
   </section>

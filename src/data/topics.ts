@@ -82,16 +82,16 @@ export const topics: Topic[] = [
       "A topic hub for gentle tea-style content, approachable Chinese ingredients, and plain-English guidance around calming kitchen routines.",
     eyebrow: "Topic Hub",
     intro:
-      "Tea pages are some of the most approachable content on the site because readers can picture them instantly. This topic hub groups together the tea-style pages and pantry herbs that feel light, familiar, and easy to revisit.",
+      "Tea pages are often approachable because readers can picture them instantly. This topic hub groups together tea-style pages and pantry herbs that feel light, familiar, and easy to revisit.",
     herbSlugs: ["jujube-red-date", "chrysanthemum-flower", "longan-fruit", "lotus-seed", "mint", "schisandra-berry"],
     basicsSlugs: ["goji-berry-vs-jujube", "warming-vs-cooling-foods", "what-does-clear-heat-mean", "what-does-shen-mean-in-tcm", "chrysanthemum-vs-mint", "what-does-astringent-mean-in-tcm"],
     foodSlugs: ["jujube-and-ginger-tea-for-busy-weeks", "chrysanthemum-and-mint-cooling-tea-basics", "lotus-seed-and-longan-sweet-soup-basics", "pear-and-chrysanthemum-tea-for-warm-afternoons", "goji-and-chrysanthemum-tea-basics", "jujube-and-lotus-seed-congee-for-quiet-evenings", "schisandra-and-jujube-tea-basics"],
     sections: [
       {
-        title: "Why tea content is a strong growth layer",
+        title: "Why tea pages are easy for beginners to follow",
         paragraphs: [
-          "Tea-style pages are easy to share, easy to revisit, and easy to connect with seasonal curiosity. They also fit an educational tone better than more aggressive supplement-style content.",
-          "That makes them especially useful for AdSense-friendly site growth.",
+          "Tea-style pages are easy to revisit and easy to connect with seasonal curiosity. They also fit an educational tone better than more aggressive supplement-style content.",
+          "That makes them a gentle way to learn ingredient names, flavor patterns, and traditional vocabulary.",
         ],
       },
       {
@@ -254,11 +254,11 @@ export const topics: Topic[] = [
         title: "What makes this topic worth doing carefully",
         paragraphs: [
           "Readers are already searching for black sesame, goji berry, pear, lily bulb, and similar ingredients through a beauty and nourishment lens.",
-          "Handled carefully, these pages can bring traffic while still matching HerbGuide's editorial standards.",
+          "Handled carefully, these pages can stay grounded while still answering that kind of curiosity.",
         ],
       },
       {
-        title: "The best editorial angle",
+        title: "A grounded way to read this topic",
         paragraphs: [
           "The strongest version of this topic is not miracle-claim language. It is kitchen-focused, tradition-aware, and cautious about what food pages can actually promise.",
         ],
@@ -278,7 +278,7 @@ export const topics: Topic[] = [
       {
         title: "Black Sesame Seed",
         href: "/herbs/black-sesame-seed/",
-        text: "A pantry herb page that supports beauty-food search intent without hype.",
+        text: "A pantry herb page that supports beauty-food reading without hype.",
       },
       {
         title: "Goji Berry",
@@ -308,7 +308,7 @@ export const topics: Topic[] = [
         title: "Why pantry-first content builds trust",
         paragraphs: [
           "Readers are much more likely to trust a site that starts with goji berry, jujube, ginger, black sesame, and chrysanthemum than one that jumps immediately into intimidating formula language.",
-          "That pantry-first approach also matches the site's practical tone and Cloudflare Pages launch structure.",
+          "That pantry-first approach also keeps the tone practical, grounded, and easier to follow.",
         ],
       },
       {

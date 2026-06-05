@@ -1292,8 +1292,8 @@ export const foodTherapyArticles: ContentArticle[] = [
       {
         title: "A simple beginner list",
         paragraphs: [
-          "The strongest launch ingredients are fresh ginger, jujube, goji berry, chrysanthemum, and black sesame.",
-          "They work well because readers can picture them in real food. That makes them easier to trust and easier to explain than concentrated products.",
+          "Fresh ginger, jujube, goji berry, chrysanthemum, and black sesame are some of the easiest ingredients for beginners to recognize in everyday food.",
+          "They are easier to picture in tea, porridge, soup, and simple kitchen routines than more concentrated or unfamiliar preparations.",
         ],
         bullets: [
           "Fresh ginger: easy to connect with warming soups and teas.",
@@ -1304,10 +1304,10 @@ export const foodTherapyArticles: ContentArticle[] = [
         ],
       },
       {
-        title: "Why these ingredients are strong for SEO too",
+        title: "Why these ingredients are good beginner examples",
         paragraphs: [
-          "They combine familiarity, search demand, and cultural depth. Readers already know some of the names, but they still need better explanations.",
-          "That makes them good for beginner guides, herb profiles, recipe pages, and internal linking.",
+          "Some readers already recognize a few of these names, but still need clearer explanations for how they are used in traditional food writing.",
+          "That makes them useful starting points for moving between beginner guides, herb profiles, and kitchen pages.",
         ],
       },
     ],
@@ -1364,10 +1364,10 @@ export const foodTherapyArticles: ContentArticle[] = [
         ],
       },
       {
-        title: "Why this kind of page matters",
+        title: "Why a simple warming soup helps beginners",
         paragraphs: [
-          "Recipe pages like this help the site feel practical rather than abstract.",
-          "They also create a natural bridge between herb profiles, safety notes, and kitchen-focused long-tail SEO topics.",
+          "A simple warming soup gives readers a more concrete way to understand how traditional ingredients can appear in everyday kitchen routines.",
+          "It also helps connect ingredient names, preparation style, and caution language in a format that feels easier to remember than theory alone.",
         ],
       },
     ],
@@ -1379,7 +1379,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       "A simple tea-style kitchen routine that shows how two approachable ingredients can be explained with clarity and restraint.",
     eyebrow: "Food Therapy",
     intro:
-      "Jujube and ginger make a strong beginner pairing because the idea is easy to picture: a few slices, a few pieces, hot water, and a short kitchen routine. That is exactly the kind of content that encourages repeat visits without overcomplicating the site.",
+      "Jujube and ginger make a strong beginner pairing because the idea is easy to picture: a few slices, a few pieces, hot water, and a short kitchen routine. It feels practical, familiar, and easy to understand without much setup.",
     recipe: {
       recipeYield: "2 mugs",
       prepTime: "PT5M",
@@ -1410,21 +1410,21 @@ export const foodTherapyArticles: ContentArticle[] = [
         title: "Why this pairing works for beginners",
         paragraphs: [
           "Both ingredients are easy to explain, easy to source, and closely tied to practical food use.",
-          "That makes them stronger for an educational launch than more advanced ingredients that need heavier caution framing.",
+          "They are often easier to introduce than more advanced ingredients that need heavier caution framing.",
         ],
       },
       {
-        title: "What a full article should include",
+        title: "What readers should notice in this pairing",
         paragraphs: [
-          "A strong standalone article can include a short ingredient list, simple preparation steps, timing guidance, and a short note on how the pairing is traditionally described.",
-          "It can also link directly back to the jujube and ginger herb pages so readers can keep learning without leaving the site.",
+          "This pairing stays approachable because the ingredient list is short, the preparation is simple, and the flavor profile is easy to picture.",
+          "Jujube brings a soft sweetness, while fresh ginger gives the tea a warmer, brighter edge that many readers already recognize from home cooking.",
         ],
         bullets: [
-          "Ingredient list",
-          "Step-by-step preparation",
-          "Serving suggestions",
-          "Traditional context in plain English",
-          "Visible caution note",
+          "A short simmer instead of a long decoction",
+          "A mild flavor that stays food-like rather than medicinal",
+          "A familiar kitchen routine that is easy to repeat",
+          "Traditional context explained in plain English",
+          "A visible caution note for readers who need extra care",
         ],
       },
     ],
@@ -1436,7 +1436,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       "A gentle food therapy article built around two familiar ingredients often used in traditional discussions of dryness.",
     eyebrow: "Food Therapy",
     intro:
-      "Pear and lily bulb create one of the softest, most approachable traditional pairings on the site. The flavor feels calm, the ingredient story is easy to explain, and the page naturally supports beginner readers who want seasonal kitchen ideas without hype.",
+      "Pear and lily bulb create a soft, approachable traditional pairing. The flavor feels calm, the ingredient story is easy to explain, and the recipe works well for beginners who want seasonal kitchen ideas without hype.",
     recipe: {
       recipeYield: "2 bowls",
       prepTime: "PT10M",
@@ -1480,7 +1480,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         title: "What the article can teach beyond the recipe",
         paragraphs: [
           "A page like this does more than list ingredients. It helps readers understand how seasonal kitchen habits are described in Chinese food writing.",
-          "It also creates strong internal links to pear-style seasonal content, lily bulb, and dryness-related herb pages.",
+          "It also helps connect pear, lily bulb, and plain-English dryness language in a more concrete way.",
         ],
       },
     ],
@@ -1489,10 +1489,10 @@ export const foodTherapyArticles: ContentArticle[] = [
     slug: "black-sesame-breakfast-ideas-for-beginners",
     title: "Black Sesame Breakfast Ideas for Beginners",
     description:
-      "A practical pantry-style article that turns black sesame into an easy daily-use content hub.",
+      "A practical pantry-style article that turns black sesame into an easy daily-use breakfast idea.",
     eyebrow: "Food Therapy",
     intro:
-      "Black sesame works especially well in breakfast-style content because it already feels at home in porridge, paste, buns, desserts, and simple topping ideas. That makes it one of the strongest bridge ingredients between search traffic and repeat readers.",
+      "Black sesame works especially well in breakfast-style content because it already feels at home in porridge, paste, buns, desserts, and simple topping ideas. It is easy to picture in real food and easy to explain through everyday kitchen use.",
     recipe: {
       recipeYield: "2 bowls",
       prepTime: "PT5M",
@@ -1513,7 +1513,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       ],
       servingNotes: [
         "A soft grain base makes black sesame easier for beginners to picture in a real breakfast routine.",
-        "This page works best as a practical pantry bowl, not a dessert-heavy recipe.",
+        "This works best as a practical pantry bowl, not a dessert-heavy recipe.",
       ],
       caution: [
         "Black sesame breakfast language here belongs to traditional food context and everyday kitchen use, not a medical claim.",
@@ -1524,7 +1524,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         title: "Why breakfast content is useful",
         paragraphs: [
           "Breakfast articles are naturally practical. Readers can picture the ingredient in a real routine, which makes the traditional context easier to trust and remember.",
-          "This also gives the site more everyday-use content rather than relying only on theory pages.",
+          "They also help balance theory with simple food examples readers can imagine making at home.",
         ],
       },
       {
@@ -1568,7 +1568,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         "Drink warm or let it cool slightly if you want a lighter summer-style cup.",
       ],
       servingNotes: [
-        "This works best as a simple educational tea rather than a concentrated herbal drink.",
+        "This works best as a simple tea rather than a concentrated herbal drink.",
         "Mint can dominate the cup quickly, so lighter amounts are usually better for beginners.",
       ],
       caution: [
@@ -1580,14 +1580,14 @@ export const foodTherapyArticles: ContentArticle[] = [
         title: "Why this is a strong beginner tea page",
         paragraphs: [
           "The pairing is easy to picture and easy to explain. Readers can immediately understand that this is a tea-style educational page, not a complicated formula.",
-          "That clarity is helpful for AdSense-friendly tone as well as beginner trust.",
+          "That clarity also helps beginners understand cooling language without feeling overwhelmed.",
         ],
       },
       {
-        title: "What the article should include",
+        title: "What readers can notice in the cup",
         paragraphs: [
-          "A complete page can explain simple steeping, flavor balance, serving ideas, and the traditional reason these ingredients are often described as cooling.",
-          "It should also make it clear that cooling language belongs to a traditional framework and is not a one-size-fits-all instruction.",
+          "A simple tea page can explain steeping time, flavor balance, serving ideas, and the traditional reason these ingredients are often described as cooling.",
+          "It should also make clear that cooling language belongs to a traditional framework and is not a one-size-fits-all instruction.",
         ],
         bullets: [
           "Simple ingredient amounts",
@@ -1606,7 +1606,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       "A simple breakfast-style food therapy page built around one of the easiest Chinese pantry ingredients for beginners.",
     eyebrow: "Food Therapy",
     intro:
-      "Goji berry porridge is the kind of page that works well for new and returning readers alike. It is easy to picture, easy to prepare, and easy to connect with the broader HerbGuide tone of pantry-first, practical, low-hype learning.",
+      "Goji berry porridge is easy to picture, easy to prepare, and easy to connect with pantry-first, practical kitchen learning.",
     recipe: {
       recipeYield: "2 bowls",
       prepTime: "PT5M",
@@ -1627,7 +1627,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       ],
       servingNotes: [
         "Keep the flavor mild and breakfast-friendly rather than heavily sweetened.",
-        "This page works best as a soft pantry recipe, not as a promise about outcomes.",
+        "This works best as a soft pantry recipe, not as a promise about outcomes.",
       ],
       caution: [
         "Goji berry is food-friendly for many readers, but regular use still deserves context when medication or special health situations are involved.",
@@ -1637,8 +1637,8 @@ export const foodTherapyArticles: ContentArticle[] = [
       {
         title: "Why this is a strong beginner breakfast page",
         paragraphs: [
-          "It connects directly with one of the site's most familiar herbs while staying fully in the kitchen.",
-          "That makes it easier for readers to trust and easier for the site to reuse in pantry, beauty-food, and gentle routine topic hubs.",
+          "It centers one of the most familiar pantry herbs while staying fully in the kitchen.",
+          "That makes it easier for readers to trust and easier to connect with pantry, beauty-food, and gentle routine reading paths.",
         ],
       },
       {
@@ -1657,7 +1657,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       "A gentle dessert-soup style article that introduces two classic nourishing pantry ingredients through a simple kitchen routine.",
     eyebrow: "Food Therapy",
     intro:
-      "Lotus seed and longan are a natural pair for expanding HerbGuide beyond tea and soup into traditional dessert-soup territory. This kind of page feels soft, memorable, and culturally grounded while still staying simple enough for beginners.",
+      "Lotus seed and longan are a natural pair for moving beyond tea and soup into traditional dessert-soup territory. The bowl feels soft, memorable, and culturally grounded while still staying simple enough for beginners.",
     recipe: {
       recipeYield: "2 bowls",
       prepTime: "PT10M",
@@ -2011,7 +2011,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       "A gentle evening-style pantry bowl that deepens HerbGuide's jujube and lotus seed pathways with simple kitchen language.",
     eyebrow: "Food Therapy",
     intro:
-      "Jujube and lotus seed make a calm, memorable pair for site growth because both ingredients already feel closely tied to household food traditions. A simple congee page lets readers picture a real bowl, which is often more effective than abstract evening-themed language by itself.",
+      "Jujube and lotus seed make a calm, memorable pair because both ingredients already feel closely tied to household food traditions. A simple congee page lets readers picture a real bowl more easily than abstract evening-themed language alone.",
     recipe: {
       recipeYield: "2 bowls",
       prepTime: "PT10M",
@@ -2032,7 +2032,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       ],
       servingNotes: [
         "This is strongest as a gentle household-style bowl, not a rigid nightly rule.",
-        "A softer, lighter bowl fits the site's tone better than a very rich dessert version.",
+        "A softer, lighter bowl usually feels better than a very rich dessert version.",
       ],
       caution: [
         "Quiet-evening language here is traditional and culinary in tone, not a claim about sleep or treatment outcomes.",
@@ -2042,8 +2042,8 @@ export const foodTherapyArticles: ContentArticle[] = [
       {
         title: "Why this page adds useful depth",
         paragraphs: [
-          "It extends the site's pantry and evening content without relying only on teas.",
-          "That makes the evening pathway feel more complete and gives jujube and lotus seed visitors another concrete next click.",
+          "It extends pantry and evening-style reading without relying only on teas.",
+          "It also gives jujube and lotus seed readers another concrete kitchen example to follow.",
         ],
       },
       {
@@ -2062,7 +2062,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       "A very simple dessert-soup page that introduces tremella and pear through a soft, beginner-friendly seasonal recipe.",
     eyebrow: "Food Therapy",
     intro:
-      "Tremella and pear make one of the softest seasonal pairings on HerbGuide. The ingredients are easy to picture, the preparation is simple, and the traditional language around moisture and gentle kitchen routines becomes much easier to understand when readers can imagine the actual bowl.",
+      "Tremella and pear make a very soft seasonal pairing. The ingredients are easy to picture, the preparation is simple, and the traditional language around moisture and gentle kitchen routines becomes much easier to understand when readers can imagine the actual bowl.",
     recipe: {
       recipeYield: "2 bowls",
       prepTime: "PT10M",
@@ -2094,14 +2094,14 @@ export const foodTherapyArticles: ContentArticle[] = [
         title: "Why this is such a strong beginner page",
         paragraphs: [
           "Both ingredients feel gentle and low-pressure, which makes the page easier to trust than heavier claim-driven content.",
-          "It also gives HerbGuide a clearer dessert-soup pathway beyond tea and porridge.",
+          "It also gives readers a clearer dessert-soup example alongside tea and porridge.",
         ],
       },
       {
         title: "What the bowl teaches beyond the recipe",
         paragraphs: [
           "A tremella and pear page helps readers understand how Chinese food therapy often explains softness and moisture through food texture rather than abstract theory alone.",
-          "It also creates useful links between tremella, pear, lily bulb, and the site's dryness-related glossary pages.",
+          "It also helps connect tremella, pear, lily bulb, and plain-English dryness explanations.",
         ],
       },
     ],
@@ -2113,7 +2113,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       "A very simple pantry-style soup that connects adzuki bean and Job's Tears to digestive and dampness-related kitchen reading.",
     eyebrow: "Food Therapy",
     intro:
-      "Adzuki bean and Job's Tears create one of the clearest pantry-style pairings for readers who want a practical bowl after landing on dampness or digestive terminology. The ingredients feel recognizable enough to trust, and the preparation is simple enough to support second clicks from glossary and topic pages.",
+      "Adzuki bean and Job's Tears create a clear pantry-style pairing for readers who want a practical bowl after landing on dampness or digestive terminology. The ingredients feel recognizable enough to trust, and the preparation is simple enough to make the traditional language feel more concrete.",
     recipe: {
       recipeYield: "2 bowls",
       prepTime: "PT10M",
@@ -2133,8 +2133,8 @@ export const foodTherapyArticles: ContentArticle[] = [
         "Serve warm and keep the seasoning simple.",
       ],
       servingNotes: [
-        "This kind of page works best when it stays plain, practical, and easy to remember.",
-        "A lighter soup style fits HerbGuide better than a very heavy bean stew.",
+        "This works best when it stays plain, practical, and easy to remember.",
+        "A lighter soup style usually feels better here than a very heavy bean stew.",
       ],
       caution: [
         "Dampness and digestive language here belongs to traditional educational context, not personal medical guidance.",
@@ -2145,14 +2145,14 @@ export const foodTherapyArticles: ContentArticle[] = [
         title: "Why this page fits the site well",
         paragraphs: [
           "It gives digestive and dampness visitors a very concrete food page after they read one abstract concept article.",
-          "That makes it useful for bounce reduction as well as search growth.",
+          "That makes the terminology easier to remember through a real food example.",
         ],
       },
       {
         title: "How this page supports the wider library",
         paragraphs: [
           "This soup connects adzuki bean, Job's Tears, poria, and lighter pantry language into one clearer pathway.",
-          "It also gives HerbGuide another meal-style page that is simpler than dessert soup and less repetitive than tea.",
+          "It also offers a meal-style example that feels different from dessert soup and tea.",
         ],
       },
     ],
@@ -2196,7 +2196,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         title: "Why this is a strong beginner soup",
         paragraphs: [
           "Chinese yam already feels closer to food than to supplement-style herb language, which makes it easier for new readers to trust.",
-          "Carrot keeps the page familiar and helps the site offer more simple soup content beyond tea and dessert soup.",
+          "Carrot keeps the page familiar and helps expand simple soup examples beyond tea and dessert soup.",
         ],
       },
       {
@@ -2215,7 +2215,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       "A soft dessert-soup page that deepens the tremella and lotus seed network with one easy, pantry-friendly bowl.",
     eyebrow: "Food Therapy",
     intro:
-      "Tremella and lotus seed make a natural next-step dessert soup for the site because both ingredients already fit HerbGuide's calm, food-first tone. The bowl feels soft, simple, and visually clear, which makes it a strong second-click page after readers visit tremella, lotus seed, or gentle evening content.",
+      "Tremella and lotus seed make a natural next-step dessert soup because both ingredients already fit a calm, food-first tone. The bowl feels soft, simple, and visually clear, especially for readers who already know tremella, lotus seed, or gentle evening-style recipes.",
     recipe: {
       recipeYield: "2 bowls",
       prepTime: "PT10M",
@@ -2246,15 +2246,15 @@ export const foodTherapyArticles: ContentArticle[] = [
       {
         title: "Why this page fits the site so well",
         paragraphs: [
-          "It strengthens the dessert-soup branch of HerbGuide without making the content feel repetitive.",
-          "It also gives tremella and lotus seed readers one more concrete kitchen page that is easy to trust and easy to share.",
+          "It adds another dessert-soup example without making the recipes feel repetitive.",
+          "It also gives tremella and lotus seed readers one more concrete kitchen page that feels easy to trust.",
         ],
       },
       {
         title: "How this bowl helps the wider site",
         paragraphs: [
           "This recipe deepens links between tremella, lotus seed, jujube, longan, and soft nourishment language.",
-          "It also helps the site keep expanding through pantry familiarity rather than drifting toward claim-heavy herb content.",
+          "It also keeps the focus on pantry familiarity rather than drifting toward claim-heavy herb language.",
         ],
       },
     ],
@@ -2266,7 +2266,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       "A simple berry-style tea page that connects mulberry fruit and goji berry through a soft, pantry-friendly recipe.",
     eyebrow: "Food Therapy",
     intro:
-      "Mulberry and goji make an easy next-step pairing for readers who already understand pantry berries but want a gentler, more seasonal tea idea. The ingredients feel recognizable, the color is memorable, and the recipe gives HerbGuide a clearer bridge between mulberry fruit, goji berry, and nourishment-style language.",
+      "Mulberry and goji make an easy next-step pairing for readers who already understand pantry berries but want a gentler, more seasonal tea idea. The ingredients feel recognizable, the color is memorable, and the recipe offers a clear bridge between mulberry fruit, goji berry, and nourishment-style language.",
     recipe: {
       recipeYield: "2 mugs",
       prepTime: "PT5M",
@@ -2296,7 +2296,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       {
         title: "Why this pairing fits the site",
         paragraphs: [
-          "Mulberry fruit adds a softer second-berry pathway beyond the site's stronger goji content.",
+          "Mulberry fruit adds a softer second-berry pathway beyond the more familiar goji content.",
           "That makes this page useful for readers who want one more pantry tea before moving into denser TCM terms.",
         ],
       },
@@ -2347,15 +2347,15 @@ export const foodTherapyArticles: ContentArticle[] = [
       {
         title: "Why this page adds useful range",
         paragraphs: [
-          "It gives the site a more aromatic warming soup pathway beyond ginger-only content.",
-          "That makes perilla leaf easier to connect with actual cooking instead of leaving it trapped on a standalone herb page.",
+          "It offers a more aromatic warming soup example beyond ginger-only content.",
+          "That makes perilla leaf easier to connect with actual cooking instead of leaving it as an abstract herb name.",
         ],
       },
       {
-        title: "How this soup supports site structure",
+        title: "How this soup fits broader kitchen reading",
         paragraphs: [
           "A perilla and ginger soup page links naturally to fresh ginger, warming foods, and plain-English pages about movement language.",
-          "It also gives the seasonal kitchen section another savory bowl that is distinct from dessert soups and teas.",
+          "It also gives seasonal kitchen reading another savory bowl that is distinct from dessert soups and teas.",
         ],
       },
     ],
@@ -2402,10 +2402,10 @@ export const foodTherapyArticles: ContentArticle[] = [
         ],
       },
       {
-        title: "What this tea adds to the site",
+        title: "What this tea adds to the evening path",
         paragraphs: [
           "This page creates a new route between schisandra berry, jujube, evening-style kitchen pages, and shen-related basics content.",
-          "It also adds another tea that feels distinct from the floral and cooling branches already on the site.",
+          "It also adds another tea that feels distinct from more floral and cooling cups.",
         ],
       },
     ],
