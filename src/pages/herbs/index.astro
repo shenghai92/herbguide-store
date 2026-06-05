@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import SectionIntro from "../../components/SectionIntro.astro";
-import { featuredHerbs, herbs } from "../../data/herbs";
+import { featuredHerbs, getHerbDisplayNames, herbs } from "../../data/herbs";
 
 const herbCategories = Array.from(new Set(herbs.map((herb) => herb.category))).sort();
 const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperCase()))).sort();
@@ -121,7 +121,7 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
       <div class="card-grid">
         {featuredHerbs.map((herb) => (
           <article class="card">
-            <p class="eyebrow">{herb.pinyin} | {herb.chinese}</p>
+            <p class="eyebrow">{getHerbDisplayNames(herb).secondary.slice(0, 2).join(" | ")}</p>
             <h2><a href={`/herbs/${herb.slug}/`}>{herb.name}</a></h2>
             <p>{herb.summary}</p>
             <p class="meta-label">Category: {herb.category}</p>
@@ -152,9 +152,9 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
             class="directory-card herb-card"
             data-category={herb.category}
             data-letter={herb.name[0].toUpperCase()}
-            data-search={`${herb.name} ${herb.pinyin} ${herb.chinese} ${herb.summary} ${herb.tags.join(" ")} ${herb.foodUses.join(" ")}`.toLowerCase()}
+            data-search={getHerbDisplayNames(herb).searchText}
           >
-            <p class="eyebrow">{herb.pinyin} | {herb.chinese}</p>
+            <p class="eyebrow">{getHerbDisplayNames(herb).secondary.slice(0, 2).join(" | ")}</p>
             <h2><a href={`/herbs/${herb.slug}/`}>{herb.name}</a></h2>
             <p>{herb.summary}</p>
             <div class="directory-meta">

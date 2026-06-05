@@ -11,6 +11,7 @@ export const siteConfig = {
   tagline: "Traditional Chinese herbs and kitchen traditions in clear American English.",
   adsenseClient: "ca-pub-4966684354825438",
   socialImage: "/og-default.jpg",
+  twitterHandle: "@herbguidestore",
 };
 
 export const topNav = [

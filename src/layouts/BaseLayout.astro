@@ -8,6 +8,7 @@ interface Props {
   image?: string;
   path?: string;
   robots?: string;
+  type?: "website" | "article";
   structuredData?: Record<string, unknown> | Array<Record<string, unknown>>;
 }
 
@@ -17,6 +18,7 @@ const {
   image = new URL(siteConfig.socialImage, siteConfig.url).toString(),
   path = Astro.url.pathname,
   robots = "index, follow",
+  type = "website",
   structuredData,
 } = Astro.props;
 
@@ -61,12 +63,16 @@ const schemaGraph = [
     <meta name="generator" content={Astro.generator} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={type} />
     <meta property="og:url" content={canonical} />
     <meta property="og:site_name" content={siteConfig.name} />
     <meta property="og:image" content={image} />
     <meta property="og:image:alt" content={siteConfig.tagline} />
+    <meta property="og:locale" content="en_US" />
+    <meta name="author" content={siteConfig.name} />
+    <meta name="theme-color" content="#f4efe4" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content={siteConfig.twitterHandle} />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={image} />

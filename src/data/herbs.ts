@@ -17,6 +17,12 @@ export type Herb = {
   tags: string[];
 };
 
+export type HerbDisplayNames = {
+  primary: string;
+  secondary: string[];
+  searchText: string;
+};
+
 export const herbs: Herb[] = [
   {
     slug: "goji-berry",
@@ -791,3 +797,29 @@ export const herbs: Herb[] = [
 export const featuredHerbs = herbs.slice(0, 6);
 
 export const launchHerbList = herbs.slice(0, 8).map((herb) => `${herb.name} (${herb.pinyin})`);
+
+const normalizeLabel = (value: string) => value.trim().replace(/\s+/g, " ");
+
+export const getHerbDisplayNames = (herb: Herb): HerbDisplayNames => {
+  const secondary = [herb.pinyin, herb.chinese, herb.latin]
+    .map(normalizeLabel)
+    .filter((value, index, items) => value && value !== herb.name && items.indexOf(value) === index);
+
+  return {
+    primary: herb.name,
+    secondary,
+    searchText: [
+      herb.name,
+      herb.pinyin,
+      herb.chinese,
+      herb.latin,
+      herb.summary,
+      herb.category,
+      ...herb.tags,
+      ...herb.foodUses,
+    ]
+      .map(normalizeLabel)
+      .join(" ")
+      .toLowerCase(),
+  };
+};

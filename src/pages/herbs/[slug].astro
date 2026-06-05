@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { herbs } from "../../data/herbs";
+import { getHerbDisplayNames, herbs } from "../../data/herbs";
 import { getHerbEnhancement } from "../../data/herb-enhancements";
 import { getTopicsForHerb } from "../../data/topics";
 import { basicsCards, recipeCards } from "../../data/content";
@@ -20,9 +20,7 @@ const fallbackHerbs = herbs.filter((item) => item.slug !== herb.slug).slice(0, 3
 const suggestedHerbs = relatedHerbs.length > 0 ? relatedHerbs : fallbackHerbs;
 const relatedTopics = getTopicsForHerb(herb.slug);
 const enhancement = getHerbEnhancement(herb.slug);
-const detailNameParts = [herb.pinyin, herb.chinese, herb.latin].filter(
-  (part, index, parts) => part && parts.indexOf(part) === index,
-);
+const detailNameParts = getHerbDisplayNames(herb).secondary;
 const basicsBySlug: Record<string, string[]> = {
   "goji-berry": ["goji-berry-vs-jujube", "goji-berry-tea-vs-goji-berry-porridge", "what-does-nourish-blood-mean-in-tcm"],
   "astragalus-root": ["what-does-tonify-mean-in-tcm", "what-does-qi-mean", "what-does-spleen-mean-in-tcm"],
@@ -111,6 +109,7 @@ const faqSchema = {
 <BaseLayout
   title={`${herb.name} (${herb.pinyin}) | HerbGuide`}
   description={herb.summary}
+  type="article"
   structuredData={[
     {
       "@context": "https://schema.org",
@@ -257,6 +256,18 @@ const faqSchema = {
               <li>{item}</li>
             ))}
           </ul>
+          {suggestedRecipes.length > 0 && (
+            <p>
+              For practical examples, continue to{" "}
+              {suggestedRecipes.slice(0, 2).map((item, index) => (
+                <>
+                  {index > 0 && (index === suggestedRecipes.slice(0, 2).length - 1 ? " and " : ", ")}
+                  <a href={`/food-therapy/${item.slug}/`}>{item.title}</a>
+                </>
+              ))}
+              .
+            </p>
+          )}
         </section>
 
         {enhancement?.kitchenPairings && (
@@ -297,6 +308,24 @@ const faqSchema = {
             examples, and safety notes instead of presenting any one herb as a universal
             answer.
           </p>
+          {(relatedTopics.length > 0 || suggestedBasics.length > 0) && (
+            <p>
+              A better next step is to pair this profile with
+              {relatedTopics.length > 0 && (
+                <>
+                  {" "}
+                  <a href={`/topics/${relatedTopics[0].slug}/`}>{relatedTopics[0].title}</a>
+                </>
+              )}
+              {relatedTopics.length > 0 && suggestedBasics.length > 0 && " and "}
+              {suggestedBasics.length > 0 && (
+                <>
+                  <a href={`/basics/${suggestedBasics[0].slug}/`}>{suggestedBasics[0].title}</a>
+                </>
+              )}
+              .
+            </p>
+          )}
         </section>
 
         <section class="detail-section caution-section" id="safety-note">

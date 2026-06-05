@@ -2,8 +2,11 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import SectionIntro from "../components/SectionIntro.astro";
 import { basicsCards, classicsCards, goalCards, recipeCards } from "../data/content";
-import { featuredHerbs, launchHerbList } from "../data/herbs";
+import { featuredHerbs, getHerbDisplayNames, launchHerbList } from "../data/herbs";
 import { topics } from "../data/topics";
+
+const featuredTopicLinks = topics.slice(0, 4);
+const featuredHerbLinks = featuredHerbs.slice(0, 4);
 ---
 
 <BaseLayout
@@ -137,22 +140,26 @@ import { topics } from "../data/topics";
         text="These are the first herbs we recommend for an English-language launch because they are easier to explain, easier to cook with, and easier to trust."
       />
       <div class="card-grid">
-        {featuredHerbs.map((herb) => (
-          <article class="card">
-            <p class="eyebrow">{herb.pinyin} · {herb.chinese}</p>
-            <h3><a href={`/herbs/${herb.slug}/`}>{herb.name}</a></h3>
-            <p>{herb.summary}</p>
-            <p class="meta-label">TCM nature: {herb.nature}</p>
-            <ul class="tag-list">
-              {herb.foodUses.map((use) => (
-                <li>{use}</li>
-              ))}
-            </ul>
-            <p class="card-link">
-              <a href={`/herbs/${herb.slug}/`}>Read herb profile</a>
-            </p>
-          </article>
-        ))}
+        {featuredHerbs.map((herb) => {
+          const displayNames = getHerbDisplayNames(herb);
+
+          return (
+            <article class="card">
+              <p class="eyebrow">{displayNames.secondary.slice(0, 2).join(" | ")}</p>
+              <h3><a href={`/herbs/${herb.slug}/`}>{herb.name}</a></h3>
+              <p>{herb.summary}</p>
+              <p class="meta-label">TCM nature: {herb.nature}</p>
+              <ul class="tag-list">
+                {herb.foodUses.map((use) => (
+                  <li>{use}</li>
+                ))}
+              </ul>
+              <p class="card-link">
+                <a href={`/herbs/${herb.slug}/`}>Read herb profile</a>
+              </p>
+            </article>
+          );
+        })}
       </div>
     </div>
   </section>
@@ -247,6 +254,21 @@ import { topics } from "../data/topics";
           <a href="/food-therapy/pear-and-chrysanthemum-tea-for-warm-afternoons/"> Pear and Chrysanthemum Tea</a>.
         </p>
       </article>
+
+      <article class="prose-block card">
+        <p class="eyebrow">Fast topic routes</p>
+        <h2>Start with a topic hub when the reader has a broad goal</h2>
+        <p>
+          Topic hubs work especially well for homepage visitors who know the kind of help
+          they want, but not the ingredient name yet. They also create stronger second-click
+          behavior than sending every reader straight into isolated herb pages.
+        </p>
+        <ul>
+          {featuredTopicLinks.map((topic) => (
+            <li><a href={`/topics/${topic.slug}/`}>{topic.title}</a></li>
+          ))}
+        </ul>
+      </article>
     </div>
   </section>
 
@@ -276,6 +298,21 @@ import { topics } from "../data/topics";
           <a href="/basics/goji-berry-tea-vs-goji-berry-porridge/"> Goji Berry Tea vs Goji Berry Porridge</a>
           and then <a href="/topics/balanced-pantry-habits/">Balanced Pantry Habits</a>.
         </p>
+      </article>
+
+      <article class="prose-block card">
+        <p class="eyebrow">Herb-first starts</p>
+        <h2>Best herb pages to pair with broader guides</h2>
+        <p>
+          Readers who land on one searchable herb page should have a clear path into a topic
+          hub, a basics explainer, or a kitchen article right away. These are the strongest
+          homepage herb entries for that pattern.
+        </p>
+        <ul>
+          {featuredHerbLinks.map((herb) => (
+            <li><a href={`/herbs/${herb.slug}/`}>{herb.name}</a></li>
+          ))}
+        </ul>
       </article>
     </div>
   </section>
