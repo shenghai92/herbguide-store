@@ -118,6 +118,16 @@ export const basicsCards = [
     title: "What Is Damp Heat in TCM?",
     text: "A careful beginner explanation of a very common TCM pattern phrase in digestive and seasonal content.",
   },
+  {
+    slug: "chen-pi-vs-hawthorn-berry",
+    title: "Chen Pi vs Hawthorn Berry",
+    text: "A plain-English comparison of two common digestive ingredients that often get mentioned near heavy meals.",
+  },
+  {
+    slug: "poria-vs-jobs-tears",
+    title: "Poria vs Job's Tears",
+    text: "A practical comparison for readers trying to understand dampness-related pantry ingredients in TCM content.",
+  },
 ];
 
 export const classicsCards = [

@@ -85,18 +85,6 @@ export const herbEnhancements: HerbEnhancement[] = [
     ],
   },
   {
-    slug: "chen-pi",
-    kitchenPairings: ["Fresh ginger", "Hawthorn", "Light teas", "Soup bases"],
-    goodStartingPoints: [
-      "Chen pi becomes much easier to understand when read as an aromatic pantry ingredient first.",
-      "A tea-style page is often the simplest way for readers to connect the traditional story with practical kitchen use.",
-    ],
-    compareLinks: [
-      { title: "Chen Pi Tea for Heavy Meal Days", href: "/food-therapy/chen-pi-tea-for-heavy-meal-days/" },
-      { title: "Digestive Traditions", href: "/topics/digestive-traditions/" },
-    ],
-  },
-  {
     slug: "hawthorn-berry",
     kitchenPairings: ["Chen pi", "Fresh ginger", "Light tart tea", "Rich meal contrast"],
     goodStartingPoints: [
@@ -106,6 +94,7 @@ export const herbEnhancements: HerbEnhancement[] = [
     compareLinks: [
       { title: "Hawthorn Berry Tea for Rich Meals", href: "/food-therapy/hawthorn-berry-tea-for-rich-meals/" },
       { title: "What Is Food Stagnation in TCM?", href: "/basics/what-is-food-stagnation-in-tcm/" },
+      { title: "Chen Pi vs Hawthorn Berry", href: "/basics/chen-pi-vs-hawthorn-berry/" },
     ],
   },
   {
@@ -118,6 +107,7 @@ export const herbEnhancements: HerbEnhancement[] = [
     compareLinks: [
       { title: "What Is Dampness?", href: "/basics/what-is-dampness/" },
       { title: "Job's Tears Porridge for Heavy Days", href: "/food-therapy/jobs-tears-porridge-for-heavy-days/" },
+      { title: "Poria vs Job's Tears", href: "/basics/poria-vs-jobs-tears/" },
     ],
   },
   {
@@ -143,6 +133,20 @@ export const herbEnhancements: HerbEnhancement[] = [
     compareLinks: [
       { title: "Job's Tears Porridge for Heavy Days", href: "/food-therapy/jobs-tears-porridge-for-heavy-days/" },
       { title: "Digestive Traditions", href: "/topics/digestive-traditions/" },
+      { title: "Poria vs Job's Tears", href: "/basics/poria-vs-jobs-tears/" },
+    ],
+  },
+  {
+    slug: "chen-pi",
+    kitchenPairings: ["Fresh ginger", "Hawthorn", "Light teas", "Soup bases"],
+    goodStartingPoints: [
+      "Chen pi becomes much easier to understand when read as an aromatic pantry ingredient first.",
+      "A tea-style page is often the simplest way for readers to connect the traditional story with practical kitchen use.",
+    ],
+    compareLinks: [
+      { title: "Chen Pi Tea for Heavy Meal Days", href: "/food-therapy/chen-pi-tea-for-heavy-meal-days/" },
+      { title: "Digestive Traditions", href: "/topics/digestive-traditions/" },
+      { title: "Chen Pi vs Hawthorn Berry", href: "/basics/chen-pi-vs-hawthorn-berry/" },
     ],
   },
 ];

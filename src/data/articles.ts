@@ -837,6 +837,80 @@ export const basicsArticles: ContentArticle[] = [
       },
     ],
   },
+  {
+    slug: "chen-pi-vs-hawthorn-berry",
+    title: "Chen Pi vs Hawthorn Berry",
+    description:
+      "A plain-English comparison of chen pi and hawthorn berry for readers exploring digestive Chinese pantry ingredients.",
+    eyebrow: "TCM Basics",
+    intro:
+      "Chen pi and hawthorn berry often appear on the same kinds of pages: rich meals, digestive heaviness, tea-style kitchen ideas, and traditional discussions of food moving more smoothly. They overlap enough to confuse beginners, but they do not tell the same story. A side-by-side comparison makes that much clearer.",
+    sections: [
+      {
+        title: "Why readers compare these two ingredients",
+        paragraphs: [
+          "Both ingredients are approachable, food-adjacent, and easier to picture than many dense formula herbs.",
+          "They also appear near the same search intent: what to read after a heavy meal, what digestive pantry herbs mean in TCM, and how to understand aromatic versus tart digestive language.",
+        ],
+      },
+      {
+        title: "How the two usually differ",
+        paragraphs: [
+          "Chen pi is usually introduced through aroma, citrus peel, qi movement, and the idea of helping things feel less stuck or heavy in a broader digestive sense.",
+          "Hawthorn berry is easier to frame around rich meals, fuller food stagnation language, and a more fruit-centered kitchen story.",
+        ],
+        bullets: [
+          "Chen pi is an aged citrus peel with an aromatic pantry identity.",
+          "Hawthorn berry is a tart fruit with stronger rich-meal comparison value.",
+          "Both belong to traditional digestive context, not one-size-fits-all advice.",
+        ],
+      },
+      {
+        title: "How beginners should use this comparison",
+        paragraphs: [
+          "The point is not that one ingredient is better. The point is that TCM kitchen language separates ingredients by story, flavor, context, and traditional role.",
+          "Once readers understand this, digestive topic hubs and tea pages become much easier to follow.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "poria-vs-jobs-tears",
+    title: "Poria vs Job's Tears",
+    description:
+      "A practical plain-English comparison of poria and Job's Tears for readers learning dampness-related Chinese pantry language.",
+    eyebrow: "TCM Basics",
+    intro:
+      "Poria and Job's Tears often appear near the same TCM term: dampness. That overlap can make them look interchangeable, but they are easier to understand when separated clearly. One reads more like a classic herb-context ingredient, while the other feels more like a grain-style pantry food that beginners can picture more easily.",
+    sections: [
+      {
+        title: "Why this comparison matters",
+        paragraphs: [
+          "Many readers can imagine Job's Tears in porridge or soup, but poria feels more unfamiliar and more technical.",
+          "Putting them side by side helps show how HerbGuide moves from plain kitchen examples into deeper TCM vocabulary without losing clarity.",
+        ],
+      },
+      {
+        title: "How the two are usually framed",
+        paragraphs: [
+          "Poria is often introduced as a traditional herb-context ingredient connected to dampness, fluids, and broader formula or soup discussions.",
+          "Job's Tears is easier to explain through grain bowls, porridge, soup, and the feeling of a lighter pantry routine in seasonal digestive content.",
+        ],
+        bullets: [
+          "Poria usually feels more library-like and theory-supportive.",
+          "Job's Tears usually feels more pantry-friendly and recipe-ready.",
+          "Both help readers understand dampness language in a traditional framework.",
+        ],
+      },
+      {
+        title: "What readers should learn from the contrast",
+        paragraphs: [
+          "This comparison teaches one of the most useful HerbGuide lessons: Chinese herb learning is often easier when one concept page, one comparison page, and one kitchen page are read together.",
+          "For dampness, that often means reading the glossary term first, then comparing ingredients, then opening a porridge or soup page right away.",
+        ],
+      },
+    ],
+  },
 ];
 
 export const classicsArticles: ContentArticle[] = [
