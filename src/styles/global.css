@@ -297,6 +297,13 @@ main {
   font-family: "Segoe UI", Arial, sans-serif;
 }
 
+.results-count {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 0.95rem;
+}
+
 .filter-panel {
   display: grid;
   gap: 1rem;

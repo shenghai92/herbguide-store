@@ -3,6 +3,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { herbs } from "../../data/herbs";
 import { getHerbEnhancement } from "../../data/herb-enhancements";
 import { getTopicsForHerb } from "../../data/topics";
+import { basicsCards, recipeCards } from "../../data/content";
 
 export function getStaticPaths() {
   return herbs.map((herb) => ({
@@ -19,6 +20,53 @@ const fallbackHerbs = herbs.filter((item) => item.slug !== herb.slug).slice(0, 3
 const suggestedHerbs = relatedHerbs.length > 0 ? relatedHerbs : fallbackHerbs;
 const relatedTopics = getTopicsForHerb(herb.slug);
 const enhancement = getHerbEnhancement(herb.slug);
+const detailNameParts = [herb.pinyin, herb.chinese, herb.latin].filter(
+  (part, index, parts) => part && parts.indexOf(part) === index,
+);
+const basicsBySlug: Record<string, string[]> = {
+  "goji-berry": ["goji-berry-vs-jujube", "goji-berry-tea-vs-goji-berry-porridge", "what-does-nourish-blood-mean-in-tcm"],
+  "astragalus-root": ["what-does-tonify-mean-in-tcm", "what-does-qi-mean", "what-does-spleen-mean-in-tcm"],
+  "fresh-ginger": ["fresh-ginger-vs-dried-ginger", "warming-vs-cooling-foods", "what-is-food-stagnation-in-tcm"],
+  "jujube-red-date": ["goji-berry-vs-jujube", "what-does-shen-mean-in-tcm", "what-does-nourish-blood-mean-in-tcm"],
+  "chrysanthemum-flower": ["what-does-clear-heat-mean", "chrysanthemum-vs-mint", "warming-vs-cooling-foods"],
+  "hawthorn-berry": ["chen-pi-vs-hawthorn-berry", "what-is-food-stagnation-in-tcm", "what-is-dampness"],
+  "chen-pi": ["chen-pi-vs-hawthorn-berry", "what-is-food-stagnation-in-tcm", "what-is-qi-stagnation"],
+  "poria": ["what-is-dampness", "poria-vs-jobs-tears", "what-is-damp-heat-in-tcm"],
+  "licorice-root": ["what-does-harmonizing-mean-in-tcm", "what-does-tonify-mean-in-tcm", "what-does-spleen-mean-in-tcm"],
+  "schisandra-berry": ["what-does-astringent-mean-in-tcm", "what-does-shen-mean-in-tcm", "what-does-jing-mean-in-tcm"],
+  "lotus-seed": ["what-does-astringent-mean-in-tcm", "what-does-shen-mean-in-tcm", "what-does-nourish-blood-mean-in-tcm"],
+  "mulberry-fruit": ["mulberry-fruit-vs-goji-berry", "what-does-moisten-dryness-mean", "what-does-yin-deficiency-mean"],
+  "black-sesame-seed": ["what-does-jing-mean-in-tcm", "what-does-nourish-blood-mean-in-tcm", "goji-berry-tea-vs-goji-berry-porridge"],
+  "mint": ["chrysanthemum-vs-mint", "what-does-clear-heat-mean", "warming-vs-cooling-foods"],
+  "tremella-mushroom": ["what-does-moisten-dryness-mean", "what-does-yin-deficiency-mean", "mulberry-fruit-vs-goji-berry"],
+};
+const suggestedBasics = (basicsBySlug[herb.slug] ?? ["what-is-tcm", "what-does-channel-entry-mean", "warming-vs-cooling-foods"])
+  .map((slug) => basicsCards.find((item) => item.slug === slug))
+  .filter(Boolean);
+const recipesBySlug: Record<string, string[]> = {
+  "goji-berry": ["goji-berry-porridge-for-gentle-mornings", "goji-and-chrysanthemum-tea-basics", "mulberry-and-goji-tea-basics"],
+  "astragalus-root": ["a-simple-warming-soup-guide-for-cold-weather", "jujube-and-ginger-tea-for-busy-weeks"],
+  "fresh-ginger": ["jujube-and-ginger-tea-for-busy-weeks", "perilla-and-ginger-soup-for-cool-days", "a-simple-warming-soup-guide-for-cold-weather"],
+  "jujube-red-date": ["jujube-and-ginger-tea-for-busy-weeks", "jujube-and-lotus-seed-congee-for-quiet-evenings", "schisandra-and-jujube-tea-basics"],
+  "chrysanthemum-flower": ["chrysanthemum-and-mint-cooling-tea-basics", "pear-and-chrysanthemum-tea-for-warm-afternoons", "goji-and-chrysanthemum-tea-basics"],
+  "hawthorn-berry": ["hawthorn-berry-tea-for-rich-meals", "chen-pi-tea-for-heavy-meal-days"],
+  "chen-pi": ["chen-pi-tea-for-heavy-meal-days", "hawthorn-berry-tea-for-rich-meals"],
+  "poria": ["jobs-tears-porridge-for-heavy-days", "adzuki-bean-and-jobs-tears-soup-basics"],
+  "licorice-root": ["jujube-and-ginger-tea-for-busy-weeks", "a-simple-warming-soup-guide-for-cold-weather"],
+  "schisandra-berry": ["schisandra-and-jujube-tea-basics", "lotus-seed-and-longan-sweet-soup-basics"],
+  "chinese-yam": ["chinese-yam-and-carrot-soup-basics", "a-simple-warming-soup-guide-for-cold-weather"],
+  "lotus-seed": ["lotus-seed-and-longan-sweet-soup-basics", "jujube-and-lotus-seed-congee-for-quiet-evenings", "tremella-and-lotus-seed-sweet-soup-basics"],
+  "jobs-tears": ["jobs-tears-porridge-for-heavy-days", "adzuki-bean-and-jobs-tears-soup-basics"],
+  "mulberry-fruit": ["mulberry-and-goji-tea-basics", "tremella-and-pear-sweet-soup-basics"],
+  "black-sesame-seed": ["black-sesame-breakfast-ideas-for-beginners", "black-sesame-and-jujube-breakfast-bowl"],
+  "mint": ["chrysanthemum-and-mint-cooling-tea-basics", "pear-and-chrysanthemum-tea-for-warm-afternoons"],
+  "perilla-leaf": ["perilla-and-ginger-soup-for-cool-days"],
+  "tremella-mushroom": ["tremella-and-pear-sweet-soup-basics", "tremella-and-lotus-seed-sweet-soup-basics"],
+  "adzuki-bean": ["adzuki-bean-and-jobs-tears-soup-basics", "jobs-tears-porridge-for-heavy-days"],
+};
+const suggestedRecipes = (recipesBySlug[herb.slug] ?? [])
+  .map((slug) => recipeCards.find((item) => item.slug === slug))
+  .filter(Boolean);
 const herbKeywords = [
   herb.name,
   herb.pinyin,
@@ -115,9 +163,7 @@ const faqSchema = {
       <div>
         <p class="eyebrow">{herb.category}</p>
         <h1>{herb.name}</h1>
-        <p class="detail-subtitle">
-          {herb.pinyin} | {herb.chinese} | {herb.latin}
-        </p>
+        <p class="detail-subtitle">{detailNameParts.join(" | ")}</p>
         <p>{herb.summary}</p>
       </div>
       <aside class="info-panel">
@@ -307,6 +353,26 @@ const faqSchema = {
             <ul class="related-links">
               {enhancement.compareLinks.map((link) => (
                 <li><a href={link.href}>{link.title}</a></li>
+              ))}
+            </ul>
+          </div>
+        )}
+        {suggestedBasics.length > 0 && (
+          <div class="sidebar-card">
+            <p class="eyebrow">Basics to read next</p>
+            <ul class="related-links">
+              {suggestedBasics.map((item) => (
+                <li><a href={`/basics/${item.slug}/`}>{item.title}</a></li>
+              ))}
+            </ul>
+          </div>
+        )}
+        {suggestedRecipes.length > 0 && (
+          <div class="sidebar-card">
+            <p class="eyebrow">Recipe paths</p>
+            <ul class="related-links">
+              {suggestedRecipes.map((item) => (
+                <li><a href={`/food-therapy/${item.slug}/`}>{item.title}</a></li>
               ))}
             </ul>
           </div>

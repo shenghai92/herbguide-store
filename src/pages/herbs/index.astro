@@ -145,6 +145,7 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
         No herbs matched that search yet. Try an English name, pinyin, a food use, or a
         broader term like tea or soup.
       </p>
+      <p class="results-count" id="results-count">Showing all herbs in the library.</p>
       <div class="directory-grid" id="herb-results">
         {herbs.map((herb) => (
           <article
@@ -304,6 +305,7 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
     const searchInput = document.querySelector("#herb-search");
     const herbCards = Array.from(document.querySelectorAll(".herb-card"));
     const emptyState = document.querySelector("#search-empty");
+    const resultsCount = document.querySelector("#results-count");
     const categoryButtons = Array.from(document.querySelectorAll("[data-category-filter]"));
     const letterButtons = Array.from(document.querySelectorAll("[data-letter-filter]"));
 
@@ -332,6 +334,13 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
 
       if (emptyState) {
         emptyState.hidden = visibleCount > 0;
+      }
+
+      if (resultsCount) {
+        resultsCount.textContent =
+          visibleCount === herbCards.length
+            ? "Showing all herbs in the library."
+            : `Showing ${visibleCount} herb${visibleCount === 1 ? "" : "s"} after filters.`;
       }
     };
 
