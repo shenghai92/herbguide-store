@@ -1023,6 +1023,43 @@ export const basicsArticles: ContentArticle[] = [
     ],
   },
   {
+    slug: "what-does-harmonizing-mean-in-tcm",
+    title: "What Does Harmonizing Mean in TCM?",
+    description:
+      "A plain-English explanation of harmonizing as a traditional role in Chinese herb and formula writing.",
+    eyebrow: "TCM Basics",
+    intro:
+      "Harmonizing is one of those TCM words that sounds gentle in English but can feel vague on a herb page. In traditional Chinese medicine writing, it usually points to balance, coordination, or helping different ingredients work together more smoothly inside a formula or food-style framework.",
+    sections: [
+      {
+        title: "Why the word can feel unclear",
+        paragraphs: [
+          "Many beginners read harmonizing and assume it is just pleasant marketing language. On a serious herb page, though, it belongs to older technical vocabulary with a specific teaching role.",
+          "It does not mean every harmonizing herb does the same thing. It means the herb is often discussed through relationship, moderation, or support rather than through one loud standalone action.",
+        ],
+      },
+      {
+        title: "How harmonizing shows up on herb pages",
+        paragraphs: [
+          "Readers often meet this language on pages about licorice root, formula support, or herbs that are described as helping ingredients fit together in a more balanced way.",
+          "That is why harmonizing often appears near digestive, tonic, or formula-context writing instead of only next to one narrow symptom phrase.",
+        ],
+        bullets: [
+          "Harmonizing is part of traditional herb vocabulary.",
+          "It often points to balance, coordination, or formula support.",
+          "The term should be read as context, not as a one-word personal recommendation.",
+        ],
+      },
+      {
+        title: "Why this matters for HerbGuide",
+        paragraphs: [
+          "Explaining harmonizing clearly makes pages like licorice root easier to trust because readers can see why the herb keeps appearing in broader formula discussions.",
+          "It also gives beginners a better bridge between pantry-friendly herb pages and more classical content where formulas matter much more.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "mulberry-fruit-vs-goji-berry",
     title: "Mulberry Fruit vs Goji Berry",
     description:

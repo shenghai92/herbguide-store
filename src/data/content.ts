@@ -144,6 +144,11 @@ export const basicsCards = [
     text: "A plain-English explanation of one of the most confusing traditional quality words on many herb pages.",
   },
   {
+    slug: "what-does-harmonizing-mean-in-tcm",
+    title: "What Does Harmonizing Mean in TCM?",
+    text: "A plain-English guide to one of the most common but least explained role words on herb and formula pages.",
+  },
+  {
     slug: "mulberry-fruit-vs-goji-berry",
     title: "Mulberry Fruit vs Goji Berry",
     text: "A pantry-friendly comparison that helps readers separate two popular Chinese berries in tea and gentle nourishment content.",
