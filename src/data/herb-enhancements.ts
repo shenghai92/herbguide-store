@@ -173,6 +173,7 @@ export const herbEnhancements: HerbEnhancement[] = [
     compareLinks: [
       { title: "Tremella and Pear Sweet Soup Basics", href: "/food-therapy/tremella-and-pear-sweet-soup-basics/" },
       { title: "Seasonal Kitchen Ideas", href: "/topics/seasonal-kitchen-ideas/" },
+      { title: "Tremella and Lotus Seed Sweet Soup Basics", href: "/food-therapy/tremella-and-lotus-seed-sweet-soup-basics/" },
     ],
   },
   {
@@ -185,6 +186,18 @@ export const herbEnhancements: HerbEnhancement[] = [
     compareLinks: [
       { title: "Adzuki Bean and Job's Tears Soup Basics", href: "/food-therapy/adzuki-bean-and-jobs-tears-soup-basics/" },
       { title: "Digestive Traditions", href: "/topics/digestive-traditions/" },
+    ],
+  },
+  {
+    slug: "chinese-yam",
+    kitchenPairings: ["Carrot", "Light broth", "Fresh ginger", "Simple pantry soups"],
+    goodStartingPoints: [
+      "Chinese yam is easiest to trust when presented as a mild food-first ingredient rather than a dense tonic.",
+      "Simple soup and porridge pages usually teach this ingredient better than abstract theory alone.",
+    ],
+    compareLinks: [
+      { title: "Chinese Yam and Carrot Soup Basics", href: "/food-therapy/chinese-yam-and-carrot-soup-basics/" },
+      { title: "Balanced Pantry Habits", href: "/topics/balanced-pantry-habits/" },
     ],
   },
 ];

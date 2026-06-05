@@ -259,4 +259,14 @@ export const recipeCards = [
     title: "Adzuki Bean and Job's Tears Soup Basics",
     text: "A pantry-style soup page that gives dampness and digestive readers one clear, low-hype bowl to picture.",
   },
+  {
+    slug: "chinese-yam-and-carrot-soup-basics",
+    title: "Chinese Yam and Carrot Soup Basics",
+    text: "A very simple beginner soup that makes Chinese yam feel practical, mild, and easy to trust.",
+  },
+  {
+    slug: "tremella-and-lotus-seed-sweet-soup-basics",
+    title: "Tremella and Lotus Seed Sweet Soup Basics",
+    text: "A soft dessert-soup page that deepens the tremella and lotus seed network with one easy bowl.",
+  },
 ];

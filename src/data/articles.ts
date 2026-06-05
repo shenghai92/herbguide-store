@@ -1992,4 +1992,106 @@ export const foodTherapyArticles: ContentArticle[] = [
       },
     ],
   },
+  {
+    slug: "chinese-yam-and-carrot-soup-basics",
+    title: "Chinese Yam and Carrot Soup Basics",
+    description:
+      "A very simple beginner soup that makes Chinese yam feel practical, mild, and easy to trust.",
+    eyebrow: "Food Therapy",
+    intro:
+      "Chinese yam is one of the best examples of a food-first TCM ingredient because readers can understand it through a mild soup before they ever need dense theory. Pairing it with carrot keeps the recipe familiar, soft, and easy to imagine in a real kitchen.",
+    recipe: {
+      recipeYield: "2 bowls",
+      prepTime: "PT10M",
+      totalTime: "PT40M",
+      ingredients: [
+        "1 cup Chinese yam, peeled and cut into chunks",
+        "1 medium carrot, cut into chunks",
+        "4 cups water or light broth",
+        "2 thin slices fresh ginger, optional",
+        "A small pinch of salt near the end",
+      ],
+      steps: [
+        "Prepare the Chinese yam and carrot.",
+        "Add them to a small pot with the water or light broth.",
+        "Bring to a gentle boil, then lower the heat and simmer until the vegetables soften.",
+        "Add the optional ginger during the last 15 minutes if you want a slightly warmer flavor.",
+        "Serve warm with very light seasoning.",
+      ],
+      servingNotes: [
+        "This page works best when the soup stays mild and uncomplicated.",
+        "A lighter broth helps Chinese yam stay approachable for beginners.",
+      ],
+      caution: [
+        "This is a food-first educational soup page, not a personal prescription for digestive or energy concerns.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why this is a strong beginner soup",
+        paragraphs: [
+          "Chinese yam already feels closer to food than to supplement-style herb language, which makes it easier for new readers to trust.",
+          "Carrot keeps the page familiar and helps the site offer more simple soup content beyond tea and dessert soup.",
+        ],
+      },
+      {
+        title: "What the soup teaches beyond the pot",
+        paragraphs: [
+          "A page like this helps readers understand how TCM food writing often starts with ordinary ingredients and gentle preparation.",
+          "It also creates a clearer path between Chinese yam, spleen-language, pantry content, and practical seasonal reading.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "tremella-and-lotus-seed-sweet-soup-basics",
+    title: "Tremella and Lotus Seed Sweet Soup Basics",
+    description:
+      "A soft dessert-soup page that deepens the tremella and lotus seed network with one easy, pantry-friendly bowl.",
+    eyebrow: "Food Therapy",
+    intro:
+      "Tremella and lotus seed make a natural next-step dessert soup for the site because both ingredients already fit HerbGuide's calm, food-first tone. The bowl feels soft, simple, and visually clear, which makes it a strong second-click page after readers visit tremella, lotus seed, or gentle evening content.",
+    recipe: {
+      recipeYield: "2 bowls",
+      prepTime: "PT10M",
+      totalTime: "PT45M",
+      ingredients: [
+        "1 small handful dried tremella mushroom",
+        "1/4 cup lotus seed",
+        "3 1/2 cups water",
+        "1 to 2 jujubes, optional",
+        "A very small amount of rock sugar or leave unsweetened",
+      ],
+      steps: [
+        "Rinse and soak the tremella briefly, then tear it into smaller pieces.",
+        "Rinse the lotus seed and add it to a pot with the water first.",
+        "Once the lotus seed starts to soften, add the tremella and optional jujubes.",
+        "Simmer gently until the bowl feels soft and lightly thickened.",
+        "Sweeten only very lightly if needed and serve warm.",
+      ],
+      servingNotes: [
+        "A mild sweetness keeps the page feeling practical rather than dessert-heavy.",
+        "This works best as a soft household-style bowl, not a tonic-style promise.",
+      ],
+      caution: [
+        "Gentle evening or nourishment language here belongs to traditional food context, not medical guidance.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why this page fits the site so well",
+        paragraphs: [
+          "It strengthens the dessert-soup branch of HerbGuide without making the content feel repetitive.",
+          "It also gives tremella and lotus seed readers one more concrete kitchen page that is easy to trust and easy to share.",
+        ],
+      },
+      {
+        title: "How this bowl helps the wider site",
+        paragraphs: [
+          "This recipe deepens links between tremella, lotus seed, jujube, longan, and soft nourishment language.",
+          "It also helps the site keep expanding through pantry familiarity rather than drifting toward claim-heavy herb content.",
+        ],
+      },
+    ],
+  },
 ];
