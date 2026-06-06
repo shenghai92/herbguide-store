@@ -119,6 +119,35 @@ const schemaGraph = [
     <main>
       <slot />
     </main>
+    <aside class="support-float" aria-label="Reader support">
+      <p class="eyebrow">Optional support</p>
+      <h2>Everything on HerbGuide is free.</h2>
+      <p>
+        All pages and site features are open to every reader. Support is optional and helps us
+        keep publishing more kitchen guides and herb pages.
+      </p>
+      <p class="support-float-note">
+        These support links do not unlock content, extra tools, or special access.
+      </p>
+      <div class="support-float-actions">
+        <a
+          class="button button-secondary"
+          href={siteConfig.supportLinks.small}
+          rel="nofollow sponsored external"
+          target="_blank"
+        >
+          $4.90 support
+        </a>
+        <a
+          class="button button-primary"
+          href={siteConfig.supportLinks.large}
+          rel="nofollow sponsored external"
+          target="_blank"
+        >
+          $9.90 support
+        </a>
+      </div>
+    </aside>
     <footer class="site-footer">
       <div class="shell footer-grid">
         <div>
