@@ -83,7 +83,7 @@ const faqSchema = {
       name: `What is ${herb.name} in traditional herb writing?`,
       acceptedAnswer: {
         "@type": "Answer",
-        text: `${herb.name} is presented on HerbGuide as a traditional Chinese herb profile with plain-English context, naming, category, kitchen uses where relevant, and a visible safety note.`,
+        text: `${herb.name} is presented on HerbGuide as a herb profile with plain-English context, naming, category, kitchen uses where relevant, and a visible safety note.`,
       },
     },
     {
@@ -120,7 +120,7 @@ const faqSchema = {
       mainEntityOfPage: `https://herbguide.store/herbs/${herb.slug}/`,
       keywords: herbKeywords.join(", "),
       articleSection: herb.category,
-      about: ["Traditional Chinese herbs", herb.name, herb.pinyin, herb.latin],
+      about: ["traditional herbs", herb.name, herb.pinyin, herb.latin],
       author: {
         "@type": "Organization",
         name: "HerbGuide",

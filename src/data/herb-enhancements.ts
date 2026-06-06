@@ -15,7 +15,7 @@ const rawHerbEnhancements: HerbEnhancement[] = [
     slug: "goji-berry",
     kitchenPairings: ["Jujube", "Pear", "Black sesame", "Lotus seed"],
     goodStartingPoints: [
-      "Use it in porridge, light soups, and tea-style pages rather than treating it like an isolated supplement.",
+      "Use it in porridge, light soups, and tea-style pages rather than reading it like an isolated supplement.",
       "Add it near the end of cooking when you want color and softness without overcooking the berries.",
     ],
     compareLinks: [
@@ -33,7 +33,7 @@ const rawHerbEnhancements: HerbEnhancement[] = [
       "Use it as a context herb for learning qi language rather than as a casual everyday recommendation.",
     ],
     compareLinks: [
-      { title: "What Does Tonify Mean in TCM?", href: "/basics/what-does-tonify-mean-in-tcm/" },
+      { title: "What Does Tonify Mean in Traditional Herb Writing?", href: "/basics/what-does-tonify-mean-in-tcm/" },
       { title: "Warming Foods", href: "/topics/warming-foods/" },
     ],
   },
@@ -54,7 +54,7 @@ const rawHerbEnhancements: HerbEnhancement[] = [
     kitchenPairings: ["Fresh ginger", "Goji berry", "Longan fruit", "Lotus seed"],
     goodStartingPoints: [
       "Jujube is easiest to understand in teas, soups, and gentle pantry routines.",
-      "It is a strong bridge ingredient between beginner food therapy pages and traditional nourishment language.",
+      "It is a strong bridge ingredient between beginner kitchen pages and traditional nourishment language.",
     ],
     compareLinks: [
       { title: "Goji Berry vs Jujube", href: "/basics/goji-berry-vs-jujube/" },
@@ -93,7 +93,7 @@ const rawHerbEnhancements: HerbEnhancement[] = [
     kitchenPairings: ["Goji berry", "Warm porridge", "Sesame paste", "Lotus seed desserts"],
     goodStartingPoints: [
       "Black sesame is easiest to understand through pantry use, breakfast pages, and dessert-style routines.",
-      "It is strongest on HerbGuide when treated as a food-first ingredient rather than a hype-heavy beauty shortcut.",
+      "It is strongest on HerbGuide when framed as a food-first ingredient rather than a hype-heavy beauty angle.",
     ],
     compareLinks: [
       { title: "Black Sesame Breakfast Ideas for Beginners", href: "/food-therapy/black-sesame-breakfast-ideas-for-beginners/" },
@@ -109,7 +109,7 @@ const rawHerbEnhancements: HerbEnhancement[] = [
     ],
     compareLinks: [
       { title: "Hawthorn Berry Tea for Rich Meals", href: "/food-therapy/hawthorn-berry-tea-for-rich-meals/" },
-      { title: "What Is Food Stagnation in TCM?", href: "/basics/what-is-food-stagnation-in-tcm/" },
+      { title: "What Is Food Stagnation?", href: "/basics/what-is-food-stagnation-in-tcm/" },
       { title: "Chen Pi vs Hawthorn Berry", href: "/basics/chen-pi-vs-hawthorn-berry/" },
     ],
   },
@@ -135,7 +135,7 @@ const rawHerbEnhancements: HerbEnhancement[] = [
     ],
     compareLinks: [
       { title: "Lotus Seed and Longan Sweet Soup Basics", href: "/food-therapy/lotus-seed-and-longan-sweet-soup-basics/" },
-      { title: "What Does Shen Mean in TCM?", href: "/basics/what-does-shen-mean-in-tcm/" },
+      { title: "What Does Shen Mean in Traditional Herb Writing?", href: "/basics/what-does-shen-mean-in-tcm/" },
       { title: "Jujube and Lotus Seed Congee for Quiet Evenings", href: "/food-therapy/jujube-and-lotus-seed-congee-for-quiet-evenings/" },
     ],
   },
@@ -210,8 +210,8 @@ const rawHerbEnhancements: HerbEnhancement[] = [
       "The best first click after this page is usually a plain-English basics article about harmonizing or a gentle digestive pathway page.",
     ],
     compareLinks: [
-      { title: "What Does Harmonizing Mean in TCM?", href: "/basics/what-does-harmonizing-mean-in-tcm/" },
-      { title: "What Does Tonify Mean in TCM?", href: "/basics/what-does-tonify-mean-in-tcm/" },
+      { title: "What Does Harmonizing Mean?", href: "/basics/what-does-harmonizing-mean-in-tcm/" },
+      { title: "What Does Tonify Mean in Traditional Herb Writing?", href: "/basics/what-does-tonify-mean-in-tcm/" },
       { title: "Balanced Pantry Habits", href: "/topics/balanced-pantry-habits/" },
     ],
   },
@@ -223,7 +223,7 @@ const rawHerbEnhancements: HerbEnhancement[] = [
       "It works best when readers connect the berry to astringent language and then move into one gentle recipe page.",
     ],
     compareLinks: [
-      { title: "What Does Astringent Mean in TCM?", href: "/basics/what-does-astringent-mean-in-tcm/" },
+      { title: "What Does Astringent Mean?", href: "/basics/what-does-astringent-mean-in-tcm/" },
       { title: "Schisandra and Jujube Tea Basics", href: "/food-therapy/schisandra-and-jujube-tea-basics/" },
       { title: "Evening Teas", href: "/topics/evening-teas/" },
     ],

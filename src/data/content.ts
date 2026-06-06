@@ -12,7 +12,7 @@ export const goalCards = [
 const rawBasicsCards = [
   {
     slug: "what-is-tcm",
-    title: "What Is TCM?",
+    title: "What Is Traditional Herb Theory?",
     text: "A clear first look at this traditional framework without the jargon overload.",
   },
   {
@@ -37,7 +37,7 @@ const rawBasicsCards = [
   },
   {
     slug: "what-does-blood-mean-in-tcm",
-    title: "What Does Blood Mean in TCM?",
+    title: "What Does Blood Mean in Traditional Herb Writing?",
     text: "A careful beginner explanation of what blood means inside traditional theory.",
   },
   {
@@ -48,7 +48,7 @@ const rawBasicsCards = [
   {
     slug: "fresh-ginger-vs-dried-ginger",
     title: "Fresh Ginger vs Dried Ginger",
-    text: "Why traditional herb pages treat two forms of ginger as related but not identical.",
+    text: "Why traditional herb pages describe two forms of ginger as related but not identical.",
   },
   {
     slug: "ginseng-vs-american-ginseng",
@@ -67,8 +67,8 @@ const rawBasicsCards = [
   },
   {
     slug: "what-does-tonify-mean-in-tcm",
-    title: "What Does Tonify Mean in TCM?",
-    text: "A simple guide to one of the most common translation words in Chinese herb content.",
+    title: "What Does Tonify Mean in Traditional Herb Writing?",
+    text: "A simple guide to one of the most common translation words in traditional herb content.",
   },
   {
     slug: "what-does-moisten-dryness-mean",
@@ -77,12 +77,12 @@ const rawBasicsCards = [
   },
   {
     slug: "what-does-spleen-mean-in-tcm",
-    title: "What Does Spleen Mean in TCM?",
+    title: "What Does Spleen Mean in Traditional Herb Writing?",
     text: "A plain-English guide to one of the most important organ-system words in kitchen-tradition writing.",
   },
   {
     slug: "what-does-liver-mean-in-tcm",
-    title: "What Does Liver Mean in TCM?",
+    title: "What Does Liver Mean in Traditional Herb Writing?",
     text: "A clear explanation of why the traditional liver label is broader than a modern anatomy label.",
   },
   {
@@ -92,32 +92,32 @@ const rawBasicsCards = [
   },
   {
     slug: "what-does-shen-mean-in-tcm",
-    title: "What Does Shen Mean in TCM?",
+    title: "What Does Shen Mean in Traditional Herb Writing?",
     text: "A plain-English explanation of one of the most misunderstood mind-and-spirit terms in traditional writing.",
   },
   {
     slug: "what-does-jing-mean-in-tcm",
-    title: "What Does Jing Mean in TCM?",
+    title: "What Does Jing Mean in Traditional Herb Writing?",
     text: "A careful beginner guide to the traditional idea of essence without turning it into hype.",
   },
   {
     slug: "what-does-channel-entry-mean",
     title: "What Does Channel Entry Mean?",
-    text: "A plain-English explanation of one of the most confusing lines on many Chinese herb pages.",
+    text: "A plain-English explanation of one of the most confusing lines on many traditional herb pages.",
   },
   {
     slug: "what-is-food-stagnation-in-tcm",
-    title: "What Is Food Stagnation in TCM?",
-    text: "A careful beginner guide to one of the most common digestive terms in Chinese kitchen-style herb content.",
+    title: "What Is Food Stagnation?",
+    text: "A careful beginner guide to one of the most common digestive terms in traditional kitchen-style herb content.",
   },
   {
     slug: "what-does-nourish-blood-mean-in-tcm",
-    title: "What Does Nourish Blood Mean in TCM?",
+    title: "What Does Nourish Blood Mean?",
     text: "A plain-English guide to one of the most common traditional phrases on nourishing herb pages.",
   },
   {
     slug: "what-is-damp-heat-in-tcm",
-    title: "What Is Damp Heat in TCM?",
+    title: "What Is Damp Heat?",
     text: "A careful beginner explanation of a very common traditional pattern phrase in digestive and seasonal content.",
   },
   {
@@ -142,18 +142,18 @@ const rawBasicsCards = [
   },
   {
     slug: "what-does-astringent-mean-in-tcm",
-    title: "What Does Astringent Mean in TCM?",
+    title: "What Does Astringent Mean?",
     text: "A plain-English explanation of one of the most confusing traditional quality words on many herb pages.",
   },
   {
     slug: "what-does-harmonizing-mean-in-tcm",
-    title: "What Does Harmonizing Mean in TCM?",
+    title: "What Does Harmonizing Mean?",
     text: "A plain-English guide to one of the most common but least explained role words on herb and formula pages.",
   },
   {
     slug: "mulberry-fruit-vs-goji-berry",
     title: "Mulberry Fruit vs Goji Berry",
-    text: "A pantry-friendly comparison that helps readers separate two popular Chinese berries in tea and gentle nourishment content.",
+    text: "A pantry-friendly comparison that helps readers separate two popular pantry berries in tea and gentle nourishment content.",
   },
 ];
 

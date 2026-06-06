@@ -27,24 +27,24 @@ export type ContentArticle = {
 const rawBasicsArticles: ContentArticle[] = [
   {
     slug: "what-is-tcm",
-    title: "What Is TCM?",
+    title: "What Is Traditional Herb Theory?",
     description:
-      "A clear first look at Traditional Chinese Medicine in plain American English, with practical explanations and clear boundaries.",
+      "A clear first look at traditional herb theory in plain American English, with practical explanations and clear boundaries.",
     eyebrow: "Basics",
     intro:
-      "Traditional Chinese Medicine, often shortened to TCM, is a long-running body of ideas about the body, food, herbs, climate, rhythm, and patterns. Here, it is presented as a traditional framework that helps readers understand herb language and food traditions, not as one-to-one guidance.",
+      "Traditional herb theory is a long-running body of ideas about the body, food, herbs, climate, rhythm, and patterns. Here, it is presented as a traditional framework that helps readers understand herb language and food traditions, not as one-to-one guidance.",
     sections: [
       {
         title: "A traditional framework, not a modern labeling system",
         paragraphs: [
-          "TCM uses its own vocabulary to describe how the body functions, how climate and season are understood, and how herbs and foods are traditionally categorized.",
+          "This framework uses its own vocabulary to describe how the body functions, how climate and season are understood, and how herbs and foods are traditionally categorized.",
           "That vocabulary does not map neatly onto modern lab testing or personal labeling. A reader can still learn a lot from it, but it should be read as part of a historical and cultural system.",
         ],
       },
       {
-        title: "Why readers still care about TCM today",
+        title: "Why readers still care about this framework today",
         paragraphs: [
-          "Many English-language readers first meet TCM through tea, soups, herbal products, acupuncture, or family food traditions.",
+          "Many English-language readers first meet this framework through tea, soups, herbal products, acupuncture, or family food traditions.",
           "Learning the basics makes herb pages easier to understand because terms like qi, dampness, warming, cooling, and channel entry stop feeling abstract.",
         ],
         bullets: [
@@ -56,8 +56,8 @@ const rawBasicsArticles: ContentArticle[] = [
       {
         title: "How HerbGuide uses the term",
         paragraphs: [
-          "HerbGuide uses TCM as an educational frame. We explain how an herb is traditionally described, what those labels mean in plain English, and where caution is needed.",
-          "We do not present TCM phrases as direct promises, prescribed plans, or instructions for any one person.",
+          "HerbGuide uses this term as an educational frame. We explain how an herb is traditionally described, what those labels mean in plain English, and where caution is needed.",
+          "We do not present these traditional phrases as direct promises, fixed plans, or instructions for any one person.",
         ],
       },
     ],
@@ -66,10 +66,10 @@ const rawBasicsArticles: ContentArticle[] = [
     slug: "what-does-qi-mean",
     title: "What Does Qi Mean?",
     description:
-      "A practical plain-English explanation of qi for readers who want to understand Chinese herb and TCM writing.",
+      "A practical plain-English explanation of qi for readers who want to understand traditional herb writing.",
     eyebrow: "Basics",
     intro:
-      "Qi is one of the most common and most misunderstood words in Chinese medicine writing. HerbGuide usually explains it in plain English as function, activity, momentum, resilience, or vitality, depending on context.",
+      "Qi is one of the most common and most misunderstood words in traditional herb writing. HerbGuide usually explains it in plain English as function, activity, momentum, resilience, or vitality, depending on context.",
     sections: [
       {
         title: "Why qi is hard to translate",
@@ -81,7 +81,7 @@ const rawBasicsArticles: ContentArticle[] = [
       {
         title: "How qi appears on herb pages",
         paragraphs: [
-          "When a herb is described in TCM as relating to qi, HerbGuide translates that into readable English rather than repeating jargon without explanation.",
+          "When a herb is described in traditional writing as relating to qi, HerbGuide translates that into readable English rather than repeating jargon without explanation.",
           "Depending on the herb, that may mean traditional discussions around stamina, appetite, resilience, or general functional strength.",
         ],
         bullets: [
@@ -103,7 +103,7 @@ const rawBasicsArticles: ContentArticle[] = [
     slug: "warming-vs-cooling-foods",
     title: "Warming vs Cooling Foods",
     description:
-      "A beginner-friendly guide to one of the easiest TCM food ideas to connect with everyday meals.",
+      "A beginner-friendly guide to one of the easiest traditional food ideas to connect with everyday meals.",
     eyebrow: "Basics",
     intro:
       "Warming and cooling are traditional qualities in Chinese food and herb writing. They do not simply mean the temperature of the dish itself. Instead, they describe how an ingredient is traditionally categorized.",
@@ -118,7 +118,7 @@ const rawBasicsArticles: ContentArticle[] = [
       {
         title: "Why this idea is useful for beginners",
         paragraphs: [
-          "Warming and cooling are easier for many readers to grasp than more abstract TCM terms because they connect directly to meals, drinks, and seasonal habits.",
+          "Warming and cooling are easier for many readers to grasp than more abstract traditional terms because they connect directly to meals, drinks, and seasonal habits.",
           "Once readers understand this idea, many herb pages become easier to interpret.",
         ],
         bullets: [
@@ -140,16 +140,16 @@ const rawBasicsArticles: ContentArticle[] = [
     slug: "what-is-dampness",
     title: "What Is Dampness?",
     description:
-      "An accessible explanation of a classic TCM pattern term that many beginners see but rarely understand.",
+      "An accessible explanation of a classic traditional pattern term that many beginners see but rarely understand.",
     eyebrow: "Basics",
     intro:
-      "Dampness is a traditional TCM term that often sounds strange in English. It does not literally mean the body is wet. Instead, it points to a pattern language built around heaviness, sluggishness, cloudiness, and things not moving or transforming smoothly.",
+      "Dampness is a traditional term that often sounds strange in English. It does not literally mean the body is wet. Instead, it points to a pattern language built around heaviness, sluggishness, cloudiness, and things not moving or transforming smoothly.",
     sections: [
       {
         title: "Why the term sounds confusing at first",
         paragraphs: [
           "A direct translation can feel awkward because the English word damp usually refers to weather, walls, or fabric.",
-          "In TCM writing, the word is broader and more symbolic. It belongs to a traditional model, not a modern diagnostic checklist.",
+          "In traditional writing, the word is broader and more symbolic. It belongs to a traditional model, not a modern diagnostic checklist.",
         ],
       },
       {
@@ -168,7 +168,7 @@ const rawBasicsArticles: ContentArticle[] = [
         title: "How to read the term responsibly",
         paragraphs: [
           "The safest way to read dampness language is as a traditional descriptive system.",
-          "It is useful for understanding Chinese herb pages, but it should not be turned into self-labeling.",
+          "It is useful for understanding herb pages, but it should not be turned into self-labeling.",
         ],
       },
     ],
@@ -177,7 +177,7 @@ const rawBasicsArticles: ContentArticle[] = [
     slug: "what-is-yin-and-yang",
     title: "What Is Yin and Yang?",
     description:
-      "A simple explanation of yin and yang for readers who want to understand Chinese herb and food language without mystifying it.",
+      "A simple explanation of yin and yang for readers who want to understand traditional herb and food language without mystifying it.",
     eyebrow: "Basics",
     intro:
       "Yin and yang are among the most recognizable terms in Chinese thought, but they are often flattened into vague internet slogans. Here, they are explained as a traditional way of describing relationship, balance, contrast, and change.",
@@ -186,13 +186,13 @@ const rawBasicsArticles: ContentArticle[] = [
         title: "A language of relationship, not two magic substances",
         paragraphs: [
           "Yin and yang describe how things relate to one another. They help organize ideas like rest and activity, interior and exterior, coolness and warmth, substance and function.",
-          "That is why the terms show up across herb writing, food therapy, lifestyle advice, and the Chinese classics. They are part of a framework, not isolated buzzwords.",
+          "That is why the terms show up across herb writing, kitchen traditions, lifestyle advice, and the classics. They are part of a framework, not isolated buzzwords.",
         ],
       },
       {
         title: "Why beginners see these terms everywhere",
         paragraphs: [
-          "Many TCM explanations assume readers already know what yin and yang mean, but most English-language readers only know them in a decorative or philosophical sense.",
+          "Many traditional explanations assume readers already know what yin and yang mean, but most English-language readers only know them in a decorative or philosophical sense.",
           "A plain-English explanation helps readers understand why herbs may be described as nourishing yin, supporting yang, or balancing hot and cold patterns.",
         ],
         bullets: [
@@ -212,28 +212,28 @@ const rawBasicsArticles: ContentArticle[] = [
   },
   {
     slug: "what-does-blood-mean-in-tcm",
-    title: "What Does Blood Mean in TCM?",
+    title: "What Does Blood Mean in Traditional Herb Writing?",
     description:
-      "A careful beginner guide to the TCM idea of blood and why it is broader than the everyday English word suggests.",
+      "A careful beginner guide to the traditional idea of blood and why it is broader than the everyday English word suggests.",
     eyebrow: "Basics",
     intro:
-      "When Chinese medicine writing talks about blood, it is not always speaking only about literal blood in a lab-based modern sense. In TCM, blood is a broader traditional concept tied to nourishment, grounding, and the body's ability to support tissues and rhythm.",
+      "When traditional herb writing talks about blood, it is not always speaking only about literal blood in a lab-based modern sense. In this framework, blood is a broader traditional concept tied to nourishment, grounding, and the body's ability to support tissues and rhythm.",
     sections: [
       {
         title: "Why the word causes confusion",
         paragraphs: [
-          "English-speaking readers naturally assume blood means exactly what modern medicine means by blood. In TCM, the term overlaps with that idea but also reaches further into a traditional model of nourishment and stability.",
+          "English-speaking readers naturally assume blood means exactly what modern anatomy means by blood. In traditional writing, the term overlaps with that idea but also reaches further into a traditional model of nourishment and stability.",
           "That is why direct one-to-one translation can be misleading if no explanation is provided.",
         ],
       },
       {
         title: "How blood shows up in herb pages",
         paragraphs: [
-          "Some herbs are traditionally described as nourishing blood, moving blood, or preserving blood. Those phrases are part of a historical vocabulary used in Chinese herb education.",
+          "Some herbs are traditionally described as nourishing blood, moving blood, or preserving blood. Those phrases are part of a historical vocabulary used in traditional herb education.",
           "Here, that language is translated carefully so readers understand it as traditional theory rather than a promise about one personal condition.",
         ],
         bullets: [
-          "Blood in TCM is a traditional concept.",
+          "Blood in this framework is a traditional concept.",
           "It often overlaps with ideas of nourishment, moisture, and regulation.",
           "It should not be treated as shorthand for self-labeling.",
         ],
@@ -241,7 +241,7 @@ const rawBasicsArticles: ContentArticle[] = [
       {
         title: "Why this matters for responsible reading",
         paragraphs: [
-          "Readers searching for cramping, dryness, tiredness, or cycle-related issues often find TCM blood language online very quickly.",
+          "Readers searching for cramping, dryness, tiredness, or cycle-related questions often find this blood language online very quickly.",
           "A responsible site should explain what the term means without nudging readers into overly specific interpretations. That is the standard HerbGuide follows.",
         ],
       },
@@ -251,10 +251,10 @@ const rawBasicsArticles: ContentArticle[] = [
     slug: "what-is-qi-stagnation",
     title: "What Is Qi Stagnation?",
     description:
-      "A beginner-friendly guide to one of the most common pattern phrases in Chinese medicine writing.",
+      "A beginner-friendly guide to one of the most common pattern phrases in traditional herb writing.",
     eyebrow: "Basics",
     intro:
-      "Qi stagnation is a traditional TCM phrase used when movement, flow, or ease is described as constrained. It is a pattern term inside Chinese herb writing, not a modern personal label, but readers see it often enough that it deserves a clear plain-English explanation.",
+      "Qi stagnation is a traditional phrase used when movement, flow, or ease is described as constrained. It is a pattern term inside traditional herb writing, not a modern personal label, but readers see it often enough that it deserves a clear plain-English explanation.",
     sections: [
       {
         title: "A traditional idea about flow and constraint",
@@ -270,7 +270,7 @@ const rawBasicsArticles: ContentArticle[] = [
           "Without explanation, the phrase can sound either mysterious or overly dramatic. A better approach is to translate the traditional idea into readable English while keeping the limits clear.",
         ],
         bullets: [
-          "Qi stagnation is part of TCM pattern language.",
+          "Qi stagnation is part of traditional pattern language.",
           "It is usually about functional flow in a traditional sense.",
           "It should not be turned into a label someone assigns to themself from one article.",
         ],
@@ -288,10 +288,10 @@ const rawBasicsArticles: ContentArticle[] = [
     slug: "fresh-ginger-vs-dried-ginger",
     title: "Fresh Ginger vs Dried Ginger",
     description:
-      "A clear beginner guide to why TCM and Chinese herb pages treat fresh and dried ginger as related but not interchangeable.",
+      "A clear beginner guide to why traditional herb pages describe fresh and dried ginger as related but not interchangeable.",
     eyebrow: "Basics",
     intro:
-      "Many readers assume ginger is just ginger. Traditional Chinese herb writing makes a more careful distinction. Fresh ginger and dried ginger come from the same plant, but they are described differently because preparation changes how the ingredient is understood in TCM and kitchen use.",
+      "Many readers assume ginger is just ginger. Traditional herb writing makes a more careful distinction. Fresh ginger and dried ginger come from the same plant, but they are described differently because preparation changes how the ingredient is understood in traditional language and kitchen use.",
     sections: [
       {
         title: "Same plant, different preparation, different role",
@@ -303,7 +303,7 @@ const rawBasicsArticles: ContentArticle[] = [
       {
         title: "Why the distinction matters on herb pages",
         paragraphs: [
-          "This comparison helps readers see one of the most important ideas in Chinese herb education: preparation matters. A fresh ingredient and a dried ingredient can share a name while still being framed quite differently.",
+          "This comparison helps readers see one of the most important ideas in traditional herb education: preparation matters. A fresh ingredient and a dried ingredient can share a name while still being framed quite differently.",
           "That is one reason HerbGuide keeps herb pages separate instead of collapsing them into one generic ginger entry.",
         ],
         bullets: [
@@ -315,7 +315,7 @@ const rawBasicsArticles: ContentArticle[] = [
       {
         title: "How beginners should use this comparison",
         paragraphs: [
-          "The most useful takeaway is not that one form is better. The useful takeaway is that TCM categories care about form, preparation, and context.",
+          "The most useful takeaway is not that one form is better. The useful takeaway is that traditional categories care about form, preparation, and context.",
           "Once readers understand this, other comparisons across the herb library become easier too.",
         ],
       },
@@ -325,16 +325,16 @@ const rawBasicsArticles: ContentArticle[] = [
     slug: "ginseng-vs-american-ginseng",
     title: "Ginseng vs American Ginseng",
     description:
-      "A plain-English comparison that explains why TCM does not treat all ginseng as the same herb.",
+      "A plain-English comparison that explains why traditional herb writing does not frame all ginseng as the same herb.",
     eyebrow: "Basics",
     intro:
-      "English-language readers often use the word ginseng as if it refers to one simple category. Chinese herb writing is more precise. Ginseng and American ginseng are related, but they are traditionally described with different qualities and different educational use cases.",
+      "English-language readers often use the word ginseng as if it refers to one simple category. Traditional herb writing is more precise. Ginseng and American ginseng are related, but they are traditionally described with different qualities and different educational use cases.",
     sections: [
       {
         title: "Why this comparison is so useful",
         paragraphs: [
           "This is one of the strongest beginner comparisons because the name overlap is strong while the traditional descriptions are not identical.",
-          "It teaches readers that famous names can still hide important distinctions in TCM herb education.",
+          "It teaches readers that famous names can still hide important distinctions in traditional herb education.",
         ],
       },
       {
@@ -352,7 +352,7 @@ const rawBasicsArticles: ContentArticle[] = [
       {
         title: "The deeper lesson behind the comparison",
         paragraphs: [
-          "This is not only a ginseng lesson. It is a reading lesson. TCM herb pages are easier to trust when they explain how names, forms, and qualities differ instead of flattening everything into broad marketing terms.",
+          "This is not only a ginseng lesson. It is a reading lesson. Traditional herb pages are easier to trust when they explain how names, forms, and qualities differ instead of flattening everything into broad marketing terms.",
           "That is why comparison pages are so useful for reader education.",
         ],
       },
@@ -389,7 +389,7 @@ const rawBasicsArticles: ContentArticle[] = [
       {
         title: "Why this comparison fits the library well",
         paragraphs: [
-          "This is exactly the kind of page that supports both clarity and usability. It answers a real beginner question while strengthening links between pantry-friendly herb profiles and food therapy content.",
+          "This is exactly the kind of page that supports both clarity and usability. It answers a real beginner question while strengthening links between pantry-friendly herb profiles and kitchen content.",
           "It also stays safely educational rather than drifting into overpromised wellness language.",
         ],
       },
@@ -399,16 +399,16 @@ const rawBasicsArticles: ContentArticle[] = [
     slug: "what-does-clear-heat-mean",
     title: "What Does Clear Heat Mean?",
     description:
-      "A plain-English explanation of one of the most common TCM phrases readers see on herb and tea pages.",
-    eyebrow: "TCM Basics",
+      "A plain-English explanation of one of the most common traditional phrases readers see on herb and tea pages.",
+    eyebrow: "Basics",
     intro:
-      "Clear heat is one of those classic TCM phrases that shows up constantly in Chinese herb writing but sounds vague in English. It belongs to a traditional descriptive system, not a modern diagnosis framework, and readers need a careful translation to use it well.",
+      "Clear heat is one of those classic phrases that shows up constantly in traditional herb writing but sounds vague in English. It belongs to a traditional descriptive system, not a modern labeling framework, and readers need a careful translation to use it well.",
     sections: [
       {
         title: "Why the phrase sounds stronger than it is",
         paragraphs: [
-          "In English, clear heat can sound like a direct therapeutic promise. In TCM, it is part of a traditional pattern vocabulary used to describe how certain herbs and foods are categorized.",
-          "That means the phrase should be read as context for traditional classification, not as a one-line explanation of a personal health situation.",
+          "In English, clear heat can sound like a direct promise. In traditional writing, it is part of a pattern vocabulary used to describe how certain herbs and foods are categorized.",
+          "That means the phrase should be read as context for traditional classification, not as a one-line explanation of a personal situation.",
         ],
       },
       {
@@ -418,7 +418,7 @@ const rawBasicsArticles: ContentArticle[] = [
           "Without explanation, the phrase can create either confusion or overconfidence. A better site translates it into plain English and keeps the boundaries visible.",
         ],
         bullets: [
-          "It is part of TCM heat-language, not a modern lab term.",
+          "It is part of traditional heat-language, not a modern lab term.",
           "It often appears on cooling herb and tea pages.",
           "It should not be turned into self-labeling.",
         ],
@@ -434,18 +434,18 @@ const rawBasicsArticles: ContentArticle[] = [
   },
   {
     slug: "what-does-tonify-mean-in-tcm",
-    title: "What Does Tonify Mean in TCM?",
+    title: "What Does Tonify Mean in Traditional Herb Writing?",
     description:
-      "A beginner guide to the word tonify and why it appears so often on pages about famous Chinese herbs.",
+      "A beginner guide to the word tonify and why it appears so often on pages about famous herbs.",
     eyebrow: "Basics",
     intro:
-      "Tonify is one of the most common English translations in Chinese herb content, especially on pages about qi herbs, blood-related herbs, and food therapy routines. Readers often recognize the word but still do not know what it means in practice.",
+      "Tonify is one of the most common English translations in traditional herb content, especially on pages about qi herbs, blood-related herbs, and kitchen-tradition routines. Readers often recognize the word but still do not know what it means in practice.",
     sections: [
       {
         title: "A translation with a lot of baggage",
         paragraphs: [
           "Tonify is not a word most people use in everyday conversation, which makes it easy to skim past without understanding it.",
-          "In TCM writing, it usually points to traditional ideas of support, replenishment, or strengthening within a specific category like qi, blood, yin, or yang.",
+          "In traditional writing, it usually points to traditional ideas of support, replenishment, or strengthening within a specific category like qi, blood, yin, or yang.",
         ],
       },
       {
@@ -473,10 +473,10 @@ const rawBasicsArticles: ContentArticle[] = [
     slug: "what-does-moisten-dryness-mean",
     title: "What Does Moisten Dryness Mean?",
     description:
-      "A simple guide to one of the most common TCM phrases used on food therapy and gentle herb pages.",
+      "A simple guide to one of the most common traditional phrases used on kitchen-tradition and gentle herb pages.",
     eyebrow: "Basics",
     intro:
-      "Moisten dryness is a classic TCM phrase that appears often on pages about pear, lily bulb, mulberry, and ophiopogon. It belongs to a traditional language system that connects climate, food texture, and seasonal reading in ways many English-speaking readers have not seen before.",
+      "Moisten dryness is a classic phrase that appears often on pages about pear, lily bulb, mulberry, and ophiopogon. It belongs to a traditional language system that connects climate, food texture, and seasonal reading in ways many English-speaking readers have not seen before.",
     sections: [
       {
         title: "Why the phrase appears so often",
@@ -489,7 +489,7 @@ const rawBasicsArticles: ContentArticle[] = [
         title: "How to read it responsibly",
         paragraphs: [
           "Here, moisten dryness is explained as part of traditional classification and seasonal food language.",
-          "It is not presented as a direct promise about one symptom or one person. That distinction matters for safe and credible content.",
+          "It is not presented as a direct promise about one situation or one person. That distinction matters for safe and credible content.",
         ],
         bullets: [
           "The phrase often appears on gentle food pages.",
@@ -501,31 +501,31 @@ const rawBasicsArticles: ContentArticle[] = [
         title: "Where to see the idea in practice",
         paragraphs: [
           "Pear and lily bulb content is one of the clearest ways to understand how this phrase works. So are pages on lily bulb, mulberry, and other softer seasonal ingredients.",
-          "That is why HerbGuide links these explanation pages closely with food therapy content instead of keeping them isolated.",
+          "That is why HerbGuide links these explanation pages closely with kitchen-tradition content instead of keeping them isolated.",
         ],
       },
     ],
   },
   {
     slug: "what-does-spleen-mean-in-tcm",
-    title: "What Does Spleen Mean in TCM?",
+    title: "What Does Spleen Mean in Traditional Herb Writing?",
     description:
-      "A beginner-friendly explanation of why the TCM spleen is not exactly the same thing as the organ name many readers know from modern anatomy.",
+      "A beginner-friendly explanation of why the traditional spleen is not exactly the same thing as the organ name many readers know from modern anatomy.",
     eyebrow: "Basics",
     intro:
-      "The TCM spleen is one of the most misunderstood terms in Chinese medicine writing because readers naturally assume it means only the modern anatomical organ. In traditional herb and food language, the spleen usually points to a broader functional system connected with transformation, nourishment, and daily digestive rhythm.",
+      "The traditional spleen is one of the most misunderstood terms in traditional herb writing because readers naturally assume it means only the modern anatomical organ. In traditional herb and food language, the spleen usually points to a broader functional system connected with transformation, nourishment, and daily digestive rhythm.",
     sections: [
       {
         title: "Why the term causes confusion",
         paragraphs: [
-          "When readers see spleen on a herb page, they often think they are looking at a direct organ-targeting claim. In TCM, organ names often describe functional networks rather than one anatomical structure alone.",
-          "That difference matters because many food therapy pages, tonic herb pages, and dampness pages rely on spleen-language heavily.",
+          "When readers see spleen on a herb page, they often think they are looking at a direct organ-targeting claim. In traditional writing, organ names often describe functional networks rather than one anatomical structure alone.",
+          "That difference matters because many kitchen-tradition pages, tonic herb pages, and dampness pages rely on spleen-language heavily.",
         ],
       },
       {
-        title: "How the TCM spleen is usually described",
+        title: "How the traditional spleen is usually described",
         paragraphs: [
-          "Here, the TCM spleen is usually explained through food transformation, appetite, heaviness, fluid handling, and general nourishment language.",
+          "Here, the traditional spleen is usually explained through food transformation, appetite, heaviness, fluid handling, and general nourishment language.",
           "That makes it easier for readers to understand why astragalus, codonopsis, jujube, Chinese yam, and Job's Tears appear so often near spleen references.",
         ],
         bullets: [
@@ -537,7 +537,7 @@ const rawBasicsArticles: ContentArticle[] = [
       {
         title: "Why this page matters for beginners",
         paragraphs: [
-          "Once readers understand what spleen means in TCM, a large part of the herb library becomes much easier to read.",
+          "Once readers understand what spleen means in this framework, a large part of the herb library becomes much easier to read.",
           "It is one of the most useful glossary pages because it removes confusion from many other articles at once.",
         ],
       },
@@ -545,28 +545,28 @@ const rawBasicsArticles: ContentArticle[] = [
   },
   {
     slug: "what-does-liver-mean-in-tcm",
-    title: "What Does Liver Mean in TCM?",
+    title: "What Does Liver Mean in Traditional Herb Writing?",
     description:
-      "A plain-English guide to one of the most common and most misunderstood organ-system words in Chinese herb writing.",
-    eyebrow: "TCM Basics",
+      "A plain-English guide to one of the most common and most misunderstood organ-system words in traditional herb writing.",
+    eyebrow: "Basics",
     intro:
-      "The TCM liver is not just a one-to-one match for the modern anatomical liver. In traditional Chinese medicine writing, liver often appears in discussions of flow, tension, blood storage, emotion, and the smooth movement of qi. That is why the word shows up on many herb pages that seem unrelated at first glance.",
+      "The traditional liver is not just a one-to-one match for the modern anatomical liver. In traditional herb writing, liver often appears in discussions of flow, tension, blood storage, emotion, and the smooth movement of qi. That is why the word shows up on many herb pages that seem unrelated at first glance.",
     sections: [
       {
         title: "Why the term appears so often",
         paragraphs: [
           "Readers meet liver-language on pages about goji berry, chrysanthemum, white peony root, mint, and many comparison or pattern pages.",
-          "Without explanation, this can make TCM writing feel either mystical or overly clinical. A clear translation keeps the language grounded.",
+          "Without explanation, this can make traditional writing feel either mystical or overly technical. A clear translation keeps the language grounded.",
         ],
       },
       {
         title: "How this guide explains liver-language",
         paragraphs: [
-          "Here, the TCM liver is usually introduced through ideas of movement, stored blood, balance, and smoothness rather than through direct problem-solving claims.",
+          "Here, the traditional liver is usually introduced through ideas of movement, stored blood, balance, and smoothness rather than through direct problem-solving claims.",
           "That style helps readers understand why qi stagnation, blood-related pages, and cooling tea pages may all touch the same term in different ways.",
         ],
         bullets: [
-          "The TCM liver is a traditional functional system.",
+          "The traditional liver is a traditional functional system.",
           "It often overlaps with qi movement and blood-language.",
           "It should not be collapsed into one modern organ meaning.",
         ],
@@ -575,7 +575,7 @@ const rawBasicsArticles: ContentArticle[] = [
         title: "Where to see the concept in action",
         paragraphs: [
           "Comparison pages, cooling herb pages, and some nourishing herb pages are the easiest places to see this term used well.",
-          "Once readers know what the TCM liver means, they can interpret a wider range of herb descriptions with much more confidence.",
+          "Once readers know what the traditional liver means, they can interpret a wider range of herb descriptions with much more confidence.",
         ],
       },
     ],
@@ -584,10 +584,10 @@ const rawBasicsArticles: ContentArticle[] = [
     slug: "what-does-yin-deficiency-mean",
     title: "What Does Yin Deficiency Mean?",
     description:
-      "A cautious beginner guide to one of the most searched pattern phrases in Chinese medicine content.",
+      "A cautious beginner guide to one of the most searched pattern phrases in traditional herb content.",
     eyebrow: "Basics",
     intro:
-      "Yin deficiency is one of the most common phrases readers search after seeing Chinese herb content online. It belongs to a traditional pattern vocabulary that often overlaps with dryness, heat, and depletion language, but it should not be turned into a self-labeling shortcut.",
+      "Yin deficiency is one of the most common phrases readers search after seeing traditional herb content online. It belongs to a traditional pattern vocabulary that often overlaps with dryness, heat, and depletion language, but it should not be turned into a self-labeling shortcut.",
     sections: [
       {
         title: "Why readers look for this term",
@@ -619,12 +619,12 @@ const rawBasicsArticles: ContentArticle[] = [
   },
   {
     slug: "what-does-shen-mean-in-tcm",
-    title: "What Does Shen Mean in TCM?",
+    title: "What Does Shen Mean in Traditional Herb Writing?",
     description:
-      "A plain-English guide to the TCM idea of shen and why the term is broader than mind alone.",
+      "A plain-English guide to the traditional idea of shen and why the term is broader than mind alone.",
     eyebrow: "Basics",
     intro:
-      "Shen is one of the most misunderstood words in Chinese medicine writing. It is often translated as spirit, but on a careful beginner site it usually needs a fuller explanation: shen can point to presence, clarity, emotional steadiness, expression, and the visible quality of someone's overall state inside a traditional framework.",
+      "Shen is one of the most misunderstood words in traditional herb writing. It is often translated as spirit, but on a careful beginner site it usually needs a fuller explanation: shen can point to presence, clarity, emotional steadiness, expression, and the visible quality of someone's overall state inside a traditional framework.",
     sections: [
       {
         title: "Why the word is hard to translate",
@@ -642,7 +642,7 @@ const rawBasicsArticles: ContentArticle[] = [
         bullets: [
           "Shen is a traditional concept, not a modern personal label.",
           "It often appears in calm, grounding, or evening-style content.",
-          "It should not be turned into a promise about mental health outcomes.",
+          "It should not be turned into a promise about emotional outcomes.",
         ],
       },
       {
@@ -656,12 +656,12 @@ const rawBasicsArticles: ContentArticle[] = [
   },
   {
     slug: "what-does-jing-mean-in-tcm",
-    title: "What Does Jing Mean in TCM?",
+    title: "What Does Jing Mean in Traditional Herb Writing?",
     description:
-      "A careful beginner guide to the traditional TCM idea of jing, often translated as essence.",
+      "A careful beginner guide to the traditional idea of jing, often translated as essence.",
     eyebrow: "Basics",
     intro:
-      "Jing is commonly translated as essence in Chinese medicine writing, but that translation can feel abstract or overly dramatic without context. Here, jing is explained as a traditional idea tied to deep reserves, development, reproduction, and long-term constitutional strength inside TCM theory.",
+      "Jing is commonly translated as essence in traditional herb writing, but that translation can feel abstract or overly dramatic without context. Here, jing is explained as a traditional idea tied to deep reserves, development, reproduction, and long-term constitutional strength inside traditional theory.",
     sections: [
       {
         title: "Why the term gets overhyped online",
@@ -695,22 +695,22 @@ const rawBasicsArticles: ContentArticle[] = [
     slug: "what-does-channel-entry-mean",
     title: "What Does Channel Entry Mean?",
     description:
-      "A plain-English explanation of channel entry and why it appears on so many Chinese herb pages.",
+      "A plain-English explanation of channel entry and why it appears on so many herb pages.",
     eyebrow: "Basics",
     intro:
-      "Channel entry is one of the most common lines on Chinese herb pages and one of the least explained. In TCM writing, it describes the traditional functional systems and pathways an herb is said to relate to. It does not mean the herb only affects one literal organ in the modern anatomical sense.",
+      "Channel entry is one of the most common lines on herb pages and one of the least explained. In traditional writing, it describes the traditional functional systems and pathways an herb is said to relate to. It does not mean the herb only affects one literal organ in the modern anatomical sense.",
     sections: [
       {
         title: "Why this line confuses beginners",
         paragraphs: [
           "Readers often see channel entry next to nature and flavor, but no one explains what it is doing there. That can make the whole herb page feel more technical than it needs to be.",
-          "A clearer explanation is that channel entry helps organize how a herb is traditionally grouped inside TCM theory. It belongs to a traditional map, not a lab-based body map.",
+          "A clearer explanation is that channel entry helps organize how a herb is traditionally grouped inside traditional theory. It belongs to a traditional map, not a lab-based body map.",
         ],
       },
       {
         title: "What organ names mean in this context",
         paragraphs: [
-          "When a herb is said to enter the Lung, Spleen, Liver, or Kidney channel, the names point to broader TCM functional systems rather than one-to-one anatomical structures.",
+          "When a herb is said to enter the Lung, Spleen, Liver, or Kidney channel, the names point to broader traditional functional systems rather than one-to-one anatomical structures.",
           "That is why one herb can be discussed in relation to digestion, mood, seasonal dryness, or fluid balance while still listing only a few channels on the page.",
         ],
         bullets: [
@@ -722,7 +722,7 @@ const rawBasicsArticles: ContentArticle[] = [
       {
         title: "How HerbGuide uses channel entry",
         paragraphs: [
-          "HerbGuide keeps channel entry visible because it is part of real TCM herb reading, but we always pair it with plain-English explanation.",
+          "HerbGuide keeps channel entry visible because it is part of real traditional herb reading, but we always pair it with plain-English explanation.",
           "That helps readers understand why fresh ginger, chrysanthemum, goji berry, and poria are described differently even when all four can appear in food-friendly content.",
         ],
       },
@@ -730,12 +730,12 @@ const rawBasicsArticles: ContentArticle[] = [
   },
   {
     slug: "what-is-food-stagnation-in-tcm",
-    title: "What Is Food Stagnation in TCM?",
+    title: "What Is Food Stagnation?",
     description:
-      "A plain-English guide to the TCM term food stagnation and why it appears on digestive tea and pantry pages.",
-    eyebrow: "TCM Basics",
+      "A plain-English guide to the traditional term food stagnation and why it appears on digestive tea and pantry pages.",
+    eyebrow: "Basics",
     intro:
-      "Food stagnation is a traditional TCM phrase that usually appears in digestive writing around fullness, heaviness, rich meals, and the feeling that food is not moving or transforming smoothly in the traditional model. It is not a modern personal label, but it is a very common educational term on pantry-style herb pages.",
+      "Food stagnation is a traditional phrase that usually appears in digestive writing around fullness, heaviness, rich meals, and the feeling that food is not moving or transforming smoothly in the traditional model. It is not a modern personal label, but it is a very common educational term on pantry-style herb pages.",
     sections: [
       {
         title: "Why this term matters for beginners",
@@ -767,17 +767,17 @@ const rawBasicsArticles: ContentArticle[] = [
   },
   {
     slug: "what-does-nourish-blood-mean-in-tcm",
-    title: "What Does Nourish Blood Mean in TCM?",
+    title: "What Does Nourish Blood Mean?",
     description:
-      "A plain-English explanation of the common TCM phrase nourish blood and how HerbGuide uses it carefully.",
+      "A plain-English explanation of the common traditional phrase nourish blood and how HerbGuide uses it carefully.",
     eyebrow: "Basics",
     intro:
-      "Nourish blood is one of the most common phrases on Chinese herb pages, but it can sound confusing or overly clinical in English if no one explains it. On a careful educational site, the phrase points to a traditional idea of support, replenishment, and steadiness inside TCM theory rather than a direct modern claim.",
+      "Nourish blood is one of the most common phrases on herb pages, but it can sound confusing or overly technical in English if no one explains it. On a careful educational site, the phrase points to a traditional idea of support, replenishment, and steadiness inside traditional theory rather than a direct modern claim.",
     sections: [
       {
         title: "Why this phrase needs translation",
         paragraphs: [
-          "Readers naturally hear blood and assume the page is making a direct claim about lab values or personal labels. In TCM writing, blood is a broader traditional concept tied to nourishment, grounding, moisture, and rhythm.",
+          "Readers naturally hear blood and assume the page is making a direct claim about lab values or personal labels. In traditional writing, blood is a broader traditional concept tied to nourishment, grounding, moisture, and rhythm.",
           "That is why a phrase like nourish blood needs plain-English explanation instead of being repeated as if it were self-explanatory.",
         ],
       },
@@ -788,7 +788,7 @@ const rawBasicsArticles: ContentArticle[] = [
           "On kitchen pages, the meaning is usually softer and more contextual: repeated gentle foods, soups, porridges, and dessert-soup traditions rather than dramatic promises.",
         ],
         bullets: [
-          "Nourish blood is traditional TCM language.",
+          "Nourish blood is traditional herb language.",
           "It often overlaps with steadiness, softness, and replenishing context.",
           "It should not be treated as a personal label or directed-use instruction.",
         ],
@@ -804,18 +804,18 @@ const rawBasicsArticles: ContentArticle[] = [
   },
   {
     slug: "what-is-damp-heat-in-tcm",
-    title: "What Is Damp Heat in TCM?",
+    title: "What Is Damp Heat?",
     description:
-      "A careful beginner guide to the TCM phrase damp heat and why it appears in digestive and seasonal content.",
+      "A careful beginner guide to the traditional phrase damp heat and why it appears in digestive and seasonal content.",
     eyebrow: "Basics",
     intro:
-      "Damp heat is a very common pattern phrase in Chinese herb content, especially on digestive, seasonal, or skin-adjacent pages. It belongs to a traditional descriptive system, not a modern personal label, but readers see it often enough that it deserves a clear, low-hype explanation.",
+      "Damp heat is a very common pattern phrase in traditional herb content, especially on digestive, seasonal, or skin-adjacent pages. It belongs to a traditional descriptive system, not a modern personal label, but readers see it often enough that it deserves a clear, low-hype explanation.",
     sections: [
       {
         title: "Why this term feels confusing at first",
         paragraphs: [
           "The two words sound concrete in English, but together they refer to a traditional pattern idea rather than literal weather inside the body.",
-          "A useful beginner approach is to understand damp heat as a TCM way of describing heaviness, stickiness, and heat-like qualities appearing together in the traditional model.",
+          "A useful beginner approach is to understand damp heat as a traditional way of describing heaviness, stickiness, and heat-like qualities appearing together in the traditional model.",
         ],
       },
       {
@@ -852,7 +852,7 @@ const rawBasicsArticles: ContentArticle[] = [
         title: "Why readers compare these two ingredients",
         paragraphs: [
           "Both ingredients are approachable, food-adjacent, and easier to picture than many dense formula herbs.",
-          "They also appear near the same kinds of questions: what to read after a heavy meal, what digestive pantry herbs mean in TCM, and how to understand aromatic versus tart digestive language.",
+          "They also appear near the same kinds of questions: what to read after a heavy meal, what digestive pantry herbs mean in traditional writing, and how to understand aromatic versus tart digestive language.",
         ],
       },
       {
@@ -870,7 +870,7 @@ const rawBasicsArticles: ContentArticle[] = [
       {
         title: "How beginners should use this comparison",
         paragraphs: [
-          "The point is not that one ingredient is better. The point is that TCM kitchen language separates ingredients by story, flavor, context, and traditional role.",
+          "The point is not that one ingredient is better. The point is that traditional kitchen language separates ingredients by story, flavor, context, and traditional role.",
           "Once readers understand this, digestive topic pages and tea pages become much easier to follow.",
         ],
       },
@@ -883,13 +883,13 @@ const rawBasicsArticles: ContentArticle[] = [
       "A practical plain-English comparison of poria and Job's Tears for readers learning dampness-related Chinese pantry language.",
     eyebrow: "Basics",
     intro:
-      "Poria and Job's Tears often appear near the same TCM term: dampness. That overlap can make them look interchangeable, but they are easier to understand when separated clearly. One reads more like a classic herb-context ingredient, while the other feels more like a grain-style pantry food that beginners can picture more easily.",
+      "Poria and Job's Tears often appear near the same traditional term: dampness. That overlap can make them look interchangeable, but they are easier to understand when separated clearly. One reads more like a classic herb-context ingredient, while the other feels more like a grain-style pantry food that beginners can picture more easily.",
     sections: [
       {
         title: "Why this comparison matters",
         paragraphs: [
           "Many readers can imagine Job's Tears in porridge or soup, but poria feels more unfamiliar and more technical.",
-          "Putting them side by side helps show how HerbGuide moves from plain kitchen examples into deeper TCM vocabulary without losing clarity.",
+          "Putting them side by side helps show how HerbGuide moves from plain kitchen examples into deeper traditional vocabulary without losing clarity.",
         ],
       },
       {
@@ -907,7 +907,7 @@ const rawBasicsArticles: ContentArticle[] = [
       {
         title: "What readers should learn from the contrast",
         paragraphs: [
-          "This comparison teaches one of the most useful HerbGuide lessons: Chinese herb learning is often easier when one concept page, one comparison page, and one kitchen page are read together.",
+          "This comparison teaches one of the most useful HerbGuide lessons: traditional herb learning is often easier when one concept page, one comparison page, and one kitchen page are read together.",
           "For dampness, that often means reading the glossary term first, then comparing ingredients, then opening a porridge or soup page right away.",
         ],
       },
@@ -917,8 +917,8 @@ const rawBasicsArticles: ContentArticle[] = [
     slug: "chrysanthemum-vs-mint",
     title: "Chrysanthemum vs Mint",
     description:
-      "A plain-English comparison of chrysanthemum and mint for readers learning cooling tea language in TCM content.",
-    eyebrow: "TCM Basics",
+      "A plain-English comparison of chrysanthemum and mint for readers learning cooling tea language in traditional content.",
+    eyebrow: "Basics",
     intro:
       "Chrysanthemum and mint are two of the easiest cooling herbs for beginners to recognize. They often appear together in tea content, but they do not play the same role. One usually reads more floral and gentle, while the other feels more aromatic and brisk. A direct comparison makes cooling language much easier to understand.",
     sections: [
@@ -955,9 +955,9 @@ const rawBasicsArticles: ContentArticle[] = [
     title: "Goji Berry Tea vs Goji Berry Porridge",
     description:
       "A kitchen-first comparison of goji berry tea and goji berry porridge for readers deciding where to start with this popular pantry ingredient.",
-    eyebrow: "TCM Basics",
+    eyebrow: "Basics",
     intro:
-      "Goji berry is one of the most approachable ingredients on HerbGuide, but the same ingredient can feel very different depending on whether it is steeped in a cup or cooked into a bowl. Comparing tea and porridge use helps readers understand how Chinese kitchen traditions change the feel of an ingredient without changing its identity.",
+      "Goji berry is one of the most approachable ingredients on HerbGuide, but the same ingredient can feel very different depending on whether it is steeped in a cup or cooked into a bowl. Comparing tea and porridge use helps readers understand how traditional kitchen traditions change the feel of an ingredient without changing its identity.",
     sections: [
       {
         title: "Why this comparison matters",
@@ -989,18 +989,18 @@ const rawBasicsArticles: ContentArticle[] = [
   },
   {
     slug: "what-does-astringent-mean-in-tcm",
-    title: "What Does Astringent Mean in TCM?",
+    title: "What Does Astringent Mean?",
     description:
-      "A plain-English explanation of astringent as a traditional herb quality in Chinese medicine writing.",
-    eyebrow: "TCM Basics",
+      "A plain-English explanation of astringent as a traditional herb quality in traditional herb writing.",
+    eyebrow: "Basics",
     intro:
-      "Astringent is one of the most confusing words on many herb pages because English-speaking readers usually know it only as a taste or a skin-care term. In TCM writing, it is a traditional quality that often points to holding, containing, or preventing excessive leakage in the classical sense.",
+      "Astringent is one of the most confusing words on many herb pages because English-speaking readers usually know it only as a taste or a skin-care term. In traditional writing, it is a traditional quality that often points to holding, containing, or preventing excessive leakage in the classical sense.",
     sections: [
       {
         title: "Why the word feels strange at first",
         paragraphs: [
-          "Most beginners do not expect to see the word astringent on a Chinese herb page, much less on berries or seeds. That is why it needs explanation instead of repetition.",
-          "In TCM writing, astringent belongs to a traditional descriptive system, not a modern personal label.",
+          "Most beginners do not expect to see the word astringent on a herb page, much less on berries or seeds. That is why it needs explanation instead of repetition.",
+          "In traditional writing, astringent belongs to a traditional descriptive system, not a modern personal label.",
         ],
       },
       {
@@ -1026,12 +1026,12 @@ const rawBasicsArticles: ContentArticle[] = [
   },
   {
     slug: "what-does-harmonizing-mean-in-tcm",
-    title: "What Does Harmonizing Mean in TCM?",
+    title: "What Does Harmonizing Mean?",
     description:
-      "A plain-English explanation of harmonizing as a traditional role in Chinese herb and formula writing.",
-    eyebrow: "TCM Basics",
+      "A plain-English explanation of harmonizing as a traditional role in herb and formula writing.",
+    eyebrow: "Basics",
     intro:
-      "Harmonizing is one of those TCM words that sounds gentle in English but can feel vague on a herb page. In traditional Chinese medicine writing, it usually points to balance, coordination, or helping different ingredients work together more smoothly inside a formula or food-style framework.",
+      "Harmonizing is one of those traditional words that sounds gentle in English but can feel vague on a herb page. In traditional herb writing, it usually points to balance, coordination, or helping different ingredients work together more smoothly inside a formula or food-style framework.",
     sections: [
       {
         title: "Why the word can feel unclear",
@@ -1044,7 +1044,7 @@ const rawBasicsArticles: ContentArticle[] = [
         title: "How harmonizing shows up on herb pages",
         paragraphs: [
           "Readers often meet this language on pages about licorice root, formula support, or herbs that are described as helping ingredients fit together in a more balanced way.",
-          "That is why harmonizing often appears near digestive, tonic, or formula-context writing instead of only next to one narrow symptom phrase.",
+          "That is why harmonizing often appears near digestive, tonic, or formula-context writing instead of only next to one narrow situation phrase.",
         ],
         bullets: [
           "Harmonizing is part of traditional herb vocabulary.",
@@ -1066,7 +1066,7 @@ const rawBasicsArticles: ContentArticle[] = [
     title: "Mulberry Fruit vs Goji Berry",
     description:
       "A pantry-friendly comparison of two popular Chinese berries that often appear in tea, gentle nourishment pages, and seasonal food writing.",
-    eyebrow: "TCM Basics",
+    eyebrow: "Basics",
     intro:
       "Mulberry fruit and goji berry can look similar in broad pantry content, but they do not create the same feeling on the page. A side-by-side comparison helps readers understand why goji often anchors beginner pages while mulberry fruit tends to show up in softer dryness, moisture, or berry-tea themes.",
     sections: [
@@ -1107,16 +1107,16 @@ export const classicsArticles: ContentArticle[] = [
     slug: "huangdi-neijing",
     title: "Huangdi Neijing",
     description:
-      "Why the Yellow Emperor's Inner Canon still shapes the language of Chinese medicine and herb writing today.",
+      "Why the Yellow Emperor's Inner Canon still shapes the language of traditional herb writing today.",
     eyebrow: "Chinese Classics",
     intro:
-      "The Huangdi Neijing, often translated as the Yellow Emperor's Inner Canon, is one of the foundational classical works behind Chinese medicine. Modern readers usually feel its influence indirectly through ideas about seasons, balance, habits, and the relationship between food, climate, and daily life.",
+      "The Huangdi Neijing, often translated as the Yellow Emperor's Inner Canon, is one of the foundational classical works behind traditional herb theory. Modern readers usually feel its influence indirectly through ideas about seasons, balance, habits, and the relationship between food, climate, and daily life.",
     sections: [
       {
         title: "Why this book matters",
         paragraphs: [
           "It is not a modern beginner handbook. Instead, it lays out a worldview: how the body is understood, how climate and season matter, and how imbalance is described.",
-          "That worldview still shapes the language used in TCM basics, herb categories, and many Chinese food tradition articles.",
+          "That worldview still shapes the language used in basics pages, herb categories, and many Chinese food tradition articles.",
         ],
       },
       {
@@ -1140,7 +1140,7 @@ export const classicsArticles: ContentArticle[] = [
       {
         title: "More than a list of herbs",
         paragraphs: [
-          "For beginners, the value of Bencao Gangmu is not memorizing every entry. It is understanding that Chinese herb culture has deep reference roots.",
+          "For beginners, the value of Bencao Gangmu is not memorizing every entry. It is understanding that traditional herb culture has deep reference roots.",
           "That background gives modern herb pages more credibility when they explain names, classifications, and food uses carefully.",
         ],
       },
@@ -1172,7 +1172,7 @@ export const classicsArticles: ContentArticle[] = [
       {
         title: "Why readers should know the name",
         paragraphs: [
-          "Even a lightweight educational site benefits from introducing this text because it explains why Chinese herb writing often cares so much about context.",
+          "Even a lightweight educational site benefits from introducing this text because it explains why traditional herb writing often cares so much about context.",
           "That background helps readers understand why HerbGuide keeps emphasizing wording, pattern language, and caution.",
         ],
       },
@@ -1210,7 +1210,7 @@ export const classicsArticles: ContentArticle[] = [
       "Why this classic matters for understanding formulas, household patterns, and later herb education.",
     eyebrow: "Chinese Classics",
     intro:
-      "Jin Gui Yao Lue, often translated as Essential Prescriptions from the Golden Cabinet, is a major classical work associated with pattern thinking and practical formula tradition. It helps modern readers see how structured traditional herb writing became over time.",
+      "Jin Gui Yao Lue, often translated as Essentials from the Golden Cabinet, is a major classical work associated with pattern thinking and practical formula tradition. It helps modern readers see how structured traditional herb writing became over time.",
     sections: [
       {
         title: "A bridge between theory and practical formulas",
@@ -1323,7 +1323,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       "A gentle introduction to seasonal soup traditions built around warming ingredients and practical kitchen steps.",
     eyebrow: "Kitchen Traditions",
     intro:
-      "Cold-weather soup content works well because it feels useful, familiar, and naturally seasonal. It also gives readers an easy place to understand how ingredients like ginger, jujube, and astragalus are traditionally discussed in Chinese kitchen writing.",
+      "Cold-weather soup content works well because it feels useful, familiar, and naturally seasonal. It also gives readers an easy place to understand how ingredients like ginger, jujube, and astragalus are traditionally discussed in kitchen writing.",
     recipe: {
       recipeYield: "2 to 3 bowls",
       prepTime: "PT10M",
@@ -1349,7 +1349,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         "This kind of page works best as a comfort-food idea, not a promise about outcomes.",
       ],
       caution: [
-        "Readers with complex health conditions or prescription use should not treat a soup article as personal guidance.",
+        "Readers with complex personal situations or regular product use should not read a soup article as personal guidance.",
         "Astragalus is a traditional soup ingredient, but that does not make it right for every person or pattern.",
       ],
     },
@@ -1425,7 +1425,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         ],
         bullets: [
           "A short simmer instead of a long decoction",
-          "A mild flavor that stays food-like rather than medicinal",
+          "A mild flavor that stays food-like rather than overly concentrated",
           "A familiar kitchen routine that is easy to repeat",
           "Traditional context explained in plain English",
           "A visible caution note for readers who need extra care",
@@ -1472,7 +1472,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         title: "Why this pairing works",
         paragraphs: [
           "Pear is already familiar to most readers, while lily bulb adds a distinctive traditional angle without feeling extreme or inaccessible.",
-          "Together they create a good teaching page for how Chinese food therapy talks about dryness, softness, and gentle kitchen routines.",
+          "Together they create a good teaching page for how traditional kitchen writing talks about dryness, softness, and gentle kitchen routines.",
         ],
         bullets: [
           "Pear makes the page approachable.",
@@ -1607,7 +1607,7 @@ export const foodTherapyArticles: ContentArticle[] = [
     slug: "goji-berry-porridge-for-gentle-mornings",
     title: "Goji Berry Porridge for Gentle Mornings",
     description:
-      "A simple breakfast-style food therapy page built around one of the easiest Chinese pantry ingredients for beginners.",
+      "A simple breakfast-style kitchen page built around one of the easiest pantry ingredients for beginners.",
     eyebrow: "Kitchen Traditions",
     intro:
       "Goji berry porridge is easy to picture, easy to prepare, and easy to connect with pantry-first, practical kitchen learning.",
@@ -1634,7 +1634,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         "This works best as a soft pantry recipe, not as a promise about outcomes.",
       ],
       caution: [
-        "Goji berry is food-friendly for many readers, but regular use still deserves context when prescriptions or special health situations are involved.",
+        "Goji berry is food-friendly for many readers, but regular use still deserves context when regular product use or special personal situations are involved.",
       ],
     },
     sections: [
@@ -1648,7 +1648,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       {
         title: "What the page teaches beyond the bowl itself",
         paragraphs: [
-          "A porridge page helps explain how Chinese food therapy often uses repeated soft routines rather than dramatic one-time solutions.",
+          "A porridge page helps explain how traditional kitchen writing often uses repeated soft routines rather than dramatic one-time solutions.",
           "It also creates useful bridges between goji, jujube, black sesame, and beginner pantry reading.",
         ],
       },
@@ -1699,7 +1699,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       {
         title: "What beginners learn from this pairing",
         paragraphs: [
-          "Readers see that Chinese kitchen content can be gentle, repetitive, and comforting without becoming vague or mystical.",
+          "Readers see that traditional kitchen content can be gentle, repetitive, and comforting without becoming vague or mystical.",
           "The page also creates natural links to longan, lotus seed, jujube, and evening-themed topic pages.",
         ],
       },
@@ -1786,7 +1786,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       ],
       caution: [
         "Rich-meal language here belongs to traditional food context, not personal labeling or directed-use advice.",
-        "Readers using prescriptions or managing ongoing health concerns should not treat a tea page as personal guidance.",
+        "Readers using regular products or managing ongoing concerns should not read a tea page as personal guidance.",
       ],
     },
     sections: [
@@ -1800,7 +1800,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       {
         title: "What the page teaches beyond the pot",
         paragraphs: [
-          "A page like this shows how Chinese food therapy often uses gentle, food-adjacent preparations to explain traditional ingredient roles.",
+          "A page like this shows how traditional kitchen writing often uses gentle, food-adjacent preparations to explain traditional ingredient roles.",
           "It also creates a natural bridge into digestive topic pages, chen pi reading, and dampness or qi movement vocabulary for readers who want more context.",
         ],
       },
@@ -1851,7 +1851,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       {
         title: "What readers learn from the pairing",
         paragraphs: [
-          "This bowl teaches that Chinese food therapy can be gentle, ordinary, and ingredient-focused rather than dramatic.",
+          "This bowl teaches that traditional kitchen writing can be gentle, ordinary, and ingredient-focused rather than dramatic.",
           "It also connects naturally with beauty-food, balanced-pantry, and beginner breakfast reading.",
         ],
       },
@@ -1861,10 +1861,10 @@ export const foodTherapyArticles: ContentArticle[] = [
     slug: "jobs-tears-porridge-for-heavy-days",
     title: "Job's Tears Porridge for Heavy Days",
     description:
-      "A gentle grain-style food therapy page that helps readers understand dampness language through a practical pantry recipe.",
+      "A gentle grain-style kitchen page that helps readers understand dampness language through a practical pantry recipe.",
     eyebrow: "Kitchen Traditions",
     intro:
-      "Job's tears is one of the most useful ingredients for turning TCM dampness language into something concrete. A simple porridge page helps readers picture the ingredient in a real bowl, which is much easier to trust than abstract digestive theory on its own.",
+      "Job's tears is one of the most useful ingredients for turning traditional dampness language into something concrete. A simple porridge page helps readers picture the ingredient in a real bowl, which is much easier to trust than abstract digestive theory on its own.",
     recipe: {
       recipeYield: "2 bowls",
       prepTime: "PT10M",
@@ -1895,8 +1895,8 @@ export const foodTherapyArticles: ContentArticle[] = [
       {
         title: "Why this page works so well for dampness reading",
         paragraphs: [
-          "Readers can immediately see how a grain-style ingredient fits into Chinese kitchen traditions.",
-          "That makes the TCM idea of heaviness or dampness feel much less abstract than a definition page on its own.",
+          "Readers can immediately see how a grain-style ingredient fits into traditional kitchen traditions.",
+          "That makes the traditional idea of heaviness or dampness feel much less abstract than a definition page on its own.",
         ],
       },
       {
@@ -2002,7 +2002,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       {
         title: "What readers learn from this tea",
         paragraphs: [
-          "This page teaches that Chinese food therapy often pairs contrast and balance rather than collapsing every ingredient into one broad wellness label.",
+          "This page teaches that traditional kitchen writing often pairs contrast and balance rather than collapsing every ingredient into one broad wellness label.",
           "It also creates a stronger route between goji, chrysanthemum, clear heat language, and pantry-friendly tea content.",
         ],
       },
@@ -2053,7 +2053,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       {
         title: "What the bowl teaches beyond the recipe",
         paragraphs: [
-          "A congee page like this helps readers understand that traditional Chinese kitchen learning is often repetitive, simple, and food-first.",
+          "A congee page like this helps readers understand that traditional kitchen learning is often repetitive, simple, and food-first.",
           "It also strengthens links between jujube, lotus seed, longan, and plain-English pages about shen or nourishment language.",
         ],
       },
@@ -2104,7 +2104,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       {
         title: "What the bowl teaches beyond the recipe",
         paragraphs: [
-          "A tremella and pear page helps readers understand how Chinese food therapy often explains softness and moisture through food texture rather than abstract theory alone.",
+          "A tremella and pear page helps readers understand how traditional kitchen writing often explains softness and moisture through food texture rather than abstract theory alone.",
           "It also helps connect tremella, pear, lily bulb, and plain-English dryness explanations.",
         ],
       },
@@ -2168,7 +2168,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       "A very simple beginner soup that makes Chinese yam feel practical, mild, and easy to trust.",
     eyebrow: "Kitchen Traditions",
     intro:
-      "Chinese yam is one of the best examples of a food-first TCM ingredient because readers can understand it through a mild soup before they ever need dense theory. Pairing it with carrot keeps the recipe familiar, soft, and easy to imagine in a real kitchen.",
+      "Chinese yam is one of the best examples of a food-first traditional ingredient because readers can understand it through a mild soup before they ever need dense theory. Pairing it with carrot keeps the recipe familiar, soft, and easy to imagine in a real kitchen.",
     recipe: {
       recipeYield: "2 bowls",
       prepTime: "PT10M",
@@ -2192,7 +2192,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         "A lighter broth helps Chinese yam stay approachable for beginners.",
       ],
       caution: [
-        "This is a food-first educational soup page, not a personal prescribed-use page for digestive or energy concerns.",
+        "This is a food-first educational soup page, not a personal directed-use page for digestive or energy concerns.",
       ],
     },
     sections: [
@@ -2206,7 +2206,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       {
         title: "What the soup teaches beyond the pot",
         paragraphs: [
-          "A page like this helps readers understand how TCM food writing often starts with ordinary ingredients and gentle preparation.",
+          "A page like this helps readers understand how traditional food writing often starts with ordinary ingredients and gentle preparation.",
           "It also creates a clearer path between Chinese yam, spleen-language, pantry content, and practical seasonal reading.",
         ],
       },
@@ -2301,13 +2301,13 @@ export const foodTherapyArticles: ContentArticle[] = [
         title: "Why this pairing works well",
         paragraphs: [
           "Mulberry fruit adds a softer second-berry pathway beyond the more familiar goji content.",
-          "That makes this page useful for readers who want one more pantry tea before moving into denser TCM terms.",
+          "That makes this page useful for readers who want one more pantry tea before moving into denser traditional terms.",
         ],
       },
       {
         title: "What the tea teaches beyond the cup",
         paragraphs: [
-          "A page like this helps readers understand that many Chinese kitchen traditions work through familiar pairings, not huge ingredient lists.",
+          "A page like this helps readers understand that many traditional kitchen traditions work through familiar pairings, not huge ingredient lists.",
           "It also creates a stronger internal link path between mulberry fruit, goji berry, dryness language, and beauty-food style reading.",
         ],
       },

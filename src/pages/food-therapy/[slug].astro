@@ -229,7 +229,7 @@ const relatedRecipes = recipeLinkMap[article.slug] ?? [];
 const articleKeywords = [
   article.title,
   ...relatedHerbs.map((herb) => herb.name),
-  "Chinese kitchen traditions",
+  "traditional kitchen traditions",
   "traditional herb recipe",
 ];
 const formatDuration = (value: string) =>
@@ -275,7 +275,7 @@ const faqSchema = article.recipe
           name: `What ingredients are used in ${article.title}?`,
           acceptedAnswer: {
             "@type": "Answer",
-            text: `${article.title} uses simple pantry ingredients and a short ingredient list designed for beginner-friendly Chinese kitchen reading.`,
+            text: `${article.title} uses simple pantry ingredients and a short ingredient list designed for beginner-friendly kitchen reading.`,
           },
         },
         {

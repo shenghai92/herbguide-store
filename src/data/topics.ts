@@ -26,10 +26,10 @@ const rawTopics: Topic[] = [
     slug: "digestive-traditions",
     title: "Digestive Traditions",
     description:
-      "A practical topic page for Chinese herbs, soups, pantry ingredients, and TCM terms commonly linked with digestive traditions.",
+      "A practical topic page for traditional herbs, soups, pantry ingredients, and traditional terms commonly linked with digestive traditions.",
     eyebrow: "Topic Page",
     intro:
-      "Digestive content is one of the easiest places for beginners to enter Chinese herb education because it overlaps with soup, tea, pantry ingredients, and everyday meal language. This hub groups the gentlest entry points together.",
+      "Digestive content is one of the easiest places for beginners to enter traditional herb learning because it overlaps with soup, tea, pantry ingredients, and everyday meal language. This hub groups the gentlest entry points together.",
     herbSlugs: ["fresh-ginger", "dried-ginger", "chen-pi", "hawthorn-berry", "poria", "jobs-tears", "adzuki-bean"],
     basicsSlugs: ["what-is-dampness", "what-is-qi-stagnation", "fresh-ginger-vs-dried-ginger", "what-does-tonify-mean-in-tcm", "what-does-spleen-mean-in-tcm", "what-is-food-stagnation-in-tcm", "what-is-damp-heat-in-tcm", "chen-pi-vs-hawthorn-berry", "poria-vs-jobs-tears", "what-does-harmonizing-mean-in-tcm"],
     foodSlugs: ["a-simple-warming-soup-guide-for-cold-weather", "chen-pi-tea-for-heavy-meal-days", "hawthorn-berry-tea-for-rich-meals", "jobs-tears-porridge-for-heavy-days", "adzuki-bean-and-jobs-tears-soup-basics"],
@@ -38,7 +38,7 @@ const rawTopics: Topic[] = [
         title: "Why digestive pages work so well",
         paragraphs: [
           "Readers already understand meals, heaviness, comfort food, and tea routines. That makes digestive content feel grounded rather than abstract.",
-          "It is also one of the clearest areas for connecting herb pages, comparison guides, and food therapy articles.",
+          "It is also one of the clearest areas for connecting herb pages, comparison guides, and kitchen-tradition articles.",
         ],
       },
       {
@@ -81,7 +81,7 @@ const rawTopics: Topic[] = [
     slug: "evening-teas",
     title: "Evening Teas",
     description:
-      "A topic page for gentle tea-style content, approachable Chinese ingredients, and plain-English guidance around calming kitchen routines.",
+      "A topic page for gentle tea-style content, approachable traditional ingredients, and plain-English guidance around calming kitchen routines.",
     eyebrow: "Topic Page",
     intro:
       "Tea pages are often approachable because readers can picture them instantly. This topic page groups together tea-style pages and pantry herbs that feel light, familiar, and easy to revisit.",
@@ -99,7 +99,7 @@ const rawTopics: Topic[] = [
       {
         title: "What belongs in this topic",
         paragraphs: [
-          "Evening teas are not presented as medical sleep solutions. They are presented as gentle kitchen routines, ingredient pairings, and cultural explanations in plain English.",
+          "Evening teas are not presented as sleep fixes. They are presented as gentle kitchen routines, ingredient pairings, and cultural explanations in plain English.",
         ],
         bullets: [
           "Jujube and ginger tea for warm routine content",
@@ -138,7 +138,7 @@ const rawTopics: Topic[] = [
       "A topic page for soups, teas, warming and cooling ingredients, and practical seasonal reading across HerbGuide.",
     eyebrow: "Topic Page",
     intro:
-      "Seasonality is one of the easiest ways to make Chinese herb content practical. Readers may not know every TCM term, but they understand cold weather, dry days, summer drinks, and comfort foods. This topic page organizes the material through that familiar lens.",
+      "Seasonality is one of the easiest ways to make traditional herb content practical. Readers may not know every traditional term, but they understand cold weather, dry days, summer drinks, and comfort foods. This topic page organizes the material through that familiar lens.",
     herbSlugs: ["fresh-ginger", "mint", "chrysanthemum-flower", "lily-bulb", "tremella-mushroom", "chinese-yam", "perilla-leaf", "mulberry-fruit"],
     basicsSlugs: ["warming-vs-cooling-foods", "what-does-moisten-dryness-mean", "what-does-clear-heat-mean", "what-does-yin-deficiency-mean", "what-does-channel-entry-mean", "what-is-damp-heat-in-tcm", "chrysanthemum-vs-mint", "mulberry-fruit-vs-goji-berry"],
     foodSlugs: ["a-simple-warming-soup-guide-for-cold-weather", "pear-and-lily-bulb-soup-for-dry-days", "chrysanthemum-and-mint-cooling-tea-basics", "goji-berry-porridge-for-gentle-mornings", "pear-and-chrysanthemum-tea-for-warm-afternoons", "goji-and-chrysanthemum-tea-basics", "tremella-and-pear-sweet-soup-basics", "chinese-yam-and-carrot-soup-basics", "mulberry-and-goji-tea-basics", "perilla-and-ginger-soup-for-cool-days"],
@@ -153,7 +153,7 @@ const rawTopics: Topic[] = [
       {
         title: "What readers can do from here",
         paragraphs: [
-          "This topic page helps readers move between basics, herb profiles, and food therapy pages without losing the thread.",
+          "This topic page helps readers move between basics, herb profiles, and kitchen pages without losing the thread.",
         ],
         bullets: [
           "Use warming pages in cold-weather reading",
@@ -166,7 +166,7 @@ const rawTopics: Topic[] = [
       {
         title: "Warming vs Cooling Foods",
         href: "/basics/warming-vs-cooling-foods/",
-        text: "The simplest starting point for reading seasonal TCM food language.",
+        text: "The simplest starting point for reading seasonal traditional food language.",
       },
       {
         title: "Pear and Lily Bulb Soup for Dry Days",
@@ -189,7 +189,7 @@ const rawTopics: Topic[] = [
     slug: "warming-foods",
     title: "Warming Foods",
     description:
-      "A topic page for warming herbs, soup pages, ginger comparisons, and plain-English TCM language around cold-weather food traditions.",
+      "A topic page for warming herbs, soup pages, ginger comparisons, and plain-English traditional language around cold-weather food traditions.",
     eyebrow: "Topic Page",
     intro:
       "Warming foods are one of the strongest beginner topics because the idea feels intuitive and useful. This hub gathers together the pages that explain warming language through herbs, tea, and soup rather than abstract theory alone.",
@@ -244,7 +244,7 @@ const rawTopics: Topic[] = [
     slug: "beauty-foods",
     title: "Beauty Foods",
     description:
-      "A topic page for pantry ingredients often associated with nourishment, moisture, and food-first beauty traditions in Chinese kitchen culture.",
+      "A topic page for pantry ingredients often associated with nourishment, moisture, and food-first beauty traditions in kitchen culture.",
     eyebrow: "Topic Page",
     intro:
       "Beauty food content is popular, but it can easily turn exaggerated. This topic page keeps the tone grounded by focusing on pantry ingredients, traditional context, and food-first routines instead of dramatic promises.",
@@ -342,7 +342,7 @@ const rawTopics: Topic[] = [
         text: "A pantry herb profile that supports breakfast, dessert, and beauty-food themes.",
       },
       {
-        title: "What Is TCM?",
+        title: "What Is Traditional Herb Theory?",
         href: "/basics/what-is-tcm/",
         text: "A plain-English overview for readers ready to connect pantry use back to the wider framework.",
       },
