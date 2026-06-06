@@ -2,6 +2,31 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import SectionIntro from "../../components/SectionIntro.astro";
 import { recipeCards } from "../../data/content";
+
+const recipeSearchThemes: Record<string, string[]> = {
+  "5-easy-traditional-kitchen-ingredients-for-beginners": ["beginner", "pantry", "gentle", "daily kitchen"],
+  "a-simple-warming-soup-guide-for-cold-weather": ["warming", "comfort", "cold weather", "gentle soup"],
+  "jujube-and-ginger-tea-for-busy-weeks": ["warming", "routine", "gentle", "tea"],
+  "pear-and-lily-bulb-soup-for-dry-days": ["moistening", "gentle", "dry days", "soft soup"],
+  "black-sesame-breakfast-ideas-for-beginners": ["nourishing", "breakfast", "gentle", "pantry"],
+  "chrysanthemum-and-mint-cooling-tea-basics": ["cooling", "tea", "light", "seasonal"],
+  "goji-berry-porridge-for-gentle-mornings": ["nourishing", "breakfast", "porridge", "gentle"],
+  "lotus-seed-and-longan-sweet-soup-basics": ["nourishing", "dessert soup", "calm", "gentle"],
+  "chen-pi-tea-for-heavy-meal-days": ["digestive", "tea", "aromatic", "post-meal"],
+  "hawthorn-berry-tea-for-rich-meals": ["digestive", "tea", "rich meals", "tart"],
+  "black-sesame-and-jujube-breakfast-bowl": ["nourishing", "breakfast", "warm", "pantry"],
+  "jobs-tears-porridge-for-heavy-days": ["light", "digestive", "grain", "everyday"],
+  "pear-and-chrysanthemum-tea-for-warm-afternoons": ["cooling", "tea", "dryness", "light"],
+  "mulberry-and-goji-tea-basics": ["nourishing", "tea", "berry", "gentle"],
+  "goji-and-chrysanthemum-tea-basics": ["balanced", "tea", "cooling", "nourishing"],
+  "jujube-and-lotus-seed-congee-for-quiet-evenings": ["calm", "congee", "nourishing", "gentle"],
+  "tremella-and-pear-sweet-soup-basics": ["moistening", "dessert soup", "gentle", "soft"],
+  "adzuki-bean-and-jobs-tears-soup-basics": ["light", "digestive", "soup", "pantry"],
+  "chinese-yam-and-carrot-soup-basics": ["gentle", "daily soup", "balanced", "comfort"],
+  "perilla-and-ginger-soup-for-cool-days": ["warming", "soup", "seasonal", "aromatic"],
+  "tremella-and-lotus-seed-sweet-soup-basics": ["moistening", "dessert soup", "soft", "nourishing"],
+  "schisandra-and-jujube-tea-basics": ["calm", "tea", "gentle", "evening"],
+};
 ---
 
 <BaseLayout
@@ -77,14 +102,39 @@ import { recipeCards } from "../../data/content";
   <section class="section">
     <div class="shell">
       <SectionIntro
+        title="Search recipe themes"
+        text="Search by gentle outcome language like warming, cooling, nourishing, calming, light, digestive, breakfast, or dessert soup."
+      />
+      <div class="search-panel">
+        <label class="sr-only" for="kitchen-search">Search kitchen pages</label>
+        <input
+          id="kitchen-search"
+          type="search"
+          placeholder="Search by warming, nourishing, digestive, calming, breakfast, tea, soup, or pantry"
+        />
+        <p class="search-note">Try words like warming, nourishing, digestive, calming, cooling, gentle, breakfast, or tea.</p>
+      </div>
+      <p class="results-count" id="kitchen-results-count">Showing all kitchen pages.</p>
+      <SectionIntro
         title="Starter topics"
         text="These beginner-friendly recipe pages already include familiar ingredients, simple how-to steps, cultural context, and careful safety language."
       />
-      <div class="stack">
+      <p class="search-empty" id="kitchen-search-empty" hidden>
+        No kitchen pages matched that search yet. Try broader words like warming, nourishing, tea, soup, calming, or digestive.
+      </p>
+      <div class="stack" id="kitchen-results">
         {recipeCards.map((card) => (
-          <article class="list-card">
+          <article
+            class="list-card kitchen-card"
+            data-search={`${card.title} ${card.text} ${(recipeSearchThemes[card.slug] ?? []).join(" ")}`.toLowerCase()}
+          >
             <h2><a href={`/kitchen/${card.slug}/`}>{card.title}</a></h2>
             <p>{card.text}</p>
+            <ul class="tag-list compact-tags">
+              {(recipeSearchThemes[card.slug] ?? []).slice(0, 4).map((theme) => (
+                <li>{theme}</li>
+              ))}
+            </ul>
             <p class="card-link"><a href={`/kitchen/${card.slug}/`}>Read ingredients and steps</a></p>
           </article>
         ))}
@@ -294,4 +344,42 @@ import { recipeCards } from "../../data/content";
       </article>
     </div>
   </section>
+
+  <script is:inline>
+    const kitchenSearchInput = document.querySelector("#kitchen-search");
+    const kitchenCards = Array.from(document.querySelectorAll(".kitchen-card"));
+    const kitchenResultsCount = document.querySelector("#kitchen-results-count");
+    const kitchenEmptyState = document.querySelector("#kitchen-search-empty");
+
+    const renderKitchenResults = () => {
+      const value = kitchenSearchInput ? kitchenSearchInput.value.trim().toLowerCase() : "";
+      let visibleCount = 0;
+
+      kitchenCards.forEach((card) => {
+        const haystack = card.dataset.search ?? "";
+        const isMatch = haystack.includes(value);
+        card.style.display = isMatch ? "" : "none";
+        if (isMatch) {
+          visibleCount += 1;
+        }
+      });
+
+      if (kitchenResultsCount) {
+        kitchenResultsCount.textContent =
+          visibleCount === kitchenCards.length
+            ? "Showing all kitchen pages."
+            : `Showing ${visibleCount} kitchen page${visibleCount === 1 ? "" : "s"} after search.`;
+      }
+
+      if (kitchenEmptyState) {
+        kitchenEmptyState.hidden = visibleCount > 0;
+      }
+    };
+
+    if (kitchenSearchInput && kitchenCards.length > 0) {
+      kitchenSearchInput.addEventListener("input", renderKitchenResults);
+      kitchenSearchInput.addEventListener("search", renderKitchenResults);
+      kitchenSearchInput.addEventListener("change", renderKitchenResults);
+    }
+  </script>
 </BaseLayout>

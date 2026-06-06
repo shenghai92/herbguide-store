@@ -241,6 +241,229 @@ const rawHerbEnhancements: HerbEnhancement[] = [
       { title: "Seasonal Kitchen Ideas", href: "/topics/seasonal-kitchen-ideas/" },
     ],
   },
+  {
+    slug: "dong-quai",
+    kitchenPairings: ["Jujube", "Goji berry", "Chicken broth", "Classic root comparisons"],
+    goodStartingPoints: [
+      "Use this page to understand why a famous root needs context, not blanket folklore.",
+      "Pair it with plain-English basics content before trying to read more advanced traditional claims around it.",
+    ],
+    compareLinks: [
+      { title: "What Does Blood Mean in Traditional Herb Writing?", href: "/basics/what-does-blood-mean/" },
+      { title: "What Does Nourish Blood Mean?", href: "/basics/what-does-nourish-blood-mean/" },
+      { title: "Balanced Pantry Habits", href: "/topics/balanced-pantry-habits/" },
+    ],
+  },
+  {
+    slug: "red-sage-root",
+    kitchenPairings: ["Classic formulas", "Root comparisons", "Calmer educational reading", "Traditional movement language"],
+    goodStartingPoints: [
+      "Read this page as a vocabulary and context page rather than a personal use page.",
+      "It makes more sense after one simpler basics article on blood or qi movement language.",
+    ],
+    compareLinks: [
+      { title: "What Does Blood Mean in Traditional Herb Writing?", href: "/basics/what-does-blood-mean/" },
+      { title: "What Is Qi Stagnation?", href: "/basics/what-is-qi-stagnation/" },
+    ],
+  },
+  {
+    slug: "reishi-mushroom",
+    kitchenPairings: ["Long-simmered broth", "Tea-style slices", "Calmer mushroom comparisons", "Classic vitality reading"],
+    goodStartingPoints: [
+      "Reishi is easiest to trust when framed as a serious traditional mushroom rather than a trend word.",
+      "Readers usually understand it best after comparing modern wellness language with traditional qi language.",
+    ],
+    compareLinks: [
+      { title: "What Does Qi Mean?", href: "/basics/what-does-qi-mean/" },
+      { title: "Balanced Pantry Habits", href: "/topics/balanced-pantry-habits/" },
+    ],
+  },
+  {
+    slug: "cordyceps",
+    kitchenPairings: ["Chicken soup", "Root pairings", "Premium ingredient reading", "Long-simmered broth"],
+    goodStartingPoints: [
+      "Cordyceps should be read through careful traditional context, not performance-oriented hype.",
+      "A simple herb profile is a better starting point than product marketing pages.",
+    ],
+    compareLinks: [
+      { title: "What Does Jing Mean?", href: "/basics/what-does-jing-mean/" },
+      { title: "What Does Tonify Mean in Traditional Herb Writing?", href: "/basics/what-does-tonify-mean/" },
+    ],
+  },
+  {
+    slug: "monk-fruit",
+    kitchenPairings: ["Pear", "Light tea", "Cooling fruit infusions", "Seasonal drink reading"],
+    goodStartingPoints: [
+      "Monk fruit is easiest to understand as a tea or fruit page first, not only as a sweetener search.",
+      "Pair it with gentle cooling and dryness language so the context stays coherent.",
+    ],
+    compareLinks: [
+      { title: "What Does Clear Heat Mean?", href: "/basics/what-does-clear-heat-mean/" },
+      { title: "Seasonal Kitchen Ideas", href: "/topics/seasonal-kitchen-ideas/" },
+    ],
+  },
+  {
+    slug: "white-atractylodes-root",
+    kitchenPairings: ["Poria", "Fresh ginger", "Mild soups", "Foundational digestive reading"],
+    goodStartingPoints: [
+      "This page becomes much easier after a plain-English article about spleen or dampness language.",
+      "Think of it as a foundational theory herb more than a casual pantry item.",
+    ],
+    compareLinks: [
+      { title: "What Does Spleen Mean in Traditional Herb Writing?", href: "/basics/what-does-spleen-mean/" },
+      { title: "What Is Dampness?", href: "/basics/what-is-dampness/" },
+      { title: "Digestive Traditions", href: "/topics/digestive-traditions/" },
+    ],
+  },
+  {
+    slug: "fritillary-bulb",
+    kitchenPairings: ["Pear", "Lily bulb", "Tremella", "Light dessert soups"],
+    goodStartingPoints: [
+      "This page works best when readers already understand gentle dryness-related kitchen language.",
+      "Pear-style pages are usually a calmer introduction than theory-heavy writing alone.",
+    ],
+    compareLinks: [
+      { title: "What Does Moisten Dryness Mean?", href: "/basics/what-does-moisten-dryness-mean/" },
+      { title: "Pear and Lily Bulb Soup for Dry Days", href: "/kitchen/pear-and-lily-bulb-soup-for-dry-days/" },
+      { title: "Seasonal Kitchen Ideas", href: "/topics/seasonal-kitchen-ideas/" },
+    ],
+  },
+  {
+    slug: "honeysuckle-flower",
+    kitchenPairings: ["Chrysanthemum", "Mint", "Light floral tea", "Summer reading"],
+    goodStartingPoints: [
+      "Use this page to compare stronger and gentler floral cooling language.",
+      "Tea-style comparisons usually explain honeysuckle more clearly than abstract heat language alone.",
+    ],
+    compareLinks: [
+      { title: "What Does Clear Heat Mean?", href: "/basics/what-does-clear-heat-mean/" },
+      { title: "Chrysanthemum vs Mint", href: "/basics/chrysanthemum-vs-mint/" },
+      { title: "Seasonal Kitchen Ideas", href: "/topics/seasonal-kitchen-ideas/" },
+    ],
+  },
+  {
+    slug: "gardenia-fruit",
+    kitchenPairings: ["Cooling teas", "Seasonal reading", "Advanced floral pages", "Heat-language comparisons"],
+    goodStartingPoints: [
+      "This page is best read as advanced vocabulary support, not a first-step tea ingredient page.",
+      "Readers should pair it with one plain-English basics page on heat language first.",
+    ],
+    compareLinks: [
+      { title: "What Does Clear Heat Mean?", href: "/basics/what-does-clear-heat-mean/" },
+      { title: "What Is Damp Heat?", href: "/basics/what-is-damp-heat/" },
+    ],
+  },
+  {
+    slug: "cinnamon-bark",
+    kitchenPairings: ["Fresh ginger", "Cinnamon twig", "Broth", "Cold-weather reading"],
+    goodStartingPoints: [
+      "This page is strongest when readers compare bark-level warming with simpler kitchen ginger content.",
+      "It helps show why one spice family can split into different traditional identities.",
+    ],
+    compareLinks: [
+      { title: "Warming vs Cooling Foods", href: "/basics/warming-vs-cooling-foods/" },
+      { title: "Fresh Ginger vs Dried Ginger", href: "/basics/fresh-ginger-vs-dried-ginger/" },
+      { title: "Warming Foods", href: "/topics/warming-foods/" },
+    ],
+  },
+  {
+    slug: "angelica-dahurica-root",
+    kitchenPairings: ["Aromatic broths", "Fresh ginger contrast", "Root comparisons", "Exterior reading"],
+    goodStartingPoints: [
+      "Readers often understand this page better once they realize it is not the same herb as dong quai.",
+      "A simple basics page on traditional naming and context helps a lot here.",
+    ],
+    compareLinks: [
+      { title: "What Is Traditional Herb Theory?", href: "/basics/what-is-traditional-herb-theory/" },
+      { title: "Seasonal Kitchen Ideas", href: "/topics/seasonal-kitchen-ideas/" },
+    ],
+  },
+  {
+    slug: "balloon-flower-root",
+    kitchenPairings: ["Pear", "Light broth", "Upper-body language reading", "Formula context"],
+    goodStartingPoints: [
+      "This page should be used to understand lung-related traditional vocabulary, not as direct personal advice.",
+      "It works well beside one simpler seasonal or moisture-themed page.",
+    ],
+    compareLinks: [
+      { title: "What Does Channel Entry Mean?", href: "/basics/what-does-channel-entry-mean/" },
+      { title: "What Does Moisten Dryness Mean?", href: "/basics/what-does-moisten-dryness-mean/" },
+    ],
+  },
+  {
+    slug: "fo-ti-root",
+    kitchenPairings: ["Black sesame", "Goji berry", "Prepared root reading", "Long-term nourishment vocabulary"],
+    goodStartingPoints: [
+      "Readers should approach this page as a caution-first profile, not a folklore endorsement page.",
+      "It is strongest when paired with basics content about jing and nourishment language.",
+    ],
+    compareLinks: [
+      { title: "What Does Jing Mean?", href: "/basics/what-does-jing-mean/" },
+      { title: "What Does Nourish Blood Mean?", href: "/basics/what-does-nourish-blood-mean/" },
+      { title: "Beauty Foods", href: "/topics/beauty-foods/" },
+    ],
+  },
+  {
+    slug: "barley-sprout",
+    kitchenPairings: ["Hawthorn berry", "Chen pi", "Light tea", "Digestive grain reading"],
+    goodStartingPoints: [
+      "Barley sprout becomes memorable when readers connect it with food accumulation language and grain familiarity.",
+      "A simple digestive basics page is the best companion read.",
+    ],
+    compareLinks: [
+      { title: "What Is Food Stagnation?", href: "/basics/what-is-food-stagnation/" },
+      { title: "Digestive Traditions", href: "/topics/digestive-traditions/" },
+    ],
+  },
+  {
+    slug: "amomum-fruit",
+    kitchenPairings: ["Chen pi", "Fresh ginger", "Rice porridge", "Aromatic digestive reading"],
+    goodStartingPoints: [
+      "This page helps readers understand why aromatic and digestive language often overlap in traditional writing.",
+      "It makes more sense after one plain-English page on dampness or qi movement.",
+    ],
+    compareLinks: [
+      { title: "What Is Dampness?", href: "/basics/what-is-dampness/" },
+      { title: "What Is Qi Stagnation?", href: "/basics/what-is-qi-stagnation/" },
+      { title: "Digestive Traditions", href: "/topics/digestive-traditions/" },
+    ],
+  },
+  {
+    slug: "safflower",
+    kitchenPairings: ["Classic flower comparisons", "Advanced blood-movement reading", "Traditional infusion context", "Visual herb study"],
+    goodStartingPoints: [
+      "Use this page to understand why some beautiful flowers still need serious caution language.",
+      "It is best treated as advanced educational reading, not a casual pantry page.",
+    ],
+    compareLinks: [
+      { title: "What Does Blood Mean in Traditional Herb Writing?", href: "/basics/what-does-blood-mean/" },
+      { title: "What Is Qi Stagnation?", href: "/basics/what-is-qi-stagnation/" },
+    ],
+  },
+  {
+    slug: "skullcap-root",
+    kitchenPairings: ["Advanced tea context", "Dampness reading", "Heat-language basics", "Root comparisons"],
+    goodStartingPoints: [
+      "This page should be used to decode high-intent traditional searches, not as a personal tea suggestion.",
+      "Readers usually need a simpler heat-language page before this root fully makes sense.",
+    ],
+    compareLinks: [
+      { title: "What Does Clear Heat Mean?", href: "/basics/what-does-clear-heat-mean/" },
+      { title: "What Is Damp Heat?", href: "/basics/what-is-damp-heat/" },
+    ],
+  },
+  {
+    slug: "bupleurum-root",
+    kitchenPairings: ["Formula reading", "Liver qi basics", "Root comparisons", "Advanced movement vocabulary"],
+    goodStartingPoints: [
+      "This page works best for readers who keep seeing chai hu in formulas and want a calmer explanation.",
+      "It should be paired with a simple basics page on qi stagnation or liver language.",
+    ],
+    compareLinks: [
+      { title: "What Is Qi Stagnation?", href: "/basics/what-is-qi-stagnation/" },
+      { title: "What Does Liver Mean in Traditional Herb Writing?", href: "/basics/what-does-liver-mean/" },
+    ],
+  },
 ];
 
 export const herbEnhancements = rawHerbEnhancements.map((item) => sanitizeHerbEnhancementContent(item));
