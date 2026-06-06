@@ -3,6 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import SectionIntro from "../components/SectionIntro.astro";
 import { basicsCards, classicsCards, goalCards, recipeCards } from "../data/content";
 import { featuredHerbs, getHerbDisplayNames } from "../data/herbs";
+import { siteConfig } from "../data/site";
 import { topics } from "../data/topics";
 
 const featuredTopicLinks = topics.slice(0, 4);
@@ -80,17 +81,20 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
         </div>
       </div>
       <aside class="hero-card">
-        <p class="eyebrow">Herb of the day</p>
-        <h2>Goji Berry</h2>
+        <p class="eyebrow">Everything here is free</p>
+        <h2>All pages and site features are open to every reader.</h2>
         <p>
-          A bright, beginner-friendly herb that bridges food, tradition, and everyday
-          kitchen use without feeling intimidating.
+          HerbGuide does not place the herb library, kitchen pages, basics, or internal tools
+          behind a paywall. The site is fully free to browse.
         </p>
-        <ul class="tag-list">
-          <li>tea</li>
-          <li>broths</li>
-          <li>daily use</li>
-        </ul>
+        <p>
+          If a reader wants to support our work, the support links are optional tip-style
+          contributions only. They do not unlock content, extra features, or special access.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-secondary" href={siteConfig.supportLinks.small} rel="nofollow sponsored external" target="_blank">$4.90 support</a>
+          <a class="button button-primary" href={siteConfig.supportLinks.large} rel="nofollow sponsored external" target="_blank">$9.90 support</a>
+        </div>
       </aside>
     </div>
   </section>
