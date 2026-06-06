@@ -35,6 +35,7 @@ export const footerNav = [
   { href: "/topics/", label: "Topics" },
   { href: "/glossary/", label: "Glossary" },
   { href: "/kitchen/", label: "Kitchen Traditions" },
+  { href: "/support/", label: "Support HerbGuide" },
   { href: "/basics/", label: "Basics" },
   { href: "/classics/", label: "Chinese Classics" },
   { href: "/safety/", label: "Safety" },
