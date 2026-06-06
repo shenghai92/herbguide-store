@@ -27,6 +27,33 @@ const recipeSearchThemes: Record<string, string[]> = {
   "tremella-and-lotus-seed-sweet-soup-basics": ["moistening", "dessert soup", "soft", "nourishing"],
   "schisandra-and-jujube-tea-basics": ["calm", "tea", "gentle", "evening"],
 };
+
+const recipeCategoryMap: Record<string, string> = {
+  "5-easy-traditional-kitchen-ingredients-for-beginners": "Pantry Basics",
+  "a-simple-warming-soup-guide-for-cold-weather": "Warming",
+  "jujube-and-ginger-tea-for-busy-weeks": "Warming",
+  "pear-and-lily-bulb-soup-for-dry-days": "Moistening",
+  "black-sesame-breakfast-ideas-for-beginners": "Nourishing",
+  "chrysanthemum-and-mint-cooling-tea-basics": "Cooling",
+  "goji-berry-porridge-for-gentle-mornings": "Nourishing",
+  "lotus-seed-and-longan-sweet-soup-basics": "Calming",
+  "chen-pi-tea-for-heavy-meal-days": "Digestive",
+  "hawthorn-berry-tea-for-rich-meals": "Digestive",
+  "black-sesame-and-jujube-breakfast-bowl": "Nourishing",
+  "jobs-tears-porridge-for-heavy-days": "Digestive",
+  "pear-and-chrysanthemum-tea-for-warm-afternoons": "Cooling",
+  "mulberry-and-goji-tea-basics": "Nourishing",
+  "goji-and-chrysanthemum-tea-basics": "Balanced",
+  "jujube-and-lotus-seed-congee-for-quiet-evenings": "Calming",
+  "tremella-and-pear-sweet-soup-basics": "Moistening",
+  "adzuki-bean-and-jobs-tears-soup-basics": "Digestive",
+  "chinese-yam-and-carrot-soup-basics": "Balanced",
+  "perilla-and-ginger-soup-for-cool-days": "Warming",
+  "tremella-and-lotus-seed-sweet-soup-basics": "Moistening",
+  "schisandra-and-jujube-tea-basics": "Calming",
+};
+
+const recipeCategories = Array.from(new Set(recipeCards.map((card) => recipeCategoryMap[card.slug] ?? "Balanced")));
 ---
 
 <BaseLayout
@@ -114,6 +141,17 @@ const recipeSearchThemes: Record<string, string[]> = {
         />
         <p class="search-note">Try words like warming, nourishing, digestive, calming, cooling, gentle, breakfast, or tea.</p>
       </div>
+      <div class="filter-panel">
+        <div class="filter-group">
+          <p class="filter-label">Browse by recipe category</p>
+          <div class="filter-row" id="kitchen-category-filters">
+            <button class="filter-chip is-active" type="button" data-kitchen-category-filter="all">All categories</button>
+            {recipeCategories.map((category) => (
+              <button class="filter-chip" type="button" data-kitchen-category-filter={category}>{category}</button>
+            ))}
+          </div>
+        </div>
+      </div>
       <p class="results-count" id="kitchen-results-count">Showing all kitchen pages.</p>
       <SectionIntro
         title="Starter topics"
@@ -126,10 +164,12 @@ const recipeSearchThemes: Record<string, string[]> = {
         {recipeCards.map((card) => (
           <article
             class="list-card kitchen-card"
-            data-search={`${card.title} ${card.text} ${(recipeSearchThemes[card.slug] ?? []).join(" ")}`.toLowerCase()}
+            data-category={recipeCategoryMap[card.slug] ?? "Balanced"}
+            data-search={`${card.title} ${card.text} ${recipeCategoryMap[card.slug] ?? "Balanced"} ${(recipeSearchThemes[card.slug] ?? []).join(" ")}`.toLowerCase()}
           >
             <h2><a href={`/kitchen/${card.slug}/`}>{card.title}</a></h2>
             <p>{card.text}</p>
+            <p class="meta-label">Category: {recipeCategoryMap[card.slug] ?? "Balanced"}</p>
             <ul class="tag-list compact-tags">
               {(recipeSearchThemes[card.slug] ?? []).slice(0, 4).map((theme) => (
                 <li>{theme}</li>
@@ -350,6 +390,8 @@ const recipeSearchThemes: Record<string, string[]> = {
     const kitchenCards = Array.from(document.querySelectorAll(".kitchen-card"));
     const kitchenResultsCount = document.querySelector("#kitchen-results-count");
     const kitchenEmptyState = document.querySelector("#kitchen-search-empty");
+    const kitchenCategoryButtons = Array.from(document.querySelectorAll("[data-kitchen-category-filter]"));
+    let activeKitchenCategory = "all";
 
     const renderKitchenResults = () => {
       const value = kitchenSearchInput ? kitchenSearchInput.value.trim().toLowerCase() : "";
@@ -357,7 +399,10 @@ const recipeSearchThemes: Record<string, string[]> = {
 
       kitchenCards.forEach((card) => {
         const haystack = card.dataset.search ?? "";
-        const isMatch = haystack.includes(value);
+        const matchesSearch = haystack.includes(value);
+        const matchesCategory =
+          activeKitchenCategory === "all" || (card.dataset.category ?? "") === activeKitchenCategory;
+        const isMatch = matchesSearch && matchesCategory;
         card.style.display = isMatch ? "" : "none";
         if (isMatch) {
           visibleCount += 1;
@@ -381,5 +426,17 @@ const recipeSearchThemes: Record<string, string[]> = {
       kitchenSearchInput.addEventListener("search", renderKitchenResults);
       kitchenSearchInput.addEventListener("change", renderKitchenResults);
     }
+
+    kitchenCategoryButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        activeKitchenCategory = button.dataset.kitchenCategoryFilter ?? "all";
+        kitchenCategoryButtons.forEach((item) =>
+          item.classList.toggle("is-active", item === button),
+        );
+        renderKitchenResults();
+      });
+    });
+
+    renderKitchenResults();
   </script>
 </BaseLayout>

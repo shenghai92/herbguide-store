@@ -1234,6 +1234,43 @@ export const featuredHerbs = herbs.slice(0, 6);
 
 const normalizeLabel = (value: string) => value.trim().replace(/\s+/g, " ");
 
+const herbCategoryAliases: Record<string, string[]> = {
+  "Nourishing herbs": ["nourishing", "gentle", "restorative", "daily support"],
+  "Qi-supporting herbs": ["qi", "supportive", "steady", "foundational"],
+  "Kitchen herbs": ["kitchen", "pantry", "daily cooking", "food-first"],
+  "Tea herbs": ["tea", "light", "seasonal", "sipping"],
+  "Digestive herbs": ["digestive", "post-meal", "heaviness", "aromatic"],
+  "Dampness-related herbs": ["dampness", "lightness", "grain-style", "plain soups"],
+  "Harmonizing herbs": ["harmonizing", "blending", "middle-ground", "formula context"],
+  "Astringent herbs": ["astringent", "holding", "five-flavor", "focused use"],
+  "Warming herbs": ["warming", "cold weather", "comfort", "warming soups"],
+  "Movement herbs": ["movement", "circulation language", "qi movement", "traditional flow"],
+  "Blood-related herbs": ["blood-related", "nourishment language", "traditional blood", "deeper support"],
+  "Moistening herbs": ["moistening", "softening", "dryness language", "gentle fluids"],
+  "Exterior-related herbs": ["seasonal", "aromatic", "outer layer", "weather-related"],
+  "Kidney-related herbs": ["kidney-related", "deep reserves", "long-term support", "traditional depth"],
+};
+
+const getNatureAliases = (nature: string) => {
+  const value = nature.toLowerCase();
+  const aliases = new Set<string>();
+  if (value.includes("warm") || value.includes("hot")) {
+    aliases.add("warming");
+    aliases.add("comfort");
+    aliases.add("cold weather");
+  }
+  if (value.includes("cool") || value.includes("cold")) {
+    aliases.add("cooling");
+    aliases.add("light");
+    aliases.add("seasonal heat");
+  }
+  if (value.includes("neutral")) {
+    aliases.add("balanced");
+    aliases.add("gentle");
+  }
+  return Array.from(aliases);
+};
+
 export const getHerbDisplayNames = (herb: Herb): HerbDisplayNames => {
   const secondary = [herb.pinyin, herb.chinese, herb.latin]
     .map(normalizeLabel)
@@ -1249,6 +1286,8 @@ export const getHerbDisplayNames = (herb: Herb): HerbDisplayNames => {
       herb.latin,
       herb.summary,
       herb.category,
+      ...(herbCategoryAliases[herb.category] ?? []),
+      ...getNatureAliases(herb.nature),
       ...herb.tags,
       ...herb.foodUses,
     ]
