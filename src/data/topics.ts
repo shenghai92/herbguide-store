@@ -1,3 +1,5 @@
+import { sanitizeTopicContent } from "../utils/publicCopy";
+
 export type Topic = {
   slug: string;
   title: string;
@@ -19,7 +21,7 @@ export type Topic = {
   }>;
 };
 
-export const topics: Topic[] = [
+const rawTopics: Topic[] = [
   {
     slug: "digestive-traditions",
     title: "Digestive Traditions",
@@ -347,6 +349,8 @@ export const topics: Topic[] = [
     ],
   },
 ];
+
+export const topics = rawTopics.map((topic) => sanitizeTopicContent(topic));
 
 export const getTopicsForHerb = (slug: string) =>
   topics.filter((topic) => topic.herbSlugs?.includes(slug)).slice(0, 3);

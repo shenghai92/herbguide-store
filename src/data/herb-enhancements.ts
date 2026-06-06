@@ -1,3 +1,5 @@
+import { sanitizeHerbEnhancementContent } from "../utils/publicCopy";
+
 export type HerbEnhancement = {
   slug: string;
   kitchenPairings?: string[];
@@ -8,7 +10,7 @@ export type HerbEnhancement = {
   }>;
 };
 
-export const herbEnhancements: HerbEnhancement[] = [
+const rawHerbEnhancements: HerbEnhancement[] = [
   {
     slug: "goji-berry",
     kitchenPairings: ["Jujube", "Pear", "Black sesame", "Lotus seed"],
@@ -240,6 +242,8 @@ export const herbEnhancements: HerbEnhancement[] = [
     ],
   },
 ];
+
+export const herbEnhancements = rawHerbEnhancements.map((item) => sanitizeHerbEnhancementContent(item));
 
 export const getHerbEnhancement = (slug: string) =>
   herbEnhancements.find((item) => item.slug === slug);

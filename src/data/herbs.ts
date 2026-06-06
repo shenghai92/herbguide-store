@@ -1,3 +1,5 @@
+import { sanitizeHerbContent } from "../utils/publicCopy";
+
 export type Herb = {
   slug: string;
   name: string;
@@ -23,7 +25,7 @@ export type HerbDisplayNames = {
   searchText: string;
 };
 
-export const herbs: Herb[] = [
+const rawHerbs: Herb[] = [
   {
     slug: "goji-berry",
     name: "Goji Berry",
@@ -793,6 +795,8 @@ export const herbs: Herb[] = [
     tags: ["bean", "pantry", "dampness", "soup", "beginner"],
   },
 ];
+
+export const herbs = rawHerbs.map((herb) => sanitizeHerbContent(herb));
 
 export const featuredHerbs = herbs.slice(0, 6);
 

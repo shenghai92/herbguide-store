@@ -1,3 +1,5 @@
+import { sanitizeContentArticle } from "../utils/publicCopy";
+
 export type ArticleSection = {
   title: string;
   paragraphs: string[];
@@ -22,7 +24,7 @@ export type ContentArticle = {
   };
 };
 
-export const basicsArticles: ContentArticle[] = [
+const rawBasicsArticles: ContentArticle[] = [
   {
     slug: "what-is-tcm",
     title: "What Is TCM?",
@@ -1097,6 +1099,8 @@ export const basicsArticles: ContentArticle[] = [
     ],
   },
 ];
+
+export const basicsArticles = rawBasicsArticles.map((article) => sanitizeContentArticle(article));
 
 export const classicsArticles: ContentArticle[] = [
   {

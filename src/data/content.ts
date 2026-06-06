@@ -1,3 +1,5 @@
+import { sanitizeContentCard } from "../utils/publicCopy";
+
 export const goalCards = [
   { slug: "digestive-traditions", title: "Digestive Traditions" },
   { slug: "evening-teas", title: "Evening Teas" },
@@ -7,7 +9,7 @@ export const goalCards = [
   { slug: "balanced-pantry-habits", title: "Balanced Pantry Habits" },
 ];
 
-export const basicsCards = [
+const rawBasicsCards = [
   {
     slug: "what-is-tcm",
     title: "What Is TCM?",
@@ -155,6 +157,8 @@ export const basicsCards = [
   },
 ];
 
+export const basicsCards = rawBasicsCards.map((card) => sanitizeContentCard(card));
+
 export const classicsCards = [
   {
     slug: "huangdi-neijing",
@@ -188,7 +192,7 @@ export const classicsCards = [
   },
 ];
 
-export const recipeCards = [
+const rawRecipeCards = [
   {
     slug: "a-simple-warming-soup-guide-for-cold-weather",
     title: "A Simple Warming Soup Guide for Cold Weather",
@@ -300,3 +304,5 @@ export const recipeCards = [
     text: "A gentle pantry tea that makes schisandra easier to understand through a familiar jujube pairing.",
   },
 ];
+
+export const recipeCards = rawRecipeCards.map((card) => sanitizeContentCard(card));
