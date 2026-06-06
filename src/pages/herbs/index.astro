@@ -112,29 +112,6 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
     </div>
   </section>
 
-  <section class="section section-alt" id="featured-herbs-section">
-    <div class="shell">
-      <SectionIntro
-        eyebrow="Best first clicks"
-        title="Start with the easiest food-friendly herbs"
-        text="These herbs are especially helpful for new readers because they connect naturally to tea, soup, porridge, and practical kitchen learning."
-      />
-      <div class="card-grid">
-        {featuredHerbs.map((herb) => (
-          <article class="card">
-            <p class="eyebrow">{getHerbDisplayNames(herb).secondary.slice(0, 2).join(" | ")}</p>
-            <h2><a href={`/herbs/${herb.slug}/`}>{herb.name}</a></h2>
-            <p>{herb.summary}</p>
-            <p class="meta-label">Category: {herb.category}</p>
-            <p class="card-link">
-              <a href={`/herbs/${herb.slug}/`}>Open herb page</a>
-            </p>
-          </article>
-        ))}
-      </div>
-    </div>
-  </section>
-
   <section class="section">
     <div class="shell">
       <SectionIntro
@@ -170,6 +147,29 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
                 <li>{tag}</li>
               ))}
             </ul>
+            <p class="card-link">
+              <a href={`/herbs/${herb.slug}/`}>Open herb page</a>
+            </p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="featured-herbs-section">
+    <div class="shell">
+      <SectionIntro
+        eyebrow="Best first clicks"
+        title="Start with the easiest food-friendly herbs"
+        text="These herbs are especially helpful for new readers because they connect naturally to tea, soup, porridge, and practical kitchen learning."
+      />
+      <div class="card-grid">
+        {featuredHerbs.map((herb) => (
+          <article class="card">
+            <p class="eyebrow">{getHerbDisplayNames(herb).secondary.slice(0, 2).join(" | ")}</p>
+            <h2><a href={`/herbs/${herb.slug}/`}>{herb.name}</a></h2>
+            <p>{herb.summary}</p>
+            <p class="meta-label">Category: {herb.category}</p>
             <p class="card-link">
               <a href={`/herbs/${herb.slug}/`}>Open herb page</a>
             </p>
@@ -307,7 +307,6 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
     const herbCards = Array.from(document.querySelectorAll(".herb-card"));
     const emptyState = document.querySelector("#search-empty");
     const featuredSection = document.querySelector("#featured-herbs-section");
-    const resultsSection = document.querySelector("#herb-results");
     const resultsCount = Array.from(document.querySelectorAll("[data-results-count]"));
     const categoryButtons = Array.from(document.querySelectorAll("[data-category-filter]"));
     const letterButtons = Array.from(document.querySelectorAll("[data-letter-filter]"));
@@ -318,12 +317,6 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
     const hasActiveFilters = () => {
       const value = searchInput ? searchInput.value.trim() : "";
       return value.length > 0 || activeCategory !== "all" || activeLetter !== "all";
-    };
-
-    const revealResults = () => {
-      if (resultsSection && typeof resultsSection.scrollIntoView === "function") {
-        resultsSection.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
     };
 
     const renderResults = () => {
@@ -366,18 +359,11 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
 
     if (searchInput && herbCards.length > 0) {
       searchInput.addEventListener("input", renderResults);
-      searchInput.addEventListener("search", () => {
-        renderResults();
-        revealResults();
-      });
-      searchInput.addEventListener("change", () => {
-        renderResults();
-        revealResults();
-      });
+      searchInput.addEventListener("search", renderResults);
+      searchInput.addEventListener("change", renderResults);
       searchInput.addEventListener("keydown", (event) => {
         if (event.key === "Enter") {
           renderResults();
-          revealResults();
         }
       });
     }
@@ -389,7 +375,6 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
           item.classList.toggle("is-active", item === button),
         );
         renderResults();
-        revealResults();
       });
     });
 
@@ -400,7 +385,6 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
           item.classList.toggle("is-active", item === button),
         );
         renderResults();
-        revealResults();
       });
     });
 
