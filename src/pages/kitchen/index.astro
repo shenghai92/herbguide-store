@@ -14,7 +14,7 @@ import { recipeCards } from "../../data/content";
       name: "Kitchen Traditions",
       description:
         "Practical kitchen ideas with simple soups, teas, pantry basics, and beginner-friendly routines.",
-      url: "https://herbguide.store/food-therapy/",
+      url: "https://herbguide.store/kitchen/",
     },
     {
       "@context": "https://schema.org",
@@ -54,7 +54,7 @@ import { recipeCards } from "../../data/content";
         "@type": "ListItem",
         position: index + 1,
         name: card.title,
-        url: `https://herbguide.store/food-therapy/${card.slug}/`,
+        url: `https://herbguide.store/kitchen/${card.slug}/`,
       })),
     },
   ]}
@@ -83,9 +83,9 @@ import { recipeCards } from "../../data/content";
       <div class="stack">
         {recipeCards.map((card) => (
           <article class="list-card">
-            <h2><a href={`/food-therapy/${card.slug}/`}>{card.title}</a></h2>
+            <h2><a href={`/kitchen/${card.slug}/`}>{card.title}</a></h2>
             <p>{card.text}</p>
-            <p class="card-link"><a href={`/food-therapy/${card.slug}/`}>Read ingredients and steps</a></p>
+            <p class="card-link"><a href={`/kitchen/${card.slug}/`}>Read ingredients and steps</a></p>
           </article>
         ))}
       </div>
@@ -112,22 +112,22 @@ import { recipeCards } from "../../data/content";
         <p class="eyebrow">New kitchen pages</p>
         <h2>Best new recipe-style articles</h2>
         <ul>
-          <li><a href="/food-therapy/mulberry-and-goji-tea-basics/">Mulberry and Goji Tea Basics</a></li>
-          <li><a href="/food-therapy/perilla-and-ginger-soup-for-cool-days/">Perilla and Ginger Soup for Cool Days</a></li>
-          <li><a href="/food-therapy/schisandra-and-jujube-tea-basics/">Schisandra and Jujube Tea Basics</a></li>
-          <li><a href="/food-therapy/goji-berry-porridge-for-gentle-mornings/">Goji Berry Porridge for Gentle Mornings</a></li>
-          <li><a href="/food-therapy/lotus-seed-and-longan-sweet-soup-basics/">Lotus Seed and Longan Sweet Soup Basics</a></li>
-          <li><a href="/food-therapy/chen-pi-tea-for-heavy-meal-days/">Chen Pi Tea for Heavy Meal Days</a></li>
-          <li><a href="/food-therapy/hawthorn-berry-tea-for-rich-meals/">Hawthorn Berry Tea for Rich Meals</a></li>
-          <li><a href="/food-therapy/black-sesame-and-jujube-breakfast-bowl/">Black Sesame and Jujube Breakfast Bowl</a></li>
-          <li><a href="/food-therapy/jobs-tears-porridge-for-heavy-days/">Job's Tears Porridge for Heavy Days</a></li>
-          <li><a href="/food-therapy/pear-and-chrysanthemum-tea-for-warm-afternoons/">Pear and Chrysanthemum Tea for Warm Afternoons</a></li>
-          <li><a href="/food-therapy/goji-and-chrysanthemum-tea-basics/">Goji and Chrysanthemum Tea Basics</a></li>
-          <li><a href="/food-therapy/jujube-and-lotus-seed-congee-for-quiet-evenings/">Jujube and Lotus Seed Congee for Quiet Evenings</a></li>
-          <li><a href="/food-therapy/tremella-and-pear-sweet-soup-basics/">Tremella and Pear Sweet Soup Basics</a></li>
-          <li><a href="/food-therapy/adzuki-bean-and-jobs-tears-soup-basics/">Adzuki Bean and Job's Tears Soup Basics</a></li>
-          <li><a href="/food-therapy/chinese-yam-and-carrot-soup-basics/">Chinese Yam and Carrot Soup Basics</a></li>
-          <li><a href="/food-therapy/tremella-and-lotus-seed-sweet-soup-basics/">Tremella and Lotus Seed Sweet Soup Basics</a></li>
+          <li><a href="/kitchen/mulberry-and-goji-tea-basics/">Mulberry and Goji Tea Basics</a></li>
+          <li><a href="/kitchen/perilla-and-ginger-soup-for-cool-days/">Perilla and Ginger Soup for Cool Days</a></li>
+          <li><a href="/kitchen/schisandra-and-jujube-tea-basics/">Schisandra and Jujube Tea Basics</a></li>
+          <li><a href="/kitchen/goji-berry-porridge-for-gentle-mornings/">Goji Berry Porridge for Gentle Mornings</a></li>
+          <li><a href="/kitchen/lotus-seed-and-longan-sweet-soup-basics/">Lotus Seed and Longan Sweet Soup Basics</a></li>
+          <li><a href="/kitchen/chen-pi-tea-for-heavy-meal-days/">Chen Pi Tea for Heavy Meal Days</a></li>
+          <li><a href="/kitchen/hawthorn-berry-tea-for-rich-meals/">Hawthorn Berry Tea for Rich Meals</a></li>
+          <li><a href="/kitchen/black-sesame-and-jujube-breakfast-bowl/">Black Sesame and Jujube Breakfast Bowl</a></li>
+          <li><a href="/kitchen/jobs-tears-porridge-for-heavy-days/">Job's Tears Porridge for Heavy Days</a></li>
+          <li><a href="/kitchen/pear-and-chrysanthemum-tea-for-warm-afternoons/">Pear and Chrysanthemum Tea for Warm Afternoons</a></li>
+          <li><a href="/kitchen/goji-and-chrysanthemum-tea-basics/">Goji and Chrysanthemum Tea Basics</a></li>
+          <li><a href="/kitchen/jujube-and-lotus-seed-congee-for-quiet-evenings/">Jujube and Lotus Seed Congee for Quiet Evenings</a></li>
+          <li><a href="/kitchen/tremella-and-pear-sweet-soup-basics/">Tremella and Pear Sweet Soup Basics</a></li>
+          <li><a href="/kitchen/adzuki-bean-and-jobs-tears-soup-basics/">Adzuki Bean and Job's Tears Soup Basics</a></li>
+          <li><a href="/kitchen/chinese-yam-and-carrot-soup-basics/">Chinese Yam and Carrot Soup Basics</a></li>
+          <li><a href="/kitchen/tremella-and-lotus-seed-sweet-soup-basics/">Tremella and Lotus Seed Sweet Soup Basics</a></li>
         </ul>
       </article>
     </div>

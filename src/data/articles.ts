@@ -26,7 +26,7 @@ export type ContentArticle = {
 
 const rawBasicsArticles: ContentArticle[] = [
   {
-    slug: "what-is-tcm",
+    slug: "what-is-traditional-herb-theory",
     title: "What Is Traditional Herb Theory?",
     description:
       "A clear first look at traditional herb theory in plain American English, with practical explanations and clear boundaries.",
@@ -211,7 +211,7 @@ const rawBasicsArticles: ContentArticle[] = [
     ],
   },
   {
-    slug: "what-does-blood-mean-in-tcm",
+    slug: "what-does-blood-mean",
     title: "What Does Blood Mean in Traditional Herb Writing?",
     description:
       "A careful beginner guide to the traditional idea of blood and why it is broader than the everyday English word suggests.",
@@ -433,7 +433,7 @@ const rawBasicsArticles: ContentArticle[] = [
     ],
   },
   {
-    slug: "what-does-tonify-mean-in-tcm",
+    slug: "what-does-tonify-mean",
     title: "What Does Tonify Mean in Traditional Herb Writing?",
     description:
       "A beginner guide to the word tonify and why it appears so often on pages about famous herbs.",
@@ -507,7 +507,7 @@ const rawBasicsArticles: ContentArticle[] = [
     ],
   },
   {
-    slug: "what-does-spleen-mean-in-tcm",
+    slug: "what-does-spleen-mean",
     title: "What Does Spleen Mean in Traditional Herb Writing?",
     description:
       "A beginner-friendly explanation of why the traditional spleen is not exactly the same thing as the organ name many readers know from modern anatomy.",
@@ -544,7 +544,7 @@ const rawBasicsArticles: ContentArticle[] = [
     ],
   },
   {
-    slug: "what-does-liver-mean-in-tcm",
+    slug: "what-does-liver-mean",
     title: "What Does Liver Mean in Traditional Herb Writing?",
     description:
       "A plain-English guide to one of the most common and most misunderstood organ-system words in traditional herb writing.",
@@ -618,7 +618,7 @@ const rawBasicsArticles: ContentArticle[] = [
     ],
   },
   {
-    slug: "what-does-shen-mean-in-tcm",
+    slug: "what-does-shen-mean",
     title: "What Does Shen Mean in Traditional Herb Writing?",
     description:
       "A plain-English guide to the traditional idea of shen and why the term is broader than mind alone.",
@@ -655,7 +655,7 @@ const rawBasicsArticles: ContentArticle[] = [
     ],
   },
   {
-    slug: "what-does-jing-mean-in-tcm",
+    slug: "what-does-jing-mean",
     title: "What Does Jing Mean in Traditional Herb Writing?",
     description:
       "A careful beginner guide to the traditional idea of jing, often translated as essence.",
@@ -729,7 +729,7 @@ const rawBasicsArticles: ContentArticle[] = [
     ],
   },
   {
-    slug: "what-is-food-stagnation-in-tcm",
+    slug: "what-is-food-stagnation",
     title: "What Is Food Stagnation?",
     description:
       "A plain-English guide to the traditional term food stagnation and why it appears on digestive tea and pantry pages.",
@@ -766,7 +766,7 @@ const rawBasicsArticles: ContentArticle[] = [
     ],
   },
   {
-    slug: "what-does-nourish-blood-mean-in-tcm",
+    slug: "what-does-nourish-blood-mean",
     title: "What Does Nourish Blood Mean?",
     description:
       "A plain-English explanation of the common traditional phrase nourish blood and how HerbGuide uses it carefully.",
@@ -803,7 +803,7 @@ const rawBasicsArticles: ContentArticle[] = [
     ],
   },
   {
-    slug: "what-is-damp-heat-in-tcm",
+    slug: "what-is-damp-heat",
     title: "What Is Damp Heat?",
     description:
       "A careful beginner guide to the traditional phrase damp heat and why it appears in digestive and seasonal content.",
@@ -988,7 +988,7 @@ const rawBasicsArticles: ContentArticle[] = [
     ],
   },
   {
-    slug: "what-does-astringent-mean-in-tcm",
+    slug: "what-does-astringent-mean",
     title: "What Does Astringent Mean?",
     description:
       "A plain-English explanation of astringent as a traditional herb quality in traditional herb writing.",
@@ -1025,7 +1025,7 @@ const rawBasicsArticles: ContentArticle[] = [
     ],
   },
   {
-    slug: "what-does-harmonizing-mean-in-tcm",
+    slug: "what-does-harmonizing-mean",
     title: "What Does Harmonizing Mean?",
     description:
       "A plain-English explanation of harmonizing as a traditional role in herb and formula writing.",
@@ -1257,7 +1257,7 @@ export const classicsArticles: ContentArticle[] = [
 
 export const foodTherapyArticles: ContentArticle[] = [
   {
-    slug: "5-easy-chinese-food-therapy-ingredients-for-beginners",
+    slug: "5-easy-traditional-kitchen-ingredients-for-beginners",
     title: "5 Easy Chinese Food Therapy Ingredients for Beginners",
     description:
       "A practical starter guide to five approachable ingredients that already feel close to everyday cooking.",

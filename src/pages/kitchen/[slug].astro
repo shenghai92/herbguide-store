@@ -13,7 +13,7 @@ export function getStaticPaths() {
 const { article } = Astro.props;
 const relatedTopics = getTopicsForFood(article.slug);
 const herbLinkMap: Record<string, Array<{ name: string; href: string }>> = {
-  "5-easy-chinese-food-therapy-ingredients-for-beginners": [
+  "5-easy-kitchen-ingredients-for-beginners": [
     { name: "Fresh Ginger", href: "/herbs/fresh-ginger/" },
     { name: "Jujube", href: "/herbs/jujube-red-date/" },
     { name: "Goji Berry", href: "/herbs/goji-berry/" },
@@ -114,115 +114,115 @@ const relatedHerbs = herbLinkMap[article.slug] ?? [
   { name: "Goji Berry", href: "/herbs/goji-berry/" },
 ];
 const recipeLinkMap: Record<string, Array<{ title: string; href: string }>> = {
-  "5-easy-chinese-food-therapy-ingredients-for-beginners": [
-    { title: "Jujube and Ginger Tea for Busy Weeks", href: "/food-therapy/jujube-and-ginger-tea-for-busy-weeks/" },
-    { title: "Goji Berry Porridge for Gentle Mornings", href: "/food-therapy/goji-berry-porridge-for-gentle-mornings/" },
-    { title: "Black Sesame Breakfast Ideas for Beginners", href: "/food-therapy/black-sesame-breakfast-ideas-for-beginners/" },
+  "5-easy-kitchen-ingredients-for-beginners": [
+    { title: "Jujube and Ginger Tea for Busy Weeks", href: "/kitchen/jujube-and-ginger-tea-for-busy-weeks/" },
+    { title: "Goji Berry Porridge for Gentle Mornings", href: "/kitchen/goji-berry-porridge-for-gentle-mornings/" },
+    { title: "Black Sesame Breakfast Ideas for Beginners", href: "/kitchen/black-sesame-breakfast-ideas-for-beginners/" },
   ],
   "a-simple-warming-soup-guide-for-cold-weather": [
-    { title: "Perilla and Ginger Soup for Cool Days", href: "/food-therapy/perilla-and-ginger-soup-for-cool-days/" },
-    { title: "Chinese Yam and Carrot Soup Basics", href: "/food-therapy/chinese-yam-and-carrot-soup-basics/" },
-    { title: "Jujube and Ginger Tea for Busy Weeks", href: "/food-therapy/jujube-and-ginger-tea-for-busy-weeks/" },
+    { title: "Perilla and Ginger Soup for Cool Days", href: "/kitchen/perilla-and-ginger-soup-for-cool-days/" },
+    { title: "Chinese Yam and Carrot Soup Basics", href: "/kitchen/chinese-yam-and-carrot-soup-basics/" },
+    { title: "Jujube and Ginger Tea for Busy Weeks", href: "/kitchen/jujube-and-ginger-tea-for-busy-weeks/" },
   ],
   "jujube-and-ginger-tea-for-busy-weeks": [
-    { title: "Schisandra and Jujube Tea Basics", href: "/food-therapy/schisandra-and-jujube-tea-basics/" },
-    { title: "A Simple Warming Soup Guide for Cold Weather", href: "/food-therapy/a-simple-warming-soup-guide-for-cold-weather/" },
-    { title: "Jujube and Lotus Seed Congee for Quiet Evenings", href: "/food-therapy/jujube-and-lotus-seed-congee-for-quiet-evenings/" },
+    { title: "Schisandra and Jujube Tea Basics", href: "/kitchen/schisandra-and-jujube-tea-basics/" },
+    { title: "A Simple Warming Soup Guide for Cold Weather", href: "/kitchen/a-simple-warming-soup-guide-for-cold-weather/" },
+    { title: "Jujube and Lotus Seed Congee for Quiet Evenings", href: "/kitchen/jujube-and-lotus-seed-congee-for-quiet-evenings/" },
   ],
   "pear-and-lily-bulb-soup-for-dry-days": [
-    { title: "Tremella and Pear Sweet Soup Basics", href: "/food-therapy/tremella-and-pear-sweet-soup-basics/" },
-    { title: "Pear and Chrysanthemum Tea for Warm Afternoons", href: "/food-therapy/pear-and-chrysanthemum-tea-for-warm-afternoons/" },
-    { title: "Mulberry and Goji Tea Basics", href: "/food-therapy/mulberry-and-goji-tea-basics/" },
+    { title: "Tremella and Pear Sweet Soup Basics", href: "/kitchen/tremella-and-pear-sweet-soup-basics/" },
+    { title: "Pear and Chrysanthemum Tea for Warm Afternoons", href: "/kitchen/pear-and-chrysanthemum-tea-for-warm-afternoons/" },
+    { title: "Mulberry and Goji Tea Basics", href: "/kitchen/mulberry-and-goji-tea-basics/" },
   ],
   "black-sesame-breakfast-ideas-for-beginners": [
-    { title: "Black Sesame and Jujube Breakfast Bowl", href: "/food-therapy/black-sesame-and-jujube-breakfast-bowl/" },
-    { title: "Goji Berry Porridge for Gentle Mornings", href: "/food-therapy/goji-berry-porridge-for-gentle-mornings/" },
-    { title: "5 Easy Chinese Food Therapy Ingredients for Beginners", href: "/food-therapy/5-easy-chinese-food-therapy-ingredients-for-beginners/" },
+    { title: "Black Sesame and Jujube Breakfast Bowl", href: "/kitchen/black-sesame-and-jujube-breakfast-bowl/" },
+    { title: "Goji Berry Porridge for Gentle Mornings", href: "/kitchen/goji-berry-porridge-for-gentle-mornings/" },
+    { title: "5 Easy Chinese Food Therapy Ingredients for Beginners", href: "/kitchen/5-easy-kitchen-ingredients-for-beginners/" },
   ],
   "chrysanthemum-and-mint-cooling-tea-basics": [
-    { title: "Pear and Chrysanthemum Tea for Warm Afternoons", href: "/food-therapy/pear-and-chrysanthemum-tea-for-warm-afternoons/" },
-    { title: "Goji and Chrysanthemum Tea Basics", href: "/food-therapy/goji-and-chrysanthemum-tea-basics/" },
-    { title: "Mulberry and Goji Tea Basics", href: "/food-therapy/mulberry-and-goji-tea-basics/" },
+    { title: "Pear and Chrysanthemum Tea for Warm Afternoons", href: "/kitchen/pear-and-chrysanthemum-tea-for-warm-afternoons/" },
+    { title: "Goji and Chrysanthemum Tea Basics", href: "/kitchen/goji-and-chrysanthemum-tea-basics/" },
+    { title: "Mulberry and Goji Tea Basics", href: "/kitchen/mulberry-and-goji-tea-basics/" },
   ],
   "goji-berry-porridge-for-gentle-mornings": [
-    { title: "Goji and Chrysanthemum Tea Basics", href: "/food-therapy/goji-and-chrysanthemum-tea-basics/" },
-    { title: "Mulberry and Goji Tea Basics", href: "/food-therapy/mulberry-and-goji-tea-basics/" },
-    { title: "Black Sesame and Jujube Breakfast Bowl", href: "/food-therapy/black-sesame-and-jujube-breakfast-bowl/" },
+    { title: "Goji and Chrysanthemum Tea Basics", href: "/kitchen/goji-and-chrysanthemum-tea-basics/" },
+    { title: "Mulberry and Goji Tea Basics", href: "/kitchen/mulberry-and-goji-tea-basics/" },
+    { title: "Black Sesame and Jujube Breakfast Bowl", href: "/kitchen/black-sesame-and-jujube-breakfast-bowl/" },
   ],
   "lotus-seed-and-longan-sweet-soup-basics": [
-    { title: "Jujube and Lotus Seed Congee for Quiet Evenings", href: "/food-therapy/jujube-and-lotus-seed-congee-for-quiet-evenings/" },
-    { title: "Tremella and Lotus Seed Sweet Soup Basics", href: "/food-therapy/tremella-and-lotus-seed-sweet-soup-basics/" },
-    { title: "Schisandra and Jujube Tea Basics", href: "/food-therapy/schisandra-and-jujube-tea-basics/" },
+    { title: "Jujube and Lotus Seed Congee for Quiet Evenings", href: "/kitchen/jujube-and-lotus-seed-congee-for-quiet-evenings/" },
+    { title: "Tremella and Lotus Seed Sweet Soup Basics", href: "/kitchen/tremella-and-lotus-seed-sweet-soup-basics/" },
+    { title: "Schisandra and Jujube Tea Basics", href: "/kitchen/schisandra-and-jujube-tea-basics/" },
   ],
   "chen-pi-tea-for-heavy-meal-days": [
-    { title: "Hawthorn Berry Tea for Rich Meals", href: "/food-therapy/hawthorn-berry-tea-for-rich-meals/" },
-    { title: "Job's Tears Porridge for Heavy Days", href: "/food-therapy/jobs-tears-porridge-for-heavy-days/" },
-    { title: "Adzuki Bean and Job's Tears Soup Basics", href: "/food-therapy/adzuki-bean-and-jobs-tears-soup-basics/" },
+    { title: "Hawthorn Berry Tea for Rich Meals", href: "/kitchen/hawthorn-berry-tea-for-rich-meals/" },
+    { title: "Job's Tears Porridge for Heavy Days", href: "/kitchen/jobs-tears-porridge-for-heavy-days/" },
+    { title: "Adzuki Bean and Job's Tears Soup Basics", href: "/kitchen/adzuki-bean-and-jobs-tears-soup-basics/" },
   ],
   "hawthorn-berry-tea-for-rich-meals": [
-    { title: "Chen Pi Tea for Heavy Meal Days", href: "/food-therapy/chen-pi-tea-for-heavy-meal-days/" },
-    { title: "Job's Tears Porridge for Heavy Days", href: "/food-therapy/jobs-tears-porridge-for-heavy-days/" },
-    { title: "Adzuki Bean and Job's Tears Soup Basics", href: "/food-therapy/adzuki-bean-and-jobs-tears-soup-basics/" },
+    { title: "Chen Pi Tea for Heavy Meal Days", href: "/kitchen/chen-pi-tea-for-heavy-meal-days/" },
+    { title: "Job's Tears Porridge for Heavy Days", href: "/kitchen/jobs-tears-porridge-for-heavy-days/" },
+    { title: "Adzuki Bean and Job's Tears Soup Basics", href: "/kitchen/adzuki-bean-and-jobs-tears-soup-basics/" },
   ],
   "black-sesame-and-jujube-breakfast-bowl": [
-    { title: "Black Sesame Breakfast Ideas for Beginners", href: "/food-therapy/black-sesame-breakfast-ideas-for-beginners/" },
-    { title: "Goji Berry Porridge for Gentle Mornings", href: "/food-therapy/goji-berry-porridge-for-gentle-mornings/" },
-    { title: "Jujube and Lotus Seed Congee for Quiet Evenings", href: "/food-therapy/jujube-and-lotus-seed-congee-for-quiet-evenings/" },
+    { title: "Black Sesame Breakfast Ideas for Beginners", href: "/kitchen/black-sesame-breakfast-ideas-for-beginners/" },
+    { title: "Goji Berry Porridge for Gentle Mornings", href: "/kitchen/goji-berry-porridge-for-gentle-mornings/" },
+    { title: "Jujube and Lotus Seed Congee for Quiet Evenings", href: "/kitchen/jujube-and-lotus-seed-congee-for-quiet-evenings/" },
   ],
   "jobs-tears-porridge-for-heavy-days": [
-    { title: "Adzuki Bean and Job's Tears Soup Basics", href: "/food-therapy/adzuki-bean-and-jobs-tears-soup-basics/" },
-    { title: "Chen Pi Tea for Heavy Meal Days", href: "/food-therapy/chen-pi-tea-for-heavy-meal-days/" },
-    { title: "Hawthorn Berry Tea for Rich Meals", href: "/food-therapy/hawthorn-berry-tea-for-rich-meals/" },
+    { title: "Adzuki Bean and Job's Tears Soup Basics", href: "/kitchen/adzuki-bean-and-jobs-tears-soup-basics/" },
+    { title: "Chen Pi Tea for Heavy Meal Days", href: "/kitchen/chen-pi-tea-for-heavy-meal-days/" },
+    { title: "Hawthorn Berry Tea for Rich Meals", href: "/kitchen/hawthorn-berry-tea-for-rich-meals/" },
   ],
   "pear-and-chrysanthemum-tea-for-warm-afternoons": [
-    { title: "Chrysanthemum and Mint Cooling Tea Basics", href: "/food-therapy/chrysanthemum-and-mint-cooling-tea-basics/" },
-    { title: "Goji and Chrysanthemum Tea Basics", href: "/food-therapy/goji-and-chrysanthemum-tea-basics/" },
-    { title: "Pear and Lily Bulb Soup for Dry Days", href: "/food-therapy/pear-and-lily-bulb-soup-for-dry-days/" },
+    { title: "Chrysanthemum and Mint Cooling Tea Basics", href: "/kitchen/chrysanthemum-and-mint-cooling-tea-basics/" },
+    { title: "Goji and Chrysanthemum Tea Basics", href: "/kitchen/goji-and-chrysanthemum-tea-basics/" },
+    { title: "Pear and Lily Bulb Soup for Dry Days", href: "/kitchen/pear-and-lily-bulb-soup-for-dry-days/" },
   ],
   "goji-and-chrysanthemum-tea-basics": [
-    { title: "Chrysanthemum and Mint Cooling Tea Basics", href: "/food-therapy/chrysanthemum-and-mint-cooling-tea-basics/" },
-    { title: "Pear and Chrysanthemum Tea for Warm Afternoons", href: "/food-therapy/pear-and-chrysanthemum-tea-for-warm-afternoons/" },
-    { title: "Mulberry and Goji Tea Basics", href: "/food-therapy/mulberry-and-goji-tea-basics/" },
+    { title: "Chrysanthemum and Mint Cooling Tea Basics", href: "/kitchen/chrysanthemum-and-mint-cooling-tea-basics/" },
+    { title: "Pear and Chrysanthemum Tea for Warm Afternoons", href: "/kitchen/pear-and-chrysanthemum-tea-for-warm-afternoons/" },
+    { title: "Mulberry and Goji Tea Basics", href: "/kitchen/mulberry-and-goji-tea-basics/" },
   ],
   "jujube-and-lotus-seed-congee-for-quiet-evenings": [
-    { title: "Lotus Seed and Longan Sweet Soup Basics", href: "/food-therapy/lotus-seed-and-longan-sweet-soup-basics/" },
-    { title: "Tremella and Lotus Seed Sweet Soup Basics", href: "/food-therapy/tremella-and-lotus-seed-sweet-soup-basics/" },
-    { title: "Schisandra and Jujube Tea Basics", href: "/food-therapy/schisandra-and-jujube-tea-basics/" },
+    { title: "Lotus Seed and Longan Sweet Soup Basics", href: "/kitchen/lotus-seed-and-longan-sweet-soup-basics/" },
+    { title: "Tremella and Lotus Seed Sweet Soup Basics", href: "/kitchen/tremella-and-lotus-seed-sweet-soup-basics/" },
+    { title: "Schisandra and Jujube Tea Basics", href: "/kitchen/schisandra-and-jujube-tea-basics/" },
   ],
   "tremella-and-pear-sweet-soup-basics": [
-    { title: "Pear and Lily Bulb Soup for Dry Days", href: "/food-therapy/pear-and-lily-bulb-soup-for-dry-days/" },
-    { title: "Tremella and Lotus Seed Sweet Soup Basics", href: "/food-therapy/tremella-and-lotus-seed-sweet-soup-basics/" },
-    { title: "Mulberry and Goji Tea Basics", href: "/food-therapy/mulberry-and-goji-tea-basics/" },
+    { title: "Pear and Lily Bulb Soup for Dry Days", href: "/kitchen/pear-and-lily-bulb-soup-for-dry-days/" },
+    { title: "Tremella and Lotus Seed Sweet Soup Basics", href: "/kitchen/tremella-and-lotus-seed-sweet-soup-basics/" },
+    { title: "Mulberry and Goji Tea Basics", href: "/kitchen/mulberry-and-goji-tea-basics/" },
   ],
   "adzuki-bean-and-jobs-tears-soup-basics": [
-    { title: "Job's Tears Porridge for Heavy Days", href: "/food-therapy/jobs-tears-porridge-for-heavy-days/" },
-    { title: "Chen Pi Tea for Heavy Meal Days", href: "/food-therapy/chen-pi-tea-for-heavy-meal-days/" },
-    { title: "Hawthorn Berry Tea for Rich Meals", href: "/food-therapy/hawthorn-berry-tea-for-rich-meals/" },
+    { title: "Job's Tears Porridge for Heavy Days", href: "/kitchen/jobs-tears-porridge-for-heavy-days/" },
+    { title: "Chen Pi Tea for Heavy Meal Days", href: "/kitchen/chen-pi-tea-for-heavy-meal-days/" },
+    { title: "Hawthorn Berry Tea for Rich Meals", href: "/kitchen/hawthorn-berry-tea-for-rich-meals/" },
   ],
   "chinese-yam-and-carrot-soup-basics": [
-    { title: "Perilla and Ginger Soup for Cool Days", href: "/food-therapy/perilla-and-ginger-soup-for-cool-days/" },
-    { title: "A Simple Warming Soup Guide for Cold Weather", href: "/food-therapy/a-simple-warming-soup-guide-for-cold-weather/" },
-    { title: "Adzuki Bean and Job's Tears Soup Basics", href: "/food-therapy/adzuki-bean-and-jobs-tears-soup-basics/" },
+    { title: "Perilla and Ginger Soup for Cool Days", href: "/kitchen/perilla-and-ginger-soup-for-cool-days/" },
+    { title: "A Simple Warming Soup Guide for Cold Weather", href: "/kitchen/a-simple-warming-soup-guide-for-cold-weather/" },
+    { title: "Adzuki Bean and Job's Tears Soup Basics", href: "/kitchen/adzuki-bean-and-jobs-tears-soup-basics/" },
   ],
   "tremella-and-lotus-seed-sweet-soup-basics": [
-    { title: "Lotus Seed and Longan Sweet Soup Basics", href: "/food-therapy/lotus-seed-and-longan-sweet-soup-basics/" },
-    { title: "Tremella and Pear Sweet Soup Basics", href: "/food-therapy/tremella-and-pear-sweet-soup-basics/" },
-    { title: "Jujube and Lotus Seed Congee for Quiet Evenings", href: "/food-therapy/jujube-and-lotus-seed-congee-for-quiet-evenings/" },
+    { title: "Lotus Seed and Longan Sweet Soup Basics", href: "/kitchen/lotus-seed-and-longan-sweet-soup-basics/" },
+    { title: "Tremella and Pear Sweet Soup Basics", href: "/kitchen/tremella-and-pear-sweet-soup-basics/" },
+    { title: "Jujube and Lotus Seed Congee for Quiet Evenings", href: "/kitchen/jujube-and-lotus-seed-congee-for-quiet-evenings/" },
   ],
   "mulberry-and-goji-tea-basics": [
-    { title: "Goji and Chrysanthemum Tea Basics", href: "/food-therapy/goji-and-chrysanthemum-tea-basics/" },
-    { title: "Goji Berry Porridge for Gentle Mornings", href: "/food-therapy/goji-berry-porridge-for-gentle-mornings/" },
-    { title: "Pear and Lily Bulb Soup for Dry Days", href: "/food-therapy/pear-and-lily-bulb-soup-for-dry-days/" },
+    { title: "Goji and Chrysanthemum Tea Basics", href: "/kitchen/goji-and-chrysanthemum-tea-basics/" },
+    { title: "Goji Berry Porridge for Gentle Mornings", href: "/kitchen/goji-berry-porridge-for-gentle-mornings/" },
+    { title: "Pear and Lily Bulb Soup for Dry Days", href: "/kitchen/pear-and-lily-bulb-soup-for-dry-days/" },
   ],
   "perilla-and-ginger-soup-for-cool-days": [
-    { title: "A Simple Warming Soup Guide for Cold Weather", href: "/food-therapy/a-simple-warming-soup-guide-for-cold-weather/" },
-    { title: "Chinese Yam and Carrot Soup Basics", href: "/food-therapy/chinese-yam-and-carrot-soup-basics/" },
-    { title: "Jujube and Ginger Tea for Busy Weeks", href: "/food-therapy/jujube-and-ginger-tea-for-busy-weeks/" },
+    { title: "A Simple Warming Soup Guide for Cold Weather", href: "/kitchen/a-simple-warming-soup-guide-for-cold-weather/" },
+    { title: "Chinese Yam and Carrot Soup Basics", href: "/kitchen/chinese-yam-and-carrot-soup-basics/" },
+    { title: "Jujube and Ginger Tea for Busy Weeks", href: "/kitchen/jujube-and-ginger-tea-for-busy-weeks/" },
   ],
   "schisandra-and-jujube-tea-basics": [
-    { title: "Jujube and Ginger Tea for Busy Weeks", href: "/food-therapy/jujube-and-ginger-tea-for-busy-weeks/" },
-    { title: "Jujube and Lotus Seed Congee for Quiet Evenings", href: "/food-therapy/jujube-and-lotus-seed-congee-for-quiet-evenings/" },
-    { title: "Lotus Seed and Longan Sweet Soup Basics", href: "/food-therapy/lotus-seed-and-longan-sweet-soup-basics/" },
+    { title: "Jujube and Ginger Tea for Busy Weeks", href: "/kitchen/jujube-and-ginger-tea-for-busy-weeks/" },
+    { title: "Jujube and Lotus Seed Congee for Quiet Evenings", href: "/kitchen/jujube-and-lotus-seed-congee-for-quiet-evenings/" },
+    { title: "Lotus Seed and Longan Sweet Soup Basics", href: "/kitchen/lotus-seed-and-longan-sweet-soup-basics/" },
   ],
 };
 const relatedRecipes = recipeLinkMap[article.slug] ?? [];
@@ -252,7 +252,7 @@ const recipeSchema = article.recipe
         "@type": "HowToStep",
         text: step,
       })),
-      mainEntityOfPage: `https://herbguide.store/food-therapy/${article.slug}/`,
+      mainEntityOfPage: `https://herbguide.store/kitchen/${article.slug}/`,
       keywords: articleKeywords,
       author: {
         "@type": "Organization",
@@ -261,7 +261,7 @@ const recipeSchema = article.recipe
       isPartOf: {
         "@type": "CollectionPage",
         name: "Kitchen Traditions",
-        url: "https://herbguide.store/food-therapy/",
+        url: "https://herbguide.store/kitchen/",
       },
     }
   : null;
@@ -308,8 +308,8 @@ const faqSchema = article.recipe
       "@type": "Article",
       headline: article.title,
       description: article.description,
-      url: `https://herbguide.store/food-therapy/${article.slug}/`,
-      mainEntityOfPage: `https://herbguide.store/food-therapy/${article.slug}/`,
+      url: `https://herbguide.store/kitchen/${article.slug}/`,
+      mainEntityOfPage: `https://herbguide.store/kitchen/${article.slug}/`,
       keywords: articleKeywords.join(", "),
       articleSection: "Kitchen Traditions",
       author: {
@@ -335,13 +335,13 @@ const faqSchema = article.recipe
           "@type": "ListItem",
           position: 2,
           name: "Kitchen Traditions",
-          item: "https://herbguide.store/food-therapy/",
+          item: "https://herbguide.store/kitchen/",
         },
         {
           "@type": "ListItem",
           position: 3,
           name: article.title,
-          item: `https://herbguide.store/food-therapy/${article.slug}/`,
+          item: `https://herbguide.store/kitchen/${article.slug}/`,
         },
       ],
     },
@@ -477,7 +477,7 @@ const faqSchema = article.recipe
         <p class="eyebrow">Keep exploring</p>
         <h2>Back to Kitchen Traditions</h2>
         <p>
-          This article is part of the <a href="/food-therapy/">Kitchen Traditions</a> section. Return
+          This article is part of the <a href="/kitchen/">Kitchen Traditions</a> section. Return
           there for more kitchen-focused reading and ingredient ideas.
         </p>
       </article>

@@ -11,7 +11,7 @@ export const goalCards = [
 
 const rawBasicsCards = [
   {
-    slug: "what-is-tcm",
+    slug: "what-is-traditional-herb-theory",
     title: "What Is Traditional Herb Theory?",
     text: "A clear first look at this traditional framework without the jargon overload.",
   },
@@ -36,7 +36,7 @@ const rawBasicsCards = [
     text: "A plain-English guide to one of the most famous but most flattened traditional ideas.",
   },
   {
-    slug: "what-does-blood-mean-in-tcm",
+    slug: "what-does-blood-mean",
     title: "What Does Blood Mean in Traditional Herb Writing?",
     text: "A careful beginner explanation of what blood means inside traditional theory.",
   },
@@ -66,7 +66,7 @@ const rawBasicsCards = [
     text: "A plain-English explanation of one of the most common cooling-herb phrases.",
   },
   {
-    slug: "what-does-tonify-mean-in-tcm",
+    slug: "what-does-tonify-mean",
     title: "What Does Tonify Mean in Traditional Herb Writing?",
     text: "A simple guide to one of the most common translation words in traditional herb content.",
   },
@@ -76,12 +76,12 @@ const rawBasicsCards = [
     text: "A beginner-friendly explanation of a classic phrase used on gentle food and herb pages.",
   },
   {
-    slug: "what-does-spleen-mean-in-tcm",
+    slug: "what-does-spleen-mean",
     title: "What Does Spleen Mean in Traditional Herb Writing?",
     text: "A plain-English guide to one of the most important organ-system words in kitchen-tradition writing.",
   },
   {
-    slug: "what-does-liver-mean-in-tcm",
+    slug: "what-does-liver-mean",
     title: "What Does Liver Mean in Traditional Herb Writing?",
     text: "A clear explanation of why the traditional liver label is broader than a modern anatomy label.",
   },
@@ -91,12 +91,12 @@ const rawBasicsCards = [
     text: "A cautious beginner guide to one of the most searched traditional pattern phrases.",
   },
   {
-    slug: "what-does-shen-mean-in-tcm",
+    slug: "what-does-shen-mean",
     title: "What Does Shen Mean in Traditional Herb Writing?",
     text: "A plain-English explanation of one of the most misunderstood mind-and-spirit terms in traditional writing.",
   },
   {
-    slug: "what-does-jing-mean-in-tcm",
+    slug: "what-does-jing-mean",
     title: "What Does Jing Mean in Traditional Herb Writing?",
     text: "A careful beginner guide to the traditional idea of essence without turning it into hype.",
   },
@@ -106,17 +106,17 @@ const rawBasicsCards = [
     text: "A plain-English explanation of one of the most confusing lines on many traditional herb pages.",
   },
   {
-    slug: "what-is-food-stagnation-in-tcm",
+    slug: "what-is-food-stagnation",
     title: "What Is Food Stagnation?",
     text: "A careful beginner guide to one of the most common digestive terms in traditional kitchen-style herb content.",
   },
   {
-    slug: "what-does-nourish-blood-mean-in-tcm",
+    slug: "what-does-nourish-blood-mean",
     title: "What Does Nourish Blood Mean?",
     text: "A plain-English guide to one of the most common traditional phrases on nourishing herb pages.",
   },
   {
-    slug: "what-is-damp-heat-in-tcm",
+    slug: "what-is-damp-heat",
     title: "What Is Damp Heat?",
     text: "A careful beginner explanation of a very common traditional pattern phrase in digestive and seasonal content.",
   },
@@ -141,12 +141,12 @@ const rawBasicsCards = [
     text: "A kitchen-first comparison that helps readers understand how the same ingredient reads differently in a cup and in a bowl.",
   },
   {
-    slug: "what-does-astringent-mean-in-tcm",
+    slug: "what-does-astringent-mean",
     title: "What Does Astringent Mean?",
     text: "A plain-English explanation of one of the most confusing traditional quality words on many herb pages.",
   },
   {
-    slug: "what-does-harmonizing-mean-in-tcm",
+    slug: "what-does-harmonizing-mean",
     title: "What Does Harmonizing Mean?",
     text: "A plain-English guide to one of the most common but least explained role words on herb and formula pages.",
   },
@@ -224,7 +224,7 @@ const rawRecipeCards = [
     text: "A soft breakfast-style page built around one of the easiest pantry herbs for beginners.",
   },
   {
-    slug: "5-easy-chinese-food-therapy-ingredients-for-beginners",
+    slug: "5-easy-traditional-kitchen-ingredients-for-beginners",
     title: "5 Easy Chinese Food Therapy Ingredients for Beginners",
     text: "Start with simple pantry ingredients that feel familiar and useful.",
   },

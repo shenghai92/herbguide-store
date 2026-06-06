@@ -21,7 +21,7 @@ const rawHerbEnhancements: HerbEnhancement[] = [
     compareLinks: [
       { title: "Goji Berry vs Jujube", href: "/basics/goji-berry-vs-jujube/" },
       { title: "Balanced Pantry Habits", href: "/topics/balanced-pantry-habits/" },
-      { title: "Goji and Chrysanthemum Tea Basics", href: "/food-therapy/goji-and-chrysanthemum-tea-basics/" },
+      { title: "Goji and Chrysanthemum Tea Basics", href: "/kitchen/goji-and-chrysanthemum-tea-basics/" },
       { title: "Goji Berry Tea vs Goji Berry Porridge", href: "/basics/goji-berry-tea-vs-goji-berry-porridge/" },
     ],
   },
@@ -33,7 +33,7 @@ const rawHerbEnhancements: HerbEnhancement[] = [
       "Use it as a context herb for learning qi language rather than as a casual everyday recommendation.",
     ],
     compareLinks: [
-      { title: "What Does Tonify Mean in Traditional Herb Writing?", href: "/basics/what-does-tonify-mean-in-tcm/" },
+      { title: "What Does Tonify Mean in Traditional Herb Writing?", href: "/basics/what-does-tonify-mean/" },
       { title: "Warming Foods", href: "/topics/warming-foods/" },
     ],
   },
@@ -59,7 +59,7 @@ const rawHerbEnhancements: HerbEnhancement[] = [
     compareLinks: [
       { title: "Goji Berry vs Jujube", href: "/basics/goji-berry-vs-jujube/" },
       { title: "Evening Teas", href: "/topics/evening-teas/" },
-      { title: "Jujube and Lotus Seed Congee for Quiet Evenings", href: "/food-therapy/jujube-and-lotus-seed-congee-for-quiet-evenings/" },
+      { title: "Jujube and Lotus Seed Congee for Quiet Evenings", href: "/kitchen/jujube-and-lotus-seed-congee-for-quiet-evenings/" },
     ],
   },
   {
@@ -71,8 +71,8 @@ const rawHerbEnhancements: HerbEnhancement[] = [
     ],
     compareLinks: [
       { title: "What Does Clear Heat Mean?", href: "/basics/what-does-clear-heat-mean/" },
-      { title: "Chrysanthemum and Mint Cooling Tea Basics", href: "/food-therapy/chrysanthemum-and-mint-cooling-tea-basics/" },
-      { title: "Goji and Chrysanthemum Tea Basics", href: "/food-therapy/goji-and-chrysanthemum-tea-basics/" },
+      { title: "Chrysanthemum and Mint Cooling Tea Basics", href: "/kitchen/chrysanthemum-and-mint-cooling-tea-basics/" },
+      { title: "Goji and Chrysanthemum Tea Basics", href: "/kitchen/goji-and-chrysanthemum-tea-basics/" },
       { title: "Chrysanthemum vs Mint", href: "/basics/chrysanthemum-vs-mint/" },
     ],
   },
@@ -85,7 +85,7 @@ const rawHerbEnhancements: HerbEnhancement[] = [
     ],
     compareLinks: [
       { title: "Chrysanthemum vs Mint", href: "/basics/chrysanthemum-vs-mint/" },
-      { title: "Chrysanthemum and Mint Cooling Tea Basics", href: "/food-therapy/chrysanthemum-and-mint-cooling-tea-basics/" },
+      { title: "Chrysanthemum and Mint Cooling Tea Basics", href: "/kitchen/chrysanthemum-and-mint-cooling-tea-basics/" },
     ],
   },
   {
@@ -96,7 +96,7 @@ const rawHerbEnhancements: HerbEnhancement[] = [
       "It is strongest on HerbGuide when framed as a food-first ingredient rather than a hype-heavy beauty angle.",
     ],
     compareLinks: [
-      { title: "Black Sesame Breakfast Ideas for Beginners", href: "/food-therapy/black-sesame-breakfast-ideas-for-beginners/" },
+      { title: "Black Sesame Breakfast Ideas for Beginners", href: "/kitchen/black-sesame-breakfast-ideas-for-beginners/" },
       { title: "Beauty Foods", href: "/topics/beauty-foods/" },
     ],
   },
@@ -108,8 +108,8 @@ const rawHerbEnhancements: HerbEnhancement[] = [
       "Use it as a digestive reading page that connects glossary terms with practical kitchen context.",
     ],
     compareLinks: [
-      { title: "Hawthorn Berry Tea for Rich Meals", href: "/food-therapy/hawthorn-berry-tea-for-rich-meals/" },
-      { title: "What Is Food Stagnation?", href: "/basics/what-is-food-stagnation-in-tcm/" },
+      { title: "Hawthorn Berry Tea for Rich Meals", href: "/kitchen/hawthorn-berry-tea-for-rich-meals/" },
+      { title: "What Is Food Stagnation?", href: "/basics/what-is-food-stagnation/" },
       { title: "Chen Pi vs Hawthorn Berry", href: "/basics/chen-pi-vs-hawthorn-berry/" },
     ],
   },
@@ -122,7 +122,7 @@ const rawHerbEnhancements: HerbEnhancement[] = [
     ],
     compareLinks: [
       { title: "What Is Dampness?", href: "/basics/what-is-dampness/" },
-      { title: "Job's Tears Porridge for Heavy Days", href: "/food-therapy/jobs-tears-porridge-for-heavy-days/" },
+      { title: "Job's Tears Porridge for Heavy Days", href: "/kitchen/jobs-tears-porridge-for-heavy-days/" },
       { title: "Poria vs Job's Tears", href: "/basics/poria-vs-jobs-tears/" },
     ],
   },
@@ -134,9 +134,9 @@ const rawHerbEnhancements: HerbEnhancement[] = [
       "Use it as a bridge between pantry familiarity and calmer traditional vocabulary.",
     ],
     compareLinks: [
-      { title: "Lotus Seed and Longan Sweet Soup Basics", href: "/food-therapy/lotus-seed-and-longan-sweet-soup-basics/" },
-      { title: "What Does Shen Mean in Traditional Herb Writing?", href: "/basics/what-does-shen-mean-in-tcm/" },
-      { title: "Jujube and Lotus Seed Congee for Quiet Evenings", href: "/food-therapy/jujube-and-lotus-seed-congee-for-quiet-evenings/" },
+      { title: "Lotus Seed and Longan Sweet Soup Basics", href: "/kitchen/lotus-seed-and-longan-sweet-soup-basics/" },
+      { title: "What Does Shen Mean in Traditional Herb Writing?", href: "/basics/what-does-shen-mean/" },
+      { title: "Jujube and Lotus Seed Congee for Quiet Evenings", href: "/kitchen/jujube-and-lotus-seed-congee-for-quiet-evenings/" },
     ],
   },
   {
@@ -147,7 +147,7 @@ const rawHerbEnhancements: HerbEnhancement[] = [
       "A porridge or grain-style page is usually the easiest way to make this ingredient memorable.",
     ],
     compareLinks: [
-      { title: "Job's Tears Porridge for Heavy Days", href: "/food-therapy/jobs-tears-porridge-for-heavy-days/" },
+      { title: "Job's Tears Porridge for Heavy Days", href: "/kitchen/jobs-tears-porridge-for-heavy-days/" },
       { title: "Digestive Traditions", href: "/topics/digestive-traditions/" },
       { title: "Poria vs Job's Tears", href: "/basics/poria-vs-jobs-tears/" },
     ],
@@ -160,7 +160,7 @@ const rawHerbEnhancements: HerbEnhancement[] = [
       "A tea-style page is often the simplest way for readers to connect the traditional story with practical kitchen use.",
     ],
     compareLinks: [
-      { title: "Chen Pi Tea for Heavy Meal Days", href: "/food-therapy/chen-pi-tea-for-heavy-meal-days/" },
+      { title: "Chen Pi Tea for Heavy Meal Days", href: "/kitchen/chen-pi-tea-for-heavy-meal-days/" },
       { title: "Digestive Traditions", href: "/topics/digestive-traditions/" },
       { title: "Chen Pi vs Hawthorn Berry", href: "/basics/chen-pi-vs-hawthorn-berry/" },
     ],
@@ -173,9 +173,9 @@ const rawHerbEnhancements: HerbEnhancement[] = [
       "It works best as a food-first ingredient that helps explain moisture and softness language gently.",
     ],
     compareLinks: [
-      { title: "Tremella and Pear Sweet Soup Basics", href: "/food-therapy/tremella-and-pear-sweet-soup-basics/" },
+      { title: "Tremella and Pear Sweet Soup Basics", href: "/kitchen/tremella-and-pear-sweet-soup-basics/" },
       { title: "Seasonal Kitchen Ideas", href: "/topics/seasonal-kitchen-ideas/" },
-      { title: "Tremella and Lotus Seed Sweet Soup Basics", href: "/food-therapy/tremella-and-lotus-seed-sweet-soup-basics/" },
+      { title: "Tremella and Lotus Seed Sweet Soup Basics", href: "/kitchen/tremella-and-lotus-seed-sweet-soup-basics/" },
     ],
   },
   {
@@ -186,7 +186,7 @@ const rawHerbEnhancements: HerbEnhancement[] = [
       "Readers usually understand this page best after one plain-English article about dampness or digestive heaviness.",
     ],
     compareLinks: [
-      { title: "Adzuki Bean and Job's Tears Soup Basics", href: "/food-therapy/adzuki-bean-and-jobs-tears-soup-basics/" },
+      { title: "Adzuki Bean and Job's Tears Soup Basics", href: "/kitchen/adzuki-bean-and-jobs-tears-soup-basics/" },
       { title: "Digestive Traditions", href: "/topics/digestive-traditions/" },
     ],
   },
@@ -198,7 +198,7 @@ const rawHerbEnhancements: HerbEnhancement[] = [
       "Simple soup and porridge pages usually teach this ingredient better than abstract theory alone.",
     ],
     compareLinks: [
-      { title: "Chinese Yam and Carrot Soup Basics", href: "/food-therapy/chinese-yam-and-carrot-soup-basics/" },
+      { title: "Chinese Yam and Carrot Soup Basics", href: "/kitchen/chinese-yam-and-carrot-soup-basics/" },
       { title: "Balanced Pantry Habits", href: "/topics/balanced-pantry-habits/" },
     ],
   },
@@ -210,8 +210,8 @@ const rawHerbEnhancements: HerbEnhancement[] = [
       "The best first click after this page is usually a plain-English basics article about harmonizing or a gentle digestive pathway page.",
     ],
     compareLinks: [
-      { title: "What Does Harmonizing Mean?", href: "/basics/what-does-harmonizing-mean-in-tcm/" },
-      { title: "What Does Tonify Mean in Traditional Herb Writing?", href: "/basics/what-does-tonify-mean-in-tcm/" },
+      { title: "What Does Harmonizing Mean?", href: "/basics/what-does-harmonizing-mean/" },
+      { title: "What Does Tonify Mean in Traditional Herb Writing?", href: "/basics/what-does-tonify-mean/" },
       { title: "Balanced Pantry Habits", href: "/topics/balanced-pantry-habits/" },
     ],
   },
@@ -223,8 +223,8 @@ const rawHerbEnhancements: HerbEnhancement[] = [
       "It works best when readers connect the berry to astringent language and then move into one gentle recipe page.",
     ],
     compareLinks: [
-      { title: "What Does Astringent Mean?", href: "/basics/what-does-astringent-mean-in-tcm/" },
-      { title: "Schisandra and Jujube Tea Basics", href: "/food-therapy/schisandra-and-jujube-tea-basics/" },
+      { title: "What Does Astringent Mean?", href: "/basics/what-does-astringent-mean/" },
+      { title: "Schisandra and Jujube Tea Basics", href: "/kitchen/schisandra-and-jujube-tea-basics/" },
       { title: "Evening Teas", href: "/topics/evening-teas/" },
     ],
   },
@@ -237,7 +237,7 @@ const rawHerbEnhancements: HerbEnhancement[] = [
     ],
     compareLinks: [
       { title: "Mulberry Fruit vs Goji Berry", href: "/basics/mulberry-fruit-vs-goji-berry/" },
-      { title: "Mulberry and Goji Tea Basics", href: "/food-therapy/mulberry-and-goji-tea-basics/" },
+      { title: "Mulberry and Goji Tea Basics", href: "/kitchen/mulberry-and-goji-tea-basics/" },
       { title: "Seasonal Kitchen Ideas", href: "/topics/seasonal-kitchen-ideas/" },
     ],
   },

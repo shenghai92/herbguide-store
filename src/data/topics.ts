@@ -31,7 +31,7 @@ const rawTopics: Topic[] = [
     intro:
       "Digestive content is one of the easiest places for beginners to enter traditional herb learning because it overlaps with soup, tea, pantry ingredients, and everyday meal language. This hub groups the gentlest entry points together.",
     herbSlugs: ["fresh-ginger", "dried-ginger", "chen-pi", "hawthorn-berry", "poria", "jobs-tears", "adzuki-bean"],
-    basicsSlugs: ["what-is-dampness", "what-is-qi-stagnation", "fresh-ginger-vs-dried-ginger", "what-does-tonify-mean-in-tcm", "what-does-spleen-mean-in-tcm", "what-is-food-stagnation-in-tcm", "what-is-damp-heat-in-tcm", "chen-pi-vs-hawthorn-berry", "poria-vs-jobs-tears", "what-does-harmonizing-mean-in-tcm"],
+    basicsSlugs: ["what-is-dampness", "what-is-qi-stagnation", "fresh-ginger-vs-dried-ginger", "what-does-tonify-mean", "what-does-spleen-mean", "what-is-food-stagnation", "what-is-damp-heat", "chen-pi-vs-hawthorn-berry", "poria-vs-jobs-tears", "what-does-harmonizing-mean"],
     foodSlugs: ["a-simple-warming-soup-guide-for-cold-weather", "chen-pi-tea-for-heavy-meal-days", "hawthorn-berry-tea-for-rich-meals", "jobs-tears-porridge-for-heavy-days", "adzuki-bean-and-jobs-tears-soup-basics"],
     sections: [
       {
@@ -67,7 +67,7 @@ const rawTopics: Topic[] = [
       },
       {
         title: "A Simple Warming Soup Guide for Cold Weather",
-        href: "/food-therapy/a-simple-warming-soup-guide-for-cold-weather/",
+        href: "/kitchen/a-simple-warming-soup-guide-for-cold-weather/",
         text: "A recipe-style page that shows digestive-friendly kitchen structure in practice.",
       },
       {
@@ -86,7 +86,7 @@ const rawTopics: Topic[] = [
     intro:
       "Tea pages are often approachable because readers can picture them instantly. This topic page groups together tea-style pages and pantry herbs that feel light, familiar, and easy to revisit.",
     herbSlugs: ["jujube-red-date", "chrysanthemum-flower", "longan-fruit", "lotus-seed", "mint", "schisandra-berry"],
-    basicsSlugs: ["goji-berry-vs-jujube", "warming-vs-cooling-foods", "what-does-clear-heat-mean", "what-does-shen-mean-in-tcm", "chrysanthemum-vs-mint", "what-does-astringent-mean-in-tcm"],
+    basicsSlugs: ["goji-berry-vs-jujube", "warming-vs-cooling-foods", "what-does-clear-heat-mean", "what-does-shen-mean", "chrysanthemum-vs-mint", "what-does-astringent-mean"],
     foodSlugs: ["jujube-and-ginger-tea-for-busy-weeks", "chrysanthemum-and-mint-cooling-tea-basics", "lotus-seed-and-longan-sweet-soup-basics", "pear-and-chrysanthemum-tea-for-warm-afternoons", "goji-and-chrysanthemum-tea-basics", "jujube-and-lotus-seed-congee-for-quiet-evenings", "schisandra-and-jujube-tea-basics"],
     sections: [
       {
@@ -111,12 +111,12 @@ const rawTopics: Topic[] = [
     featuredLinks: [
       {
         title: "Jujube and Ginger Tea for Busy Weeks",
-        href: "/food-therapy/jujube-and-ginger-tea-for-busy-weeks/",
+        href: "/kitchen/jujube-and-ginger-tea-for-busy-weeks/",
         text: "A simple tea page with ingredients, steps, and caution language.",
       },
       {
         title: "Chrysanthemum and Mint Cooling Tea Basics",
-        href: "/food-therapy/chrysanthemum-and-mint-cooling-tea-basics/",
+        href: "/kitchen/chrysanthemum-and-mint-cooling-tea-basics/",
         text: "A light tea guide that also teaches cooling vocabulary.",
       },
       {
@@ -140,7 +140,7 @@ const rawTopics: Topic[] = [
     intro:
       "Seasonality is one of the easiest ways to make traditional herb content practical. Readers may not know every traditional term, but they understand cold weather, dry days, summer drinks, and comfort foods. This topic page organizes the material through that familiar lens.",
     herbSlugs: ["fresh-ginger", "mint", "chrysanthemum-flower", "lily-bulb", "tremella-mushroom", "chinese-yam", "perilla-leaf", "mulberry-fruit"],
-    basicsSlugs: ["warming-vs-cooling-foods", "what-does-moisten-dryness-mean", "what-does-clear-heat-mean", "what-does-yin-deficiency-mean", "what-does-channel-entry-mean", "what-is-damp-heat-in-tcm", "chrysanthemum-vs-mint", "mulberry-fruit-vs-goji-berry"],
+    basicsSlugs: ["warming-vs-cooling-foods", "what-does-moisten-dryness-mean", "what-does-clear-heat-mean", "what-does-yin-deficiency-mean", "what-does-channel-entry-mean", "what-is-damp-heat", "chrysanthemum-vs-mint", "mulberry-fruit-vs-goji-berry"],
     foodSlugs: ["a-simple-warming-soup-guide-for-cold-weather", "pear-and-lily-bulb-soup-for-dry-days", "chrysanthemum-and-mint-cooling-tea-basics", "goji-berry-porridge-for-gentle-mornings", "pear-and-chrysanthemum-tea-for-warm-afternoons", "goji-and-chrysanthemum-tea-basics", "tremella-and-pear-sweet-soup-basics", "chinese-yam-and-carrot-soup-basics", "mulberry-and-goji-tea-basics", "perilla-and-ginger-soup-for-cool-days"],
     sections: [
       {
@@ -170,7 +170,7 @@ const rawTopics: Topic[] = [
       },
       {
         title: "Pear and Lily Bulb Soup for Dry Days",
-        href: "/food-therapy/pear-and-lily-bulb-soup-for-dry-days/",
+        href: "/kitchen/pear-and-lily-bulb-soup-for-dry-days/",
         text: "A gentle seasonal recipe-style page built around dryness vocabulary.",
       },
       {
@@ -194,7 +194,7 @@ const rawTopics: Topic[] = [
     intro:
       "Warming foods are one of the strongest beginner topics because the idea feels intuitive and useful. This hub gathers together the pages that explain warming language through herbs, tea, and soup rather than abstract theory alone.",
     herbSlugs: ["fresh-ginger", "dried-ginger", "astragalus-root", "cinnamon-twig", "perilla-leaf", "licorice-root"],
-    basicsSlugs: ["warming-vs-cooling-foods", "fresh-ginger-vs-dried-ginger", "what-does-tonify-mean-in-tcm", "what-does-spleen-mean-in-tcm", "what-does-harmonizing-mean-in-tcm"],
+    basicsSlugs: ["warming-vs-cooling-foods", "fresh-ginger-vs-dried-ginger", "what-does-tonify-mean", "what-does-spleen-mean", "what-does-harmonizing-mean"],
     foodSlugs: ["a-simple-warming-soup-guide-for-cold-weather", "jujube-and-ginger-tea-for-busy-weeks", "perilla-and-ginger-soup-for-cool-days"],
     sections: [
       {
@@ -230,7 +230,7 @@ const rawTopics: Topic[] = [
       },
       {
         title: "A Simple Warming Soup Guide for Cold Weather",
-        href: "/food-therapy/a-simple-warming-soup-guide-for-cold-weather/",
+        href: "/kitchen/a-simple-warming-soup-guide-for-cold-weather/",
         text: "A practical recipe-style page that turns warming theory into food.",
       },
       {
@@ -249,7 +249,7 @@ const rawTopics: Topic[] = [
     intro:
       "Beauty food content is popular, but it can easily turn exaggerated. This topic page keeps the tone grounded by focusing on pantry ingredients, traditional context, and food-first routines instead of dramatic promises.",
     herbSlugs: ["black-sesame-seed", "goji-berry", "lily-bulb", "mulberry-fruit", "tremella-mushroom", "lotus-seed"],
-    basicsSlugs: ["goji-berry-vs-jujube", "what-does-moisten-dryness-mean", "what-does-yin-deficiency-mean", "what-does-jing-mean-in-tcm", "what-does-nourish-blood-mean-in-tcm", "goji-berry-tea-vs-goji-berry-porridge", "mulberry-fruit-vs-goji-berry"],
+    basicsSlugs: ["goji-berry-vs-jujube", "what-does-moisten-dryness-mean", "what-does-yin-deficiency-mean", "what-does-jing-mean", "what-does-nourish-blood-mean", "goji-berry-tea-vs-goji-berry-porridge", "mulberry-fruit-vs-goji-berry"],
     foodSlugs: ["black-sesame-breakfast-ideas-for-beginners", "pear-and-lily-bulb-soup-for-dry-days", "goji-berry-porridge-for-gentle-mornings", "black-sesame-and-jujube-breakfast-bowl", "goji-and-chrysanthemum-tea-basics", "tremella-and-pear-sweet-soup-basics", "tremella-and-lotus-seed-sweet-soup-basics", "mulberry-and-goji-tea-basics"],
     sections: [
       {
@@ -274,7 +274,7 @@ const rawTopics: Topic[] = [
     featuredLinks: [
       {
         title: "Black Sesame Breakfast Ideas for Beginners",
-        href: "/food-therapy/black-sesame-breakfast-ideas-for-beginners/",
+        href: "/kitchen/black-sesame-breakfast-ideas-for-beginners/",
         text: "A practical breakfast-style article that fits this topic naturally.",
       },
       {
@@ -289,7 +289,7 @@ const rawTopics: Topic[] = [
       },
       {
         title: "Pear and Lily Bulb Soup for Dry Days",
-        href: "/food-therapy/pear-and-lily-bulb-soup-for-dry-days/",
+        href: "/kitchen/pear-and-lily-bulb-soup-for-dry-days/",
         text: "A gentle seasonal page that supports moisture and softness language.",
       },
     ],
@@ -303,8 +303,8 @@ const rawTopics: Topic[] = [
     intro:
       "Some of the best HerbGuide content is not about advanced herbs at all. It is about pantry familiarity. This hub gathers the pages that help readers build confidence through ingredients they can actually picture using in tea, soup, porridge, and breakfast routines.",
     herbSlugs: ["goji-berry", "jujube-red-date", "black-sesame-seed", "chrysanthemum-flower", "fresh-ginger", "adzuki-bean", "tremella-mushroom", "chinese-yam", "mulberry-fruit", "schisandra-berry", "licorice-root"],
-    basicsSlugs: ["what-is-tcm", "goji-berry-vs-jujube", "what-does-tonify-mean-in-tcm", "what-does-jing-mean-in-tcm", "what-does-channel-entry-mean", "what-does-nourish-blood-mean-in-tcm", "poria-vs-jobs-tears", "goji-berry-tea-vs-goji-berry-porridge", "what-does-astringent-mean-in-tcm", "mulberry-fruit-vs-goji-berry", "what-does-harmonizing-mean-in-tcm"],
-    foodSlugs: ["5-easy-chinese-food-therapy-ingredients-for-beginners", "black-sesame-breakfast-ideas-for-beginners", "jujube-and-ginger-tea-for-busy-weeks", "goji-berry-porridge-for-gentle-mornings", "lotus-seed-and-longan-sweet-soup-basics", "black-sesame-and-jujube-breakfast-bowl", "jobs-tears-porridge-for-heavy-days", "jujube-and-lotus-seed-congee-for-quiet-evenings", "tremella-and-pear-sweet-soup-basics", "adzuki-bean-and-jobs-tears-soup-basics", "chinese-yam-and-carrot-soup-basics", "tremella-and-lotus-seed-sweet-soup-basics", "mulberry-and-goji-tea-basics", "schisandra-and-jujube-tea-basics"],
+    basicsSlugs: ["what-is-traditional-herb-theory", "goji-berry-vs-jujube", "what-does-tonify-mean", "what-does-jing-mean", "what-does-channel-entry-mean", "what-does-nourish-blood-mean", "poria-vs-jobs-tears", "goji-berry-tea-vs-goji-berry-porridge", "what-does-astringent-mean", "mulberry-fruit-vs-goji-berry", "what-does-harmonizing-mean"],
+    foodSlugs: ["5-easy-traditional-kitchen-ingredients-for-beginners", "black-sesame-breakfast-ideas-for-beginners", "jujube-and-ginger-tea-for-busy-weeks", "goji-berry-porridge-for-gentle-mornings", "lotus-seed-and-longan-sweet-soup-basics", "black-sesame-and-jujube-breakfast-bowl", "jobs-tears-porridge-for-heavy-days", "jujube-and-lotus-seed-congee-for-quiet-evenings", "tremella-and-pear-sweet-soup-basics", "adzuki-bean-and-jobs-tears-soup-basics", "chinese-yam-and-carrot-soup-basics", "tremella-and-lotus-seed-sweet-soup-basics", "mulberry-and-goji-tea-basics", "schisandra-and-jujube-tea-basics"],
     sections: [
       {
         title: "Why pantry-first content builds trust",
@@ -328,7 +328,7 @@ const rawTopics: Topic[] = [
     featuredLinks: [
       {
         title: "5 Easy Chinese Food Therapy Ingredients for Beginners",
-        href: "/food-therapy/5-easy-chinese-food-therapy-ingredients-for-beginners/",
+        href: "/kitchen/5-easy-kitchen-ingredients-for-beginners/",
         text: "A broad starter page for pantry-friendly exploration.",
       },
       {
@@ -343,7 +343,7 @@ const rawTopics: Topic[] = [
       },
       {
         title: "What Is Traditional Herb Theory?",
-        href: "/basics/what-is-tcm/",
+        href: "/basics/what-is-traditional-herb-theory/",
         text: "A plain-English overview for readers ready to connect pantry use back to the wider framework.",
       },
     ],

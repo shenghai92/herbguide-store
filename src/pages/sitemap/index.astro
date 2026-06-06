@@ -41,7 +41,7 @@ import { topics } from "../../data/topics";
           <li><a href="/herbs/">Herb Library</a></li>
           <li><a href="/topics/">Topics</a></li>
           <li><a href="/glossary/">Glossary</a></li>
-          <li><a href="/food-therapy/">Kitchen Traditions</a></li>
+          <li><a href="/kitchen/">Kitchen Traditions</a></li>
           <li><a href="/basics/">Basics</a></li>
           <li><a href="/classics/">Chinese Classics</a></li>
           <li><a href="/safety/">Safety</a></li>
@@ -109,7 +109,7 @@ import { topics } from "../../data/topics";
         <h2>Kitchen and recipe-style articles</h2>
         <ul>
           {foodTherapyArticles.map((article) => (
-            <li><a href={`/food-therapy/${article.slug}/`}>{article.title}</a></li>
+            <li><a href={`/kitchen/${article.slug}/`}>{article.title}</a></li>
           ))}
         </ul>
       </article>
