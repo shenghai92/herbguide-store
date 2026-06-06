@@ -198,7 +198,7 @@ const rawBasicsArticles: ContentArticle[] = [
         bullets: [
           "Yin often relates to cooling, moistening, settling, or material support in traditional language.",
           "Yang often relates to warming, moving, activating, or functional strength in traditional language.",
-          "Neither term should be treated like a direct personal label.",
+          "Neither term should be read like a direct personal label.",
         ],
       },
       {
@@ -235,7 +235,7 @@ const rawBasicsArticles: ContentArticle[] = [
         bullets: [
           "Blood in this framework is a traditional concept.",
           "It often overlaps with ideas of nourishment, moisture, and regulation.",
-          "It should not be treated as shorthand for self-labeling.",
+          "It should not be read as shorthand for self-labeling.",
         ],
       },
       {
@@ -309,7 +309,7 @@ const rawBasicsArticles: ContentArticle[] = [
         bullets: [
           "Fresh ginger is commonly linked with tea, soup, and kitchen-friendly warming language.",
           "Dried ginger is usually presented as stronger and more concentrated.",
-          "Readers should not assume traditional categories treat all forms of an herb as interchangeable.",
+          "Readers should not assume traditional categories frame all forms of an herb as interchangeable.",
         ],
       },
       {
@@ -605,7 +605,7 @@ const rawBasicsArticles: ContentArticle[] = [
         bullets: [
           "It is a traditional pattern phrase.",
           "It often overlaps with dryness-related educational language.",
-          "It should not be treated as a personal label from one article.",
+          "It should not be read as a personal label from one article.",
         ],
       },
       {
@@ -648,7 +648,7 @@ const rawBasicsArticles: ContentArticle[] = [
       {
         title: "How HerbGuide uses the term",
         paragraphs: [
-          "HerbGuide treats shen-language as educational context. We explain why the term appears, what it usually gestures toward in traditional writing, and where gentle food or tea pages make that language easier to grasp.",
+          "HerbGuide uses shen-language as educational context. We explain why the term appears, what it usually gestures toward in traditional writing, and where gentle food or tea pages make that language easier to grasp.",
           "That keeps the concept readable without drifting into mystical marketing or personal advice.",
         ],
       },
@@ -753,7 +753,7 @@ const rawBasicsArticles: ContentArticle[] = [
         bullets: [
           "Food stagnation is a traditional digestive phrase.",
           "It is often discussed near rich meals and heavy foods.",
-          "It should not be treated as self-labeling from one article.",
+          "It should not be used for self-labeling from one article.",
         ],
       },
       {
@@ -790,7 +790,7 @@ const rawBasicsArticles: ContentArticle[] = [
         bullets: [
           "Nourish blood is traditional herb language.",
           "It often overlaps with steadiness, softness, and replenishing context.",
-          "It should not be treated as a personal label or directed-use instruction.",
+          "It should not be read as a personal label or directed-use instruction.",
         ],
       },
       {
@@ -1165,7 +1165,7 @@ export const classicsArticles: ContentArticle[] = [
       {
         title: "Why formula thinking matters",
         paragraphs: [
-          "One major lesson of Shanghan Lun is that traditional practice rarely treats one herb as a universal answer.",
+          "One major lesson of Shanghan Lun is that traditional practice rarely frames one herb as a universal answer.",
           "Instead, herbs are understood in relationship to pattern, preparation, sequence, and combination.",
         ],
       },

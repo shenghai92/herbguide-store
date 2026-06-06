@@ -479,7 +479,7 @@ const rawHerbs: Herb[] = [
     ],
     foodUses: ["Tea", "Jam", "Snack"],
     caution:
-      "Cooling and nourishing language should be explained carefully so readers do not treat traditional labels like universal advice.",
+      "Cooling and nourishing language should be explained carefully so readers do not read traditional labels like universal advice.",
     tags: ["fruit", "dryness", "visual", "tea", "nourishing"],
   },
   {
