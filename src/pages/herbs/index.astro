@@ -112,7 +112,7 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
     </div>
   </section>
 
-  <section class="section section-alt">
+  <section class="section section-alt" id="featured-herbs-section">
     <div class="shell">
       <SectionIntro
         eyebrow="Best first clicks"
@@ -306,12 +306,25 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
     const searchInput = document.querySelector("#herb-search");
     const herbCards = Array.from(document.querySelectorAll(".herb-card"));
     const emptyState = document.querySelector("#search-empty");
+    const featuredSection = document.querySelector("#featured-herbs-section");
+    const resultsSection = document.querySelector("#herb-results");
     const resultsCount = Array.from(document.querySelectorAll("[data-results-count]"));
     const categoryButtons = Array.from(document.querySelectorAll("[data-category-filter]"));
     const letterButtons = Array.from(document.querySelectorAll("[data-letter-filter]"));
 
     let activeCategory = "all";
     let activeLetter = "all";
+
+    const hasActiveFilters = () => {
+      const value = searchInput ? searchInput.value.trim() : "";
+      return value.length > 0 || activeCategory !== "all" || activeLetter !== "all";
+    };
+
+    const revealResults = () => {
+      if (resultsSection && typeof resultsSection.scrollIntoView === "function") {
+        resultsSection.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    };
 
     const renderResults = () => {
       const value = searchInput ? searchInput.value.trim().toLowerCase() : "";
@@ -345,12 +358,28 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
       resultsCount.forEach((item) => {
         item.textContent = resultsMessage;
       });
+
+      if (featuredSection) {
+        featuredSection.hidden = hasActiveFilters();
+      }
     };
 
     if (searchInput && herbCards.length > 0) {
       searchInput.addEventListener("input", renderResults);
-      searchInput.addEventListener("search", renderResults);
-      searchInput.addEventListener("change", renderResults);
+      searchInput.addEventListener("search", () => {
+        renderResults();
+        revealResults();
+      });
+      searchInput.addEventListener("change", () => {
+        renderResults();
+        revealResults();
+      });
+      searchInput.addEventListener("keydown", (event) => {
+        if (event.key === "Enter") {
+          renderResults();
+          revealResults();
+        }
+      });
     }
 
     categoryButtons.forEach((button) => {
@@ -360,6 +389,7 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
           item.classList.toggle("is-active", item === button),
         );
         renderResults();
+        revealResults();
       });
     });
 
@@ -370,7 +400,10 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
           item.classList.toggle("is-active", item === button),
         );
         renderResults();
+        revealResults();
       });
     });
+
+    renderResults();
   </script>
 </BaseLayout>
