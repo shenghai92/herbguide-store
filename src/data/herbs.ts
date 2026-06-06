@@ -45,7 +45,7 @@ export const herbs: Herb[] = [
     ],
     foodUses: ["Tea", "Broth", "Congee"],
     caution:
-      "Readers taking medication, especially blood-thinning medication, should check with a qualified clinician before using goji regularly.",
+      "Readers using prescriptions, especially blood-thinning prescriptions, should check local guidance before using goji regularly.",
     tags: ["beginner", "berry", "tea", "food traditions", "daily cooking"],
   },
   {
@@ -93,7 +93,7 @@ export const herbs: Herb[] = [
     ],
     foodUses: ["Tea", "Soup", "Stir-fry"],
     caution:
-      "Even familiar food herbs can be irritating in excess. Readers with special medical needs should still use caution.",
+      "Even familiar food herbs can be irritating in excess. Readers with more complex personal needs should still use caution.",
     tags: ["kitchen", "warming", "tea", "beginner", "digestive traditions"],
   },
   {
@@ -261,7 +261,7 @@ export const herbs: Herb[] = [
     ],
     foodUses: ["Sweet soup", "Pear soup", "Congee"],
     caution:
-      "Use careful language around emotional or sleep-related topics and avoid medical promises.",
+      "Use careful language around emotional or sleep-related topics and avoid exaggerated promises.",
     tags: ["dessert soup", "gentle", "dryness", "recipe", "food traditions"],
   },
   {
@@ -669,7 +669,7 @@ export const herbs: Herb[] = [
     ],
     foodUses: ["Advanced tea", "Soup pairings"],
     caution:
-      "Keep the language descriptive and avoid using this page as implied medical guidance for respiratory issues.",
+      "Keep the language descriptive and avoid using this page as implied personal guidance for breathing-related concerns.",
     tags: ["dryness", "moistening", "seasonal", "authority", "pairing"],
   },
   {
@@ -741,7 +741,7 @@ export const herbs: Herb[] = [
     ],
     foodUses: ["Advanced soup use", "Traditional tonics"],
     caution:
-      "This page should avoid targeted medical-sounding claims and keep the language clearly educational.",
+      "This page should avoid targeted problem-solving claims and keep the language clearly educational.",
     tags: ["advanced", "bark", "kidney", "authority", "library depth"],
   },
   {

@@ -7,14 +7,14 @@ import { topics } from "../../data/topics";
 
 <BaseLayout
   title="HTML Sitemap | HerbGuide"
-  description="A complete HTML sitemap for HerbGuide, including herb profiles, TCM basics, food therapy articles, and site policy pages."
+  description="A complete HTML sitemap for HerbGuide, including herb profiles, basics, kitchen articles, and site policy pages."
   structuredData={[
     {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
       name: "HTML Sitemap",
       description:
-        "A complete HTML sitemap for HerbGuide, including herb profiles, TCM basics, food therapy articles, and site policy pages.",
+        "A complete HTML sitemap for HerbGuide, including herb profiles, basics, kitchen articles, and site policy pages.",
       url: "https://herbguide.store/sitemap/",
     },
   ]}
@@ -25,7 +25,7 @@ import { topics } from "../../data/topics";
       <h1>Browse every section of HerbGuide</h1>
       <p>
         This page helps readers and search engines discover the full site structure in one
-        place, including herb profiles, TCM basics, Chinese classics, and kitchen-focused
+        place, including herb profiles, basics, Chinese classics, and kitchen-focused
         articles.
       </p>
     </div>
@@ -41,8 +41,8 @@ import { topics } from "../../data/topics";
           <li><a href="/herbs/">Herb Library</a></li>
           <li><a href="/topics/">Topics</a></li>
           <li><a href="/glossary/">Glossary</a></li>
-          <li><a href="/food-therapy/">Food Therapy</a></li>
-          <li><a href="/basics/">TCM Basics</a></li>
+          <li><a href="/food-therapy/">Kitchen Traditions</a></li>
+          <li><a href="/basics/">Basics</a></li>
           <li><a href="/classics/">Chinese Classics</a></li>
           <li><a href="/safety/">Safety</a></li>
           <li><a href="/about/">About</a></li>
@@ -90,7 +90,7 @@ import { topics } from "../../data/topics";
       </article>
 
       <article class="prose-block card">
-        <p class="eyebrow">TCM Basics</p>
+        <p class="eyebrow">Basics</p>
         <h2>Plain-English concept pages</h2>
         <ul>
           {basicsArticles.map((article) => (
@@ -105,7 +105,7 @@ import { topics } from "../../data/topics";
   <section class="section section-alt">
     <div class="shell two-up">
       <article class="prose-block card">
-        <p class="eyebrow">Food Therapy</p>
+        <p class="eyebrow">Kitchen Traditions</p>
         <h2>Kitchen and recipe-style articles</h2>
         <ul>
           {foodTherapyArticles.map((article) => (
@@ -118,7 +118,7 @@ import { topics } from "../../data/topics";
         <p class="eyebrow">Glossary</p>
         <h2>Direct question entry page</h2>
         <ul>
-          <li><a href="/glossary/">TCM Glossary</a></li>
+          <li><a href="/glossary/">Glossary</a></li>
         </ul>
       </article>
     </div>

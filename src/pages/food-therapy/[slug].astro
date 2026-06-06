@@ -229,8 +229,8 @@ const relatedRecipes = recipeLinkMap[article.slug] ?? [];
 const articleKeywords = [
   article.title,
   ...relatedHerbs.map((herb) => herb.name),
-  "Chinese food therapy",
-  "TCM food therapy recipe",
+  "Chinese kitchen traditions",
+  "traditional herb recipe",
 ];
 const formatDuration = (value: string) =>
   value
@@ -260,7 +260,7 @@ const recipeSchema = article.recipe
       },
       isPartOf: {
         "@type": "CollectionPage",
-        name: "Food Therapy",
+        name: "Kitchen Traditions",
         url: "https://herbguide.store/food-therapy/",
       },
     }
@@ -275,7 +275,7 @@ const faqSchema = article.recipe
           name: `What ingredients are used in ${article.title}?`,
           acceptedAnswer: {
             "@type": "Answer",
-            text: `${article.title} uses simple pantry ingredients and a short ingredient list designed for beginner-friendly Chinese food therapy reading.`,
+            text: `${article.title} uses simple pantry ingredients and a short ingredient list designed for beginner-friendly Chinese kitchen reading.`,
           },
         },
         {
@@ -288,10 +288,10 @@ const faqSchema = article.recipe
         },
         {
           "@type": "Question",
-          name: `Is ${article.title} medical advice?`,
+          name: `Is ${article.title} personal guidance?`,
           acceptedAnswer: {
             "@type": "Answer",
-            text: `No. HerbGuide presents this page as educational kitchen content with traditional context, not as diagnosis, treatment, or personalized medical advice.`,
+            text: `No. HerbGuide presents this page as educational kitchen content with traditional context, not as personal evaluation, directed care, or one-to-one guidance.`,
           },
         },
       ],
@@ -311,7 +311,7 @@ const faqSchema = article.recipe
       url: `https://herbguide.store/food-therapy/${article.slug}/`,
       mainEntityOfPage: `https://herbguide.store/food-therapy/${article.slug}/`,
       keywords: articleKeywords.join(", "),
-      articleSection: "Food Therapy",
+      articleSection: "Kitchen Traditions",
       author: {
         "@type": "Organization",
         name: "HerbGuide",
@@ -334,7 +334,7 @@ const faqSchema = article.recipe
         {
           "@type": "ListItem",
           position: 2,
-          name: "Food Therapy",
+          name: "Kitchen Traditions",
           item: "https://herbguide.store/food-therapy/",
         },
         {
@@ -461,7 +461,7 @@ const faqSchema = article.recipe
       {relatedRecipes.length > 0 && (
         <article class="prose-block card" id="related-recipes">
           <p class="eyebrow">Next recipes</p>
-          <h2>Related food therapy pages to open next</h2>
+          <h2>Related kitchen pages to open next</h2>
           <p>
             If this recipe matches what the reader wants, the best next click is usually another
             kitchen page with a similar ingredient, season, or pantry theme.
@@ -475,9 +475,9 @@ const faqSchema = article.recipe
       )}
       <article class="prose-block card">
         <p class="eyebrow">Keep exploring</p>
-        <h2>Back to Food Therapy</h2>
+        <h2>Back to Kitchen Traditions</h2>
         <p>
-          This article is part of the <a href="/food-therapy/">Food Therapy</a> section. Return
+          This article is part of the <a href="/food-therapy/">Kitchen Traditions</a> section. Return
           there for more kitchen-focused reading and ingredient ideas.
         </p>
       </article>

@@ -10,15 +10,15 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
 ---
 
 <BaseLayout
-  title="Chinese Herbs, Food Therapy Recipes, and TCM Basics | HerbGuide"
-  description="Explore Chinese herb profiles, food therapy recipes with ingredients and steps, plain-English TCM basics, and practical kitchen traditions."
+  title="Chinese Herbs, Kitchen Recipes, and Basics | HerbGuide"
+  description="Explore Chinese herb profiles, kitchen recipes with ingredients and steps, plain-English basics, and practical kitchen traditions."
   structuredData={[
     {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
       name: "Chinese Herbs Explained in English",
       description:
-        "A practical starting point for Chinese herb profiles, TCM basics, Chinese food traditions, and classical reading.",
+        "A practical starting point for Chinese herb profiles, basics, Chinese food traditions, and classical reading.",
       url: "https://herbguide.store/",
     },
     {
@@ -30,7 +30,7 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
           name: "What is HerbGuide about?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "HerbGuide explains Traditional Chinese herbs, food traditions, and core TCM terms in clear American English for educational reading.",
+            text: "HerbGuide explains Traditional Chinese herbs, food traditions, and core traditional terms in clear American English for educational reading.",
           },
         },
         {
@@ -38,7 +38,7 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
           name: "Does HerbGuide give personal health advice?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "No. HerbGuide is an educational site and does not provide diagnosis, treatment, or personal health advice.",
+            text: "No. HerbGuide is an educational site and does not provide personal evaluation, directed care, or one-to-one guidance.",
           },
         },
         {
@@ -51,10 +51,10 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
         },
         {
           "@type": "Question",
-          name: "Can I use this site to learn TCM terms in plain English?",
+          name: "Can I use this site to learn traditional terms in plain English?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes. HerbGuide is built to explain pinyin names, channel entry, warming and cooling qualities, and other TCM terms in a more readable style.",
+            text: "Yes. HerbGuide is built to explain pinyin names, channel entry, warming and cooling qualities, and other traditional terms in a more readable style.",
           },
         },
       ],
@@ -64,19 +64,19 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
   <section class="hero">
     <div class="shell hero-grid">
       <div>
-        <p class="eyebrow">Friendly and practical TCM learning</p>
+        <p class="eyebrow">Friendly and practical herb learning</p>
         <h1>Traditional Chinese herbs, explained clearly for modern readers.</h1>
         <p class="hero-copy">
-          Explore herb profiles, beginner-friendly TCM concepts, and practical Chinese food
+          Explore herb profiles, beginner-friendly traditional concepts, and practical Chinese food
           traditions written in clear American English.
         </p>
         <p class="hero-copy">
-          Start with Chinese herb profiles, food therapy recipes with ingredients and steps,
-          or plain-English TCM basics built for readers who want practical context without hype.
+          Start with Chinese herb profiles, kitchen recipes with ingredients and steps,
+          or plain-English basics built for readers who want practical context without hype.
         </p>
         <div class="hero-actions">
           <a class="button button-primary" href="/herbs/">Start with the Herb Library</a>
-          <a class="button button-secondary" href="/food-therapy/">Browse Food Therapy</a>
+          <a class="button button-secondary" href="/food-therapy/">Browse Kitchen Traditions</a>
         </div>
       </div>
       <aside class="hero-card">
@@ -100,7 +100,7 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
       <SectionIntro
         eyebrow="Start with familiar needs"
         title="Browse by everyday topic"
-        text="We organize TCM content around recognizable themes so new readers have an easy starting point."
+        text="We organize traditional herb content around recognizable themes so new readers have an easy starting point."
       />
       <div class="pill-grid">
         {goalCards.map((goal) => (
@@ -148,7 +148,7 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
               <p class="eyebrow">{displayNames.secondary.slice(0, 2).join(" | ")}</p>
               <h3><a href={`/herbs/${herb.slug}/`}>{herb.name}</a></h3>
               <p>{herb.summary}</p>
-              <p class="meta-label">TCM nature: {herb.nature}</p>
+              <p class="meta-label">Traditional nature: {herb.nature}</p>
               <ul class="tag-list">
                 {herb.foodUses.map((use) => (
                   <li>{use}</li>
@@ -185,8 +185,8 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
       <div>
         <SectionIntro
           eyebrow="Plain-English learning"
-          title="Learn TCM basics without the jargon wall"
-          text="We keep foundational concepts simple, careful, and clearly separated from medical claims."
+          title="Learn the basics without the jargon wall"
+          text="We keep foundational concepts simple, careful, and clearly separated from overclaimed guidance."
         />
         <div class="stack">
           {basicsCards.map((card) => (
@@ -205,10 +205,10 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
     <div class="shell two-up">
       <article class="prose-block card">
         <p class="eyebrow">How to explore</p>
-        <h2>Chinese herbs, TCM basics, and food therapy in one place</h2>
+        <h2>Chinese herbs, basics, and kitchen traditions in one place</h2>
         <p>
           Some readers come here for one herb like goji berry or chrysanthemum. Others want
-          Chinese food therapy recipes, beginner TCM terms, or practical kitchen guidance
+          Chinese kitchen recipes, beginner traditional terms, or practical kitchen guidance
           that feels easier to trust than generic wellness writing.
         </p>
         <p>
@@ -224,7 +224,7 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
           <li><a href="/food-therapy/a-simple-warming-soup-guide-for-cold-weather/">A Simple Warming Soup Guide for Cold Weather</a></li>
           <li><a href="/herbs/goji-berry/">Goji Berry</a></li>
           <li><a href="/food-therapy/jujube-and-ginger-tea-for-busy-weeks/">Jujube and Ginger Tea for Busy Weeks</a></li>
-          <li><a href="/glossary/">TCM Glossary</a></li>
+          <li><a href="/glossary/">Glossary</a></li>
           <li><a href="/topics/warming-foods/">Warming Foods</a></li>
           <li><a href="/food-therapy/jobs-tears-porridge-for-heavy-days/">Job's Tears Porridge for Heavy Days</a></li>
           <li><a href="/food-therapy/goji-and-chrysanthemum-tea-basics/">Goji and Chrysanthemum Tea Basics</a></li>
@@ -244,7 +244,7 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
         <p>
           One especially useful path is <a href="/glossary/">Glossary</a> to
           <a href="/topics/"> Topics</a> to
-          <a href="/food-therapy/"> Food Therapy</a>.
+          <a href="/food-therapy/"> Kitchen Traditions</a>.
         </p>
         <p>
           Two especially clear new paths are
@@ -337,10 +337,10 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
       </div>
       <aside class="info-panel">
         <p class="eyebrow">Safety first</p>
-        <h2>This site is for education, not personal health advice.</h2>
+        <h2>This site is for education, not one-to-one guidance.</h2>
         <p>
           HerbGuide shares traditional context, research summaries, and food culture ideas.
-          It does not provide diagnosis, treatment, or personal health advice.
+          It does not provide personal evaluation, directed care, or one-to-one guidance.
         </p>
         <a class="button button-secondary" href="/safety/">Read the safety guide</a>
       </aside>
@@ -354,13 +354,13 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
         <h2>New herb pages and kitchen guides are added over time</h2>
         <p>
           The library continues to expand with practical herb profiles, kitchen examples,
-          TCM vocabulary, and clear safety notes.
+          traditional vocabulary, and clear safety notes.
         </p>
       </div>
       <div class="newsletter-note">
         <p>
-          For now, the easiest way to keep reading is to browse the Herb Library and Food
-          Therapy sections and follow the links between related pages.
+          For now, the easiest way to keep reading is to browse the Herb Library and Kitchen
+          Traditions sections and follow the links between related pages.
         </p>
         <a class="button button-primary" href="/herbs/">Browse current herb pages</a>
       </div>
@@ -378,10 +378,10 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
           easiest starting points because they connect naturally to tea, soup, and food
           traditions.
         </p>
-        <h3>Can I use this site to learn TCM terms in plain English?</h3>
+        <h3>Can I use this site to learn traditional terms in plain English?</h3>
         <p>
           Yes. HerbGuide is built to explain pinyin names, channel entry, warming and
-          cooling qualities, and other TCM terms in a more readable style.
+          cooling qualities, and other traditional terms in a more readable style.
         </p>
       </article>
 
@@ -396,9 +396,9 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
         </p>
         <p>
           For supporting context, continue to
-          <a href="/basics/"> TCM Basics</a>,
-          <a href="/glossary/"> TCM Glossary</a>,
-          <a href="/food-therapy/"> Food Therapy</a>, and
+          <a href="/basics/"> Basics</a>,
+          <a href="/glossary/"> Glossary</a>,
+          <a href="/food-therapy/"> Kitchen Traditions</a>, and
           <a href="/classics/"> Chinese Classics</a>.
         </p>
       </article>

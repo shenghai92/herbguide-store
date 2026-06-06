@@ -80,7 +80,7 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: `What is ${herb.name} in TCM?`,
+      name: `What is ${herb.name} in traditional herb writing?`,
       acceptedAnswer: {
         "@type": "Answer",
         text: `${herb.name} is presented on HerbGuide as a traditional Chinese herb profile with plain-English context, naming, category, kitchen uses where relevant, and a visible safety note.`,
@@ -96,10 +96,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: `Is ${herb.name} on HerbGuide medical advice?`,
+      name: `Is ${herb.name} on HerbGuide personal guidance?`,
       acceptedAnswer: {
         "@type": "Answer",
-        text: `No. HerbGuide presents ${herb.name} as educational content about traditional terminology, cultural context, and safety boundaries, not as diagnosis or personalized treatment advice.`,
+        text: `No. HerbGuide presents ${herb.name} as educational content about traditional terminology, cultural context, and safety boundaries, not as personal evaluation or one-to-one guidance.`,
       },
     },
   ],
@@ -218,9 +218,9 @@ const faqSchema = {
         </section>
 
         <section class="detail-section card" id="how-tcm-describes-it">
-          <h2>How TCM describes it</h2>
+          <h2>How traditional writing describes it</h2>
           <p>
-            In TCM language, <strong>nature</strong> describes whether a herb is warming,
+            In traditional language, <strong>nature</strong> describes whether a herb is warming,
             cooling, neutral, and so on. <strong>Flavor</strong> refers to a traditional
             framework such as sweet, bitter, pungent, sour, or salty, each with its own
             functional associations.
@@ -231,7 +231,7 @@ const faqSchema = {
             <li><strong>Traditionally associated with:</strong> {herb.channels}</li>
           </ul>
           <p>
-            <strong>Channel entry</strong> is a TCM term. It describes traditional
+            <strong>Channel entry</strong> is a traditional term. It describes traditional
             functional relationships, not a direct claim about modern anatomy.
           </p>
         </section>
@@ -332,9 +332,9 @@ const faqSchema = {
           <h2>Safety note</h2>
           <p>{herb.caution}</p>
           <p>
-            HerbGuide is an educational resource. This page does not provide diagnosis,
-            treatment advice, or a recommendation that this herb is appropriate for any specific
-            person.
+            HerbGuide is an educational resource. This page does not provide personal
+            evaluation, directed care, or a recommendation that this herb is appropriate for
+            any specific person.
           </p>
         </section>
       </article>

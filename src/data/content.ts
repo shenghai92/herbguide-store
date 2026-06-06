@@ -11,27 +11,27 @@ export const basicsCards = [
   {
     slug: "what-is-tcm",
     title: "What Is TCM?",
-    text: "A clear first look at Traditional Chinese Medicine without the jargon overload.",
+    text: "A clear first look at this traditional framework without the jargon overload.",
   },
   {
     slug: "what-does-qi-mean",
     title: "What Does Qi Mean?",
-    text: "A plain-English explanation of one of the most important TCM ideas.",
+    text: "A plain-English explanation of one of the most important traditional ideas.",
   },
   {
     slug: "warming-vs-cooling-foods",
     title: "Warming vs Cooling Foods",
-    text: "A practical guide to one of the easiest TCM ideas to connect with everyday meals.",
+    text: "A practical guide to one of the easiest traditional ideas to connect with everyday meals.",
   },
   {
     slug: "what-is-dampness",
     title: "What Is Dampness?",
-    text: "An accessible explanation of a TCM pattern beginners often see but rarely understand.",
+    text: "An accessible explanation of a traditional pattern beginners often see but rarely understand.",
   },
   {
     slug: "what-is-yin-and-yang",
     title: "What Is Yin and Yang?",
-    text: "A plain-English guide to one of the most famous but most flattened TCM ideas.",
+    text: "A plain-English guide to one of the most famous but most flattened traditional ideas.",
   },
   {
     slug: "what-does-blood-mean-in-tcm",
@@ -41,7 +41,7 @@ export const basicsCards = [
   {
     slug: "what-is-qi-stagnation",
     title: "What Is Qi Stagnation?",
-    text: "A simple guide to a common TCM pattern phrase readers often see online.",
+    text: "A simple guide to a common traditional pattern phrase readers often see online.",
   },
   {
     slug: "fresh-ginger-vs-dried-ginger",
@@ -51,7 +51,7 @@ export const basicsCards = [
   {
     slug: "ginseng-vs-american-ginseng",
     title: "Ginseng vs American Ginseng",
-    text: "A clear comparison that shows why TCM does not flatten all ginseng into one idea.",
+    text: "A clear comparison that shows why traditional herb writing does not flatten all ginseng into one idea.",
   },
   {
     slug: "goji-berry-vs-jujube",
@@ -76,22 +76,22 @@ export const basicsCards = [
   {
     slug: "what-does-spleen-mean-in-tcm",
     title: "What Does Spleen Mean in TCM?",
-    text: "A plain-English guide to one of the most important organ-system words in food therapy writing.",
+    text: "A plain-English guide to one of the most important organ-system words in kitchen-tradition writing.",
   },
   {
     slug: "what-does-liver-mean-in-tcm",
     title: "What Does Liver Mean in TCM?",
-    text: "A clear explanation of why the TCM liver is broader than a modern anatomy label.",
+    text: "A clear explanation of why the traditional liver label is broader than a modern anatomy label.",
   },
   {
     slug: "what-does-yin-deficiency-mean",
     title: "What Does Yin Deficiency Mean?",
-    text: "A cautious beginner guide to one of the most searched TCM pattern phrases.",
+    text: "A cautious beginner guide to one of the most searched traditional pattern phrases.",
   },
   {
     slug: "what-does-shen-mean-in-tcm",
     title: "What Does Shen Mean in TCM?",
-    text: "A plain-English explanation of one of the most misunderstood mind-and-spirit terms in TCM writing.",
+    text: "A plain-English explanation of one of the most misunderstood mind-and-spirit terms in traditional writing.",
   },
   {
     slug: "what-does-jing-mean-in-tcm",
@@ -116,7 +116,7 @@ export const basicsCards = [
   {
     slug: "what-is-damp-heat-in-tcm",
     title: "What Is Damp Heat in TCM?",
-    text: "A careful beginner explanation of a very common TCM pattern phrase in digestive and seasonal content.",
+    text: "A careful beginner explanation of a very common traditional pattern phrase in digestive and seasonal content.",
   },
   {
     slug: "chen-pi-vs-hawthorn-berry",
@@ -126,7 +126,7 @@ export const basicsCards = [
   {
     slug: "poria-vs-jobs-tears",
     title: "Poria vs Job's Tears",
-    text: "A practical comparison for readers trying to understand dampness-related pantry ingredients in TCM content.",
+    text: "A practical comparison for readers trying to understand dampness-related pantry ingredients in traditional content.",
   },
   {
     slug: "chrysanthemum-vs-mint",
@@ -159,7 +159,7 @@ export const classicsCards = [
   {
     slug: "huangdi-neijing",
     title: "Huangdi Neijing",
-    text: "Why this foundational classic still shapes the language of Chinese medicine today.",
+    text: "Why this foundational classic still shapes traditional herb language today.",
   },
   {
     slug: "bencao-gangmu",
@@ -184,7 +184,7 @@ export const classicsCards = [
   {
     slug: "wen-bing-xue",
     title: "Wen Bing Xue",
-    text: "A simple introduction to the warm disease tradition behind later heat-language.",
+    text: "A simple introduction to the warm-season tradition behind later heat-language.",
   },
 ];
 
