@@ -2414,4 +2414,206 @@ export const foodTherapyArticles: ContentArticle[] = [
       },
     ],
   },
+  {
+    slug: "monk-fruit-and-pear-tea-basics",
+    title: "Monk Fruit and Pear Tea Basics",
+    description:
+      "A light fruit tea page that explains monk fruit through a simple pear pairing and gentle seasonal kitchen language.",
+    eyebrow: "Kitchen Traditions",
+    intro:
+      "Monk fruit is easier to understand when it appears in a very simple fruit tea instead of as a product claim. Pairing it with pear keeps the page familiar, light, and useful for readers looking for gentle cooling-style kitchen ideas without heavy jargon.",
+    recipe: {
+      recipeYield: "2 mugs",
+      prepTime: "PT6M",
+      totalTime: "PT18M",
+      ingredients: [
+        "1 small monk fruit, cracked into a few pieces",
+        "1 small pear, sliced thinly",
+        "3 cups water",
+        "Optional: 3 to 4 goji berries for a softer finish",
+      ],
+      steps: [
+        "Rinse the monk fruit pieces and slice the pear.",
+        "Add the water and monk fruit to a small pot and bring to a gentle boil.",
+        "Lower the heat and simmer for about 8 minutes so the fruit flavor opens gradually.",
+        "Add the pear and optional goji berries, then simmer for another 4 to 5 minutes.",
+        "Pour into mugs and keep the flavor light rather than strongly sweet.",
+      ],
+      servingNotes: [
+        "This tea works best as a light kitchen page, not a concentrated routine.",
+        "Pear keeps the recipe grounded in food-first seasonal reading.",
+      ],
+      caution: [
+        "Cooling and gentle-language here belongs to traditional kitchen context, not personal guidance.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why this page works well for beginners",
+        paragraphs: [
+          "Monk fruit is familiar enough to attract curiosity, but many readers only know it through packaged sweeteners. A simple tea gives it clearer cultural and kitchen context.",
+          "Pear keeps the page recognizable and helps seasonal language feel practical instead of abstract.",
+        ],
+      },
+      {
+        title: "How this tea strengthens the library",
+        paragraphs: [
+          "This page adds a lighter fruit-tea route between monk fruit, pear-style seasonal content, and beginner-friendly cooling language.",
+          "It also supports readers who want another gentle tea option beyond chrysanthemum and mint.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "walnut-and-black-sesame-paste-basics",
+    title: "Walnut and Black Sesame Paste Basics",
+    description:
+      "A rich but approachable pantry bowl that turns black sesame and walnut into a simple breakfast-style kitchen page.",
+    eyebrow: "Kitchen Traditions",
+    intro:
+      "Black sesame already performs well in pantry-style reading because it feels familiar and food-first. Adding walnut creates a thicker, more comforting bowl that still reads as a practical breakfast or snack page rather than an exaggerated promise page.",
+    recipe: {
+      recipeYield: "2 small bowls",
+      prepTime: "PT8M",
+      totalTime: "PT20M",
+      ingredients: [
+        "2 tablespoons black sesame powder or finely ground black sesame",
+        "2 tablespoons walnuts, chopped finely",
+        "2 cups unsweetened oat milk or water",
+        "1 teaspoon rice flour or oat flour for a smoother body",
+        "Optional: 1 sliced jujube for a softer pantry note",
+      ],
+      steps: [
+        "Whisk the sesame powder and flour with a small amount of cool liquid until smooth.",
+        "Add the remaining liquid to a small pot and warm it gently.",
+        "Stir in the sesame mixture and chopped walnuts.",
+        "Simmer very gently until the bowl thickens into a soft paste-like texture.",
+        "Add the optional jujube near the end and serve warm.",
+      ],
+      servingNotes: [
+        "A small bowl is usually enough because the texture is richer than tea or porridge.",
+        "Keeping the sweetness low helps the page stay grounded and kitchen-first.",
+      ],
+      caution: [
+        "Nourishing pantry language here is educational kitchen framing, not personal advice.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why this recipe has strong pantry appeal",
+        paragraphs: [
+          "Black sesame is already one of the strongest crossover ingredients on the site. Walnut gives it a more substantial bowl that still feels easy to understand.",
+          "That makes the page useful for breakfast, pantry, and gentle nourishment-style searches without drifting into hype.",
+        ],
+      },
+      {
+        title: "What readers learn from this bowl",
+        paragraphs: [
+          "The page shows that traditional kitchen content can include thicker breakfast or snack textures, not just soups and teas.",
+          "It also creates stronger connections between black sesame, jujube, pantry habits, and beginner kitchen routines.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "barley-sprout-and-chen-pi-tea-basics",
+    title: "Barley Sprout and Chen Pi Tea Basics",
+    description:
+      "A practical pantry tea that pairs barley sprout and chen pi in a simple cup for meal-friendly kitchen reading.",
+    eyebrow: "Kitchen Traditions",
+    intro:
+      "Barley sprout is easier to explain when it is paired with something familiar like chen pi. Together they make a light pantry tea that helps readers understand digestive-style kitchen language through a concrete cup instead of a vague theory paragraph.",
+    recipe: {
+      recipeYield: "2 cups",
+      prepTime: "PT5M",
+      totalTime: "PT16M",
+      ingredients: [
+        "1 tablespoon barley sprout",
+        "1 small piece chen pi",
+        "2 1/2 cups water",
+        "Optional: 1 thin slice fresh ginger for a warmer finish",
+      ],
+      steps: [
+        "Rinse the barley sprout and chen pi briefly under cool water.",
+        "Add them to a small pot with the water.",
+        "Bring to a gentle boil, then lower the heat and simmer for 8 to 10 minutes.",
+        "Add the optional ginger only during the last few minutes if you want a warmer cup.",
+        "Strain and serve warm with a light, aromatic flavor.",
+      ],
+      servingNotes: [
+        "The simplest version is usually the best teaching version for new readers.",
+        "A lighter cup keeps the barley sprout flavor approachable.",
+      ],
+      caution: [
+        "Digestive and meal-friendly language here belongs to traditional kitchen context, not directed-use advice.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why this pairing is useful",
+        paragraphs: [
+          "Chen pi gives the cup an aromatic anchor while barley sprout expands the digestive pantry network in a clear way.",
+          "That makes the page easier to trust than a standalone term-heavy explanation of barley sprout.",
+        ],
+      },
+      {
+        title: "How this cup supports internal search",
+        paragraphs: [
+          "This tea adds a direct entry for barley sprout and gives digestive readers another low-pressure result for tea, pantry, and post-meal style searches.",
+          "It also strengthens the link path between barley sprout, chen pi, digestive traditions, and balanced pantry content.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "chinese-yam-and-jujube-porridge-basics",
+    title: "Chinese Yam and Jujube Porridge Basics",
+    description:
+      "A soft pantry porridge that brings Chinese yam and jujube together in a balanced, beginner-friendly bowl.",
+    eyebrow: "Kitchen Traditions",
+    intro:
+      "Chinese yam already feels close to everyday food, and jujube makes the bowl warmer and more familiar. Together they create an easy porridge page that gives readers another gentle breakfast-style result without using exaggerated language.",
+    recipe: {
+      recipeYield: "2 bowls",
+      prepTime: "PT10M",
+      totalTime: "PT35M",
+      ingredients: [
+        "1/2 cup rice or rolled oats",
+        "3 1/2 cups water",
+        "3 dried jujubes, split",
+        "3/4 cup Chinese yam, peeled and diced small",
+        "Optional: 1 thin slice fresh ginger",
+      ],
+      steps: [
+        "Rinse the rice or oats and prepare the jujube and Chinese yam.",
+        "Add the grain base and water to a small pot and bring to a gentle boil.",
+        "Lower the heat and simmer until the porridge starts to soften.",
+        "Add the Chinese yam and jujube, then continue cooking until the bowl turns soft and cohesive.",
+        "Add the optional ginger near the end if you want a slightly warmer finish, then serve warm.",
+      ],
+      servingNotes: [
+        "This bowl works well as a mild breakfast or gentle evening-style porridge.",
+        "Keeping the texture soft makes the page feel approachable for beginners.",
+      ],
+      caution: [
+        "Balanced and nourishing-style language here belongs to traditional food context, not personal guidance.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why this is a strong beginner porridge",
+        paragraphs: [
+          "Chinese yam keeps the page mild and practical, while jujube adds a familiar pantry note that many readers already recognize.",
+          "That makes this bowl a good bridge between simple soups, pantry teas, and breakfast-style kitchen content.",
+        ],
+      },
+      {
+        title: "How this bowl expands the kitchen section",
+        paragraphs: [
+          "It gives Chinese yam another food-first entry point and gives jujube another result beyond tea and dessert soup.",
+          "It also supports searches around porridge, balanced kitchen routines, and beginner pantry bowls.",
+        ],
+      },
+    ],
+  },
 ];

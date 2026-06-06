@@ -26,6 +26,10 @@ const recipeSearchThemes: Record<string, string[]> = {
   "perilla-and-ginger-soup-for-cool-days": ["warming", "soup", "seasonal", "aromatic"],
   "tremella-and-lotus-seed-sweet-soup-basics": ["moistening", "dessert soup", "soft", "nourishing"],
   "schisandra-and-jujube-tea-basics": ["calm", "tea", "gentle", "evening"],
+  "monk-fruit-and-pear-tea-basics": ["cooling", "tea", "pear", "light"],
+  "walnut-and-black-sesame-paste-basics": ["nourishing", "breakfast", "pantry", "warm bowl"],
+  "barley-sprout-and-chen-pi-tea-basics": ["digestive", "tea", "post-meal", "pantry"],
+  "chinese-yam-and-jujube-porridge-basics": ["balanced", "porridge", "gentle", "breakfast"],
 };
 
 const recipeCategoryMap: Record<string, string> = {
@@ -51,6 +55,10 @@ const recipeCategoryMap: Record<string, string> = {
   "perilla-and-ginger-soup-for-cool-days": "Warming",
   "tremella-and-lotus-seed-sweet-soup-basics": "Moistening",
   "schisandra-and-jujube-tea-basics": "Calming",
+  "monk-fruit-and-pear-tea-basics": "Cooling",
+  "walnut-and-black-sesame-paste-basics": "Nourishing",
+  "barley-sprout-and-chen-pi-tea-basics": "Digestive",
+  "chinese-yam-and-jujube-porridge-basics": "Balanced",
 };
 
 const recipeCategories = Array.from(new Set(recipeCards.map((card) => recipeCategoryMap[card.slug] ?? "Balanced")));
@@ -218,6 +226,10 @@ const recipeCategories = Array.from(new Set(recipeCards.map((card) => recipeCate
           <li><a href="/kitchen/adzuki-bean-and-jobs-tears-soup-basics/">Adzuki Bean and Job's Tears Soup Basics</a></li>
           <li><a href="/kitchen/chinese-yam-and-carrot-soup-basics/">Chinese Yam and Carrot Soup Basics</a></li>
           <li><a href="/kitchen/tremella-and-lotus-seed-sweet-soup-basics/">Tremella and Lotus Seed Sweet Soup Basics</a></li>
+          <li><a href="/kitchen/monk-fruit-and-pear-tea-basics/">Monk Fruit and Pear Tea Basics</a></li>
+          <li><a href="/kitchen/walnut-and-black-sesame-paste-basics/">Walnut and Black Sesame Paste Basics</a></li>
+          <li><a href="/kitchen/barley-sprout-and-chen-pi-tea-basics/">Barley Sprout and Chen Pi Tea Basics</a></li>
+          <li><a href="/kitchen/chinese-yam-and-jujube-porridge-basics/">Chinese Yam and Jujube Porridge Basics</a></li>
         </ul>
       </article>
     </div>

@@ -303,6 +303,26 @@ const rawRecipeCards = [
     title: "Schisandra and Jujube Tea Basics",
     text: "A gentle pantry tea that makes schisandra easier to understand through a familiar jujube pairing.",
   },
+  {
+    slug: "monk-fruit-and-pear-tea-basics",
+    title: "Monk Fruit and Pear Tea Basics",
+    text: "A light fruit tea page that gives monk fruit a clearer place in gentle cooling kitchen reading.",
+  },
+  {
+    slug: "walnut-and-black-sesame-paste-basics",
+    title: "Walnut and Black Sesame Paste Basics",
+    text: "A pantry-style breakfast bowl that expands black sesame into a richer but still approachable kitchen routine.",
+  },
+  {
+    slug: "barley-sprout-and-chen-pi-tea-basics",
+    title: "Barley Sprout and Chen Pi Tea Basics",
+    text: "A practical pantry tea that connects barley sprout and chen pi through everyday meal-friendly kitchen language.",
+  },
+  {
+    slug: "chinese-yam-and-jujube-porridge-basics",
+    title: "Chinese Yam and Jujube Porridge Basics",
+    text: "A soft beginner porridge that brings Chinese yam and jujube together in a balanced, kitchen-first bowl.",
+  },
 ];
 
 export const recipeCards = rawRecipeCards.map((card) => sanitizeContentCard(card));
