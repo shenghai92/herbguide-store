@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Light grain soup illustration</title>
+  <desc id="desc">A light soup or porridge bowl with grains, beans, and pantry ingredients.</desc>
+  <rect width="1200" height="720" fill="#f2ebdf"/>
+  <ellipse cx="620" cy="568" rx="340" ry="86" fill="#d2b08a"/>
+  <ellipse cx="620" cy="395" rx="236" ry="138" fill="#967451"/>
+  <ellipse cx="620" cy="370" rx="252" ry="116" fill="#fff9f1"/>
+  <ellipse cx="620" cy="390" rx="210" ry="86" fill="#e8dcc6"/>
+  <g fill="#c9b579">
+    <circle cx="532" cy="360" r="12"/><circle cx="560" cy="390" r="12"/><circle cx="594" cy="350" r="12"/><circle cx="626" cy="394" r="12"/>
+    <circle cx="664" cy="360" r="12"/><circle cx="696" cy="388" r="12"/>
+  </g>
+  <g fill="#8d3f36">
+    <ellipse cx="576" cy="370" rx="14" ry="10" transform="rotate(-20 576 370)"/>
+    <ellipse cx="650" cy="372" rx="14" ry="10" transform="rotate(18 650 372)"/>
+    <ellipse cx="614" cy="410" rx="14" ry="10" transform="rotate(-8 614 410)"/>
+  </g>
+  <g fill="#d8c49c">
+    <path d="M262 468l26 92h-52z"/><path d="M932 468l26 92h-52z"/>
+  </g>
+  <text x="88" y="110" fill="#3a2517" font-family="Georgia, serif" font-size="56" font-weight="700">Light Grain Bowl</text>
+  <text x="90" y="165" fill="#7f6248" font-family="Segoe UI, Arial, sans-serif" font-size="28">Job's tears, adzuki bean, barley sprout, and balanced pantry cooking</text>
+  <text x="182" y="640" fill="#8b6f39" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Grains</text>
+  <text x="906" y="640" fill="#7f3830" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Adzuki</text>
+</svg>

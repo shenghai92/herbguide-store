@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Berry porridge illustration</title>
+  <desc id="desc">A porridge bowl with goji berries, jujube, and black sesame garnish.</desc>
+  <rect width="1200" height="720" fill="#f5ecdf"/>
+  <ellipse cx="620" cy="568" rx="340" ry="86" fill="#d7b691"/>
+  <ellipse cx="620" cy="384" rx="220" ry="132" fill="#b5804d"/>
+  <ellipse cx="620" cy="366" rx="236" ry="110" fill="#fff9ef"/>
+  <ellipse cx="620" cy="382" rx="196" ry="82" fill="#efe1c4"/>
+  <circle cx="560" cy="352" r="18" fill="#b54435"/>
+  <circle cx="612" cy="334" r="16" fill="#a83732"/>
+  <circle cx="664" cy="362" r="20" fill="#b54435"/>
+  <circle cx="708" cy="339" r="16" fill="#a83732"/>
+  <circle cx="520" cy="388" r="16" fill="#a83732"/>
+  <circle cx="646" cy="394" r="18" fill="#b54435"/>
+  <g fill="#2c211b">
+    <circle cx="594" cy="378" r="4"/><circle cx="606" cy="386" r="4"/><circle cx="618" cy="374" r="4"/><circle cx="632" cy="382" r="4"/>
+    <circle cx="644" cy="370" r="4"/><circle cx="658" cy="386" r="4"/><circle cx="674" cy="374" r="4"/>
+  </g>
+  <circle cx="260" cy="520" r="64" fill="#b54435"/>
+  <circle cx="327" cy="492" r="56" fill="#9f302c"/>
+  <g fill="#2c211b">
+    <circle cx="930" cy="500" r="7"/><circle cx="956" cy="490" r="7"/><circle cx="982" cy="518" r="7"/>
+    <circle cx="910" cy="532" r="7"/><circle cx="950" cy="536" r="7"/><circle cx="990" cy="544" r="7"/>
+  </g>
+  <text x="88" y="110" fill="#3a2517" font-family="Georgia, serif" font-size="56" font-weight="700">Berry Porridge Bowl</text>
+  <text x="90" y="165" fill="#7f6248" font-family="Segoe UI, Arial, sans-serif" font-size="28">Goji, jujube, and gentle breakfast-style kitchen recipes</text>
+  <text x="188" y="640" fill="#fff7ef" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Jujube</text>
+  <text x="860" y="640" fill="#2c211b" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Black sesame</text>
+</svg>

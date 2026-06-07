@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Gentle sweet soup illustration</title>
+  <desc id="desc">A dessert-style sweet soup bowl with pear, tremella, lotus seed, and longan-like ingredients.</desc>
+  <rect width="1200" height="720" fill="#f8efe4"/>
+  <ellipse cx="620" cy="568" rx="340" ry="86" fill="#d6b694"/>
+  <ellipse cx="620" cy="395" rx="236" ry="138" fill="#c08d5a"/>
+  <ellipse cx="620" cy="370" rx="252" ry="116" fill="#fff9f1"/>
+  <ellipse cx="620" cy="390" rx="210" ry="86" fill="#f0ddbf"/>
+  <g fill="#f4e8d6" stroke="#d7c6b2" stroke-width="4">
+    <path d="M528 356c20-28 50-28 70 0-6 34-22 56-35 56s-29-22-35-56z"/>
+    <path d="M646 340c22-30 54-30 76 0-6 36-23 58-38 58s-32-22-38-58z"/>
+  </g>
+  <g fill="#ddd0a5">
+    <circle cx="578" cy="378" r="16"/><circle cx="628" cy="404" r="16"/><circle cx="700" cy="372" r="16"/>
+  </g>
+  <g fill="#d6b165">
+    <path d="M282 482c44 0 80 34 80 76H202c0-42 36-76 80-76z"/>
+    <path d="M950 486c44 0 80 34 80 76H870c0-42 36-76 80-76z"/>
+  </g>
+  <text x="88" y="110" fill="#3a2517" font-family="Georgia, serif" font-size="56" font-weight="700">Gentle Sweet Soup</text>
+  <text x="90" y="165" fill="#7f6248" font-family="Segoe UI, Arial, sans-serif" font-size="28">Pear, tremella, lotus seed, and soft dessert-soup kitchen pages</text>
+  <text x="214" y="640" fill="#8f6d36" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Pear slices</text>
+  <text x="864" y="640" fill="#8f6d36" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Lotus / longan</text>
+</svg>

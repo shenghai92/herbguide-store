@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Sesame and walnut breakfast bowl illustration</title>
+  <desc id="desc">A rich breakfast bowl with black sesame, walnut pieces, and jujube accents.</desc>
+  <rect width="1200" height="720" fill="#f3ebdf"/>
+  <ellipse cx="620" cy="568" rx="340" ry="86" fill="#d3b08a"/>
+  <ellipse cx="620" cy="390" rx="220" ry="132" fill="#7b5a43"/>
+  <ellipse cx="620" cy="370" rx="236" ry="110" fill="#faf5ee"/>
+  <ellipse cx="620" cy="388" rx="196" ry="82" fill="#4f4036"/>
+  <g fill="#271f1b">
+    <circle cx="546" cy="354" r="10"/><circle cx="576" cy="394" r="10"/><circle cx="610" cy="364" r="10"/><circle cx="648" cy="396" r="10"/>
+    <circle cx="684" cy="358" r="10"/><circle cx="714" cy="388" r="10"/>
+  </g>
+  <g fill="#8d643d">
+    <path d="M500 332c24-14 49-10 64 10-8 29-41 42-66 28-17-9-17-28 2-38z"/>
+    <path d="M676 326c23-14 50-10 65 10-9 29-42 42-67 28-17-9-16-28 2-38z"/>
+    <path d="M584 414c22-13 46-8 60 10-7 26-38 39-61 26-16-8-16-25 1-36z"/>
+  </g>
+  <circle cx="256" cy="520" r="62" fill="#1f1714"/>
+  <g fill="#8d643d">
+    <path d="M892 500c24-14 48-10 63 10-8 28-41 41-65 27-17-9-16-27 2-37z"/>
+    <path d="M970 540c22-13 46-8 60 10-7 26-38 39-61 26-16-8-16-25 1-36z"/>
+  </g>
+  <text x="88" y="110" fill="#3a2517" font-family="Georgia, serif" font-size="56" font-weight="700">Sesame + Walnut Bowl</text>
+  <text x="90" y="165" fill="#7f6248" font-family="Segoe UI, Arial, sans-serif" font-size="28">Black sesame breakfasts, walnut paste, and pantry comfort bowls</text>
+  <text x="164" y="640" fill="#1f1714" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Black sesame</text>
+  <text x="864" y="640" fill="#6f4e2e" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Walnut pieces</text>
+</svg>

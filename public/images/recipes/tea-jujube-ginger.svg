@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Jujube and ginger kitchen tea illustration</title>
+  <desc id="desc">A stylized kitchen tea scene with jujube, fresh ginger, and a warm tea cup.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f8efe1"/>
+      <stop offset="100%" stop-color="#ead5b8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <ellipse cx="620" cy="560" rx="330" ry="88" fill="#d9b489"/>
+  <rect x="430" y="230" width="380" height="245" rx="32" fill="#fff9f0" stroke="#9d6048" stroke-width="10"/>
+  <rect x="470" y="190" width="300" height="65" rx="26" fill="#9d6048"/>
+  <path d="M810 275c36 0 64 28 64 63s-28 63-64 63" fill="none" stroke="#9d6048" stroke-width="18" stroke-linecap="round"/>
+  <ellipse cx="620" cy="285" rx="145" ry="28" fill="#f0c78e"/>
+  <circle cx="550" cy="286" r="20" fill="#8a2f2d"/>
+  <circle cx="603" cy="279" r="18" fill="#973736"/>
+  <circle cx="653" cy="291" r="16" fill="#8a2f2d"/>
+  <g fill="#d6b165">
+    <rect x="525" y="245" width="14" height="92" rx="7" transform="rotate(18 532 291)"/>
+    <rect x="684" y="246" width="14" height="95" rx="7" transform="rotate(-16 691 293)"/>
+    <rect x="618" y="236" width="14" height="110" rx="7" transform="rotate(8 625 291)"/>
+  </g>
+  <circle cx="286" cy="510" r="74" fill="#8a2f2d"/>
+  <circle cx="354" cy="472" r="66" fill="#973736"/>
+  <circle cx="332" cy="545" r="57" fill="#7b2623"/>
+  <g fill="#d6b165">
+    <rect x="870" y="446" width="40" height="150" rx="20" transform="rotate(22 890 521)"/>
+    <rect x="920" y="448" width="38" height="150" rx="19" transform="rotate(12 939 523)"/>
+    <rect x="968" y="448" width="38" height="150" rx="19" transform="rotate(-8 987 523)"/>
+  </g>
+  <text x="88" y="110" fill="#3a2517" font-family="Georgia, serif" font-size="56" font-weight="700">Jujube + Ginger Tea</text>
+  <text x="90" y="165" fill="#7f6248" font-family="Segoe UI, Arial, sans-serif" font-size="28">Warm kitchen routine with familiar pantry ingredients</text>
+  <text x="170" y="640" fill="#fff8f0" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Jujube</text>
+  <text x="872" y="640" fill="#6e522c" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Fresh ginger</text>
+</svg>

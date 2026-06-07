@@ -12,7 +12,7 @@ export function getStaticPaths() {
 
 const { article } = Astro.props;
 const relatedTopics = getTopicsForFood(article.slug);
-const recipeImageMap: Record<string, { src: string; alt: string }> = {
+const recipeSchemaImageMap: Record<string, { src: string; alt: string }> = {
   "5-easy-traditional-kitchen-ingredients-for-beginners": {
     src: "/images/recipes/herbal-tea-mint.jpg",
     alt: "A bright herbal tea and pantry setup for a beginner-friendly kitchen guide.",
@@ -151,10 +151,121 @@ const recipeCuisineMap: Record<string, string> = {
   "chinese-yam-and-jujube-porridge-basics": "Chinese-inspired porridge",
   "tangerine-peel-and-pear-warm-tea-basics": "Chinese-inspired tea",
 };
-const recipeImage = recipeImageMap[article.slug] ?? {
+const recipePageVisualMap: Record<string, { src: string; alt: string }> = {
+  "5-easy-traditional-kitchen-ingredients-for-beginners": {
+    src: "/images/recipes/tea-citrus-peel.svg",
+    alt: "A pantry-style tea and ingredient illustration for beginner kitchen ingredients.",
+  },
+  "a-simple-warming-soup-guide-for-cold-weather": {
+    src: "/images/recipes/soup-warming.svg",
+    alt: "A warming soup illustration with ginger and seasonal herbs.",
+  },
+  "jujube-and-ginger-tea-for-busy-weeks": {
+    src: "/images/recipes/tea-jujube-ginger.svg",
+    alt: "An illustrated tea scene with jujube and fresh ginger.",
+  },
+  "pear-and-lily-bulb-soup-for-dry-days": {
+    src: "/images/recipes/soup-sweet-gentle.svg",
+    alt: "A gentle soup illustration with pear slices and soft dessert-soup ingredients.",
+  },
+  "black-sesame-breakfast-ideas-for-beginners": {
+    src: "/images/recipes/bowl-sesame-walnut.svg",
+    alt: "A rich sesame breakfast bowl illustration.",
+  },
+  "chrysanthemum-and-mint-cooling-tea-basics": {
+    src: "/images/recipes/tea-floral-cooling.svg",
+    alt: "A floral tea illustration with chrysanthemum and mint.",
+  },
+  "goji-berry-porridge-for-gentle-mornings": {
+    src: "/images/recipes/porridge-berry.svg",
+    alt: "A porridge bowl illustration with goji berries.",
+  },
+  "lotus-seed-and-longan-sweet-soup-basics": {
+    src: "/images/recipes/soup-sweet-gentle.svg",
+    alt: "A sweet soup illustration with lotus seed and longan-style ingredients.",
+  },
+  "chen-pi-tea-for-heavy-meal-days": {
+    src: "/images/recipes/tea-citrus-peel.svg",
+    alt: "A citrus peel tea illustration for a chen pi kitchen page.",
+  },
+  "hawthorn-berry-tea-for-rich-meals": {
+    src: "/images/recipes/tea-citrus-peel.svg",
+    alt: "A tart pantry tea illustration for hawthorn and meal-friendly tea.",
+  },
+  "black-sesame-and-jujube-breakfast-bowl": {
+    src: "/images/recipes/bowl-sesame-walnut.svg",
+    alt: "A dark sesame breakfast bowl illustration with jujube accents.",
+  },
+  "jobs-tears-porridge-for-heavy-days": {
+    src: "/images/recipes/soup-grain-light.svg",
+    alt: "A light grain porridge illustration for Job's tears and pantry grains.",
+  },
+  "pear-and-chrysanthemum-tea-for-warm-afternoons": {
+    src: "/images/recipes/tea-floral-cooling.svg",
+    alt: "A cooling tea illustration with pear and chrysanthemum notes.",
+  },
+  "mulberry-and-goji-tea-basics": {
+    src: "/images/recipes/porridge-berry.svg",
+    alt: "A berry-focused tea illustration for mulberry and goji.",
+  },
+  "goji-and-chrysanthemum-tea-basics": {
+    src: "/images/recipes/tea-floral-cooling.svg",
+    alt: "A floral and berry tea illustration for goji and chrysanthemum.",
+  },
+  "jujube-and-lotus-seed-congee-for-quiet-evenings": {
+    src: "/images/recipes/porridge-berry.svg",
+    alt: "A congee illustration with jujube and lotus-style pantry ingredients.",
+  },
+  "tremella-and-pear-sweet-soup-basics": {
+    src: "/images/recipes/soup-sweet-gentle.svg",
+    alt: "A sweet soup illustration with pear and tremella-like ingredients.",
+  },
+  "adzuki-bean-and-jobs-tears-soup-basics": {
+    src: "/images/recipes/soup-grain-light.svg",
+    alt: "A bean-and-grain soup illustration with adzuki and Job's tears.",
+  },
+  "chinese-yam-and-carrot-soup-basics": {
+    src: "/images/recipes/soup-warming.svg",
+    alt: "A simple soup illustration for Chinese yam and carrot.",
+  },
+  "perilla-and-ginger-soup-for-cool-days": {
+    src: "/images/recipes/soup-warming.svg",
+    alt: "A warming soup illustration with perilla and ginger.",
+  },
+  "tremella-and-lotus-seed-sweet-soup-basics": {
+    src: "/images/recipes/soup-sweet-gentle.svg",
+    alt: "A gentle dessert soup illustration with tremella and lotus seed.",
+  },
+  "schisandra-and-jujube-tea-basics": {
+    src: "/images/recipes/tea-jujube-ginger.svg",
+    alt: "A tea illustration focused on jujube and berry-like ingredients.",
+  },
+  "monk-fruit-and-pear-tea-basics": {
+    src: "/images/recipes/tea-floral-cooling.svg",
+    alt: "A light fruit tea illustration for monk fruit and pear.",
+  },
+  "walnut-and-black-sesame-paste-basics": {
+    src: "/images/recipes/bowl-sesame-walnut.svg",
+    alt: "A thick sesame and walnut breakfast bowl illustration.",
+  },
+  "barley-sprout-and-chen-pi-tea-basics": {
+    src: "/images/recipes/soup-grain-light.svg",
+    alt: "A pantry grain and citrus tea illustration for barley sprout and chen pi.",
+  },
+  "chinese-yam-and-jujube-porridge-basics": {
+    src: "/images/recipes/porridge-berry.svg",
+    alt: "A balanced porridge bowl illustration with jujube accents.",
+  },
+  "tangerine-peel-and-pear-warm-tea-basics": {
+    src: "/images/recipes/tea-citrus-peel.svg",
+    alt: "A citrus peel tea illustration with warm pantry fruit notes.",
+  },
+};
+const recipeImage = recipeSchemaImageMap[article.slug] ?? {
   src: "/images/recipes/herbal-tea-glass.jpg",
   alt: `${article.title} styled as a simple kitchen recipe image.`,
 };
+const recipePageVisual = recipePageVisualMap[article.slug] ?? recipeImage;
 const herbLinkMap: Record<string, Array<{ name: string; href: string }>> = {
   "5-easy-kitchen-ingredients-for-beginners": [
     { name: "Fresh Ginger", href: "/herbs/fresh-ginger/" },
@@ -555,7 +666,7 @@ const faqSchema = article.recipe
       <p>{article.intro}</p>
       {article.recipe && (
         <figure class="card recipe-hero-media">
-          <img src={recipeImage.src} alt={recipeImage.alt} loading="eager" />
+          <img src={recipePageVisual.src} alt={recipePageVisual.alt} loading="eager" />
         </figure>
       )}
     </div>

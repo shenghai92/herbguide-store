@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Warming soup illustration</title>
+  <desc id="desc">A savory soup bowl with ginger, herbs, and warming seasonal ingredients.</desc>
+  <rect width="1200" height="720" fill="#f5ead8"/>
+  <ellipse cx="620" cy="568" rx="340" ry="86" fill="#d6b48c"/>
+  <ellipse cx="620" cy="395" rx="236" ry="138" fill="#a05f39"/>
+  <ellipse cx="620" cy="370" rx="252" ry="116" fill="#fff8ef"/>
+  <ellipse cx="620" cy="390" rx="210" ry="86" fill="#cf8f4f"/>
+  <g fill="#72925d">
+    <ellipse cx="520" cy="360" rx="34" ry="16" transform="rotate(-16 520 360)"/>
+    <ellipse cx="686" cy="350" rx="38" ry="18" transform="rotate(20 686 350)"/>
+    <ellipse cx="610" cy="410" rx="30" ry="14" transform="rotate(-12 610 410)"/>
+  </g>
+  <g fill="#d4b06d">
+    <rect x="554" y="332" width="18" height="82" rx="9" transform="rotate(18 563 373)"/>
+    <rect x="654" y="324" width="18" height="88" rx="9" transform="rotate(-18 663 368)"/>
+  </g>
+  <circle cx="286" cy="520" r="54" fill="#d4b06d"/>
+  <circle cx="356" cy="488" r="48" fill="#8c3a32"/>
+  <circle cx="926" cy="516" r="56" fill="#72925d"/>
+  <text x="88" y="110" fill="#3a2517" font-family="Georgia, serif" font-size="56" font-weight="700">Warming Soup Pot</text>
+  <text x="90" y="165" fill="#7f6248" font-family="Segoe UI, Arial, sans-serif" font-size="28">Ginger, perilla, astragalus, and simple cold-weather soup ideas</text>
+  <text x="214" y="640" fill="#8b6c32" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Ginger</text>
+  <text x="884" y="640" fill="#57754e" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Perilla / herbs</text>
+</svg>

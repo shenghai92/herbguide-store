@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Citrus peel tea illustration</title>
+  <desc id="desc">A warm tea scene featuring tangerine peel, orange peel, and a clear tea glass.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fbf2df"/>
+      <stop offset="100%" stop-color="#f0d3a8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <ellipse cx="610" cy="560" rx="320" ry="84" fill="#dbb88b"/>
+  <rect x="510" y="210" width="220" height="290" rx="26" fill="#fffaf2" stroke="#9c6e3c" stroke-width="10"/>
+  <ellipse cx="620" cy="242" rx="100" ry="24" fill="#f4c170"/>
+  <rect x="530" y="250" width="180" height="182" rx="14" fill="#efb15e" opacity="0.88"/>
+  <path d="M562 312c40-24 66-18 86 5 22 25 44 34 78 22" fill="none" stroke="#cf6f2b" stroke-width="14" stroke-linecap="round"/>
+  <path d="M572 362c34-18 62-10 84 12 24 23 41 30 70 16" fill="none" stroke="#d98132" stroke-width="12" stroke-linecap="round"/>
+  <g>
+    <path d="M274 444c72 0 132 56 132 125H142c0-69 60-125 132-125z" fill="#e08a39"/>
+    <path d="M274 466c58 0 106 45 106 103H168c0-58 48-103 106-103z" fill="#fff1dc"/>
+    <path d="M274 486c46 0 84 36 84 83H190c0-47 38-83 84-83z" fill="#eea54c"/>
+  </g>
+  <g>
+    <path d="M916 452c74 0 134 56 134 125H782c0-69 60-125 134-125z" fill="#c95d28"/>
+    <path d="M916 474c60 0 108 45 108 103H808c0-58 48-103 108-103z" fill="#fff1dc"/>
+    <path d="M916 494c46 0 84 34 84 83H832c0-49 38-83 84-83z" fill="#d77730"/>
+  </g>
+  <text x="88" y="110" fill="#3a2517" font-family="Georgia, serif" font-size="56" font-weight="700">Citrus Peel Tea</text>
+  <text x="90" y="165" fill="#7f6248" font-family="Segoe UI, Arial, sans-serif" font-size="28">Tangerine peel, dried orange peel, and pantry tea rituals</text>
+  <text x="186" y="640" fill="#7d4f1e" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Tangerine peel</text>
+  <text x="825" y="640" fill="#7d3d20" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Dried orange peel</text>
+</svg>
