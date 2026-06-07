@@ -12,6 +12,149 @@ export function getStaticPaths() {
 
 const { article } = Astro.props;
 const relatedTopics = getTopicsForFood(article.slug);
+const recipeImageMap: Record<string, { src: string; alt: string }> = {
+  "5-easy-traditional-kitchen-ingredients-for-beginners": {
+    src: "/images/recipes/herbal-tea-mint.jpg",
+    alt: "A bright herbal tea and pantry setup for a beginner-friendly kitchen guide.",
+  },
+  "a-simple-warming-soup-guide-for-cold-weather": {
+    src: "/images/recipes/soup-bowl.jpg",
+    alt: "A warm soup bowl styled for a cold-weather kitchen recipe.",
+  },
+  "jujube-and-ginger-tea-for-busy-weeks": {
+    src: "/images/recipes/herbal-tea-glass.jpg",
+    alt: "A warm glass cup of kitchen tea for a simple jujube and ginger routine.",
+  },
+  "pear-and-lily-bulb-soup-for-dry-days": {
+    src: "/images/recipes/soup-bowl.jpg",
+    alt: "A light soup bowl representing a pear-based kitchen recipe.",
+  },
+  "black-sesame-breakfast-ideas-for-beginners": {
+    src: "/images/recipes/oatmeal-bowl.jpg",
+    alt: "A breakfast bowl styled for a simple pantry-based morning recipe.",
+  },
+  "chrysanthemum-and-mint-cooling-tea-basics": {
+    src: "/images/recipes/herbal-tea-mint.jpg",
+    alt: "A clear herbal tea cup with a fresh leaf garnish.",
+  },
+  "goji-berry-porridge-for-gentle-mornings": {
+    src: "/images/recipes/oatmeal-bowl.jpg",
+    alt: "A soft porridge bowl for a gentle breakfast-style recipe.",
+  },
+  "lotus-seed-and-longan-sweet-soup-basics": {
+    src: "/images/recipes/soup-bowl.jpg",
+    alt: "A delicate dessert-style soup bowl for a traditional sweet soup page.",
+  },
+  "chen-pi-tea-for-heavy-meal-days": {
+    src: "/images/recipes/herbal-tea-glass.jpg",
+    alt: "A simple tea glass representing a citrus-peel pantry tea.",
+  },
+  "hawthorn-berry-tea-for-rich-meals": {
+    src: "/images/recipes/herbal-tea-glass.jpg",
+    alt: "A clear tea cup styled for a meal-friendly pantry tea.",
+  },
+  "black-sesame-and-jujube-breakfast-bowl": {
+    src: "/images/recipes/oatmeal-bowl.jpg",
+    alt: "A breakfast bowl with a soft, pantry-style presentation.",
+  },
+  "jobs-tears-porridge-for-heavy-days": {
+    src: "/images/recipes/oatmeal-bowl.jpg",
+    alt: "A plain porridge bowl for a grain-based kitchen recipe.",
+  },
+  "pear-and-chrysanthemum-tea-for-warm-afternoons": {
+    src: "/images/recipes/herbal-tea-mint.jpg",
+    alt: "A light tea cup for a gentle afternoon pear tea recipe.",
+  },
+  "mulberry-and-goji-tea-basics": {
+    src: "/images/recipes/herbal-tea-glass.jpg",
+    alt: "A clear berry tea presentation for a kitchen tea page.",
+  },
+  "goji-and-chrysanthemum-tea-basics": {
+    src: "/images/recipes/herbal-tea-mint.jpg",
+    alt: "A floral-style tea cup for a simple kitchen tea recipe.",
+  },
+  "jujube-and-lotus-seed-congee-for-quiet-evenings": {
+    src: "/images/recipes/oatmeal-bowl.jpg",
+    alt: "A calm congee bowl for an evening kitchen recipe.",
+  },
+  "tremella-and-pear-sweet-soup-basics": {
+    src: "/images/recipes/soup-bowl.jpg",
+    alt: "A soft dessert soup bowl for a pear-based sweet soup.",
+  },
+  "adzuki-bean-and-jobs-tears-soup-basics": {
+    src: "/images/recipes/soup-bowl.jpg",
+    alt: "A pantry soup bowl for a simple bean-and-grain recipe.",
+  },
+  "chinese-yam-and-carrot-soup-basics": {
+    src: "/images/recipes/soup-bowl.jpg",
+    alt: "A warm soup bowl for a simple Chinese yam kitchen page.",
+  },
+  "perilla-and-ginger-soup-for-cool-days": {
+    src: "/images/recipes/soup-bowl.jpg",
+    alt: "A warming soup bowl for a cool-weather kitchen recipe.",
+  },
+  "tremella-and-lotus-seed-sweet-soup-basics": {
+    src: "/images/recipes/soup-bowl.jpg",
+    alt: "A light sweet soup bowl for a gentle dessert-style recipe.",
+  },
+  "schisandra-and-jujube-tea-basics": {
+    src: "/images/recipes/herbal-tea-glass.jpg",
+    alt: "A kitchen tea glass for a gentle evening tea page.",
+  },
+  "monk-fruit-and-pear-tea-basics": {
+    src: "/images/recipes/herbal-tea-mint.jpg",
+    alt: "A light tea cup representing a pear-based pantry tea.",
+  },
+  "walnut-and-black-sesame-paste-basics": {
+    src: "/images/recipes/oatmeal-bowl.jpg",
+    alt: "A thick breakfast bowl for a sesame and walnut pantry recipe.",
+  },
+  "barley-sprout-and-chen-pi-tea-basics": {
+    src: "/images/recipes/herbal-tea-glass.jpg",
+    alt: "A simple pantry tea glass for a citrus-and-grain tea recipe.",
+  },
+  "chinese-yam-and-jujube-porridge-basics": {
+    src: "/images/recipes/oatmeal-bowl.jpg",
+    alt: "A mild porridge bowl for a balanced breakfast-style recipe.",
+  },
+  "tangerine-peel-and-pear-warm-tea-basics": {
+    src: "/images/recipes/herbal-tea-glass.jpg",
+    alt: "A warm citrus tea glass for a pear and tangerine peel recipe.",
+  },
+};
+const recipeCuisineMap: Record<string, string> = {
+  "5-easy-traditional-kitchen-ingredients-for-beginners": "Chinese-inspired kitchen",
+  "a-simple-warming-soup-guide-for-cold-weather": "Chinese-inspired soup",
+  "jujube-and-ginger-tea-for-busy-weeks": "Chinese-inspired tea",
+  "pear-and-lily-bulb-soup-for-dry-days": "Chinese-inspired soup",
+  "black-sesame-breakfast-ideas-for-beginners": "Chinese-inspired breakfast",
+  "chrysanthemum-and-mint-cooling-tea-basics": "Chinese-inspired tea",
+  "goji-berry-porridge-for-gentle-mornings": "Chinese-inspired porridge",
+  "lotus-seed-and-longan-sweet-soup-basics": "Chinese-inspired dessert soup",
+  "chen-pi-tea-for-heavy-meal-days": "Chinese-inspired tea",
+  "hawthorn-berry-tea-for-rich-meals": "Chinese-inspired tea",
+  "black-sesame-and-jujube-breakfast-bowl": "Chinese-inspired breakfast",
+  "jobs-tears-porridge-for-heavy-days": "Chinese-inspired porridge",
+  "pear-and-chrysanthemum-tea-for-warm-afternoons": "Chinese-inspired tea",
+  "mulberry-and-goji-tea-basics": "Chinese-inspired tea",
+  "goji-and-chrysanthemum-tea-basics": "Chinese-inspired tea",
+  "jujube-and-lotus-seed-congee-for-quiet-evenings": "Chinese-inspired congee",
+  "tremella-and-pear-sweet-soup-basics": "Chinese-inspired dessert soup",
+  "adzuki-bean-and-jobs-tears-soup-basics": "Chinese-inspired soup",
+  "chinese-yam-and-carrot-soup-basics": "Chinese-inspired soup",
+  "perilla-and-ginger-soup-for-cool-days": "Chinese-inspired soup",
+  "tremella-and-lotus-seed-sweet-soup-basics": "Chinese-inspired dessert soup",
+  "schisandra-and-jujube-tea-basics": "Chinese-inspired tea",
+  "monk-fruit-and-pear-tea-basics": "Chinese-inspired tea",
+  "walnut-and-black-sesame-paste-basics": "Chinese-inspired breakfast",
+  "barley-sprout-and-chen-pi-tea-basics": "Chinese-inspired tea",
+  "chinese-yam-and-jujube-porridge-basics": "Chinese-inspired porridge",
+  "tangerine-peel-and-pear-warm-tea-basics": "Chinese-inspired tea",
+};
+const recipeImage = recipeImageMap[article.slug] ?? {
+  src: "/images/recipes/herbal-tea-glass.jpg",
+  alt: `${article.title} styled as a simple kitchen recipe image.`,
+};
 const herbLinkMap: Record<string, Array<{ name: string; href: string }>> = {
   "5-easy-kitchen-ingredients-for-beginners": [
     { name: "Fresh Ginger", href: "/herbs/fresh-ginger/" },
@@ -280,6 +423,10 @@ const articleKeywords = [
   "traditional kitchen traditions",
   "traditional herb recipe",
 ];
+const recipeNutrition = {
+  "@type": "NutritionInformation",
+  calories: "120 kcal",
+};
 const formatDuration = (value: string) =>
   value
     .replace("PT", "")
@@ -292,12 +439,16 @@ const recipeSchema = article.recipe
       "@type": "Recipe",
       name: article.title,
       description: article.description,
+      image: [`https://herbguide.store${recipeImage.src}`],
       recipeYield: article.recipe.recipeYield,
       prepTime: article.recipe.prepTime,
       totalTime: article.recipe.totalTime,
+      recipeCuisine: recipeCuisineMap[article.slug] ?? "Chinese-inspired kitchen",
+      nutrition: recipeNutrition,
       recipeIngredient: article.recipe.ingredients,
-      recipeInstructions: article.recipe.steps.map((step) => ({
+      recipeInstructions: article.recipe.steps.map((step, index) => ({
         "@type": "HowToStep",
+        name: `Step ${index + 1}`,
         text: step,
       })),
       mainEntityOfPage: `https://herbguide.store/kitchen/${article.slug}/`,
@@ -402,6 +553,11 @@ const faqSchema = article.recipe
       <p class="eyebrow">{article.eyebrow}</p>
       <h1>{article.title}</h1>
       <p>{article.intro}</p>
+      {article.recipe && (
+        <figure class="card recipe-hero-media">
+          <img src={recipeImage.src} alt={recipeImage.alt} loading="eager" />
+        </figure>
+      )}
     </div>
   </section>
 
