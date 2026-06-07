@@ -2616,4 +2616,54 @@ export const foodTherapyArticles: ContentArticle[] = [
       },
     ],
   },
+  {
+    slug: "tangerine-peel-and-pear-warm-tea-basics",
+    title: "Tangerine Peel and Pear Warm Tea Basics",
+    description:
+      "A light citrus-and-fruit tea that supports gentle pantry reading with familiar ingredients and clear kitchen language.",
+    eyebrow: "Kitchen Traditions",
+    intro:
+      "Tangerine peel and pear make an easy pair for readers who want a soft citrus tea without heavy jargon. The peel adds aromatic depth, the pear keeps the page food-first, and the overall recipe supports long-tail searches around warm pear tea, citrus peel tea, and simple pantry routines.",
+    recipe: {
+      recipeYield: "2 cups",
+      prepTime: "PT6M",
+      totalTime: "PT18M",
+      ingredients: [
+        "1 tablespoon dried tangerine peel or dried orange peel",
+        "1 small pear, sliced thinly",
+        "2 1/2 cups water",
+        "Optional: 2 jujubes, split for a softer finish",
+      ],
+      steps: [
+        "Rinse the dried peel quickly and slice the pear into thin pieces.",
+        "Add the peel and water to a small pot and bring to a gentle boil.",
+        "Lower the heat and simmer for about 8 minutes so the citrus aroma opens gradually.",
+        "Add the pear and optional jujube, then simmer for another 4 to 5 minutes.",
+        "Strain if desired and serve warm with a light, clear flavor.",
+      ],
+      servingNotes: [
+        "Keep the flavor light so the page stays kitchen-first and easy to repeat.",
+        "This tea works best as a pantry-style warm drink rather than a concentrated routine.",
+      ],
+      caution: [
+        "Meal-friendly and gentle-language here belongs to traditional kitchen context, not personal guidance.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why this tea works well for search and usability",
+        paragraphs: [
+          "Pear tea is easy for many readers to picture right away, while tangerine peel gives the page a more distinct traditional pantry angle.",
+          "That combination supports practical long-tail searches without leaning on exaggerated wellness language.",
+        ],
+      },
+      {
+        title: "How this recipe strengthens the kitchen section",
+        paragraphs: [
+          "This page creates a direct route between citrus-peel herb profiles, pear-based seasonal reading, and simple pantry tea habits.",
+          "It also adds another warm, food-friendly drink that feels different from ginger-heavy or floral tea pages.",
+        ],
+      },
+    ],
+  },
 ];

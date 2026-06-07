@@ -323,6 +323,11 @@ const rawRecipeCards = [
     title: "Chinese Yam and Jujube Porridge Basics",
     text: "A soft beginner porridge that brings Chinese yam and jujube together in a balanced, kitchen-first bowl.",
   },
+  {
+    slug: "tangerine-peel-and-pear-warm-tea-basics",
+    title: "Tangerine Peel and Pear Warm Tea Basics",
+    text: "A light pantry tea that connects citrus peel and pear through a simple, search-friendly warm drink.",
+  },
 ];
 
 export const recipeCards = rawRecipeCards.map((card) => sanitizeContentCard(card));

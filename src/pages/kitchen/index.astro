@@ -30,6 +30,7 @@ const recipeSearchThemes: Record<string, string[]> = {
   "walnut-and-black-sesame-paste-basics": ["nourishing", "breakfast", "pantry", "warm bowl"],
   "barley-sprout-and-chen-pi-tea-basics": ["digestive", "tea", "post-meal", "pantry"],
   "chinese-yam-and-jujube-porridge-basics": ["balanced", "porridge", "gentle", "breakfast"],
+  "tangerine-peel-and-pear-warm-tea-basics": ["warm tea", "pear", "citrus peel", "pantry"],
 };
 
 const recipeCategoryMap: Record<string, string> = {
@@ -59,6 +60,7 @@ const recipeCategoryMap: Record<string, string> = {
   "walnut-and-black-sesame-paste-basics": "Nourishing",
   "barley-sprout-and-chen-pi-tea-basics": "Digestive",
   "chinese-yam-and-jujube-porridge-basics": "Balanced",
+  "tangerine-peel-and-pear-warm-tea-basics": "Warming",
 };
 
 const recipeCategories = Array.from(new Set(recipeCards.map((card) => recipeCategoryMap[card.slug] ?? "Balanced")));
@@ -230,6 +232,7 @@ const recipeCategories = Array.from(new Set(recipeCards.map((card) => recipeCate
           <li><a href="/kitchen/walnut-and-black-sesame-paste-basics/">Walnut and Black Sesame Paste Basics</a></li>
           <li><a href="/kitchen/barley-sprout-and-chen-pi-tea-basics/">Barley Sprout and Chen Pi Tea Basics</a></li>
           <li><a href="/kitchen/chinese-yam-and-jujube-porridge-basics/">Chinese Yam and Jujube Porridge Basics</a></li>
+          <li><a href="/kitchen/tangerine-peel-and-pear-warm-tea-basics/">Tangerine Peel and Pear Warm Tea Basics</a></li>
         </ul>
       </article>
     </div>
