@@ -1258,7 +1258,7 @@ export const classicsArticles: ContentArticle[] = [
 export const foodTherapyArticles: ContentArticle[] = [
   {
     slug: "5-easy-traditional-kitchen-ingredients-for-beginners",
-    title: "5 Easy Chinese Food Therapy Ingredients for Beginners",
+    title: "5 Easy Chinese Kitchen Ingredients for Beginners",
     description:
       "A practical starter guide to five approachable ingredients that already feel close to everyday cooking.",
     eyebrow: "Kitchen Traditions",
@@ -1310,7 +1310,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       {
         title: "Why these ingredients are good beginner examples",
         paragraphs: [
-          "Some readers already recognize a few of these names, but still need clearer explanations for how they are used in traditional food writing.",
+          "Some readers already recognize a few of these names, but still need clearer explanations for how they are used in traditional kitchen writing.",
           "That makes them useful starting points for moving between beginner guides, herb profiles, and kitchen pages.",
         ],
       },
