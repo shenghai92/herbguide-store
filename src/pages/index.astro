@@ -11,14 +11,14 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
 
 <BaseLayout
   title="Traditional Herbs, Kitchen Recipes, and Basics | HerbGuide"
-  description="Explore traditional herb profiles, kitchen recipes with ingredients and steps, plain-English basics, and practical kitchen traditions."
+  description="Explore herb guides, kitchen recipes with ingredients and steps, traditional terms in plain English, and beginner-friendly ingredient comparisons."
   structuredData={[
     {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
       name: "Traditional Herbs Explained in English",
       description:
-        "A practical starting point for traditional herb profiles, basics, food traditions, and classical reading.",
+        "A practical starting point for herb guides, kitchen recipes, basics explainers, and traditional reading in plain English.",
       url: "https://herbguide.store/",
     },
     {
@@ -64,15 +64,15 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
   <section class="hero">
     <div class="shell hero-grid">
       <div>
-        <p class="eyebrow">Friendly and practical herb learning</p>
-        <h1>Traditional herbs, explained clearly for modern readers.</h1>
+        <p class="eyebrow">Herb guides in plain English</p>
+        <h1>Herb guides, kitchen recipes, and traditional terms made easier to understand.</h1>
         <p class="hero-copy">
-          Explore herb profiles, beginner-friendly traditional concepts, and practical food
-          traditions written in clear American English.
+          Explore herb guides, kitchen recipes, ingredient comparisons, and beginner-friendly
+          traditional concepts written in clear American English.
         </p>
         <p class="hero-copy">
-          Start with herb profiles, kitchen recipes with ingredients and steps,
-          or plain-English basics built for readers who want practical context without hype.
+          Start with familiar ingredients like goji berry, ginger, jujube, chrysanthemum,
+          pear tea, warming soups, or plain-English basics built for readers who want context without hype.
         </p>
         <div class="hero-actions">
           <a class="button button-primary" href="/herbs/">Start with the Herb Library</a>
@@ -97,10 +97,10 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
 
   <section class="section">
     <div class="shell">
-      <SectionIntro
-        eyebrow="Start with familiar needs"
-        title="Browse by everyday topic"
-        text="We organize traditional herb content around recognizable themes so new readers have an easy starting point."
+        <SectionIntro
+          eyebrow="Start with familiar needs"
+          title="Browse by everyday topic"
+        text="We organize herb guides and kitchen pages around recognizable themes so new readers can start with digestive traditions, warming foods, pantry habits, or evening teas."
       />
       <div class="pill-grid">
         {goalCards.map((goal) => (
@@ -170,7 +170,7 @@ const featuredHerbLinks = featuredHerbs.slice(0, 4);
         <SectionIntro
           eyebrow="Kitchen-first content"
           title="Food tradition picks"
-          text="Simple soups, teas, pantry guides, and gentle routines keep the material practical instead of abstract."
+          text="Simple soups, pear teas, pantry guides, and breakfast bowls keep the material concrete instead of abstract."
         />
         <div class="stack">
           {recipeCards.map((card) => (

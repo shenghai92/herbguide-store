@@ -9,14 +9,14 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
 
 <BaseLayout
   title="Herb Library | HerbGuide"
-  description="Browse beginner-friendly herb profiles with plain-English summaries and food tradition context."
+  description="Browse herb guides by English name, pinyin, category, tea use, soup use, and food-friendly ingredient context."
   structuredData={[
     {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
       name: "Herb Library",
       description:
-        "Browse beginner-friendly herb profiles with plain-English summaries and food tradition context.",
+        "Browse herb guides with plain-English summaries, pinyin names, categories, and food-friendly ingredient context.",
       url: "https://herbguide.store/herbs/",
     },
     {
@@ -64,11 +64,10 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
   <section class="page-hero">
     <div class="shell narrow">
       <p class="eyebrow">Herb Library</p>
-      <h1>Beginner-friendly herb profiles</h1>
+      <h1>Browse herb guides by name, use, and category</h1>
       <p>
         Every herb has its own dedicated page. Use the library search, category filters, and
-        alphabet filters to jump directly to the herb a reader wants instead of making them
-        scroll through an oversized list.
+        alphabet filters to jump straight to goji berry, ginger, chrysanthemum, ginseng, pinyin names, or food-friendly herbs without scrolling through an oversized list.
       </p>
     </div>
   </section>
@@ -77,7 +76,7 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
     <div class="shell">
       <SectionIntro
         title="Search the herb library"
-        text="Client-side search plus simple filters keep herb browsing fast and make the library easier to use as more pages are added."
+        text="Search by English name, pinyin, Chinese name, tea use, soup use, digestive terms, or warming and cooling language."
       />
       <div class="search-panel">
         <label class="sr-only" for="herb-search">Search herbs</label>
