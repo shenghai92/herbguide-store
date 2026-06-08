@@ -12,11 +12,41 @@ export function getStaticPaths() {
 
 const { article } = Astro.props;
 const relatedTopics = getTopicsForBasics(article.slug);
+const articleKeywords = [
+  article.title,
+  `${article.title} meaning`,
+  `${article.title} plain English`,
+  `what does ${article.title.replace(/\?$/, "")} mean`,
+  "traditional terms",
+  "plain English guide",
+];
+const basicsFaqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: `What does ${article.title.replace(/\?$/, "")} mean in plain English?`,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: `${article.title} is explained here in plain English as part of traditional herb and food writing, with clear boundaries and beginner-friendly context.`,
+      },
+    },
+    {
+      "@type": "Question",
+      name: `Is ${article.title.replace(/\?$/, "")} a personal label or diagnosis?`,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: `No. HerbGuide presents ${article.title} as traditional vocabulary for educational reading, not as a personal label, diagnosis, or one-to-one guidance.`,
+      },
+    },
+  ],
+};
 ---
 
 <BaseLayout
-  title={`${article.title} | HerbGuide`}
-  description={article.description}
+  title={`${article.title} Meaning in Plain English | HerbGuide`}
+  description={`${article.description} Learn the term in plain English with examples from herb and kitchen pages.`}
   structuredData={[
     {
       "@context": "https://schema.org",
@@ -24,6 +54,7 @@ const relatedTopics = getTopicsForBasics(article.slug);
       headline: article.title,
       description: article.description,
       url: `https://herbguide.store/basics/${article.slug}/`,
+      keywords: articleKeywords.join(", "),
       author: {
         "@type": "Organization",
         name: "HerbGuide",
@@ -57,6 +88,7 @@ const relatedTopics = getTopicsForBasics(article.slug);
         },
       ],
     },
+    basicsFaqSchema,
   ]}
 >
   <section class="page-hero">
@@ -64,6 +96,10 @@ const relatedTopics = getTopicsForBasics(article.slug);
       <p class="eyebrow">{article.eyebrow}</p>
       <h1>{article.title}</h1>
       <p>{article.intro}</p>
+      <p>
+        This page is written for readers who want the meaning in plain English before moving
+        into herb guides, ingredient comparisons, or kitchen pages.
+      </p>
     </div>
   </section>
 
@@ -104,6 +140,20 @@ const relatedTopics = getTopicsForBasics(article.slug);
         <p>
           This article is part of the <a href="/basics/">Basics</a> section. Continue there
           for more plain-English explanations of traditional herb terms.
+        </p>
+      </article>
+      <article class="prose-block card">
+        <p class="eyebrow">Basics FAQ</p>
+        <h2>Common questions about this term</h2>
+        <h3>What does this term mean in plain English?</h3>
+        <p>
+          This page explains the term in plain English as part of traditional herb and food
+          writing, with beginner-friendly context and clearer wording.
+        </p>
+        <h3>Is this a personal label or diagnosis?</h3>
+        <p>
+          No. HerbGuide presents this term as traditional vocabulary for educational reading,
+          not as a personal label, diagnosis, or one-to-one guidance.
         </p>
       </article>
       {relatedTopics.length > 0 && (

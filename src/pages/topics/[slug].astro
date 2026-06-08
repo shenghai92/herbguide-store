@@ -10,11 +10,43 @@ export function getStaticPaths() {
 }
 
 const { topic } = Astro.props;
+const topicKeywords = [
+  topic.title,
+  `${topic.title} guide`,
+  `${topic.title} herbs`,
+  `${topic.title} tea`,
+  `${topic.title} recipes`,
+  "ingredient guide",
+  "kitchen ideas",
+  "plain English",
+];
+const topicFaqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: `What is covered in ${topic.title}?`,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: `${topic.title} groups related herb guides, kitchen pages, and basics articles so readers can browse one theme in a clearer way.`,
+      },
+    },
+    {
+      "@type": "Question",
+      name: `Can ${topic.title} help if I do not know a herb name yet?`,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: `Yes. Topic pages are designed for readers who start with a theme such as tea, soup, pantry habits, warming foods, or digestive traditions rather than a specific herb name.`,
+      },
+    },
+  ],
+};
 ---
 
 <BaseLayout
-  title={`${topic.title} | HerbGuide`}
-  description={topic.description}
+  title={`${topic.title} Guide | HerbGuide`}
+  description={`${topic.description} Browse related herbs, kitchen pages, and basics articles in one theme.`}
   structuredData={[
     {
       "@context": "https://schema.org",
@@ -22,6 +54,7 @@ const { topic } = Astro.props;
       name: topic.title,
       description: topic.description,
       url: `https://herbguide.store/topics/${topic.slug}/`,
+      keywords: topicKeywords.join(", "),
     },
     {
       "@context": "https://schema.org",
@@ -47,6 +80,7 @@ const { topic } = Astro.props;
         },
       ],
     },
+    topicFaqSchema,
   ]}
 >
   <section class="page-hero">
@@ -54,6 +88,10 @@ const { topic } = Astro.props;
       <p class="eyebrow">{topic.eyebrow}</p>
       <h1>{topic.title}</h1>
       <p>{topic.intro}</p>
+      <p>
+        This guide helps readers browse one theme through herb guides, kitchen recipes,
+        and basics explainers instead of trying to piece the topic together page by page.
+      </p>
     </div>
   </section>
 
@@ -95,6 +133,21 @@ const { topic } = Astro.props;
         <p>
           Return to <a href="/topics/">Topics</a> for more guided routes through herbs, basics,
           and kitchen content.
+        </p>
+      </article>
+
+      <article class="prose-block card">
+        <p class="eyebrow">Topic FAQ</p>
+        <h2>Common reader questions</h2>
+        <h3>What is covered in {topic.title}?</h3>
+        <p>
+          {topic.title} groups related herb guides, kitchen pages, and basics articles so
+          readers can browse one theme in a clearer way.
+        </p>
+        <h3>Can this page help if I do not know a herb name yet?</h3>
+        <p>
+          Yes. Topic pages are made for readers who start with a theme such as tea, soup,
+          pantry habits, warming foods, or digestive traditions rather than a specific herb name.
         </p>
       </article>
     </div>
