@@ -2,10 +2,6 @@ export const siteConfig = {
   name: "HerbGuide",
   domain: "herbguide.store",
   url: "https://herbguide.store",
-  supportLinks: {
-    small: "https://www.creem.io/payment/prod_4D3ctizCaR7y8GWOLSPw8B",
-    large: "https://www.creem.io/payment/prod_1yEKsdJ6dAiyBSC2SKOGgp",
-  },
   supportEmail: "support@herbguide.store",
   gaMeasurementId: "G-4RCT0E2PL5",
   title: "HerbGuide | Traditional herbs explained clearly",
@@ -35,7 +31,6 @@ export const footerNav = [
   { href: "/topics/", label: "Topics" },
   { href: "/glossary/", label: "Glossary" },
   { href: "/kitchen/", label: "Kitchen Traditions" },
-  { href: "/support/", label: "Support HerbGuide" },
   { href: "/basics/", label: "Basics" },
   { href: "/classics/", label: "Chinese Classics" },
   { href: "/safety/", label: "Safety" },

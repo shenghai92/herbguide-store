@@ -90,20 +90,6 @@ const schemaGraph = [
             gtag('config', '${gaMeasurementId}');
           `}
         />
-        <script
-          is:inline
-          set:html={`
-            document.addEventListener('click', function (event) {
-              var link = event.target && event.target.closest ? event.target.closest('[data-support-tier]') : null;
-              if (!link || typeof gtag !== 'function') return;
-              gtag('event', 'support_click', {
-                event_category: 'engagement',
-                event_label: link.getAttribute('data-support-tier') || 'unknown',
-                value: link.getAttribute('data-support-value') || ''
-              });
-            });
-          `}
-        />
       </>
     )}
     <script is:inline type="application/ld+json" set:html={JSON.stringify(schemaGraph)} />
@@ -133,39 +119,6 @@ const schemaGraph = [
     <main>
       <slot />
     </main>
-    <aside class="support-float" aria-label="Reader support">
-      <p class="eyebrow">Optional support</p>
-      <h2>Everything on HerbGuide is free.</h2>
-      <p>
-        All pages and site features are open to every reader. Support is optional and helps us
-        keep publishing more kitchen guides and herb pages.
-      </p>
-      <p class="support-float-note">
-        These support links do not unlock content, extra tools, or special access.
-      </p>
-      <div class="support-float-actions">
-        <a
-          class="button button-secondary"
-          href={siteConfig.supportLinks.small}
-          data-support-tier="small_support"
-          data-support-value="4.90"
-          rel="nofollow sponsored external"
-          target="_blank"
-        >
-          $4.90 support
-        </a>
-        <a
-          class="button button-primary"
-          href={siteConfig.supportLinks.large}
-          data-support-tier="large_support"
-          data-support-value="9.90"
-          rel="nofollow sponsored external"
-          target="_blank"
-        >
-          $9.90 support
-        </a>
-      </div>
-    </aside>
     <footer class="site-footer">
       <div class="shell footer-grid">
         <div>
@@ -176,10 +129,6 @@ const schemaGraph = [
           </p>
           <p>
             Support: <a href={`mailto:${siteConfig.supportEmail}`}>{siteConfig.supportEmail}</a>
-          </p>
-          <p>
-            All content and site features are currently free. Reader support is optional and
-            helps fund more herb pages and kitchen guides, but it does not unlock access.
           </p>
           <p class="footer-note">
             Educational content only. HerbGuide shares general learning materials, not personal
@@ -206,7 +155,6 @@ const schemaGraph = [
           <h3>Contact & Review</h3>
           <ul>
             <li><a href={`mailto:${siteConfig.supportEmail}`}>Email Support</a></li>
-            <li><a href="/support/">Support HerbGuide</a></li>
             <li><a href="/about/">About HerbGuide</a></li>
             <li><a href="/editorial-policy/">Editorial Policy</a></li>
             <li><a href="/privacy-policy/">Privacy Policy</a></li>
