@@ -91,9 +91,9 @@ const herbKeywords = [
   herb.latin,
   herb.category,
   `${herb.name} guide`,
-  `${herb.name} uses`,
   `what is ${herb.name}`,
-  `how to use ${herb.name}`,
+  `${herb.name} traditional context`,
+  `${herb.name} kitchen notes`,
   `${herb.name} safety`,
   ...herb.tags,
   ...herb.foodUses,
@@ -131,8 +131,8 @@ const faqSchema = {
 ---
 
 <BaseLayout
-  title={`${herb.name} (${herb.pinyin}) Guide, Uses, and Safety | HerbGuide`}
-  description={`${herb.summary} Learn names, traditional context, food uses, and safety notes in plain English.`}
+  title={`${herb.name} (${herb.pinyin}) Guide, Context, and Safety | HerbGuide`}
+  description={`${herb.summary} Learn names, traditional context, kitchen notes, and safety language in plain English.`}
   type="article"
   structuredData={[
     {
@@ -227,7 +227,7 @@ const faqSchema = {
       <article class="prose-block stack">
         <article class="prose-block card detail-jump-card">
           <p class="eyebrow">Quick guide</p>
-          <h2>How to use this herb page</h2>
+          <h2>How to read this herb page</h2>
           <p>
             This page is structured to help readers move from naming and traditional context
             into kitchen use, comparison links, and caution notes without scrolling blindly.
@@ -270,7 +270,7 @@ const faqSchema = {
         </section>
 
         <section class="detail-section card">
-          <h2>Traditional uses in plain English</h2>
+          <h2>Traditional context in plain English</h2>
           <ul>
             {herb.traditionalUses.map((item) => (
               <li>{item}</li>
@@ -279,7 +279,7 @@ const faqSchema = {
         </section>
 
         <section class="detail-section card" id="kitchen-uses">
-          <h2>Common kitchen uses</h2>
+          <h2>Common kitchen notes</h2>
           <p>
             This site focuses on practical, kitchen-adjacent learning whenever possible.
             For {herb.name}, the most approachable formats are:

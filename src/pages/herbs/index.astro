@@ -9,7 +9,7 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
 
 <BaseLayout
   title="Herb Library | HerbGuide"
-  description="Browse herb guides by English name, pinyin, category, tea use, soup use, and food-friendly ingredient context."
+  description="Browse herb guides by English name, pinyin, category, tea context, soup context, and food-friendly ingredient notes."
   structuredData={[
     {
       "@context": "https://schema.org",
@@ -64,7 +64,7 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
   <section class="page-hero">
     <div class="shell narrow">
       <p class="eyebrow">Herb Library</p>
-      <h1>Browse herb guides by name, use, and category</h1>
+      <h1>Browse herb guides by name, context, and category</h1>
       <p>
         Every herb has its own dedicated page. Use the library search, category filters, and
         alphabet filters to jump straight to goji berry, ginger, chrysanthemum, ginseng, pinyin names, or food-friendly herbs without scrolling through an oversized list.
@@ -76,14 +76,14 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
     <div class="shell">
       <SectionIntro
         title="Search the herb library"
-        text="Search by English name, pinyin, Chinese name, tea use, soup use, digestive terms, or warming and cooling language."
+        text="Search by English name, pinyin, Chinese name, tea context, soup context, digestive terms, or warming and cooling language."
       />
       <div class="search-panel">
         <label class="sr-only" for="herb-search">Search herbs</label>
         <input
           id="herb-search"
           type="search"
-          placeholder="Search by English name, pinyin, Chinese name, tag, or use"
+          placeholder="Search by English name, pinyin, Chinese name, tag, or context"
         />
         <p class="search-note">Start with terms like goji, huang qi, tea, digestive, or warming.</p>
       </div>
@@ -182,12 +182,12 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
     <div class="shell two-up">
       <article class="prose-block card">
         <p class="eyebrow">How to use this library</p>
-        <h2>Browse herbs by name, use, and traditional category</h2>
+        <h2>Browse herbs by name, context, and traditional category</h2>
         <p>
           This herb library is built for readers who want a beginner-friendly way to
           explore herbs without getting lost in untranslated terminology. Each herb
           page includes the English name, pinyin, Chinese characters, Latin name,
-          traditional nature and flavor, channel entry, food use ideas where appropriate,
+          traditional nature and flavor, channel entry, kitchen notes where appropriate,
           and a visible safety note.
         </p>
         <p>
@@ -209,7 +209,7 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
         </p>
         <p>
           That makes this page useful for readers searching for herbs explained in
-          English, how to understand pinyin herb names, or where to start with food-friendly
+          English, ways to understand pinyin herb names, or where to start with food-friendly
           herb pages before moving into more advanced material.
         </p>
         <p>

@@ -327,8 +327,8 @@ const rawTopics: Topic[] = [
     ],
     featuredLinks: [
       {
-        title: "5 Easy Chinese Food Therapy Ingredients for Beginners",
-        href: "/kitchen/5-easy-kitchen-ingredients-for-beginners/",
+        title: "5 Easy Chinese Kitchen Ingredients for Beginners",
+        href: "/kitchen/5-easy-traditional-kitchen-ingredients-for-beginners/",
         text: "A broad starter guide for pantry-friendly exploration.",
       },
       {

@@ -276,7 +276,7 @@ const recipeImage = recipeSchemaImageMap[article.slug] ?? {
 };
 const recipePageVisual = recipePageVisualMap[article.slug] ?? recipeImage;
 const herbLinkMap: Record<string, Array<{ name: string; href: string }>> = {
-  "5-easy-kitchen-ingredients-for-beginners": [
+  "5-easy-traditional-kitchen-ingredients-for-beginners": [
     { name: "Fresh Ginger", href: "/herbs/fresh-ginger/" },
     { name: "Jujube", href: "/herbs/jujube-red-date/" },
     { name: "Goji Berry", href: "/herbs/goji-berry/" },
@@ -405,7 +405,7 @@ const relatedHerbs = herbLinkMap[article.slug] ?? [
   { name: "Goji Berry", href: "/herbs/goji-berry/" },
 ];
 const recipeLinkMap: Record<string, Array<{ title: string; href: string }>> = {
-  "5-easy-kitchen-ingredients-for-beginners": [
+  "5-easy-traditional-kitchen-ingredients-for-beginners": [
     { title: "Jujube and Ginger Tea for Busy Weeks", href: "/kitchen/jujube-and-ginger-tea-for-busy-weeks/" },
     { title: "Goji Berry Porridge for Gentle Mornings", href: "/kitchen/goji-berry-porridge-for-gentle-mornings/" },
     { title: "Black Sesame Breakfast Ideas for Beginners", href: "/kitchen/black-sesame-breakfast-ideas-for-beginners/" },
@@ -428,7 +428,7 @@ const recipeLinkMap: Record<string, Array<{ title: string; href: string }>> = {
   "black-sesame-breakfast-ideas-for-beginners": [
     { title: "Black Sesame and Jujube Breakfast Bowl", href: "/kitchen/black-sesame-and-jujube-breakfast-bowl/" },
     { title: "Goji Berry Porridge for Gentle Mornings", href: "/kitchen/goji-berry-porridge-for-gentle-mornings/" },
-    { title: "5 Easy Chinese Kitchen Ingredients for Beginners", href: "/kitchen/5-easy-kitchen-ingredients-for-beginners/" },
+    { title: "5 Easy Chinese Kitchen Ingredients for Beginners", href: "/kitchen/5-easy-traditional-kitchen-ingredients-for-beginners/" },
   ],
   "chrysanthemum-and-mint-cooling-tea-basics": [
     { title: "Pear and Chrysanthemum Tea for Warm Afternoons", href: "/kitchen/pear-and-chrysanthemum-tea-for-warm-afternoons/" },
@@ -550,10 +550,10 @@ const relatedRecipes = recipeLinkMap[article.slug] ?? [];
 const articleKeywords = [
   article.title,
   ...relatedHerbs.map((herb) => herb.name),
-  `${article.title} recipe`,
+  `${article.title} kitchen guide`,
   `${article.title} ingredients`,
   `${article.title} steps`,
-  `how to make ${article.title}`,
+  `${article.title} pantry notes`,
   "kitchen recipe",
   "tea recipe",
   "soup recipe",
