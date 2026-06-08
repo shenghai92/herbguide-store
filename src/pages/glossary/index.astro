@@ -6,13 +6,13 @@ import { basicsArticles } from "../../data/articles";
 
 <BaseLayout
   title="Glossary | HerbGuide"
-  description="A plain-English glossary of core traditional terms used across HerbGuide."
+  description="A plain-English glossary of core traditional terms used across HerbGuide, including qi, dampness, warming foods, and other beginner search topics."
   structuredData={[
     {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
       name: "Glossary",
-      description: "A plain-English glossary of core traditional terms used across HerbGuide.",
+      description: "A plain-English glossary of core traditional terms used across HerbGuide, including qi, dampness, warming foods, and other beginner search topics.",
       url: "https://herbguide.store/glossary/",
     },
     {
@@ -53,7 +53,8 @@ import { basicsArticles } from "../../data/articles";
       <h1>Core traditional terms in plain English</h1>
       <p>
         This glossary collects the core traditional ideas that readers see
-        repeatedly across herb pages, recipe articles, and topic hubs.
+        repeatedly across herb pages, recipe articles, and topic hubs, especially beginner
+        search terms like qi, dampness, warming foods, and clear heat.
       </p>
     </div>
   </section>
@@ -63,7 +64,7 @@ import { basicsArticles } from "../../data/articles";
       <SectionIntro
         eyebrow="Glossary paths"
         title="Start with the terms people actually search"
-        text="These pages are designed to answer direct beginner questions clearly, without drifting into hype or confusing jargon."
+        text="These pages are designed to answer direct beginner questions clearly, including what is qi, what is dampness, what warming foods means, and how to read traditional terms in plain English."
       />
       <div class="card-grid">
         {basicsArticles.map((article) => (

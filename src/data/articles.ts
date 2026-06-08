@@ -149,7 +149,7 @@ const rawBasicsArticles: ContentArticle[] = [
         title: "Why the term sounds confusing at first",
         paragraphs: [
           "A direct translation can feel awkward because the English word damp usually refers to weather, walls, or fabric.",
-          "In traditional writing, the word is broader and more symbolic. It belongs to a traditional model, not a modern diagnostic checklist.",
+          "In traditional writing, the word is broader and more symbolic. It belongs to a traditional model, not a modern checklist or direct personal label.",
         ],
       },
       {
@@ -679,7 +679,7 @@ const rawBasicsArticles: ContentArticle[] = [
         bullets: [
           "Jing is a traditional concept, not a measurable substance.",
           "It is often linked with long-term nourishment and constitutional depth.",
-          "It should not be read as a shortcut to self-labeling or anti-aging promises.",
+          "It should not be read as a shortcut to self-labeling or dramatic age-related promises.",
         ],
       },
       {

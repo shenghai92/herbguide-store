@@ -249,7 +249,7 @@ const rawHerbs: Herb[] = [
             chinese: "Bai He",
     latin: "Lilii Bulbus",
     partUsed: "Bulb",
-    category: "Food therapy herbs",
+    category: "Kitchen herbs",
     summary: "A soft food-tradition ingredient that works especially well in gentle dessert and soup content.",
     whatItIs:
       "Lily bulb is especially useful for kitchen pages because it feels more like an ingredient than a supplement and keeps the tone warm and approachable.",
@@ -353,7 +353,7 @@ const rawHerbs: Herb[] = [
     flavor: "Sweet",
     channels: "Heart, Lung, Spleen, Stomach",
     traditionalUses: [
-      "Traditionally used to harmonize formulas and explain digestive or respiratory language in traditional theory.",
+      "Traditionally used to harmonize formulas and explain digestive and upper-body comfort language in traditional theory.",
       "Frequently discussed as a formula-balancing herb.",
       "Useful for teaching why one herb can have several roles in traditional writing.",
     ],
@@ -393,7 +393,7 @@ const rawHerbs: Herb[] = [
             chinese: "Shan Yao",
     latin: "Dioscoreae Rhizoma",
     partUsed: "Rhizome",
-    category: "Food therapy herbs",
+    category: "Kitchen herbs",
     summary: "A food-grade staple that blends kitchen use with traditional herb education.",
     whatItIs:
       "Chinese yam is especially helpful for a practical site because it feels more like a pantry ingredient and less like an intimidating concentrated product.",
@@ -417,7 +417,7 @@ const rawHerbs: Herb[] = [
             chinese: "Lian Zi",
     latin: "Nelumbinis Semen",
     partUsed: "Seed",
-    category: "Food therapy herbs",
+    category: "Kitchen herbs",
     summary: "A classic ingredient for soups and desserts that adds depth to nourishing kitchen content.",
     whatItIs:
       "Lotus seed fits naturally into sweet soups, porridge, and family-style kitchen traditions.",
@@ -455,7 +455,7 @@ const rawHerbs: Herb[] = [
     ],
     foodUses: ["Congee", "Soup", "Grain bowl"],
     caution:
-      "Extra caution notes for pregnancy and other specialized situations should be clearly flagged when this page is published in full.",
+      "Extra caution notes for major life stages and other specialized situations should be clearly flagged when this page is published in full.",
     tags: ["dampness", "grain-like", "recipe", "porridge", "seo"],
   },
   {
@@ -489,7 +489,7 @@ const rawHerbs: Herb[] = [
             chinese: "Hei Zhi Ma",
     latin: "Sesami Semen Nigrum",
     partUsed: "Seed",
-    category: "Food therapy herbs",
+    category: "Kitchen herbs",
     summary: "A familiar kitchen ingredient with strong potential for accessible beauty and nourishment content.",
     whatItIs:
       "Black sesame meets readers where they already are: in food, desserts, breakfast bowls, and pantry curiosity.",
@@ -753,10 +753,10 @@ const rawHerbs: Herb[] = [
             chinese: "Yin Er",
     latin: "Tremellae Fuciformis Sporophorum",
     partUsed: "Fruiting body",
-    category: "Food therapy herbs",
+    category: "Kitchen herbs",
     summary: "A gentle edible mushroom often used in sweet soups and soft seasonal kitchen content.",
     whatItIs:
-      "Tremella mushroom is one of the most approachable Chinese food-therapy ingredients because it behaves like a real kitchen ingredient first and a traditional teaching ingredient second.",
+      "Tremella mushroom is one of the most approachable Chinese kitchen-tradition ingredients because it behaves like a real kitchen ingredient first and a traditional teaching ingredient second.",
     nature: "Neutral to slightly cool",
     flavor: "Sweet, mild",
     channels: "Lung, Stomach",
@@ -777,7 +777,7 @@ const rawHerbs: Herb[] = [
             chinese: "Chi Xiao Dou",
     latin: "Vignae Semen",
     partUsed: "Bean",
-    category: "Food therapy herbs",
+    category: "Kitchen herbs",
     summary: "A pantry-friendly bean that fits naturally into lighter soups and dampness-related kitchen reading.",
     whatItIs:
       "Adzuki bean keeps the library grounded in food-first content because readers can understand it through soup, porridge, and pantry routines before needing much theory.",
@@ -810,7 +810,7 @@ const rawHerbs: Herb[] = [
     channels: "Liver, Heart, Spleen",
     traditionalUses: [
       "Traditionally used in discussions of blood-related language and broader nourishment themes in this framework.",
-      "Often introduced through classic women's-health searches, though those searches should be handled with educational caution.",
+      "Often introduced through classic long-tail nourishment searches, though those searches should be handled with educational caution.",
       "Useful for teaching readers how one famous root can carry cultural meaning without becoming a one-size-fits-all answer.",
     ],
     foodUses: ["Broth", "Soup", "Prepared tonic recipes"],
@@ -1031,7 +1031,7 @@ const rawHerbs: Herb[] = [
     ],
     foodUses: ["Tea", "Floral infusion", "Scented dessert context"],
     caution:
-      "Readers should treat jasmine flower as a culinary and tea ingredient page, not as a personal-direction page for ongoing concerns.",
+      "Readers should view jasmine flower as a culinary and tea ingredient page, not as a direct how-to page for personal concerns.",
     tags: ["mo li hua", "jasmine tea", "jasmine flower tea", "floral ingredient", "beginner tea"],
   },
   {
@@ -1055,7 +1055,7 @@ const rawHerbs: Herb[] = [
     ],
     foodUses: ["Advanced tea context", "Traditional color-infused preparations"],
     caution:
-      "This page should stay clearly educational and avoid turning stronger traditional terminology into self-diagnosis.",
+      "This page should stay clearly educational and avoid turning stronger traditional terminology into personal labeling.",
     tags: ["zhi zi", "gardenia fruit", "clear heat language", "advanced cooling", "search intent"],
   },
   {
@@ -1103,7 +1103,7 @@ const rawHerbs: Herb[] = [
     ],
     foodUses: ["Advanced broth context", "Traditional aromatic preparations"],
     caution:
-      "This is a context-building herb page and should not read like a direct response to sinus or pain-related searches.",
+      "This is a context-building herb page and should not read like a direct response to narrow discomfort searches.",
     tags: ["bai zhi", "angelica root", "exterior herb", "aromatic root", "search depth"],
   },
   {
@@ -1127,7 +1127,7 @@ const rawHerbs: Herb[] = [
     ],
     foodUses: ["Advanced soup context", "Traditional root preparation context"],
     caution:
-      "Because this herb can attract direct respiratory searches, the page should remain educational and not suggest personal use guidance.",
+      "Because this herb can attract direct upper-body comfort searches, the page should remain educational and not suggest personal use guidance.",
     tags: ["jie geng", "balloon flower root", "lung language", "formula context", "long-tail SEO"],
   },
   {
@@ -1146,7 +1146,7 @@ const rawHerbs: Herb[] = [
     channels: "Liver, Kidney",
     traditionalUses: [
       "Traditionally used in discussions involving liver and kidney language, essence, and long-term nourishment themes.",
-      "Often surrounded by longevity, hair, and anti-aging folklore that should be described carefully rather than amplified.",
+      "Often surrounded by longevity, hair, and age-defying folklore that should be described carefully rather than amplified.",
       "Useful for showing readers how to separate legend, tradition, and responsible caution.",
     ],
     foodUses: ["Advanced tonic cooking context", "Prepared root context"],
@@ -1175,7 +1175,7 @@ const rawHerbs: Herb[] = [
     ],
     foodUses: ["Tea", "Light porridge context", "Digestive grain context"],
     caution:
-      "Digestive pages should not imply that a grain-based herb is a direct solution to ongoing symptoms or personal concerns.",
+      "Digestive pages should not imply that a grain-based herb is a direct answer to ongoing concerns or personal questions.",
     tags: ["mai ya", "digestive herb", "grain", "food stagnation language", "searchable"],
   },
   {
@@ -1199,7 +1199,7 @@ const rawHerbs: Herb[] = [
     ],
     foodUses: ["Tea", "Soup", "Pantry citrus peel cooking"],
     caution:
-      "Readers should treat this page as educational pantry context rather than a direct suggestion for ongoing digestive concerns.",
+      "Readers should view this page as educational pantry context rather than a direct suggestion for ongoing meal-related concerns.",
     tags: ["ju pi", "citrus peel tea", "digestive pantry", "meal-friendly", "long-tail search"],
   },
   {
@@ -1247,7 +1247,7 @@ const rawHerbs: Herb[] = [
     ],
     foodUses: ["Broth context", "Rice porridge context", "Aromatic digestive cooking"],
     caution:
-      "This page should stay educational and should not turn digestive vocabulary into personal self-treatment logic.",
+      "This page should stay educational and should not turn digestive vocabulary into direct personal-use logic.",
     tags: ["sha ren", "amomum", "digestive herb", "aromatic", "dampness language"],
   },
   {
@@ -1271,7 +1271,7 @@ const rawHerbs: Herb[] = [
     ],
     foodUses: ["Traditional infusion context", "Color-focused culinary context"],
     caution:
-      "This page should be especially careful. It should not encourage use during pregnancy-related contexts or other situations where direct guidance belongs elsewhere.",
+      "This page should be especially careful. It should not encourage use in high-caution situations or other contexts where direct guidance belongs elsewhere.",
     tags: ["hong hua", "safflower", "movement herb", "flower", "high-caution search"],
   },
   {

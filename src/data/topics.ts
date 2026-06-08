@@ -26,10 +26,10 @@ const rawTopics: Topic[] = [
     slug: "digestive-traditions",
     title: "Digestive Traditions",
     description:
-      "A practical topic page for traditional herbs, soups, pantry ingredients, and traditional terms commonly linked with digestive traditions.",
+      "A practical topic page for traditional herbs, soups, pantry ingredients, and plain-English traditional terms often linked with digestive traditions.",
     eyebrow: "Topic Page",
     intro:
-      "Digestive content is one of the easiest places for beginners to enter traditional herb learning because it overlaps with soup, tea, pantry ingredients, and everyday meal language. This hub groups the gentlest entry points together.",
+      "Digestive content is one of the easiest places for beginners to enter traditional herb learning because it overlaps with soup, tea, pantry ingredients, and everyday meal language. This hub groups the gentlest starting pages together.",
     herbSlugs: ["fresh-ginger", "dried-ginger", "chen-pi", "hawthorn-berry", "poria", "jobs-tears", "adzuki-bean"],
     basicsSlugs: ["what-is-dampness", "what-is-qi-stagnation", "fresh-ginger-vs-dried-ginger", "what-does-tonify-mean", "what-does-spleen-mean", "what-is-food-stagnation", "what-is-damp-heat", "chen-pi-vs-hawthorn-berry", "poria-vs-jobs-tears", "what-does-harmonizing-mean"],
     foodSlugs: ["a-simple-warming-soup-guide-for-cold-weather", "chen-pi-tea-for-heavy-meal-days", "hawthorn-berry-tea-for-rich-meals", "jobs-tears-porridge-for-heavy-days", "adzuki-bean-and-jobs-tears-soup-basics"],
@@ -99,7 +99,7 @@ const rawTopics: Topic[] = [
       {
         title: "What belongs in this topic",
         paragraphs: [
-          "Evening teas are not presented as sleep fixes. They are presented as gentle kitchen routines, ingredient pairings, and cultural explanations in plain English.",
+          "Evening teas are not presented as quick-fix answers. They are presented as gentle kitchen routines, ingredient pairings, and cultural explanations in plain English.",
         ],
         bullets: [
           "Jujube and ginger tea for warm routine content",
@@ -244,7 +244,7 @@ const rawTopics: Topic[] = [
     slug: "beauty-foods",
     title: "Beauty Foods",
     description:
-      "A topic page for pantry ingredients often associated with nourishment, moisture, and food-first beauty traditions in kitchen culture.",
+      "A topic page for pantry ingredients often associated with nourishment, moisture, and food-first beauty routines in kitchen culture.",
     eyebrow: "Topic Page",
     intro:
       "Beauty food content is popular, but it can easily turn exaggerated. This topic page keeps the tone grounded by focusing on pantry ingredients, traditional context, and food-first routines instead of dramatic promises.",
@@ -275,7 +275,7 @@ const rawTopics: Topic[] = [
       {
         title: "Black Sesame Breakfast Ideas for Beginners",
         href: "/kitchen/black-sesame-breakfast-ideas-for-beginners/",
-        text: "A practical breakfast-style article that fits this topic naturally.",
+        text: "A practical breakfast-style guide that fits this topic naturally.",
       },
       {
         title: "Black Sesame Seed",
@@ -298,7 +298,7 @@ const rawTopics: Topic[] = [
     slug: "balanced-pantry-habits",
     title: "Balanced Pantry Habits",
     description:
-      "A topic page for pantry-friendly Chinese ingredients, gentle routines, and simple ways to learn through everyday herbs and foods.",
+      "A topic page for pantry-friendly Chinese ingredients, gentle routines, and simple ways to learn through everyday herbs, teas, and foods.",
     eyebrow: "Topic Page",
     intro:
       "Some of the best HerbGuide content is not about advanced herbs at all. It is about pantry familiarity. This hub gathers the pages that help readers build confidence through ingredients they can actually picture using in tea, soup, porridge, and breakfast routines.",
@@ -329,7 +329,7 @@ const rawTopics: Topic[] = [
       {
         title: "5 Easy Chinese Food Therapy Ingredients for Beginners",
         href: "/kitchen/5-easy-kitchen-ingredients-for-beginners/",
-        text: "A broad starter page for pantry-friendly exploration.",
+        text: "A broad starter guide for pantry-friendly exploration.",
       },
       {
         title: "Goji Berry vs Jujube",

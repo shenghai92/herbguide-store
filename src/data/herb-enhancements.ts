@@ -459,7 +459,7 @@ const rawHerbEnhancements: HerbEnhancement[] = [
     kitchenPairings: ["Classic flower comparisons", "Advanced blood-movement reading", "Traditional infusion context", "Visual herb study"],
     goodStartingPoints: [
       "Use this page to understand why some beautiful flowers still need serious caution language.",
-      "It is best treated as advanced educational reading, not a casual pantry page.",
+      "It is best read as advanced educational material, not a casual pantry page.",
     ],
     compareLinks: [
       { title: "What Does Blood Mean in Traditional Herb Writing?", href: "/basics/what-does-blood-mean/" },

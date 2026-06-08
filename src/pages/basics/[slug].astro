@@ -34,10 +34,10 @@ const basicsFaqSchema = {
     },
     {
       "@type": "Question",
-      name: `Is ${article.title.replace(/\?$/, "")} a personal label or diagnosis?`,
+      name: `Is ${article.title.replace(/\?$/, "")} a personal label or direct self-check?`,
       acceptedAnswer: {
         "@type": "Answer",
-        text: `No. HerbGuide presents ${article.title} as traditional vocabulary for educational reading, not as a personal label, diagnosis, or one-to-one guidance.`,
+        text: `No. HerbGuide presents ${article.title} as traditional vocabulary for educational reading, not as a personal label, direct self-check, or one-to-one guidance.`,
       },
     },
   ],
@@ -150,10 +150,10 @@ const basicsFaqSchema = {
           This page explains the term in plain English as part of traditional herb and food
           writing, with beginner-friendly context and clearer wording.
         </p>
-        <h3>Is this a personal label or diagnosis?</h3>
+        <h3>Is this a personal label or direct self-check?</h3>
         <p>
           No. HerbGuide presents this term as traditional vocabulary for educational reading,
-          not as a personal label, diagnosis, or one-to-one guidance.
+          not as a personal label, direct self-check, or one-to-one guidance.
         </p>
       </article>
       {relatedTopics.length > 0 && (
