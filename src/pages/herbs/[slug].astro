@@ -39,6 +39,8 @@ const basicsBySlug: Record<string, string[]> = {
   "black-sesame-seed": ["what-does-jing-mean", "what-does-nourish-blood-mean", "goji-berry-tea-vs-goji-berry-porridge"],
   "mint": ["chrysanthemum-vs-mint", "what-does-clear-heat-mean", "warming-vs-cooling-foods"],
   "tremella-mushroom": ["what-does-moisten-dryness-mean", "what-does-yin-deficiency-mean", "mulberry-fruit-vs-goji-berry"],
+  "osmanthus-flower": ["warming-vs-cooling-foods", "what-does-clear-heat-mean", "what-is-traditional-herb-theory"],
+  "jasmine-flower": ["warming-vs-cooling-foods", "chrysanthemum-vs-mint", "what-is-traditional-herb-theory"],
 };
 const suggestedBasics = (basicsBySlug[herb.slug] ?? ["what-is-traditional-herb-theory", "what-does-channel-entry-mean", "warming-vs-cooling-foods"])
   .map((slug) => basicsCards.find((item) => item.slug === slug))
@@ -65,10 +67,23 @@ const recipesBySlug: Record<string, string[]> = {
   "perilla-leaf": ["perilla-and-ginger-soup-for-cool-days"],
   "tremella-mushroom": ["tremella-and-pear-sweet-soup-basics", "tremella-and-lotus-seed-sweet-soup-basics"],
   "adzuki-bean": ["adzuki-bean-and-jobs-tears-soup-basics", "jobs-tears-porridge-for-heavy-days"],
+  "osmanthus-flower": ["osmanthus-and-pear-tea-basics", "pear-and-chrysanthemum-tea-for-warm-afternoons"],
+  "jasmine-flower": ["osmanthus-and-pear-tea-basics", "chrysanthemum-and-mint-cooling-tea-basics"],
 };
 const suggestedRecipes = (recipesBySlug[herb.slug] ?? [])
   .map((slug) => recipeCards.find((item) => item.slug === slug))
   .filter(Boolean);
+const herbHeroImageMap: Record<string, { src: string; alt: string }> = {
+  "osmanthus-flower": {
+    src: "/images/herbs/osmanthus-flower.svg",
+    alt: "An illustration of sweet osmanthus blossoms with warm floral tea tones.",
+  },
+  "jasmine-flower": {
+    src: "/images/herbs/jasmine-flower.svg",
+    alt: "An illustration of jasmine blossoms styled for a floral tea herb page.",
+  },
+};
+const herbHeroImage = herbHeroImageMap[herb.slug];
 const herbKeywords = [
   herb.name,
   herb.pinyin,
@@ -168,6 +183,11 @@ const faqSchema = {
         <h1>{herb.name}</h1>
         <p class="detail-subtitle">{detailNameParts.join(" | ")}</p>
         <p>{herb.summary}</p>
+        {herbHeroImage && (
+          <figure class="card herb-hero-media">
+            <img src={herbHeroImage.src} alt={herbHeroImage.alt} loading="eager" />
+          </figure>
+        )}
       </div>
       <aside class="info-panel">
         <p class="eyebrow">Quick facts</p>

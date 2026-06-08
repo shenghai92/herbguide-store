@@ -328,6 +328,11 @@ const rawRecipeCards = [
     title: "Tangerine Peel and Pear Warm Tea Basics",
     text: "A light pantry tea that connects citrus peel and pear through a simple, search-friendly warm drink.",
   },
+  {
+    slug: "osmanthus-and-pear-tea-basics",
+    title: "Osmanthus and Pear Tea Basics",
+    text: "A fragrant pear tea page that brings sweet osmanthus into a gentle, search-friendly floral kitchen routine.",
+  },
 ];
 
 export const recipeCards = rawRecipeCards.map((card) => sanitizeContentCard(card));

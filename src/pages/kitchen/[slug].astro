@@ -121,6 +121,10 @@ const recipeSchemaImageMap: Record<string, { src: string; alt: string }> = {
     src: "/images/recipes/herbal-tea-glass.jpg",
     alt: "A warm citrus tea glass for a pear and tangerine peel recipe.",
   },
+  "osmanthus-and-pear-tea-basics": {
+    src: "/images/recipes/herbal-tea-glass.jpg",
+    alt: "A fragrant floral tea glass styled for an osmanthus and pear recipe.",
+  },
 };
 const recipeCuisineMap: Record<string, string> = {
   "5-easy-traditional-kitchen-ingredients-for-beginners": "Chinese-inspired kitchen",
@@ -150,6 +154,7 @@ const recipeCuisineMap: Record<string, string> = {
   "barley-sprout-and-chen-pi-tea-basics": "Chinese-inspired tea",
   "chinese-yam-and-jujube-porridge-basics": "Chinese-inspired porridge",
   "tangerine-peel-and-pear-warm-tea-basics": "Chinese-inspired tea",
+  "osmanthus-and-pear-tea-basics": "Chinese-inspired tea",
 };
 const recipePageVisualMap: Record<string, { src: string; alt: string }> = {
   "5-easy-traditional-kitchen-ingredients-for-beginners": {
@@ -259,6 +264,10 @@ const recipePageVisualMap: Record<string, { src: string; alt: string }> = {
   "tangerine-peel-and-pear-warm-tea-basics": {
     src: "/images/recipes/tea-citrus-peel.svg",
     alt: "A citrus peel tea illustration with warm pantry fruit notes.",
+  },
+  "osmanthus-and-pear-tea-basics": {
+    src: "/images/recipes/tea-osmanthus-pear.svg",
+    alt: "A floral tea illustration with sweet osmanthus blossoms and sliced pear.",
   },
 };
 const recipeImage = recipeSchemaImageMap[article.slug] ?? {
@@ -382,6 +391,11 @@ const herbLinkMap: Record<string, Array<{ name: string; href: string }>> = {
   "tangerine-peel-and-pear-warm-tea-basics": [
     { name: "Tangerine Peel", href: "/herbs/tangerine-peel/" },
     { name: "Dried Orange Peel", href: "/herbs/dried-orange-peel/" },
+    { name: "Jujube", href: "/herbs/jujube-red-date/" },
+  ],
+  "osmanthus-and-pear-tea-basics": [
+    { name: "Osmanthus Flower", href: "/herbs/osmanthus-flower/" },
+    { name: "Jasmine Flower", href: "/herbs/jasmine-flower/" },
     { name: "Jujube", href: "/herbs/jujube-red-date/" },
   ],
 };
@@ -525,6 +539,11 @@ const recipeLinkMap: Record<string, Array<{ title: string; href: string }>> = {
     { title: "Monk Fruit and Pear Tea Basics", href: "/kitchen/monk-fruit-and-pear-tea-basics/" },
     { title: "Chen Pi Tea for Heavy Meal Days", href: "/kitchen/chen-pi-tea-for-heavy-meal-days/" },
     { title: "Pear and Chrysanthemum Tea for Warm Afternoons", href: "/kitchen/pear-and-chrysanthemum-tea-for-warm-afternoons/" },
+  ],
+  "osmanthus-and-pear-tea-basics": [
+    { title: "Pear and Chrysanthemum Tea for Warm Afternoons", href: "/kitchen/pear-and-chrysanthemum-tea-for-warm-afternoons/" },
+    { title: "Monk Fruit and Pear Tea Basics", href: "/kitchen/monk-fruit-and-pear-tea-basics/" },
+    { title: "Jujube and Ginger Tea for Busy Weeks", href: "/kitchen/jujube-and-ginger-tea-for-busy-weeks/" },
   ],
 };
 const relatedRecipes = recipeLinkMap[article.slug] ?? [];

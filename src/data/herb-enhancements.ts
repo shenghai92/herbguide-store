@@ -342,6 +342,32 @@ const rawHerbEnhancements: HerbEnhancement[] = [
     ],
   },
   {
+    slug: "osmanthus-flower",
+    kitchenPairings: ["Pear", "Jujube", "Light floral tea", "Dessert-style pantry reading"],
+    goodStartingPoints: [
+      "Osmanthus flower is easiest to understand through tea and dessert-style kitchen pages rather than abstract theory first.",
+      "Readers usually trust this page more when they connect the fragrance with pear, warm drinks, and simple pantry routines.",
+    ],
+    compareLinks: [
+      { title: "Seasonal Kitchen Ideas", href: "/topics/seasonal-kitchen-ideas/" },
+      { title: "Evening Teas", href: "/topics/evening-teas/" },
+      { title: "Osmanthus and Pear Tea Basics", href: "/kitchen/osmanthus-and-pear-tea-basics/" },
+    ],
+  },
+  {
+    slug: "jasmine-flower",
+    kitchenPairings: ["Chrysanthemum", "Osmanthus flower", "Light floral tea", "Gentle tea culture reading"],
+    goodStartingPoints: [
+      "Jasmine flower is easiest to trust when introduced through tea culture and floral pantry reading.",
+      "A simple floral comparison path works better here than a dense theory-first explanation.",
+    ],
+    compareLinks: [
+      { title: "Chrysanthemum vs Mint", href: "/basics/chrysanthemum-vs-mint/" },
+      { title: "Evening Teas", href: "/topics/evening-teas/" },
+      { title: "Seasonal Kitchen Ideas", href: "/topics/seasonal-kitchen-ideas/" },
+    ],
+  },
+  {
     slug: "gardenia-fruit",
     kitchenPairings: ["Cooling teas", "Seasonal reading", "Advanced floral pages", "Heat-language comparisons"],
     goodStartingPoints: [

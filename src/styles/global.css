@@ -393,6 +393,22 @@ main {
   margin-bottom: 0;
 }
 
+.herb-hero-media,
+.recipe-hero-media {
+  overflow: hidden;
+}
+
+.herb-hero-media {
+  margin-top: 1.35rem;
+  padding: 0.8rem;
+}
+
+.herb-hero-media img,
+.recipe-hero-media img {
+  width: 100%;
+  border-radius: 18px;
+}
+
 .directory-card {
   padding: 1.1rem 1.2rem;
   background: rgba(255, 250, 243, 0.82);

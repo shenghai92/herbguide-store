@@ -2666,4 +2666,54 @@ export const foodTherapyArticles: ContentArticle[] = [
       },
     ],
   },
+  {
+    slug: "osmanthus-and-pear-tea-basics",
+    title: "Osmanthus and Pear Tea Basics",
+    description:
+      "A fragrant floral pear tea that brings sweet osmanthus into a gentle, search-friendly kitchen routine with clear ingredients and steps.",
+    eyebrow: "Kitchen Traditions",
+    intro:
+      "Osmanthus and pear make a very approachable pairing for readers who want a floral tea that still feels grounded in familiar kitchen ingredients. The flower brings fragrance, the pear keeps the page food-first, and the overall cup fits long-tail searches around osmanthus tea, pear tea, and gentle floral drinks.",
+    recipe: {
+      recipeYield: "2 cups",
+      prepTime: "PT6M",
+      totalTime: "PT16M",
+      ingredients: [
+        "1 teaspoon dried osmanthus flower",
+        "1 small pear, sliced thinly",
+        "2 1/2 cups water",
+        "Optional: 1 split jujube for a rounder finish",
+      ],
+      steps: [
+        "Rinse the osmanthus flower lightly and slice the pear into thin pieces.",
+        "Add the water to a small pot and bring it to a gentle boil.",
+        "Lower the heat, add the pear, and simmer for about 6 minutes until the fruit softens slightly.",
+        "Add the osmanthus flower and optional jujube during the last 2 to 3 minutes so the fragrance stays clear.",
+        "Strain if desired and serve warm as a light floral pantry tea.",
+      ],
+      servingNotes: [
+        "A shorter steep keeps the tea bright and fragrant instead of heavy.",
+        "Pear helps the page stay food-first and easy for beginners to picture.",
+      ],
+      caution: [
+        "Floral and gentle-language here belongs to traditional kitchen context, not personal guidance.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why this floral tea works well for beginners",
+        paragraphs: [
+          "Osmanthus is memorable because of its fragrance, but fragrance alone can feel abstract online. Pear gives the cup a familiar anchor and makes the recipe much easier to trust.",
+          "That combination helps the page answer searches for sweet osmanthus tea, pear flower tea, and gentle Chinese-style tea ideas without leaning on risky wording.",
+        ],
+      },
+      {
+        title: "How this tea strengthens the kitchen section",
+        paragraphs: [
+          "This page adds a distinct floral tea path beyond mint, chrysanthemum, and berry-based cups.",
+          "It also creates cleaner internal links between osmanthus flower, jasmine flower, pear-based recipes, and seasonal tea reading.",
+        ],
+      },
+    ],
+  },
 ];

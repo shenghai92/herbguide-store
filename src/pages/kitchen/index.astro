@@ -31,6 +31,7 @@ const recipeSearchThemes: Record<string, string[]> = {
   "barley-sprout-and-chen-pi-tea-basics": ["digestive", "tea", "post-meal", "pantry"],
   "chinese-yam-and-jujube-porridge-basics": ["balanced", "porridge", "gentle", "breakfast"],
   "tangerine-peel-and-pear-warm-tea-basics": ["warm tea", "pear", "citrus peel", "pantry"],
+  "osmanthus-and-pear-tea-basics": ["floral tea", "pear", "fragrant", "gentle"],
 };
 
 const recipeCategoryMap: Record<string, string> = {
@@ -61,6 +62,7 @@ const recipeCategoryMap: Record<string, string> = {
   "barley-sprout-and-chen-pi-tea-basics": "Digestive",
   "chinese-yam-and-jujube-porridge-basics": "Balanced",
   "tangerine-peel-and-pear-warm-tea-basics": "Warming",
+  "osmanthus-and-pear-tea-basics": "Balanced",
 };
 
 const recipeCategories = Array.from(new Set(recipeCards.map((card) => recipeCategoryMap[card.slug] ?? "Balanced")));
@@ -233,6 +235,7 @@ const recipeCategories = Array.from(new Set(recipeCards.map((card) => recipeCate
           <li><a href="/kitchen/barley-sprout-and-chen-pi-tea-basics/">Barley Sprout and Chen Pi Tea Basics</a></li>
           <li><a href="/kitchen/chinese-yam-and-jujube-porridge-basics/">Chinese Yam and Jujube Porridge Basics</a></li>
           <li><a href="/kitchen/tangerine-peel-and-pear-warm-tea-basics/">Tangerine Peel and Pear Warm Tea Basics</a></li>
+          <li><a href="/kitchen/osmanthus-and-pear-tea-basics/">Osmanthus and Pear Tea Basics</a></li>
         </ul>
       </article>
     </div>

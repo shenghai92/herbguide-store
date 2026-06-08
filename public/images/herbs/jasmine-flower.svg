@@ -1,0 +1,33 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" rx="40" fill="#F9F5ED"/>
+  <ellipse cx="1014" cy="136" rx="214" ry="124" fill="#E6EEE1"/>
+  <ellipse cx="210" cy="672" rx="262" ry="144" fill="#EEE4D2"/>
+  <path d="M256 642C372 526 490 446 620 404C744 364 852 362 980 394" stroke="#6A7E62" stroke-width="18" stroke-linecap="round"/>
+  <path d="M442 552C494 490 560 438 634 410" stroke="#7D9275" stroke-width="12" stroke-linecap="round"/>
+  <path d="M642 490C690 444 748 410 812 390" stroke="#7D9275" stroke-width="10" stroke-linecap="round"/>
+  <g fill="#FFFDF8" stroke="#D8D0C1" stroke-width="4">
+    <path d="M406 506C390 474 404 438 436 422C446 456 436 492 406 506Z"/>
+    <path d="M406 506C438 490 474 500 490 532C456 542 422 536 406 506Z"/>
+    <path d="M406 506C374 522 338 512 322 480C356 470 390 476 406 506Z"/>
+    <path d="M406 506C422 538 408 574 376 590C366 556 376 520 406 506Z"/>
+    <circle cx="406" cy="506" r="16" fill="#E9C86D" stroke="none"/>
+    <path d="M654 432C638 400 652 364 684 348C694 382 684 418 654 432Z"/>
+    <path d="M654 432C686 416 722 426 738 458C704 468 670 462 654 432Z"/>
+    <path d="M654 432C622 448 586 438 570 406C604 396 638 402 654 432Z"/>
+    <path d="M654 432C670 464 656 500 624 516C614 482 624 446 654 432Z"/>
+    <circle cx="654" cy="432" r="16" fill="#E9C86D" stroke="none"/>
+    <path d="M832 408C818 378 830 346 860 332C870 364 860 396 832 408Z"/>
+    <path d="M832 408C862 394 894 402 908 432C878 442 846 438 832 408Z"/>
+    <path d="M832 408C802 422 770 414 756 384C786 374 818 378 832 408Z"/>
+    <path d="M832 408C846 438 834 470 804 484C794 452 804 420 832 408Z"/>
+    <circle cx="832" cy="408" r="14" fill="#E9C86D" stroke="none"/>
+  </g>
+  <g>
+    <rect x="820" y="520" width="188" height="150" rx="28" fill="#F2E8D8"/>
+    <path d="M846 544H982V650C982 672 964 690 942 690H886C864 690 846 672 846 650V544Z" fill="#FFFCF7"/>
+    <path d="M896 544C896 514 918 492 948 492H962V544H896Z" fill="#FFFCF7"/>
+    <path d="M876 592C896 612 932 616 952 598" stroke="#A6B89A" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="930" cy="474" r="18" fill="#FFFDF8" stroke="#D8D0C1" stroke-width="4"/>
+    <circle cx="964" cy="470" r="14" fill="#FFFDF8" stroke="#D8D0C1" stroke-width="4"/>
+  </g>
+</svg>
