@@ -1371,6 +1371,14 @@ export const getHerbDisplayNames = (herb: Herb): HerbDisplayNames => {
   const secondary = [herb.pinyin, herb.chinese, herb.latin]
     .map(normalizeLabel)
     .filter((value, index, items) => value && value !== herb.name && items.indexOf(value) === index);
+  const guidePhrases = [
+    `${herb.name} guide`,
+    `${herb.name} uses`,
+    `what is ${herb.name}`,
+    `how to use ${herb.name}`,
+    `${herb.name} safety`,
+    `${herb.pinyin} guide`,
+  ];
 
   return {
     primary: herb.name,
@@ -1386,6 +1394,7 @@ export const getHerbDisplayNames = (herb: Herb): HerbDisplayNames => {
       ...getNatureAliases(herb.nature),
       ...herb.tags,
       ...herb.foodUses,
+      ...guidePhrases,
     ]
       .map(normalizeLabel)
       .join(" ")

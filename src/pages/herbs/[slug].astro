@@ -90,6 +90,11 @@ const herbKeywords = [
   herb.chinese,
   herb.latin,
   herb.category,
+  `${herb.name} guide`,
+  `${herb.name} uses`,
+  `what is ${herb.name}`,
+  `how to use ${herb.name}`,
+  `${herb.name} safety`,
   ...herb.tags,
   ...herb.foodUses,
 ];
@@ -183,6 +188,10 @@ const faqSchema = {
         <h1>{herb.name}</h1>
         <p class="detail-subtitle">{detailNameParts.join(" | ")}</p>
         <p>{herb.summary}</p>
+        <p>
+          This guide helps readers understand what {herb.name} is, how traditional writing
+          describes it, where it shows up in tea or kitchen reading, and what cautions belong on the page.
+        </p>
         {herbHeroImage && (
           <figure class="card herb-hero-media">
             <img src={herbHeroImage.src} alt={herbHeroImage.alt} loading="eager" />

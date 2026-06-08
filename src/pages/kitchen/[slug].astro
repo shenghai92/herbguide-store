@@ -550,8 +550,14 @@ const relatedRecipes = recipeLinkMap[article.slug] ?? [];
 const articleKeywords = [
   article.title,
   ...relatedHerbs.map((herb) => herb.name),
-  "traditional kitchen traditions",
-  "traditional herb recipe",
+  `${article.title} recipe`,
+  `${article.title} ingredients`,
+  `${article.title} steps`,
+  `how to make ${article.title}`,
+  "kitchen recipe",
+  "tea recipe",
+  "soup recipe",
+  "ingredient guide",
 ];
 const recipeNutrition = {
   "@type": "NutritionInformation",
@@ -683,6 +689,12 @@ const faqSchema = article.recipe
       <p class="eyebrow">{article.eyebrow}</p>
       <h1>{article.title}</h1>
       <p>{article.intro}</p>
+      {article.recipe && (
+        <p>
+          This recipe page includes ingredients, step-by-step preparation, and related herb links
+          so readers can move from one kitchen idea into clearer ingredient context.
+        </p>
+      )}
       {article.recipe && (
         <figure class="card recipe-hero-media">
           <img src={recipePageVisual.src} alt={recipePageVisual.alt} loading="eager" />
