@@ -18,17 +18,17 @@ const rawBasicsCards = [
   {
     slug: "what-does-qi-mean",
     title: "What Does Qi Mean?",
-    text: "A plain-English explanation of one of the most important traditional ideas.",
+    text: "A plain-English explanation for readers searching what qi means and how herb pages use the term.",
   },
   {
     slug: "warming-vs-cooling-foods",
     title: "Warming vs Cooling Foods",
-    text: "A practical guide to one of the easiest traditional ideas to connect with everyday meals.",
+    text: "A practical guide for readers searching warming foods, cooling foods, and everyday ingredient examples.",
   },
   {
     slug: "what-is-dampness",
     title: "What Is Dampness?",
-    text: "An accessible explanation of a traditional pattern beginners often see but rarely understand.",
+    text: "An accessible explanation for readers searching what dampness means in traditional herb and food writing.",
   },
   {
     slug: "what-is-yin-and-yang",
@@ -103,12 +103,12 @@ const rawBasicsCards = [
   {
     slug: "what-does-channel-entry-mean",
     title: "What Does Channel Entry Mean?",
-    text: "A plain-English explanation of one of the most confusing lines on many traditional herb pages.",
+    text: "A plain-English explanation for readers trying to understand channel entry on herb guides.",
   },
   {
     slug: "what-is-food-stagnation",
     title: "What Is Food Stagnation?",
-    text: "A careful beginner guide to one of the most common digestive terms in traditional kitchen-style herb content.",
+    text: "A careful beginner guide for readers searching food stagnation and digestive terminology in kitchen-style herb content.",
   },
   {
     slug: "what-does-nourish-blood-mean",
@@ -118,7 +118,7 @@ const rawBasicsCards = [
   {
     slug: "what-is-damp-heat",
     title: "What Is Damp Heat?",
-    text: "A careful beginner explanation of a very common traditional pattern phrase in digestive and seasonal content.",
+    text: "A careful beginner explanation for readers searching damp heat in digestive and seasonal content.",
   },
   {
     slug: "chen-pi-vs-hawthorn-berry",

@@ -44,6 +44,14 @@ import { basicsCards } from "../../data/content";
             text: "Channel entry helps show how a herb is categorized in traditional theory. It gives readers context for traditional usage, even though it does not map directly to anatomy.",
           },
         },
+        {
+          "@type": "Question",
+          name: "Can beginners use these pages to understand herb terms in plain English?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. These basics pages are written to help beginners understand terms like qi, dampness, warming foods, cooling foods, blood, and channel entry in plain English.",
+          },
+        },
       ],
     },
   ]}
@@ -62,7 +70,7 @@ import { basicsCards } from "../../data/content";
     <div class="shell">
       <SectionIntro
         title="Start here"
-        text="These pages are designed to reduce confusion for new readers and give clearer context for herb and recipe content."
+        text="These pages are designed to reduce confusion for new readers searching what qi means, what dampness means, what warming foods are, or how to read herb terms in plain English."
       />
       <div class="card-grid">
         {basicsCards.map((card) => (
@@ -231,6 +239,10 @@ import { basicsCards } from "../../data/content";
         <p>
           The purpose of HerbGuide is to help readers understand the language first so they
           can read herb and food tradition content more confidently.
+        </p>
+        <p>
+          These are the pages that best match beginner searches like what is qi, what is dampness,
+          what does tonify mean, what does channel entry mean, and warming vs cooling foods.
         </p>
       </article>
 

@@ -25,7 +25,7 @@ import { topics } from "../../data/topics";
           name: "What are HerbGuide topic pages for?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "HerbGuide topic pages group related herbs, kitchen pages, and basics so readers can browse by theme instead of isolated pages.",
+            text: "HerbGuide topic pages group related herbs, kitchen pages, and basics so readers can browse by theme instead of isolated pages, such as digestive traditions, evening teas, warming foods, and pantry ingredient guides.",
           },
         },
         {
@@ -34,6 +34,14 @@ import { topics } from "../../data/topics";
           acceptedAnswer: {
             "@type": "Answer",
             text: "Balanced Pantry Habits, Seasonal Kitchen Ideas, Warming Foods, and Evening Teas are among the easiest starting points for beginner readers.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Can I browse by tea, soup, or digestive topic instead of herb name?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. Topic pages help readers browse by tea, soup, pantry, seasonal, digestive, and warming themes even if they do not know a specific herb name yet.",
           },
         },
       ],
@@ -56,7 +64,7 @@ import { topics } from "../../data/topics";
       <SectionIntro
         eyebrow="Curated guides"
         title="Start with a familiar theme"
-        text="Each topic page groups related articles together, making the library feel more practical and easier to browse."
+        text="Each topic page groups related articles together, making the library easier to browse by tea, soup, pantry, warming, cooling, digestive, or seasonal theme."
       />
       <div class="card-grid">
         {topics.map((topic) => (
@@ -84,6 +92,10 @@ import { topics } from "../../data/topics";
         <p>
           That is why these topic pages matter. They help readers move through broader themes
           in a way that feels more useful than a flat archive.
+        </p>
+        <p>
+          They also help searchers who type broad queries like warming foods, digestive tea,
+          pantry herbs, seasonal kitchen ideas, or evening tea ingredients.
         </p>
       </article>
 
