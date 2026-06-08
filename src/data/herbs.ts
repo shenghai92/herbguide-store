@@ -671,7 +671,7 @@ const rawHerbs: Herb[] = [
     ],
     foodUses: ["Advanced tea", "Soup pairings"],
     caution:
-      "Keep the language descriptive and avoid using this page as implied personal guidance for airway-related situations.",
+      "Keep the language descriptive and avoid using this page as implied individualized advice for airway-related situations.",
     tags: ["dryness", "moistening", "seasonal", "authority", "pairing"],
   },
   {
@@ -767,7 +767,7 @@ const rawHerbs: Herb[] = [
     ],
     foodUses: ["Sweet soup", "Pear soup", "Dessert bowl"],
     caution:
-      "Even food-like ingredients should be framed carefully. Readers should avoid turning a sweet soup page into personal guidance.",
+      "Even food-like ingredients should be framed carefully. Readers should avoid turning a sweet soup page into individualized advice.",
     tags: ["mushroom", "dryness", "sweet soup", "pantry", "beginner"],
   },
   {
@@ -815,7 +815,7 @@ const rawHerbs: Herb[] = [
     ],
     foodUses: ["Broth", "Soup", "Prepared tonic recipes"],
     caution:
-      "Because this herb attracts strong interest around cycle-related and postpartum searches, the page should stay educational and should not replace personal guidance.",
+      "Because this herb attracts strong interest around cycle-related and postpartum searches, the page should stay educational and should not replace individualized advice.",
     tags: ["dong quai", "angelica root", "blood-related", "famous herb", "search demand"],
   },
   {
@@ -850,21 +850,21 @@ const rawHerbs: Herb[] = [
     latin: "Ganoderma",
     partUsed: "Fruiting body",
     category: "Qi-supporting herbs",
-    summary: "A famous mushroom with broad wellness visibility that needs grounded educational framing.",
+    summary: "A famous mushroom with broad mainstream visibility that needs grounded educational framing.",
     whatItIs:
-      "Reishi mushroom is already well known in modern wellness culture, but traditional herb writing places it inside a much older framework of naming, preparation, and context.",
+      "Reishi mushroom is already well known in modern product culture, but traditional herb writing places it inside a much older framework of naming, preparation, and context.",
     nature: "Neutral",
     flavor: "Sweet, slightly bitter",
     channels: "Heart, Lung, Liver",
     traditionalUses: [
       "Traditionally used in discussions of qi, calmness, and long-term cultivation language.",
       "Often framed more as a slow, serious traditional mushroom than a quick lifestyle trend.",
-      "Useful for helping readers compare modern wellness branding with older herb concepts.",
+      "Useful for helping readers compare modern product branding with older herb concepts.",
     ],
     foodUses: ["Tea", "Broth", "Long-simmered slices"],
     caution:
       "This page should avoid modern miracle language and should not imply that a famous mushroom is universally appropriate.",
-    tags: ["reishi", "ling zhi", "mushroom", "wellness search", "authority"],
+    tags: ["reishi", "ling zhi", "mushroom", "search interest", "authority"],
   },
   {
     slug: "cordyceps",
@@ -959,7 +959,7 @@ const rawHerbs: Herb[] = [
     ],
     foodUses: ["Pear soup", "Light broth", "Traditional dessert soup context"],
     caution:
-      "Because many readers arrive through cough-related searches, the page should remain educational and avoid sounding like directed care.",
+      "Because many readers arrive through narrow throat-and-lung searches, the page should remain educational and avoid sounding like directed care.",
     tags: ["chuan bei mu", "pear soup", "moistening", "lung language", "long-tail search"],
   },
   {
@@ -983,7 +983,7 @@ const rawHerbs: Herb[] = [
     ],
     foodUses: ["Tea", "Floral infusion", "Seasonal drink context"],
     caution:
-      "Cooling flower pages should stay contextual and should not present a floral tea as personal care guidance.",
+      "Cooling flower pages should stay contextual and should not present a floral tea as individualized advice.",
     tags: ["jin yin hua", "honeysuckle tea", "cooling flower", "seasonal search", "tea herb"],
   },
   {
@@ -1291,7 +1291,7 @@ const rawHerbs: Herb[] = [
     traditionalUses: [
       "Traditionally used in discussions involving heat, dampness, and upper-body irritation language in this framework.",
       "Often grouped with stronger clearing herbs rather than gentle kitchen ingredients.",
-      "Useful for helping readers separate serious classical language from wellness buzzwords.",
+      "Useful for helping readers separate serious classical language from lifestyle buzzwords.",
     ],
     foodUses: ["Advanced decoction context", "Traditional tea context"],
     caution:

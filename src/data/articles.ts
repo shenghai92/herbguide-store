@@ -32,7 +32,7 @@ const rawBasicsArticles: ContentArticle[] = [
       "A clear first look at traditional herb theory in plain American English, with practical explanations and clear boundaries.",
     eyebrow: "Basics",
     intro:
-      "Traditional herb theory is a long-running body of ideas about the body, food, herbs, climate, rhythm, and patterns. Here, it is presented as a traditional framework that helps readers understand herb language and food traditions, not as one-to-one guidance.",
+      "Traditional herb theory is a long-running body of ideas about the body, food, herbs, climate, rhythm, and patterns. Here, it is presented as a traditional framework that helps readers understand herb language and food traditions, not as individualized guidance.",
     sections: [
       {
         title: "A traditional framework, not a modern labeling system",
@@ -390,7 +390,7 @@ const rawBasicsArticles: ContentArticle[] = [
         title: "Why this comparison fits the library well",
         paragraphs: [
           "This is exactly the kind of page that supports both clarity and usability. It answers a real beginner question while strengthening links between pantry-friendly herb profiles and kitchen content.",
-          "It also stays safely educational rather than drifting into overpromised wellness language.",
+          "It also stays safely educational rather than drifting into overpromised lifestyle language.",
         ],
       },
     ],
@@ -649,7 +649,7 @@ const rawBasicsArticles: ContentArticle[] = [
         title: "How HerbGuide uses the term",
         paragraphs: [
           "HerbGuide uses shen-language as educational context. We explain why the term appears, what it usually gestures toward in traditional writing, and where gentle food or tea pages make that language easier to grasp.",
-          "That keeps the concept readable without drifting into mystical marketing or personal advice.",
+          "That keeps the concept readable without drifting into mystical marketing or individualized advice.",
         ],
       },
     ],
@@ -981,7 +981,7 @@ const rawBasicsArticles: ContentArticle[] = [
       {
         title: "What this teaches about the library's style",
         paragraphs: [
-          "This comparison shows how HerbGuide prefers practical kitchen distinctions over vague wellness claims.",
+          "This comparison shows how HerbGuide prefers practical kitchen distinctions over vague lifestyle claims.",
           "It also helps readers move between herb pages, tea pages, and breakfast pages with a clearer sense of what to click next.",
         ],
       },
@@ -1190,7 +1190,7 @@ export const classicsArticles: ContentArticle[] = [
       {
         title: "Why this early text still matters",
         paragraphs: [
-          "It helps show that herb classification in China has very old roots. Categories, properties, and descriptive systems did not appear overnight in modern wellness media.",
+          "It helps show that herb classification in China has very old roots. Categories, properties, and descriptive systems did not appear overnight in modern lifestyle media.",
           "Even if later books became more detailed, this text remains important as a historical starting point for herb literacy.",
         ],
       },
@@ -1349,7 +1349,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         "This kind of page works best as a comfort-food idea, not a promise about outcomes.",
       ],
       caution: [
-        "Readers with complex personal situations or regular product use should not read a soup article as personal guidance.",
+        "Readers with complex personal situations or regular product use should not read a soup article as individualized advice.",
         "Astragalus is a traditional soup ingredient, but that does not make it right for every person or pattern.",
       ],
     },
@@ -1535,7 +1535,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         title: "Good beginner formats",
         paragraphs: [
           "A strong black sesame article can include congee, warm cereal, sesame paste, toast toppings, or dessert-style bowls.",
-          "The key is to keep the preparation simple and the tone educational rather than making dramatic beauty or wellness promises.",
+          "The key is to keep the preparation simple and the tone educational rather than making dramatic beauty or lifestyle promises.",
         ],
         bullets: [
           "Black sesame congee",
@@ -1786,7 +1786,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       ],
       caution: [
         "Rich-meal language here belongs to traditional food context, not personal labeling or directed-use advice.",
-        "Readers using regular products or managing ongoing concerns should not read a tea page as personal guidance.",
+        "Readers using regular products or managing ongoing concerns should not read a tea page as individualized advice.",
       ],
     },
     sections: [
@@ -1938,7 +1938,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         "This page works well as a seasonal tea idea, not as a fixed daily instruction.",
       ],
       caution: [
-        "Warm-afternoon language here is traditional seasonal context, not personal guidance.",
+        "Warm-afternoon language here is traditional seasonal context, not individualized advice.",
       ],
     },
     sections: [
@@ -1988,7 +1988,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         "Keeping the ingredient list short helps the pairing stay clear for beginners.",
       ],
       caution: [
-        "Cooling and nourishing language here belongs to traditional kitchen context, not personal guidance.",
+        "Cooling and nourishing language here belongs to traditional kitchen context, not individualized advice.",
       ],
     },
     sections: [
@@ -2002,7 +2002,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       {
         title: "What readers learn from this tea",
         paragraphs: [
-          "This page teaches that traditional kitchen writing often pairs contrast and balance rather than collapsing every ingredient into one broad wellness label.",
+          "This page teaches that traditional kitchen writing often pairs contrast and balance rather than collapsing every ingredient into one broad lifestyle label.",
           "It also creates a stronger route between goji, chrysanthemum, clear heat language, and pantry-friendly tea content.",
         ],
       },
@@ -2141,7 +2141,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         "A lighter soup style usually feels better here than a very heavy bean stew.",
       ],
       caution: [
-        "Dampness and digestive language here belongs to traditional educational context, not personal guidance.",
+        "Dampness and digestive language here belongs to traditional educational context, not individualized advice.",
       ],
     },
     sections: [
@@ -2243,7 +2243,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         "This works best as a soft household-style bowl, not a tonic-style promise.",
       ],
       caution: [
-        "Gentle evening or nourishment language here belongs to traditional food context, not personal guidance.",
+        "Gentle evening or nourishment language here belongs to traditional food context, not individualized advice.",
       ],
     },
     sections: [
@@ -2293,7 +2293,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         "Keeping the ingredient list short helps readers notice the flavor and role of each berry.",
       ],
       caution: [
-        "Nourishing and moisture-style language here belongs to traditional food context, not personal guidance.",
+        "Nourishing and moisture-style language here belongs to traditional food context, not individualized advice.",
       ],
     },
     sections: [
@@ -2444,7 +2444,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         "Pear keeps the recipe grounded in food-first seasonal reading.",
       ],
       caution: [
-        "Cooling and gentle-language here belongs to traditional kitchen context, not personal guidance.",
+        "Cooling and gentle-language here belongs to traditional kitchen context, not individualized advice.",
       ],
     },
     sections: [
@@ -2596,7 +2596,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         "Keeping the texture soft makes the page feel approachable for beginners.",
       ],
       caution: [
-        "Balanced and nourishing-style language here belongs to traditional food context, not personal guidance.",
+        "Balanced and nourishing-style language here belongs to traditional food context, not individualized advice.",
       ],
     },
     sections: [
@@ -2646,7 +2646,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         "This tea works best as a pantry-style warm drink rather than a concentrated routine.",
       ],
       caution: [
-        "Meal-friendly and gentle-language here belongs to traditional kitchen context, not personal guidance.",
+        "Meal-friendly and gentle-language here belongs to traditional kitchen context, not individualized advice.",
       ],
     },
     sections: [
@@ -2654,7 +2654,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         title: "Why this tea works well for search and usability",
         paragraphs: [
           "Pear tea is easy for many readers to picture right away, while tangerine peel gives the page a more distinct traditional pantry angle.",
-          "That combination supports practical long-tail searches without leaning on exaggerated wellness language.",
+          "That combination supports practical long-tail searches without leaning on exaggerated lifestyle language.",
         ],
       },
       {
@@ -2696,7 +2696,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         "Pear helps the page stay food-first and easy for beginners to picture.",
       ],
       caution: [
-        "Floral and gentle-language here belongs to traditional kitchen context, not personal guidance.",
+        "Floral and gentle-language here belongs to traditional kitchen context, not individualized advice.",
       ],
     },
     sections: [

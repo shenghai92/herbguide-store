@@ -7,14 +7,14 @@ import { topics } from "../../data/topics";
 
 <BaseLayout
   title="HTML Sitemap | HerbGuide"
-  description="A complete HTML sitemap for HerbGuide, including herb profiles, basics, kitchen articles, and site policy pages."
+  description="A complete HTML sitemap for HerbGuide, including herb guides, basics, kitchen articles, and site policy pages."
   structuredData={[
     {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
       name: "HTML Sitemap",
       description:
-        "A complete HTML sitemap for HerbGuide, including herb profiles, basics, kitchen articles, and site policy pages.",
+        "A complete HTML sitemap for HerbGuide, including herb guides, basics, kitchen articles, and site policy pages.",
       url: "https://herbguide.store/sitemap/",
     },
   ]}
@@ -25,7 +25,7 @@ import { topics } from "../../data/topics";
       <h1>Browse every section of HerbGuide</h1>
       <p>
         This page helps readers and search engines discover the full site structure in one
-        place, including herb profiles, basics, Chinese classics, and kitchen-focused
+        place, including herb guides, basics, Chinese classics, and kitchen-focused
         articles.
       </p>
     </div>
@@ -67,7 +67,7 @@ import { topics } from "../../data/topics";
     <div class="shell">
       <article class="prose-block card">
         <p class="eyebrow">Herb Library</p>
-        <h2>All herb profiles</h2>
+        <h2>All herb guides</h2>
         <div class="launch-list">
           {herbs.map((herb) => (
             <a href={`/herbs/${herb.slug}/`}>{herb.name}</a>
