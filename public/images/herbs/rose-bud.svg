@@ -1,0 +1,36 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" rx="40" fill="#FBF3EE"/>
+  <ellipse cx="972" cy="126" rx="208" ry="126" fill="#F1D9D1"/>
+  <ellipse cx="226" cy="688" rx="292" ry="146" fill="#E7D3CB"/>
+  <path d="M232 638C340 514 450 432 574 388C704 342 822 352 982 410" stroke="#6B7B62" stroke-width="18" stroke-linecap="round"/>
+  <path d="M332 552C398 492 478 446 586 414" stroke="#7F9175" stroke-width="12" stroke-linecap="round"/>
+  <path d="M506 470C566 434 630 404 710 386" stroke="#7F9175" stroke-width="10" stroke-linecap="round"/>
+  <g>
+    <path d="M366 520C366 484 394 456 430 456C454 456 476 470 488 492C482 536 454 562 420 562C390 562 366 548 366 520Z" fill="#CC6D78"/>
+    <path d="M406 468C432 474 450 496 452 524C430 530 404 524 386 506C378 492 382 478 406 468Z" fill="#E79AA1"/>
+  </g>
+  <g>
+    <path d="M564 438C564 402 592 374 628 374C654 374 676 388 688 412C682 456 654 484 620 484C588 484 564 468 564 438Z" fill="#D86D84"/>
+    <path d="M606 386C634 394 652 416 654 442C632 448 604 442 588 424C580 410 584 396 606 386Z" fill="#F0A6AF"/>
+  </g>
+  <g>
+    <path d="M756 416C756 384 780 360 812 360C838 360 858 374 868 394C864 432 840 456 808 456C780 456 756 442 756 416Z" fill="#C95F70"/>
+    <path d="M794 370C818 376 834 394 836 418C816 424 792 420 776 404C770 392 774 380 794 370Z" fill="#EA9AA5"/>
+  </g>
+  <g fill="#6F845F">
+    <path d="M350 552C372 528 404 522 430 534C408 560 380 572 350 552Z"/>
+    <path d="M548 470C572 446 604 440 630 452C608 480 578 492 548 470Z"/>
+    <path d="M744 446C766 424 794 420 818 430C800 456 774 468 744 446Z"/>
+  </g>
+  <g>
+    <rect x="770" y="516" width="178" height="144" rx="24" fill="#F8E8DE"/>
+    <rect x="786" y="536" width="146" height="18" rx="9" fill="#D5B09D"/>
+    <path d="M806 580C806 538 838 506 880 506C922 506 954 538 954 580V648H806V580Z" fill="#FFF9F4"/>
+    <path d="M834 592C852 618 908 618 926 592" stroke="#D86D84" stroke-width="10" stroke-linecap="round"/>
+    <g fill="#D86D84">
+      <circle cx="854" cy="560" r="14"/>
+      <circle cx="884" cy="546" r="12"/>
+      <circle cx="910" cy="566" r="14"/>
+    </g>
+  </g>
+</svg>

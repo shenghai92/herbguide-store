@@ -368,6 +368,32 @@ const rawHerbEnhancements: HerbEnhancement[] = [
     ],
   },
   {
+    slug: "rose-bud",
+    kitchenPairings: ["Jujube", "Osmanthus flower", "Jasmine flower", "Light floral tea"],
+    goodStartingPoints: [
+      "Rose bud is easiest to trust when introduced through floral tea culture and gentle pantry reading rather than abstract claims.",
+      "A short tea page or a calm evening-tea topic path usually explains this flower better than theory-first writing.",
+    ],
+    compareLinks: [
+      { title: "Evening Teas", href: "/topics/evening-teas/" },
+      { title: "Rose Bud and Mulberry Leaf Tea Basics", href: "/kitchen/rose-bud-and-mulberry-leaf-tea-basics/" },
+      { title: "Osmanthus and Pear Tea Basics", href: "/kitchen/osmanthus-and-pear-tea-basics/" },
+    ],
+  },
+  {
+    slug: "mulberry-leaf",
+    kitchenPairings: ["Chrysanthemum", "Pear", "Rose bud", "Light seasonal tea"],
+    goodStartingPoints: [
+      "Mulberry leaf is most approachable when readers meet it through tea and seasonal kitchen language instead of product-heavy search pages.",
+      "A simple cooling-language basics page usually helps this leaf make sense faster.",
+    ],
+    compareLinks: [
+      { title: "What Does Clear Heat Mean?", href: "/basics/what-does-clear-heat-mean/" },
+      { title: "Seasonal Kitchen Ideas", href: "/topics/seasonal-kitchen-ideas/" },
+      { title: "Rose Bud and Mulberry Leaf Tea Basics", href: "/kitchen/rose-bud-and-mulberry-leaf-tea-basics/" },
+    ],
+  },
+  {
     slug: "gardenia-fruit",
     kitchenPairings: ["Cooling teas", "Seasonal reading", "Advanced floral pages", "Heat-language comparisons"],
     goodStartingPoints: [

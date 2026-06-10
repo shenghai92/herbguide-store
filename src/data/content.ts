@@ -333,6 +333,11 @@ const rawRecipeCards = [
     title: "Osmanthus and Pear Tea Basics",
     text: "A fragrant pear tea page that brings sweet osmanthus into a gentle, search-friendly floral kitchen routine.",
   },
+  {
+    slug: "rose-bud-and-mulberry-leaf-tea-basics",
+    title: "Rose Bud and Mulberry Leaf Tea Basics",
+    text: "A gentle floral-leaf tea page that connects rose bud and mulberry leaf through a light, kitchen-first cup.",
+  },
 ];
 
 export const recipeCards = rawRecipeCards.map((card) => sanitizeContentCard(card));

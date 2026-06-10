@@ -41,6 +41,8 @@ const basicsBySlug: Record<string, string[]> = {
   "tremella-mushroom": ["what-does-moisten-dryness-mean", "what-does-yin-deficiency-mean", "mulberry-fruit-vs-goji-berry"],
   "osmanthus-flower": ["warming-vs-cooling-foods", "what-does-clear-heat-mean", "what-is-traditional-herb-theory"],
   "jasmine-flower": ["warming-vs-cooling-foods", "chrysanthemum-vs-mint", "what-is-traditional-herb-theory"],
+  "rose-bud": ["what-is-qi-stagnation", "warming-vs-cooling-foods", "what-is-traditional-herb-theory"],
+  "mulberry-leaf": ["what-does-clear-heat-mean", "warming-vs-cooling-foods", "what-does-moisten-dryness-mean"],
 };
 const suggestedBasics = (basicsBySlug[herb.slug] ?? ["what-is-traditional-herb-theory", "what-does-channel-entry-mean", "warming-vs-cooling-foods"])
   .map((slug) => basicsCards.find((item) => item.slug === slug))
@@ -69,6 +71,8 @@ const recipesBySlug: Record<string, string[]> = {
   "adzuki-bean": ["adzuki-bean-and-jobs-tears-soup-basics", "jobs-tears-porridge-for-heavy-days"],
   "osmanthus-flower": ["osmanthus-and-pear-tea-basics", "pear-and-chrysanthemum-tea-for-warm-afternoons"],
   "jasmine-flower": ["osmanthus-and-pear-tea-basics", "chrysanthemum-and-mint-cooling-tea-basics"],
+  "rose-bud": ["rose-bud-and-mulberry-leaf-tea-basics", "osmanthus-and-pear-tea-basics"],
+  "mulberry-leaf": ["rose-bud-and-mulberry-leaf-tea-basics", "pear-and-chrysanthemum-tea-for-warm-afternoons"],
 };
 const suggestedRecipes = (recipesBySlug[herb.slug] ?? [])
   .map((slug) => recipeCards.find((item) => item.slug === slug))
@@ -81,6 +85,14 @@ const herbHeroImageMap: Record<string, { src: string; alt: string }> = {
   "jasmine-flower": {
     src: "/images/herbs/jasmine-flower.svg",
     alt: "An illustration of jasmine blossoms styled for a floral tea herb page.",
+  },
+  "rose-bud": {
+    src: "/images/herbs/rose-bud.svg",
+    alt: "An illustration of rose buds arranged for a floral tea herb page.",
+  },
+  "mulberry-leaf": {
+    src: "/images/herbs/mulberry-leaf.svg",
+    alt: "An illustration of mulberry leaves styled for a seasonal tea herb page.",
   },
 };
 const herbHeroImage = herbHeroImageMap[herb.slug];

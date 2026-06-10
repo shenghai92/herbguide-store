@@ -2716,4 +2716,55 @@ export const foodTherapyArticles: ContentArticle[] = [
       },
     ],
   },
+  {
+    slug: "rose-bud-and-mulberry-leaf-tea-basics",
+    title: "Rose Bud and Mulberry Leaf Tea Basics",
+    description:
+      "A gentle floral-leaf tea page that connects rose bud and mulberry leaf through a light, kitchen-first cup.",
+    eyebrow: "Kitchen Traditions",
+    intro:
+      "Rose bud and mulberry leaf make a useful pairing for readers who want a floral tea that still feels grounded in seasonal kitchen reading. The cup is light, easy to picture, and useful for searches around floral tea, mulberry leaf tea, and simple pantry tea routines.",
+    recipe: {
+      recipeYield: "2 mugs",
+      prepTime: "PT5M",
+      totalTime: "PT12M",
+      ingredients: [
+        "1 teaspoon dried rose buds",
+        "1 teaspoon dried mulberry leaf",
+        "2 1/2 cups hot water",
+        "2 split jujubes, optional",
+        "Optional: 1 thin slice pear for a softer finish",
+      ],
+      steps: [
+        "Rinse the rose buds, mulberry leaf, and optional jujubes briefly.",
+        "Place them in a teapot or heat-safe cup.",
+        "Pour the hot water over the ingredients and cover lightly.",
+        "Steep for 6 to 8 minutes until the floral aroma opens and the leaf softens.",
+        "Add the optional pear slice only if you want a softer finish, then serve warm.",
+      ],
+      servingNotes: [
+        "This page works best as a light floral tea with a short ingredient list readers can remember easily.",
+        "Keeping the flavor gentle helps the rose bud and mulberry leaf stay distinct instead of muddying together.",
+      ],
+      caution: [
+        "Floral and cooling-style language here belongs to traditional kitchen context, not individualized advice.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why this pairing works well",
+        paragraphs: [
+          "Rose bud brings fragrance and pantry familiarity, while mulberry leaf gives the cup a clearer seasonal tea identity.",
+          "That balance makes the page useful for readers who want something more distinctive than a plain jasmine-style cup without drifting into exaggerated language.",
+        ],
+      },
+      {
+        title: "What this tea adds to the site",
+        paragraphs: [
+          "This page creates a clean internal path between rose bud, mulberry leaf, chrysanthemum, evening tea reading, and seasonal tea searches.",
+          "It also expands the floral tea cluster with a cup that feels light, kitchen-first, and easy to connect with everyday pantry habits.",
+        ],
+      },
+    ],
+  },
 ];

@@ -125,6 +125,10 @@ const recipeSchemaImageMap: Record<string, { src: string; alt: string }> = {
     src: "/images/recipes/herbal-tea-glass.jpg",
     alt: "A fragrant floral tea glass styled for an osmanthus and pear recipe.",
   },
+  "rose-bud-and-mulberry-leaf-tea-basics": {
+    src: "/images/recipes/herbal-tea-glass.jpg",
+    alt: "A floral tea glass styled for a rose bud and mulberry leaf kitchen page.",
+  },
 };
 const recipeCuisineMap: Record<string, string> = {
   "5-easy-traditional-kitchen-ingredients-for-beginners": "Chinese-inspired kitchen",
@@ -155,6 +159,7 @@ const recipeCuisineMap: Record<string, string> = {
   "chinese-yam-and-jujube-porridge-basics": "Chinese-inspired porridge",
   "tangerine-peel-and-pear-warm-tea-basics": "Chinese-inspired tea",
   "osmanthus-and-pear-tea-basics": "Chinese-inspired tea",
+  "rose-bud-and-mulberry-leaf-tea-basics": "Chinese-inspired tea",
 };
 const recipePageVisualMap: Record<string, { src: string; alt: string }> = {
   "5-easy-traditional-kitchen-ingredients-for-beginners": {
@@ -268,6 +273,10 @@ const recipePageVisualMap: Record<string, { src: string; alt: string }> = {
   "osmanthus-and-pear-tea-basics": {
     src: "/images/recipes/tea-osmanthus-pear.svg",
     alt: "A floral tea illustration with sweet osmanthus blossoms and sliced pear.",
+  },
+  "rose-bud-and-mulberry-leaf-tea-basics": {
+    src: "/images/recipes/tea-rose-mulberry.svg",
+    alt: "A floral and leaf tea illustration with rose buds and mulberry leaves.",
   },
 };
 const recipeImage = recipeSchemaImageMap[article.slug] ?? {
@@ -396,6 +405,11 @@ const herbLinkMap: Record<string, Array<{ name: string; href: string }>> = {
   "osmanthus-and-pear-tea-basics": [
     { name: "Osmanthus Flower", href: "/herbs/osmanthus-flower/" },
     { name: "Jasmine Flower", href: "/herbs/jasmine-flower/" },
+    { name: "Jujube", href: "/herbs/jujube-red-date/" },
+  ],
+  "rose-bud-and-mulberry-leaf-tea-basics": [
+    { name: "Rose Bud", href: "/herbs/rose-bud/" },
+    { name: "Mulberry Leaf", href: "/herbs/mulberry-leaf/" },
     { name: "Jujube", href: "/herbs/jujube-red-date/" },
   ],
 };
@@ -544,6 +558,11 @@ const recipeLinkMap: Record<string, Array<{ title: string; href: string }>> = {
     { title: "Pear and Chrysanthemum Tea for Warm Afternoons", href: "/kitchen/pear-and-chrysanthemum-tea-for-warm-afternoons/" },
     { title: "Monk Fruit and Pear Tea Basics", href: "/kitchen/monk-fruit-and-pear-tea-basics/" },
     { title: "Jujube and Ginger Tea for Busy Weeks", href: "/kitchen/jujube-and-ginger-tea-for-busy-weeks/" },
+  ],
+  "rose-bud-and-mulberry-leaf-tea-basics": [
+    { title: "Osmanthus and Pear Tea Basics", href: "/kitchen/osmanthus-and-pear-tea-basics/" },
+    { title: "Chrysanthemum and Mint Cooling Tea Basics", href: "/kitchen/chrysanthemum-and-mint-cooling-tea-basics/" },
+    { title: "Pear and Chrysanthemum Tea for Warm Afternoons", href: "/kitchen/pear-and-chrysanthemum-tea-for-warm-afternoons/" },
   ],
 };
 const relatedRecipes = recipeLinkMap[article.slug] ?? [];
