@@ -2767,4 +2767,55 @@ export const foodTherapyArticles: ContentArticle[] = [
       },
     ],
   },
+  {
+    slug: "lotus-leaf-and-burdock-root-tea-basics",
+    title: "Lotus Leaf and Burdock Root Tea Basics",
+    description:
+      "A light pantry tea page that connects lotus leaf and burdock root through an earthy, seasonal cup with safe search intent.",
+    eyebrow: "Kitchen Traditions",
+    intro:
+      "Lotus leaf and burdock root create a tea page that feels grounded, visual, and easy to place inside seasonal kitchen reading. The pairing is especially useful for readers searching lotus leaf tea or burdock root tea who need a calmer, food-first introduction instead of product-heavy language.",
+    recipe: {
+      recipeYield: "2 mugs",
+      prepTime: "PT6M",
+      totalTime: "PT16M",
+      ingredients: [
+        "1 teaspoon dried lotus leaf",
+        "1 teaspoon sliced dried burdock root",
+        "2 1/2 cups hot water",
+        "2 thin pear slices, optional",
+        "Optional: 1 small piece dried orange peel for a softer aroma",
+      ],
+      steps: [
+        "Rinse the lotus leaf and burdock root briefly.",
+        "Add them to a small pot or heat-safe teapot with the hot water.",
+        "Steep covered for 8 to 10 minutes, or simmer very gently if the burdock slices are thick.",
+        "Add the optional pear slices and dried orange peel for the last 2 minutes if you want a softer finish.",
+        "Strain and serve warm as a light pantry tea.",
+      ],
+      servingNotes: [
+        "This tea reads best as earthy and light rather than strong, so a short steep keeps the cup approachable.",
+        "Pear helps the page stay visual and beginner-friendly without taking attention away from the leaf-and-root pairing.",
+      ],
+      caution: [
+        "This page uses traditional seasonal tea language for educational kitchen context, not individualized advice.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why this tea is easy to understand",
+        paragraphs: [
+          "Lotus leaf gives the page a familiar seasonal tea identity, while burdock root adds an earthy note that makes the cup feel more grounded than a purely floral blend.",
+          "That balance helps readers picture the ingredients clearly and supports safer long-tail searches around lotus leaf tea, burdock root tea, and simple pantry tea routines.",
+        ],
+      },
+      {
+        title: "How this page strengthens site SEO",
+        paragraphs: [
+          "This recipe creates a clean internal path between lotus leaf, burdock root, pear-based tea pages, and broader seasonal kitchen reading.",
+          "It also expands the tea cluster with a more earthy profile, which keeps the site from relying only on floral or berry-style cups for search growth.",
+        ],
+      },
+    ],
+  },
 ];

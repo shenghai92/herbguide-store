@@ -43,6 +43,8 @@ const basicsBySlug: Record<string, string[]> = {
   "jasmine-flower": ["warming-vs-cooling-foods", "chrysanthemum-vs-mint", "what-is-traditional-herb-theory"],
   "rose-bud": ["what-is-qi-stagnation", "warming-vs-cooling-foods", "what-is-traditional-herb-theory"],
   "mulberry-leaf": ["what-does-clear-heat-mean", "warming-vs-cooling-foods", "what-does-moisten-dryness-mean"],
+  "lotus-leaf": ["warming-vs-cooling-foods", "what-is-traditional-herb-theory", "what-does-channel-entry-mean"],
+  "burdock-root": ["what-does-channel-entry-mean", "what-does-clear-heat-mean", "warming-vs-cooling-foods"],
 };
 const suggestedBasics = (basicsBySlug[herb.slug] ?? ["what-is-traditional-herb-theory", "what-does-channel-entry-mean", "warming-vs-cooling-foods"])
   .map((slug) => basicsCards.find((item) => item.slug === slug))
@@ -73,6 +75,8 @@ const recipesBySlug: Record<string, string[]> = {
   "jasmine-flower": ["osmanthus-and-pear-tea-basics", "chrysanthemum-and-mint-cooling-tea-basics"],
   "rose-bud": ["rose-bud-and-mulberry-leaf-tea-basics", "osmanthus-and-pear-tea-basics"],
   "mulberry-leaf": ["rose-bud-and-mulberry-leaf-tea-basics", "pear-and-chrysanthemum-tea-for-warm-afternoons"],
+  "lotus-leaf": ["lotus-leaf-and-burdock-root-tea-basics", "chrysanthemum-and-mint-cooling-tea-basics"],
+  "burdock-root": ["lotus-leaf-and-burdock-root-tea-basics", "tangerine-peel-and-pear-warm-tea-basics"],
 };
 const suggestedRecipes = (recipesBySlug[herb.slug] ?? [])
   .map((slug) => recipeCards.find((item) => item.slug === slug))
@@ -93,6 +97,14 @@ const herbHeroImageMap: Record<string, { src: string; alt: string }> = {
   "mulberry-leaf": {
     src: "/images/herbs/mulberry-leaf.svg",
     alt: "An illustration of mulberry leaves styled for a seasonal tea herb page.",
+  },
+  "lotus-leaf": {
+    src: "/images/herbs/lotus-leaf.svg",
+    alt: "An illustration of lotus leaves styled for a seasonal tea herb page.",
+  },
+  "burdock-root": {
+    src: "/images/herbs/burdock-root.svg",
+    alt: "An illustration of sliced burdock root for an earthy tea herb page.",
   },
 };
 const herbHeroImage = herbHeroImageMap[herb.slug];

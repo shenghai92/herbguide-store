@@ -33,6 +33,7 @@ const recipeSearchThemes: Record<string, string[]> = {
   "tangerine-peel-and-pear-warm-tea-basics": ["warm tea", "pear", "citrus peel", "pantry"],
   "osmanthus-and-pear-tea-basics": ["floral tea", "pear", "fragrant", "gentle"],
   "rose-bud-and-mulberry-leaf-tea-basics": ["floral tea", "mulberry leaf", "seasonal tea", "gentle"],
+  "lotus-leaf-and-burdock-root-tea-basics": ["lotus leaf tea", "burdock root tea", "seasonal tea", "pantry tea"],
 };
 
 const recipeCategoryMap: Record<string, string> = {
@@ -65,6 +66,7 @@ const recipeCategoryMap: Record<string, string> = {
   "tangerine-peel-and-pear-warm-tea-basics": "Warming",
   "osmanthus-and-pear-tea-basics": "Balanced",
   "rose-bud-and-mulberry-leaf-tea-basics": "Balanced",
+  "lotus-leaf-and-burdock-root-tea-basics": "Balanced",
 };
 
 const recipeCategories = Array.from(new Set(recipeCards.map((card) => recipeCategoryMap[card.slug] ?? "Balanced")));

@@ -129,6 +129,10 @@ const recipeSchemaImageMap: Record<string, { src: string; alt: string }> = {
     src: "/images/recipes/herbal-tea-glass.jpg",
     alt: "A floral tea glass styled for a rose bud and mulberry leaf kitchen page.",
   },
+  "lotus-leaf-and-burdock-root-tea-basics": {
+    src: "/images/recipes/herbal-tea-glass.jpg",
+    alt: "A light tea glass styled for a lotus leaf and burdock root kitchen page.",
+  },
 };
 const recipeCuisineMap: Record<string, string> = {
   "5-easy-traditional-kitchen-ingredients-for-beginners": "Chinese-inspired kitchen",
@@ -160,6 +164,7 @@ const recipeCuisineMap: Record<string, string> = {
   "tangerine-peel-and-pear-warm-tea-basics": "Chinese-inspired tea",
   "osmanthus-and-pear-tea-basics": "Chinese-inspired tea",
   "rose-bud-and-mulberry-leaf-tea-basics": "Chinese-inspired tea",
+  "lotus-leaf-and-burdock-root-tea-basics": "Chinese-inspired tea",
 };
 const recipePageVisualMap: Record<string, { src: string; alt: string }> = {
   "5-easy-traditional-kitchen-ingredients-for-beginners": {
@@ -277,6 +282,10 @@ const recipePageVisualMap: Record<string, { src: string; alt: string }> = {
   "rose-bud-and-mulberry-leaf-tea-basics": {
     src: "/images/recipes/tea-rose-mulberry.svg",
     alt: "A floral and leaf tea illustration with rose buds and mulberry leaves.",
+  },
+  "lotus-leaf-and-burdock-root-tea-basics": {
+    src: "/images/recipes/tea-lotus-burdock.svg",
+    alt: "A seasonal tea illustration with lotus leaf and sliced burdock root.",
   },
 };
 const recipeImage = recipeSchemaImageMap[article.slug] ?? {
@@ -411,6 +420,11 @@ const herbLinkMap: Record<string, Array<{ name: string; href: string }>> = {
     { name: "Rose Bud", href: "/herbs/rose-bud/" },
     { name: "Mulberry Leaf", href: "/herbs/mulberry-leaf/" },
     { name: "Jujube", href: "/herbs/jujube-red-date/" },
+  ],
+  "lotus-leaf-and-burdock-root-tea-basics": [
+    { name: "Lotus Leaf", href: "/herbs/lotus-leaf/" },
+    { name: "Burdock Root", href: "/herbs/burdock-root/" },
+    { name: "Dried Orange Peel", href: "/herbs/dried-orange-peel/" },
   ],
 };
 const relatedHerbs = herbLinkMap[article.slug] ?? [
@@ -563,6 +577,11 @@ const recipeLinkMap: Record<string, Array<{ title: string; href: string }>> = {
     { title: "Osmanthus and Pear Tea Basics", href: "/kitchen/osmanthus-and-pear-tea-basics/" },
     { title: "Chrysanthemum and Mint Cooling Tea Basics", href: "/kitchen/chrysanthemum-and-mint-cooling-tea-basics/" },
     { title: "Pear and Chrysanthemum Tea for Warm Afternoons", href: "/kitchen/pear-and-chrysanthemum-tea-for-warm-afternoons/" },
+  ],
+  "lotus-leaf-and-burdock-root-tea-basics": [
+    { title: "Rose Bud and Mulberry Leaf Tea Basics", href: "/kitchen/rose-bud-and-mulberry-leaf-tea-basics/" },
+    { title: "Tangerine Peel and Pear Warm Tea Basics", href: "/kitchen/tangerine-peel-and-pear-warm-tea-basics/" },
+    { title: "Chrysanthemum and Mint Cooling Tea Basics", href: "/kitchen/chrysanthemum-and-mint-cooling-tea-basics/" },
   ],
 };
 const relatedRecipes = recipeLinkMap[article.slug] ?? [];

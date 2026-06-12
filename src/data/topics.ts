@@ -85,9 +85,9 @@ const rawTopics: Topic[] = [
     eyebrow: "Topic Page",
     intro:
       "Tea pages are often approachable because readers can picture them instantly. This topic page groups together tea-style pages and pantry herbs that feel light, familiar, and easy to revisit.",
-    herbSlugs: ["jujube-red-date", "chrysanthemum-flower", "longan-fruit", "lotus-seed", "mint", "schisandra-berry", "osmanthus-flower", "jasmine-flower", "rose-bud"],
+    herbSlugs: ["jujube-red-date", "chrysanthemum-flower", "longan-fruit", "lotus-seed", "mint", "schisandra-berry", "osmanthus-flower", "jasmine-flower", "rose-bud", "lotus-leaf"],
     basicsSlugs: ["goji-berry-vs-jujube", "warming-vs-cooling-foods", "what-does-clear-heat-mean", "what-does-shen-mean", "chrysanthemum-vs-mint", "what-does-astringent-mean"],
-    foodSlugs: ["jujube-and-ginger-tea-for-busy-weeks", "chrysanthemum-and-mint-cooling-tea-basics", "lotus-seed-and-longan-sweet-soup-basics", "pear-and-chrysanthemum-tea-for-warm-afternoons", "goji-and-chrysanthemum-tea-basics", "jujube-and-lotus-seed-congee-for-quiet-evenings", "schisandra-and-jujube-tea-basics", "osmanthus-and-pear-tea-basics", "rose-bud-and-mulberry-leaf-tea-basics"],
+    foodSlugs: ["jujube-and-ginger-tea-for-busy-weeks", "chrysanthemum-and-mint-cooling-tea-basics", "lotus-seed-and-longan-sweet-soup-basics", "pear-and-chrysanthemum-tea-for-warm-afternoons", "goji-and-chrysanthemum-tea-basics", "jujube-and-lotus-seed-congee-for-quiet-evenings", "schisandra-and-jujube-tea-basics", "osmanthus-and-pear-tea-basics", "rose-bud-and-mulberry-leaf-tea-basics", "lotus-leaf-and-burdock-root-tea-basics"],
     sections: [
       {
         title: "Why tea pages are easy for beginners to follow",
@@ -139,9 +139,9 @@ const rawTopics: Topic[] = [
     eyebrow: "Topic Page",
     intro:
       "Seasonality is one of the easiest ways to make traditional herb content practical. Readers may not know every traditional term, but they understand cold weather, dry days, summer drinks, and comfort foods. This topic page organizes the material through that familiar lens.",
-    herbSlugs: ["fresh-ginger", "mint", "chrysanthemum-flower", "lily-bulb", "tremella-mushroom", "chinese-yam", "perilla-leaf", "mulberry-fruit", "osmanthus-flower", "jasmine-flower", "mulberry-leaf", "rose-bud"],
+    herbSlugs: ["fresh-ginger", "mint", "chrysanthemum-flower", "lily-bulb", "tremella-mushroom", "chinese-yam", "perilla-leaf", "mulberry-fruit", "osmanthus-flower", "jasmine-flower", "mulberry-leaf", "rose-bud", "lotus-leaf", "burdock-root"],
     basicsSlugs: ["warming-vs-cooling-foods", "what-does-moisten-dryness-mean", "what-does-clear-heat-mean", "what-does-yin-deficiency-mean", "what-does-channel-entry-mean", "what-is-damp-heat", "chrysanthemum-vs-mint", "mulberry-fruit-vs-goji-berry"],
-    foodSlugs: ["a-simple-warming-soup-guide-for-cold-weather", "pear-and-lily-bulb-soup-for-dry-days", "chrysanthemum-and-mint-cooling-tea-basics", "goji-berry-porridge-for-gentle-mornings", "pear-and-chrysanthemum-tea-for-warm-afternoons", "goji-and-chrysanthemum-tea-basics", "tremella-and-pear-sweet-soup-basics", "chinese-yam-and-carrot-soup-basics", "mulberry-and-goji-tea-basics", "perilla-and-ginger-soup-for-cool-days", "osmanthus-and-pear-tea-basics", "rose-bud-and-mulberry-leaf-tea-basics"],
+    foodSlugs: ["a-simple-warming-soup-guide-for-cold-weather", "pear-and-lily-bulb-soup-for-dry-days", "chrysanthemum-and-mint-cooling-tea-basics", "goji-berry-porridge-for-gentle-mornings", "pear-and-chrysanthemum-tea-for-warm-afternoons", "goji-and-chrysanthemum-tea-basics", "tremella-and-pear-sweet-soup-basics", "chinese-yam-and-carrot-soup-basics", "mulberry-and-goji-tea-basics", "perilla-and-ginger-soup-for-cool-days", "osmanthus-and-pear-tea-basics", "rose-bud-and-mulberry-leaf-tea-basics", "lotus-leaf-and-burdock-root-tea-basics"],
     sections: [
       {
         title: "Seasonality makes theory easier to read",
@@ -302,9 +302,9 @@ const rawTopics: Topic[] = [
     eyebrow: "Topic Page",
     intro:
       "Some of the best HerbGuide content is not about advanced herbs at all. It is about pantry familiarity. This hub gathers the pages that help readers build confidence through ingredients they can actually picture using in tea, soup, porridge, and breakfast routines.",
-    herbSlugs: ["goji-berry", "jujube-red-date", "black-sesame-seed", "chrysanthemum-flower", "fresh-ginger", "adzuki-bean", "tremella-mushroom", "chinese-yam", "mulberry-fruit", "schisandra-berry", "licorice-root", "osmanthus-flower", "jasmine-flower", "rose-bud", "mulberry-leaf"],
+    herbSlugs: ["goji-berry", "jujube-red-date", "black-sesame-seed", "chrysanthemum-flower", "fresh-ginger", "adzuki-bean", "tremella-mushroom", "chinese-yam", "mulberry-fruit", "schisandra-berry", "licorice-root", "osmanthus-flower", "jasmine-flower", "rose-bud", "mulberry-leaf", "lotus-leaf", "burdock-root"],
     basicsSlugs: ["what-is-traditional-herb-theory", "goji-berry-vs-jujube", "what-does-tonify-mean", "what-does-jing-mean", "what-does-channel-entry-mean", "what-does-nourish-blood-mean", "poria-vs-jobs-tears", "goji-berry-tea-vs-goji-berry-porridge", "what-does-astringent-mean", "mulberry-fruit-vs-goji-berry", "what-does-harmonizing-mean"],
-    foodSlugs: ["5-easy-traditional-kitchen-ingredients-for-beginners", "black-sesame-breakfast-ideas-for-beginners", "jujube-and-ginger-tea-for-busy-weeks", "goji-berry-porridge-for-gentle-mornings", "lotus-seed-and-longan-sweet-soup-basics", "black-sesame-and-jujube-breakfast-bowl", "jobs-tears-porridge-for-heavy-days", "jujube-and-lotus-seed-congee-for-quiet-evenings", "tremella-and-pear-sweet-soup-basics", "adzuki-bean-and-jobs-tears-soup-basics", "chinese-yam-and-carrot-soup-basics", "tremella-and-lotus-seed-sweet-soup-basics", "mulberry-and-goji-tea-basics", "schisandra-and-jujube-tea-basics", "osmanthus-and-pear-tea-basics", "rose-bud-and-mulberry-leaf-tea-basics"],
+    foodSlugs: ["5-easy-traditional-kitchen-ingredients-for-beginners", "black-sesame-breakfast-ideas-for-beginners", "jujube-and-ginger-tea-for-busy-weeks", "goji-berry-porridge-for-gentle-mornings", "lotus-seed-and-longan-sweet-soup-basics", "black-sesame-and-jujube-breakfast-bowl", "jobs-tears-porridge-for-heavy-days", "jujube-and-lotus-seed-congee-for-quiet-evenings", "tremella-and-pear-sweet-soup-basics", "adzuki-bean-and-jobs-tears-soup-basics", "chinese-yam-and-carrot-soup-basics", "tremella-and-lotus-seed-sweet-soup-basics", "mulberry-and-goji-tea-basics", "schisandra-and-jujube-tea-basics", "osmanthus-and-pear-tea-basics", "rose-bud-and-mulberry-leaf-tea-basics", "lotus-leaf-and-burdock-root-tea-basics"],
     sections: [
       {
         title: "Why pantry-first content builds trust",

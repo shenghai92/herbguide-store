@@ -338,6 +338,11 @@ const rawRecipeCards = [
     title: "Rose Bud and Mulberry Leaf Tea Basics",
     text: "A gentle floral-leaf tea page that connects rose bud and mulberry leaf through a light, kitchen-first cup.",
   },
+  {
+    slug: "lotus-leaf-and-burdock-root-tea-basics",
+    title: "Lotus Leaf and Burdock Root Tea Basics",
+    text: "A light pantry tea page that connects lotus leaf and burdock root through an earthy, seasonal cup with safe search intent.",
+  },
 ];
 
 export const recipeCards = rawRecipeCards.map((card) => sanitizeContentCard(card));

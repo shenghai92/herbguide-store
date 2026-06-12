@@ -394,6 +394,32 @@ const rawHerbEnhancements: HerbEnhancement[] = [
     ],
   },
   {
+    slug: "lotus-leaf",
+    kitchenPairings: ["Mint", "Chrysanthemum", "Pear", "Simple summer tea"],
+    goodStartingPoints: [
+      "Lotus leaf works best when readers meet it through visual tea language and pantry habits rather than through aggressive search expectations.",
+      "A short seasonal tea page usually explains this leaf more naturally than theory-heavy copy alone.",
+    ],
+    compareLinks: [
+      { title: "Seasonal Kitchen Ideas", href: "/topics/seasonal-kitchen-ideas/" },
+      { title: "Evening Teas", href: "/topics/evening-teas/" },
+      { title: "Lotus Leaf and Burdock Root Tea Basics", href: "/kitchen/lotus-leaf-and-burdock-root-tea-basics/" },
+    ],
+  },
+  {
+    slug: "burdock-root",
+    kitchenPairings: ["Pear", "Lotus leaf", "Chrysanthemum", "Light root tea"],
+    goodStartingPoints: [
+      "Burdock root becomes much easier to understand when readers picture an earthy pantry tea rather than a product-style promise page.",
+      "Simple tea and seasonal kitchen language keep this root approachable without overstating its role.",
+    ],
+    compareLinks: [
+      { title: "What Does Channel Entry Mean?", href: "/basics/what-does-channel-entry-mean/" },
+      { title: "Seasonal Kitchen Ideas", href: "/topics/seasonal-kitchen-ideas/" },
+      { title: "Lotus Leaf and Burdock Root Tea Basics", href: "/kitchen/lotus-leaf-and-burdock-root-tea-basics/" },
+    ],
+  },
+  {
     slug: "gardenia-fruit",
     kitchenPairings: ["Cooling teas", "Seasonal reading", "Advanced floral pages", "Heat-language comparisons"],
     goodStartingPoints: [

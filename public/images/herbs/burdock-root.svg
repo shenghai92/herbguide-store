@@ -1,0 +1,14 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#F7F1E7"/>
+  <ellipse cx="470" cy="510" rx="120" ry="42" transform="rotate(-22 470 510)" fill="#9D6E48"/>
+  <ellipse cx="635" cy="470" rx="140" ry="48" transform="rotate(-18 635 470)" fill="#A97750"/>
+  <ellipse cx="790" cy="540" rx="125" ry="44" transform="rotate(-24 790 540)" fill="#8E603D"/>
+  <ellipse cx="430" cy="505" rx="90" ry="26" transform="rotate(-22 430 505)" fill="#C79C70"/>
+  <ellipse cx="595" cy="465" rx="104" ry="30" transform="rotate(-18 595 465)" fill="#D0A77A"/>
+  <ellipse cx="750" cy="535" rx="92" ry="28" transform="rotate(-24 750 535)" fill="#BE9466"/>
+  <path d="M360 450C330 405 325 365 350 332" stroke="#78915A" stroke-width="14" stroke-linecap="round"/>
+  <path d="M352 332C382 312 415 314 440 338" stroke="#8DA96C" stroke-width="14" stroke-linecap="round"/>
+  <path d="M348 334C321 318 300 318 278 336" stroke="#8DA96C" stroke-width="14" stroke-linecap="round"/>
+  <ellipse cx="915" cy="195" rx="135" ry="70" fill="#E4D4B6"/>
+  <text x="915" y="205" text-anchor="middle" fill="#5A4D3B" font-family="Georgia, serif" font-size="34">Burdock Root</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#F4EEDF"/>
+  <ellipse cx="600" cy="770" rx="330" ry="42" fill="#D9C8AA"/>
+  <path d="M420 360H760V610C760 690 696 750 616 750H564C484 750 420 690 420 610V360Z" fill="#E7D7B8"/>
+  <path d="M450 390H730V592C730 650 683 697 625 697H555C497 697 450 650 450 592V390Z" fill="#B8A47C"/>
+  <path d="M760 425H830C868 425 900 457 900 496C900 535 868 567 830 567H760" stroke="#C7B089" stroke-width="22"/>
+  <ellipse cx="590" cy="320" rx="146" ry="74" fill="#A7C091"/>
+  <path d="M590 320L684 260" stroke="#6C8B63" stroke-width="10" stroke-linecap="round"/>
+  <path d="M590 320L705 320" stroke="#6C8B63" stroke-width="10" stroke-linecap="round"/>
+  <path d="M590 320L682 382" stroke="#6C8B63" stroke-width="10" stroke-linecap="round"/>
+  <path d="M590 320L590 398" stroke="#6C8B63" stroke-width="10" stroke-linecap="round"/>
+  <path d="M590 320L502 382" stroke="#6C8B63" stroke-width="10" stroke-linecap="round"/>
+  <ellipse cx="720" cy="300" rx="68" ry="24" transform="rotate(-22 720 300)" fill="#9B6C48"/>
+  <ellipse cx="705" cy="298" rx="44" ry="12" transform="rotate(-22 705 298)" fill="#C69B71"/>
+  <ellipse cx="920" cy="165" rx="180" ry="72" fill="#E8D9BB"/>
+  <text x="920" y="175" text-anchor="middle" fill="#5E503C" font-family="Georgia, serif" font-size="34">Lotus Leaf &amp; Burdock Tea</text>
+</svg>

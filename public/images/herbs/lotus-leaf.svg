@@ -1,0 +1,17 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#F4F1E8"/>
+  <ellipse cx="610" cy="470" rx="300" ry="240" fill="#9AB68C"/>
+  <ellipse cx="610" cy="470" rx="250" ry="196" fill="#B9CFAB"/>
+  <path d="M610 470L815 320" stroke="#6C8B63" stroke-width="14" stroke-linecap="round"/>
+  <path d="M610 470L885 470" stroke="#6C8B63" stroke-width="14" stroke-linecap="round"/>
+  <path d="M610 470L800 615" stroke="#6C8B63" stroke-width="14" stroke-linecap="round"/>
+  <path d="M610 470L610 720" stroke="#6C8B63" stroke-width="14" stroke-linecap="round"/>
+  <path d="M610 470L415 620" stroke="#6C8B63" stroke-width="14" stroke-linecap="round"/>
+  <path d="M610 470L340 470" stroke="#6C8B63" stroke-width="14" stroke-linecap="round"/>
+  <path d="M610 470L425 320" stroke="#6C8B63" stroke-width="14" stroke-linecap="round"/>
+  <path d="M610 470L610 255" stroke="#6C8B63" stroke-width="14" stroke-linecap="round"/>
+  <path d="M610 470C590 620 555 730 520 820" stroke="#7B6A4F" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="610" cy="470" r="24" fill="#6C8B63"/>
+  <ellipse cx="910" cy="195" rx="120" ry="70" fill="#E5D7B3"/>
+  <text x="910" y="205" text-anchor="middle" fill="#5C513E" font-family="Georgia, serif" font-size="36">Lotus Leaf</text>
+</svg>
