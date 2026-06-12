@@ -2818,4 +2818,55 @@ export const foodTherapyArticles: ContentArticle[] = [
       },
     ],
   },
+  {
+    slug: "cassia-seed-and-corn-silk-tea-basics",
+    title: "Cassia Seed and Corn Silk Tea Basics",
+    description:
+      "A mild pantry tea page that connects cassia seed and corn silk through a light seasonal cup with search-friendly kitchen language.",
+    eyebrow: "Kitchen Traditions",
+    intro:
+      "Cassia seed and corn silk create a tea page that feels approachable because both ingredients can be explained through pantry logic rather than abstract terminology. The cup is especially useful for readers searching cassia seed tea or corn silk tea who need a calmer, kitchen-first introduction.",
+    recipe: {
+      recipeYield: "2 mugs",
+      prepTime: "PT6M",
+      totalTime: "PT15M",
+      ingredients: [
+        "1 teaspoon cassia seeds",
+        "1 small handful dried corn silk",
+        "2 1/2 cups hot water",
+        "1 thin pear slice, optional",
+        "Optional: 1 small piece lotus leaf for a lighter finish",
+      ],
+      steps: [
+        "Rinse the cassia seeds and corn silk briefly.",
+        "Lightly crush the cassia seeds with the back of a spoon so the flavor opens more easily.",
+        "Add everything to a small pot or heat-safe teapot with the hot water.",
+        "Steep covered for 8 to 10 minutes, or simmer very gently if you want a fuller seed flavor.",
+        "Add the optional pear slice near the end, then strain and serve warm.",
+      ],
+      servingNotes: [
+        "A shorter steep keeps the cup mild and more beginner-friendly for readers trying seed tea for the first time.",
+        "Pear helps the page stay visual and pantry-based while leaving cassia seed and corn silk as the main focus.",
+      ],
+      caution: [
+        "The language on this page belongs to traditional kitchen context and should not be read as individualized advice.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why this pairing works for search and clarity",
+        paragraphs: [
+          "Cassia seed gives the cup a recognizable seed-tea identity, while corn silk keeps the page tied to familiar food culture and mild pantry habits.",
+          "That makes the recipe easier to trust for readers looking up cassia seed tea, corn silk tea, or light seasonal tea without pulling the copy into stronger promise language.",
+        ],
+      },
+      {
+        title: "What this page adds to the site",
+        paragraphs: [
+          "This recipe creates a new internal path between cassia seed, corn silk, lotus leaf, and other light tea pages in the seasonal cluster.",
+          "It also widens the tea library with a seed-and-silk pairing so the site is not limited to floral, berry, or root-centered cups.",
+        ],
+      },
+    ],
+  },
 ];

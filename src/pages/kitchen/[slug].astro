@@ -133,6 +133,10 @@ const recipeSchemaImageMap: Record<string, { src: string; alt: string }> = {
     src: "/images/recipes/herbal-tea-glass.jpg",
     alt: "A light tea glass styled for a lotus leaf and burdock root kitchen page.",
   },
+  "cassia-seed-and-corn-silk-tea-basics": {
+    src: "/images/recipes/herbal-tea-glass.jpg",
+    alt: "A mild tea glass styled for a cassia seed and corn silk kitchen page.",
+  },
 };
 const recipeCuisineMap: Record<string, string> = {
   "5-easy-traditional-kitchen-ingredients-for-beginners": "Chinese-inspired kitchen",
@@ -165,6 +169,7 @@ const recipeCuisineMap: Record<string, string> = {
   "osmanthus-and-pear-tea-basics": "Chinese-inspired tea",
   "rose-bud-and-mulberry-leaf-tea-basics": "Chinese-inspired tea",
   "lotus-leaf-and-burdock-root-tea-basics": "Chinese-inspired tea",
+  "cassia-seed-and-corn-silk-tea-basics": "Chinese-inspired tea",
 };
 const recipePageVisualMap: Record<string, { src: string; alt: string }> = {
   "5-easy-traditional-kitchen-ingredients-for-beginners": {
@@ -286,6 +291,10 @@ const recipePageVisualMap: Record<string, { src: string; alt: string }> = {
   "lotus-leaf-and-burdock-root-tea-basics": {
     src: "/images/recipes/tea-lotus-burdock.svg",
     alt: "A seasonal tea illustration with lotus leaf and sliced burdock root.",
+  },
+  "cassia-seed-and-corn-silk-tea-basics": {
+    src: "/images/recipes/tea-cassia-cornsilk.svg",
+    alt: "A light tea illustration with cassia seeds and corn silk.",
   },
 };
 const recipeImage = recipeSchemaImageMap[article.slug] ?? {
@@ -425,6 +434,11 @@ const herbLinkMap: Record<string, Array<{ name: string; href: string }>> = {
     { name: "Lotus Leaf", href: "/herbs/lotus-leaf/" },
     { name: "Burdock Root", href: "/herbs/burdock-root/" },
     { name: "Dried Orange Peel", href: "/herbs/dried-orange-peel/" },
+  ],
+  "cassia-seed-and-corn-silk-tea-basics": [
+    { name: "Cassia Seed", href: "/herbs/cassia-seed/" },
+    { name: "Corn Silk", href: "/herbs/corn-silk/" },
+    { name: "Lotus Leaf", href: "/herbs/lotus-leaf/" },
   ],
 };
 const relatedHerbs = herbLinkMap[article.slug] ?? [
@@ -582,6 +596,11 @@ const recipeLinkMap: Record<string, Array<{ title: string; href: string }>> = {
     { title: "Rose Bud and Mulberry Leaf Tea Basics", href: "/kitchen/rose-bud-and-mulberry-leaf-tea-basics/" },
     { title: "Tangerine Peel and Pear Warm Tea Basics", href: "/kitchen/tangerine-peel-and-pear-warm-tea-basics/" },
     { title: "Chrysanthemum and Mint Cooling Tea Basics", href: "/kitchen/chrysanthemum-and-mint-cooling-tea-basics/" },
+  ],
+  "cassia-seed-and-corn-silk-tea-basics": [
+    { title: "Lotus Leaf and Burdock Root Tea Basics", href: "/kitchen/lotus-leaf-and-burdock-root-tea-basics/" },
+    { title: "Chrysanthemum and Mint Cooling Tea Basics", href: "/kitchen/chrysanthemum-and-mint-cooling-tea-basics/" },
+    { title: "Pear and Chrysanthemum Tea for Warm Afternoons", href: "/kitchen/pear-and-chrysanthemum-tea-for-warm-afternoons/" },
   ],
 };
 const relatedRecipes = recipeLinkMap[article.slug] ?? [];

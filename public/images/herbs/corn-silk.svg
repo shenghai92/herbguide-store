@@ -1,0 +1,12 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#F7F1E2"/>
+  <path d="M420 650C495 565 555 470 585 355" stroke="#D9B85C" stroke-width="12" stroke-linecap="round"/>
+  <path d="M455 675C520 580 585 505 645 400" stroke="#E1C56A" stroke-width="10" stroke-linecap="round"/>
+  <path d="M500 700C560 615 650 530 735 425" stroke="#CFA94D" stroke-width="10" stroke-linecap="round"/>
+  <path d="M390 615C470 555 530 485 560 410" stroke="#E6CB78" stroke-width="8" stroke-linecap="round"/>
+  <path d="M535 690C610 615 705 550 805 455" stroke="#D6B051" stroke-width="8" stroke-linecap="round"/>
+  <path d="M610 330C642 300 688 286 742 295" stroke="#9FB178" stroke-width="12" stroke-linecap="round"/>
+  <path d="M605 330C575 300 528 288 480 298" stroke="#9FB178" stroke-width="12" stroke-linecap="round"/>
+  <ellipse cx="900" cy="185" rx="135" ry="70" fill="#E8D9B8"/>
+  <text x="900" y="195" text-anchor="middle" fill="#5E513C" font-family="Georgia, serif" font-size="34">Corn Silk</text>
+</svg>

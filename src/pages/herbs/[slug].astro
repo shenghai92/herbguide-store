@@ -45,6 +45,8 @@ const basicsBySlug: Record<string, string[]> = {
   "mulberry-leaf": ["what-does-clear-heat-mean", "warming-vs-cooling-foods", "what-does-moisten-dryness-mean"],
   "lotus-leaf": ["warming-vs-cooling-foods", "what-is-traditional-herb-theory", "what-does-channel-entry-mean"],
   "burdock-root": ["what-does-channel-entry-mean", "what-does-clear-heat-mean", "warming-vs-cooling-foods"],
+  "cassia-seed": ["what-does-clear-heat-mean", "warming-vs-cooling-foods", "what-is-traditional-herb-theory"],
+  "corn-silk": ["warming-vs-cooling-foods", "what-does-channel-entry-mean", "what-is-traditional-herb-theory"],
 };
 const suggestedBasics = (basicsBySlug[herb.slug] ?? ["what-is-traditional-herb-theory", "what-does-channel-entry-mean", "warming-vs-cooling-foods"])
   .map((slug) => basicsCards.find((item) => item.slug === slug))
@@ -77,6 +79,8 @@ const recipesBySlug: Record<string, string[]> = {
   "mulberry-leaf": ["rose-bud-and-mulberry-leaf-tea-basics", "pear-and-chrysanthemum-tea-for-warm-afternoons"],
   "lotus-leaf": ["lotus-leaf-and-burdock-root-tea-basics", "chrysanthemum-and-mint-cooling-tea-basics"],
   "burdock-root": ["lotus-leaf-and-burdock-root-tea-basics", "tangerine-peel-and-pear-warm-tea-basics"],
+  "cassia-seed": ["cassia-seed-and-corn-silk-tea-basics", "chrysanthemum-and-mint-cooling-tea-basics"],
+  "corn-silk": ["cassia-seed-and-corn-silk-tea-basics", "lotus-leaf-and-burdock-root-tea-basics"],
 };
 const suggestedRecipes = (recipesBySlug[herb.slug] ?? [])
   .map((slug) => recipeCards.find((item) => item.slug === slug))
@@ -105,6 +109,14 @@ const herbHeroImageMap: Record<string, { src: string; alt: string }> = {
   "burdock-root": {
     src: "/images/herbs/burdock-root.svg",
     alt: "An illustration of sliced burdock root for an earthy tea herb page.",
+  },
+  "cassia-seed": {
+    src: "/images/herbs/cassia-seed.svg",
+    alt: "An illustration of roasted cassia seeds for a pantry tea herb page.",
+  },
+  "corn-silk": {
+    src: "/images/herbs/corn-silk.svg",
+    alt: "An illustration of dried corn silk styled for a mild tea herb page.",
   },
 };
 const herbHeroImage = herbHeroImageMap[herb.slug];

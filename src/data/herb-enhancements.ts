@@ -420,6 +420,32 @@ const rawHerbEnhancements: HerbEnhancement[] = [
     ],
   },
   {
+    slug: "cassia-seed",
+    kitchenPairings: ["Chrysanthemum", "Lotus leaf", "Corn silk", "Roasted seed tea"],
+    goodStartingPoints: [
+      "Cassia seed becomes easier to understand when readers picture a light roasted-seed tea rather than a product-style search result.",
+      "A short tea page and one seasonal topic hub usually explain this seed more naturally than dense theory alone.",
+    ],
+    compareLinks: [
+      { title: "What Does Clear Heat Mean?", href: "/basics/what-does-clear-heat-mean/" },
+      { title: "Seasonal Kitchen Ideas", href: "/topics/seasonal-kitchen-ideas/" },
+      { title: "Cassia Seed and Corn Silk Tea Basics", href: "/kitchen/cassia-seed-and-corn-silk-tea-basics/" },
+    ],
+  },
+  {
+    slug: "corn-silk",
+    kitchenPairings: ["Pear", "Cassia seed", "Lotus leaf", "Simple simmered tea"],
+    goodStartingPoints: [
+      "Corn silk is strongest when presented as a familiar pantry tea ingredient with clear boundaries, not as a promise-heavy shortcut page.",
+      "Readers usually trust this ingredient faster when it sits inside a simple seasonal tea recipe.",
+    ],
+    compareLinks: [
+      { title: "Seasonal Kitchen Ideas", href: "/topics/seasonal-kitchen-ideas/" },
+      { title: "Balanced Pantry Habits", href: "/topics/balanced-pantry-habits/" },
+      { title: "Cassia Seed and Corn Silk Tea Basics", href: "/kitchen/cassia-seed-and-corn-silk-tea-basics/" },
+    ],
+  },
+  {
     slug: "gardenia-fruit",
     kitchenPairings: ["Cooling teas", "Seasonal reading", "Advanced floral pages", "Heat-language comparisons"],
     goodStartingPoints: [

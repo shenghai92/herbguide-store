@@ -1,0 +1,12 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#F5EEDC"/>
+  <ellipse cx="600" cy="780" rx="330" ry="42" fill="#D9C8A8"/>
+  <path d="M430 360H770V615C770 692 707 755 630 755H570C493 755 430 692 430 615V360Z" fill="#E7D9BD"/>
+  <path d="M458 390H742V600C742 653 699 696 646 696H554C501 696 458 653 458 600V390Z" fill="#D7C08A"/>
+  <path d="M770 430H840C877 430 908 462 908 500C908 538 877 570 840 570H770" stroke="#CDB487" stroke-width="22"/>
+  <ellipse cx="490" cy="305" rx="74" ry="44" transform="rotate(-18 490 305)" fill="#8D5E3A"/>
+  <ellipse cx="700" cy="288" rx="88" ry="20" transform="rotate(12 700 288)" fill="#DAB85E"/>
+  <path d="M650 280C715 250 772 246 824 260" stroke="#9FB178" stroke-width="10" stroke-linecap="round"/>
+  <ellipse cx="920" cy="168" rx="178" ry="72" fill="#E9DABD"/>
+  <text x="920" y="178" text-anchor="middle" fill="#5C4F3B" font-family="Georgia, serif" font-size="32">Cassia Seed &amp; Corn Silk Tea</text>
+</svg>

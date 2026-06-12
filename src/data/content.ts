@@ -343,6 +343,11 @@ const rawRecipeCards = [
     title: "Lotus Leaf and Burdock Root Tea Basics",
     text: "A light pantry tea page that connects lotus leaf and burdock root through an earthy, seasonal cup with safe search intent.",
   },
+  {
+    slug: "cassia-seed-and-corn-silk-tea-basics",
+    title: "Cassia Seed and Corn Silk Tea Basics",
+    text: "A mild pantry tea page that connects cassia seed and corn silk through a light seasonal cup with search-friendly kitchen language.",
+  },
 ];
 
 export const recipeCards = rawRecipeCards.map((card) => sanitizeContentCard(card));
