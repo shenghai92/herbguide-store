@@ -8,8 +8,8 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
 ---
 
 <BaseLayout
-  title="Herb Library | HerbGuide"
-  description="Browse herb guides by English name, pinyin, category, tea context, soup context, and food-friendly ingredient notes."
+  title="Herb Library by English Name and Pinyin | HerbGuide"
+  description="Browse herb guides by English name, pinyin, category, tea context, and food-friendly notes, including goji berry, sheng jiang, chen pi, and other searchable herb names."
   structuredData={[
     {
       "@context": "https://schema.org",
@@ -67,7 +67,7 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
       <h1>Browse herb guides by name, context, and category</h1>
       <p>
         Every herb has its own dedicated page. Use the library search, category filters, and
-        alphabet filters to jump straight to goji berry, ginger, chrysanthemum, ginseng, pinyin names, or food-friendly herbs without scrolling through an oversized list.
+        alphabet filters to jump straight to goji berry, sheng jiang, chen pi, chrysanthemum, ginseng, other pinyin names, or food-friendly herbs without scrolling through an oversized list.
       </p>
     </div>
   </section>
@@ -76,16 +76,16 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
     <div class="shell">
       <SectionIntro
         title="Search the herb library"
-        text="Search by English name, pinyin, Chinese name, tea context, soup context, digestive terms, or warming and cooling language."
+        text="Search by English name, pinyin, Chinese name, tea context, soup context, digestive terms, or warming and cooling language, including searches like goji berry, gou qi zi, sheng jiang, and chen pi."
       />
       <div class="search-panel">
         <label class="sr-only" for="herb-search">Search herbs</label>
         <input
           id="herb-search"
           type="search"
-          placeholder="Search by English name, pinyin, Chinese name, tag, or context"
+          placeholder="Search by goji berry, gou qi zi, sheng jiang, chen pi, tag, or context"
         />
-        <p class="search-note">Start with terms like goji, huang qi, tea, digestive, or warming.</p>
+        <p class="search-note">Start with terms like goji berry, gou qi zi, sheng jiang, chen pi, huang qi, tea, digestive, or warming.</p>
       </div>
       <div class="filter-panel">
         <div class="filter-group">
@@ -193,7 +193,7 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
         <p>
           The easiest way to use the library is to search by the word you already know.
           Some readers search by English name such as goji berry or ginseng. Others search
-          by pinyin such as Huang Qi, Dang Shen, or Bai He. Many also search by broad goals
+          by pinyin such as Sheng Jiang, Gou Qi Zi, Huang Qi, Dang Shen, or Bai He. Many also search by broad goals
           like digestive, tea, soup, warming, cooling, or food tradition.
         </p>
       </article>
@@ -228,7 +228,7 @@ const herbLetters = Array.from(new Set(herbs.map((herb) => herb.name[0].toUpperC
         <h3>Can I search by Chinese name or pinyin?</h3>
         <p>
           Yes. The search box is designed to work with English names, pinyin, Chinese
-          characters, tags, and common food uses.
+          characters, tags, and common food uses, including searches like sheng jiang, gou qi zi, and chen pi.
         </p>
         <h3>Which herbs are best for beginners?</h3>
         <p>

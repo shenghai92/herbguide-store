@@ -36,7 +36,7 @@ const rawHerbs: Herb[] = [
     category: "Nourishing herbs",
     summary: "A well-known berry often used in teas, soups, porridge, and simple everyday kitchen recipes.",
     whatItIs:
-      "Goji berry is one of the easiest traditional herbs for English-speaking readers to recognize because it already appears in snack mixes, teas, and modern grocery products.",
+      "Goji berry is one of the easiest traditional herbs for English-speaking readers to recognize because it already appears in snack mixes, teas, and modern grocery products. It also shows up in search as gou qi zi or gouqi berries, so this page keeps those naming paths easy to connect.",
     nature: "Neutral to slightly warming",
     flavor: "Sweet",
     channels: "Liver, Kidney",
@@ -48,7 +48,7 @@ const rawHerbs: Herb[] = [
     foodUses: ["Tea", "Broth", "Congee"],
     caution:
       "Readers following ongoing care plans, especially where blood-thinning products are involved, should check local guidance before using goji regularly.",
-    tags: ["beginner", "berry", "tea", "food traditions", "daily cooking"],
+    tags: ["beginner", "berry", "tea", "food traditions", "daily cooking", "gouqi berries", "gou qi zi", "goji berry tea"],
   },
   {
     slug: "astragalus-root",
@@ -84,7 +84,7 @@ const rawHerbs: Herb[] = [
     category: "Kitchen herbs",
     summary: "A familiar kitchen ingredient that gives traditional food traditions an easy and practical entry point.",
     whatItIs:
-      "Fresh ginger is one of the most useful bridge ingredients for this site because readers already know it from cooking, tea, and home routines.",
+      "Fresh ginger is one of the most useful bridge ingredients for this site because readers already know it from cooking, tea, and home routines. Many readers also meet it through the pinyin name sheng jiang, which makes this page a practical naming bridge.",
     nature: "Warm",
     flavor: "Pungent",
     channels: "Lung, Spleen, Stomach",
@@ -96,7 +96,7 @@ const rawHerbs: Herb[] = [
     foodUses: ["Tea", "Soup", "Stir-fry"],
     caution:
       "Even familiar food herbs can be irritating in excess. Readers with more complex personal needs should still use caution.",
-    tags: ["kitchen", "warming", "tea", "beginner", "digestive traditions"],
+    tags: ["kitchen", "warming", "tea", "beginner", "digestive traditions", "sheng jiang", "sheng jiang tea"],
   },
   {
     slug: "jujube-red-date",
@@ -180,7 +180,7 @@ const rawHerbs: Herb[] = [
     category: "Digestive herbs",
     summary: "Aged tangerine peel with a familiar citrus story and strong kitchen appeal.",
     whatItIs:
-      "Chen pi is one of the best herbs for storytelling because it turns a familiar ingredient, citrus peel, into a traditional pantry concept with deep culinary value.",
+      "Chen pi is one of the best herbs for storytelling because it turns a familiar ingredient, citrus peel, into a traditional pantry concept with deep culinary value. It also gives readers a clearer answer when they search directly for chen pi tea or aged citrus peel kitchen use.",
     nature: "Warm",
     flavor: "Pungent, bitter",
     channels: "Lung, Spleen",
@@ -192,7 +192,7 @@ const rawHerbs: Herb[] = [
     foodUses: ["Tea", "Broth", "Dessert"],
     caution:
       "Readers should understand the difference between culinary use and concentrated product use.",
-    tags: ["citrus", "digestive", "tea", "pantry", "kitchen-friendly"],
+    tags: ["citrus", "digestive", "tea", "pantry", "kitchen-friendly", "chen pi tea", "aged citrus peel tea"],
   },
   {
     slug: "poria",

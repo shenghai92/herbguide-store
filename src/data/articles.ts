@@ -1380,10 +1380,10 @@ export const foodTherapyArticles: ContentArticle[] = [
     slug: "jujube-and-ginger-tea-for-busy-weeks",
     title: "Jujube and Ginger Tea for Busy Weeks",
     description:
-      "A simple tea-style kitchen routine that shows how two approachable ingredients can be explained with clarity and restraint.",
+      "A simple jujube tea recipe with fresh ginger that keeps the ingredient list short, the language natural, and the kitchen context clear.",
     eyebrow: "Kitchen Traditions",
     intro:
-      "Jujube and ginger make a strong beginner pairing because the idea is easy to picture: a few slices, a few pieces, hot water, and a short kitchen routine. It feels practical, familiar, and easy to understand without much setup.",
+      "For readers searching a simple jujube tea recipe, this pairing is one of the easiest places to start. A few slices of ginger, a few split jujubes, hot water, and a short simmer make the page feel practical, familiar, and easy to understand without much setup.",
     recipe: {
       recipeYield: "2 mugs",
       prepTime: "PT5M",
@@ -1414,7 +1414,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         title: "Why this pairing works for beginners",
         paragraphs: [
           "Both ingredients are easy to explain, easy to source, and closely tied to practical food use.",
-          "They are often easier to introduce than more advanced ingredients that need heavier caution framing.",
+          "They are often easier to introduce than more advanced ingredients that need heavier caution framing, which is one reason this page works well as a gentle jujube tea recipe entry point.",
         ],
       },
       {
@@ -1607,10 +1607,10 @@ export const foodTherapyArticles: ContentArticle[] = [
     slug: "goji-berry-porridge-for-gentle-mornings",
     title: "Goji Berry Porridge for Gentle Mornings",
     description:
-      "A simple breakfast-style kitchen page built around one of the easiest pantry ingredients for beginners.",
+      "A simple goji berry porridge recipe built around one of the easiest pantry ingredients for beginner-friendly kitchen reading.",
     eyebrow: "Kitchen Traditions",
     intro:
-      "Goji berry porridge is easy to picture, easy to prepare, and easy to connect with pantry-first, practical kitchen learning.",
+      "For readers searching a goji berry porridge recipe, this page keeps the bowl simple: a mild grain base, a small spoonful of berries, and optional pantry additions that are easy to recognize.",
     recipe: {
       recipeYield: "2 bowls",
       prepTime: "PT5M",
@@ -1642,7 +1642,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         title: "Why this is a strong beginner breakfast page",
         paragraphs: [
           "It centers one of the most familiar pantry herbs while staying fully in the kitchen.",
-          "That makes it easier for readers to trust and easier to connect with pantry, beauty-food, and gentle routine reading.",
+          "That makes it easier for readers to trust and easier to connect with pantry, beauty-food, and gentle routine reading without losing the practical feel of a real goji berry breakfast recipe.",
         ],
       },
       {
@@ -1709,10 +1709,10 @@ export const foodTherapyArticles: ContentArticle[] = [
     slug: "chen-pi-tea-for-heavy-meal-days",
     title: "Chen Pi Tea for Heavy Meal Days",
     description:
-      "A pantry-style tea article that helps readers understand chen pi through one of its easiest food-adjacent use cases.",
+      "A simple chen pi tea recipe that helps readers understand aged citrus peel through one of its easiest pantry-style use cases.",
     eyebrow: "Kitchen Traditions",
     intro:
-      "Chen pi is one of the clearest pantry herbs to explain because it turns dried citrus peel into a full traditional kitchen concept. A simple tea-style article gives readers an immediate way to understand why this ingredient shows up so often in digestive writing.",
+      "For readers searching a chen pi tea recipe, this page keeps the idea grounded: dried citrus peel, water, an optional slice of ginger, and a short simmer. That makes chen pi easier to understand as a traditional pantry ingredient instead of a vague theory term.",
     recipe: {
       recipeYield: "2 cups",
       prepTime: "PT5M",
@@ -1743,7 +1743,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         title: "Why chen pi deserves its own tea page",
         paragraphs: [
           "It is one of the clearest examples of how ordinary kitchen ingredients become traditional categories through preparation and aging.",
-          "That makes it especially useful for education because the story is memorable and the use case is practical.",
+          "That makes it especially useful for education because the story is memorable and the use case is practical, which is exactly what many readers want from a simple chen pi tea recipe page.",
         ],
       },
       {
