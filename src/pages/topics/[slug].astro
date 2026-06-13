@@ -10,6 +10,25 @@ export function getStaticPaths() {
 }
 
 const { topic } = Astro.props;
+const topicSeoMap: Record<
+  string,
+  {
+    title: string;
+    description: string;
+    extraKeywords: string[];
+    heroNote?: string;
+  }
+> = {
+  "seasonal-kitchen-ideas": {
+    title: "Seasonal Kitchen Ideas Guide | Warming Foods, Cooling Teas, and Soup Pages",
+    description:
+      "A seasonal kitchen ideas guide covering warming foods, cooling teas, pear soups, and practical herb pages in one clear theme.",
+    extraKeywords: ["seasonal kitchen ideas", "warming foods", "cooling foods", "seasonal tea ideas", "seasonal soup ideas"],
+    heroNote:
+      "Readers often reach this page when they want seasonal kitchen ideas before they know a herb name, so the guide keeps warming foods, cooling teas, and soup-style routes easy to scan.",
+  },
+};
+const topicSeo = topicSeoMap[topic.slug];
 const topicKeywords = [
   topic.title,
   `${topic.title} guide`,
@@ -19,6 +38,7 @@ const topicKeywords = [
   "ingredient guide",
   "kitchen ideas",
   "plain English",
+  ...(topicSeo?.extraKeywords ?? []),
 ];
 const topicFaqSchema = {
   "@context": "https://schema.org",
@@ -45,8 +65,8 @@ const topicFaqSchema = {
 ---
 
 <BaseLayout
-  title={`${topic.title} Guide | HerbGuide`}
-  description={`${topic.description} Browse related herbs, kitchen pages, and basics articles in one theme.`}
+  title={topicSeo?.title ?? `${topic.title} Guide | HerbGuide`}
+  description={topicSeo?.description ?? `${topic.description} Browse related herbs, kitchen pages, and basics articles in one theme.`}
   structuredData={[
     {
       "@context": "https://schema.org",
@@ -88,6 +108,7 @@ const topicFaqSchema = {
       <p class="eyebrow">{topic.eyebrow}</p>
       <h1>{topic.title}</h1>
       <p>{topic.intro}</p>
+      {topicSeo?.heroNote && <p>{topicSeo.heroNote}</p>}
       <p>
         This guide helps readers browse one theme through herb guides, kitchen recipes,
         and basics explainers instead of trying to piece the topic together page by page.

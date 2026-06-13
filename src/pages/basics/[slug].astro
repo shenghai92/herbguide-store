@@ -12,6 +12,25 @@ export function getStaticPaths() {
 
 const { article } = Astro.props;
 const relatedTopics = getTopicsForBasics(article.slug);
+const basicsSeoMap: Record<
+  string,
+  {
+    title: string;
+    description: string;
+    extraKeywords: string[];
+    heroNote?: string;
+  }
+> = {
+  "warming-vs-cooling-foods": {
+    title: "Warming vs Cooling Foods Meaning in Plain English | HerbGuide",
+    description:
+      "A plain-English guide to warming vs cooling foods with simple examples from tea, soup, seasonal meals, and herb pages.",
+    extraKeywords: ["warming vs cooling foods", "warming foods", "cooling foods", "warming and cooling foods meaning"],
+    heroNote:
+      "Readers often search this page because they want the meaning of warming foods and cooling foods in plain English before they open more specific herb or kitchen pages.",
+  },
+};
+const basicsSeo = basicsSeoMap[article.slug];
 const articleKeywords = [
   article.title,
   `${article.title} meaning`,
@@ -19,6 +38,7 @@ const articleKeywords = [
   `what does ${article.title.replace(/\?$/, "")} mean`,
   "traditional terms",
   "plain English guide",
+  ...(basicsSeo?.extraKeywords ?? []),
 ];
 const basicsFaqSchema = {
   "@context": "https://schema.org",
@@ -45,8 +65,8 @@ const basicsFaqSchema = {
 ---
 
 <BaseLayout
-  title={`${article.title} Meaning in Plain English | HerbGuide`}
-  description={`${article.description} Learn the term in plain English with examples from herb and kitchen pages.`}
+  title={basicsSeo?.title ?? `${article.title} Meaning in Plain English | HerbGuide`}
+  description={basicsSeo?.description ?? `${article.description} Learn the term in plain English with examples from herb and kitchen pages.`}
   structuredData={[
     {
       "@context": "https://schema.org",
@@ -96,6 +116,7 @@ const basicsFaqSchema = {
       <p class="eyebrow">{article.eyebrow}</p>
       <h1>{article.title}</h1>
       <p>{article.intro}</p>
+      {basicsSeo?.heroNote && <p>{basicsSeo.heroNote}</p>}
       <p>
         This page is written for readers who want the meaning in plain English before moving
         into herb guides, ingredient comparisons, or kitchen pages.
