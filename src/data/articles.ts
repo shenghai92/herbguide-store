@@ -2717,6 +2717,56 @@ export const foodTherapyArticles: ContentArticle[] = [
     ],
   },
   {
+    slug: "jasmine-and-pear-tea-basics",
+    title: "Jasmine and Pear Tea Basics",
+    description:
+      "A soft floral pear tea page that gives jasmine a calm, kitchen-first place in seasonal tea reading with clear ingredients and steps.",
+    eyebrow: "Kitchen Traditions",
+    intro:
+      "Jasmine and pear make an easy floral tea pairing for readers who want something fragrant but still grounded in familiar kitchen ingredients. Jasmine keeps the cup recognizable through tea culture, pear keeps the page food-first, and the overall recipe supports safe long-tail searches around jasmine tea, pear tea, and gentle floral drinks.",
+    recipe: {
+      recipeYield: "2 cups",
+      prepTime: "PT6M",
+      totalTime: "PT16M",
+      ingredients: [
+        "1 teaspoon dried jasmine flower",
+        "1 small pear, sliced thinly",
+        "2 1/2 cups water",
+        "Optional: 1 split jujube for a rounder finish",
+      ],
+      steps: [
+        "Rinse the jasmine flower lightly and slice the pear into thin pieces.",
+        "Bring the water to a gentle boil in a small pot.",
+        "Lower the heat, add the pear, and simmer for about 6 minutes so the fruit softens slightly.",
+        "Add the jasmine flower and optional jujube during the last 2 to 3 minutes so the floral note stays light and clear.",
+        "Strain if desired and serve warm as a gentle pantry tea.",
+      ],
+      servingNotes: [
+        "A short finish steep keeps the jasmine aroma soft instead of perfumed or heavy.",
+        "Pear helps the page stay visual and food-first for beginners who already know jasmine tea by name.",
+      ],
+      caution: [
+        "Floral and gentle-language here belongs to traditional kitchen context, not individualized advice.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why this tea works well for search and trust",
+        paragraphs: [
+          "Jasmine is already familiar to many readers through tea culture, but a plain jasmine page can still feel abstract if there is no kitchen recipe showing how the ingredient reads in a simple cup.",
+          "Pear gives the page a clear food anchor, which helps answer jasmine tea and pear tea searches without pushing the copy into stronger promise language.",
+        ],
+      },
+      {
+        title: "How this page strengthens the site",
+        paragraphs: [
+          "This recipe creates a direct internal path between jasmine flower, osmanthus flower, rose bud, chrysanthemum, and other floral tea pages in the same cluster.",
+          "It also gives the jasmine herb profile a cleaner next click, so the library, kitchen section, and topic hubs stay more consistent.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "rose-bud-and-mulberry-leaf-tea-basics",
     title: "Rose Bud and Mulberry Leaf Tea Basics",
     description:

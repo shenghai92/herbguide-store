@@ -362,6 +362,7 @@ const rawHerbEnhancements: HerbEnhancement[] = [
       "A simple floral comparison path works better here than a dense theory-first explanation.",
     ],
     compareLinks: [
+      { title: "Jasmine and Pear Tea Basics", href: "/kitchen/jasmine-and-pear-tea-basics/" },
       { title: "Chrysanthemum vs Mint", href: "/basics/chrysanthemum-vs-mint/" },
       { title: "Evening Teas", href: "/topics/evening-teas/" },
       { title: "Seasonal Kitchen Ideas", href: "/topics/seasonal-kitchen-ideas/" },

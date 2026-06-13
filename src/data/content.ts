@@ -334,6 +334,11 @@ const rawRecipeCards = [
     text: "A fragrant pear tea page that brings sweet osmanthus into a gentle, search-friendly floral kitchen routine.",
   },
   {
+    slug: "jasmine-and-pear-tea-basics",
+    title: "Jasmine and Pear Tea Basics",
+    text: "A soft floral pear tea page that gives jasmine a calm, kitchen-first landing page with safe long-tail wording.",
+  },
+  {
     slug: "rose-bud-and-mulberry-leaf-tea-basics",
     title: "Rose Bud and Mulberry Leaf Tea Basics",
     text: "A gentle floral-leaf tea page that connects rose bud and mulberry leaf through a light, kitchen-first cup.",
