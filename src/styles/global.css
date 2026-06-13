@@ -637,6 +637,10 @@ main {
 }
 
 @media (max-width: 900px) {
+  .shell {
+    width: min(100% - 1.5rem, 1120px);
+  }
+
   .hero-grid,
   .two-up,
   .newsletter-panel,
@@ -652,14 +656,177 @@ main {
   .header-inner {
     align-items: flex-start;
     flex-direction: column;
+    gap: 0.85rem;
+    padding: 0.8rem 0;
   }
 
   .main-nav {
+    width: 100%;
+    flex-wrap: nowrap;
     justify-content: flex-start;
+    gap: 0.7rem;
+    overflow-x: auto;
+    padding-bottom: 0.2rem;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .main-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .main-nav a {
+    flex: 0 0 auto;
+    padding: 0.45rem 0.65rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: rgba(255, 250, 243, 0.82);
   }
 
   .hero h1,
   .page-hero h1 {
     max-width: none;
+    font-size: clamp(2.25rem, 7vw, 3.5rem);
+    margin-bottom: 0.85rem;
+  }
+
+  .hero,
+  .page-hero {
+    padding: 3.35rem 0 2.35rem;
+  }
+
+  .hero-card,
+  .card,
+  .list-card,
+  .info-panel,
+  .newsletter-panel,
+  .sidebar-card,
+  .detail-section.card {
+    padding: 1.3rem;
+  }
+
+  .section {
+    padding: 1.2rem 0 3rem;
+  }
+
+  .hero-copy,
+  .detail-subtitle,
+  .page-hero p {
+    font-size: 0.98rem;
+  }
+
+  .button {
+    min-height: 2.7rem;
+    padding: 0.72rem 1.05rem;
+  }
+
+  .pill-card,
+  .launch-list span {
+    padding: 0.9rem 1rem;
+  }
+
+  .directory-card {
+    padding: 1rem 1.05rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .shell {
+    width: min(100% - 1rem, 1120px);
+  }
+
+  .brand {
+    gap: 0.7rem;
+  }
+
+  .brand-mark {
+    width: 2.45rem;
+    height: 2.45rem;
+    font-size: 0.88rem;
+  }
+
+  .brand small {
+    font-size: 0.74rem;
+  }
+
+  .main-nav {
+    gap: 0.55rem;
+    font-size: 0.88rem;
+  }
+
+  .main-nav a {
+    padding: 0.38rem 0.58rem;
+  }
+
+  .hero,
+  .page-hero {
+    padding: 2.7rem 0 1.9rem;
+  }
+
+  .hero h1,
+  .page-hero h1 {
+    font-size: clamp(1.85rem, 8.2vw, 2.45rem);
+    line-height: 1.06;
+    max-width: 12ch;
+  }
+
+  .hero-card h2,
+  .section-intro h2,
+  .info-panel h2,
+  .newsletter-panel h2,
+  .card h2,
+  .card h3,
+  .list-card h2,
+  .list-card h3,
+  .site-footer h2,
+  .site-footer h3 {
+    font-size: clamp(1.3rem, 6vw, 1.7rem);
+  }
+
+  .hero-copy,
+  .detail-subtitle,
+  .page-hero p,
+  .section-intro p,
+  .card p,
+  .list-card p,
+  .info-panel p,
+  .newsletter-panel p,
+  .prose-block p,
+  .prose-block li,
+  .site-footer p,
+  .site-footer li {
+    font-size: 0.96rem;
+  }
+
+  .hero-actions,
+  .newsletter-note {
+    gap: 0.7rem;
+    margin-top: 1.15rem;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .section {
+    padding: 1rem 0 2.4rem;
+  }
+
+  .card,
+  .list-card,
+  .info-panel,
+  .hero-card,
+  .newsletter-panel,
+  .sidebar-card,
+  .detail-section.card,
+  .search-panel {
+    border-radius: 20px;
+  }
+
+  .filter-row,
+  .tag-list,
+  .launch-list,
+  .directory-meta {
+    gap: 0.5rem;
   }
 }
