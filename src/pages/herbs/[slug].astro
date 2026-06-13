@@ -21,6 +21,41 @@ const suggestedHerbs = relatedHerbs.length > 0 ? relatedHerbs : fallbackHerbs;
 const relatedTopics = getTopicsForHerb(herb.slug);
 const enhancement = getHerbEnhancement(herb.slug);
 const detailNameParts = getHerbDisplayNames(herb).secondary;
+const herbSeoMap: Record<
+  string,
+  {
+    title: string;
+    description: string;
+    heroNote?: string;
+    extraKeywords: string[];
+  }
+> = {
+  "goji-berry": {
+    title: "Goji Berry (Gou Qi Zi) Guide | Tea, Porridge, and Safety",
+    description:
+      "A goji berry guide with Gou Qi Zi naming, tea and porridge context, pantry notes, and clear safety language in plain English.",
+    heroNote:
+      "This page is built to help readers connect goji berry with Gou Qi Zi, gouqi berries, tea context, and pantry-style kitchen reading.",
+    extraKeywords: ["goji berry", "gou qi zi", "gouqi berries", "goji berry tea"],
+  },
+  "fresh-ginger": {
+    title: "Fresh Ginger (Sheng Jiang) Guide | Tea, Soup, and Safety",
+    description:
+      "A fresh ginger guide with Sheng Jiang naming, tea and soup context, traditional notes, and clear safety language in plain English.",
+    heroNote:
+      "This page helps readers connect fresh ginger with the pinyin name Sheng Jiang and with the tea-and-soup language that appears across the site.",
+    extraKeywords: ["fresh ginger", "sheng jiang", "sheng jiang tea", "ginger tea"],
+  },
+  "chen-pi": {
+    title: "Chen Pi Guide | Tea, Aged Citrus Peel, and Safety",
+    description:
+      "A chen pi guide with aged citrus peel context, tea and pantry notes, traditional naming, and clear safety language in plain English.",
+    heroNote:
+      "This page is designed to help readers who search directly for chen pi or chen pi tea understand the ingredient through simple pantry context.",
+    extraKeywords: ["chen pi", "chen pi tea", "aged citrus peel", "aged citrus peel tea"],
+  },
+};
+const herbSeo = herbSeoMap[herb.slug];
 const basicsBySlug: Record<string, string[]> = {
   "goji-berry": ["goji-berry-vs-jujube", "goji-berry-tea-vs-goji-berry-porridge", "what-does-nourish-blood-mean"],
   "astragalus-root": ["what-does-tonify-mean", "what-does-qi-mean", "what-does-spleen-mean"],
@@ -133,6 +168,7 @@ const herbKeywords = [
   `${herb.name} safety`,
   ...herb.tags,
   ...herb.foodUses,
+  ...(herbSeo?.extraKeywords ?? []),
 ];
 const faqSchema = {
   "@context": "https://schema.org",
@@ -167,8 +203,8 @@ const faqSchema = {
 ---
 
 <BaseLayout
-  title={`${herb.name} (${herb.pinyin}) Guide, Context, and Safety | HerbGuide`}
-  description={`${herb.summary} Learn names, traditional context, kitchen notes, and safety language in plain English.`}
+  title={herbSeo?.title ?? `${herb.name} (${herb.pinyin}) Guide, Context, and Safety | HerbGuide`}
+  description={herbSeo?.description ?? `${herb.summary} Learn names, traditional context, kitchen notes, and safety language in plain English.`}
   type="article"
   structuredData={[
     {
@@ -224,6 +260,7 @@ const faqSchema = {
         <h1>{herb.name}</h1>
         <p class="detail-subtitle">{detailNameParts.join(" | ")}</p>
         <p>{herb.summary}</p>
+        {herbSeo?.heroNote && <p>{herbSeo.heroNote}</p>}
         <p>
           This guide helps readers understand what {herb.name} is, how traditional writing
           describes it, where it shows up in tea or kitchen reading, and what cautions belong on the page.

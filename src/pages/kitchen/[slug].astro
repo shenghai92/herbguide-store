@@ -12,6 +12,41 @@ export function getStaticPaths() {
 
 const { article } = Astro.props;
 const relatedTopics = getTopicsForFood(article.slug);
+const articleSeoMap: Record<
+  string,
+  {
+    title: string;
+    description: string;
+    extraKeywords: string[];
+    heroNote?: string;
+  }
+> = {
+  "jujube-and-ginger-tea-for-busy-weeks": {
+    title: "Jujube Tea Recipe with Ginger | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A simple jujube tea recipe with ginger, including ingredients, short simmer steps, pantry context, and related herb links.",
+    extraKeywords: ["jujube tea recipe", "jujube tea", "red date tea", "ginger tea recipe"],
+    heroNote:
+      "Readers often land here looking for a simple jujube tea recipe, so the page keeps the ingredient list short and the method easy to follow.",
+  },
+  "goji-berry-porridge-for-gentle-mornings": {
+    title: "Goji Berry Porridge Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A simple goji berry porridge recipe with ingredients, gentle breakfast steps, pantry notes, and related herb links.",
+    extraKeywords: ["goji berry porridge", "goji berry porridge recipe", "goji porridge", "goji breakfast"],
+    heroNote:
+      "Readers who want a goji berry porridge recipe usually need a very clear breakfast format, so this page stays practical and kitchen-first.",
+  },
+  "chen-pi-tea-for-heavy-meal-days": {
+    title: "Chen Pi Tea Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A simple chen pi tea recipe with aged citrus peel, short simmer steps, pantry context, and related herb links.",
+    extraKeywords: ["chen pi tea recipe", "chen pi tea", "aged citrus peel tea", "citrus peel tea recipe"],
+    heroNote:
+      "Readers often arrive here after searching directly for chen pi tea, so the page explains the ingredient through one very simple pantry-style cup.",
+  },
+};
+const articleSeo = articleSeoMap[article.slug];
 const recipeSchemaImageMap: Record<string, { src: string; alt: string }> = {
   "5-easy-traditional-kitchen-ingredients-for-beginners": {
     src: "/images/recipes/herbal-tea-mint.jpg",
@@ -634,6 +669,7 @@ const articleKeywords = [
   "tea recipe",
   "soup recipe",
   "ingredient guide",
+  ...(articleSeo?.extraKeywords ?? []),
 ];
 const recipeNutrition = {
   "@type": "NutritionInformation",
@@ -683,7 +719,14 @@ const faqSchema = article.recipe
       mainEntity: [
         {
           "@type": "Question",
-          name: `What ingredients are used in ${article.title}?`,
+          name:
+            article.slug === "jujube-and-ginger-tea-for-busy-weeks"
+              ? "What ingredients are used in this jujube tea recipe?"
+              : article.slug === "goji-berry-porridge-for-gentle-mornings"
+                ? "What ingredients are used in this goji berry porridge recipe?"
+                : article.slug === "chen-pi-tea-for-heavy-meal-days"
+                  ? "What ingredients are used in this chen pi tea recipe?"
+                  : `What ingredients are used in ${article.title}?`,
           acceptedAnswer: {
             "@type": "Answer",
             text: `${article.title} uses simple pantry ingredients and a short ingredient list designed for beginner-friendly kitchen reading.`,
@@ -691,7 +734,14 @@ const faqSchema = article.recipe
         },
         {
           "@type": "Question",
-          name: `Does ${article.title} include step-by-step preparation?`,
+          name:
+            article.slug === "jujube-and-ginger-tea-for-busy-weeks"
+              ? "Does this jujube tea recipe include step-by-step preparation?"
+              : article.slug === "goji-berry-porridge-for-gentle-mornings"
+                ? "Does this goji berry porridge recipe include step-by-step preparation?"
+                : article.slug === "chen-pi-tea-for-heavy-meal-days"
+                  ? "Does this chen pi tea recipe include step-by-step preparation?"
+                  : `Does ${article.title} include step-by-step preparation?`,
           acceptedAnswer: {
             "@type": "Answer",
             text: `Yes. This HerbGuide page includes ingredients, preparation steps, serving notes when helpful, and caution language for context.`,
@@ -711,8 +761,8 @@ const faqSchema = article.recipe
 ---
 
 <BaseLayout
-  title={`${article.title} | Ingredients, Steps, and Kitchen Notes`}
-  description={`${article.description} Includes ingredients, preparation steps, and related herb links.`}
+  title={articleSeo?.title ?? `${article.title} | Ingredients, Steps, and Kitchen Notes`}
+  description={articleSeo?.description ?? `${article.description} Includes ingredients, preparation steps, and related herb links.`}
   structuredData={[
     {
       "@context": "https://schema.org",
@@ -765,6 +815,7 @@ const faqSchema = article.recipe
       <p class="eyebrow">{article.eyebrow}</p>
       <h1>{article.title}</h1>
       <p>{article.intro}</p>
+      {articleSeo?.heroNote && <p>{articleSeo.heroNote}</p>}
       {article.recipe && (
         <p>
           This recipe page includes ingredients, step-by-step preparation, and related herb links
