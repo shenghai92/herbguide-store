@@ -62,6 +62,22 @@ const herbSeoMap: Record<
       "Because ginseng is widely recognized but often oversimplified, this page focuses on plain-English context, naming clarity, and visible safety boundaries.",
     extraKeywords: ["ginseng", "ren shen", "what is ginseng", "ginseng tea", "ginseng root"],
   },
+  "ginkgo-leaf": {
+    title: "Ginkgo Leaf (Yin Xing Ye) Guide | Traditional Context and Safety",
+    description:
+      "A ginkgo leaf guide with Yin Xing Ye naming, traditional context, caution-first wording, and plain-English herb notes.",
+    heroNote:
+      "Because ginkgo leaf is widely searched through product language, this page keeps the focus on traditional context, naming clarity, and visible safety boundaries.",
+    extraKeywords: ["ginkgo leaf", "yin xing ye", "what is ginkgo leaf", "ginkgo herb guide"],
+  },
+  "turmeric-root": {
+    title: "Turmeric Root (Jiang Huang) Guide | Traditional Context and Safety",
+    description:
+      "A turmeric root guide with Jiang Huang naming, traditional herb context, kitchen crossover notes, and clear safety language.",
+    heroNote:
+      "This page helps readers connect familiar turmeric root searches with the more precise traditional herb identity Jiang Huang, without hype-heavy copy.",
+    extraKeywords: ["turmeric root", "jiang huang", "what is turmeric root", "turmeric herb guide"],
+  },
 };
 const herbSeo = herbSeoMap[herb.slug];
 const basicsBySlug: Record<string, string[]> = {
@@ -90,6 +106,8 @@ const basicsBySlug: Record<string, string[]> = {
   "burdock-root": ["what-does-channel-entry-mean", "what-does-clear-heat-mean", "warming-vs-cooling-foods"],
   "cassia-seed": ["what-does-clear-heat-mean", "warming-vs-cooling-foods", "what-is-traditional-herb-theory"],
   "corn-silk": ["warming-vs-cooling-foods", "what-does-channel-entry-mean", "what-is-traditional-herb-theory"],
+  "ginkgo-leaf": ["what-is-traditional-herb-theory", "what-does-channel-entry-mean", "warming-vs-cooling-foods"],
+  "turmeric-root": ["what-is-traditional-herb-theory", "what-is-qi-stagnation", "warming-vs-cooling-foods"],
 };
 const suggestedBasics = (basicsBySlug[herb.slug] ?? ["what-is-traditional-herb-theory", "what-does-channel-entry-mean", "warming-vs-cooling-foods"])
   .map((slug) => basicsCards.find((item) => item.slug === slug))
@@ -124,6 +142,8 @@ const recipesBySlug: Record<string, string[]> = {
   "burdock-root": ["lotus-leaf-and-burdock-root-tea-basics", "tangerine-peel-and-pear-warm-tea-basics"],
   "cassia-seed": ["cassia-seed-and-corn-silk-tea-basics", "chrysanthemum-and-mint-cooling-tea-basics"],
   "corn-silk": ["cassia-seed-and-corn-silk-tea-basics", "lotus-leaf-and-burdock-root-tea-basics"],
+  "ginkgo-leaf": ["pear-and-chrysanthemum-tea-for-warm-afternoons", "lotus-root-soup-basics"],
+  "turmeric-root": ["a-simple-warming-soup-guide-for-cold-weather", "lotus-root-soup-basics"],
 };
 const suggestedRecipes = (recipesBySlug[herb.slug] ?? [])
   .map((slug) => recipeCards.find((item) => item.slug === slug))

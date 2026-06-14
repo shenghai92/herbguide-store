@@ -569,6 +569,32 @@ const rawHerbEnhancements: HerbEnhancement[] = [
       { title: "What Does Liver Mean in Traditional Herb Writing?", href: "/basics/what-does-liver-mean/" },
     ],
   },
+  {
+    slug: "ginkgo-leaf",
+    kitchenPairings: ["Light leaf infusions", "Pear in softer seasonal reading", "Classical leaf comparisons", "Calmer educational routes"],
+    goodStartingPoints: [
+      "This page works best when readers treat ginkgo leaf as a naming-and-context guide rather than a shortcut to supplement conclusions.",
+      "A simple basics page on traditional theory or channel language helps the herb feel less random and more readable.",
+    ],
+    compareLinks: [
+      { title: "What Is Traditional Herb Theory?", href: "/basics/what-is-traditional-herb-theory/" },
+      { title: "What Does Channel Entry Mean?", href: "/basics/what-does-channel-entry-mean/" },
+      { title: "Seasonal Kitchen Ideas", href: "/topics/seasonal-kitchen-ideas/" },
+    ],
+  },
+  {
+    slug: "turmeric-root",
+    kitchenPairings: ["Fresh ginger", "Light broths", "Root comparisons", "Food-first spice reading"],
+    goodStartingPoints: [
+      "This page is easiest to trust when readers see how jiang huang differs from broad internet turmeric marketing.",
+      "Pair it with one basics page on traditional theory and one simple soup page so the herb stays grounded in context.",
+    ],
+    compareLinks: [
+      { title: "What Is Traditional Herb Theory?", href: "/basics/what-is-traditional-herb-theory/" },
+      { title: "What Is Qi Stagnation?", href: "/basics/what-is-qi-stagnation/" },
+      { title: "A Simple Warming Soup Guide for Cold Weather", href: "/kitchen/a-simple-warming-soup-guide-for-cold-weather/" },
+    ],
+  },
 ];
 
 export const herbEnhancements = rawHerbEnhancements.map((item) => sanitizeHerbEnhancementContent(item));

@@ -353,6 +353,11 @@ const rawRecipeCards = [
     title: "Cassia Seed and Corn Silk Tea Basics",
     text: "A mild pantry tea page that connects cassia seed and corn silk through a light seasonal cup with search-friendly kitchen language.",
   },
+  {
+    slug: "lotus-root-soup-basics",
+    title: "Lotus Root Soup Basics",
+    text: "A simple lotus root soup page built around a widely searched ingredient with calm, kitchen-first wording.",
+  },
 ];
 
 export const recipeCards = rawRecipeCards.map((card) => sanitizeContentCard(card));

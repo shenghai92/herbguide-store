@@ -2919,4 +2919,69 @@ export const foodTherapyArticles: ContentArticle[] = [
       },
     ],
   },
+  {
+    slug: "lotus-root-soup-basics",
+    title: "Lotus Root Soup Basics",
+    description:
+      "A simple lotus root soup recipe with gentle ingredients, clear steps, and plain-English traditional kitchen context.",
+    eyebrow: "Kitchen Traditions",
+    intro:
+      "Lotus root soup is one of the more broadly recognizable Chinese soup searches in English because the ingredient already appears in Asian groceries, restaurant menus, and home-cooking videos. This page keeps the recipe simple and the traditional language calm, practical, and food-first.",
+    recipe: {
+      recipeYield: "2 to 3 bowls",
+      prepTime: "PT15M",
+      totalTime: "PT55M",
+      ingredients: [
+        "10 to 12 ounces lotus root, peeled and sliced into half-moons",
+        "4 1/2 cups water or light broth",
+        "3 thin slices fresh ginger",
+        "1 small carrot, cut into chunks",
+        "2 dried jujubes, split, optional",
+        "A small pinch of salt near the end",
+        "Optional: a few goji berries for color in the last 3 minutes",
+      ],
+      steps: [
+        "Peel the lotus root, slice it into even pieces, and rinse away any surface starch.",
+        "Add the lotus root, water or broth, ginger, carrot, and optional jujubes to a medium pot.",
+        "Bring the pot to a gentle boil, then lower the heat and simmer for 35 to 40 minutes until the lotus root tastes tender but still holds its shape.",
+        "Add a few goji berries during the last 3 minutes if you want a softer color accent.",
+        "Taste the broth, add only a light pinch of salt, and serve warm as a simple everyday soup.",
+      ],
+      servingNotes: [
+        "This page works best as a basic home-style soup rather than a heavy stew or a promise-driven wellness recipe.",
+        "Lotus root has a gentle crunch-soft texture that is worth preserving, so avoid overcooking it into mush.",
+      ],
+      caution: [
+        "This is a food-style soup page for general educational reading, not a personalized routine or directed-use plan.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why lotus root soup is a strong search-friendly kitchen page",
+        paragraphs: [
+          "Lotus root is one of the easier Chinese soup ingredients for English-language readers to recognize because it already has a distinct visual identity and a clear place in home cooking.",
+          "That makes a lotus root soup page useful for SEO, but it also fits HerbGuide's calm editorial style because the topic can stay fully food-first.",
+        ],
+        bullets: [
+          "The ingredient is already recognizable in English-language cooking.",
+          "The soup format feels practical and easier to trust than exaggerated outcome copy.",
+          "The page creates a natural bridge between kitchen reading and broader seasonal content.",
+        ],
+      },
+      {
+        title: "How this version keeps the recipe approachable",
+        paragraphs: [
+          "The ingredient list stays short so the lotus root remains the center of the page instead of disappearing into a crowded pantry list.",
+          "Fresh ginger and carrot give the soup a familiar home-kitchen structure, while optional jujube or goji help it connect back to the wider HerbGuide library.",
+        ],
+      },
+      {
+        title: "What readers should click after this page",
+        paragraphs: [
+          "A soup like this is a good next step after warming-and-cooling basics or a pantry herb page because it turns abstract language into a bowl readers can picture immediately.",
+          "It also pairs naturally with seasonal topic hubs and with beginner-friendly ingredient pages like fresh ginger and jujube.",
+        ],
+      },
+    ],
+  },
 ];

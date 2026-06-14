@@ -1466,6 +1466,54 @@ const rawHerbs: Herb[] = [
       "This page should keep a strong educational tone and should not invite readers to self-assign pattern labels from search terms alone.",
     tags: ["chai hu", "bupleurum root", "liver qi language", "formula herb", "strong SEO"],
   },
+  {
+    slug: "ginkgo-leaf",
+    name: "Ginkgo Leaf",
+    pinyin: "Yin Xing Ye",
+    chinese: "Yin Xing Ye",
+    latin: "Ginkgo Folium",
+    partUsed: "Leaf",
+    category: "Exterior-related herbs",
+    summary: "A widely recognized leaf herb that benefits from plain-English context and caution-first traditional framing.",
+    whatItIs:
+      "Ginkgo leaf is already familiar to many English-language readers, but its search traffic often mixes supplement marketing, traditional herb terms, and general curiosity. This page keeps the focus on naming clarity, traditional context, and safer educational language.",
+    nature: "Neutral",
+    flavor: "Sweet, bitter, astringent",
+    channels: "Lung",
+    traditionalUses: [
+      "Traditionally discussed in relation to lung-related language and more specialized classical contexts.",
+      "Often better understood as a library-and-terminology herb than as a beginner kitchen staple.",
+      "Useful for readers who want to separate traditional herb identity from modern product marketing.",
+    ],
+    foodUses: ["Advanced tea context", "Educational herb context"],
+    caution:
+      "Because ginkgo is widely marketed online, this page should stay especially careful about not turning traditional context into personal advice or broad product encouragement.",
+    tags: ["ginkgo leaf", "yin xing ye", "ginkgo herb", "traditional herb guide", "high search volume"],
+  },
+  {
+    slug: "turmeric-root",
+    name: "Turmeric Root",
+    pinyin: "Jiang Huang",
+    chinese: "Jiang Huang",
+    latin: "Curcumae Longae Rhizoma",
+    partUsed: "Rhizome",
+    category: "Movement herbs",
+    summary: "A globally familiar yellow root that needs clearer traditional context, naming, and safety boundaries.",
+    whatItIs:
+      "Turmeric root is one of the most searched yellow roots in English, but many readers do not realize that traditional Chinese herb writing treats jiang huang as a specific herb identity with its own role and context. This page helps bridge that gap without hype.",
+    nature: "Warm",
+    flavor: "Pungent, bitter",
+    channels: "Spleen, Liver",
+    traditionalUses: [
+      "Traditionally discussed in relation to movement language, especially in more advanced classical contexts.",
+      "Often better understood through naming, category, and food-versus-herb distinction than through oversimplified wellness claims.",
+      "Useful for readers who want to connect a familiar kitchen spice with a more precise traditional herb identity.",
+    ],
+    foodUses: ["Broth context", "Root tea context", "Educational kitchen context"],
+    caution:
+      "Turmeric is common in food, but concentrated products and traditional herb use are not the same thing. The page should stay educational and avoid blanket recommendations.",
+    tags: ["turmeric root", "jiang huang", "what is turmeric root", "yellow root herb", "high search volume"],
+  },
 ];
 
 export const herbs = rawHerbs.map((herb) => sanitizeHerbContent(herb));

@@ -45,6 +45,14 @@ const articleSeoMap: Record<
     heroNote:
       "Readers often arrive here after searching directly for chen pi tea, so the page explains the ingredient through one very simple pantry-style cup.",
   },
+  "lotus-root-soup-basics": {
+    title: "Lotus Root Soup Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A simple lotus root soup recipe with ginger, clear steps, pantry context, and related herb links in plain English.",
+    extraKeywords: ["lotus root soup", "lotus root soup recipe", "lotus soup", "Chinese lotus root soup"],
+    heroNote:
+      "Readers who search lotus root soup usually want a clear home-style recipe, so this page keeps the ingredient list short and the soup method practical.",
+  },
 };
 const articleSeo = articleSeoMap[article.slug];
 const recipeSchemaImageMap: Record<string, { src: string; alt: string }> = {
@@ -176,6 +184,10 @@ const recipeSchemaImageMap: Record<string, { src: string; alt: string }> = {
     src: "/images/recipes/herbal-tea-glass.jpg",
     alt: "A mild tea glass styled for a cassia seed and corn silk kitchen page.",
   },
+  "lotus-root-soup-basics": {
+    src: "/images/recipes/soup-bowl.jpg",
+    alt: "A simple soup bowl styled for a lotus root home-cooking page.",
+  },
 };
 const recipeCuisineMap: Record<string, string> = {
   "5-easy-traditional-kitchen-ingredients-for-beginners": "Chinese-inspired kitchen",
@@ -210,6 +222,7 @@ const recipeCuisineMap: Record<string, string> = {
   "rose-bud-and-mulberry-leaf-tea-basics": "Chinese-inspired tea",
   "lotus-leaf-and-burdock-root-tea-basics": "Chinese-inspired tea",
   "cassia-seed-and-corn-silk-tea-basics": "Chinese-inspired tea",
+  "lotus-root-soup-basics": "Chinese-inspired soup",
 };
 const recipePageVisualMap: Record<string, { src: string; alt: string }> = {
   "5-easy-traditional-kitchen-ingredients-for-beginners": {
@@ -339,6 +352,10 @@ const recipePageVisualMap: Record<string, { src: string; alt: string }> = {
   "cassia-seed-and-corn-silk-tea-basics": {
     src: "/images/recipes/tea-cassia-cornsilk.svg",
     alt: "A light tea illustration with cassia seeds and corn silk.",
+  },
+  "lotus-root-soup-basics": {
+    src: "/images/recipes/soup-warming.svg",
+    alt: "A soup illustration representing a simple lotus root home-style bowl.",
   },
 };
 const recipeImage = recipeSchemaImageMap[article.slug] ?? {
@@ -488,6 +505,11 @@ const herbLinkMap: Record<string, Array<{ name: string; href: string }>> = {
     { name: "Cassia Seed", href: "/herbs/cassia-seed/" },
     { name: "Corn Silk", href: "/herbs/corn-silk/" },
     { name: "Lotus Leaf", href: "/herbs/lotus-leaf/" },
+  ],
+  "lotus-root-soup-basics": [
+    { name: "Fresh Ginger", href: "/herbs/fresh-ginger/" },
+    { name: "Jujube", href: "/herbs/jujube-red-date/" },
+    { name: "Goji Berry", href: "/herbs/goji-berry/" },
   ],
 };
 const relatedHerbs = herbLinkMap[article.slug] ?? [
@@ -655,6 +677,11 @@ const recipeLinkMap: Record<string, Array<{ title: string; href: string }>> = {
     { title: "Lotus Leaf and Burdock Root Tea Basics", href: "/kitchen/lotus-leaf-and-burdock-root-tea-basics/" },
     { title: "Chrysanthemum and Mint Cooling Tea Basics", href: "/kitchen/chrysanthemum-and-mint-cooling-tea-basics/" },
     { title: "Pear and Chrysanthemum Tea for Warm Afternoons", href: "/kitchen/pear-and-chrysanthemum-tea-for-warm-afternoons/" },
+  ],
+  "lotus-root-soup-basics": [
+    { title: "A Simple Warming Soup Guide for Cold Weather", href: "/kitchen/a-simple-warming-soup-guide-for-cold-weather/" },
+    { title: "Chinese Yam and Carrot Soup Basics", href: "/kitchen/chinese-yam-and-carrot-soup-basics/" },
+    { title: "Pear and Lily Bulb Soup for Dry Days", href: "/kitchen/pear-and-lily-bulb-soup-for-dry-days/" },
   ],
 };
 const relatedRecipes = recipeLinkMap[article.slug] ?? [];
