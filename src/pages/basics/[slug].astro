@@ -153,6 +153,12 @@ const basicsFaqSchema = {
           <li><a href="/herbs/fresh-ginger/">Fresh Ginger</a> for warming kitchen language</li>
           <li><a href="/herbs/chrysanthemum-flower/">Chrysanthemum</a> for cooling language</li>
           <li><a href="/herbs/poria/">Poria</a> for dampness-related reading</li>
+          {article.slug === "warming-vs-cooling-foods" && (
+            <>
+              <li><a href="/kitchen/jujube-and-ginger-tea-for-busy-weeks/">Jujube and Ginger Tea</a> for a warming tea example</li>
+              <li><a href="/kitchen/pear-and-chrysanthemum-tea-for-warm-afternoons/">Pear and Chrysanthemum Tea</a> for a cooling tea example</li>
+            </>
+          )}
         </ul>
       </article>
       <article class="prose-block card">

@@ -133,6 +133,11 @@ const rawBasicsArticles: ContentArticle[] = [
           "HerbGuide explains these terms as part of traditional language and food culture.",
           "We do not turn warming and cooling labels into absolute rules or one-size-fits-all instructions.",
         ],
+        bullets: [
+          "Fresh ginger is one of the clearest warming ingredient examples.",
+          "Chrysanthemum tea is one of the clearest cooling ingredient examples.",
+          "Pear soup, pear tea, and seasonal soup pages often help readers see the contrast more concretely.",
+        ],
       },
     ],
   },
@@ -1431,6 +1436,13 @@ export const foodTherapyArticles: ContentArticle[] = [
           "A visible caution note for readers who need extra care",
         ],
       },
+      {
+        title: "How this page matches common jujube tea searches",
+        paragraphs: [
+          "Readers who type jujube tea recipe, red date tea, or simple ginger tea usually want one short ingredient list and one easy method, not a dense theory page.",
+          "That is why this page keeps the wording close to a home-style jujube tea recipe while still linking back to the herb names and pantry context that make the cup easier to understand.",
+        ],
+      },
     ],
   },
   {
@@ -1652,6 +1664,13 @@ export const foodTherapyArticles: ContentArticle[] = [
           "It also creates useful bridges between goji, jujube, black sesame, and beginner pantry reading.",
         ],
       },
+      {
+        title: "Why this page fits goji berry porridge searches",
+        paragraphs: [
+          "Readers searching goji berry porridge usually want a mild breakfast bowl with easy grain steps and a clear place to add the berries.",
+          "This page stays close to that query intent by keeping the bowl simple, the wording natural, and the links pointed toward goji berry and pantry-friendly breakfast reading.",
+        ],
+      },
     ],
   },
   {
@@ -1751,6 +1770,13 @@ export const foodTherapyArticles: ContentArticle[] = [
         paragraphs: [
           "A simple chen pi tea article connects naturally with digestive topics, aromatic herb reading, and comparison-style pantry content.",
           "It also gives readers a specific everyday example instead of only a broad concept page.",
+        ],
+      },
+      {
+        title: "Why this page works for chen pi tea recipe searches",
+        paragraphs: [
+          "Readers who search chen pi tea recipe or how to make chen pi tea usually want a very direct explanation of aged citrus peel, water, and a short simmer.",
+          "This page follows that search intent closely while keeping the copy pantry-first and avoiding overpromising language.",
         ],
       },
     ],
@@ -2055,6 +2081,13 @@ export const foodTherapyArticles: ContentArticle[] = [
         paragraphs: [
           "A congee page like this helps readers understand that traditional kitchen learning is often repetitive, simple, and food-first.",
           "It also strengthens links between jujube, lotus seed, longan, and plain-English pages about shen or nourishment language.",
+        ],
+      },
+      {
+        title: "Why this page fits jujube congee searches",
+        paragraphs: [
+          "Readers who search jujube congee are usually looking for a calm bowl with a short ingredient list and a recognizable grain base.",
+          "This page keeps that intent intact by using direct congee wording, a simple sequence, and easy next clicks to related pantry ingredients.",
         ],
       },
     ],
