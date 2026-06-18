@@ -21,6 +21,20 @@ const basicsSeoMap: Record<
     heroNote?: string;
   }
 > = {
+  "chen-pi-tea-recipe-faq": {
+    title: "Chen Pi Tea Recipe FAQ | HerbGuide",
+    description:
+      "A plain-English FAQ answering how to make chen pi tea, what ingredients are used, and how long a simple chen pi tea recipe should simmer.",
+    extraKeywords: [
+      "chen pi tea recipe faq",
+      "how to make chen pi tea",
+      "chen pi tea recipe",
+      "what is in chen pi tea",
+      "how long to simmer chen pi tea",
+    ],
+    heroNote:
+      "This page is built around the question-style search intent readers use when they want a direct, low-hype chen pi tea answer.",
+  },
   "warming-vs-cooling-foods": {
     title: "Warming vs Cooling Foods Meaning in Plain English | HerbGuide",
     description:
@@ -43,24 +57,60 @@ const articleKeywords = [
 const basicsFaqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  mainEntity: [
-    {
-      "@type": "Question",
-      name: `What does ${article.title.replace(/\?$/, "")} mean in plain English?`,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: `${article.title} is explained here in plain English as part of traditional herb and food writing, with clear boundaries and beginner-friendly context.`,
-      },
-    },
-    {
-      "@type": "Question",
-      name: `Is ${article.title.replace(/\?$/, "")} a personal label or direct self-check?`,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: `No. HerbGuide presents ${article.title} as traditional vocabulary for educational reading, not as a personal label, direct self-check, or one-to-one guidance.`,
-      },
-    },
-  ],
+  mainEntity:
+    article.slug === "chen-pi-tea-recipe-faq"
+      ? [
+          {
+            "@type": "Question",
+            name: "How do you make chen pi tea?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "A simple version uses 1 to 2 small pieces of chen pi, water, and a short gentle simmer of about 10 minutes before straining.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "What ingredients are used in a simple chen pi tea recipe?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Most simple versions use chen pi and water, with optional ginger or a small piece of hawthorn for variation.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "How long should chen pi tea simmer?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Around 10 minutes is usually enough for a light, aromatic cup.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Is chen pi tea usually made with ginger or on its own?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Both styles appear in kitchen writing, but a plain chen pi version is often the easiest starting point for beginners.",
+            },
+          },
+        ]
+      : [
+          {
+            "@type": "Question",
+            name: `What does ${article.title.replace(/\?$/, "")} mean in plain English?`,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: `${article.title} is explained here in plain English as part of traditional herb and food writing, with clear boundaries and beginner-friendly context.`,
+            },
+          },
+          {
+            "@type": "Question",
+            name: `Is ${article.title.replace(/\?$/, "")} a personal label or direct self-check?`,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: `No. HerbGuide presents ${article.title} as traditional vocabulary for educational reading, not as a personal label, direct self-check, or one-to-one guidance.`,
+            },
+          },
+        ],
 };
 ---
 
@@ -149,10 +199,21 @@ const basicsFaqSchema = {
           <a href="/herbs/"> Herb Library</a>.
         </p>
         <ul>
-          <li><a href="/herbs/astragalus-root/">Astragalus Root</a> for qi-related vocabulary</li>
-          <li><a href="/herbs/fresh-ginger/">Fresh Ginger</a> for warming kitchen language</li>
-          <li><a href="/herbs/chrysanthemum-flower/">Chrysanthemum</a> for cooling language</li>
-          <li><a href="/herbs/poria/">Poria</a> for dampness-related reading</li>
+          {article.slug === "chen-pi-tea-recipe-faq" ? (
+            <>
+              <li><a href="/herbs/chen-pi/">Chen Pi</a> for the ingredient profile behind the tea</li>
+              <li><a href="/herbs/fresh-ginger/">Fresh Ginger</a> for the most common optional add-in</li>
+              <li><a href="/kitchen/chen-pi-tea-for-heavy-meal-days/">Chen Pi Tea for Heavy Meal Days</a> for a recipe-style version</li>
+              <li><a href="/basics/chen-pi-vs-hawthorn-berry/">Chen Pi vs Hawthorn Berry</a> for a related digestive pantry comparison</li>
+            </>
+          ) : (
+            <>
+              <li><a href="/herbs/astragalus-root/">Astragalus Root</a> for qi-related vocabulary</li>
+              <li><a href="/herbs/fresh-ginger/">Fresh Ginger</a> for warming kitchen language</li>
+              <li><a href="/herbs/chrysanthemum-flower/">Chrysanthemum</a> for cooling language</li>
+              <li><a href="/herbs/poria/">Poria</a> for dampness-related reading</li>
+            </>
+          )}
           {article.slug === "warming-vs-cooling-foods" && (
             <>
               <li><a href="/kitchen/jujube-and-ginger-tea-for-busy-weeks/">Jujube and Ginger Tea</a> for a warming tea example</li>
@@ -172,16 +233,43 @@ const basicsFaqSchema = {
       <article class="prose-block card">
         <p class="eyebrow">Basics FAQ</p>
         <h2>Common questions about this term</h2>
-        <h3>What does this term mean in plain English?</h3>
-        <p>
-          This page explains the term in plain English as part of traditional herb and food
-          writing, with beginner-friendly context and clearer wording.
-        </p>
-        <h3>Is this a personal label or direct self-check?</h3>
-        <p>
-          No. HerbGuide presents this term as traditional vocabulary for educational reading,
-          not as a personal label, direct self-check, or one-to-one guidance.
-        </p>
+        {article.slug === "chen-pi-tea-recipe-faq" ? (
+          <>
+            <h3>How do you make chen pi tea?</h3>
+            <p>
+              A simple version uses 1 to 2 small pieces of chen pi, water, and a short simmer
+              of about 10 minutes before straining into cups.
+            </p>
+            <h3>What ingredients are used in a simple chen pi tea recipe?</h3>
+            <p>
+              Most versions stay very simple: chen pi and water, with optional ginger or a
+              small piece of hawthorn for variation.
+            </p>
+            <h3>How long should chen pi tea simmer?</h3>
+            <p>
+              Around 10 minutes is usually enough for a light, aromatic cup that still tastes
+              clean and clear.
+            </p>
+            <h3>Is chen pi tea usually made with ginger or on its own?</h3>
+            <p>
+              Both versions are common, but the plain version is often the easiest starting
+              point when readers want to understand chen pi itself.
+            </p>
+          </>
+        ) : (
+          <>
+            <h3>What does this term mean in plain English?</h3>
+            <p>
+              This page explains the term in plain English as part of traditional herb and food
+              writing, with beginner-friendly context and clearer wording.
+            </p>
+            <h3>Is this a personal label or direct self-check?</h3>
+            <p>
+              No. HerbGuide presents this term as traditional vocabulary for educational reading,
+              not as a personal label, direct self-check, or one-to-one guidance.
+            </p>
+          </>
+        )}
       </article>
       {relatedTopics.length > 0 && (
         <article class="prose-block card">

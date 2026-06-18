@@ -31,7 +31,7 @@ const rawTopics: Topic[] = [
     intro:
       "Digestive content is one of the easiest places for beginners to enter traditional herb learning because it overlaps with soup, tea, pantry ingredients, and everyday meal language. This hub groups the gentlest starting pages together.",
     herbSlugs: ["fresh-ginger", "dried-ginger", "chen-pi", "hawthorn-berry", "poria", "jobs-tears", "adzuki-bean"],
-    basicsSlugs: ["what-is-dampness", "what-is-qi-stagnation", "fresh-ginger-vs-dried-ginger", "what-does-tonify-mean", "what-does-spleen-mean", "what-is-food-stagnation", "what-is-damp-heat", "chen-pi-vs-hawthorn-berry", "poria-vs-jobs-tears", "what-does-harmonizing-mean"],
+    basicsSlugs: ["what-is-dampness", "what-is-qi-stagnation", "fresh-ginger-vs-dried-ginger", "what-does-tonify-mean", "what-does-spleen-mean", "what-is-food-stagnation", "what-is-damp-heat", "chen-pi-vs-hawthorn-berry", "chen-pi-tea-recipe-faq", "poria-vs-jobs-tears", "what-does-harmonizing-mean"],
     foodSlugs: ["a-simple-warming-soup-guide-for-cold-weather", "chen-pi-tea-for-heavy-meal-days", "hawthorn-berry-tea-for-rich-meals", "jobs-tears-porridge-for-heavy-days", "adzuki-bean-and-jobs-tears-soup-basics"],
     sections: [
       {
@@ -74,6 +74,11 @@ const rawTopics: Topic[] = [
         title: "Chen Pi",
         href: "/herbs/chen-pi/",
         text: "A pantry herb that helps connect food, aroma, and qi movement language.",
+      },
+      {
+        title: "Chen Pi Tea Recipe FAQ",
+        href: "/basics/chen-pi-tea-recipe-faq/",
+        text: "A question-led page answering how to make chen pi tea, what goes into it, and how long to simmer it.",
       },
     ],
   },

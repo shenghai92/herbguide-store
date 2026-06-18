@@ -126,6 +126,11 @@ const rawBasicsCards = [
     text: "A plain-English comparison of two common digestive ingredients that often get mentioned near heavy meals.",
   },
   {
+    slug: "chen-pi-tea-recipe-faq",
+    title: "Chen Pi Tea Recipe FAQ",
+    text: "A question-led chen pi tea page built around how to make chen pi tea, core ingredients, and short simmer timing.",
+  },
+  {
     slug: "poria-vs-jobs-tears",
     title: "Poria vs Job's Tears",
     text: "A practical comparison for readers trying to understand dampness-related pantry ingredients in traditional content.",

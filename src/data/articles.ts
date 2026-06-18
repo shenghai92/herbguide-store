@@ -882,6 +882,57 @@ const rawBasicsArticles: ContentArticle[] = [
     ],
   },
   {
+    slug: "chen-pi-tea-recipe-faq",
+    title: "Chen Pi Tea Recipe FAQ",
+    description:
+      "A focused FAQ page that answers the most common chen pi tea recipe questions in plain English.",
+    eyebrow: "Basics",
+    intro:
+      "This FAQ page answers the most common chen pi tea questions readers ask in search results, including how to make it, what goes in a simple cup, and how long a gentle simmer usually takes. The focus is practical, kitchen-first, and careful about wording.",
+    sections: [
+      {
+        title: "How do you make chen pi tea?",
+        paragraphs: [
+          "The simplest version starts with a small piece of chen pi, water, and a short gentle simmer.",
+          "Rinse the peel briefly, add it to a small pot, bring the water to a light boil, then lower the heat and let it simmer for about 10 minutes before straining.",
+        ],
+        bullets: [
+          "Use 1 to 2 small pieces of chen pi",
+          "Keep the cup light and aromatic",
+          "Add ginger only if you want a warmer kitchen-style variation",
+        ],
+      },
+      {
+        title: "What ingredients are usually in a simple chen pi tea recipe?",
+        paragraphs: [
+          "Most beginner-friendly recipes stay very short: chen pi, water, and sometimes a thin slice of fresh ginger.",
+          "Some readers also add a small piece of hawthorn for a brighter, more tart cup, but the plain version is often the easiest place to start.",
+        ],
+      },
+      {
+        title: "How long should chen pi tea simmer?",
+        paragraphs: [
+          "A short simmer is usually enough. Around 10 minutes gives the tea a clear citrus-peel aroma without making it overly strong.",
+          "Longer simmering can flatten the flavor, so a lighter approach is usually better for a pantry-style page.",
+        ],
+      },
+      {
+        title: "Is chen pi tea usually made with ginger or on its own?",
+        paragraphs: [
+          "Both versions are common in kitchen-style writing. On its own, chen pi reads as a clean citrus-peel tea. With ginger, it shifts toward a warmer cup.",
+          "This page keeps the core version simple so readers can understand chen pi first, then compare it with other tea pages later.",
+        ],
+      },
+      {
+        title: "Where should readers go next?",
+        paragraphs: [
+          "If you want more context, read the Chen Pi herb profile and the Chen Pi Tea for Heavy Meal Days recipe page.",
+          "If you are comparing ingredients, Chen Pi vs Hawthorn Berry gives a clearer side-by-side view.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "poria-vs-jobs-tears",
     title: "Poria vs Job's Tears",
     description:
