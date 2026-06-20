@@ -82,7 +82,7 @@ const recipeSchemaImageMap: Record<string, { src: string; alt: string }> = {
   },
   "goji-berry-porridge-for-gentle-mornings": {
     src: "/images/recipes/oatmeal-bowl.jpg",
-    alt: "A soft porridge bowl for a gentle breakfast-style recipe.",
+    alt: "A soft goji berry porridge bowl for a gentle breakfast-style recipe.",
   },
   "lotus-seed-and-longan-sweet-soup-basics": {
     src: "/images/recipes/soup-bowl.jpg",
@@ -90,7 +90,7 @@ const recipeSchemaImageMap: Record<string, { src: string; alt: string }> = {
   },
   "chen-pi-tea-for-heavy-meal-days": {
     src: "/images/recipes/herbal-tea-glass.jpg",
-    alt: "A simple tea glass representing a citrus-peel pantry tea.",
+    alt: "A simple tea glass representing a chen pi citrus-peel pantry tea.",
   },
   "hawthorn-berry-tea-for-rich-meals": {
     src: "/images/recipes/herbal-tea-glass.jpg",
@@ -186,7 +186,7 @@ const recipeSchemaImageMap: Record<string, { src: string; alt: string }> = {
   },
   "lotus-root-soup-basics": {
     src: "/images/recipes/soup-bowl.jpg",
-    alt: "A simple soup bowl styled for a lotus root home-cooking page.",
+    alt: "A simple lotus root soup bowl styled for a home-cooking page.",
   },
 };
 const recipeCuisineMap: Record<string, string> = {
@@ -251,7 +251,7 @@ const recipePageVisualMap: Record<string, { src: string; alt: string }> = {
   },
   "goji-berry-porridge-for-gentle-mornings": {
     src: "/images/recipes/porridge-berry.svg",
-    alt: "A porridge bowl illustration with goji berries.",
+    alt: "A goji berry porridge bowl illustration for a gentle breakfast page.",
   },
   "lotus-seed-and-longan-sweet-soup-basics": {
     src: "/images/recipes/soup-sweet-gentle.svg",
@@ -259,7 +259,7 @@ const recipePageVisualMap: Record<string, { src: string; alt: string }> = {
   },
   "chen-pi-tea-for-heavy-meal-days": {
     src: "/images/recipes/tea-citrus-peel.svg",
-    alt: "A citrus peel tea illustration for a chen pi kitchen page.",
+    alt: "A chen pi tea illustration with aged citrus peel for a kitchen page.",
   },
   "hawthorn-berry-tea-for-rich-meals": {
     src: "/images/recipes/tea-citrus-peel.svg",
@@ -355,7 +355,7 @@ const recipePageVisualMap: Record<string, { src: string; alt: string }> = {
   },
   "lotus-root-soup-basics": {
     src: "/images/recipes/soup-warming.svg",
-    alt: "A soup illustration representing a simple lotus root home-style bowl.",
+    alt: "A lotus root soup illustration representing a simple home-style bowl.",
   },
 };
 const recipeImage = recipeSchemaImageMap[article.slug] ?? {
@@ -717,6 +717,7 @@ const recipeSchema = article.recipe
       image: [`https://herbguide.store${recipeImage.src}`],
       recipeYield: article.recipe.recipeYield,
       prepTime: article.recipe.prepTime,
+      cookTime: article.recipe.totalTime,
       totalTime: article.recipe.totalTime,
       recipeCuisine: recipeCuisineMap[article.slug] ?? "Chinese-inspired kitchen",
       nutrition: recipeNutrition,
@@ -737,6 +738,7 @@ const recipeSchema = article.recipe
         name: "Kitchen Traditions",
         url: "https://herbguide.store/kitchen/",
       },
+      keywords: articleKeywords.join(", "),
     }
   : null;
 const faqSchema = article.recipe

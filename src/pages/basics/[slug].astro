@@ -38,8 +38,8 @@ const basicsSeoMap: Record<
   "warming-vs-cooling-foods": {
     title: "Warming vs Cooling Foods Meaning in Plain English | HerbGuide",
     description:
-      "A plain-English guide to warming vs cooling foods with simple examples from tea, soup, seasonal meals, and herb pages.",
-    extraKeywords: ["warming vs cooling foods", "warming foods", "cooling foods", "warming and cooling foods meaning"],
+      "A plain-English guide to warming vs cooling foods with simple examples from tea, soup, pear recipes, ginger pages, and seasonal kitchen reading.",
+    extraKeywords: ["warming vs cooling foods", "warming foods", "cooling foods", "warming and cooling foods meaning", "warming foods vs cooling foods", "traditional food properties"],
     heroNote:
       "Readers often search this page because they want the meaning of warming foods and cooling foods in plain English before they open more specific herb or kitchen pages.",
   },
@@ -93,6 +93,41 @@ const basicsFaqSchema = {
             },
           },
         ]
+      : article.slug === "warming-vs-cooling-foods"
+        ? [
+            {
+              "@type": "Question",
+              name: "What do warming and cooling foods mean in plain English?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "They are traditional food labels that describe how an ingredient is categorized in historical herb and kitchen writing, not the serving temperature of the dish.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "Is a cooling food always served cold?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "No. A cooling tea can still be served hot, and a warming ingredient can appear in room-temperature dishes. The label is about traditional classification.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "What are simple warming food examples?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Fresh ginger and some warming soup pages are among the clearest beginner examples on HerbGuide.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "What are simple cooling food examples?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Chrysanthemum, mint, pear tea, and other lighter seasonal pages are among the clearest cooling examples on HerbGuide.",
+              },
+            },
+          ]
       : [
           {
             "@type": "Question",
@@ -218,6 +253,8 @@ const basicsFaqSchema = {
             <>
               <li><a href="/kitchen/jujube-and-ginger-tea-for-busy-weeks/">Jujube and Ginger Tea</a> for a warming tea example</li>
               <li><a href="/kitchen/pear-and-chrysanthemum-tea-for-warm-afternoons/">Pear and Chrysanthemum Tea</a> for a cooling tea example</li>
+              <li><a href="/herbs/mint/">Mint</a> for a clearer cooling herb comparison</li>
+              <li><a href="/herbs/cinnamon-twig/">Cinnamon Twig</a> for a stronger warming herb example</li>
             </>
           )}
         </ul>
@@ -254,6 +291,29 @@ const basicsFaqSchema = {
             <p>
               Both versions are common, but the plain version is often the easiest starting
               point when readers want to understand chen pi itself.
+            </p>
+          </>
+        ) : article.slug === "warming-vs-cooling-foods" ? (
+          <>
+            <h3>What do warming and cooling foods mean in plain English?</h3>
+            <p>
+              They are traditional food labels that describe how ingredients are categorized in
+              historical herb and kitchen writing, not the serving temperature of the dish.
+            </p>
+            <h3>Is a cooling food always served cold?</h3>
+            <p>
+              No. A cooling tea can still be served hot, and a warming ingredient can appear in
+              room-temperature dishes. The label is about traditional classification.
+            </p>
+            <h3>What are simple warming food examples?</h3>
+            <p>
+              Fresh ginger, warming soups, and ginger-based tea pages are some of the clearest
+              beginner examples on HerbGuide.
+            </p>
+            <h3>What are simple cooling food examples?</h3>
+            <p>
+              Chrysanthemum, mint, pear tea, and other lighter seasonal pages are some of the
+              clearest cooling examples on HerbGuide.
             </p>
           </>
         ) : (

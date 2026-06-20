@@ -128,6 +128,18 @@ const rawBasicsArticles: ContentArticle[] = [
         ],
       },
       {
+        title: "Simple examples readers can picture quickly",
+        paragraphs: [
+          "One reason this topic works so well in search is that readers can visualize it right away. Ginger tea, warming soups, mint tea, chrysanthemum tea, and pear-based recipes all give the idea a concrete shape.",
+          "That kind of food-first contrast is easier to trust than a page that only repeats abstract labels without showing where they appear in real kitchen writing.",
+        ],
+        bullets: [
+          "Ginger, cinnamon twig, and cool-weather soups are common warming examples.",
+          "Pear, chrysanthemum, and mint often appear in lighter seasonal reading.",
+          "The same ingredient can still be used differently depending on preparation and context.",
+        ],
+      },
+      {
         title: "How HerbGuide handles these labels",
         paragraphs: [
           "HerbGuide explains these terms as part of traditional language and food culture.",
@@ -137,6 +149,13 @@ const rawBasicsArticles: ContentArticle[] = [
           "Fresh ginger is one of the clearest warming ingredient examples.",
           "Chrysanthemum tea is one of the clearest cooling ingredient examples.",
           "Pear soup, pear tea, and seasonal soup pages often help readers see the contrast more concretely.",
+        ],
+      },
+      {
+        title: "A quick way to keep reading",
+        paragraphs: [
+          "Readers who want warming examples usually do best with fresh ginger, jujube and ginger tea, or simple soup pages. Readers who want cooling examples usually do best with chrysanthemum, mint, pear tea, or seasonal kitchen pages.",
+          "That is why this topic page works best as a bridge into practical herb profiles and recipe-style pages instead of trying to become a one-page rulebook.",
         ],
       },
     ],
@@ -1050,7 +1069,7 @@ const rawBasicsArticles: ContentArticle[] = [
       "A plain-English explanation of astringent as a traditional herb quality in traditional herb writing.",
     eyebrow: "Basics",
     intro:
-      "Astringent is one of the most confusing words on many herb pages because English-speaking readers usually know it only as a taste or a skin-care term. In traditional writing, it is a traditional quality that often points to holding, containing, or preventing excessive leakage in the classical sense.",
+      "Astringent is one of the most confusing words on many herb pages because English-speaking readers usually know it only as a taste or a skin-care term. In traditional writing, it is a traditional quality that often points to holding, containing, or restraint in the classical sense.",
     sections: [
       {
         title: "Why the word feels strange at first",
@@ -1076,6 +1095,13 @@ const rawBasicsArticles: ContentArticle[] = [
         paragraphs: [
           "Explaining astringent clearly helps schisandra, lotus seed, and related pages feel much easier to trust.",
           "It also supports a more educational tone across pantry tea and evening-style content.",
+        ],
+      },
+      {
+        title: "Where to keep reading after this page",
+        paragraphs: [
+          "Astringent language usually makes more sense when it is read beside specific ingredient pages like schisandra berry and lotus seed, where the word appears in fuller traditional context.",
+          "It also connects naturally with pages such as What Does Harmonizing Mean? and What Does Channel Entry Mean?, which help readers understand how traditional role words and classification language work together.",
         ],
       },
     ],
