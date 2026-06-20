@@ -1782,27 +1782,29 @@ export const foodTherapyArticles: ContentArticle[] = [
       "A simple chen pi tea recipe that helps readers understand aged citrus peel through one of its easiest pantry-style use cases.",
     eyebrow: "Kitchen Traditions",
     intro:
-      "For readers searching a chen pi tea recipe, this page keeps the idea grounded: dried citrus peel, water, an optional slice of ginger, and a short simmer. That makes chen pi easier to understand as a traditional pantry ingredient instead of a vague theory term.",
+      "For readers searching a chen pi tea recipe, this page keeps the idea grounded: aged citrus peel, water, an optional slice of ginger, and a short simmer. That makes chen pi easier to understand as a traditional pantry ingredient instead of a vague theory term.",
     recipe: {
       recipeYield: "2 cups",
       prepTime: "PT5M",
-      totalTime: "PT15M",
+      totalTime: "PT20M",
       ingredients: [
-        "1 to 2 small pieces chen pi",
-        "2 1/2 cups water",
-        "Optional: 1 thin slice fresh ginger",
+        "1 to 2 small pieces authentic chen pi",
+        "2 1/2 cups filtered water",
+        "Optional: 1 thin slice fresh peeled ginger",
         "Optional: a small piece of hawthorn for a more tart finish",
       ],
       steps: [
         "Rinse the chen pi briefly under cool water.",
-        "Add it to a small pot with the water and optional ginger.",
-        "Bring to a gentle boil, then lower the heat and simmer for about 10 minutes.",
+        "Add it to a small pot with the filtered water and optional ginger.",
+        "Bring the water to a gentle boil over medium heat.",
+        "Lower the heat, cover, and let the tea simmer gently for 10 to 15 minutes.",
         "Strain into cups before serving.",
-        "Keep the flavor light and aromatic rather than overly strong.",
+        "Keep the flavor light, aromatic, and clean rather than overly strong.",
       ],
       servingNotes: [
         "This is a pantry-style educational tea page, not a formula guide.",
-        "The simplest version is often the easiest for readers to remember and trust.",
+        "The simplest version is often the easiest for readers to remember and repeat.",
+        "The aroma is part of the appeal, so a lighter cup often reads better than an overly dark one.",
       ],
       caution: [
         "Heavy-meal language here belongs to traditional digestive context, not personal labeling or directed-use advice.",
@@ -1817,6 +1819,20 @@ export const foodTherapyArticles: ContentArticle[] = [
         ],
       },
       {
+        title: "What makes chen pi different from ordinary dried peel",
+        paragraphs: [
+          "Chen pi is not just any citrus peel left to dry. In kitchen tradition, it usually refers to tangerine or mandarin peel that has been dried and aged so the aroma becomes deeper, rounder, and less sharp.",
+          "That aging story is one reason the ingredient appears so often in tea, broth, and pantry reading. It gives readers a concrete way to understand how time changes a familiar ingredient.",
+        ],
+      },
+      {
+        title: "How to choose chen pi for tea",
+        paragraphs: [
+          "For a pantry-style tea, look for peel that smells deep and citrusy rather than loud or perfumed. The color is often darker than fresh peel, and the texture may feel pliable instead of brittle.",
+          "A small amount is usually enough. This page keeps the ingredient list short so the aged citrus aroma stays clear and easy to understand.",
+        ],
+      },
+      {
         title: "How this page fits broader reading",
         paragraphs: [
           "A simple chen pi tea article connects naturally with digestive topics, aromatic herb reading, and comparison-style pantry content.",
@@ -1828,6 +1844,13 @@ export const foodTherapyArticles: ContentArticle[] = [
         paragraphs: [
           "Readers who search chen pi tea recipe or how to make chen pi tea usually want a very direct explanation of aged citrus peel, water, and a short simmer.",
           "This page follows that search intent closely while keeping the copy pantry-first and avoiding overpromising language.",
+        ],
+      },
+      {
+        title: "How to enjoy the cup",
+        paragraphs: [
+          "Chen pi tea is usually best enjoyed warm and slowly. The aroma is part of what makes the cup memorable, so many readers like to pause and notice the scent before drinking.",
+          "The flavor should feel light, slightly earthy, and gently citrusy, with a clean finish. That makes it a calm kitchen drink rather than a strong or complicated brew.",
         ],
       },
     ],
