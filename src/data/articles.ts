@@ -2145,24 +2145,26 @@ export const foodTherapyArticles: ContentArticle[] = [
     recipe: {
       recipeYield: "2 bowls",
       prepTime: "PT10M",
-      totalTime: "PT45M",
+      totalTime: "PT1H",
       ingredients: [
-        "1/2 cup rice",
-        "4 cups water",
-        "3 dried jujubes, split",
+        "1/2 cup white rice",
+        "4 to 5 cups water",
+        "6 to 8 dried jujubes, split and pitted",
         "1/4 cup lotus seed",
+        "Optional: a small handful of goji berries",
         "Optional: a few longan pieces for a slightly sweeter finish",
       ],
       steps: [
-        "Rinse the rice, jujube, and lotus seed.",
-        "Add the rice, water, and lotus seed to a small pot and bring to a gentle boil.",
-        "Lower the heat and simmer until the porridge begins to soften.",
-        "Add the jujube during the second half of cooking and the optional longan near the end.",
-        "Serve warm with a mild texture and very little added sweetness.",
+        "Rinse the rice, jujube, and lotus seed under cool water.",
+        "Add the rice, water, lotus seed, and jujube to a medium pot and bring to a gentle boil.",
+        "Lower the heat, partially cover the pot, and simmer gently for 45 to 60 minutes, stirring now and then.",
+        "Add the optional goji berries during the last 5 minutes and the optional longan near the end.",
+        "Serve warm once the rice has softened into a creamy, calm porridge texture.",
       ],
       servingNotes: [
         "This is strongest as a gentle household-style bowl, not a rigid nightly rule.",
         "A softer, lighter bowl usually feels better than a very rich dessert version.",
+        "The simplest version is often the easiest for readers to repeat and trust.",
       ],
       caution: [
         "Quiet-evening language here is traditional and culinary in tone, not a claim about sleep or fixed outcomes.",
@@ -2184,10 +2186,24 @@ export const foodTherapyArticles: ContentArticle[] = [
         ],
       },
       {
+        title: "Why jujube works so naturally in congee",
+        paragraphs: [
+          "Dried jujubes bring a mild sweetness and a familiar household feel that fits porridge especially well. They help a plain grain base feel fuller without making the bowl complicated.",
+          "That is one reason jujube congee remains such a strong beginner search topic. The ingredients are easy to picture, the cooking pattern is simple, and the result feels approachable.",
+        ],
+      },
+      {
         title: "Why this page fits jujube congee searches",
         paragraphs: [
           "Readers who search jujube congee are usually looking for a calm bowl with a short ingredient list and a recognizable grain base.",
           "This page keeps that intent intact by using direct congee wording, a simple sequence, and easy next clicks to related pantry ingredients.",
+        ],
+      },
+      {
+        title: "How to keep the bowl balanced",
+        paragraphs: [
+          "A good congee stays soft, light, and only gently sweet. It should feel like a steady breakfast or pantry bowl rather than a dense dessert.",
+          "Optional add-ins like goji berries or longan can broaden the flavor, but the rice and jujube base should remain easy to recognize.",
         ],
       },
     ],
