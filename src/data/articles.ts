@@ -152,6 +152,13 @@ const rawBasicsArticles: ContentArticle[] = [
         ],
       },
       {
+        title: "How the labels usually read in a kitchen setting",
+        paragraphs: [
+          "Warming pages often lean toward slow simmering, soups, porridges, ginger, jujube, and stronger spice notes. Cooling pages often lean toward lighter teas, floral ingredients, pears, mint, and gentler warm-weather reading.",
+          "That does not make one side better. It simply means traditional kitchen writing uses these labels to organize tone, season, and ingredient feel in a way readers can picture more easily.",
+        ],
+      },
+      {
         title: "A quick way to keep reading",
         paragraphs: [
           "Readers who want warming examples usually do best with fresh ginger, jujube and ginger tea, or simple soup pages. Readers who want cooling examples usually do best with chrysanthemum, mint, pear tea, or seasonal kitchen pages.",
@@ -1098,6 +1105,20 @@ const rawBasicsArticles: ContentArticle[] = [
         ],
       },
       {
+        title: "What astringent can feel like in everyday foods",
+        paragraphs: [
+          "In plain sensory terms, astringency is the dry, puckering feeling many readers already know from strong black tea or less-ripe fruit. That mouthfeel can make the word much easier to understand than a technical definition alone.",
+          "Using that sensory example keeps the page grounded. Readers do not need to memorize a theory term first if they can connect it to a familiar food experience.",
+        ],
+      },
+      {
+        title: "How to read astringent pairings more clearly",
+        paragraphs: [
+          "Astringent ingredients are often easier to understand when they are paired with softer, sweeter, or more moistening ingredients in tea, soup, or porridge-style pages.",
+          "That is one reason lotus seed, schisandra, pear, tremella, jujube, and hawthorn can all help the page feel more practical instead of abstract.",
+        ],
+      },
+      {
         title: "Where to keep reading after this page",
         paragraphs: [
           "Astringent language usually makes more sense when it is read beside specific ingredient pages like schisandra berry and lotus seed, where the word appears in fuller traditional context.",
@@ -1703,24 +1724,25 @@ export const foodTherapyArticles: ContentArticle[] = [
     recipe: {
       recipeYield: "2 bowls",
       prepTime: "PT5M",
-      totalTime: "PT30M",
+      totalTime: "PT45M",
       ingredients: [
-        "1/2 cup rice or a mild porridge grain",
-        "4 cups water",
+        "1/2 cup short-grain or jasmine rice",
+        "4 to 5 cups water",
         "2 tablespoons goji berries",
         "Optional: 1 split jujube for a softer sweetness",
-        "Optional: a small spoon of black sesame on top",
+        "Optional: a small pinch of sea salt or a few drops of sesame oil for serving",
       ],
       steps: [
-        "Rinse the grain and place it in a pot with the water.",
-        "Bring to a gentle boil, then lower the heat and cook until the porridge texture softens.",
-        "Add the goji berries during the last 8 to 10 minutes of cooking.",
-        "Add the optional jujube if you want a rounder flavor.",
-        "Serve warm and finish with a light spoon of black sesame if desired.",
+        "Rinse the rice well and place it in a pot with the water.",
+        "Bring to a gentle boil, then lower the heat and partially cover the pot.",
+        "Cook slowly for about 40 to 45 minutes, stirring now and then until the porridge texture softens.",
+        "Rinse the goji berries briefly, then add them during the last 10 minutes of cooking.",
+        "Serve warm and use only a very light finishing touch if you want a savory variation.",
       ],
       servingNotes: [
         "Keep the flavor mild and breakfast-friendly rather than heavily sweetened.",
         "This works best as a soft pantry recipe, not as a promise about outcomes.",
+        "The berries should soften and brighten the bowl without taking over the grain base.",
       ],
       caution: [
         "Goji berry is food-friendly for many readers, but regular use still deserves context when regular product use or special personal situations are involved.",
@@ -1742,10 +1764,24 @@ export const foodTherapyArticles: ContentArticle[] = [
         ],
       },
       {
+        title: "Why goji works especially well in porridge",
+        paragraphs: [
+          "Goji berries are small, mild, and easy to recognize, which makes them one of the least intimidating ingredients for beginners. When added near the end of cooking, they soften into the porridge without disappearing completely.",
+          "That visual lift is part of the appeal. The bowl feels brighter and more complete while still staying simple, gentle, and pantry-first.",
+        ],
+      },
+      {
         title: "Why this page fits goji berry porridge searches",
         paragraphs: [
           "Readers searching goji berry porridge usually want a mild breakfast bowl with easy grain steps and a clear place to add the berries.",
           "This page stays close to that query intent by keeping the bowl simple, the wording natural, and the links pointed toward goji berry and pantry-friendly breakfast reading.",
+        ],
+      },
+      {
+        title: "How to keep the bowl balanced",
+        paragraphs: [
+          "The strongest version stays mild rather than rich. A soft rice base, a small spoonful of berries, and very light finishing touches usually create the easiest bowl to repeat.",
+          "That balance helps the porridge feel like a real morning routine instead of a crowded ingredient list built only for search terms.",
         ],
       },
     ],
