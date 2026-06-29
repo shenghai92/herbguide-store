@@ -1714,6 +1714,62 @@ export const foodTherapyArticles: ContentArticle[] = [
     ],
   },
   {
+    slug: "chrysanthemum-tea-basics",
+    title: "Chrysanthemum Tea Basics",
+    description:
+      "A simple chrysanthemum tea recipe with clear steeping steps, floral flavor notes, and plain-English traditional kitchen context.",
+    eyebrow: "Kitchen Traditions",
+    intro:
+      "Chrysanthemum tea is one of the clearest entry points into cooling kitchen language because the ingredient is easy to recognize, the cup is visually gentle, and the method stays simple. A single-ingredient tea page gives readers a direct answer before they branch into pear, mint, or goji pairings.",
+    recipe: {
+      recipeYield: "2 mugs",
+      prepTime: "PT5M",
+      totalTime: "PT10M",
+      ingredients: [
+        "5 to 8 dried whole chrysanthemum flowers",
+        "2 1/2 cups hot water",
+        "Optional: a small piece of rock sugar or a light drizzle of honey",
+      ],
+      steps: [
+        "Rinse the dried flowers briefly under cool water.",
+        "Place the chrysanthemum in a mug or heat-safe teapot.",
+        "Pour in hot water just off the boil and cover lightly.",
+        "Steep for 3 to 5 minutes until the flowers open and the tea turns pale yellow.",
+        "Drink plain or add only a small amount of sweetener if you want a softer floral finish.",
+      ],
+      servingNotes: [
+        "The flavor should stay light, floral, and easy to repeat rather than heavily sweetened.",
+        "The flowers can usually be steeped again for a second lighter cup.",
+      ],
+      caution: [
+        "Cooling language here belongs to traditional kitchen context, not individualized advice or self-diagnosis.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why this is a strong exact-match tea page",
+        paragraphs: [
+          "Many readers search chrysanthemum tea by name and want a direct answer, not a blend first. A single-ingredient page meets that intent cleanly and gives the site a more precise landing page for one of the best-known floral teas in the category.",
+          "It also prevents the topic from being spread too thinly across mint, pear, and goji pairings before the reader has seen the most basic version.",
+        ],
+      },
+      {
+        title: "What readers can notice in the cup",
+        paragraphs: [
+          "A good cup of chrysanthemum tea feels soft and lightly floral rather than perfumed. The flowers opening in hot water also gives the page a calming visual detail that readers often remember more easily than abstract traditional labels.",
+          "That sensory detail helps the page feel grounded in real kitchen use instead of sounding like a theory note with no food context.",
+        ],
+      },
+      {
+        title: "How this page supports related tea reading",
+        paragraphs: [
+          "Once a reader understands plain chrysanthemum tea, pairings like mint, pear, and goji become much easier to follow. That makes this page a clean hub for deeper cooling-tea reading without using exaggerated promises.",
+          "It also strengthens the internal route between the chrysanthemum herb profile, warming-versus-cooling basics, and the broader seasonal kitchen cluster.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "goji-berry-porridge-for-gentle-mornings",
     title: "Goji Berry Porridge for Gentle Mornings",
     description:
@@ -1928,23 +1984,25 @@ export const foodTherapyArticles: ContentArticle[] = [
     recipe: {
       recipeYield: "2 cups",
       prepTime: "PT5M",
-      totalTime: "PT18M",
+      totalTime: "PT15M",
       ingredients: [
-        "1 tablespoon dried hawthorn berry pieces",
+        "5 to 8 dried hawthorn berry slices or pieces",
         "2 1/2 cups water",
         "Optional: 1 small piece chen pi",
         "Optional: 1 thin slice fresh ginger for a warmer finish",
+        "Optional: a small piece of rock sugar or a little honey if you want a softer tartness",
       ],
       steps: [
         "Rinse the hawthorn briefly under cool water.",
         "Add the water, hawthorn, and optional chen pi or ginger to a small pot.",
-        "Bring to a gentle boil, then lower the heat and simmer for 10 to 12 minutes.",
-        "Strain into cups and keep the flavor light rather than very concentrated.",
-        "Serve warm after a heavier meal or as a simple pantry tea on its own.",
+        "Bring to a gentle boil, then lower the heat and simmer for about 8 to 10 minutes.",
+        "Strain into cups and add only a small amount of sweetener if the tartness feels too sharp.",
+        "Serve warm after a richer meal or as a simple pantry tea on its own.",
       ],
       servingNotes: [
         "A lighter tea is usually the easiest version for beginners to understand and repeat.",
         "Chen pi adds aroma while ginger changes the profile toward a slightly warmer cup.",
+        "This cup is usually easiest to enjoy after food rather than on an empty stomach.",
       ],
       caution: [
         "Rich-meal language here belongs to traditional food context, not personal labeling or directed-use advice.",
@@ -1964,6 +2022,20 @@ export const foodTherapyArticles: ContentArticle[] = [
         paragraphs: [
           "A page like this shows how traditional kitchen writing often uses gentle, food-adjacent preparations to explain traditional ingredient roles.",
           "It also creates a natural bridge into digestive topic pages, chen pi reading, and dampness or qi movement vocabulary for readers who want more context.",
+        ],
+      },
+      {
+        title: "How hawthorn reads in kitchen tradition",
+        paragraphs: [
+          "Hawthorn stands out because the tart fruit quality is easy to understand right away. Readers can picture how a bright, sour cup fits after heavier food without needing dense traditional theory first.",
+          "That is one reason hawthorn works especially well as an educational pantry page. The taste itself explains part of the traditional logic in a way beginners can remember.",
+        ],
+      },
+      {
+        title: "Simple pairing ideas from the pantry",
+        paragraphs: [
+          "A little chen pi adds aromatic depth, while a thin slice of ginger shifts the cup toward a warmer finish. Some readers also enjoy a very small amount of sweetener to soften the sour edge without turning the tea into a sugary drink.",
+          "Those pairings keep the page practical and flexible while staying close to the original tart-fruit idea that makes hawthorn so recognizable.",
         ],
       },
     ],

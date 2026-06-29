@@ -224,6 +224,11 @@ const rawRecipeCards = [
     text: "A simple tea guide that explains cooling language through two familiar ingredients.",
   },
   {
+    slug: "chrysanthemum-tea-basics",
+    title: "Chrysanthemum Tea Basics",
+    text: "A simple floral tea page that gives readers a direct chrysanthemum tea entry point with clear steeping steps.",
+  },
+  {
     slug: "goji-berry-porridge-for-gentle-mornings",
     title: "Goji Berry Porridge for Gentle Mornings",
     text: "A soft breakfast-style page built around one of the easiest pantry herbs for beginners.",
