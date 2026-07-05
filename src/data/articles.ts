@@ -1613,21 +1613,24 @@ export const foodTherapyArticles: ContentArticle[] = [
       totalTime: "PT15M",
       ingredients: [
         "1 1/2 cups cooked oatmeal or warm rice porridge",
-        "1 tablespoon black sesame seeds, lightly ground",
+        "1 tablespoon roasted black sesame seeds, lightly ground",
         "1 teaspoon black sesame paste or tahini, optional",
         "1 to 2 chopped jujubes or a few goji berries",
+        "Optional: a few chopped walnuts for a more grounded bowl",
         "A small splash of warm milk or oat milk if needed",
       ],
       steps: [
         "Prepare the oatmeal or rice porridge so it is warm and soft.",
+        "Toast the sesame lightly first if it is not already roasted so the nutty aroma opens more clearly.",
         "Stir in the ground black sesame while the bowl is still hot.",
         "Add the optional black sesame paste and a small splash of warm milk if you want a smoother texture.",
-        "Top with the chopped jujube or goji berries.",
+        "Top with the chopped jujube or goji berries, plus a few walnuts if you want more texture.",
         "Serve warm as a simple breakfast bowl with very little added sweetness.",
       ],
       servingNotes: [
         "A soft grain base makes black sesame easier for beginners to picture in a real breakfast routine.",
         "This works best as a practical pantry bowl, not a dessert-heavy recipe.",
+        "A light roast usually gives the bowl a deeper aroma than raw seeds alone.",
       ],
       caution: [
         "Black sesame breakfast language here belongs to traditional food context and everyday kitchen use, not a direct claim.",
@@ -1652,6 +1655,20 @@ export const foodTherapyArticles: ContentArticle[] = [
           "Warm grain bowl topping",
           "Simple sesame paste",
           "Dessert-style breakfast bowl",
+        ],
+      },
+      {
+        title: "Why roasting matters so much",
+        paragraphs: [
+          "Black sesame usually becomes much more inviting after a gentle roast. The seeds smell deeper, nuttier, and more rounded, which is one reason many family-style kitchen routines toast them before grinding.",
+          "That simple step also helps the ingredient feel less abstract to beginners. A warm breakfast bowl with roasted sesame is easier to picture than a generic nutrition-style description.",
+        ],
+      },
+      {
+        title: "How this page connects with pantry tradition",
+        paragraphs: [
+          "Black sesame does not belong only in one kind of recipe. It can move from warm porridge bowls to thicker sesame paste, simple toast spreads, and dessert-style cups without losing its pantry identity.",
+          "That flexibility is useful for SEO because readers search black sesame through breakfast, paste, dessert, and kitchen-tradition wording rather than through one single format.",
         ],
       },
     ],
@@ -2330,21 +2347,24 @@ export const foodTherapyArticles: ContentArticle[] = [
       totalTime: "PT40M",
       ingredients: [
         "1 small handful dried tremella mushroom",
-        "1 ripe pear, peeled and cut into chunks",
+        "1 large Asian pear or snow pear, peeled and cut into chunks",
         "3 1/2 cups water",
         "1 to 2 jujubes, optional",
+        "A small handful of goji berries, optional",
         "A very small piece of rock sugar or skip it entirely",
       ],
       steps: [
         "Rinse the tremella and soak it briefly until it softens enough to trim and tear into small pieces.",
         "Add the tremella and water to a small pot and simmer gently for about 20 minutes.",
         "Add the pear and optional jujubes, then continue simmering until the pear softens.",
-        "Add only a light touch of sweetness if needed.",
+        "Add the optional goji berries during the last 8 to 10 minutes of cooking.",
+        "Add only a light touch of rock sugar if needed.",
         "Serve warm as a soft dessert soup or gentle seasonal bowl.",
       ],
       servingNotes: [
         "The page works best when the flavor stays light and the texture stays soft.",
         "This recipe is strongest as a calm kitchen idea, not a fixed daily routine.",
+        "A longer simmer helps tremella release a softer, more silky texture.",
       ],
       caution: [
         "Dryness and softness language here belongs to traditional food context, not personal labeling or directed-use advice.",
@@ -2363,6 +2383,20 @@ export const foodTherapyArticles: ContentArticle[] = [
         paragraphs: [
           "A tremella and pear page helps readers understand how traditional kitchen writing often explains softness and moisture through food texture rather than abstract theory alone.",
           "It also helps connect tremella, pear, lily bulb, and plain-English dryness explanations.",
+        ],
+      },
+      {
+        title: "Why snow pear soup is such a familiar seasonal search",
+        paragraphs: [
+          "Many English-language readers search snow pear soup when the weather turns drier and cooler because the pear itself already feels familiar. Using snow pear phrasing on the page helps match that intent without needing to create a duplicate URL for the same bowl idea.",
+          "Tremella, jujube, goji, and a very small amount of rock sugar all fit naturally into that same seasonal kitchen pattern, so the page can answer snow pear soup searches while staying consistent with the rest of the site.",
+        ],
+      },
+      {
+        title: "How the ingredient balance keeps the bowl gentle",
+        paragraphs: [
+          "Pear gives the soup its clear fruit base, tremella adds the soft body, and optional jujube or goji round out the pot without making it complicated. The sweetness should stay light enough that the bowl still reads as a seasonal kitchen soup rather than a heavy dessert.",
+          "That balance also keeps the copy safer and more natural. Readers usually trust a calm recipe more than a page that tries to turn a simple pear soup into an outsized promise.",
         ],
       },
     ],
