@@ -51,6 +51,11 @@ const rawBasicsCards = [
     text: "Why traditional herb pages describe two forms of ginger as related but not identical.",
   },
   {
+    slug: "what-are-the-five-flavors",
+    title: "What Are the Five Flavors?",
+    text: "A plain-English guide to the five flavors in traditional Chinese food writing with practical kitchen examples.",
+  },
+  {
     slug: "ginseng-vs-american-ginseng",
     title: "Ginseng vs American Ginseng",
     text: "A clear comparison that shows why traditional herb writing does not flatten all ginseng into one idea.",

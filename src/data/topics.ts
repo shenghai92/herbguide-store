@@ -31,7 +31,7 @@ const rawTopics: Topic[] = [
     intro:
       "Digestive content is one of the easiest places for beginners to enter traditional herb learning because it overlaps with soup, tea, pantry ingredients, and everyday meal language. This hub groups the gentlest starting pages together.",
     herbSlugs: ["fresh-ginger", "dried-ginger", "chen-pi", "hawthorn-berry", "poria", "jobs-tears", "adzuki-bean"],
-    basicsSlugs: ["what-is-dampness", "what-is-qi-stagnation", "fresh-ginger-vs-dried-ginger", "what-does-tonify-mean", "what-does-spleen-mean", "what-is-food-stagnation", "what-is-damp-heat", "chen-pi-vs-hawthorn-berry", "chen-pi-tea-recipe-faq", "poria-vs-jobs-tears", "what-does-harmonizing-mean"],
+    basicsSlugs: ["what-is-dampness", "what-is-qi-stagnation", "fresh-ginger-vs-dried-ginger", "what-does-tonify-mean", "what-does-spleen-mean", "what-is-food-stagnation", "what-is-damp-heat", "chen-pi-vs-hawthorn-berry", "chen-pi-tea-recipe-faq", "poria-vs-jobs-tears", "what-does-harmonizing-mean", "what-are-the-five-flavors"],
     foodSlugs: ["a-simple-warming-soup-guide-for-cold-weather", "chen-pi-tea-for-heavy-meal-days", "hawthorn-berry-tea-for-rich-meals", "jobs-tears-porridge-for-heavy-days", "adzuki-bean-and-jobs-tears-soup-basics"],
     sections: [
       {
@@ -199,7 +199,7 @@ const rawTopics: Topic[] = [
     intro:
       "Warming foods are one of the strongest beginner topics because the idea feels intuitive and useful. This hub gathers together the pages that explain warming language through herbs, tea, and soup rather than abstract theory alone.",
     herbSlugs: ["fresh-ginger", "dried-ginger", "astragalus-root", "cinnamon-twig", "perilla-leaf", "licorice-root", "turmeric-root"],
-    basicsSlugs: ["warming-vs-cooling-foods", "fresh-ginger-vs-dried-ginger", "what-does-tonify-mean", "what-does-spleen-mean", "what-does-harmonizing-mean"],
+    basicsSlugs: ["warming-vs-cooling-foods", "fresh-ginger-vs-dried-ginger", "what-does-tonify-mean", "what-does-spleen-mean", "what-does-harmonizing-mean", "what-are-the-five-flavors"],
     foodSlugs: ["a-simple-warming-soup-guide-for-cold-weather", "jujube-and-ginger-tea-for-busy-weeks", "perilla-and-ginger-soup-for-cool-days"],
     sections: [
       {
@@ -308,7 +308,7 @@ const rawTopics: Topic[] = [
     intro:
       "Some of the best HerbGuide content is not about advanced herbs at all. It is about pantry familiarity. This hub gathers the pages that help readers build confidence through ingredients they can actually picture using in tea, soup, porridge, and breakfast routines.",
     herbSlugs: ["goji-berry", "jujube-red-date", "black-sesame-seed", "chrysanthemum-flower", "fresh-ginger", "adzuki-bean", "tremella-mushroom", "chinese-yam", "mulberry-fruit", "schisandra-berry", "licorice-root", "osmanthus-flower", "jasmine-flower", "rose-bud", "mulberry-leaf", "lotus-leaf", "burdock-root", "cassia-seed", "corn-silk", "turmeric-root"],
-    basicsSlugs: ["what-is-traditional-herb-theory", "goji-berry-vs-jujube", "what-does-tonify-mean", "what-does-jing-mean", "what-does-channel-entry-mean", "what-does-nourish-blood-mean", "poria-vs-jobs-tears", "goji-berry-tea-vs-goji-berry-porridge", "what-does-astringent-mean", "mulberry-fruit-vs-goji-berry", "what-does-harmonizing-mean"],
+    basicsSlugs: ["what-is-traditional-herb-theory", "goji-berry-vs-jujube", "what-does-tonify-mean", "what-does-jing-mean", "what-does-channel-entry-mean", "what-does-nourish-blood-mean", "poria-vs-jobs-tears", "goji-berry-tea-vs-goji-berry-porridge", "what-does-astringent-mean", "mulberry-fruit-vs-goji-berry", "what-does-harmonizing-mean", "what-are-the-five-flavors"],
     foodSlugs: ["5-easy-traditional-kitchen-ingredients-for-beginners", "black-sesame-breakfast-ideas-for-beginners", "jujube-and-ginger-tea-for-busy-weeks", "goji-berry-porridge-for-gentle-mornings", "lotus-seed-and-longan-sweet-soup-basics", "black-sesame-and-jujube-breakfast-bowl", "jobs-tears-porridge-for-heavy-days", "jujube-and-lotus-seed-congee-for-quiet-evenings", "tremella-and-pear-sweet-soup-basics", "adzuki-bean-and-jobs-tears-soup-basics", "chinese-yam-and-carrot-soup-basics", "tremella-and-lotus-seed-sweet-soup-basics", "mulberry-and-goji-tea-basics", "schisandra-and-jujube-tea-basics", "osmanthus-and-pear-tea-basics", "jasmine-and-pear-tea-basics", "rose-bud-and-mulberry-leaf-tea-basics", "lotus-leaf-and-burdock-root-tea-basics", "cassia-seed-and-corn-silk-tea-basics", "lotus-root-soup-basics"],
     sections: [
       {

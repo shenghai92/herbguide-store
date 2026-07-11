@@ -350,6 +350,73 @@ const rawBasicsArticles: ContentArticle[] = [
           "Once readers understand this, other comparisons across the herb library become easier too.",
         ],
       },
+      {
+        title: "How the warming difference usually reads in kitchen writing",
+        paragraphs: [
+          "Fresh ginger usually reads brighter, lighter, and more outward-moving in tea, soup, and everyday cooking. Dried ginger usually reads deeper, stronger, and more concentrated in slow-simmered pantry-style recipes.",
+          "That difference is one reason traditional pages keep the two separate instead of treating dried ginger as a simple backup for the fresh root.",
+        ],
+      },
+      {
+        title: "Easy kitchen examples readers can picture",
+        paragraphs: [
+          "Fresh ginger fits naturally into rainy-day tea, light soups, stir-fries, and recipes that need a quick aromatic lift. Dried ginger fits more naturally into colder-season broths, deeper warming blends, and stronger pantry reading.",
+          "Those food examples make the comparison easier to trust because the difference can be pictured in a pot or a cup, not only in abstract terminology.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "what-are-the-five-flavors",
+    title: "What Are the Five Flavors?",
+    description:
+      "A plain-English introduction to the five flavors in traditional Chinese food writing, with practical kitchen examples and simple balance ideas.",
+    eyebrow: "Basics",
+    intro:
+      "The five flavors are a traditional way of talking about taste, balance, and food direction in Chinese kitchen culture. They usually refer to sour, bitter, sweet, pungent, and salty. On HerbGuide, the idea is explained as a food-and-language framework, not as a strict rule system.",
+    sections: [
+      {
+        title: "Why this idea matters in kitchen reading",
+        paragraphs: [
+          "Many traditional food pages do not organize ingredients only by warmth or coolness. They also use flavor language to explain what an ingredient contributes to a dish or to a broader style of eating.",
+          "That is why five-flavor reading helps herb pages, soup pages, and pantry guides feel more coherent instead of scattered across isolated terms.",
+        ],
+      },
+      {
+        title: "The five flavors in plain English",
+        paragraphs: [
+          "Sour usually points readers toward tart fruits, vinegar, and gathering-style flavor language. Bitter often appears in stronger greens, darker tea notes, or clearing-style kitchen writing.",
+          "Sweet in this framework often means the mild, grounding sweetness of grains, root vegetables, jujube, or goji rather than sugary desserts. Pungent points toward aromatic movement from ingredients like fresh ginger, garlic, or scallion, while salty often anchors broths, sea vegetables, and deeper savory structure.",
+        ],
+        bullets: [
+          "Sour: tart, gathering, palate-brightening",
+          "Bitter: stronger, often linked with clearing language",
+          "Sweet: mild, grounding, pantry-centered",
+          "Pungent: aromatic, moving, warming in many kitchen examples",
+          "Salty: softening, savory, broth-building",
+        ],
+      },
+      {
+        title: "Why balanced meals rarely stay on one note",
+        paragraphs: [
+          "Traditional cooking often becomes easier to understand when readers notice that one flavor does not usually stand alone for long. A rich dish may get a sour finish, a bitter ingredient may be softened by something sweeter, and a warming bowl may still need a little savory depth.",
+          "That balancing logic gives readers a concrete way to interpret flavor decisions across multiple pages on the site.",
+        ],
+      },
+      {
+        title: "Useful ingredient examples across HerbGuide",
+        paragraphs: [
+          "Hawthorn and plum-style ingredients help explain sour language clearly. Fresh ginger is one of the easiest pungent examples, while jujube and goji are useful for the milder sweet category in food-first reading.",
+          "Broth logic helps readers understand salty structure, while stronger greens or tea notes can help explain bitter language without forcing the page into stronger claims.",
+        ],
+      },
+      {
+        title: "How to read the idea responsibly",
+        paragraphs: [
+          "The five flavors belong to a traditional explanatory system. They can make recipes and herb pages easier to follow, but they should not be turned into rigid self-checklists or one-size-fits-all instructions.",
+          "HerbGuide uses the framework to explain kitchen patterns and traditional wording in clearer English, not to promise outcomes from one flavor choice.",
+        ],
+      },
     ],
   },
   {
@@ -2155,6 +2222,20 @@ export const foodTherapyArticles: ContentArticle[] = [
         paragraphs: [
           "A job's tears porridge page helps connect dampness, digestive traditions, poria, and lighter pantry routines into one reading path.",
           "It also gives glossary readers a practical follow-up after terms like dampness or food stagnation.",
+        ],
+      },
+      {
+        title: "Why Job's Tears works so well as a pantry grain",
+        paragraphs: [
+          "Job's Tears is useful because the grain itself feels mild, plain, and easy to repeat. That makes it one of the clearest ways to turn dampness language into a recognizable bowl instead of leaving the concept stuck in theory.",
+          "It also helps readers understand why the ingredient often appears in summer and early-autumn style kitchen reading without forcing the page into stronger or more medical wording.",
+        ],
+      },
+      {
+        title: "Simple pairings that keep the bowl practical",
+        paragraphs: [
+          "A plain version is often the clearest starting point, but mild add-ins like poria, adzuki bean, or a small amount of fresh ginger can help readers picture how the grain moves into other pantry-style soups and porridges.",
+          "Those pairings make the page stronger for SEO because readers often search Job's Tears through porridge, pantry soup, and dampness-related kitchen intent rather than through one exact phrase alone.",
         ],
       },
     ],

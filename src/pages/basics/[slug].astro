@@ -43,6 +43,22 @@ const basicsSeoMap: Record<
     heroNote:
       "Readers often search this page because they want the meaning of warming foods and cooling foods in plain English before they open more specific herb or kitchen pages.",
   },
+  "fresh-ginger-vs-dried-ginger": {
+    title: "Fresh Ginger vs Dried Ginger Meaning in Plain English | HerbGuide",
+    description:
+      "A plain-English guide to fresh ginger vs dried ginger with kitchen examples, warming differences, and why traditional pages keep them separate.",
+    extraKeywords: ["fresh ginger vs dried ginger", "fresh ginger vs dried ginger meaning", "sheng jiang vs gan jiang", "fresh ginger compared with dried ginger"],
+    heroNote:
+      "Readers usually land here because they want a direct explanation of why fresh ginger and dried ginger are treated differently in traditional kitchen writing.",
+  },
+  "what-are-the-five-flavors": {
+    title: "What Are the Five Flavors? Meaning in Plain English | HerbGuide",
+    description:
+      "A plain-English guide to the five flavors in traditional Chinese food writing, with simple kitchen examples and balance ideas.",
+    extraKeywords: ["what are the five flavors", "five flavors meaning", "five flavors in Chinese cooking", "wu wei meaning", "traditional Chinese five flavors"],
+    heroNote:
+      "Readers often search this topic because they want one clear explanation of how sour, bitter, sweet, pungent, and salty work together in traditional kitchen language.",
+  },
 };
 const basicsSeo = basicsSeoMap[article.slug];
 const articleKeywords = [
@@ -240,6 +256,13 @@ const basicsFaqSchema = {
               <li><a href="/herbs/fresh-ginger/">Fresh Ginger</a> for the most common optional add-in</li>
               <li><a href="/kitchen/chen-pi-tea-for-heavy-meal-days/">Chen Pi Tea for Heavy Meal Days</a> for a recipe-style version</li>
               <li><a href="/basics/chen-pi-vs-hawthorn-berry/">Chen Pi vs Hawthorn Berry</a> for a related digestive pantry comparison</li>
+            </>
+          ) : article.slug === "what-are-the-five-flavors" ? (
+            <>
+              <li><a href="/herbs/hawthorn-berry/">Hawthorn Berry</a> for a clear sour example</li>
+              <li><a href="/herbs/fresh-ginger/">Fresh Ginger</a> for a clear pungent example</li>
+              <li><a href="/herbs/jujube-red-date/">Jujube</a> for a mild sweet pantry example</li>
+              <li><a href="/basics/fresh-ginger-vs-dried-ginger/">Fresh Ginger vs Dried Ginger</a> for a flavor-and-function comparison</li>
             </>
           ) : (
             <>
