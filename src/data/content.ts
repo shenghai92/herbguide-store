@@ -211,7 +211,7 @@ const rawRecipeCards = [
   {
     slug: "jujube-and-ginger-tea-for-busy-weeks",
     title: "Jujube and Ginger Tea for Busy Weeks",
-    text: "A short, practical routine article built around two approachable kitchen ingredients.",
+    text: "A short, practical jujube tea article built around Chinese red dates and fresh ginger.",
   },
   {
     slug: "pear-and-lily-bulb-soup-for-dry-days",
@@ -246,7 +246,7 @@ const rawRecipeCards = [
   {
     slug: "lotus-seed-and-longan-sweet-soup-basics",
     title: "Lotus Seed and Longan Sweet Soup Basics",
-    text: "A gentle dessert-soup article that adds depth to nourishing kitchen reading.",
+    text: "A gentle sweet-soup article that connects lotus seed and dried longan through one classic pantry bowl.",
   },
   {
     slug: "chen-pi-tea-for-heavy-meal-days",
@@ -286,7 +286,7 @@ const rawRecipeCards = [
   {
     slug: "jujube-and-lotus-seed-congee-for-quiet-evenings",
     title: "Jujube and Lotus Seed Congee for Quiet Evenings",
-    text: "A soft evening-style pantry page that deepens jujube and lotus seed reading with a very approachable bowl.",
+    text: "A soft pantry congee page that deepens jujube and lotus seed reading with a very approachable rice bowl.",
   },
   {
     slug: "tremella-and-pear-sweet-soup-basics",

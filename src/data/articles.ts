@@ -1550,10 +1550,10 @@ export const foodTherapyArticles: ContentArticle[] = [
     slug: "jujube-and-ginger-tea-for-busy-weeks",
     title: "Jujube and Ginger Tea for Busy Weeks",
     description:
-      "A simple jujube tea recipe with fresh ginger that keeps the ingredient list short, the language natural, and the kitchen context clear.",
+      "A simple jujube tea recipe with fresh ginger that keeps the ingredient list short, the language natural, and the Chinese red date kitchen context clear.",
     eyebrow: "Kitchen Traditions",
     intro:
-      "For readers searching a simple jujube tea recipe, this pairing is one of the easiest places to start. A few slices of ginger, a few split jujubes, hot water, and a short simmer make the page feel practical, familiar, and easy to understand without much setup.",
+      "For readers searching a simple jujube tea recipe, this pairing is one of the easiest places to start. A few slices of ginger, a few split jujubes, hot water, and a short simmer make the page feel practical, familiar, and easy to understand without much setup. It also helps connect jujube with the Chinese red date wording many shoppers and searchers already see.",
     recipe: {
       recipeYield: "2 mugs",
       prepTime: "PT5M",
@@ -1604,8 +1604,15 @@ export const foodTherapyArticles: ContentArticle[] = [
       {
         title: "How this page matches common jujube tea searches",
         paragraphs: [
-          "Readers who type jujube tea recipe, red date tea, or simple ginger tea usually want one short ingredient list and one easy method, not a dense theory page.",
+          "Readers who type jujube tea recipe, red date tea, Chinese red date tea, or simple ginger tea usually want one short ingredient list and one easy method, not a dense theory page.",
           "That is why this page keeps the wording close to a home-style jujube tea recipe while still linking back to the herb names and pantry context that make the cup easier to understand.",
+        ],
+      },
+      {
+        title: "Why red dates work so well in tea",
+        paragraphs: [
+          "Jujubes bring a rounded sweetness that can soften sharper ingredients without making the cup complicated. That is one reason red dates appear so often in beginner-friendly tea pages and simple pantry recipes.",
+          "Splitting the fruit before simmering helps release more flavor into the water, which is a practical detail readers often miss when they first try a jujube tea recipe at home.",
         ],
       },
     ],
@@ -1930,10 +1937,10 @@ export const foodTherapyArticles: ContentArticle[] = [
     slug: "lotus-seed-and-longan-sweet-soup-basics",
     title: "Lotus Seed and Longan Sweet Soup Basics",
     description:
-      "A gentle dessert-soup style article that introduces two classic nourishing pantry ingredients through a simple kitchen routine.",
+      "A gentle lotus seed and longan sweet soup article that introduces two classic pantry ingredients through a simple kitchen routine.",
     eyebrow: "Kitchen Traditions",
     intro:
-      "Lotus seed and longan are a natural pair for moving beyond tea and soup into traditional dessert-soup territory. The bowl feels soft, memorable, and culturally grounded while still staying simple enough for beginners.",
+      "Lotus seed and longan are a natural pair for moving beyond tea and soup into traditional dessert-soup territory. The bowl feels soft, memorable, and culturally grounded while still staying simple enough for beginners. It also gives dried longan and lotus seed readers a direct answer to the kind of sweet soup searches that often follow herb-page visits.",
     recipe: {
       recipeYield: "2 bowls",
       prepTime: "PT10M",
@@ -1973,6 +1980,20 @@ export const foodTherapyArticles: ContentArticle[] = [
         paragraphs: [
           "Readers see that traditional kitchen content can be gentle, repetitive, and comforting without becoming vague or mystical.",
           "The page also creates natural links to longan, lotus seed, jujube, and evening-themed topic pages.",
+        ],
+      },
+      {
+        title: "What to know before cooking lotus seed and longan",
+        paragraphs: [
+          "Dried lotus seed usually needs the head start because it takes longer to soften than longan. Starting the seed first keeps the final bowl creamy and even rather than leaving the center firm.",
+          "Dried longan adds most of the sweetness here, so the page keeps added sugar light. That helps the recipe stay closer to a simple household sweet soup instead of turning into a very heavy dessert.",
+        ],
+      },
+      {
+        title: "How this page fits lotus seed soup and longan soup searches",
+        paragraphs: [
+          "Readers who search lotus seed sweet soup, longan sweet soup, or dried longan dessert often want one classic bowl with familiar pantry ingredients and a calm method.",
+          "This page keeps that search intent intact by using clear sweet-soup wording, a short ingredient list, and easy next clicks to the matching herb profiles.",
         ],
       },
     ],
@@ -2344,10 +2365,10 @@ export const foodTherapyArticles: ContentArticle[] = [
     slug: "jujube-and-lotus-seed-congee-for-quiet-evenings",
     title: "Jujube and Lotus Seed Congee for Quiet Evenings",
     description:
-      "A gentle evening-style pantry bowl that deepens jujube and lotus seed reading with simple kitchen language.",
+      "A gentle jujube and lotus seed congee page that deepens pantry reading with simple kitchen language.",
     eyebrow: "Kitchen Traditions",
     intro:
-      "Jujube and lotus seed make a calm, memorable pair because both ingredients already feel closely tied to household food traditions. A simple congee page lets readers picture a real bowl more easily than abstract evening-themed language alone.",
+      "Jujube and lotus seed make a calm, memorable pair because both ingredients already feel closely tied to household food traditions. A simple congee page lets readers picture a real bowl more easily than abstract evening-themed language alone. It also gives readers a direct route from red date and lotus seed searches into a familiar rice-based format.",
     recipe: {
       recipeYield: "2 bowls",
       prepTime: "PT10M",
@@ -2410,6 +2431,13 @@ export const foodTherapyArticles: ContentArticle[] = [
         paragraphs: [
           "A good congee stays soft, light, and only gently sweet. It should feel like a steady breakfast or pantry bowl rather than a dense dessert.",
           "Optional add-ins like goji berries or longan can broaden the flavor, but the rice and jujube base should remain easy to recognize.",
+        ],
+      },
+      {
+        title: "What kind of lotus seed works best here",
+        paragraphs: [
+          "Cored lotus seeds are usually the easiest choice for this style of congee because they keep the flavor mild and clean. If the green core is still inside, the bowl can pick up a bitter note that changes the result.",
+          "Soaking is optional for some packaged lotus seeds, but a quick soak or a longer simmer often gives the softest texture and makes the finished congee feel more complete.",
         ],
       },
     ],
