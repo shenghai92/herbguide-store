@@ -1156,7 +1156,6 @@ const rawBasicsArticles: ContentArticle[] = [
         title: "How astringent language appears on herb pages",
         paragraphs: [
           "Readers often meet this word on pages about schisandra berry, lotus seed, and some other ingredients that are described as helping hold things in or reduce excess loss in the traditional framework.",
-          "A responsible site should explain that this is historical herb vocabulary, not a reason for self-labeling or self-directed use.",
         ],
         bullets: [
           "Astringent is a traditional herb quality.",
@@ -1174,7 +1173,7 @@ const rawBasicsArticles: ContentArticle[] = [
       {
         title: "What astringent can feel like in everyday foods",
         paragraphs: [
-          "In plain sensory terms, astringency is the dry, puckering feeling many readers already know from strong black tea or less-ripe fruit. That mouthfeel can make the word much easier to understand than a technical definition alone.",
+          "In plain sensory terms, astringency is the dry, puckering feeling many readers already know from strong black tea, dry red wine, or less-ripe fruit. That mouthfeel can make the word much easier to understand than a technical definition alone.",
           "Using that sensory example keeps the page grounded. Readers do not need to memorize a theory term first if they can connect it to a familiar food experience.",
         ],
       },
@@ -1189,7 +1188,6 @@ const rawBasicsArticles: ContentArticle[] = [
         title: "Where to keep reading after this page",
         paragraphs: [
           "Astringent language usually makes more sense when it is read beside specific ingredient pages like schisandra berry and lotus seed, where the word appears in fuller traditional context.",
-          "It also connects naturally with pages such as What Does Harmonizing Mean? and What Does Channel Entry Mean?, which help readers understand how traditional role words and classification language work together.",
         ],
       },
     ],
