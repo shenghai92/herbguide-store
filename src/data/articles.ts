@@ -103,66 +103,50 @@ const rawBasicsArticles: ContentArticle[] = [
     slug: "warming-vs-cooling-foods",
     title: "Warming vs Cooling Foods",
     description:
-      "A beginner-friendly guide to one of the easiest traditional food ideas to connect with everyday meals.",
+      "A practical guide for readers searching warming foods, cooling foods, and everyday ingredient examples. We translate these traditional concepts into practical kitchen habits.",
     eyebrow: "Basics",
     intro:
       "Warming and cooling are traditional qualities in Chinese food and herb writing. They do not simply mean the temperature of the dish itself. Instead, they describe how an ingredient is traditionally categorized.",
     sections: [
       {
-        title: "Traditional quality, not serving temperature",
+        title: "Why the word feels strange at first",
         paragraphs: [
-          "A cooling tea can be served hot. A warming ingredient can appear in a room-temperature dish. The traditional label is about classification, not whether something feels hot to the touch.",
-          "This is why ingredients like ginger, mint, chrysanthemum, pear, and cinnamon show up in very different kinds of traditional kitchen writing.",
+          "To a Western cook, 'hot' means temperature or chili spice. But in traditional Chinese kitchen wisdom, warming and cooling describe the energetic effect a food has on your body after you eat it, regardless of its physical temperature.",
         ],
       },
       {
-        title: "Why this idea is useful for beginners",
+        title: "How warming and cooling language appears on herb pages",
         paragraphs: [
-          "Warming and cooling are easier for many readers to grasp than more abstract traditional terms because they connect directly to meals, drinks, and seasonal habits.",
-          "Once readers understand this idea, many herb pages become easier to interpret.",
+          "You will see every herb and ingredient in our library tagged with a 'Nature'—usually hot, warm, neutral, cool, or cold. This is the foundation of traditional food pairing.",
         ],
         bullets: [
-          "Fresh ginger is often introduced as warming.",
-          "Chrysanthemum and mint are often introduced as cooling.",
-          "Pear often appears in discussions of dry or warm seasonal conditions.",
+          "Warming foods (like ginger) bring heat and circulation to the surface.",
+          "Cooling foods (like chrysanthemum) clear heat and calm the system.",
+          "Neutral foods (like rice or poria) are gentle baselines that balance the extremes.",
         ],
       },
       {
-        title: "Simple examples readers can picture quickly",
+        title: "Why this matters here",
         paragraphs: [
-          "One reason this topic works so well in search is that readers can visualize it right away. Ginger tea, warming soups, mint tea, chrysanthemum tea, and pear-based recipes all give the idea a concrete shape.",
-          "That kind of food-first contrast is easier to trust than a page that only repeats abstract labels without showing where they appear in real kitchen writing.",
-        ],
-        bullets: [
-          "Ginger, cinnamon twig, and cool-weather soups are common warming examples.",
-          "Pear, chrysanthemum, and mint often appear in lighter seasonal reading.",
-          "The same ingredient can still be used differently depending on preparation and context.",
+          "Understanding this concept allows you to cook seasonally. You learn to eat cooling foods in the hot, dry summer, and warming foods in the damp, freezing winter.",
         ],
       },
       {
-        title: "How HerbGuide handles these labels",
+        title: "What warming and cooling can feel like in everyday foods",
         paragraphs: [
-          "HerbGuide explains these terms as part of traditional language and food culture.",
-          "We do not turn warming and cooling labels into absolute rules or one-size-fits-all instructions.",
-        ],
-        bullets: [
-          "Fresh ginger is one of the clearest warming ingredient examples.",
-          "Chrysanthemum tea is one of the clearest cooling ingredient examples.",
-          "Pear soup, pear tea, and seasonal soup pages often help readers see the contrast more concretely.",
+          "Think about how you feel after eating a bowl of spicy lamb stew versus a slice of watermelon. The stew makes you sweat and feel deeply warm (warming nature). The watermelon makes you feel refreshed and chilled (cooling nature). It is highly intuitive once you look for it.",
         ],
       },
       {
-        title: "How the labels usually read in a kitchen setting",
+        title: "How to read warming and cooling pairings more clearly",
         paragraphs: [
-          "Warming pages often lean toward slow simmering, soups, porridges, ginger, jujube, and stronger spice notes. Cooling pages often lean toward lighter teas, floral ingredients, pears, mint, and gentler warm-weather reading.",
-          "That does not make one side better. It simply means traditional kitchen writing uses these labels to organize tone, season, and ingredient feel in a way readers can picture more easily.",
+          "Traditional cooking rarely uses extremes. If a dish uses very cooling ingredients, a cook will often toss in a slice of fresh ginger (warming) to balance the pot. This prevents the meal from shocking the digestive system.",
         ],
       },
       {
-        title: "A quick way to keep reading",
+        title: "Where to keep reading after this page",
         paragraphs: [
-          "Readers who want warming examples usually do best with fresh ginger, jujube and ginger tea, or simple soup pages. Readers who want cooling examples usually do best with chrysanthemum, mint, pear tea, or seasonal kitchen pages.",
-          "That is why this topic page works best as a bridge into practical herb profiles and recipe-style pages instead of trying to become a one-page rulebook.",
+          "The best way to understand this is to look at how we pair ingredients in our Kitchen Traditions section.",
         ],
       },
     ],
