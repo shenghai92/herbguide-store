@@ -165,6 +165,16 @@ const rawBasicsCards = [
     title: "Mulberry Fruit vs Goji Berry",
     text: "A pantry-friendly comparison that helps readers separate two popular pantry berries in tea and gentle nourishment content.",
   },
+  {
+    slug: "chinese-pantry-starter-kit",
+    title: "The Chinese Pantry Starter Kit",
+    text: "A friendly, opinionated list of 10 traditional ingredients every curious cook should know.",
+  },
+  {
+    slug: "simple-herbal-tea-routine",
+    title: "How to Build a Simple Herbal Tea Routine",
+    text: "Practical, seasonal, no-pressure guidance for people who want a traditional tea ritual, not a strict medical regimen.",
+  },
 ];
 
 export const basicsCards = rawBasicsCards.map((card) => sanitizeContentCard(card));
