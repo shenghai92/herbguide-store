@@ -1250,6 +1250,110 @@ const rawBasicsArticles: ContentArticle[] = [
       },
     ],
   },
+  {
+    slug: "chinese-pantry-starter-kit",
+    title: "The Chinese Pantry Starter Kit",
+    description:
+      "A friendly, opinionated list of 10 traditional ingredients every curious cook should know. This page bridges the gap between a daunting Asian grocery store and your home kitchen.",
+    eyebrow: "Basics",
+    intro:
+      "A friendly, opinionated list of 10 traditional ingredients every curious cook should know. This page bridges the gap between a daunting Asian grocery store and your home kitchen.",
+    sections: [
+      {
+        title: "Why the word feels strange at first",
+        paragraphs: [
+          "Walking down the dried goods aisle of an Asian market can be overwhelming. There are roots, barks, dried fungi, and berries with no English instructions. It is easy to walk away empty-handed.",
+        ],
+      },
+      {
+        title: "How pantry staple language appears on herb pages",
+        paragraphs: [
+          "We often reference these ingredients in our recipe pages as 'everyday pantry staples.' They are the quiet workhorses of traditional cooking.",
+        ],
+        bullets: [
+          "They are used as food, not just medicine.",
+          "They are highly shelf-stable when stored correctly.",
+          "They require minimal prep—often just a quick rinse.",
+        ],
+      },
+      {
+        title: "Why this matters here",
+        paragraphs: [
+          "Building a basic pantry means you can start cooking traditional, balancing meals immediately without needing to hunt down obscure ingredients every time you want to make a soup.",
+        ],
+      },
+      {
+        title: "What pantry staple can feel like in everyday foods",
+        paragraphs: [
+          "Start with the approachable items: Goji berries can go in oatmeal. Jujubes can sweeten a simple tea. Dried ginger is a lifesaver when you don't have fresh. These are not intimidating once they are in your kitchen.",
+        ],
+      },
+      {
+        title: "How to read pantry staple pairings more clearly",
+        paragraphs: [
+          "The beauty of a starter pantry is that the ingredients naturally pair with each other. Goji and jujube. Chen pi and ginger. Lotus seed and tremella. Once you have the basics, the combinations are endless.",
+        ],
+      },
+      {
+        title: "Where to keep reading after this page",
+        paragraphs: [
+          "Head over to the Kitchen Traditions section to see exactly how we combine these starter ingredients into simple daily meals.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "simple-herbal-tea-routine",
+    title: "How to Build a Simple Herbal Tea Routine",
+    description:
+      "Practical, seasonal, no-pressure guidance for people who want a traditional tea ritual, not a strict medical regimen.",
+    eyebrow: "Basics",
+    intro:
+      "Practical, seasonal, no-pressure guidance for people who want a traditional tea ritual, not a strict medical regimen.",
+    sections: [
+      {
+        title: "Why the word feels strange at first",
+        paragraphs: [
+          "In the West, herbal tea usually comes in a neat little paper bag. Traditional Chinese herbal teas often involve whole dried flowers, roots, and berries floating freely in a glass or thermos. It requires a slight shift in how we think about brewing.",
+        ],
+      },
+      {
+        title: "How tea routine language appears on herb pages",
+        paragraphs: [
+          "Across our site, you will see instructions to 'rinse and steep' rather than 'boil for hours.' This is the essence of a daily, accessible routine.",
+        ],
+        bullets: [
+          "Routines should adapt to the season, not stay rigid year-round.",
+          "Visual cues (like water color and expanding berries) replace strict timers.",
+          "You can keep refilling your cup with hot water throughout the day.",
+        ],
+      },
+      {
+        title: "Why this matters here",
+        paragraphs: [
+          "A tea routine is one of the easiest ways to introduce traditional balancing concepts into your life. It takes two minutes of prep but provides hydration and subtle energetic support all day.",
+        ],
+      },
+      {
+        title: "What tea routine can feel like in everyday foods",
+        paragraphs: [
+          "A glass thermos filled with hot water, a few goji berries, and a couple of chrysanthemum flowers is a common sight in many traditional households. It is as much a part of the workday as a cup of coffee.",
+        ],
+      },
+      {
+        title: "How to read tea routine pairings more clearly",
+        paragraphs: [
+          "A good routine relies on simple pairings. Pair a sweet ingredient (like longan) with a floral one (like rose bud). Pair a warming ingredient (like ginger) with a neutral base (like black tea).",
+        ],
+      },
+      {
+        title: "Where to keep reading after this page",
+        paragraphs: [
+          "Check out our specific tea recipes to find the perfect starting point for your new routine.",
+        ],
+      },
+    ],
+  },
 ];
 
 export const basicsArticles = rawBasicsArticles.map((article) => sanitizeContentArticle(article));
