@@ -268,14 +268,19 @@ const rawHerbEnhancements: HerbEnhancement[] = [
   },
   {
     slug: "reishi-mushroom",
-    kitchenPairings: ["Long-simmered broth", "Tea-style slices", "Calmer mushroom comparisons", "Classic vitality reading"],
+    kitchenPairings: [
+      "Jujube",
+      "Longan Fruit",
+      "Licorice Root",
+    ],
     goodStartingPoints: [
-      "Reishi is easiest to trust when framed as a serious traditional mushroom rather than a trend word.",
-      "Readers usually understand it best after comparing modern wellness language with traditional qi language.",
+      "Because it can be quite bitter, it is best simmered slowly with naturally sweet ingredients like jujube.",
+      "Think of it as a weekend project rather than a quick morning fix.",
     ],
     compareLinks: [
       { title: "What Does Qi Mean?", href: "/basics/what-does-qi-mean/" },
-      { title: "Balanced Pantry Habits", href: "/topics/balanced-pantry-habits/" },
+      { title: "What Does Shen Mean in Traditional Herb Writing?", href: "/basics/what-does-shen-mean/" },
+      { title: "What Does Tonify Mean in Traditional Herb Writing?", href: "/basics/what-does-tonify-mean/" },
     ],
   },
   {

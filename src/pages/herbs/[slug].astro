@@ -102,6 +102,14 @@ const herbSeoMap: Record<
       "This page is designed to connect lotus seed with congee, sweet soup, cored lotus seed, and other kitchen-first search patterns readers actually use.",
     extraKeywords: ["lotus seed", "lian zi", "lotus seed soup", "lotus seed congee", "cored lotus seed"],
   },
+  "reishi-mushroom": {
+    title: "Reishi Mushroom (Ling Zhi) Guide | Traditional Context, Kitchen Use, and Safety",
+    description:
+      "A reishi mushroom guide with Ling Zhi naming, traditional context, tea and broth notes, and clear safety language in plain English.",
+    heroNote:
+      "This page is built to help readers connect reishi mushroom with its traditional context and pantry-style kitchen reading.",
+    extraKeywords: ["reishi mushroom", "ling zhi", "reishi tea", "reishi mushroom tea", "ganoderma"],
+  },
 };
 const herbSeo = herbSeoMap[herb.slug];
 const basicsBySlug: Record<string, string[]> = {
@@ -132,6 +140,7 @@ const basicsBySlug: Record<string, string[]> = {
   "corn-silk": ["warming-vs-cooling-foods", "what-does-channel-entry-mean", "what-is-traditional-herb-theory"],
   "ginkgo-leaf": ["what-is-traditional-herb-theory", "what-does-channel-entry-mean", "warming-vs-cooling-foods"],
   "turmeric-root": ["what-is-traditional-herb-theory", "what-is-qi-stagnation", "warming-vs-cooling-foods"],
+  "reishi-mushroom": ["what-does-qi-mean", "what-does-shen-mean", "what-does-tonify-mean"],
 };
 const suggestedBasics = (basicsBySlug[herb.slug] ?? ["what-is-traditional-herb-theory", "what-does-channel-entry-mean", "warming-vs-cooling-foods"])
   .map((slug) => basicsCards.find((item) => item.slug === slug))
