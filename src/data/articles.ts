@@ -3527,4 +3527,94 @@ export const foodTherapyArticles: ContentArticle[] = [
       },
     ],
   },
+  {
+    slug: "poria-and-coix-seed-congee",
+    title: "Poria and Coix Seed Congee",
+    description:
+      "A gentle, grain-based bowl designed to clear traditional dampness and support digestion when you feel heavy or sluggish.",
+    eyebrow: "Kitchen Traditions",
+    intro:
+      "This recipe page includes ingredients, step-by-step preparation, and related herb links so readers can move from one kitchen idea into clearer ingredient context.",
+    recipe: {
+      recipeYield: "2 servings",
+      prepTime: "PT10M",
+      totalTime: "PT45M",
+      ingredients: [
+        "1/2 cup white rice",
+        "1/4 cup Coix Seed (Job's Tears), rinsed",
+        "15g Poria (Fu Ling) pieces",
+        "5 cups water",
+        "Optional: a pinch of salt or a drop of soy sauce for serving",
+      ],
+      steps: [
+        "Rinse the rice and coix seed thoroughly under cold water.",
+        "Place the rice, coix seed, poria, and water into a pot.",
+        "Bring to a boil, then lower the heat to a gentle simmer.",
+        "Cook partially covered for 40-45 minutes, stirring occasionally until the grains break down and the porridge is thick.",
+        "Serve warm.",
+      ],
+      servingNotes: [
+        "Poria pieces can remain a bit chalky; some people prefer to remove them before eating, while others eat them for texture.",
+        "Keep toppings very light to maintain the dampness-clearing intent.",
+      ],
+      caution: [
+        "This is a very mild dish, but coix seed is traditionally avoided during pregnancy.",
+      ],
+    },
+    sections: [
+      {
+        title: "What this recipe page includes",
+        paragraphs: [
+          "This page explains the traditional kitchen context behind Poria and Coix Seed Congee, then shows the ingredient list, step-by-step method, related herb pages, and topic hubs for deeper reading.",
+        ],
+        bullets: [
+          "Jump to the ingredient list",
+          "Jump to the preparation steps",
+          "Open related herb profiles",
+          "Open related recipe pages",
+        ],
+      },
+      {
+        title: "Why this pairing works so well",
+        paragraphs: [
+          "Both poria and coix seed (Job's tears) are famously neutral and bland, making them perfect for a calming congee. They work together in traditional theory to gently leach out dampness without being overly cooling or warming.",
+        ],
+      },
+      {
+        title: "What readers learn from this recipe",
+        paragraphs: [
+          "This bowl teaches that sometimes the best approach to feeling sluggish is to eat something incredibly simple and unburdened by heavy flavors.",
+        ],
+      },
+      {
+        title: "Keep it simple",
+        paragraphs: [
+          "Poria pieces can remain a bit chalky; some people prefer to remove them before eating, while others eat them for texture.",
+          "Keep toppings very light to maintain the dampness-clearing intent.",
+        ],
+      },
+      {
+        title: "Read this recipe in context",
+        paragraphs: [
+          "This is a very mild dish, but coix seed is traditionally avoided during pregnancy.",
+        ],
+      },
+      {
+        title: "Related herb pages for this recipe",
+        paragraphs: [
+          "These kitchen pages perform best when they connect directly to ingredient profiles so readers can check traditional terms, food uses, and caution notes in one place.",
+        ],
+        bullets: [
+          "Poria",
+          "Job's Tears",
+        ],
+      },
+      {
+        title: "Back to Kitchen Traditions",
+        paragraphs: [
+          "This article is part of the Kitchen Traditions section. Return there for more kitchen-focused reading and ingredient ideas.",
+        ],
+      },
+    ],
+  },
 ];
