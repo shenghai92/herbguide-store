@@ -373,6 +373,11 @@ const rawRecipeCards = [
     title: "Lotus Root Soup Basics",
     text: "A simple lotus root soup page built around a widely searched ingredient with calm, kitchen-first wording.",
   },
+  {
+    slug: "astragalus-and-jujube-chicken-broth",
+    title: "Astragalus and Jujube Chicken Broth",
+    text: "A deeply comforting winter soup that pairs astragalus root with jujube for a classic warming broth.",
+  },
 ];
 
 export const recipeCards = rawRecipeCards.map((card) => sanitizeContentCard(card));

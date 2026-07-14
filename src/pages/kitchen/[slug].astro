@@ -240,6 +240,10 @@ const recipeSchemaImageMap: Record<string, { src: string; alt: string }> = {
     src: "/images/recipes/soup-bowl.jpg",
     alt: "A simple lotus root soup bowl styled for a home-cooking page.",
   },
+  "astragalus-and-jujube-chicken-broth": {
+    src: "/images/recipes/soup-bowl.jpg",
+    alt: "A warming chicken broth bowl styled for an astragalus and jujube winter soup page.",
+  },
 };
 const recipeCuisineMap: Record<string, string> = {
   "5-easy-traditional-kitchen-ingredients-for-beginners": "Chinese-inspired kitchen",
@@ -276,6 +280,7 @@ const recipeCuisineMap: Record<string, string> = {
   "lotus-leaf-and-burdock-root-tea-basics": "Chinese-inspired tea",
   "cassia-seed-and-corn-silk-tea-basics": "Chinese-inspired tea",
   "lotus-root-soup-basics": "Chinese-inspired soup",
+  "astragalus-and-jujube-chicken-broth": "Chinese-inspired soup",
 };
 const recipePageVisualMap: Record<string, { src: string; alt: string }> = {
   "5-easy-traditional-kitchen-ingredients-for-beginners": {
@@ -571,6 +576,12 @@ const herbLinkMap: Record<string, Array<{ name: string; href: string }>> = {
     { name: "Jujube", href: "/herbs/jujube-red-date/" },
     { name: "Goji Berry", href: "/herbs/goji-berry/" },
   ],
+  "astragalus-and-jujube-chicken-broth": [
+    { name: "Astragalus Root", href: "/herbs/astragalus-root/" },
+    { name: "Jujube", href: "/herbs/jujube-red-date/" },
+    { name: "Fresh Ginger", href: "/herbs/fresh-ginger/" },
+    { name: "Goji Berry", href: "/herbs/goji-berry/" },
+  ],
 };
 const relatedHerbs = herbLinkMap[article.slug] ?? [
   { name: "Fresh Ginger", href: "/herbs/fresh-ginger/" },
@@ -747,6 +758,11 @@ const recipeLinkMap: Record<string, Array<{ title: string; href: string }>> = {
     { title: "A Simple Warming Soup Guide for Cold Weather", href: "/kitchen/a-simple-warming-soup-guide-for-cold-weather/" },
     { title: "Chinese Yam and Carrot Soup Basics", href: "/kitchen/chinese-yam-and-carrot-soup-basics/" },
     { title: "Pear and Lily Bulb Soup for Dry Days", href: "/kitchen/pear-and-lily-bulb-soup-for-dry-days/" },
+  ],
+  "astragalus-and-jujube-chicken-broth": [
+    { title: "A Simple Warming Soup Guide for Cold Weather", href: "/kitchen/a-simple-warming-soup-guide-for-cold-weather/" },
+    { title: "Perilla and Ginger Soup for Cool Days", href: "/kitchen/perilla-and-ginger-soup-for-cool-days/" },
+    { title: "Chinese Yam and Carrot Soup Basics", href: "/kitchen/chinese-yam-and-carrot-soup-basics/" },
   ],
 };
 const relatedRecipes = recipeLinkMap[article.slug] ?? [];
