@@ -388,6 +388,12 @@ const rawRecipeCards = [
     title: "Astragalus and Jujube Chicken Broth",
     text: "A deeply comforting winter soup that pairs astragalus root with jujube for a classic warming broth.",
   },
+  {
+    slug: "poria-and-coix-seed-congee",
+    title: "Poria and Coix Seed Congee",
+    text: "A gentle, grain-based bowl designed to clear traditional dampness and support digestion when you feel heavy or sluggish.",
+  },
 ];
 
 export const recipeCards = rawRecipeCards.map((card) => sanitizeContentCard(card));
+

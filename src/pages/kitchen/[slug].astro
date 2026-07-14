@@ -85,6 +85,14 @@ const articleSeoMap: Record<
     heroNote:
       "Readers who search astragalus chicken soup or jujube chicken broth usually want a clear home-style recipe, so this page keeps the ingredient list practical and the method easy to follow.",
   },
+  "poria-and-coix-seed-congee": {
+    title: "Poria and Coix Seed Congee Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A gentle, grain-based bowl designed to clear traditional dampness and support digestion. Includes ingredients, step-by-step preparation, and related herb links.",
+    extraKeywords: ["poria congee", "coix seed congee", "poria porridge", "jobs tears congee", "dampness congee"],
+    heroNote:
+      "Readers who search poria congee or coix seed congee usually want a simple grain-based bowl, so this page keeps the ingredient list short and the method easy to follow.",
+  },
   "black-sesame-breakfast-ideas-for-beginners": {
     title: "Black Sesame Breakfast Recipe Ideas | Easy Bowls and Kitchen Notes",
     description:
@@ -244,6 +252,10 @@ const recipeSchemaImageMap: Record<string, { src: string; alt: string }> = {
     src: "/images/recipes/soup-warming.svg",
     alt: "A warming chicken broth illustration with astragalus root and jujube for a winter soup page.",
   },
+  "poria-and-coix-seed-congee": {
+    src: "/images/recipes/oatmeal-bowl.jpg",
+    alt: "A soft congee bowl for a poria and coix seed grain-based recipe.",
+  },
 };
 const recipeCuisineMap: Record<string, string> = {
   "5-easy-traditional-kitchen-ingredients-for-beginners": "Chinese-inspired kitchen",
@@ -281,6 +293,7 @@ const recipeCuisineMap: Record<string, string> = {
   "cassia-seed-and-corn-silk-tea-basics": "Chinese-inspired tea",
   "lotus-root-soup-basics": "Chinese-inspired soup",
   "astragalus-and-jujube-chicken-broth": "Chinese-inspired soup",
+  "poria-and-coix-seed-congee": "Chinese-inspired congee",
 };
 const recipePageVisualMap: Record<string, { src: string; alt: string }> = {
   "5-easy-traditional-kitchen-ingredients-for-beginners": {
@@ -418,6 +431,10 @@ const recipePageVisualMap: Record<string, { src: string; alt: string }> = {
   "lotus-root-soup-basics": {
     src: "/images/recipes/soup-warming.svg",
     alt: "A lotus root soup illustration representing a simple home-style bowl.",
+  },
+  "poria-and-coix-seed-congee": {
+    src: "/images/recipes/soup-grain-light.svg",
+    alt: "A light grain congee illustration for poria and coix seed.",
   },
 };
 const recipeImage = recipeSchemaImageMap[article.slug] ?? {
@@ -581,6 +598,11 @@ const herbLinkMap: Record<string, Array<{ name: string; href: string }>> = {
     { name: "Jujube", href: "/herbs/jujube-red-date/" },
     { name: "Fresh Ginger", href: "/herbs/fresh-ginger/" },
     { name: "Goji Berry", href: "/herbs/goji-berry/" },
+  ],
+  "poria-and-coix-seed-congee": [
+    { name: "Poria", href: "/herbs/poria/" },
+    { name: "Job's Tears", href: "/herbs/jobs-tears/" },
+    { name: "Fresh Ginger", href: "/herbs/fresh-ginger/" },
   ],
 };
 const relatedHerbs = herbLinkMap[article.slug] ?? [
