@@ -110,6 +110,14 @@ const herbSeoMap: Record<
       "This page is built to help readers connect reishi mushroom with its traditional context and pantry-style kitchen reading.",
     extraKeywords: ["reishi mushroom", "ling zhi", "reishi tea", "reishi mushroom tea", "ganoderma"],
   },
+  "dong-quai": {
+    title: "Dong Quai (Dang Gui) Guide | Traditional Context, Soup Use, and Safety",
+    description:
+      "A dong quai guide with Dang Gui naming, traditional context, broth and soup notes, and clear safety language in plain English.",
+    heroNote:
+      "This page is built to help readers connect dong quai with its traditional context and pantry-style kitchen reading.",
+    extraKeywords: ["dong quai", "dang gui", "dong quai soup", "dong quai broth", "angelica sinensis"],
+  },
 };
 const herbSeo = herbSeoMap[herb.slug];
 const basicsBySlug: Record<string, string[]> = {
@@ -141,6 +149,7 @@ const basicsBySlug: Record<string, string[]> = {
   "ginkgo-leaf": ["what-is-traditional-herb-theory", "what-does-channel-entry-mean", "warming-vs-cooling-foods"],
   "turmeric-root": ["what-is-traditional-herb-theory", "what-is-qi-stagnation", "warming-vs-cooling-foods"],
   "reishi-mushroom": ["what-does-qi-mean", "what-does-shen-mean", "what-does-tonify-mean"],
+  "dong-quai": ["what-does-blood-mean", "what-does-nourish-blood-mean", "what-does-tonify-mean"],
 };
 const suggestedBasics = (basicsBySlug[herb.slug] ?? ["what-is-traditional-herb-theory", "what-does-channel-entry-mean", "warming-vs-cooling-foods"])
   .map((slug) => basicsCards.find((item) => item.slug === slug))

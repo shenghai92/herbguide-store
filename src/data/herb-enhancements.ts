@@ -243,15 +243,19 @@ const rawHerbEnhancements: HerbEnhancement[] = [
   },
   {
     slug: "dong-quai",
-    kitchenPairings: ["Jujube", "Goji berry", "Chicken broth", "Classic root comparisons"],
+    kitchenPairings: [
+      "White Peony Root",
+      "Sichuan Lovage Root",
+      "Prepared Rehmannia",
+    ],
     goodStartingPoints: [
-      "Use this page to understand why a famous root needs context, not blanket folklore.",
-      "Pair it with plain-English basics content before trying to read more advanced traditional claims around it.",
+      "It is most commonly experienced in slow-cooked chicken or mutton soups.",
+      "The flavor is strong, so a little goes a long way in the kitchen.",
     ],
     compareLinks: [
       { title: "What Does Blood Mean in Traditional Herb Writing?", href: "/basics/what-does-blood-mean/" },
       { title: "What Does Nourish Blood Mean?", href: "/basics/what-does-nourish-blood-mean/" },
-      { title: "Balanced Pantry Habits", href: "/topics/balanced-pantry-habits/" },
+      { title: "What Does Tonify Mean in Traditional Herb Writing?", href: "/basics/what-does-tonify-mean/" },
     ],
   },
   {
