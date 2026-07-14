@@ -200,7 +200,7 @@ const rawTopics: Topic[] = [
       "Warming foods are one of the strongest beginner topics because the idea feels intuitive and useful. This hub gathers together the pages that explain warming language through herbs, tea, and soup rather than abstract theory alone.",
     herbSlugs: ["fresh-ginger", "dried-ginger", "astragalus-root", "cinnamon-twig", "perilla-leaf", "licorice-root", "turmeric-root"],
     basicsSlugs: ["warming-vs-cooling-foods", "fresh-ginger-vs-dried-ginger", "what-does-tonify-mean", "what-does-spleen-mean", "what-does-harmonizing-mean", "what-are-the-five-flavors"],
-    foodSlugs: ["a-simple-warming-soup-guide-for-cold-weather", "jujube-and-ginger-tea-for-busy-weeks", "perilla-and-ginger-soup-for-cool-days"],
+    foodSlugs: ["a-simple-warming-soup-guide-for-cold-weather", "jujube-and-ginger-tea-for-busy-weeks", "perilla-and-ginger-soup-for-cool-days", "astragalus-and-jujube-chicken-broth"],
     sections: [
       {
         title: "Why warming language is beginner-friendly",

@@ -3470,4 +3470,61 @@ export const foodTherapyArticles: ContentArticle[] = [
       },
     ],
   },
+  {
+    slug: "astragalus-and-jujube-chicken-broth",
+    title: "Astragalus and Jujube Chicken Broth",
+    description:
+      "A deeply comforting winter soup that pairs the gentle resilience of astragalus root with the natural sweetness of jujube. A classic example of food as traditional nourishment.",
+    eyebrow: "Kitchen Traditions",
+    intro:
+      "A deeply comforting winter soup that pairs the gentle resilience of astragalus root with the natural sweetness of jujube. This is a classic example of food as traditional nourishment.",
+    recipe: {
+      recipeYield: "4 servings",
+      prepTime: "PT15M",
+      totalTime: "PT2H",
+      ingredients: [
+        "1 whole chicken (or bone-in pieces)",
+        "4 to 5 slices of Astragalus Root (Huang Qi)",
+        "6 to 8 dried Jujubes (Red Dates), pitted",
+        "3 slices of fresh ginger",
+        "8 cups of water",
+        "Salt to taste",
+      ],
+      steps: [
+        "Blanch the chicken in boiling water for 5 minutes, then rinse and drain.",
+        "In a large pot, combine the chicken, astragalus, jujubes, ginger, and water.",
+        "Bring to a boil, then reduce the heat to the lowest setting.",
+        "Cover and simmer gently for 1.5 to 2 hours.",
+        "Skim any fat from the surface, season with salt, and serve hot.",
+      ],
+      servingNotes: [
+        "Do not eat the astragalus slices; they are woody and meant only to flavor the broth.",
+        "The jujubes will be very soft and sweet, and are wonderful to eat.",
+      ],
+      caution: [
+        "Warming soups like this are perfect for cold weather but might feel too heavy if you are already experiencing signs of heat or are in the middle of a hot summer.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why this pairing works so well",
+        paragraphs: [
+          "Astragalus provides a subtle, earthy foundation that supports qi, while jujube adds warmth and sweetness. Together in a slow-simmered broth, they create a soup that feels incredibly grounding on a cold day.",
+        ],
+      },
+      {
+        title: "What readers learn from this recipe",
+        paragraphs: [
+          "This recipe shows that traditional herbs do not have to taste like bitter medicine. When used correctly in a kitchen setting, they enhance the flavor of everyday meals.",
+        ],
+      },
+      {
+        title: "What readers should click after this page",
+        paragraphs: [
+          "A warming chicken broth like this is a natural next step after reading about astragalus root, jujube, or fresh ginger on their individual herb pages.",
+          "It also pairs well with seasonal topic hubs like warming foods and with other soup recipes in the Kitchen Traditions section.",
+        ],
+      },
+    ],
+  },
 ];
