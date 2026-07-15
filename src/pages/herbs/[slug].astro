@@ -561,7 +561,7 @@ const faqSchema = {
           <section class="detail-section card">
             <h2>References</h2>
             {herb.references.map((ref) => (
-              <p>{ref}</p>
+              <p set:html={ref} />
             ))}
           </section>
         )}
