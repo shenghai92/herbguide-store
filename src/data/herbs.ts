@@ -58,9 +58,9 @@ const rawHerbs: Herb[] = [
     latin: "Astragali Radix",
     partUsed: "Root",
     category: "Qi-supporting herbs",
-    summary: "A foundational soup herb often used in traditional writing about qi and seasonal routines.",
+    summary: "A foundational soup herb often used in traditional writing about qi and seasonal routines. This deeper guide explains its role in winter kitchens.",
     whatItIs:
-      "Astragalus root is a classic kitchen-to-library bridge herb. In English-language content it often shows up in broths, tonic soups, and seasonal kitchen articles.",
+      "Astragalus looks like flat, pale yellow wooden tongue depressors. It is one of the most important ingredients in the traditional Chinese kitchen for supporting everyday resilience and vitality.",
     nature: "Slightly warming",
     flavor: "Sweet",
     channels: "Lung, Spleen",
@@ -71,8 +71,8 @@ const rawHerbs: Herb[] = [
     ],
     foodUses: ["Soup", "Broth", "Decoction"],
     caution:
-      "Not every tonic herb is appropriate for every pattern. Readers with complex personal situations should avoid making personal decisions from one article.",
-    tags: ["root", "soup", "qi", "seasonal kitchen", "popular"],
+      "Traditionally, it is often paused if you are actively fighting off a sudden cold, as it is meant for building resilience beforehand.",
+    tags: ["root", "soup", "qi", "warming"],
   },
   {
     slug: "fresh-ginger",
@@ -154,9 +154,9 @@ const rawHerbs: Herb[] = [
     latin: "Crataegi Fructus",
     partUsed: "Fruit",
     category: "Digestive herbs",
-    summary: "A tart fruit traditionally associated with food stagnation and digestive heaviness in this framework.",
+    summary: "A tart fruit traditionally associated with food stagnation and digestive heaviness in this framework. This expanded guide looks at its role after rich meals.",
     whatItIs:
-      "Hawthorn overlaps with Western herbal familiarity while still holding a distinct place in Chinese food traditions, which makes it easier for many readers to approach.",
+      "Unlike sweet berries, hawthorn is famously tart. It is the secret behind many traditional after-dinner teas and snacks, designed specifically for moments when you have eaten a bit too much.",
     nature: "Slightly warm",
     flavor: "Sour, sweet",
     channels: "Spleen, Stomach, Liver",
@@ -167,8 +167,8 @@ const rawHerbs: Herb[] = [
     ],
     foodUses: ["Tea", "Fruit snacks", "Digestive drink"],
     caution:
-      "Digestive discomfort can have many causes. Articles should not imply hawthorn replaces careful evaluation of ongoing issues.",
-    tags: ["digestive", "fruit", "tea", "seo", "food stagnation"],
+      "Because of its tart nature, it is traditionally not recommended on an empty stomach, especially for those with sensitive digestion.",
+    tags: ["digestive", "fruit", "tart", "post-meal"],
   },
   {
     slug: "chen-pi",
@@ -200,23 +200,23 @@ const rawHerbs: Herb[] = [
     pinyin: "Fu Ling",
         chinese: "Fu Ling",
     latin: "Poria",
-    partUsed: "Fungal body",
+    partUsed: "Sclerotium (fungus)",
     category: "Dampness-related herbs",
-    summary: "A classic traditional ingredient often used in conversations about dampness, fluid balance, and traditional context.",
+    summary: "A classic traditional ingredient often used in conversations about dampness, fluid balance, and traditional context. This guide explores why it is a quiet pantry staple.",
     whatItIs:
-      "Poria appears often in traditional herbal education but is less familiar to many mainstream U.S. readers, which makes it useful once beginners want a broader herb vocabulary.",
+      "Poria is a type of fungus that looks like a white, chalky block when dried and sliced. It has almost no flavor of its own, which makes it incredibly easy to slip into everyday soups and porridges.",
     nature: "Neutral",
     flavor: "Sweet, bland",
-    channels: "Heart, Spleen, Kidney, Lung",
+    channels: "Heart, Spleen, Kidney",
     traditionalUses: [
-      "Traditionally used in discussions of dampness and fluid regulation.",
-      "Often included in formulas and some food tradition recipes.",
-      "Useful for explaining how traditional pattern language differs from modern one-to-one labels.",
+      "Traditionally used to gently leach out dampness and support the spleen system.",
+      "Often discussed when the body feels heavy, sluggish, or clouded.",
+      "Commonly framed as a foundational, neutral ingredient that pairs with almost anything.",
     ],
     foodUses: ["Soup", "Porridge", "Powder blends"],
     caution:
-      "Because this herb is less familiar in mainstream food use, articles should be especially careful about sourcing and context.",
-    tags: ["dampness", "soup", "authority", "neutral", "tcm basics"],
+      "Generally considered very mild and safe for food use, but as always, read it in the context of your own needs.",
+    tags: ["dampness", "soup", "pantry", "gentle"],
   },
   {
     slug: "longan-fruit",

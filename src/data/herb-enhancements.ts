@@ -39,18 +39,6 @@ const rawHerbEnhancements: HerbEnhancement[] = [
     ],
   },
   {
-    slug: "astragalus-root",
-    kitchenPairings: ["Fresh ginger", "Jujube", "Chicken broth", "Carrot"],
-    goodStartingPoints: [
-      "Think of astragalus first as a long-simmered soup ingredient in traditional kitchen content.",
-      "Use it as a context herb for learning qi language rather than as a casual everyday recommendation.",
-    ],
-    compareLinks: [
-      { title: "What Does Tonify Mean in Traditional Herb Writing?", href: "/basics/what-does-tonify-mean/" },
-      { title: "Warming Foods", href: "/topics/warming-foods/" },
-    ],
-  },
-  {
     slug: "fresh-ginger",
     kitchenPairings: ["Jujube", "Pear", "Chicken soup", "Mint in contrast"],
     goodStartingPoints: [
@@ -115,10 +103,10 @@ const rawHerbEnhancements: HerbEnhancement[] = [
   },
   {
     slug: "hawthorn-berry",
-    kitchenPairings: ["Chen pi", "Fresh ginger", "Light tart tea", "Rich meal contrast"],
+    kitchenPairings: ["Chen Pi", "Barley Sprout", "Rock sugar"],
     goodStartingPoints: [
-      "Hawthorn is easiest to understand through rich-meal and pantry-tea language rather than isolated claims.",
-      "Use it as a digestive reading page that connects glossary terms with practical kitchen context.",
+      "Brew it as a simple tea after a heavy dinner.",
+      "Notice how the sour flavor cuts through the feeling of sluggishness.",
     ],
     compareLinks: [
       { title: "Hawthorn Berry Tea for Rich Meals", href: "/kitchen/hawthorn-berry-tea-for-rich-meals/" },
@@ -128,10 +116,10 @@ const rawHerbEnhancements: HerbEnhancement[] = [
   },
   {
     slug: "poria",
-    kitchenPairings: ["Job's tears", "Light soups", "Plain porridge", "Chen pi in broader digestive reading"],
+    kitchenPairings: ["Job's Tears", "Chinese Yam", "Adzuki Bean"],
     goodStartingPoints: [
-      "Poria makes the most sense after reading one plain-English page about dampness first.",
-      "Think of it as a context herb for traditional fluid and heaviness language, not a quick-fix ingredient.",
+      "Add a few pieces to your next batch of rice porridge or chicken soup.",
+      "It will not change the taste, but it adds traditional value to the bowl.",
     ],
     compareLinks: [
       { title: "What Is Dampness?", href: "/basics/what-is-dampness/" },
@@ -140,16 +128,15 @@ const rawHerbEnhancements: HerbEnhancement[] = [
     ],
   },
   {
-    slug: "lotus-seed",
-    kitchenPairings: ["Longan fruit", "Jujube", "Sweet soups", "Black sesame in broader pantry routines"],
+    slug: "astragalus-root",
+    kitchenPairings: ["Jujube", "Goji Berry", "Ginseng"],
     goodStartingPoints: [
-      "Lotus seed is easiest to trust when introduced through dessert soups and gentle evening-style kitchen pages.",
-      "Use it as a bridge between pantry familiarity and calmer traditional vocabulary.",
+      "Drop a few slices into a slow-simmering chicken or vegetable broth.",
+      "Remove the woody slices before eating, as they are meant to flavor the broth, not to be chewed.",
     ],
     compareLinks: [
-      { title: "Lotus Seed and Longan Sweet Soup Basics", href: "/kitchen/lotus-seed-and-longan-sweet-soup-basics/" },
-      { title: "What Does Shen Mean in Traditional Herb Writing?", href: "/basics/what-does-shen-mean/" },
-      { title: "Jujube and Lotus Seed Congee for Quiet Evenings", href: "/kitchen/jujube-and-lotus-seed-congee-for-quiet-evenings/" },
+      { title: "What Does Tonify Mean in Traditional Herb Writing?", href: "/basics/what-does-tonify-mean/" },
+      { title: "Warming Foods", href: "/topics/warming-foods/" },
     ],
   },
   {
