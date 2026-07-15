@@ -82,9 +82,9 @@ const rawHerbs: Herb[] = [
     latin: "Zingiberis Rhizoma Recens",
     partUsed: "Fresh rhizome",
     category: "Kitchen herbs",
-    summary: "A familiar kitchen ingredient that gives traditional food traditions an easy and practical entry point.",
+    summary: "A familiar kitchen ingredient that gives traditional food traditions an easy and practical entry point. This expanded guide explores its role in balancing cold-weather meals.",
     whatItIs:
-      "Fresh ginger is one of the most useful bridge ingredients for this site because readers already know it from cooking, tea, and home routines. Many readers also meet it through the pinyin name sheng jiang, which makes this page a practical naming bridge.",
+      "Fresh ginger is one of the most useful bridge ingredients for this site because readers already know it from cooking, tea, and home routines. It turns abstract warming concepts into something you can actually taste and feel.",
     nature: "Warm",
     flavor: "Pungent",
     channels: "Lung, Spleen, Stomach",
@@ -96,7 +96,7 @@ const rawHerbs: Herb[] = [
     foodUses: ["Tea", "Soup", "Stir-fry"],
     caution:
       "Even familiar food herbs can be irritating in excess. Readers with more complex personal needs should still use caution.",
-    tags: ["kitchen", "warming", "tea", "beginner", "digestive traditions", "sheng jiang", "sheng jiang tea"],
+    tags: ["kitchen", "warming", "tea", "beginner"],
   },
   {
     slug: "jujube-red-date",
@@ -274,9 +274,9 @@ const rawHerbs: Herb[] = [
     latin: "Ginseng Radix et Rhizoma",
     partUsed: "Root",
     category: "Qi-supporting herbs",
-    summary: "A famous tonic root that needs careful explanation because recognition is high but assumptions are often vague.",
+    summary: "A famous tonic root that needs careful explanation because recognition is high but assumptions are often vague. This deeper guide removes the hype and focuses on kitchen reality.",
     whatItIs:
-      "Ginseng is widely known in English-speaking popular culture, which makes it important for search visibility, but it also requires careful framing to avoid hype.",
+      "Ginseng is widely known in English-speaking popular culture, which makes it important for search visibility, but it also requires careful framing. It is not a magic bullet, but a deeply respected root used in slow-simmered broths.",
     nature: "Slightly warm",
     flavor: "Sweet, slightly bitter",
     channels: "Lung, Spleen, Heart",
@@ -288,7 +288,7 @@ const rawHerbs: Herb[] = [
     foodUses: ["Soup", "Tea", "Tonic preparations"],
     caution:
       "This is not a casual herb for everyone. The site should emphasize context, sourcing, and professional guidance.",
-    tags: ["famous", "root", "qi", "seo", "high-interest"],
+    tags: ["famous", "root", "qi", "high-interest"],
   },
   {
     slug: "american-ginseng",

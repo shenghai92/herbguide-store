@@ -26,6 +26,19 @@ const rawHerbEnhancements: HerbEnhancement[] = [
     ],
   },
   {
+    slug: "ginseng",
+    kitchenPairings: ["Astragalus Root", "Jujube", "Chicken broth"],
+    goodStartingPoints: [
+      "Understand that it is traditionally used in moderation, often in long-simmered soups rather than quick teas.",
+      "Compare it with American Ginseng to see how traditional theory separates different roots.",
+    ],
+    compareLinks: [
+      { title: "What Does Tonify Mean in Traditional Herb Writing?", href: "/basics/what-does-tonify-mean/" },
+      { title: "What Does Qi Mean?", href: "/basics/what-does-qi-mean/" },
+      { title: "American Ginseng Guide", href: "/herbs/american-ginseng/" },
+    ],
+  },
+  {
     slug: "astragalus-root",
     kitchenPairings: ["Fresh ginger", "Jujube", "Chicken broth", "Carrot"],
     goodStartingPoints: [
