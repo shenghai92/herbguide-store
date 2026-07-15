@@ -34,9 +34,9 @@ const rawHerbs: Herb[] = [
     latin: "Lycii Fructus",
     partUsed: "Fruit",
     category: "Nourishing herbs",
-    summary: "A well-known berry often used in teas, soups, porridge, and simple everyday kitchen recipes.",
+    summary: "A well-known berry often used in teas, soups, porridge, and simple everyday kitchen recipes. We have expanded this guide to offer deeper insight into why it sits on so many pantry shelves.",
     whatItIs:
-      "Goji berry is one of the easiest traditional herbs for English-speaking readers to recognize because it already appears in snack mixes, teas, and modern grocery products. It also shows up in search as gou qi zi or gouqi berries, so this page keeps those naming paths easy to connect.",
+      "Goji berry is one of the easiest traditional herbs for English-speaking readers to recognize because it already appears in snack mixes, teas, and modern grocery products. It bridges the gap between old-world culinary traditions and modern lifestyles seamlessly. We show the English name, pinyin, Chinese characters, and Latin name together so readers can connect grocery familiarity, traditional terminology, and reference naming in one place.",
     nature: "Neutral to slightly warming",
     flavor: "Sweet",
     channels: "Liver, Kidney",
@@ -48,7 +48,7 @@ const rawHerbs: Herb[] = [
     foodUses: ["Tea", "Broth", "Congee"],
     caution:
       "Readers following ongoing care plans, especially where blood-thinning products are involved, should check local guidance before using goji regularly.",
-    tags: ["beginner", "berry", "tea", "food traditions", "daily cooking", "gouqi berries", "gou qi zi", "goji berry tea"],
+    tags: ["beginner", "berry", "tea", "food traditions"],
   },
   {
     slug: "astragalus-root",

@@ -13,7 +13,7 @@ export type HerbEnhancement = {
 const rawHerbEnhancements: HerbEnhancement[] = [
   {
     slug: "goji-berry",
-    kitchenPairings: ["Jujube", "Pear", "Black sesame", "Lotus seed"],
+    kitchenPairings: ["Jujube", "Pear", "Black sesame", "Chrysanthemum"],
     goodStartingPoints: [
       "Use it in porridge, light soups, and tea-style pages rather than reading it like an isolated supplement.",
       "Add it near the end of cooking when you want color and softness without overcooking the berries.",
