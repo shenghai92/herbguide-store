@@ -560,9 +560,16 @@ const faqSchema = {
         {herb.references && herb.references.length > 0 && (
           <section class="detail-section card">
             <h2>References</h2>
-            {herb.references.map((ref) => (
-              <p>{ref}</p>
-            ))}
+            {herb.references.map((ref) => {
+              const urlMatch = ref.match(/(https?:\/\/[^\s]+)/);
+              const url = urlMatch ? urlMatch[1] : null;
+              const label = url ? ref.replace(url, '').trim() : ref;
+              return url ? (
+                <p>{label} <a href={url} target="_blank" rel="noopener noreferrer">{url}</a></p>
+              ) : (
+                <p>{ref}</p>
+              );
+            })}
           </section>
         )}
       </article>
