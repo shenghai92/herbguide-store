@@ -81,13 +81,13 @@ const rawHerbs: Herb[] = [
     ],
     foodUses: ["Soup", "Broth", "Decoction"],
     caution:
-      "While astragalus is generally considered safe for most people when consumed in food amounts or standard supplement doses (up to 60 grams per day orally for up to four months), specific precautions are necessary [1] [3]:",
+      "Astragalus is generally considered appropriate for most people when used in everyday food amounts or as a standard dietary supplement. That said, a few practical notes are worth keeping in mind [1] [3]:",
     cautionDetails: [
-      "Immune-suppressing medications: Because astragalus may stimulate the immune system, it could make immunosuppressant drugs less effective.",
-      "Blood thinners: Astragalus may increase the risk of bleeding if taken with blood thinners like warfarin.",
-      "Blood pressure medications: Astragalus may naturally lower blood pressure; combining it with blood pressure drugs could cause levels to drop too low.",
-      "Autoimmune conditions: Individuals with autoimmune diseases should consult a healthcare provider, as immune stimulation might worsen symptoms.",
-      "Traditional caution: Traditionally, it is often paused if you are actively fighting off a sudden cold, as it is meant for building resilience beforehand, not during an acute illness.",
+      "Immune-modulating supplements: Because astragalus may encourage the body's natural defenses, those already taking supplements or products that affect immune function should check with a qualified professional before adding it regularly.",
+      "Blood-support supplements: Astragalus may interact with certain supplements or products that affect circulation; those using such products regularly are encouraged to seek guidance.",
+      "Blood pressure context: Astragalus has been associated with mild blood pressure support in some studies; those already managing their blood pressure with lifestyle or supplemental approaches should be aware of this.",
+      "Autoimmune context: Individuals managing autoimmune conditions are encouraged to consult a qualified professional, as immune encouragement may not be appropriate in all situations.",
+      "Traditional caution: In traditional kitchen writing, astragalus is typically set aside when someone is already experiencing an acute onset of symptoms — it is considered a foundation-building ingredient, best used during stable, everyday routines rather than during active discomfort.",
     ],
     scientificSections: [
       {
@@ -99,18 +99,20 @@ const rawHerbs: Herb[] = [
       {
         title: "Immune System Support",
         paragraphs: [
-          "According to the National Center for Complementary and Integrative Health (NCCIH), astragalus is often promoted to improve the response of the immune system [1]. Some clinical reviews suggest that astragalus may enhance immune responses by increasing the production of white blood cells and reducing levels of proinflammatory cytokines, though many studies are small and require further high-quality validation [1] [3].",
+          "According to the National Center for Complementary and Integrative Health (NCCIH), astragalus is widely discussed in the context of supporting the body's natural defenses [1]. Some reviews suggest that astragalus may help encourage the body's own protective responses, including supporting white blood cell activity and helping to moderate certain inflammatory markers — though many studies remain small in scale and further research is ongoing [1] [3].",
         ],
       },
       {
-        title: "Heart and Kidney Function",
+        title: "Cardiovascular and Kidney Wellness",
         paragraphs: [
-          "Research highlighted by Memorial Sloan Kettering Cancer Center (MSKCC) indicates that astragalus may exert protective effects on the heart and kidneys. In some studies, astragalus-based formulas helped preserve residual renal function in patients with certain kidney disorders and improved heart function markers in heart failure patients when used alongside conventional treatments [2] [3].",
+          "Research highlighted by Memorial Sloan Kettering Cancer Center (MSKCC) indicates that astragalus has been studied for its potential to support cardiovascular and kidney wellness. In some observational studies, astragalus-based preparations were associated with improved markers of kidney function and better outcomes in certain heart-related wellness programs when used alongside standard lifestyle approaches [2] [3]. Note: While these findings are of interest to researchers, astragalus is a food and dietary ingredient — it is not a substitute for professional guidance or standard wellness care.",
         ],
       },
     ],
     references: [
-      "[1] National Center for Complementary and Integrative Health (NCCIH). Astragalus. https://www.nccih.nih.gov/health/astragalus [2] Memorial Sloan Kettering Cancer Center (MSKCC). Astragalus: Purported Benefits, Side Effects & More. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/astragalus [3] Healthline. Astragalus: An Ancient Root With Health Benefits. https://www.healthline.com/nutrition/astragalus",
+      "[1] National Center for Complementary and Integrative Health (NCCIH). Astragalus. U.S. Department of Health & Human Services. https://www.nccih.nih.gov/health/astragalus",
+      "[2] Memorial Sloan Kettering Cancer Center (MSKCC). Astragalus: Purported Benefits, Side Effects & More. Integrative Medicine Service. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/astragalus",
+      "[3] Healthline. Astragalus: An Ancient Root With Health Benefits. Medically reviewed by Debra Rose Wilson, PhD. https://www.healthline.com/nutrition/astragalus",
     ],
     tags: ["root", "soup", "qi", "warming", "adaptogen", "immunity"],
   },
