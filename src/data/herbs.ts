@@ -110,9 +110,7 @@ const rawHerbs: Herb[] = [
       },
     ],
     references: [
-      "[1] National Center for Complementary and Integrative Health (NCCIH). Astragalus. https://www.nccih.nih.gov/health/astragalus",
-      "[2] Memorial Sloan Kettering Cancer Center (MSKCC). Astragalus: Purported Benefits, Side Effects & More. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/astragalus",
-      "[3] Healthline. Astragalus: An Ancient Root With Health Benefits. https://www.healthline.com/nutrition/astragalus",
+      "[1] National Center for Complementary and Integrative Health (NCCIH). Astragalus. https://www.nccih.nih.gov/health/astragalus [2] Memorial Sloan Kettering Cancer Center (MSKCC). Astragalus: Purported Benefits, Side Effects & More. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/astragalus [3] Healthline. Astragalus: An Ancient Root With Health Benefits. https://www.healthline.com/nutrition/astragalus",
     ],
     tags: ["root", "soup", "qi", "warming", "adaptogen", "immunity"],
   },
