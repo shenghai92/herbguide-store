@@ -135,6 +135,8 @@ const rawHerbEnhancements: HerbEnhancement[] = [
       "Remove the woody slices before eating, as they are meant to flavor the broth, not to be chewed.",
     ],
     compareLinks: [
+      { title: "A Simple Warming Soup Guide for Cold Weather", href: "/kitchen/a-simple-warming-soup-guide-for-cold-weather/" },
+      { title: "Jujube and Ginger Tea for Busy Weeks", href: "/kitchen/jujube-and-ginger-tea-for-busy-weeks/" },
       { title: "What Does Tonify Mean in Traditional Herb Writing?", href: "/basics/what-does-tonify-mean/" },
       { title: "Warming Foods", href: "/topics/warming-foods/" },
     ],

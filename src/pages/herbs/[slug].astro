@@ -325,43 +325,56 @@ const faqSchema = {
 >
   <section class="page-hero herb-detail-hero">
     <div class="shell herb-detail-grid">
-      <div>
-        <p class="eyebrow">{herb.category}</p>
-        <h1>{herb.name}</h1>
-        <p class="detail-subtitle">{detailNameParts.join(" | ")}</p>
-        <p>{herb.summary}</p>
-        {herbSeo?.heroNote && <p>{herbSeo.heroNote}</p>}
-        <p>
-          This guide helps readers understand what {herb.name} is, how traditional writing
-          describes it, where it shows up in tea or kitchen reading, and what cautions belong on the page.
-        </p>
-        {herbHeroImage && (
-          <figure class="card herb-hero-media">
-            <img src={herbHeroImage.src} alt={herbHeroImage.alt} loading="eager" />
-          </figure>
-        )}
-      </div>
-      <aside class="info-panel">
-        <p class="eyebrow">Quick facts</p>
-        <dl class="facts-grid">
-          <div>
-            <dt>Part used</dt>
-            <dd>{herb.partUsed}</dd>
+        <div>
+            <p class="eyebrow">{herb.category}</p>
+            <h1>{herb.name}</h1>
+            <p class="detail-subtitle">{detailNameParts.join(" | ")}</p>
+            <p>{herb.summary}</p>
+            {herbSeo?.heroNote && <p>{herbSeo.heroNote}</p>}
+            <p>
+              This guide helps readers understand what {herb.name} is, how traditional writing
+              describes it, what modern science says, where it shows up in tea or kitchen reading, and what safety
+              cautions belong on the page.
+            </p>
+            {herbHeroImage && (
+              <figure class="card herb-hero-media">
+                <img src={herbHeroImage.src} alt={herbHeroImage.alt} loading="eager" />
+              </figure>
+            )}
           </div>
-          <div>
-            <dt>Nature</dt>
-            <dd>{herb.nature}</dd>
-          </div>
-          <div>
-            <dt>Flavor</dt>
-            <dd>{herb.flavor}</dd>
-          </div>
-          <div>
-            <dt>Channel entry</dt>
-            <dd>{herb.channels}</dd>
-          </div>
-        </dl>
-      </aside>
+          <aside class="info-panel">
+            <p class="eyebrow">Quick facts</p>
+            <dl class="facts-grid">
+              <div>
+                <dt>Part used</dt>
+                <dd>{herb.partUsed}</dd>
+              </div>
+              <div>
+                <dt>Nature</dt>
+                <dd>{herb.nature}</dd>
+              </div>
+              <div>
+                <dt>Flavor</dt>
+                <dd>{herb.flavor}</dd>
+              </div>
+              <div>
+                <dt>Channel entry</dt>
+                <dd>{herb.channels}</dd>
+              </div>
+              {herb.commonNames && (
+                <div>
+                  <dt>Common Names</dt>
+                  <dd>{herb.commonNames}</dd>
+                </div>
+              )}
+              {herb.arabicName && (
+                <div>
+                  <dt>Arabic Name</dt>
+                  <dd>{herb.arabicName}</dd>
+                </div>
+              )}
+            </dl>
+          </aside>
     </div>
   </section>
 
@@ -472,6 +485,26 @@ const faqSchema = {
           </section>
         )}
 
+        {herb.scientificSections && herb.scientificSections.length > 0 && (
+          <section class="detail-section card">
+            <h2>What the science says</h2>
+            <p>
+              To provide a well-rounded view, it is helpful to look at how authoritative health
+              organizations evaluate {herb.name.toLowerCase()}. {herb.name} is considered an
+              adaptogen—a natural substance theorized to stimulate the body's resistance to
+              physical, environmental, and emotional stress [1].
+            </p>
+            {herb.scientificSections.map((section) => (
+              <>
+                <h3>{section.title}</h3>
+                {section.paragraphs.map((p) => (
+                  <p>{p}</p>
+                ))}
+              </>
+            ))}
+          </section>
+        )}
+
         <section class="detail-section card">
           <h2>How to read this page in context</h2>
           <p>
@@ -505,14 +538,30 @@ const faqSchema = {
         </section>
 
         <section class="detail-section caution-section" id="safety-note">
-          <h2>Safety note</h2>
+          <h2>Safety note and interactions</h2>
           <p>{herb.caution}</p>
+          {herb.cautionDetails && herb.cautionDetails.length > 0 && (
+            <ul>
+              {herb.cautionDetails.map((item) => (
+                <li><strong>{item.split(":")[0]}:</strong>{item.includes(":") ? item.substring(item.indexOf(":")) : ""}</li>
+              ))}
+            </ul>
+          )}
           <p>
-            HerbGuide is an educational resource. This page does not provide personal
+            <em>HerbGuide is an educational resource. This page does not provide personal
             advice, individualized recommendations, or a claim that this herb is appropriate for
-            any specific person.
+            any specific person.</em>
           </p>
         </section>
+
+        {herb.references && herb.references.length > 0 && (
+          <section class="detail-section card">
+            <h2>References</h2>
+            {herb.references.map((ref) => (
+              <p>{ref}</p>
+            ))}
+          </section>
+        )}
       </article>
 
       <aside class="detail-sidebar">

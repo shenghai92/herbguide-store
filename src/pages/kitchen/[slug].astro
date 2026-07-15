@@ -1078,6 +1078,15 @@ const faqSchema = article.recipe
           </ul>
         </article>
       )}
+      {article.references && article.references.length > 0 && (
+        <article class="prose-block card">
+          <p class="eyebrow">References</p>
+          <h2>References</h2>
+          {article.references.map((ref) => (
+            <p>{ref}</p>
+          ))}
+        </article>
+      )}
       <article class="prose-block card">
         <p class="eyebrow">Keep exploring</p>
         <h2>Back to Kitchen Traditions</h2>

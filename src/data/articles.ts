@@ -22,6 +22,7 @@ export type ContentArticle = {
     servingNotes?: string[];
     caution?: string[];
   };
+  references?: string[];
 };
 
 const rawBasicsArticles: ContentArticle[] = [
@@ -1614,8 +1615,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       {
         title: "A beginner-friendly warming soup structure",
         paragraphs: [
-          "A simple warming soup page usually starts with a light protein or vegetable base, then layers in a few traditional ingredients rather than too many.",
-          "This makes the recipe easier to follow and easier to trust.",
+          "A simple warming soup page usually starts with a light protein or vegetable base, then layers in a few traditional ingredients rather than too many. This makes the recipe easier to follow and easier to trust.",
         ],
         bullets: [
           "Base ingredients can include chicken, root vegetables, or a mild broth.",
@@ -1628,10 +1628,15 @@ export const foodTherapyArticles: ContentArticle[] = [
         title: "Why it works: Tradition meets science",
         paragraphs: [
           "A simple warming soup gives readers a more concrete way to understand how traditional ingredients can appear in everyday kitchen routines.",
-          "Traditional View: In traditional Chinese kitchen writing, this combination is designed to support the Spleen and Stomach, warm the body's core, and build Wei Qi (defensive energy) against cold weather.",
-          "Modern Nutritional View: Astragalus Root acts as an adaptogen, with research indicating its polysaccharides and flavonoids may help modulate the immune system and provide antioxidant support during stressful seasonal changes. Fresh Ginger contains gingerol, a bioactive compound with potent anti-inflammatory and antioxidant effects, widely recognized for aiding digestion and reducing nausea. Jujube is rich in Vitamin C and fiber, providing natural energy and supporting overall immune health.",
+          "Traditional View: In traditional Chinese kitchen writing, this combination is designed to support the Spleen and Stomach, warm the body's core, and build \"Wei Qi\" (defensive energy) against cold weather.",
+          "Modern Nutritional View: Astragalus Root acts as an adaptogen. Research indicates its polysaccharides and flavonoids may help modulate the immune system and provide antioxidant support during stressful seasonal changes [1] [2]. Fresh Ginger contains gingerol, a bioactive compound with potent anti-inflammatory and antioxidant effects, widely recognized for aiding digestion and reducing nausea [3]. Jujube is rich in Vitamin C and fiber, providing natural energy and supporting overall immune health.",
         ],
       },
+    ],
+    references: [
+      "[1] National Center for Complementary and Integrative Health (NCCIH). Astragalus. https://www.nccih.nih.gov/health/astragalus",
+      "[2] Memorial Sloan Kettering Cancer Center (MSKCC). Astragalus: Purported Benefits, Side Effects & More. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/astragalus",
+      "[3] Healthline. 11 Proven Health Benefits of Ginger. https://www.healthline.com/nutrition/11-proven-benefits-of-ginger",
     ],
   },
   {
