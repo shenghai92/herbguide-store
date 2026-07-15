@@ -275,13 +275,15 @@ const rawHerbEnhancements: HerbEnhancement[] = [
   {
     slug: "reishi-mushroom",
     kitchenPairings: [
-      "Jujube",
-      "Longan Fruit",
-      "Licorice Root",
+      "Jujube (Red Date)",
+      "Goji Berry",
+      "Astragalus Root",
     ],
     goodStartingPoints: [
-      "Because it can be quite bitter, it is best simmered slowly with naturally sweet ingredients like jujube.",
-      "Think of it as a weekend project rather than a quick morning fix.",
+      "Add a few dried slices to a slow-simmered chicken or vegetable broth for 45-60 minutes. Remove the woody slices before serving — they flavor the broth, they are not meant to be eaten.",
+      "For a simpler route, simmer dried slices in water for 20-30 minutes as a tea. The flavor is earthy and distinctly bitter, so pair it with naturally sweet ingredients like jujube or goji berry.",
+      "Think of reishi as a weekend project rather than a quick morning fix. It is a slow-acting, long-term ingredient — not a casual everyday flavor.",
+      "Reishi is not a casual everyday flavor ingredient. Its bitterness makes it better suited as a background note in broths and soups rather than a primary flavor.",
     ],
     compareLinks: [
       { title: "What Does Qi Mean?", href: "/basics/what-does-qi-mean/" },

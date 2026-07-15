@@ -888,25 +888,61 @@ const rawHerbs: Herb[] = [
     slug: "reishi-mushroom",
     name: "Reishi Mushroom",
     pinyin: "Ling Zhi",
-    chinese: "Ling Zhi",
-    latin: "Ganoderma",
+    chinese: "灵芝",
+    latin: "Ganoderma lucidum",
     partUsed: "Fruiting body",
     category: "Qi-supporting herbs",
-    summary: "A famous mushroom with broad mainstream visibility that needs grounded educational framing. We explore its traditional kitchen use beyond the modern hype.",
+    commonNames: "Reishi, Lingzhi, Ling Zhi, Mushroom of Immortality, Ganoderma",
+    arabicName: "فطر الريشي (Fatr Al-Reishi)",
+    summary: "A beautiful, woody mushroom with a distinctive lacquered, fan-shaped appearance and over two thousand years of traditional use. This guide explores its traditional context, kitchen use, and what modern science says about its active compounds.",
     whatItIs:
-      "Reishi is a beautiful, woody mushroom with a lacquered appearance. While it is heavily marketed today in coffees and powders, its traditional use is much slower and more deliberate.",
+      "Reishi is a beautiful, woody mushroom with a distinctive lacquered, fan-shaped appearance. It grows naturally in humid, forested regions across East Asia and has been a cornerstone of traditional Chinese, Japanese, and Korean wellness traditions for over two thousand years. While it is heavily marketed today in coffees, powders, and capsules, its traditional use is much slower and more deliberate. Traditional practitioners valued reishi not as a quick fix, but as a long-term, slow-acting ingredient associated with longevity, quiet resilience, and steady nourishment. This page explores both that traditional context and what modern science says about its active compounds.",
     nature: "Neutral",
     flavor: "Sweet, bitter",
     channels: "Heart, Liver, Lung",
     traditionalUses: [
-      "Traditionally used to calm the spirit (shen) and support overall qi.",
-      "Often discussed in the context of longevity, quiet resilience, and steady nourishment.",
-      "Commonly framed as a deeply respected, slow-acting ingredient.",
+      "In traditional Chinese herb frameworks, Reishi (Ling Zhi) is placed in the category of herbs that support the spirit (shen) and build overall defensive qi (Wei Qi). Wei Qi is the concept of the body's outer protective energy — the layer that keeps the body resilient against external stressors.",
+      "Reishi is associated with the Heart, Liver, and Lung channels, which in this framework relates to emotional steadiness, detoxification support, and respiratory resilience.",
+      "Supporting the spirit (shen) and calming the mind — a traditional role tied to quiet resilience rather than quick relief.",
+      "Building long-term resilience rather than providing short-term relief — it is a slow-acting, deeply respected ingredient in longevity-focused kitchen traditions.",
+      "Nourishing the qi of the Heart, Liver, and Lung channels — a foundational concept in traditional tonic writing.",
     ],
-    foodUses: ["Tea", "Broth", "Long-simmered slices"],
+    foodUses: ["Long-simmered broth", "Reishi tea", "Tonic soups with jujube, goji, or astragalus"],
     caution:
-      "Reishi is generally safe but its bitter nature and strong traditional profile mean it should be used mindfully, not as a casual daily beverage for everyone.",
-    tags: ["reishi", "mushroom", "calming", "advanced"],
+      "This page is an educational reference built around traditional herb writing and publicly available research summaries. It is not a wellness recommendation, a substitute for professional guidance, or a claim that this herb is appropriate for any specific person.",
+    cautionDetails: [
+      "Product interactions: Individuals taking supplements or products that affect immune function (such as immunosuppressants) or circulation (such as products affecting blood coagulation) should seek guidance from a qualified professional before regular use of reishi-based products.",
+      "When to pause: Traditional kitchen practices suggest pausing the use of heavy, tonifying ingredients like reishi when experiencing an acute onset of symptoms, such as a sudden cold or fever. This is a traditional guideline, not a medical instruction.",
+      "Liver wellness: A small number of case reports have noted liver-related concerns associated with powdered reishi supplements. This is distinct from traditional food-grade preparation (broth, tea). Individuals with existing liver wellness concerns should seek guidance from a qualified professional before use.",
+      "Pregnancy and nursing: Traditional frameworks and current research both suggest that individuals who are pregnant or nursing should seek guidance before using reishi.",
+    ],
+    scientificSections: [
+      {
+        title: "Nutritional and Active Compounds",
+        paragraphs: [
+          "Reishi's primary active compounds are its beta-glucan polysaccharides and triterpenes. Beta-glucans are complex carbohydrates found in the cell walls of fungi, and research suggests they may interact with immune cell receptors. Triterpenes are bitter-tasting compounds that give reishi its characteristic flavor and are the subject of ongoing research into their biological properties.",
+          "Unlike many culinary mushrooms, reishi is rarely eaten whole due to its tough, woody texture. It is more commonly prepared as a long-simmered broth, a dried extract, or a tea, which helps release its water-soluble compounds.",
+        ],
+      },
+      {
+        title: "Immune System Support",
+        paragraphs: [
+          "A significant body of research explores reishi's immunomodulatory properties. Studies indicate that its polysaccharides may help manage the function of T lymphocyte cells and white blood cells, which play crucial roles in the body's natural immune response. Research published in the British Journal of Nutrition found that Ganoderma lucidum supplementation may modulate T-lymphocyte function. However, researchers consistently note that more large-scale human trials are needed before firm conclusions can be drawn.",
+        ],
+      },
+      {
+        title: "Cardiovascular and Metabolic Wellness",
+        paragraphs: [
+          "Beyond immune support, research has explored reishi's potential role in cardiovascular wellness programs. Some studies suggest that its active compounds may help support healthy lipid levels, including managing triglycerides and supporting HDL ('good') cholesterol. A number of in vitro and animal model studies have shown promising results, though human trials have produced mixed findings. The current scientific consensus is that reishi shows potential in this area, but further investigation is required.",
+        ],
+      },
+    ],
+    references: [
+      "[1] Memorial Sloan Kettering Cancer Center (MSKCC). Reishi Mushroom: Purported Benefits, Side Effects & More. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/reishi-mushroom",
+      "[2] Healthline. 6 Benefits of Reishi Mushroom (Plus Side Effects and Dosage). https://www.healthline.com/nutrition/reishi-mushroom-benefits",
+      "[3] National Center for Complementary and Integrative Health (NCCIH). Reishi Mushroom Overview. https://www.nccih.nih.gov/health/reishi-mushroom",
+    ],
+    tags: ["reishi", "lingzhi", "ling zhi", "ganoderma", "mushroom of immortality", "reishi mushroom benefits", "reishi tea", "reishi broth", "immune support mushroom", "qi-supporting herbs", "traditional Chinese mushroom", "灵芝"],
   },
   {
     slug: "cordyceps",
