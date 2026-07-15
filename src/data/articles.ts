@@ -1628,8 +1628,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         title: "Why it works: Tradition meets science",
         paragraphs: [
           "A simple warming soup gives readers a more concrete way to understand how traditional ingredients can appear in everyday kitchen routines.",
-          "Traditional View: In traditional Chinese kitchen writing, this combination is designed to support the Spleen and Stomach, warm the body's core, and build \"Wei Qi\" (defensive energy) against cold weather.",
-          "Modern Nutritional View: Astragalus Root acts as an adaptogen. Research indicates its polysaccharides and flavonoids may help modulate the immune system and provide antioxidant support during stressful seasonal changes [1] [2]. Fresh Ginger contains gingerol, a bioactive compound with potent anti-inflammatory and antioxidant effects, widely recognized for aiding digestion and reducing nausea [3]. Jujube is rich in Vitamin C and fiber, providing natural energy and supporting overall immune health.",
+          "In traditional Chinese kitchen writing, this combination is designed to support the Spleen and Stomach, warm the body's core, and build defensive energy against cold weather. From a modern nutritional view, astragalus contains polysaccharides and flavonoids that may support immune function, fresh ginger contains gingerol with anti-inflammatory properties, and jujube provides vitamin C and fiber for overall health support.",
         ],
       },
     ],

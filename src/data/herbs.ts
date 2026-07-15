@@ -68,7 +68,7 @@ const rawHerbs: Herb[] = [
     category: "Qi-supporting herbs",
     summary: "A foundational soup herb often used in traditional writing about qi and seasonal routines. This deeper guide explains its role in winter kitchens, alongside insights from modern nutritional science and authoritative health databases.",
     whatItIs:
-      "Astragalus looks like flat, pale yellow wooden tongue depressors. It is one of the most important ingredients in the traditional Chinese kitchen for supporting everyday resilience and vitality. Its Chinese name, Huang Qi, translates to \"Yellow Leader,\" reflecting its esteemed status in herbal traditions. We show the English name, pinyin, Chinese characters, and Latin name together so readers can connect grocery familiarity, traditional terminology, and reference naming in one place. In the Middle East and among Arabic speakers, it is often referred to as القتاد (Al-Qatad), though it shares a global reputation as a supportive adaptogen.",
+      "Astragalus looks like flat, pale yellow wooden tongue depressors. It is one of the most important ingredients in the traditional Chinese kitchen for supporting everyday resilience and vitality. Its Chinese name, Huang Qi, translates to 'Yellow Leader,' reflecting its esteemed status in herbal traditions.",
     nature: "Slightly warming",
     flavor: "Sweet",
     channels: "Lung, Spleen",
@@ -81,40 +81,7 @@ const rawHerbs: Herb[] = [
     ],
     foodUses: ["Soup", "Broth", "Decoction"],
     caution:
-      "While astragalus is generally considered safe for most people when consumed in food amounts, specific precautions are necessary.",
-    cautionDetails: [
-      "Immune-suppressing medications: Because astragalus may stimulate the immune system, it could make immunosuppressant drugs less effective.",
-      "Blood thinners: Astragalus may increase the risk of bleeding if taken with blood thinners like warfarin.",
-      "Blood pressure medications: Astragalus may naturally lower blood pressure; combining it with blood pressure drugs could cause levels to drop too low.",
-      "Autoimmune conditions: Individuals with autoimmune diseases should consult a healthcare provider, as immune stimulation might worsen symptoms.",
-      "Traditional caution: Traditionally, it is often paused if you are actively fighting off a sudden cold, as it is meant for building resilience beforehand, not during an acute illness.",
-    ],
-    scientificSections: [
-      {
-        title: "Nutritional and Active Compounds",
-        paragraphs: [
-          "Beneficial effects of astragalus are largely attributed to its active plant compounds, specifically polysaccharides, triterpenoid saponins (such as astragaloside IV), and flavonoids [1]. These compounds have been studied for their antioxidant and anti-inflammatory properties.",
-        ],
-      },
-      {
-        title: "Immune System Support",
-        paragraphs: [
-          "According to the National Center for Complementary and Integrative Health (NCCIH), astragalus is often promoted to improve the response of the immune system [1]. Some clinical reviews suggest that astragalus may enhance immune responses by increasing the production of white blood cells and reducing levels of proinflammatory cytokines, though many studies are small and require further high-quality validation [1] [3].",
-        ],
-      },
-      {
-        title: "Heart and Kidney Function",
-        paragraphs: [
-          "Research highlighted by Memorial Sloan Kettering Cancer Center (MSKCC) indicates that astragalus may exert protective effects on the heart and kidneys. In some studies, astragalus-based formulas helped preserve residual renal function in patients with certain kidney disorders and improved heart function markers in heart failure patients when used alongside conventional treatments [2] [3].",
-          "Note: While these studies are promising, astragalus is a dietary supplement and should not replace standard medical care.",
-        ],
-      },
-    ],
-    references: [
-      "[1] National Center for Complementary and Integrative Health (NCCIH). Astragalus. https://www.nccih.nih.gov/health/astragalus",
-      "[2] Memorial Sloan Kettering Cancer Center (MSKCC). Astragalus: Purported Benefits, Side Effects & More. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/astragalus",
-      "[3] Healthline. Astragalus: An Ancient Root With Health Benefits. https://www.healthline.com/nutrition/astragalus",
-    ],
+      "Traditionally, it is often paused if you are actively fighting off a sudden cold, as it is meant for building resilience beforehand.",
     tags: ["root", "soup", "qi", "warming", "adaptogen", "immunity"],
   },
   {
