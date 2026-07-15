@@ -58,9 +58,9 @@ const rawHerbs: Herb[] = [
     latin: "Astragali Radix",
     partUsed: "Root",
     category: "Qi-supporting herbs",
-    summary: "A foundational soup herb often used in traditional writing about qi and seasonal routines. This deeper guide explains its role in winter kitchens.",
+    summary: "A foundational soup herb often used in traditional writing about qi and seasonal routines. This deeper guide explains its role in winter kitchens, alongside insights from modern nutritional science and authoritative health databases.",
     whatItIs:
-      "Astragalus looks like flat, pale yellow wooden tongue depressors. It is one of the most important ingredients in the traditional Chinese kitchen for supporting everyday resilience and vitality.",
+      "Astragalus looks like flat, pale yellow wooden tongue depressors. It is one of the most important ingredients in the traditional Chinese kitchen for supporting everyday resilience and vitality. Its Chinese name, Huang Qi, translates to 'Yellow Leader,' reflecting its esteemed status in herbal traditions.",
     nature: "Slightly warming",
     flavor: "Sweet",
     channels: "Lung, Spleen",
@@ -72,7 +72,7 @@ const rawHerbs: Herb[] = [
     foodUses: ["Soup", "Broth", "Decoction"],
     caution:
       "Traditionally, it is often paused if you are actively fighting off a sudden cold, as it is meant for building resilience beforehand.",
-    tags: ["root", "soup", "qi", "warming"],
+    tags: ["root", "soup", "qi", "warming", "adaptogen", "immunity"],
   },
   {
     slug: "fresh-ginger",
