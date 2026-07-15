@@ -391,6 +391,9 @@ const faqSchema = {
           <ul>
             <li><a href="#what-this-herb-is">Jump to what this herb is</a></li>
             <li><a href="#how-tcm-describes-it">Jump to traditional description</a></li>
+            {herb.scientificSections && herb.scientificSections.length > 0 && (
+              <li><a href="#what-the-science-says">Jump to what the science says (E-E-A-T)</a></li>
+            )}
             <li><a href="#kitchen-uses">Jump to common kitchen uses</a></li>
             <li><a href="#safety-note">Jump to the safety note</a></li>
           </ul>
