@@ -13,10 +13,11 @@ export type HerbEnhancement = {
 const rawHerbEnhancements: HerbEnhancement[] = [
   {
     slug: "goji-berry",
-    kitchenPairings: ["Jujube", "Pear", "Black sesame", "Chrysanthemum"],
+    kitchenPairings: ["Jujube (Red Date)", "Chrysanthemum flowers", "Chicken or bone broth", "Rice porridge"],
     goodStartingPoints: [
-      "Use it in porridge, light soups, and tea-style pages rather than reading it like an isolated supplement.",
-      "Add it near the end of cooking when you want color and softness without overcooking the berries.",
+      "Soups and Broths: Add during the last 15 minutes of simmering chicken or bone broth. They plump up, release their sweetness, and add a beautiful red color.",
+      "Teas: Steep in hot water, often paired with chrysanthemum flowers (for eye support) or jujube (red date). The rehydrated berries are usually eaten after drinking the tea.",
+      "Congee (Porridge): Stir into warm rice porridge for a gentle, nourishing breakfast.",
     ],
     compareLinks: [
       { title: "Goji Berry vs Jujube", href: "/basics/goji-berry-vs-jujube/" },

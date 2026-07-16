@@ -38,25 +38,55 @@ const rawHerbs: Herb[] = [
     slug: "goji-berry",
     name: "Goji Berry",
     pinyin: "Gou Qi Zi",
-        chinese: "Gou Qi Zi",
-    latin: "Lycii Fructus",
-    partUsed: "Fruit",
-    category: "Nourishing herbs",
-    summary: "A well-known berry often used in teas, soups, porridge, and simple everyday kitchen recipes. We have expanded this guide to offer deeper insight into why it sits on so many pantry shelves.",
+    chinese: "枸杞子",
+    latin: "Lycium barbarum",
+    partUsed: "Dried fruit",
+    category: "Yin-supporting herbs",
+    commonNames: "Goji Berry, Wolfberry",
+    arabicName: "غوجي (Goji) / توت الذئب (Toot Al-Dhib)",
+    summary: "A small, vibrant red fruit native to Asia — a quiet essential staple in East Asian kitchens for thousands of years. This guide explores its traditional roots, its role as a deeply nourishing ingredient, and what modern nutritional science reveals about its benefits.",
     whatItIs:
-      "Goji berry is one of the easiest traditional herbs for English-speaking readers to recognize because it already appears in snack mixes, teas, and modern grocery products. It bridges the gap between old-world culinary traditions and modern lifestyles seamlessly. We show the English name, pinyin, Chinese characters, and Latin name together so readers can connect grocery familiarity, traditional terminology, and reference naming in one place.",
-    nature: "Neutral to slightly warming",
+      "The goji berry, or wolfberry, is a small, vibrant red fruit native to Asia. While it has recently gained global fame as a 'superfood' added to smoothies and granola, it has been a quiet, essential staple in East Asian kitchens for thousands of years. In its traditional context, goji is not treated as a quick energy booster, but rather as a deeply nourishing ingredient that builds long-term reserves. It is prized for its sweet, pleasant flavor, making it one of the easiest traditional herbs to incorporate into daily meals. This page explores its traditional roots and what modern nutritional science reveals about its benefits.",
+    nature: "Neutral",
     flavor: "Sweet",
-    channels: "Liver, Kidney",
+    channels: "Liver, Kidney, Lung",
     traditionalUses: [
-      "Traditionally used to support liver and kidney language in this framework.",
-      "Often discussed for eye-related language and gentle daily use.",
-      "Commonly framed as a food-grade tonic rather than an intimidating concentrated product.",
+      "In traditional Chinese herb frameworks, Goji Berry (Gou Qi Zi) is categorized as an herb that tonifies Yin and Blood. It is associated with the Liver, Kidney, and Lung channels. In this system, the Liver is closely connected to eye health and blood storage, while the Kidney is considered the root of the body's foundational essence (Jing).",
+      "Nourishing the Liver and Kidneys to support healthy vision and bright eyes — one of its most recognized traditional roles.",
+      "Enriching Yin to moisten the Lungs, often used when the body feels dry or depleted.",
+      "A gentle, neutral-temperature ingredient that can be used long-term without causing excess heat — a foundational ingredient for supporting healthy aging and vitality.",
     ],
-    foodUses: ["Tea", "Broth", "Congee"],
+    foodUses: ["Soups and broths (last 15 minutes of simmering)", "Teas with chrysanthemum or jujube", "Congee (rice porridge)"],
     caution:
-      "Readers following ongoing care plans, especially where blood-thinning products are involved, should check local guidance before using goji regularly.",
-    tags: ["beginner", "berry", "tea", "food traditions"],
+      "This page is an educational reference built around traditional herb writing and publicly available research summaries. It is not a wellness recommendation, a substitute for professional guidance, or a claim that this herb is appropriate for any specific person.",
+    cautionDetails: [
+      "Product interactions: While goji berries are a common food, they can interact with certain medications. Individuals taking products that affect circulation (such as warfarin or other blood thinners) or medications for managing blood pressure and blood sugar should seek guidance from a qualified professional, as goji may amplify the effects of these drugs.",
+      "When to pause: Traditional frameworks suggest that because goji berries are rich and nourishing (cloying), they should be paused when experiencing an acute onset of symptoms, such as a sudden cold, fever, or significant digestive dampness (heavy bloating).",
+    ],
+    scientificSections: [
+      {
+        title: "Vision and Eye Health",
+        paragraphs: [
+          "One of the most well-documented benefits of goji berries aligns closely with its traditional use for the eyes. Goji berries are exceptionally high in zeaxanthin and lutein, powerful antioxidants that accumulate in the retina. Research indicates that regular consumption of goji berries may help increase macular pigment density, offering protective support against age-related macular degeneration and oxidative stress from blue light.",
+        ],
+      },
+      {
+        title: "Antioxidant and Immune Support",
+        paragraphs: [
+          "Goji berries contain unique complex carbohydrates known as Lycium barbarum polysaccharides (LBPs). These compounds have been extensively studied for their antioxidant properties. They help neutralize free radicals, thereby protecting cells from oxidative damage. Furthermore, studies suggest these polysaccharides may play a role in supporting healthy immune function and enhancing the body's natural defense mechanisms.",
+        ],
+      },
+      {
+        title: "Nutritional Density",
+        paragraphs: [
+          "From a purely nutritional standpoint, goji berries are remarkably rich. A small serving provides a significant amount of dietary fiber, protein (unusual for a fruit), and essential minerals like iron. They are also an excellent source of Vitamin A and Vitamin C, both of which are critical for maintaining healthy skin, vision, and immune resilience.",
+        ],
+      },
+    ],
+    references: [
+      "[1] Healthline. What are Goji Berries? This Unique Red Fruit, Explained. https://www.healthline.com/nutrition/goji-berry",
+    ],
+    tags: ["goji berry", "gou qi zi", "wolfberry", "lycium barbarum", "yin-supporting herbs", "eye health", "traditional Chinese berries", "zeaxanthin"],
   },
   {
     slug: "astragalus-root",
@@ -1647,6 +1677,7 @@ const herbCategoryAliases: Record<string, string[]> = {
   "Moistening herbs": ["moistening", "softening", "dryness language", "gentle fluids"],
   "Exterior-related herbs": ["seasonal", "aromatic", "outer layer", "weather-related"],
   "Kidney-related herbs": ["kidney-related", "deep reserves", "long-term support", "traditional depth"],
+  "Yin-supporting herbs": ["yin", "nourishing", "gentle", "restorative", "daily support", "cooling balance"],
 };
 
 const getNatureAliases = (nature: string) => {
