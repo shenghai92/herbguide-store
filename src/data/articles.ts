@@ -102,52 +102,85 @@ const rawBasicsArticles: ContentArticle[] = [
   },
   {
     slug: "warming-vs-cooling-foods",
-    title: "Warming vs Cooling Foods",
+    title: "Warming vs. Cooling Foods: Understanding the Traditional Kitchen Compass",
     description:
-      "A practical guide for readers searching warming foods, cooling foods, and everyday ingredient examples. We translate these traditional concepts into practical kitchen habits.",
-    eyebrow: "Basics",
+      "A comprehensive guide to the traditional concepts of warming and cooling foods — what they mean, how they work in the kitchen, and practical examples of warming, cooling, and neutral ingredients for everyday cooking.",
+    eyebrow: "Basics & Concepts",
     intro:
-      "Warming and cooling are traditional qualities in Chinese food and herb writing. They do not simply mean the temperature of the dish itself. Instead, they describe how an ingredient is traditionally categorized.",
+      "If you spend any time exploring traditional East Asian cooking or wellness, you will inevitably hear foods described as 'warming' or 'cooling.' It is crucial to understand that these terms do not refer to the physical temperature of the food, nor do they refer to how spicy it is. Instead, they describe the energetic effect the food is believed to have on the body after it is digested. Think of it as a traditional compass for maintaining internal balance.",
     sections: [
       {
-        title: "Why the word feels strange at first",
+        title: "What Does 'Warming' or 'Cooling' Mean?",
         paragraphs: [
-          "To a Western cook, 'hot' means temperature or chili spice. But in traditional Chinese kitchen wisdom, warming and cooling describe the energetic effect a food has on your body after you eat it, regardless of its physical temperature.",
+          "If you spend any time exploring traditional East Asian cooking or wellness, you will inevitably hear foods described as 'warming' (热/温) or 'cooling' (寒/凉).",
+          "It is crucial to understand that these terms do not refer to the physical temperature of the food, nor do they refer to how spicy it is. Instead, they describe the energetic effect the food is believed to have on the body after it is digested.",
+          "Think of it as a traditional compass for maintaining internal balance. If you are feeling sluggish and cold, you eat warming foods. If you are feeling agitated, flushed, or inflamed, you eat cooling foods.",
         ],
       },
       {
-        title: "How warming and cooling language appears on herb pages",
+        title: "The Core Concept: Balance and Harmony",
         paragraphs: [
-          "You will see every herb and ingredient in our library tagged with a 'Nature'—usually hot, warm, neutral, cool, or cold. This is the foundation of traditional food pairing.",
+          "Traditional wellness frameworks view the body as an ecosystem that is constantly interacting with its environment. Just as the weather changes with the seasons, the body's internal state shifts based on stress, sleep, environment, and diet.",
+          "The goal is not to eat only warming foods or only cooling foods. The goal is harmony.",
+          "A classic example is how seafood is prepared. Crabs and most fish are considered highly 'cooling.' To prevent them from causing digestive discomfort or a 'cold' stomach, they are almost universally cooked with fresh ginger—a quintessential 'warming' ingredient. The ginger balances the crab, creating a harmonious dish.",
+        ],
+      },
+      {
+        title: "Warming Foods (Yang-Supporting)",
+        paragraphs: [
+          "Warming foods are believed to stimulate circulation, move energy outward and upward, and support the body's metabolic fire (Yang). They are often used in winter, or when a person feels fatigued, cold, or sluggish.",
         ],
         bullets: [
-          "Warming foods (like ginger) bring heat and circulation to the surface.",
-          "Cooling foods (like chrysanthemum) clear heat and calm the system.",
-          "Neutral foods (like rice or poria) are gentle baselines that balance the extremes.",
+          "Characteristics: Often grow in the earth or take longer to grow; tend to be denser, heavier, or sweeter; many spices and pungent ingredients fall into this category.",
+          "Spices: Fresh ginger, cinnamon, cloves, garlic, black pepper.",
+          "Proteins: Lamb, beef, chicken, venison.",
+          "Vegetables: Pumpkins, squash, sweet potatoes, onions, leeks.",
+          "Fruits: Cherries, peaches, longan, lychee.",
+          "Herbs: Ginseng, astragalus, dried tangerine peel (Chen Pi).",
         ],
       },
       {
-        title: "Why this matters here",
+        title: "Cooling Foods (Yin-Supporting)",
         paragraphs: [
-          "Understanding this concept allows you to cook seasonally. You learn to eat cooling foods in the hot, dry summer, and warming foods in the damp, freezing winter.",
+          "Cooling foods are believed to clear heat, calm agitation, detoxify, and direct energy inward and downward. They support the body's fluids and cooling system (Yin). They are favored in summer, or when a person feels flushed, restless, or is experiencing acute heat (like a sore throat).",
+        ],
+        bullets: [
+          "Characteristics: Often grow quickly or have high water content; tend to be green, crisp, or slightly bitter; many raw foods fall into this category.",
+          "Vegetables: Cucumbers, celery, spinach, tomatoes, bitter melon.",
+          "Fruits: Watermelon, bananas, pears, grapefruit, citrus.",
+          "Proteins: Crab, clams, duck, tofu.",
+          "Beverages: Green tea, chrysanthemum tea, peppermint tea.",
+          "Herbs: Mint, mulberry leaf, dandelion.",
         ],
       },
       {
-        title: "What warming and cooling can feel like in everyday foods",
+        title: "Neutral Foods",
         paragraphs: [
-          "Think about how you feel after eating a bowl of spicy lamb stew versus a slice of watermelon. The stew makes you sweat and feel deeply warm (warming nature). The watermelon makes you feel refreshed and chilled (cooling nature). It is highly intuitive once you look for it.",
+          "Not everything is extremely warm or extremely cold. Many foundational foods are considered 'Neutral' (平). These foods are gentle, nourishing, and suitable for almost everyone, forming the bulk of a balanced diet.",
+        ],
+        bullets: [
+          "Grains: White rice, oats, corn.",
+          "Proteins: Pork, most white fish, eggs.",
+          "Vegetables: Carrots, cabbage, potatoes.",
+          "Fruits: Apples, figs, grapes.",
+          "Herbs: Goji berries, reishi mushroom, licorice root.",
         ],
       },
       {
-        title: "How to read warming and cooling pairings more clearly",
+        title: "How to Apply This in the Kitchen",
         paragraphs: [
-          "Traditional cooking rarely uses extremes. If a dish uses very cooling ingredients, a cook will often toss in a slice of fresh ginger (warming) to balance the pot. This prevents the meal from shocking the digestive system.",
+          "You don't need to memorize a chart to use this framework. It is highly intuitive:",
+        ],
+        bullets: [
+          "Observe the Season: Eat more cooling, water-rich foods in the hot summer. Shift to warming, slow-cooked root vegetables and warming spices in the cold winter.",
+          "Listen to Your Body: If you have been eating a lot of heavy, fried, or spicy foods (which generate heat) and feel sluggish or agitated, balance it with cooling teas (like chrysanthemum) or crisp greens.",
+          "Pair Intelligently: If you are eating a very cooling food (like a large raw salad or seafood), add a warming element (like a ginger dressing or a side of warm soup) to protect your digestion.",
         ],
       },
       {
-        title: "Where to keep reading after this page",
+        title: "Read This Page in Context",
         paragraphs: [
-          "The best way to understand this is to look at how we pair ingredients in our Kitchen Traditions section.",
+          "This page explores traditional culinary and wellness concepts. It is an educational reference designed to help you understand the philosophy behind traditional recipes. It is not a medical diagnostic tool or a substitute for professional nutritional or medical guidance. If you are managing a specific health condition, always seek guidance from a qualified professional before making significant changes to your diet.",
         ],
       },
     ],
