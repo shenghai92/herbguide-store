@@ -278,25 +278,56 @@ const rawHerbs: Herb[] = [
     slug: "chen-pi",
     name: "Chen Pi",
     pinyin: "Chen Pi",
-        chinese: "Chen Pi",
+    chinese: "陈皮",
     latin: "Citri Reticulatae Pericarpium",
-    partUsed: "Aged citrus peel",
-    category: "Digestive herbs",
-    summary: "Aged tangerine peel with a familiar citrus story and strong kitchen appeal.",
+    partUsed: "Aged peel of the mandarin orange",
+    category: "Qi-regulating herbs",
+    commonNames: "Dried Tangerine Peel, Aged Mandarin Peel, Citrus Peel",
+    arabicName: "قشر اليوسفي المجفف (Qishr Al-Yousefi Al-Mujaffaf)",
+    summary: "Literally 'aged peel' — the sun-dried and carefully aged rind of mandarin oranges, prized in East Asian kitchens for its ability to cut through heaviness and grease. This guide explores its traditional role in digestive wellness and what modern science says about its flavonoid compounds.",
     whatItIs:
-      "Chen pi is one of the best herbs for storytelling because it turns a familiar ingredient, citrus peel, into a traditional pantry concept with deep culinary value. It also gives readers a clearer answer when they search directly for chen pi tea or aged citrus peel kitchen use.",
+      "Chen Pi translates literally to 'aged peel.' It is the sun-dried and carefully aged rind of specific varieties of mandarin oranges (most famously from Xinhui, China). Unlike fresh orange peel, which contains volatile oils that can be harsh on the stomach, Chen Pi undergoes an aging process—sometimes lasting decades—that mellows its nature and deepens its aromatic profile. In East Asian kitchens, it is an indispensable culinary and wellness ingredient, prized for its ability to cut through heaviness and grease. This page explores its traditional role in digestive wellness and what modern science says about its flavonoid compounds.",
     nature: "Warm",
-    flavor: "Pungent, bitter",
-    channels: "Lung, Spleen",
+    flavor: "Pungent, bitter, aromatic",
+    channels: "Spleen, Stomach, Lung",
     traditionalUses: [
-      "Traditionally used to help regulate qi in digestive and phlegm-related discussions.",
-      "Often introduced through tea and broth applications.",
-      "Helps readers see how traditional pantry knowledge overlaps with cooking wisdom.",
+      "In traditional Chinese herb frameworks, Chen Pi is a primary herb for regulating Qi (energy flow) and transforming dampness. It is associated with the Spleen, Stomach, and Lung channels. In this system, the Spleen and Stomach are responsible for digestion, and when they are overwhelmed by rich food, 'dampness' (sluggishness, bloating, mucus) accumulates.",
+      "Promoting the smooth downward flow of Stomach Qi to relieve bloating and fullness — a key digestive role in traditional writing.",
+      "Drying dampness and transforming phlegm, especially when associated with a heavy chest or sluggish digestion.",
+      "Harmonizing the digestive system, making heavy, fatty, or rich foods easier to process — a versatile balancing herb that prevents other nourishing herbs from becoming too cloying.",
     ],
-    foodUses: ["Tea", "Broth", "Dessert"],
+    foodUses: ["Post-meal digestive tea (with Pu'er tea)", "Slow-cooked beef, duck, or red bean soups", "Aromatic braises and broths"],
     caution:
-      "Readers should understand the difference between culinary use and concentrated product use.",
-    tags: ["citrus", "digestive", "tea", "pantry", "kitchen-friendly", "chen pi tea", "aged citrus peel tea"],
+      "This page is an educational reference built around traditional herb writing and publicly available research summaries. It is not a wellness recommendation, a substitute for professional guidance, or a claim that this herb is appropriate for any specific person.",
+    cautionDetails: [
+      "Product interactions: As a culinary ingredient, Chen Pi is generally very safe. However, citrus flavonoids can occasionally interact with how the liver metabolizes certain medications. Individuals taking prescription medications should seek guidance from a qualified professional before consuming concentrated Chen Pi extracts or large amounts daily.",
+      "When to pause: Traditional frameworks suggest that because Chen Pi is warm and drying, individuals who frequently experience signs of 'dry heat' (such as a chronic dry cough, dry mouth, or night sweats) should use it sparingly or pair it with moistening ingredients.",
+    ],
+    scientificSections: [
+      {
+        title: "Digestive Wellness and Gastrointestinal Support",
+        paragraphs: [
+          "Chen Pi's traditional use for digestion is supported by modern pharmacological studies. Research indicates that the flavonoids in aged citrus peel can help stimulate gastric juices and promote healthy gastrointestinal motility. Studies published in journals like Frontiers in Nutrition suggest that Chen Pi extracts may have gastrointestinal-modulating properties, helping to protect the gastric mucosa and support overall digestive comfort.",
+        ],
+      },
+      {
+        title: "Anti-inflammatory and Antioxidant Properties",
+        paragraphs: [
+          "The flavonoids hesperidin and nobiletin are potent antioxidants. They help neutralize free radicals and reduce oxidative stress in the body. Furthermore, research has highlighted the anti-inflammatory capacity of these compounds, which may contribute to the peel's traditional reputation for soothing respiratory and digestive irritation.",
+        ],
+      },
+      {
+        title: "Metabolic and Lipid Support",
+        paragraphs: [
+          "Emerging research has explored the potential of Chen Pi in metabolic wellness. Some studies suggest that its active compounds may have hypolipidemic effects, helping to support healthy lipid metabolism. While more human clinical trials are needed, these findings align with its traditional culinary use of being paired with fatty meats to reduce their heavy impact on the body.",
+        ],
+      },
+    ],
+    references: [
+      "[1] Shi, M., et al. 'Recent Advances in the Health Benefits and Application of Citri Reticulatae Pericarpium.' National Center for Biotechnology Information (NCBI). https://pmc.ncbi.nlm.nih.gov/articles/PMC11241192/",
+      "[2] Wang, Y., et al. 'Citri Reticulatae Pericarpium (Chenpi) Protects against Gastric Mucosal Damage.' National Center for Biotechnology Information (NCBI). https://pmc.ncbi.nlm.nih.gov/articles/PMC9783663/",
+    ],
+    tags: ["chen pi", "dried tangerine peel", "aged mandarin peel", "citrus reticulatae", "qi-regulating herbs", "digestive support", "hesperidin", "traditional Chinese herbs"],
   },
   {
     slug: "poria",
@@ -1709,6 +1740,7 @@ const herbCategoryAliases: Record<string, string[]> = {
   "Exterior-related herbs": ["seasonal", "aromatic", "outer layer", "weather-related"],
   "Kidney-related herbs": ["kidney-related", "deep reserves", "long-term support", "traditional depth"],
   "Yin-supporting herbs": ["yin", "nourishing", "gentle", "restorative", "daily support", "cooling balance"],
+  "Qi-regulating herbs": ["qi", "digestive", "aromatic", "citrus", "movement"],
 };
 
 const getNatureAliases = (nature: string) => {

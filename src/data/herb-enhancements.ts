@@ -159,10 +159,11 @@ const rawHerbEnhancements: HerbEnhancement[] = [
   },
   {
     slug: "chen-pi",
-    kitchenPairings: ["Fresh ginger", "Hawthorn", "Light teas", "Soup bases"],
+    kitchenPairings: ["Pu'er tea", "Beef or duck (slow-cooked)", "Red bean soups", "Fresh ginger"],
     goodStartingPoints: [
-      "Chen pi becomes much easier to understand when read as an aromatic pantry ingredient first.",
-      "A tea-style page is often the simplest way for readers to connect the traditional story with practical kitchen use.",
+      "Preparation: Before use, the dried peel is typically soaked in warm water for 10-15 minutes until soft. The white pith on the inside is sometimes gently scraped off with a knife to reduce bitterness, though premium aged Chen Pi has very little pith remaining.",
+      "Teas: A small piece steeped with Pu'er tea or simply in hot water makes a classic post-meal digestive drink.",
+      "Soups and Braises: Essential in slow-cooked beef, duck, or red bean soups. It adds a bright, earthy citrus note that cuts through fat and richness.",
     ],
     compareLinks: [
       { title: "Chen Pi Tea for Heavy Meal Days", href: "/kitchen/chen-pi-tea-for-heavy-meal-days/" },
