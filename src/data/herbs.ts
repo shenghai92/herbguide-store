@@ -372,27 +372,58 @@ const rawHerbs: Herb[] = [
   },
   {
     slug: "ginseng",
-    name: "Ginseng",
+    name: "Asian Ginseng",
     pinyin: "Ren Shen",
-            chinese: "Ren Shen",
-    latin: "Ginseng Radix et Rhizoma",
+    chinese: "人参",
+    latin: "Panax ginseng",
     partUsed: "Root",
     category: "Qi-supporting herbs",
-    summary: "A famous tonic root that needs careful explanation because recognition is high but assumptions are often vague. This deeper guide removes the hype and focuses on kitchen reality.",
+    commonNames: "Asian Ginseng, Korean Ginseng, Chinese Ginseng, Panax Ginseng",
+    arabicName: "جنسنج آسيوي (Jinsing Asyawi)",
+    summary: "Arguably the most famous traditional herb in the world — a powerful, heavy-duty ingredient revered for millennia. This guide explores its traditional gravitas, the difference between White and Red Ginseng, and what modern science says about ginsenosides.",
     whatItIs:
-      "Ginseng is widely known in English-speaking popular culture, which makes it important for search visibility, but it also requires careful framing. It is not a magic bullet, but a deeply respected root used in slow-simmered broths.",
-    nature: "Slightly warm",
+      "Asian Ginseng (Panax ginseng) is arguably the most famous traditional herb in the world. Native to the mountainous forests of East Asia, its fleshy root has been revered for millennia. The name 'Panax' is derived from Greek, meaning 'all-healing,' reflecting its historical reputation. In traditional contexts, ginseng is not a casual daily supplement; it is considered a powerful, heavy-duty ingredient reserved for times of deep depletion or significant physical demand. It is available primarily in two forms: White Ginseng (peeled and dried, considered milder) and Red Ginseng (steamed and dried, considered much warmer and stronger). This page explores its traditional gravitas and what modern science says about its active compounds.",
+    nature: "Slightly Warm (White), Warm (Red)",
     flavor: "Sweet, slightly bitter",
-    channels: "Lung, Spleen, Heart",
+    channels: "Spleen, Lung, Heart",
     traditionalUses: [
-      "Traditionally used in traditional theory for stronger qi-focused discussion.",
-      "Often used as a benchmark herb when discussing tonic categories.",
-      "Useful for explaining why famous herbs still need context.",
+      "In traditional Chinese herb frameworks, Asian Ginseng (Ren Shen) is the premier herb for strongly tonifying foundational Qi (vital energy). It is associated with the Spleen, Lung, and Heart channels.",
+      "Powerfully restoring original Qi, used when the body's foundational energy is severely compromised — the most important qi tonic in traditional writing.",
+      "Tonifying the Spleen and Stomach to support digestion and nutrient absorption.",
+      "Supporting Lung Qi to assist with healthy, steady respiration, and calming the spirit (shen) to support cognitive clarity by nourishing the Heart channel.",
     ],
-    foodUses: ["Soup", "Tea", "Tonic preparations"],
+    foodUses: ["Double-boiled soup (with lean chicken or pork)", "Ginseng tea (re-steeped slices)", "Traditional tonic preparations"],
     caution:
-      "This is not a casual herb for everyone. The site should emphasize context, sourcing, and professional guidance.",
-    tags: ["famous", "root", "qi", "high-interest"],
+      "This page is an educational reference built around traditional herb writing and publicly available research summaries. It is not a wellness recommendation, a substitute for professional guidance, or a claim that this herb is appropriate for any specific person.",
+    cautionDetails: [
+      "Product interactions: Asian ginseng is biologically highly active. It can interact with medications that affect blood sugar (causing it to drop too low), blood coagulation (interfering with blood thinners), and immunosuppressants. Individuals taking any of these products must seek professional guidance before use.",
+      "When to pause: Traditional frameworks strictly advise against using ginseng during an acute illness, such as a cold or flu, as it is believed to 'trap' the pathogen inside the body. It is also generally avoided by those with high blood pressure or conditions characterized by excess heat.",
+      "Pregnancy and nursing: Some studies suggest that Asian ginseng may be unsafe when taken during pregnancy. Individuals who are pregnant, nursing, or considering use for children should avoid it or seek strict professional guidance.",
+    ],
+    scientificSections: [
+      {
+        title: "Cognitive and Mental Function",
+        paragraphs: [
+          "A body of research has investigated ginseng's potential to support cognitive function. Studies suggest that Asian ginseng may help improve abstract thinking, attention, and reaction time, particularly in middle-aged adults. Its ability to support mental resilience under stress aligns with its traditional use for calming the spirit and supporting the Heart channel.",
+        ],
+      },
+      {
+        title: "Fatigue and Energy Support",
+        paragraphs: [
+          "As a classic adaptogen, ginseng is widely studied for its effects on fatigue. According to the National Center for Complementary and Integrative Health (NCCIH), reviews of clinical trials suggest that Asian ginseng may have a beneficial effect on general fatigue. It is thought to support energy metabolism and help the body maintain homeostasis during periods of physical or mental exhaustion.",
+        ],
+      },
+      {
+        title: "Metabolic and Cardiovascular Wellness",
+        paragraphs: [
+          "Research indicates that Asian ginseng may play a role in metabolic wellness. Systematic reviews have found that it can improve cardiometabolic factors in certain populations, including supporting healthy fasting blood glucose levels and managing inflammatory markers. However, research regarding its use for blood sugar control remains complex, and it is known to actively lower blood sugar levels.",
+        ],
+      },
+    ],
+    references: [
+      "[1] National Center for Complementary and Integrative Health (NCCIH). Asian Ginseng Overview. https://www.nccih.nih.gov/health/asian-ginseng",
+    ],
+    tags: ["asian ginseng", "panax ginseng", "ren shen", "korean red ginseng", "qi-supporting herbs", "adaptogen", "ginsenosides", "traditional Chinese ginseng"],
   },
   {
     slug: "american-ginseng",

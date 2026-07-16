@@ -28,10 +28,11 @@ const rawHerbEnhancements: HerbEnhancement[] = [
   },
   {
     slug: "ginseng",
-    kitchenPairings: ["Astragalus Root", "Jujube", "Chicken broth"],
+    kitchenPairings: ["Lean chicken or pork", "Jujube (Red Date)", "Astragalus Root"],
     goodStartingPoints: [
-      "Understand that it is traditionally used in moderation, often in long-simmered soups rather than quick teas.",
-      "Compare it with American Ginseng to see how traditional theory separates different roots.",
+      "Double-Boiled Soup: The most traditional preparation involves placing a few slices of ginseng with lean chicken or pork in a ceramic jar, sealing it, and steaming it in a water bath for several hours. This extracts the essence without losing volatile compounds.",
+      "Ginseng Tea: A few thin slices steeped in hot water. The same slices can be re-steeped multiple times until the flavor fades, after which the slices are often chewed and eaten.",
+      "Respecting the Heat: Because Red Ginseng is very warming, traditional practice advises against consuming it with other hot, spicy foods or strong stimulants like coffee.",
     ],
     compareLinks: [
       { title: "What Does Tonify Mean in Traditional Herb Writing?", href: "/basics/what-does-tonify-mean/" },
