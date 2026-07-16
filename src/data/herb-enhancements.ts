@@ -40,10 +40,11 @@ const rawHerbEnhancements: HerbEnhancement[] = [
   },
   {
     slug: "fresh-ginger",
-    kitchenPairings: ["Jujube", "Pear", "Chicken soup", "Mint in contrast"],
+    kitchenPairings: ["Jujube (Red Date)", "Brown sugar", "Seafood dishes", "Chicken soup"],
     goodStartingPoints: [
-      "Fresh ginger is one of the best first herbs for readers who want kitchen use before theory.",
-      "It works especially well when read together with warming and cooling basics rather than in isolation.",
+      "Ginger Tea: A few slices of fresh ginger simmered in water for 10-15 minutes, often paired with brown sugar or jujube (red date) for a comforting, warming drink on cold days.",
+      "Balancing Seafood: Almost universally used when steaming fish or cooking crab, as traditional frameworks consider seafood 'cold' in nature, requiring ginger's warmth for balance.",
+      "Preparation: For gentle warmth, ginger is often used with its skin on. For a slightly more intense heat, it is peeled.",
     ],
     compareLinks: [
       { title: "Fresh Ginger vs Dried Ginger", href: "/basics/fresh-ginger-vs-dried-ginger/" },

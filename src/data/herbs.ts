@@ -120,25 +120,57 @@ const rawHerbs: Herb[] = [
     slug: "fresh-ginger",
     name: "Fresh Ginger",
     pinyin: "Sheng Jiang",
-        chinese: "Sheng Jiang",
-    latin: "Zingiberis Rhizoma Recens",
-    partUsed: "Fresh rhizome",
-    category: "Kitchen herbs",
-    summary: "A familiar kitchen ingredient that gives traditional food traditions an easy and practical entry point. This expanded guide explores its role in balancing cold-weather meals.",
+    chinese: "生姜",
+    latin: "Zingiber officinale",
+    partUsed: "Fresh rhizome (underground stem)",
+    category: "Warming herbs",
+    commonNames: "Fresh Ginger, Ginger Root",
+    arabicName: "زنجبيل (Zanjabil)",
+    summary: "One of the most universally recognized ingredients in the world — a foundational culinary spice and highly respected traditional herb. This guide explores its gentle dispersing warmth, traditional context, kitchen uses, and what modern science says about its active compounds.",
     whatItIs:
-      "Fresh ginger is one of the most useful bridge ingredients for this site because readers already know it from cooking, tea, and home routines. It turns abstract warming concepts into something you can actually taste and feel.",
+      "Fresh ginger is one of the most universally recognized ingredients in the world, serving as both a foundational culinary spice and a highly respected traditional herb. Unlike dried ginger (Gan Jiang), which is considered much hotter and heavier, fresh ginger (Sheng Jiang) is valued for its gentle, dispersing warmth. It is a staple in East Asian kitchens, often used to balance cold ingredients or support digestion during heavy meals. While it is easily accessible in any grocery store, understanding its traditional context elevates it from a simple flavoring to a functional kitchen tool. This page explores both its traditional applications and what modern science says about its active compounds.",
     nature: "Warm",
-    flavor: "Pungent",
+    flavor: "Pungent (Spicy)",
     channels: "Lung, Spleen, Stomach",
     traditionalUses: [
-      "Traditionally used to warm the middle and explain digestive language in this framework.",
-      "Often used in simple teas and soups for cold-weather cooking.",
-      "Commonly included in beginner-friendly food tradition articles.",
+      "In traditional Chinese herb frameworks, Fresh Ginger (Sheng Jiang) is placed in the category of herbs that release the exterior and dispel cold. It is associated with the Lung, Spleen, and Stomach channels. In this framework, the Spleen and Stomach govern digestion, while the Lung governs the body's outer defensive layer.",
+      "Warming the middle and supporting the stomach's digestive fire — a key role in traditional digestive language.",
+      "Dispersing surface cold, often used when experiencing the very first signs of an acute chill.",
+      "Reducing the heavy, cloying nature of certain foods (like seafood or fatty meats) — a balancing ingredient used to harmonize other, harsher herbs in traditional broths.",
     ],
-    foodUses: ["Tea", "Soup", "Stir-fry"],
+    foodUses: ["Ginger tea with jujube or brown sugar", "Balancing seafood dishes", "Warming soups and broths"],
     caution:
-      "Even familiar food herbs can be irritating in excess. Readers with more complex personal needs should still use caution.",
-    tags: ["kitchen", "warming", "tea", "beginner"],
+      "This page is an educational reference built around traditional herb writing and publicly available research summaries. It is not a wellness recommendation, a substitute for professional guidance, or a claim that this herb is appropriate for any specific person.",
+    cautionDetails: [
+      "Product interactions: Fresh ginger in normal culinary amounts is generally safe. However, concentrated ginger supplements have blood-thinning properties. Individuals taking products that affect circulation (such as warfarin or other blood thinners) or nonsteroidal anti-inflammatory drugs (NSAIDs) should seek guidance from a qualified professional before using ginger supplements.",
+      "Surgical considerations: Due to its potential to affect blood coagulation, concentrated ginger products should be paused at least two weeks before any scheduled surgery.",
+      "Gallbladder wellness: Individuals with gallstones should be aware that ginger may increase the flow of bile, and should seek professional guidance before consuming large amounts.",
+    ],
+    scientificSections: [
+      {
+        title: "Digestive Wellness and Nausea",
+        paragraphs: [
+          "A significant body of research supports ginger's role in gastrointestinal wellness. Clinical studies have consistently shown that ginger compounds can stimulate the flow of saliva and digestive secretions, helping to calm the stomach. The National Center for Complementary and Integrative Health (NCCIH) notes that research supports its use for pregnancy-related nausea, and it is widely studied for its ability to promote gastric emptying and feelings of satiety.",
+        ],
+      },
+      {
+        title: "Anti-inflammatory and Antioxidant Properties",
+        paragraphs: [
+          "Ginger is rich in antioxidants, which help neutralize free radicals in the body. Preclinical and clinical studies indicate that ginger possesses notable anti-inflammatory properties. Research suggests it may help reduce the severity of menstrual discomfort and provide support for individuals managing joint discomfort, such as knee osteoarthritis symptoms, though the quality of some studies varies.",
+        ],
+      },
+      {
+        title: "Cardiovascular and Metabolic Support",
+        paragraphs: [
+          "Emerging research has explored ginger's potential in metabolic wellness. Some studies suggest that regular ginger intake may help support healthy blood sugar levels and lipid profiles. However, as noted by Memorial Sloan Kettering Cancer Center (MSKCC), individuals taking medications to lower blood glucose should be aware that ginger might cause larger reductions in glucose levels, highlighting its biological potency.",
+        ],
+      },
+    ],
+    references: [
+      "[1] Memorial Sloan Kettering Cancer Center (MSKCC). Ginger: Purported Benefits, Side Effects & More. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginger",
+      "[2] National Center for Complementary and Integrative Health (NCCIH). Ginger Overview. https://www.nccih.nih.gov/health/ginger",
+    ],
+    tags: ["fresh ginger", "sheng jiang", "ginger root", "warming herbs", "digestive support", "traditional Chinese ginger", "zingiber officinale", "ginger tea"],
   },
   {
     slug: "jujube-red-date",
