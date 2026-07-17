@@ -1989,73 +1989,56 @@ export const foodTherapyArticles: ContentArticle[] = [
     slug: "goji-berry-porridge-for-gentle-mornings",
     title: "Goji Berry Porridge for Gentle Mornings",
     description:
-      "A simple goji berry porridge recipe built around one of the easiest pantry ingredients for beginner-friendly kitchen reading.",
+      "A traditional goji berry porridge (congee) recipe with short-grain rice, goji berries, and optional jujubes — a gentle, nourishing breakfast rooted in Chinese kitchen traditions and supported by modern nutritional science.",
     eyebrow: "Kitchen Traditions",
     intro:
-      "For readers searching a goji berry porridge recipe, this page keeps the bowl simple: a mild grain base, a small spoonful of berries, and optional pantry additions that are easy to recognize.",
+      "Goji berry porridge (congee) is a staple of traditional Chinese breakfasts, known for its gentle, easily digestible nature. In traditional frameworks, goji berries are valued for nourishing the Liver and Kidney channels and supporting visual health. Modern science has found that goji berries (Lycium barbarum) are rich in antioxidants, particularly zeaxanthin, which plays a crucial role in eye health. When slow-cooked into a warm porridge, the nutrients become highly bioavailable, offering a comforting start to the day that aligns with the traditional principle of protecting the digestive fire (Spleen qi) in the morning.",
     recipe: {
       recipeYield: "2 bowls",
       prepTime: "PT5M",
       totalTime: "PT45M",
       ingredients: [
-        "1/2 cup short-grain or jasmine rice",
-        "4 to 5 cups water",
-        "2 tablespoons goji berries",
-        "Optional: 1 split jujube for a softer sweetness",
-        "Optional: a small pinch of sea salt or a few drops of sesame oil for serving",
+        "1/4 cup short-grain white rice or millet",
+        "2 cups water or light broth",
+        "1 tablespoon dried goji berries (Lycium barbarum)",
+        "Optional: 1-2 dried jujubes (Ziziphus jujuba), pitted and sliced",
       ],
       steps: [
-        "Rinse the rice well and place it in a pot with the water.",
-        "Bring to a gentle boil, then lower the heat and partially cover the pot.",
-        "Cook slowly for about 40 to 45 minutes, stirring now and then until the porridge texture softens.",
-        "Rinse the goji berries briefly, then add them during the last 10 minutes of cooking.",
-        "Serve warm and use only a very light finishing touch if you want a savory variation.",
+        "Rinse the rice thoroughly under cold water until the water runs clear.",
+        "In a small pot, combine the rice and water. Bring to a gentle boil over medium heat.",
+        "Once boiling, reduce the heat to low, cover the pot, and let it simmer for 30 minutes. Stir occasionally to prevent sticking.",
+        "Add the goji berries (and jujubes, if using) to the pot. Continue to simmer for another 10-15 minutes until the porridge reaches your desired consistency.",
+        "Serve warm.",
       ],
       servingNotes: [
-        "Keep the flavor mild and breakfast-friendly rather than heavily sweetened.",
-        "This works best as a soft pantry recipe, not as a promise about outcomes.",
-        "The berries should soften and brighten the bowl without taking over the grain base.",
+        "This porridge is at its best when kept simple and mild — avoid over-sweetening.",
+        "The goji berries will plump up and soften during cooking, releasing their natural sweetness and bright red color into the bowl.",
+        "Millet can be substituted for rice for a lighter, gluten-free variation.",
       ],
       caution: [
-        "Goji berry is food-friendly for many readers, but regular use still deserves context when regular product use or special personal situations are involved.",
+        "While goji berries are generally well-tolerated as a food, individuals taking products that affect circulation or blood sugar levels should seek professional guidance before consuming large amounts regularly.",
+        "It is traditionally advised to pause consumption of rich tonic foods when experiencing an acute onset of symptoms, such as a cold or flu.",
       ],
     },
     sections: [
       {
-        title: "Why this is a strong beginner breakfast page",
+        title: "Why It Works: Tradition Meets Science",
         paragraphs: [
-          "It centers one of the most familiar pantry herbs while staying fully in the kitchen.",
-          "That makes it easier for readers to trust and easier to connect with pantry, beauty-food, and gentle routine reading without losing the practical feel of a real goji berry breakfast recipe.",
+          "Goji berry porridge (congee) is a staple of traditional Chinese breakfasts, known for its gentle, easily digestible nature. In traditional frameworks, goji berries are valued for nourishing the Liver and Kidney channels and supporting visual health.",
+          "Modern science has found that goji berries (Lycium barbarum) are rich in antioxidants, particularly zeaxanthin, which plays a crucial role in eye health. When slow-cooked into a warm porridge, the nutrients become highly bioavailable, offering a comforting start to the day that aligns with the traditional principle of protecting the digestive fire (Spleen qi) in the morning.",
+          "The addition of jujubes (red dates) provides natural sweetness and additional nutritional support, including vitamin C and fiber. Together, the rice or millet base, goji berries, and jujubes create a balanced, nourishing breakfast that is easy to digest and suitable for all ages.",
         ],
       },
       {
-        title: "What the page teaches beyond the bowl itself",
+        title: "Safety and Caution Details",
         paragraphs: [
-          "A porridge page helps explain how traditional kitchen writing often uses repeated soft routines rather than dramatic one-time solutions.",
-          "It also creates useful bridges between goji, jujube, black sesame, and beginner pantry reading.",
+          "While goji berries are generally well-tolerated as a food, individuals taking products that affect circulation or blood sugar levels should seek professional guidance before consuming large amounts regularly. It is traditionally advised to pause consumption of rich tonic foods when experiencing an acute onset of symptoms, such as a cold or flu.",
         ],
       },
-      {
-        title: "Why goji works especially well in porridge",
-        paragraphs: [
-          "Goji berries are small, mild, and easy to recognize, which makes them one of the least intimidating ingredients for beginners. When added near the end of cooking, they soften into the porridge without disappearing completely.",
-          "That visual lift is part of the appeal. The bowl feels brighter and more complete while still staying simple, gentle, and pantry-first.",
-        ],
-      },
-      {
-        title: "Why this page fits goji berry porridge searches",
-        paragraphs: [
-          "Readers searching goji berry porridge usually want a mild breakfast bowl with easy grain steps and a clear place to add the berries.",
-          "This page stays close to that query intent by keeping the bowl simple, the wording natural, and the links pointed toward goji berry and pantry-friendly breakfast reading.",
-        ],
-      },
-      {
-        title: "How to keep the bowl balanced",
-        paragraphs: [
-          "The strongest version stays mild rather than rich. A soft rice base, a small spoonful of berries, and very light finishing touches usually create the easiest bowl to repeat.",
-          "That balance helps the porridge feel like a real morning routine instead of a crowded ingredient list built only for search terms.",
-        ],
-      },
+    ],
+    references: [
+      "[1] MSKCC. Wolfberry. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/wolfberry",
+      "[2] NCCIH. Asian Ginseng (Includes general herbal safety guidelines). https://www.nccih.nih.gov/health/asian-ginseng",
     ],
   },
   {
