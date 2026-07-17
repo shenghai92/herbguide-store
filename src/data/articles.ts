@@ -1675,71 +1675,57 @@ export const foodTherapyArticles: ContentArticle[] = [
     slug: "jujube-and-ginger-tea-for-busy-weeks",
     title: "Jujube and Ginger Tea for Busy Weeks",
     description:
-      "A simple jujube tea recipe with fresh ginger that keeps the ingredient list short, the language natural, and the Chinese red date kitchen context clear.",
+      "A classic jujube and fresh ginger tea recipe with precise measurements, traditional wellness context, and modern nutritional science — a comforting, caffeine-free tea perfect for stressful or busy weeks.",
     eyebrow: "Kitchen Traditions",
     intro:
-      "For readers searching a simple jujube tea recipe, this pairing is one of the easiest places to start. A few slices of ginger, a few split jujubes, hot water, and a short simmer make the page feel practical, familiar, and easy to understand without much setup. It also helps connect jujube with the Chinese red date wording many shoppers and searchers already see.",
+      "Jujube (Ziziphus jujuba) and fresh ginger (Zingiber officinale) are a classic pairing in traditional Chinese wellness practices, often used to harmonize the digestion and provide a gentle, warming energy boost. Fresh ginger is traditionally known to warm the center and support healthy circulation, while jujube is valued for nourishing the blood and calming the spirit. Modern research highlights ginger's active compounds, such as gingerols, which offer digestive support and antioxidant properties. Jujubes provide vitamin C and polysaccharides. Together, they create a comforting, caffeine-free tea perfect for stressful or busy weeks.",
     recipe: {
       recipeYield: "2 mugs",
       prepTime: "PT5M",
-      totalTime: "PT20M",
+      totalTime: "PT25M",
       ingredients: [
-        "4 dried jujubes, lightly split",
-        "4 to 5 thin slices fresh ginger",
-        "3 cups water",
-        "Optional: a small slice of pear for a softer flavor",
+        "3-4 dried jujubes (Ziziphus jujuba), pitted and sliced",
+        "3-4 thin slices of fresh ginger root (Zingiber officinale)",
+        "2 cups water",
+        "Optional: A small piece of brown sugar or a teaspoon of honey",
       ],
       steps: [
-        "Rinse the jujubes and ginger.",
-        "Add the water, jujubes, and ginger to a small pot and bring to a light boil.",
-        "Lower the heat and simmer gently for 12 to 15 minutes.",
-        "Turn off the heat, let the tea rest for 2 minutes, then strain into mugs.",
-        "Serve warm and keep the flavor simple rather than turning it into a very sweet drink.",
+        "Place the sliced jujubes and fresh ginger into a small saucepan.",
+        "Add the water and bring the mixture to a boil over medium-high heat.",
+        "Reduce the heat to low, cover, and let it simmer gently for 15-20 minutes to extract the flavors and active compounds.",
+        "If using, stir in the brown sugar or honey until dissolved.",
+        "Strain the tea into a mug and enjoy warm.",
       ],
       servingNotes: [
-        "This is best framed as a kitchen routine rather than a daily rule.",
-        "A milder flavor usually makes the page feel more approachable to beginners.",
+        "This tea is naturally caffeine-free and can be enjoyed at any time of day — it is especially comforting during cold weather or busy, stressful weeks.",
+        "The jujube slices can be eaten after straining for additional fiber and nutrients, though the flavor will be mild.",
+        "For a lighter version, reduce the simmer time to 10 minutes; for a stronger brew, extend to 25 minutes.",
       ],
       caution: [
-        "Even gentle tea-style pages should avoid implying that everyone should use the same routine regularly.",
+        "Fresh ginger is generally safe in culinary amounts, but those with a history of gallstones or individuals taking products that affect circulation should consult a qualified professional before consuming large amounts.",
+        "Jujubes may interact with certain supplements or products that affect immune function or mood (such as SSNRIs); professional guidance is recommended if you are managing these situations.",
       ],
     },
     sections: [
       {
-        title: "Why this pairing works for beginners",
+        title: "Why It Works: Tradition Meets Science",
         paragraphs: [
-          "Both ingredients are easy to explain, easy to source, and closely tied to practical food use.",
-          "They are often easier to introduce than more advanced ingredients that need heavier caution framing, which is one reason this page works well as a gentle jujube tea recipe entry point.",
+          "Jujube (Ziziphus jujuba) and fresh ginger (Zingiber officinale) are a classic pairing in traditional Chinese wellness practices, often used to harmonize the digestion and provide a gentle, warming energy boost. Fresh ginger is traditionally known to warm the center and support healthy circulation, while jujube is valued for nourishing the blood and calming the spirit.",
+          "Modern research highlights ginger's active compounds, such as gingerols, which offer digestive support and antioxidant properties. Jujubes provide vitamin C and polysaccharides. Together, they create a comforting, caffeine-free tea perfect for stressful or busy weeks.",
+          "The simplicity of this two-ingredient tea belies its depth. The warming nature of ginger complements the sweet, nourishing quality of jujube, making this an ideal introduction to traditional Chinese kitchen wisdom for beginners. It requires minimal prep, uses widely available ingredients, and can be made in about 20 minutes.",
         ],
       },
       {
-        title: "What readers should notice in this pairing",
+        title: "Safety and Caution Details",
         paragraphs: [
-          "This pairing stays approachable because the ingredient list is short, the preparation is simple, and the flavor profile is easy to picture.",
-          "Jujube brings a soft sweetness, while fresh ginger gives the tea a warmer, brighter edge that many readers already recognize from home cooking.",
-        ],
-        bullets: [
-          "A short simmer instead of a long decoction",
-          "A mild flavor that stays food-like rather than overly concentrated",
-          "A familiar kitchen routine that is easy to repeat",
-          "Traditional context explained in plain English",
-          "A visible caution note for readers who need extra care",
+          "Fresh ginger is generally safe in culinary amounts, but those with a history of gallstones or individuals taking products that affect circulation should consult a qualified professional before consuming large amounts.",
+          "Jujubes may interact with certain supplements or products that affect immune function or mood (such as SSNRIs); professional guidance is recommended if you are managing these situations.",
         ],
       },
-      {
-        title: "How this page matches common jujube tea searches",
-        paragraphs: [
-          "Readers who type jujube tea recipe, red date tea, Chinese red date tea, or simple ginger tea usually want one short ingredient list and one easy method, not a dense theory page.",
-          "That is why this page keeps the wording close to a home-style jujube tea recipe while still linking back to the herb names and pantry context that make the cup easier to understand.",
-        ],
-      },
-      {
-        title: "Why red dates work so well in tea",
-        paragraphs: [
-          "Jujubes bring a rounded sweetness that can soften sharper ingredients without making the cup complicated. That is one reason red dates appear so often in beginner-friendly tea pages and simple pantry recipes.",
-          "Splitting the fruit before simmering helps release more flavor into the water, which is a practical detail readers often miss when they first try a jujube tea recipe at home.",
-        ],
-      },
+    ],
+    references: [
+      "[1] Healthline. What Is Jujube Fruit? Nutrition, Benefits, and Uses. https://www.healthline.com/nutrition/jujube",
+      "[2] MSKCC. Ginger. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginger",
     ],
   },
   {
