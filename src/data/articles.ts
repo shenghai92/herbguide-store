@@ -1158,54 +1158,51 @@ const rawBasicsArticles: ContentArticle[] = [
     slug: "what-does-astringent-mean",
     title: "What Does Astringent Mean?",
     description:
-      "A plain-English explanation of astringent as a traditional herb quality in traditional herb writing.",
-    eyebrow: "Basics",
+      "A comprehensive guide to the traditional concept of astringency — what it means in Chinese herb theory, how it works in traditional frameworks, common astringent ingredients, and important safety considerations.",
+    eyebrow: "Basics & Concepts",
     intro:
-      "Astringent is one of the most confusing words on many herb pages because English-speaking readers usually know it only as a taste or a skin-care term. In traditional writing, it is a traditional quality that often points to holding, containing, or restraint in the classical sense.",
+      "In the context of traditional Chinese herb theory, 'astringent' (涩, sè) refers to a specific flavor and action profile. Unlike the common culinary definition of astringent—which often describes a dry, puckering sensation in the mouth (like an unripe banana or strong black tea)—the traditional wellness definition focuses on the energetic action of containing, binding, or preventing leakage.",
     sections: [
       {
-        title: "Why the word feels strange at first",
+        title: "The Concept of Astringency",
         paragraphs: [
-          "Most beginners do not expect to see the word astringent on a herb page, much less on berries or seeds. That is why it needs explanation instead of repetition.",
-          "In traditional writing, astringent belongs to a traditional descriptive system, not a modern personal label.",
+          "In the context of traditional Chinese herb theory, 'astringent' (涩, sè) refers to a specific flavor and action profile. Unlike the common culinary definition of astringent—which often describes a dry, puckering sensation in the mouth (like an unripe banana or strong black tea)—the traditional wellness definition focuses on the energetic action of containing, binding, or preventing leakage.",
+          "This is an important distinction. The culinary sensation of astringency (that dry, mouth-puckering feeling) is a sensory experience. The traditional herb concept of astringency is a functional description of how certain herbs and foods are believed to act within the body's energetic system — gathering, securing, and helping to retain vital substances.",
         ],
       },
       {
-        title: "How astringent language appears on herb pages",
+        title: "How It Works in Traditional Frameworks",
         paragraphs: [
-          "Readers often meet this word on pages about schisandra berry, lotus seed, and some other ingredients that are described as helping hold things in or reduce excess loss in the traditional framework.",
+          "Astringent herbs and foods are traditionally used when the body's energy or fluids are considered to be 'leaking' or failing to be properly contained. This concept is often applied in situations involving:",
         ],
         bullets: [
-          "Astringent is a traditional herb quality.",
-          "It often overlaps with language about containment or restraint.",
-          "The word should be read in context, not as a one-word personal recommendation.",
+          "Excessive sweating",
+          "Frequent urination",
+          "Chronic loose stools",
+          "Loss of essence (jing)",
         ],
       },
       {
-        title: "Why this matters here",
+        title: "Common Astringent Ingredients",
         paragraphs: [
-          "Explaining astringent clearly helps schisandra, lotus seed, and related pages feel much easier to trust.",
-          "It also supports a more educational tone across pantry tea and evening-style content.",
+          "Several well-known herbs and foods are classified as having astringent properties:",
+        ],
+        bullets: [
+          "Schisandra Berry (Wu Wei Zi): Known as the 'five-flavor berry,' it is highly valued for its astringent qualities, often used to support respiratory resilience and contain bodily fluids.",
+          "Lotus Seed (Lian Zi): Frequently used in culinary soups to gently bind and support digestive function.",
+          "Pomegranate (Shi Liu): The rind and fruit are considered astringent and are used to support digestive stability.",
         ],
       },
       {
-        title: "What astringent can feel like in everyday foods",
+        title: "Safety and Caution Details",
         paragraphs: [
-          "In plain sensory terms, astringency is the dry, puckering feeling many readers already know from strong black tea, dry red wine, or less-ripe fruit. That mouthfeel can make the word much easier to understand than a technical definition alone.",
-          "Using that sensory example keeps the page grounded. Readers do not need to memorize a theory term first if they can connect it to a familiar food experience.",
+          "Because astringent ingredients act to bind and contain, they are traditionally contraindicated when the body is experiencing an acute onset of symptoms, such as a cold or flu. The traditional logic is that using astringent herbs during an acute situation might 'trap' the external stressor inside the body rather than allowing it to be expelled. Always seek guidance from a qualified professional if you are unsure.",
         ],
       },
       {
-        title: "How to read astringent pairings more clearly",
+        title: "Read This Page in Context",
         paragraphs: [
-          "Astringent ingredients are often easier to understand when they are paired with softer, sweeter, or more moistening ingredients in tea, soup, or porridge-style pages.",
-          "That is one reason lotus seed, schisandra, pear, tremella, jujube, and hawthorn can all help the page feel more practical instead of abstract.",
-        ],
-      },
-      {
-        title: "Where to keep reading after this page",
-        paragraphs: [
-          "Astringent language usually makes more sense when it is read beside specific ingredient pages like schisandra berry and lotus seed, where the word appears in fuller traditional context.",
+          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
         ],
       },
     ],
