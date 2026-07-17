@@ -1264,25 +1264,57 @@ const rawHerbs: Herb[] = [
     slug: "mulberry-leaf",
     name: "Mulberry Leaf",
     pinyin: "Sang Ye",
-    chinese: "Sang Ye",
-    latin: "Mori Folium",
+    chinese: "桑叶",
+    latin: "Morus alba",
     partUsed: "Leaf",
-    category: "Tea herbs",
-    summary: "A traditional leaf ingredient that helps readers understand mulberry leaf tea, seasonal cups, and plain-English cooling language.",
+    category: "Herbs that clear heat",
+    commonNames: "Mulberry Leaf, White Mulberry Leaf",
+    arabicName: "ورق التوت (Waraq Al-Toot)",
+    summary: "Harvested from the white mulberry tree — the same tree whose leaves feed silkworms. Used for centuries as a cooling herb, Mulberry Leaf is now the subject of strong modern scientific interest for its unique active compounds and potential role in metabolic and blood sugar support.",
     whatItIs:
-      "Mulberry leaf is easier to explain as a tea and seasonal kitchen ingredient than as a product keyword, which makes it useful for readers who want a calmer introduction to leaf-based traditional terminology.",
-    nature: "Cool",
+      "Mulberry leaf (Morus alba) is harvested from the white mulberry tree, the same tree whose leaves are famously used to feed silkworms. In traditional Chinese wellness practices, it has been used for centuries as a cooling herb, often brewed into a light, grassy tea. Today, modern science has taken a strong interest in mulberry leaf, particularly regarding its unique active compounds and what modern science says about its potential role in metabolic and blood sugar support.",
+    nature: "Cold",
     flavor: "Sweet, bitter",
     channels: "Lung, Liver",
     traditionalUses: [
-      "Traditionally used in discussions of seasonal warmth, dryness language, and leaf-based tea context in this framework.",
-      "Often introduced through mulberry leaf tea and comparison reading beside chrysanthemum or mint.",
-      "Useful for readers searching sang ye tea, mulberry leaf tea, or simple seasonal tea ingredients.",
+      "In traditional frameworks, Mulberry Leaf (Sang Ye) is categorized among herbs that clear heat and resolve exterior wind-heat. It is traditionally associated with the Lung and Liver channels.",
+      "Clearing heat from the Lungs, often used when experiencing an acute onset of symptoms accompanied by a dry, scratchy throat.",
+      "Supporting visual health by clearing heat from the Liver channel.",
+      "Providing a gentle, cooling energy that helps balance the body during warm weather or internal heat imbalances.",
     ],
-    foodUses: ["Tea", "Seasonal infusion", "Light pear tea pairings"],
+    foodUses: ["Tea (light, grassy brew)", "Seasonal infusion", "Cooling tea blends"],
     caution:
-      "Because many readers arrive through narrow condition-style searches, this page should remain educational and avoid sounding like directed care.",
-    tags: ["sang ye", "mulberry leaf tea", "tea herb", "seasonal tea", "plain english"],
+      "Mulberry leaf is generally considered safe when consumed as a tea or food. However, because of its potential to influence blood sugar levels, individuals taking products or medications that affect blood glucose should seek professional guidance before using mulberry leaf supplements, to avoid the risk of hypoglycemia.",
+    cautionDetails: [
+      "Blood sugar interactions: Because mulberry leaf contains DNJ (1-Deoxynojirimycin), an alpha-glucosidase inhibitor, it can influence how the body breaks down carbohydrates. Individuals taking blood sugar medications should seek professional guidance before use.",
+      "Cold constitution: As a traditionally 'cold' herb, it is often recommended to be used cautiously by those with a sensitive or 'cold' digestive constitution.",
+    ],
+    scientificSections: [
+      {
+        title: "Nutritional and Active Compounds",
+        paragraphs: [
+          "The standout compound in mulberry leaves is 1-Deoxynojirimycin (DNJ). DNJ is an alpha-glucosidase inhibitor, meaning it can influence how the body breaks down complex carbohydrates into simple sugars during digestion. The leaves also contain significant amounts of antioxidant flavonoids, such as quercetin and rutin, which contribute to their overall health-supporting profile.",
+        ],
+      },
+      {
+        title: "Metabolic and Blood Sugar Support",
+        paragraphs: [
+          "A robust body of clinical and preclinical research explores the potential of mulberry leaf extract in supporting metabolic wellness. Multiple studies and meta-analyses suggest that the DNJ in mulberry leaves may help modulate postprandial (post-meal) blood glucose levels by slowing the absorption of carbohydrates in the digestive tract. A 2023 review confirmed these hypoglycemic properties, noting that the active substances in mulberry leaf can help regulate blood glucose levels while also offering antioxidant benefits.",
+        ],
+      },
+      {
+        title: "Antioxidant and Cellular Health",
+        paragraphs: [
+          "Beyond metabolic support, the flavonoids in mulberry leaves provide strong antioxidant activity. These compounds help protect cells from oxidative stress and free radical damage, which is essential for long-term cellular resilience and cardiovascular wellness.",
+        ],
+      },
+    ],
+    references: [
+      "[1] PMC. Evaluation of mulberry leaves' hypoglycemic properties. https://pmc.ncbi.nlm.nih.gov/articles/PMC10117911/",
+      "[2] Nature. Effects of the timing of acute mulberry leaf extract intake on postprandial glucose. https://www.nature.com/articles/s41430-023-01259-x",
+      "[3] ScienceDirect. Effects of 1-Deoxynojirimycin on glycemic control: A systematic review. https://www.sciencedirect.com/science/article/pii/S235236462400049X",
+    ],
+    tags: ["sang ye", "mulberry leaf", "morus alba", "cooling herb", "clear heat", "DNJ", "blood sugar support", "traditional Chinese leaf tea"],
   },
   {
     slug: "lotus-leaf",
@@ -1741,6 +1773,7 @@ const herbCategoryAliases: Record<string, string[]> = {
   "Kidney-related herbs": ["kidney-related", "deep reserves", "long-term support", "traditional depth"],
   "Yin-supporting herbs": ["yin", "nourishing", "gentle", "restorative", "daily support", "cooling balance"],
   "Qi-regulating herbs": ["qi", "digestive", "aromatic", "citrus", "movement"],
+  "Herbs that clear heat": ["cooling", "clear heat", "summer", "seasonal", "light"],
 };
 
 const getNatureAliases = (nature: string) => {
