@@ -1240,25 +1240,56 @@ const rawHerbs: Herb[] = [
     slug: "rose-bud",
     name: "Rose Bud",
     pinyin: "Mei Gui Hua",
-    chinese: "Mei Gui Hua",
-    latin: "Rosae Rugosae Flos",
+    chinese: "玫瑰花",
+    latin: "Rosa rugosa / Rosa damascena",
     partUsed: "Flower bud",
-    category: "Tea herbs",
-    summary: "A fragrant flower bud that supports floral tea reading, gentle pantry routines, and plain-English traditional context.",
+    category: "Herbs that regulate Qi",
+    commonNames: "Rose Bud, Chinese Rose",
+    arabicName: "زهرة الورد (Zahrat Al-Ward) / ورد (Ward)",
+    summary: "Cherished globally for their fragrance and beauty, rose buds also hold a significant place in traditional wellness practices. This guide explores how rose buds gently move energy and soothe the spirit, their rich antioxidant profile, and what modern science says about their potential to support digestive and menstrual comfort.",
     whatItIs:
-      "Rose bud is easier for many readers to understand through tea culture and kitchen aroma than through abstract traditional terminology, which makes it a strong bridge page for floral ingredient searches.",
+      "Rose buds (Rosa rugosa or Rosa damascena) are cherished globally for their fragrance and beauty, but they also hold a significant place in traditional wellness practices. In traditional Chinese approaches, young, dried rose buds are brewed into a fragrant, delicate tea used to gently move energy and soothe the spirit. Today, what modern science says about rose buds highlights their rich antioxidant profile and potential to support digestive and menstrual comfort.",
     nature: "Warm",
     flavor: "Sweet, slightly bitter",
     channels: "Liver, Spleen",
     traditionalUses: [
-      "Traditionally used in discussions of floral aroma, gentle movement language, and calmer tea-style kitchen reading.",
-      "Often introduced through tea blends, pantry jars, and fragrant cup routines rather than concentrated product talk.",
-      "Useful for readers searching rose bud tea, mei gui hua tea, or floral ingredients in plain English.",
+      "In traditional frameworks, Rose Bud (Mei Gui Hua) is classified as an herb that regulates Qi (vital energy) and harmonizes the blood. It is primarily associated with the Liver and Spleen channels.",
+      "Gently promoting the smooth flow of Liver Qi, which is traditionally linked to emotional balance and stress management.",
+      "Harmonizing the blood, making it a popular choice for supporting menstrual comfort and regularity.",
+      "Supporting digestive harmony by addressing stagnation in the Spleen and Stomach.",
     ],
-    foodUses: ["Tea", "Floral infusion", "Pantry tea blends"],
+    foodUses: ["Rose bud tea (caffeine-free brew)", "Floral infusion", "Delicate tea blends"],
     caution:
-      "Floral tea pages should stay food-first and educational. Readers should not treat a fragrant cup as individualized advice.",
-    tags: ["mei gui hua", "rose bud tea", "floral tea", "pantry tea", "search-friendly"],
+      "Rose bud tea is generally safe for most people when consumed in moderate amounts. However, individuals with allergies to the rose plant should avoid it.",
+    cautionDetails: [
+      "Product interactions: There is some indication that rose tea may interact with products that affect circulation (such as blood thinners) or mood-supporting supplements (like antidepressants). If you are managing these situations or are pregnant, it is best to seek guidance from a qualified professional before making it a regular part of your routine.",
+      "Pregnancy: If you are pregnant, seek guidance from a qualified professional before making rose bud tea a regular part of your routine.",
+    ],
+    scientificSections: [
+      {
+        title: "Nutritional and Active Compounds",
+        paragraphs: [
+          "Rose buds are caffeine-free and contain a high concentration of polyphenols, flavonoids, tannins, and phenolic acids. They are also a source of vitamins C and E. These compounds are well-documented for their potent antioxidant properties, which help neutralize free radicals and protect cellular health.",
+        ],
+      },
+      {
+        title: "Anti-Inflammatory and Menstrual Comfort",
+        paragraphs: [
+          "Research indicates that the anti-inflammatory activity in powdered rose petals can be significant. One notable area of study is its effect on dysmenorrhea (menstrual discomfort). Studies have found a reduction in period-related cramping, bloating, and pain among individuals who regularly consumed rose tea. Participants in these studies also frequently reported experiencing a calmer mood and less anxiety.",
+        ],
+      },
+      {
+        title: "Digestive and Metabolic Wellness",
+        paragraphs: [
+          "The polyphenols in rose tea have been studied for their potential to support metabolic and cardiovascular wellness programs. Additionally, modern research suggests that rose tea may aid digestion by supporting healthy bile production in the liver, which can improve nutrient absorption and maintain digestive regularity.",
+        ],
+      },
+    ],
+    references: [
+      "[1] WebMD. Rose Tea: Is It Good for You? https://www.webmd.com/diet/rose-tea-good-for-you",
+      "[2] PMC. Beneficial medicinal effects and material applications of rose. https://pmc.ncbi.nlm.nih.gov/articles/PMC10758878/",
+    ],
+    tags: ["mei gui hua", "rose bud", "chinese rose", "rosa rugosa", "qi-regulating herbs", "rose bud tea", "menstrual comfort", "antioxidant tea"],
   },
   {
     slug: "mulberry-leaf",
@@ -1774,6 +1805,7 @@ const herbCategoryAliases: Record<string, string[]> = {
   "Yin-supporting herbs": ["yin", "nourishing", "gentle", "restorative", "daily support", "cooling balance"],
   "Qi-regulating herbs": ["qi", "digestive", "aromatic", "citrus", "movement"],
   "Herbs that clear heat": ["cooling", "clear heat", "summer", "seasonal", "light"],
+  "Herbs that regulate Qi": ["qi", "movement", "emotional balance", "liver", "harmony"],
 };
 
 const getNatureAliases = (nature: string) => {
