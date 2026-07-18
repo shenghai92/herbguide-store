@@ -920,37 +920,55 @@ const rawBasicsArticles: ContentArticle[] = [
   },
   {
     slug: "what-is-damp-heat",
-    title: "What Is Damp Heat?",
+    title: "What Is Damp-Heat?",
     description:
-      "A careful beginner guide to the traditional phrase damp heat and why it appears in digestive and seasonal content.",
-    eyebrow: "Basics",
+      "A comprehensive guide to the traditional concept of Damp-Heat — what it means, how it shows up in the body, traditional approaches to managing it, and practical lifestyle and kitchen notes.",
+    eyebrow: "Basics & Concepts",
     intro:
-      "Damp heat is a very common pattern phrase in traditional herb content, especially on digestive, seasonal, or skin-adjacent pages. It belongs to a traditional descriptive system, not a modern personal label, but readers see it often enough that it deserves a clear, low-hype explanation.",
+      "In traditional Chinese wellness frameworks, 'Damp-Heat' (湿热, shī rè) is a conceptual way to describe a specific pattern of imbalance in the body. It combines two elements: 'Dampness,' which represents sluggishness, heaviness, and fluid accumulation, and 'Heat,' which represents overactivity, redness, and warmth. When these two combine, traditional theory describes it as a sticky, heavy, and warm condition—much like a hot, humid summer day where the air feels thick and uncomfortable.",
     sections: [
       {
-        title: "Why this term feels confusing at first",
+        title: "The Concept of Damp-Heat",
         paragraphs: [
-          "The two words sound concrete in English, but together they refer to a traditional pattern idea rather than literal weather inside the body.",
-          "A useful beginner approach is to understand damp heat as a traditional way of describing heaviness, stickiness, and heat-like qualities appearing together in the traditional model.",
+          "In traditional Chinese wellness frameworks, 'Damp-Heat' (湿热, shī rè) is a conceptual way to describe a specific pattern of imbalance in the body. It combines two elements: 'Dampness,' which represents sluggishness, heaviness, and fluid accumulation, and 'Heat,' which represents overactivity, redness, and warmth.",
+          "When these two combine, traditional theory describes it as a sticky, heavy, and warm condition—much like a hot, humid summer day where the air feels thick and uncomfortable. This analogy helps make an abstract concept more tangible: just as a hot, humid environment feels draining and oppressive, Damp-Heat in the body is understood to create similar sensations of sluggish discomfort.",
         ],
       },
       {
-        title: "How the phrase is used on educational sites",
+        title: "How It Shows Up in the Body",
         paragraphs: [
-          "Readers often meet damp heat near digestive pages, richer food discussions, aromatic herbs, or seasonal articles that explain why some ingredients are framed as lighter, more cooling, or more drying in context.",
-          "Without translation, the phrase can push readers toward self-labeling. With translation, it becomes a vocabulary tool instead.",
+          "Traditional practitioners look for signs that suggest the presence of Damp-Heat. These often manifest in ways that are both 'heavy' and 'warm,' such as:",
         ],
         bullets: [
-          "Damp heat is a traditional pattern phrase.",
-          "It often appears around digestive and seasonal content.",
-          "It should be read as educational context rather than self-labeling.",
+          "A feeling of heaviness in the body or limbs",
+          "Digestive sluggishness accompanied by warmth or a bitter taste in the mouth",
+          "Skin situations that are red, weeping, or prone to breakouts",
+          "A feeling of incomplete emptying after using the restroom",
         ],
       },
       {
-        title: "Why this page matters",
+        title: "Traditional Approaches to Damp-Heat",
         paragraphs: [
-          "A damp heat explainer makes digestive topic pages and glossary reading more complete, especially for readers who arrive through comparison or kitchen pages.",
-          "It also connects directly to hawthorn, chen pi, poria, mint, and lighter recipe pages that use similar language.",
+          "The traditional approach to managing Damp-Heat involves using herbs and foods that are cooling (to clear the heat) and drying or draining (to resolve the dampness).",
+          "Common ingredients used in this context include:",
+        ],
+        bullets: [
+          "Poria (Fu Ling): Used to gently drain dampness through urination.",
+          "Job's Tears (Yi Yi Ren): A cooling grain used to clear heat and resolve dampness.",
+          "Chrysanthemum (Ju Hua): Used to clear heat, often paired with damp-draining herbs.",
+          "Green Tea: Traditionally considered cooling and slightly bitter, helping to clear heat and dry dampness.",
+        ],
+      },
+      {
+        title: "Lifestyle and Kitchen Notes",
+        paragraphs: [
+          "From a dietary perspective, traditional frameworks suggest that Damp-Heat is often exacerbated by consuming too many rich, greasy, spicy, or heavily processed foods, as well as excessive alcohol. To support the body in clearing Damp-Heat, the traditional kitchen emphasizes light, easily digestible meals, plenty of water, and cooling vegetables like cucumber and bitter melon.",
+        ],
+      },
+      {
+        title: "Read This Page in Context",
+        paragraphs: [
+          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
         ],
       },
     ],
