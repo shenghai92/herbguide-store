@@ -2456,81 +2456,56 @@ export const foodTherapyArticles: ContentArticle[] = [
     slug: "jujube-and-lotus-seed-congee-for-quiet-evenings",
     title: "Jujube and Lotus Seed Congee for Quiet Evenings",
     description:
-      "A gentle jujube and lotus seed congee page that deepens pantry reading with simple kitchen language.",
+      "A traditional Chinese evening porridge pairing jujube and lotus seed — a classic combination for nourishing the Heart, calming the spirit, and winding down before bed, with precise ingredients and modern nutritional science.",
     eyebrow: "Kitchen Traditions",
     intro:
-      "Jujube and lotus seed make a calm, memorable pair because both ingredients already feel closely tied to household food traditions. A simple congee page lets readers picture a real bowl more easily than abstract evening-themed language alone. It also gives readers a direct route from red date and lotus seed searches into a familiar rice-based format.",
+      "Jujube (Ziziphus jujuba) and lotus seed (Nelumbo nucifera) form a classic pairing in traditional evening porridges. In traditional frameworks, this combination is revered for nourishing the Heart and calming the spirit (shen), making it a popular choice for winding down before bed. Modern research provides a scientific lens for this tradition: jujubes are rich in unique antioxidants and polysaccharides that have been shown in animal studies to support sleep quality and calm the nervous system. Lotus seeds provide a gentle source of complex carbohydrates and proteins, offering steady, slow-releasing energy that helps maintain stable blood sugar throughout the night, preventing middle-of-the-night waking.",
     recipe: {
       recipeYield: "2 bowls",
       prepTime: "PT10M",
-      totalTime: "PT1H",
+      totalTime: "PT50M",
       ingredients: [
-        "1/2 cup white rice",
-        "4 to 5 cups water",
-        "6 to 8 dried jujubes, split and pitted",
-        "1/4 cup lotus seed",
-        "Optional: a small handful of goji berries",
-        "Optional: a few longan pieces for a slightly sweeter finish",
+        "1/4 cup short-grain white rice",
+        "2 cups water",
+        "4-5 dried jujubes (Ziziphus jujuba), pitted and sliced",
+        "2 tablespoons dried lotus seeds (Nelumbo nucifera), soaked for 30 minutes",
+        "Optional: A small piece of rock sugar",
       ],
       steps: [
-        "Rinse the rice, jujube, and lotus seed under cool water.",
-        "Add the rice, water, lotus seed, and jujube to a medium pot and bring to a gentle boil.",
-        "Lower the heat, partially cover the pot, and simmer gently for 45 to 60 minutes, stirring now and then.",
-        "Add the optional goji berries during the last 5 minutes and the optional longan near the end.",
-        "Serve warm once the rice has softened into a creamy, calm porridge texture.",
+        "Rinse the rice and soaked lotus seeds thoroughly.",
+        "In a small pot, combine the rice, lotus seeds, and water. Bring to a boil over medium heat.",
+        "Reduce the heat to a low simmer, cover, and cook for 30 minutes, stirring occasionally.",
+        "Add the sliced jujubes and continue to simmer for another 15-20 minutes until the porridge is thick and the lotus seeds are tender.",
+        "Stir in rock sugar if using, and serve warm.",
       ],
       servingNotes: [
-        "This is strongest as a gentle household-style bowl, not a rigid nightly rule.",
-        "A softer, lighter bowl usually feels better than a very rich dessert version.",
-        "The simplest version is often the easiest for readers to repeat and trust.",
+        "This congee is at its most comforting when served warm and eaten slowly — let the gentle sweetness of the jujubes and the creamy texture of the rice do the work.",
+        "Soaking the lotus seeds for 30 minutes before cooking helps them soften more evenly and blend into the porridge texture.",
+        "For a completely sugar-free version, the natural sweetness of the jujubes is often sufficient on its own.",
       ],
       caution: [
-        "Quiet-evening language here is traditional and culinary in tone, not a claim about sleep or fixed outcomes.",
+        "This congee is gentle and generally safe for regular consumption. However, lotus seeds are traditionally considered slightly astringent; therefore, it is often advised to pause consumption when experiencing an acute onset of digestive stagnation or constipation.",
+        "Individuals managing their blood sugar should consume this dish without added sugar and seek professional guidance if needed.",
       ],
     },
     sections: [
       {
-        title: "Why this page adds useful depth",
+        title: "Why It Works: Tradition Meets Science",
         paragraphs: [
-          "It extends pantry and evening-style reading without relying only on teas.",
-          "It also gives jujube and lotus seed readers another concrete kitchen example to follow.",
+          "Jujube (Ziziphus jujuba) and lotus seed (Nelumbo nucifera) form a classic pairing in traditional evening porridges. In traditional frameworks, this combination is revered for nourishing the Heart and calming the spirit (shen), making it a popular choice for winding down before bed.",
+          "Modern research provides a scientific lens for this tradition: jujubes are rich in unique antioxidants and polysaccharides that have been shown in animal studies to support sleep quality and calm the nervous system. Lotus seeds provide a gentle source of complex carbohydrates and proteins, offering steady, slow-releasing energy that helps maintain stable blood sugar throughout the night, preventing middle-of-the-night waking.",
+          "The simplicity of this congee is part of its appeal. With just a handful of pantry ingredients — rice, jujubes, and lotus seeds — it creates a deeply comforting bowl that embodies the traditional principle of food as gentle nourishment. It requires minimal active prep time and can be made while you wind down your evening routine.",
         ],
       },
       {
-        title: "What the bowl teaches beyond the recipe",
+        title: "Safety and Caution Details",
         paragraphs: [
-          "A congee page like this helps readers understand that traditional kitchen learning is often repetitive, simple, and food-first.",
-          "It also strengthens links between jujube, lotus seed, longan, and plain-English pages about shen or nourishment language.",
+          "This congee is gentle and generally safe for regular consumption. However, lotus seeds are traditionally considered slightly astringent; therefore, it is often advised to pause consumption when experiencing an acute onset of digestive stagnation or constipation. Individuals managing their blood sugar should consume this dish without added sugar and seek professional guidance if needed.",
         ],
       },
-      {
-        title: "Why jujube works so naturally in congee",
-        paragraphs: [
-          "Dried jujubes bring a mild sweetness and a familiar household feel that fits porridge especially well. They help a plain grain base feel fuller without making the bowl complicated.",
-          "That is one reason jujube congee remains such a strong beginner search topic. The ingredients are easy to picture, the cooking pattern is simple, and the result feels approachable.",
-        ],
-      },
-      {
-        title: "Why this page fits jujube congee searches",
-        paragraphs: [
-          "Readers who search jujube congee are usually looking for a calm bowl with a short ingredient list and a recognizable grain base.",
-          "This page keeps that intent intact by using direct congee wording, a simple sequence, and easy next clicks to related pantry ingredients.",
-        ],
-      },
-      {
-        title: "How to keep the bowl balanced",
-        paragraphs: [
-          "A good congee stays soft, light, and only gently sweet. It should feel like a steady breakfast or pantry bowl rather than a dense dessert.",
-          "Optional add-ins like goji berries or longan can broaden the flavor, but the rice and jujube base should remain easy to recognize.",
-        ],
-      },
-      {
-        title: "What kind of lotus seed works best here",
-        paragraphs: [
-          "Cored lotus seeds are usually the easiest choice for this style of congee because they keep the flavor mild and clean. If the green core is still inside, the bowl can pick up a bitter note that changes the result.",
-          "Soaking is optional for some packaged lotus seeds, but a quick soak or a longer simmer often gives the softest texture and makes the finished congee feel more complete.",
-        ],
-      },
+    ],
+    references: [
+      "[1] Healthline. What Is Jujube Fruit? Nutrition, Benefits, and Uses. https://www.healthline.com/nutrition/jujube",
     ],
   },
   {
