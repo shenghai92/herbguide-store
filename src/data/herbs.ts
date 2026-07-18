@@ -676,25 +676,55 @@ const rawHerbs: Herb[] = [
     slug: "mint",
     name: "Mint",
     pinyin: "Bo He",
-            chinese: "Bo He",
-    latin: "Menthae Haplocalycis Herba",
-    partUsed: "Aerial parts",
-    category: "Tea herbs",
-    summary: "A familiar herb that can help translate traditional cooling concepts through something readers already know.",
+    chinese: "薄荷",
+    latin: "Mentha haplocalyx / Mentha x piperita",
+    partUsed: "Aerial parts (leaves and stems)",
+    category: "Herbs that clear heat",
+    commonNames: "Mint, Field Mint, Chinese Peppermint",
+    arabicName: "نعناع (Na'na')",
+    summary: "One of the most universally recognized herbs, prized for its refreshing aroma and cooling sensation. This guide explores Mint's traditional role as a cooling, dispersing herb, and what modern science says about its essential oils, particularly menthol, and their well-documented role in supporting digestive comfort.",
     whatItIs:
-      "Mint is a strategic herb for a beginner site because familiarity lowers the barrier to understanding cooling and aromatic actions in traditional writing.",
+      "Mint is one of the most universally recognized herbs, prized for its refreshing aroma and cooling sensation. In traditional Chinese wellness practices, Mentha haplocalyx (Bo He) is used as a cooling, dispersing herb. While culinary peppermint (Mentha x piperita) is slightly different botanically, they share similar active compounds. Today, what modern science says about mint focuses heavily on its essential oils, particularly menthol, and its well-documented role in supporting digestive comfort.",
     nature: "Cool",
-    flavor: "Pungent, aromatic",
+    flavor: "Pungent (acrid)",
     channels: "Lung, Liver",
     traditionalUses: [
-      "Traditionally used to release the exterior and move stagnant qi in traditional language.",
-      "A good teaching herb for aromatic cooling categories.",
-      "Useful in simple tea content.",
+      "In traditional frameworks, Mint (Bo He) is categorized as an herb that clears heat and resolves exterior wind-heat. It is primarily associated with the Lung and Liver channels.",
+      "Dispersing heat from the head and eyes, often used when experiencing an acute onset of symptoms accompanied by a warm, heavy head.",
+      "Soothing the throat and promoting a clear, refreshed feeling in the upper respiratory tract.",
+      "Gently moving Liver Qi, which in traditional terms helps relieve emotional tension and frustration.",
     ],
-    foodUses: ["Tea", "Infusion", "Cooling blends"],
+    foodUses: ["Mint tea (steeped fresh or dried)", "Cooling infusion", "Aromatic tea blends"],
     caution:
-      "Keep all language general and avoid turning simple herb profiles into condition-specific instructions.",
-    tags: ["familiar", "tea", "cooling", "aromatic", "beginner"],
+      "Mint tea is generally very safe for regular consumption. However, the concentrated essential oil should be used with caution. Peppermint oil can occasionally cause heartburn or acid reflux in sensitive individuals.",
+    cautionDetails: [
+      "Infants and young children: Concentrated menthol or peppermint oil should not be applied to the face or chest of infants or young children, as it may negatively affect their breathing.",
+      "Pregnancy and digestive issues: If you are pregnant or managing severe digestive issues, seek guidance from a qualified professional.",
+    ],
+    scientificSections: [
+      {
+        title: "Nutritional and Active Compounds",
+        paragraphs: [
+          "Mint leaves contain a variety of active compounds, including menthol, menthone, and various antioxidant flavonoids. Menthol is responsible for the characteristic cooling sensation, which occurs because it interacts directly with cold-sensitive receptors in the skin and mucous membranes.",
+        ],
+      },
+      {
+        title: "Digestive Support",
+        paragraphs: [
+          "A significant body of clinical research has explored peppermint oil's role in digestive wellness. According to the National Center for Complementary and Integrative Health (NCCIH), a 2022 review of 10 studies involving over 1,000 participants found that peppermint oil can significantly improve overall digestive comfort, particularly in relation to irritable bowel symptoms. The active compounds are thought to help relax the smooth muscles of the gastrointestinal tract.",
+        ],
+      },
+      {
+        title: "Respiratory and Tension Relief",
+        paragraphs: [
+          "The aromatic properties of mint are frequently utilized for respiratory comfort. Inhaling the vapor of steeped mint leaves can provide a soothing effect on the respiratory passages. Additionally, limited evidence suggests that topical application of mint essential oils may help relieve tension in the head and neck area.",
+        ],
+      },
+    ],
+    references: [
+      "[1] NCCIH. Peppermint Oil. https://www.nccih.nih.gov/health/peppermint-oil",
+    ],
+    tags: ["bo he", "mint", "field mint", "chinese peppermint", "mentha", "cooling herb", "digestive support", "menthol"],
   },
   {
     slug: "perilla-leaf",
