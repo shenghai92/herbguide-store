@@ -1063,37 +1063,63 @@ const rawBasicsArticles: ContentArticle[] = [
   },
   {
     slug: "poria-vs-jobs-tears",
-    title: "Poria vs Job's Tears",
+    title: "Poria vs. Job's Tears: Understanding the Differences",
     description:
-      "A practical plain-English comparison of poria and Job's Tears for readers learning dampness-related Chinese pantry language.",
-    eyebrow: "Basics",
+      "A comprehensive comparison of Poria and Job's Tears — two of the most famous ingredients for addressing dampness in traditional Chinese kitchen practices, with distinct profiles, traditional applications, and kitchen uses.",
+    eyebrow: "Basics & Concepts",
     intro:
-      "Poria and Job's Tears often appear near the same traditional term: dampness. That overlap can make them look interchangeable, but they are easier to understand when separated clearly. One reads more like a classic herb-context ingredient, while the other feels more like a grain-style pantry food that beginners can picture more easily.",
+      "In traditional Chinese kitchen and wellness practices, Poria (Fu Ling | 茯苓) and Job's Tears (Yi Yi Ren | 薏苡仁) are two of the most famous ingredients used to address 'dampness'—the traditional concept of sluggishness and fluid accumulation. While they are often used together in soups and teas, they have distinct profiles and slightly different traditional applications.",
     sections: [
       {
-        title: "Why this comparison matters",
+        title: "Two Pillars of Dampness Resolution",
         paragraphs: [
-          "Many readers can imagine Job's Tears in porridge or soup, but poria feels more unfamiliar and more technical.",
-          "Putting them side by side helps show how HerbGuide moves from plain kitchen examples into deeper traditional vocabulary without losing clarity.",
+          "In traditional Chinese kitchen and wellness practices, Poria (Fu Ling | 茯苓) and Job's Tears (Yi Yi Ren | 薏苡仁) are two of the most famous ingredients used to address 'dampness'—the traditional concept of sluggishness and fluid accumulation. While they are often used together in soups and teas, they have distinct profiles and slightly different traditional applications.",
         ],
       },
       {
-        title: "How the two are usually framed",
+        title: "Poria (Fu Ling)",
         paragraphs: [
-          "Poria is often introduced as a traditional herb-context ingredient connected to dampness, fluids, and broader formula or soup discussions.",
-          "Job's Tears is easier to explain through grain bowls, porridge, soup, and the feeling of a lighter pantry routine in seasonal digestive content.",
+          "Poria cocos is a type of fungus that grows on the roots of pine trees. It is typically sold in white, chalky, square cubes or rolled slices.",
         ],
         bullets: [
-          "Poria usually feels more library-like and theory-supportive.",
-          "Job's Tears usually feels more pantry-friendly and recipe-ready.",
-          "Both help readers understand dampness language in a traditional framework.",
+          "Nature & Flavor: Neutral nature; sweet and bland flavor.",
+          "Traditional Action: Poria is highly valued for its gentle nature. It is traditionally used to gently drain dampness without being overly drying or harsh.",
+          "Unique Benefit: Beyond fluid balance, Poria is traditionally said to 'calm the spirit' (shen) and support the Spleen (digestive energy). It is often used when dampness is accompanied by a restless mind or poor sleep.",
         ],
       },
       {
-        title: "What readers should learn from the contrast",
+        title: "Job's Tears (Yi Yi Ren)",
         paragraphs: [
-          "This comparison teaches one of the most useful HerbGuide lessons: traditional herb learning is often easier when one concept page, one comparison page, and one kitchen page are read together.",
-          "For dampness, that often means reading the glossary term first, then comparing ingredients, then opening a porridge or soup page right away.",
+          "Coix lacryma-jobi, commonly known as Job's Tears or Coix seed, is a gluten-free grain that resembles large, pearl-like barley.",
+        ],
+        bullets: [
+          "Nature & Flavor: Slightly cold nature; sweet and bland flavor.",
+          "Traditional Action: Job's Tears are more actively cooling than Poria. They are traditionally used to clear heat and resolve dampness, making them ideal for 'Damp-Heat' situations.",
+          "Unique Benefit: Job's Tears are frequently used in traditional approaches to support skin clarity and joint comfort, particularly when there is a sensation of heat or redness.",
+        ],
+      },
+      {
+        title: "Comparison Summary",
+        paragraphs: [
+          "Here is a quick side-by-side comparison of the two ingredients:",
+        ],
+        bullets: [
+          "Origin: Poria is a pine root fungus; Job's Tears is a grain/seed.",
+          "Temperature: Poria is neutral; Job's Tears is slightly cold.",
+          "Best For: Poria excels at gentle fluid balance and calming the mind; Job's Tears excels at clearing damp-heat and supporting skin.",
+          "Kitchen Use: Poria is used in soups and teas (usually removed before eating); Job's Tears is used in porridges and soups (eaten as a grain).",
+        ],
+      },
+      {
+        title: "Kitchen Application",
+        paragraphs: [
+          "Both ingredients require long simmering to extract their benefits. Job's Tears should be soaked for a few hours before cooking to soften them. They are famously paired together, along with ingredients like red bean (adzuki), in traditional damp-clearing porridges served during humid summer months.",
+        ],
+      },
+      {
+        title: "Read This Page in Context",
+        paragraphs: [
+          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
         ],
       },
     ],
