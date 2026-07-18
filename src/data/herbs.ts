@@ -228,27 +228,57 @@ const rawHerbs: Herb[] = [
   },
   {
     slug: "chrysanthemum-flower",
-    name: "Chrysanthemum",
+    name: "Chrysanthemum Flower",
     pinyin: "Ju Hua",
-        chinese: "Ju Hua",
-    latin: "Chrysanthemi Flos",
+    chinese: "菊花",
+    latin: "Chrysanthemum morifolium",
     partUsed: "Flower",
-    category: "Tea herbs",
-    summary: "A floral tea herb known for its cooling place in traditional kitchen use.",
+    category: "Herbs that clear heat",
+    commonNames: "Chrysanthemum, Mum",
+    arabicName: "أقحوان (Aqhwan) / زهرة الأقحوان (Zahrat Al-Aqhwan)",
+    summary: "Not just ornamental autumn blooms — Chrysanthemum is a staple of East Asian tea culture, traditionally consumed to cool the body and clear the head. This guide explores its rich flavonoid content, particularly luteolin, and its potential role in supporting cardiovascular and cellular wellness.",
     whatItIs:
-      "Chrysanthemum tea is one of the easiest traditional beverage ideas to explain to U.S. readers because it is light, visual, and already recognizable in Asian grocery culture.",
-    nature: "Cool",
+      "Chrysanthemum flowers (Chrysanthemum morifolium) are not just ornamental autumn blooms; they are a staple of East Asian tea culture. Brewed into a pale yellow, floral tea, Ju Hua is traditionally consumed to cool the body and clear the head. Today, what modern science says about chrysanthemum highlights its rich flavonoid content, particularly luteolin, and its potential role in supporting cardiovascular and cellular wellness.",
+    nature: "Slightly cold",
     flavor: "Sweet, bitter",
-    channels: "Liver, Lung",
+    channels: "Lung, Liver",
     traditionalUses: [
-      "Traditionally used in discussions of clear heat and warm or irritated states.",
-      "Often discussed for head and eye-related language in traditional theory.",
-      "A frequent entry point for cooling-food conversations.",
+      "In traditional frameworks, Chrysanthemum (Ju Hua) is categorized as an herb that clears heat and resolves exterior wind-heat. It is closely associated with the Lung and Liver channels.",
+      "Clearing heat from the Liver channel, which is traditionally believed to 'open into the eyes.' Thus, it is famously used to support visual comfort, especially when the eyes feel dry, red, or tired from overwork.",
+      "Dispersing wind-heat, making it a go-to tea when experiencing an acute onset of warm, upper-body symptoms.",
+      "Providing a gentle, cooling energy that helps calm a frustrated or overheated disposition.",
     ],
-    foodUses: ["Tea", "Iced tea", "Floral blends"],
+    foodUses: ["Chrysanthemum tea (pale yellow brew)", "Iced tea", "Cooling floral blends"],
     caution:
-      "Cooling herbs are not automatically appropriate for everyone. Articles should explain context rather than promote constant use.",
-    tags: ["tea", "cooling", "flower", "summer", "beginner"],
+      "Chrysanthemum tea is widely consumed as a daily beverage and is generally very safe. However, individuals with known allergies to plants in the daisy or aster family (such as ragweed or marigolds) should exercise caution, as they may experience an allergic reaction.",
+    cautionDetails: [
+      "Cold constitution: Because of its traditionally 'cold' nature, those with a sensitive or 'cold' digestive constitution may want to pair it with a warming ingredient, such as a slice of ginger or a few goji berries.",
+    ],
+    scientificSections: [
+      {
+        title: "Nutritional and Active Compounds",
+        paragraphs: [
+          "Chrysanthemum flowers are rich in flavonoids, most notably luteolin and apigenin. They also provide essential minerals, including potassium, magnesium, and calcium. Luteolin is a potent antioxidant that has been the subject of numerous studies regarding its ability to neutralize free radicals and modulate inflammatory responses at the cellular level.",
+        ],
+      },
+      {
+        title: "Cardiovascular and Blood Pressure Support",
+        paragraphs: [
+          "A key area of research focuses on chrysanthemum's potential to support cardiovascular wellness. The high potassium content in the tea helps support healthy kidney and heart function. Furthermore, studies suggest that the flavonoids in chrysanthemum, as part of an overall food therapy regimen, may help support healthy blood pressure levels and maintain vascular resilience.",
+        ],
+      },
+      {
+        title: "Antioxidant and Cellular Protection",
+        paragraphs: [
+          "The essential oils and phenolic compounds in chrysanthemum exhibit strong antioxidant activity. Research indicates that these compounds help protect cells from oxidative stress, which is a contributing factor to long-term cellular aging. Some studies also highlight its mild antibacterial properties, which may help support the body's natural defenses.",
+        ],
+      },
+    ],
+    references: [
+      "[1] WebMD. Health Benefits of Chrysanthemum Tea. https://www.webmd.com/diet/health-benefits-chrysanthemum-tea",
+      "[2] PMC. Phytochemicals, therapeutic benefits and applications of Chrysanthemum. https://pmc.ncbi.nlm.nih.gov/articles/PMC10582400/",
+    ],
+    tags: ["ju hua", "chrysanthemum", "chrysanthemum tea", "cooling flower tea", "luteolin", "eye health", "cardiovascular support", "traditional Chinese tea"],
   },
   {
     slug: "hawthorn-berry",
