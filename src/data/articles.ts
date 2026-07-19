@@ -607,37 +607,43 @@ const rawBasicsArticles: ContentArticle[] = [
   },
   {
     slug: "what-does-tonify-mean",
-    title: "What Does Tonify Mean in Traditional Herb Writing?",
+    title: "What Does Tonify Mean?",
     description:
-      "A beginner guide to the word tonify and why it appears so often on pages about famous herbs.",
-    eyebrow: "Basics",
+      "A comprehensive guide to the traditional concept of tonifying — what it means, the four main types of tonifying, key ingredients for each category, and when NOT to tonify.",
+    eyebrow: "Basics & Concepts",
     intro:
-      "Tonify is one of the most common English translations in traditional herb content, especially on pages about qi herbs, blood-related herbs, and kitchen-tradition routines. Readers often recognize the word but still do not know what it means in practice.",
+      "In the context of traditional Chinese wellness practices, to 'tonify' (补, bǔ) means to nourish, build up, or replenish something that is lacking or deficient in the body. You will often see this term used in phrases like 'tonify the Qi,' 'tonify the Blood,' or 'tonify Yin.' It is the opposite of 'clearing' or 'draining,' which are actions used when there is an excess of something (like heat or dampness).",
     sections: [
       {
-        title: "A translation with a lot of baggage",
+        title: "The Concept of Tonifying",
         paragraphs: [
-          "Tonify is not a word most people use in everyday conversation, which makes it easy to skim past without understanding it.",
-          "In traditional writing, it usually points to traditional ideas of support, replenishment, or strengthening within a specific category like qi, blood, yin, or yang.",
+          "In the context of traditional Chinese wellness practices, to 'tonify' (补, bǔ) means to nourish, build up, or replenish something that is lacking or deficient in the body. You will often see this term used in phrases like 'tonify the Qi,' 'tonify the Blood,' or 'tonify Yin.'",
+          "It is the opposite of 'clearing' or 'draining,' which are actions used when there is an excess of something (like heat or dampness). Understanding this distinction is essential: tonifying herbs and foods are about building up what is depleted, not removing what is excessive. This is why a tonifying approach is not appropriate for every situation — and why traditional writing is careful about when and how these ingredients are used.",
         ],
       },
       {
-        title: "Why the term matters on herb pages",
+        title: "The Four Main Types of Tonifying",
         paragraphs: [
-          "Famous herbs like ginseng, astragalus, codonopsis, prepared rehmannia, and black sesame often attract tonify-language.",
-          "If the term is left unexplained, readers may either overestimate the claim or miss the traditional nuance completely.",
+          "Traditional theory generally categorizes deficiencies—and therefore the herbs and foods used to tonify them—into four main areas:",
         ],
         bullets: [
-          "Tonify is a traditional translation word.",
-          "It usually needs another noun after it, such as qi or blood.",
-          "It should not be read as a one-size-fits-all recommendation.",
+          "Tonifying Qi (Energy): Used when the body's functional energy is weak, leading to fatigue or poor digestion. Classic Qi-tonifying ingredients include Ginseng (Ren Shen), Astragalus (Huang Qi), and Chinese Yam (Shan Yao).",
+          "Tonifying Blood: Used when the body's nourishing fluids are depleted, which might manifest as a pale complexion, dry hair, or menstrual irregularities. Classic Blood-tonifying ingredients include Dong Quai (Dang Gui), Jujube (Red Date), and Goji Berry.",
+          "Tonifying Yin (Cooling/Moistening): Used when the body lacks its cooling, restorative fluids, leading to feelings of heat, dryness, or restlessness. Classic Yin-tonifying ingredients include Ophiopogon Root (Mai Men Dong), Lily Bulb (Bai He), and Tremella Mushroom.",
+          "Tonifying Yang (Warming/Active): Used when the body lacks its warming, active energy, leading to a deep feeling of cold or profound lethargy. Classic Yang-tonifying ingredients include Cinnamon Bark (Rou Gui) and Eucommia Bark (Du Zhong).",
         ],
       },
       {
-        title: "The practical reading habit to learn",
+        title: "When NOT to Tonify",
         paragraphs: [
-          "Whenever you see tonify on HerbGuide, the useful next question is: tonify what, in what traditional sense, and through what kind of ingredient or preparation?",
-          "That reading habit makes the whole herb library easier to understand.",
+          "A crucial principle in traditional herb theory is knowing when not to tonify.",
+          "Tonifying herbs are generally rich, heavy, and deeply nourishing. Because of this, traditional practitioners usually advise against using strong tonics when the body is actively fighting an acute situation, such as a cold or flu. The traditional logic is that tonifying during an acute external challenge might 'feed' the pathogen or trap it inside the body. Instead, the focus shifts to 'clearing' the issue first, before returning to a tonifying regimen.",
+        ],
+      },
+      {
+        title: "Read This Page in Context",
+        paragraphs: [
+          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
         ],
       },
     ],
