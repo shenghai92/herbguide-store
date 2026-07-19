@@ -205,35 +205,57 @@ const rawBasicsArticles: ContentArticle[] = [
     slug: "what-is-dampness",
     title: "What Is Dampness?",
     description:
-      "An accessible explanation of a classic traditional pattern term that many beginners see but rarely understand.",
-    eyebrow: "Basics",
+      "A comprehensive guide to the traditional concept of Dampness — what it means, internal vs external dampness, signs of internal dampness, and practical lifestyle and kitchen approaches.",
+    eyebrow: "Basics & Concepts",
     intro:
-      "Dampness is a traditional term that often sounds strange in English. It does not literally mean the body is wet. Instead, it points to a pattern language built around heaviness, sluggishness, cloudiness, and things not moving or transforming smoothly.",
+      "In traditional Chinese wellness frameworks, 'Dampness' (湿, shī) is a conceptual term used to describe a state of sluggishness, heaviness, and abnormal fluid accumulation in the body. It is often compared to the feeling of a humid, foggy day—everything feels weighed down, sticky, and slow to move. Dampness is considered a 'yin' pathogen, meaning it is heavy, cold in nature, and tends to sink to the lower parts of the body.",
     sections: [
       {
-        title: "Why the term sounds confusing at first",
+        title: "The Concept of Dampness",
         paragraphs: [
-          "A direct translation can feel awkward because the English word damp usually refers to weather, walls, or fabric.",
-          "In traditional writing, the word is broader and more symbolic. It belongs to a traditional model, not a modern checklist or direct personal label.",
+          "In traditional Chinese wellness frameworks, 'Dampness' (湿, shī) is a conceptual term used to describe a state of sluggishness, heaviness, and abnormal fluid accumulation in the body. It is often compared to the feeling of a humid, foggy day—everything feels weighed down, sticky, and slow to move.",
+          "Dampness is considered a 'yin' pathogen, meaning it is heavy, cold in nature, and tends to sink to the lower parts of the body. This helps explain why many traditional descriptions of dampness involve sensations of heaviness in the legs, bloating in the lower abdomen, or a general feeling of being weighed down.",
         ],
       },
       {
-        title: "How dampness shows up in food and herb language",
+        title: "Internal vs. External Dampness",
         paragraphs: [
-          "Readers often see dampness mentioned next to grains, light soups, aromatic peels, porridge, and ingredients that are traditionally described as helping things feel lighter or less stuck.",
-          "This is one reason ingredients like poria, chen pi, and Job's Tears show up often in educational content.",
+          "Traditional theory divides Dampness into two categories:",
         ],
         bullets: [
-          "Dampness is a traditional pattern term.",
-          "It should not be reduced to one modern label.",
-          "Food pages usually explain it through texture, heaviness, and kitchen context.",
+          "External Dampness: This occurs when the body is exposed to humid, damp environments for prolonged periods, such as living in a damp basement, wearing wet clothes, or experiencing prolonged rainy weather. It often manifests as heavy, aching joints or a sudden feeling of lethargy.",
+          "Internal Dampness: This is far more common in modern life. It is generated from within, usually due to a weakened digestive system (the Spleen). When the digestive system is overwhelmed, it fails to properly metabolize fluids, leading to internal accumulation.",
         ],
       },
       {
-        title: "How to read the term responsibly",
+        title: "Signs of Internal Dampness",
         paragraphs: [
-          "The safest way to read dampness language is as a traditional descriptive system.",
-          "It is useful for understanding herb pages, but it should not be turned into self-labeling.",
+          "Traditional practitioners look for signs that suggest fluid metabolism is sluggish. These often include:",
+        ],
+        bullets: [
+          "A feeling of heaviness in the head or limbs (like wearing a wet towel)",
+          "Brain fog and lethargy, especially after eating",
+          "Digestive sluggishness, bloating, or loose stools",
+          "A thick, sticky coating on the tongue",
+          "Swelling or fluid retention, particularly in the legs or ankles",
+        ],
+      },
+      {
+        title: "Lifestyle and Kitchen Notes",
+        paragraphs: [
+          "From a traditional dietary perspective, Internal Dampness is frequently caused by consuming too many cold, raw, sweet, or dairy-rich foods, which are believed to 'dampen' the digestive fire.",
+          "To support the body in resolving Dampness, traditional kitchen practices emphasize:",
+        ],
+        bullets: [
+          "Warm, cooked foods: Soups, stews, and porridges are preferred over raw salads.",
+          "Aromatic herbs: Ingredients like cardamom, ginger, and orange peel (Chen Pi) are used to 'awaken' the digestion and cut through the stickiness.",
+          "Draining ingredients: Foods like Job's Tears (Yi Yi Ren), adzuki beans, and Poria (Fu Ling) are traditionally used to gently encourage the body to process and eliminate excess fluids.",
+        ],
+      },
+      {
+        title: "Read This Page in Context",
+        paragraphs: [
+          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
         ],
       },
     ],
