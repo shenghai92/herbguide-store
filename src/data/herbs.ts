@@ -206,25 +206,54 @@ const rawHerbs: Herb[] = [
     slug: "jujube-red-date",
     name: "Jujube",
     pinyin: "Da Zao",
-        chinese: "Da Zao",
-    latin: "Jujubae Fructus",
+    chinese: "大枣",
+    latin: "Ziziphus jujuba",
     partUsed: "Fruit",
-    category: "Nourishing herbs",
-    summary: "Sweet red dates that make Chinese pantry cooking feel warm, familiar, and easy to recognize.",
+    category: "Herbs that tonify Qi",
+    commonNames: "Jujube, Red Date, Chinese Date",
+    arabicName: "عناب (Unnab) / النبق (Al-Nabq)",
+    summary: "A sweet, chewy fruit cultivated in Asia for thousands of years — botanically distinct from Middle Eastern dates. This guide explores Jujube's role as a foundational daily ingredient in soups, teas, and porridges, its rich antioxidant profile, and what modern science says about its potential to support restful sleep and digestive health.",
     whatItIs:
-      "Jujube, often called Chinese red date in pantry cooking, appears in tea, congee, broths, sweet soups, and many everyday kitchen recipes.",
+      "The jujube, or red date (Ziziphus jujuba), is a sweet, chewy fruit that has been cultivated in Asia for thousands of years. While it looks similar to a Middle Eastern date, it is botanically distinct. In traditional Chinese wellness practices, it is a foundational ingredient used daily in soups, teas, and porridges. Today, what modern science says about jujube focuses on its rich antioxidant profile and its potential to support restful sleep and digestive health.",
     nature: "Warm",
     flavor: "Sweet",
     channels: "Spleen, Stomach",
     traditionalUses: [
-      "Traditionally discussed as a warm, sweet pantry ingredient with a steady household role.",
-      "Often paired with ginger, lotus seed, goji, pear, or other kitchen-friendly ingredients.",
-      "Useful for tea, congee, and soup pages that explain food culture in plain English.",
+      "In traditional frameworks, Jujube (Da Zao) is categorized as an herb that tonifies Qi (vital energy). It is primarily associated with the Spleen and Stomach channels.",
+      "Nourishing the Blood and calming the spirit (shen), making it a popular choice for supporting emotional steadiness and restful sleep.",
+      "Tonifying the Spleen and Stomach, which translates to providing gentle, warming support for the digestive system.",
+      "Harmonizing other herbs. It is frequently added to complex herbal blends to soften the harshness of other ingredients and protect the stomach.",
     ],
-    foodUses: ["Tea", "Congee", "Soup", "Dessert soup"],
+    foodUses: ["Tea (black date tea)", "Congee and porridge", "Soups and broths", "Dessert soup"],
     caution:
-      "Sweet tonic foods may not suit every reader's dietary needs. Articles should avoid blanket recommendations.",
-    tags: ["red date", "chinese red date", "jujube tea", "jujube congee", "pantry ingredient", "popular"],
+      "Jujube is widely consumed as a food and is generally very safe. However, because dried jujubes are a concentrated source of natural sugars, individuals managing their blood sugar levels should consume them in moderation.",
+    cautionDetails: [
+      "Medication interactions: There is some evidence suggesting that jujube extracts may interact with certain mood-supporting medications (such as SSNRIs like venlafaxine) or products that affect seizure management. If you are managing these situations, seek guidance from a qualified professional before consuming large amounts.",
+    ],
+    scientificSections: [
+      {
+        title: "Nutritional and Active Compounds",
+        paragraphs: [
+          "Jujubes are a nutrient-dense food. A 100-gram serving of raw jujube provides approximately 77% of the Daily Value of Vitamin C, along with significant amounts of dietary fiber and potassium. The fruit is rich in active compounds, primarily flavonoids, polysaccharides, and triterpenic acids, which contribute to its potent antioxidant activity.",
+        ],
+      },
+      {
+        title: "Nervous System and Sleep Support",
+        paragraphs: [
+          "One of the most researched areas regarding Ziziphus jujuba is its impact on the nervous system. Animal and test-tube studies indicate that the unique antioxidants and saponins in jujube extracts may help increase sleep time and quality. It is widely studied for its potential to calm the nervous system and decrease feelings of anxiety, aligning closely with its traditional use for 'calming the spirit.'",
+        ],
+      },
+      {
+        title: "Digestive and Immune Wellness",
+        paragraphs: [
+          "The high fiber content in jujubes (about 10 grams per 100-gram serving) provides significant digestive support by promoting regular bowel movements and serving as food for beneficial gut bacteria. Furthermore, studies suggest that jujube polysaccharides may help modulate the immune system by neutralizing free radicals and supporting the production of immune cells.",
+        ],
+      },
+    ],
+    references: [
+      "[1] Healthline. What Is Jujube Fruit? Nutrition, Benefits, and Uses. https://www.healthline.com/nutrition/jujube",
+    ],
+    tags: ["red date", "chinese red date", "jujube tea", "jujube congee", "da zao", "ziziphus jujuba", "shen calming", "qi tonifying"],
   },
   {
     slug: "chrysanthemum-flower",
@@ -1866,6 +1895,7 @@ const herbCategoryAliases: Record<string, string[]> = {
   "Qi-regulating herbs": ["qi", "digestive", "aromatic", "citrus", "movement"],
   "Herbs that clear heat": ["cooling", "clear heat", "summer", "seasonal", "light"],
   "Herbs that regulate Qi": ["qi", "movement", "emotional balance", "liver", "harmony"],
+  "Herbs that tonify Qi": ["qi", "energy", "nourishing", "warming", "foundational strength"],
 };
 
 const getNatureAliases = (nature: string) => {
