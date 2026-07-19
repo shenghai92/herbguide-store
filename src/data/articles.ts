@@ -67,35 +67,51 @@ const rawBasicsArticles: ContentArticle[] = [
     slug: "what-does-qi-mean",
     title: "What Does Qi Mean?",
     description:
-      "A practical plain-English explanation of qi for readers who want to understand traditional herb writing.",
-    eyebrow: "Basics",
+      "A comprehensive guide to the traditional concept of Qi — what it means, its five core functions, signs of imbalance, and practical approaches to supporting Qi through diet and lifestyle.",
+    eyebrow: "Basics & Concepts",
     intro:
-      "Qi is one of the most common and most misunderstood words in traditional herb writing. HerbGuide usually explains it in plain English as function, activity, momentum, resilience, or vitality, depending on context.",
+      "In traditional Chinese wellness frameworks, 'Qi' (气, pronounced 'chee') is arguably the most fundamental concept. It is commonly translated as 'vital energy' or 'life force,' but these translations often fall short. A more accurate way to understand Qi is as the functional activity of the body. It is the invisible force that drives movement, transformation, and protection. If the body were a machine, the organs would be the hardware, the blood would be the fuel, and Qi would be the electricity or the spark that makes everything run.",
     sections: [
       {
-        title: "Why qi is hard to translate",
+        title: "The Concept of Qi",
         paragraphs: [
-          "There is no single English word that fully covers qi. That is why some writers leave it untranslated while others use terms like energy or vitality.",
-          "For beginners, the most useful approach is to think of qi as the body's capacity to do things: move, warm, transform, protect, and recover.",
+          "In traditional Chinese wellness frameworks, 'Qi' (气, pronounced 'chee') is arguably the most fundamental concept. It is commonly translated as 'vital energy' or 'life force,' but these translations often fall short. A more accurate way to understand Qi is as the functional activity of the body. It is the invisible force that drives movement, transformation, and protection.",
+          "If the body were a machine, the organs would be the hardware, the blood would be the fuel, and Qi would be the electricity or the spark that makes everything run. This analogy helps ground an otherwise abstract concept in something tangible — Qi is not a mystical substance, but rather the functional spark that animates every physiological process.",
         ],
       },
       {
-        title: "How qi appears on herb pages",
+        title: "The Functions of Qi",
         paragraphs: [
-          "When a herb is described in traditional writing as relating to qi, HerbGuide translates that into readable English rather than repeating jargon without explanation.",
-          "Depending on the herb, that may mean traditional discussions around stamina, appetite, resilience, or general functional strength.",
+          "Traditional theory outlines several specific functions of Qi in the body:",
         ],
         bullets: [
-          "Qi is a traditional concept, not a scientific measurement.",
-          "Qi language gives context, but it should not be read as a personal recommendation.",
-          "The same herb can relate to qi differently depending on preparation and context.",
+          "Promoting (Movement): Qi drives the circulation of blood, the movement of food through the digestive tract, and the growth and development of the body.",
+          "Warming: Qi provides the physiological heat necessary to maintain a normal body temperature and support digestion.",
+          "Defending (Wei Qi): A specific type of Qi acts as the body's defensive shield, protecting against external stressors like cold, wind, or dampness.",
+          "Checking (Holding): Qi holds things in their proper place — it keeps blood within the vessels, organs in their proper positions, and regulates sweating and urination.",
+          "Transforming: Qi is responsible for metabolizing food and water into usable energy and blood.",
         ],
       },
       {
-        title: "A better way to read qi language online",
+        title: "Signs of Qi Imbalance",
         paragraphs: [
-          "If a website uses qi language without explaining it, readers often either over-trust it or dismiss it too quickly.",
-          "A better approach is to ask what traditional idea is being described and how it is being translated into normal English. That is the editorial standard HerbGuide is aiming for.",
+          "When Qi is out of balance, traditional practitioners often describe it in two main ways:",
+        ],
+        bullets: [
+          "Qi Deficiency: A lack of functional energy. This often manifests as profound fatigue, a weak voice, poor digestion, or a tendency to catch colds easily (weak Wei Qi).",
+          "Qi Stagnation: When energy fails to flow smoothly. This is often associated with feelings of tightness, frustration, irritability, or physical tension, particularly in the chest or digestive area.",
+        ],
+      },
+      {
+        title: "Supporting Qi Through Diet and Lifestyle",
+        paragraphs: [
+          "Traditional approaches to supporting Qi focus heavily on digestion and rest. The Spleen and Stomach are considered the 'root of post-natal Qi,' meaning they extract energy from food. Therefore, a diet rich in warm, cooked, easily digestible foods (like porridges and soups) is recommended. Herbs like Astragalus (Huang Qi) and Ginseng (Ren Shen) are famously used to support and tonify Qi.",
+        ],
+      },
+      {
+        title: "Read This Page in Context",
+        paragraphs: [
+          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
         ],
       },
     ],
