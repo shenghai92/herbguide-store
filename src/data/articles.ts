@@ -264,35 +264,54 @@ const rawBasicsArticles: ContentArticle[] = [
     slug: "what-is-yin-and-yang",
     title: "What Is Yin and Yang?",
     description:
-      "A simple explanation of yin and yang for readers who want to understand traditional herb and food language without mystifying it.",
-    eyebrow: "Basics",
+      "A comprehensive guide to the traditional concept of Yin and Yang — the core philosophy, key differences, dynamic balance, and practical kitchen and lifestyle applications for achieving harmony.",
+    eyebrow: "Basics & Concepts",
     intro:
-      "Yin and yang are among the most recognizable terms in Chinese thought, but they are often flattened into vague internet slogans. Here, they are explained as a traditional way of describing relationship, balance, contrast, and change.",
+      "The concept of Yin and Yang (阴阳) is the philosophical foundation of all traditional Chinese wellness practices. It is a way of understanding the universe as a delicate balance of opposing but complementary forces. Nothing is completely Yin or completely Yang; they exist only in relation to one another, constantly shifting and seeking equilibrium.",
     sections: [
       {
-        title: "A language of relationship, not two magic substances",
+        title: "The Core of Traditional Philosophy",
         paragraphs: [
-          "Yin and yang describe how things relate to one another. They help organize ideas like rest and activity, interior and exterior, coolness and warmth, substance and function.",
-          "That is why the terms show up across herb writing, kitchen traditions, lifestyle advice, and the classics. They are part of a framework, not isolated buzzwords.",
+          "The concept of Yin and Yang (阴阳) is the philosophical foundation of all traditional Chinese wellness practices. It is a way of understanding the universe as a delicate balance of opposing but complementary forces. Nothing is completely Yin or completely Yang; they exist only in relation to one another, constantly shifting and seeking equilibrium.",
+          "This framework is not about labeling things as good or bad, strong or weak. It is about understanding relationship — how one quality defines the other, and how both are necessary for a complete and functioning whole.",
         ],
       },
       {
-        title: "Why beginners see these terms everywhere",
+        title: "Understanding the Differences",
         paragraphs: [
-          "Many traditional explanations assume readers already know what yin and yang mean, but most English-language readers only know them in a decorative or philosophical sense.",
-          "A plain-English explanation helps readers understand why herbs may be described as nourishing yin, supporting yang, or balancing hot and cold patterns.",
+          "To understand how this applies to the body, it helps to look at how Yin and Yang are observed in nature:",
         ],
         bullets: [
-          "Yin often relates to cooling, moistening, settling, or material support in traditional language.",
-          "Yang often relates to warming, moving, activating, or functional strength in traditional language.",
-          "Neither term should be read like a direct personal label.",
+          "Yin (阴): Water, Moon, Night, Winter — qualities of cold, rest, stillness, dark, inward and downward movement.",
+          "Yang (阳): Fire, Sun, Day, Summer — qualities of heat, activity, movement, light, outward and upward movement.",
+          "In the Body — Yin represents the physical substance: fluids, blood, tissue, and cooling restorative mechanisms; Yang represents the functional energy: Qi, warmth, metabolism, and active moving forces.",
         ],
       },
       {
-        title: "How HerbGuide uses yin and yang language",
+        title: "The Dynamic Balance",
         paragraphs: [
-          "HerbGuide uses these terms to explain traditional descriptions more clearly, especially when comparing herbs, foods, and seasonal habits.",
-          "We keep the language educational and avoid turning yin-yang ideas into simplistic rules for self-directed use.",
+          "Health, in traditional frameworks, is defined as a dynamic balance between Yin and Yang. When one becomes deficient or excessive, the other is affected.",
+        ],
+        bullets: [
+          "Yang Deficiency: If the body's warming, active energy (Yang) is weak, the cooling nature of Yin takes over. This might manifest as feeling constantly cold, having low energy, or sluggish digestion.",
+          "Yin Deficiency: If the body's cooling, moistening fluids (Yin) are depleted, the warming nature of Yang goes unchecked. This often manifests as feeling overly warm (especially at night), experiencing dry skin or a dry throat, and feeling restless or ungrounded.",
+        ],
+      },
+      {
+        title: "Kitchen and Lifestyle Applications",
+        paragraphs: [
+          "Traditional dietary therapy uses the concepts of Yin and Yang to bring the body back into balance.",
+        ],
+        bullets: [
+          "Someone experiencing a Yang deficiency might be encouraged to consume warming foods like ginger, cinnamon, and slow-cooked stews.",
+          "Someone experiencing a Yin deficiency might be guided toward cooling, moistening foods like pear, lily bulb, and tremella mushroom.",
+          "The ultimate goal is never to maximize one over the other, but to maintain a harmonious, adaptable state where both forces support each other.",
+        ],
+      },
+      {
+        title: "Read This Page in Context",
+        paragraphs: [
+          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
         ],
       },
     ],
