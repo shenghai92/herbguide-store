@@ -443,53 +443,89 @@ const rawBasicsArticles: ContentArticle[] = [
   },
   {
     slug: "what-are-the-five-flavors",
-    title: "What Are the Five Flavors?",
+    title: "The Five Flavors in Traditional Wellness",
     description:
-      "A plain-English introduction to the five flavors in traditional Chinese food writing, with practical kitchen examples and simple balance ideas.",
-    eyebrow: "Basics",
+      "A comprehensive guide to the Five Flavors system in traditional Chinese dietary therapy — how each flavor directs energy, which organ systems it influences, and practical ingredient examples for each, from pungent to salty.",
+    eyebrow: "Basics & Concepts",
     intro:
-      "The five flavors are a traditional way of talking about taste, balance, and food direction in Chinese kitchen culture. They usually refer to sour, bitter, sweet, pungent, and salty. On HerbGuide, the idea is explained as a food-and-language framework, not as a strict rule system.",
+      "In traditional Chinese dietary therapy, the flavor of a food or herb is not just a description of how it tastes on the tongue—it is an indicator of its energetic action in the body. The 'Five Flavors' (五味, Wǔ Wèi) system categorizes ingredients based on how they direct energy and influence specific organ systems. The five traditional flavors are Pungent (Spicy), Sweet, Sour, Bitter, and Salty. A balanced diet is traditionally thought to include a harmony of all five.",
     sections: [
       {
-        title: "Why this idea matters in kitchen reading",
+        title: "Beyond Just Taste",
         paragraphs: [
-          "Many traditional food pages do not organize ingredients only by warmth or coolness. They also use flavor language to explain what an ingredient contributes to a dish or to a broader style of eating.",
-          "That is why five-flavor reading helps herb pages, soup pages, and pantry guides feel more coherent instead of scattered across isolated terms.",
+          "In traditional Chinese dietary therapy, the flavor of a food or herb is not just a description of how it tastes on the tongue—it is an indicator of its energetic action in the body. The 'Five Flavors' (五味, Wǔ Wèi) system categorizes ingredients based on how they direct energy and influence specific organ systems.",
+          "The five traditional flavors are Pungent (Spicy), Sweet, Sour, Bitter, and Salty. A balanced diet is traditionally thought to include a harmony of all five. Each flavor has a specific direction, action, and organ association — and understanding these relationships helps make sense of why certain ingredients are paired together in traditional recipes.",
         ],
       },
       {
-        title: "The five flavors in plain English",
+        title: "1. Pungent (Acrid / Spicy)",
         paragraphs: [
-          "Sour usually points readers toward tart fruits, vinegar, and gathering-style flavor language. Bitter often appears in stronger greens, darker tea notes, or clearing-style kitchen writing.",
-          "Sweet in this framework often means the mild, grounding sweetness of grains, root vegetables, jujube, or goji rather than sugary desserts. Pungent points toward aromatic movement from ingredients like fresh ginger, garlic, or scallion, while salty often anchors broths, sea vegetables, and deeper savory structure.",
+          "Pungent flavors are the most outwardly moving of the five. They disperse, promote circulation, and push energy outward and upward — which is why they are so often used at the onset of a chill or to break up stagnant, stuck sensations.",
         ],
         bullets: [
-          "Sour: tart, gathering, palate-brightening",
-          "Bitter: stronger, often linked with clearing language",
-          "Sweet: mild, grounding, pantry-centered",
-          "Pungent: aromatic, moving, warming in many kitchen examples",
-          "Salty: softening, savory, broth-building",
+          "Action: Disperses, moves, and promotes circulation.",
+          "Direction: Moves energy outward and upward.",
+          "Organ Association: Lungs and Large Intestine.",
+          "Examples: Fresh ginger, scallions, mint, black pepper.",
+          "Traditional Use: Often used to induce sweating and push out external stressors (like the onset of a cold) or to break up stagnant energy.",
         ],
       },
       {
-        title: "Why balanced meals rarely stay on one note",
+        title: "2. Sweet",
         paragraphs: [
-          "Traditional cooking often becomes easier to understand when readers notice that one flavor does not usually stand alone for long. A rich dish may get a sour finish, a bitter ingredient may be softened by something sweeter, and a warming bowl may still need a little savory depth.",
-          "That balancing logic gives readers a concrete way to interpret flavor decisions across multiple pages on the site.",
+          "Sweet is the most foundational and nourishing flavor in the traditional diet. Unlike the sugary sweets of modern processed food, traditional sweet refers to the mild, grounding sweetness found in grains, root vegetables, and dried fruits — foods that build and sustain energy over time.",
+        ],
+        bullets: [
+          "Action: Tonifies, harmonizes, and relaxes.",
+          "Direction: Slows down and centers energy.",
+          "Organ Association: Spleen and Stomach.",
+          "Examples: Jujube (red date), goji berry, rice, sweet potato.",
+          "Traditional Use: Used to build energy (Qi), nourish the body, and soothe tension. It is the most common flavor in a traditional diet.",
         ],
       },
       {
-        title: "Useful ingredient examples across HerbGuide",
+        title: "3. Sour",
         paragraphs: [
-          "Hawthorn and plum-style ingredients help explain sour language clearly. Fresh ginger is one of the easiest pungent examples, while jujube and goji are useful for the milder sweet category in food-first reading.",
-          "Broth logic helps readers understand salty structure, while stronger greens or tea notes can help explain bitter language without forcing the page into stronger claims.",
+          "Sour flavors have a gathering, astringent quality — they move energy inward and help the body retain what it needs. This makes them particularly useful when fluids or energy are being lost too freely.",
+        ],
+        bullets: [
+          "Action: Astringes, gathers, and contains.",
+          "Direction: Moves energy inward.",
+          "Organ Association: Liver and Gallbladder.",
+          "Examples: Schisandra berry, lemon, vinegar, fermented foods.",
+          "Traditional Use: Used to prevent the leakage of fluids (like excessive sweating) and to gently support digestion.",
         ],
       },
       {
-        title: "How to read the idea responsibly",
+        title: "4. Bitter",
         paragraphs: [
-          "The five flavors belong to a traditional explanatory system. They can make recipes and herb pages easier to follow, but they should not be turned into rigid self-checklists or one-size-fits-all instructions.",
-          "HerbGuide uses the framework to explain kitchen patterns and traditional wording in clearer English, not to promise outcomes from one flavor choice.",
+          "Bitter is the most clearing and downward-moving flavor. It is not meant to be pleasant in large amounts — its role is to cool, drain, and dry what is excessive. Bitter ingredients often appear in cooling teas and formulas designed to address heat or dampness.",
+        ],
+        bullets: [
+          "Action: Clears heat, drains downward, and dries dampness.",
+          "Direction: Moves energy downward.",
+          "Organ Association: Heart and Small Intestine.",
+          "Examples: Reishi mushroom, dandelion, bitter melon, coffee.",
+          "Traditional Use: Used to cool an overheated body, calm a restless mind, or support the elimination of sluggish fluids.",
+        ],
+      },
+      {
+        title: "5. Salty",
+        paragraphs: [
+          "Salty is the deepest and most inward-moving flavor. It softens what is hard, purges downward, and is closely tied to the Kidney system — the body's deepest reservoir of energy.",
+        ],
+        bullets: [
+          "Action: Softens hardness and purges downward.",
+          "Direction: Moves energy downward and inward.",
+          "Organ Association: Kidneys and Bladder.",
+          "Examples: Seaweed, salt, miso, certain shellfish.",
+          "Traditional Use: Used to soften tight, knotted areas and to support healthy elimination.",
+        ],
+      },
+      {
+        title: "Read This Page in Context",
+        paragraphs: [
+          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
         ],
       },
     ],
