@@ -531,6 +531,50 @@ const rawBasicsArticles: ContentArticle[] = [
     ],
   },
   {
+    slug: "four-natures-of-food",
+    title: "The Four Natures (Temperature) of Food",
+    description:
+      "A comprehensive guide to the traditional Four Natures system — how foods have energetic temperature that affects the body, with detailed categories from Cold to Hot, practical examples, and guidance on balancing your diet.",
+    eyebrow: "Basics & Concepts",
+    intro:
+      "In traditional Chinese dietary therapy, every food and herb has an inherent 'Nature' (四气, Sì Qì) or energetic temperature. This does not refer to the physical temperature of the food when you eat it (e.g., hot soup vs. cold ice cream), but rather the physiological effect it has on your body after it is digested. For example, a cup of hot peppermint tea is physically hot, but its energetic nature is cooling. A piece of raw ginger is physically room temperature, but its energetic nature is warming.",
+    sections: [
+      {
+        title: "Energetic Temperature vs. Physical Temperature",
+        paragraphs: [
+          "In traditional Chinese dietary therapy, every food and herb has an inherent 'Nature' (四气, Sì Qì) or energetic temperature. This does not refer to the physical temperature of the food when you eat it (e.g., hot soup vs. cold ice cream), but rather the physiological effect it has on your body after it is digested.",
+          "For example, a cup of hot peppermint tea is physically hot, but its energetic nature is cooling. A piece of raw ginger is physically room temperature, but its energetic nature is warming. This distinction is fundamental to understanding how traditional food therapy works — the goal is not to eat food at a certain serving temperature, but to choose ingredients whose energetic qualities balance your body's current state.",
+        ],
+      },
+      {
+        title: "The Four Main Categories",
+        paragraphs: [
+          "The traditional framework divides ingredients into four main categories, plus a neutral category:",
+        ],
+        bullets: [
+          "Cold (寒, Hán): Strongly cools the body and clears heat. Examples: Watermelon, bitter melon, dandelion, lotus root. Best for hot summer days or individuals who tend to run hot, feel restless, or experience redness and inflammation.",
+          "Cool (凉, Liáng): Gently cools and moistens. Examples: Cucumber, pear, green tea, mint, chrysanthemum. Best for gentle daily cooling, supporting hydration, and soothing mild warmth.",
+          "Neutral (平, Píng): Neither warms nor cools; highly balancing and nourishing. Examples: Rice, potato, goji berry, poria (fu ling). Best for everyday consumption. Neutral foods form the foundation of a balanced, long-term diet because they are easy on the digestive system.",
+          "Warm (温, Wēn): Gently warms the body and promotes circulation. Examples: Fresh ginger, chicken, oats, jujube (red date). Best for cooler weather or individuals who tend to feel cold, have sluggish digestion, or lack energy.",
+          "Hot (热, Rè): Strongly warms and dispels deep cold. Examples: Dried ginger, cinnamon bark, black pepper, chili. Best for deep winter or addressing profound internal coldness. Use sparingly.",
+        ],
+      },
+      {
+        title: "Balancing Your Diet",
+        paragraphs: [
+          "The goal of this system is to use food to maintain balance. If you live in a cold climate or have a 'cold' constitution (poor circulation, lethargy), you would traditionally lean toward warm and neutral foods. If you live in a hot climate or have a 'hot' constitution (easily overheated, irritable), you would incorporate more cool and neutral foods.",
+          "This principle is not about rigidly categorizing every meal — it is about developing an intuitive awareness of how different foods make you feel. Over time, many people find that they naturally gravitate toward warming foods in winter and cooling foods in summer, even without conscious effort.",
+        ],
+      },
+      {
+        title: "Read This Page in Context",
+        paragraphs: [
+          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "ginseng-vs-american-ginseng",
     title: "Ginseng vs American Ginseng",
     description:
