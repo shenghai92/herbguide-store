@@ -723,6 +723,64 @@ const rawBasicsArticles: ContentArticle[] = [
     ],
   },
   {
+    slug: "what-is-spleen-qi",
+    title: "What Is Spleen Qi?",
+    description:
+      "A comprehensive guide to the traditional concept of Spleen Qi — what the Spleen represents in traditional frameworks, the role and functions of Spleen Qi, signs of weakness, and practical ways to support it through diet.",
+    eyebrow: "Basics & Concepts",
+    intro:
+      "When traditional Chinese wellness practices talk about the 'Spleen' (脾, Pí), they are not referring to the anatomical organ that filters blood in Western medicine. Instead, they are referring to a conceptual system—the entire process of digestion, nutrient absorption, and energy production. In traditional theory, the Spleen is paired with the Stomach. Together, they form the 'root of post-natal Qi,' meaning they are responsible for extracting energy (Qi) and nutrients from the food and drink we consume after birth.",
+    sections: [
+      {
+        title: "Understanding the 'Spleen' in Traditional Frameworks",
+        paragraphs: [
+          "When traditional Chinese wellness practices talk about the 'Spleen' (脾, Pí), they are not referring to the anatomical organ that filters blood in Western medicine. Instead, they are referring to a conceptual system—the entire process of digestion, nutrient absorption, and energy production.",
+          "In traditional theory, the Spleen is paired with the Stomach. Together, they form the 'root of post-natal Qi,' meaning they are responsible for extracting energy (Qi) and nutrients from the food and drink we consume after birth. This is a foundational concept: if the Spleen-Stomach system is weak, the body cannot properly derive energy from food, no matter how nutrient-dense the diet may be.",
+        ],
+      },
+      {
+        title: "The Role of Spleen Qi",
+        paragraphs: [
+          "Spleen Qi specifically refers to the functional energy of this digestive system. Its primary traditional functions include:",
+        ],
+        bullets: [
+          "Transformation and Transportation: Breaking down food and transporting the extracted nutrients and fluids throughout the body.",
+          "Holding Blood: Keeping blood contained within the vessels.",
+          "Raising Energy: Keeping the body's organs in their proper positions and providing a sense of physical uplift and lightness.",
+        ],
+      },
+      {
+        title: "Signs of Weak Spleen Qi (Spleen Qi Deficiency)",
+        paragraphs: [
+          "When Spleen Qi is weak, the digestive system becomes sluggish, and the body fails to extract enough energy from food. Traditional practitioners often look for these signs:",
+        ],
+        bullets: [
+          "Chronic fatigue, especially after eating a meal",
+          "Poor appetite or feeling full after eating very little",
+          "Loose stools or chronic digestive sluggishness",
+          "A feeling of heaviness in the limbs",
+          "A tendency to bruise easily (because the Spleen is failing to 'hold' the blood)",
+        ],
+      },
+      {
+        title: "How to Support Spleen Qi",
+        paragraphs: [
+          "Because the Spleen is responsible for 'cooking' our food into energy, it strongly prefers warm, cooked, and easily digestible foods.",
+        ],
+        bullets: [
+          "Foods to favor: Warm soups, porridges, root vegetables (like sweet potato and pumpkin), and gentle grains (like rice and oats).",
+          "Foods to limit: Cold, raw foods (like large salads or ice water), overly sweet foods, and heavy, greasy meals, all of which require too much energy for a weak Spleen to process.",
+        ],
+      },
+      {
+        title: "Read This Page in Context",
+        paragraphs: [
+          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "what-does-liver-mean",
     title: "What Does Liver Mean in Traditional Herb Writing?",
     description:

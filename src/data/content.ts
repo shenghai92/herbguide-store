@@ -81,6 +81,11 @@ const rawBasicsCards = [
     text: "A beginner-friendly explanation of a classic phrase used on gentle food and herb pages.",
   },
   {
+    slug: "what-is-spleen-qi",
+    title: "What Is Spleen Qi?",
+    text: "A comprehensive guide to the traditional digestive energy concept — signs of weakness and dietary support.",
+  },
+  {
     slug: "what-does-spleen-mean",
     title: "What Does Spleen Mean in Traditional Herb Writing?",
     text: "A plain-English guide to one of the most important organ-system words in kitchen-tradition writing.",
