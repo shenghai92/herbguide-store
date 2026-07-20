@@ -2649,52 +2649,58 @@ export const foodTherapyArticles: ContentArticle[] = [
   },
   {
     slug: "goji-and-chrysanthemum-tea-basics",
-    title: "Goji and Chrysanthemum Tea Basics",
+    title: "Chrysanthemum and Goji Berry Tea for Screen-Heavy Days",
     description:
-      "A simple visual tea page that connects a familiar nourishing berry with one especially clear cooling flower.",
+      "A traditional tea pairing Chrysanthemum and Goji Berry — one of the most famous traditional combinations for supporting the eyes, backed by modern science on zeaxanthin, lutein, and luteolin for blue light protection and antioxidant support.",
     eyebrow: "Kitchen Traditions",
     intro:
-      "Goji and chrysanthemum are one of the most recognizable pairings in beginner-friendly tea writing because the color is vivid, the ingredients already feel familiar, and the traditional language around them is easier to explain than denser herb theory. A tea page makes that pairing practical without becoming exaggerated.",
+      "The pairing of Chrysanthemum (Chrysanthemum morifolium) and Goji Berry (Lycium barbarum) is one of the most famous traditional teas for supporting the eyes. In traditional frameworks, this combination balances cooling and warming energies: the chrysanthemum clears heat from the Liver channel (which traditionally 'opens into the eyes'), while the goji berry gently nourishes Liver blood and Kidney yin. Modern science provides a fascinating explanation for this traditional pairing: goji berries are exceptionally rich in zeaxanthin and lutein, antioxidants that accumulate in the retina and help protect the eyes from blue light and oxidative stress. Chrysanthemum flowers are rich in flavonoids, particularly luteolin, which offer systemic antioxidant and anti-inflammatory support. Together, they create a perfect, caffeine-free beverage for days spent staring at computer screens.",
     recipe: {
       recipeYield: "2 mugs",
       prepTime: "PT5M",
-      totalTime: "PT12M",
+      totalTime: "PT15M",
       ingredients: [
-        "1 tablespoon dried chrysanthemum flowers",
-        "1 tablespoon goji berries",
-        "2 1/2 cups hot water",
-        "Optional: 1 thin slice pear for a softer finish",
+        "1 tablespoon dried chrysanthemum flowers (Chrysanthemum morifolium)",
+        "1 tablespoon dried goji berries (Lycium barbarum)",
+        "2 cups hot (not boiling) water",
+        "Optional: A small piece of rock sugar or a teaspoon of honey",
       ],
       steps: [
-        "Rinse the chrysanthemum and goji briefly.",
-        "Place them in a teapot or heat-safe cup.",
-        "Pour the hot water over the ingredients and cover lightly.",
-        "Steep for 5 to 7 minutes until the goji softens and the tea turns golden.",
-        "Add the optional pear slice only if you want a gentler fruit note.",
+        "Place the dried chrysanthemum flowers and goji berries into a teapot or a large glass mug.",
+        "Pour the hot water over the herbs. (Using water just off the boil, around 190°F/88°C, helps preserve the delicate floral notes of the chrysanthemum).",
+        "Cover and let steep for 5 to 10 minutes. The goji berries will plump up and the water will turn a pale, golden yellow.",
+        "Add sweetener if desired.",
+        "You can refill the mug with hot water 2-3 times until the flavor fades. At the end, you can eat the plumped goji berries.",
       ],
       servingNotes: [
-        "This page works best as a light educational tea, not a concentrated herbal routine.",
-        "Keeping the ingredient list short helps the pairing stay clear for beginners.",
+        "This tea is best enjoyed warm and slowly, especially during or after long periods of screen work. The visual experience — watching the chrysanthemum flowers open and the goji berries plump up — is part of the appeal.",
+        "For an extra visual tea experience, use a clear glass mug or teapot so you can see the golden color and the flowers unfolding.",
+        "The same ingredients can be re-steeped multiple times, making this a cost-effective daily beverage for office workers and students.",
       ],
       caution: [
-        "Cooling and nourishing language here belongs to traditional kitchen context, not individualized advice.",
+        "This tea is generally very safe for regular consumption. However, individuals with known allergies to plants in the daisy or aster family should exercise caution with chrysanthemum.",
+        "Because chrysanthemum is energetically cooling, those with a very sensitive or 'cold' digestive constitution may want to drink this tea warm and avoid consuming it in large quantities on an empty stomach.",
       ],
     },
     sections: [
       {
-        title: "Why this pairing works so well",
+        title: "Why It Works: Tradition Meets Science",
         paragraphs: [
-          "Both ingredients are highly visual and already familiar enough to lower reader anxiety.",
-          "That makes this page an easy next step for readers who begin with goji or cooling-related pages.",
+          "The pairing of Chrysanthemum (Chrysanthemum morifolium) and Goji Berry (Lycium barbarum) is one of the most famous traditional teas for supporting the eyes. In traditional frameworks, this combination balances cooling and warming energies: the chrysanthemum clears heat from the Liver channel (which traditionally 'opens into the eyes'), while the goji berry gently nourishes Liver blood and Kidney yin.",
+          "Modern science provides a fascinating explanation for this traditional pairing. Goji berries are exceptionally rich in zeaxanthin and lutein, antioxidants that accumulate in the retina and help protect the eyes from blue light and oxidative stress. Chrysanthemum flowers are rich in flavonoids, particularly luteolin, which offer systemic antioxidant and anti-inflammatory support. Together, they create a perfect, caffeine-free beverage for days spent staring at computer screens.",
+          "This two-ingredient tea is a perfect example of traditional wisdom meeting modern nutritional science. The cooling chrysanthemum balances the nourishing goji berry, creating a harmonious cup that supports visual comfort without overstimulating the body. It is an ideal introduction to traditional Chinese tea culture for anyone who spends long hours in front of digital devices.",
         ],
       },
       {
-        title: "What readers learn from this tea",
+        title: "Safety and Caution Details",
         paragraphs: [
-          "This page teaches that traditional kitchen writing often pairs contrast and balance rather than collapsing every ingredient into one broad lifestyle label.",
-          "It also creates a stronger route between goji, chrysanthemum, clear heat language, and pantry-friendly tea content.",
+          "This tea is generally very safe for regular consumption. However, individuals with known allergies to plants in the daisy or aster family should exercise caution with chrysanthemum. Because chrysanthemum is energetically cooling, those with a very sensitive or 'cold' digestive constitution may want to drink this tea warm and avoid consuming it in large quantities on an empty stomach.",
         ],
       },
+    ],
+    references: [
+      "[1] WebMD. Health Benefits of Chrysanthemum Tea. https://www.webmd.com/diet/health-benefits-chrysanthemum-tea",
+      "[2] MSKCC. Wolfberry. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/wolfberry",
     ],
   },
   {
