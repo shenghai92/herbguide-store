@@ -76,6 +76,11 @@ const rawBasicsCards = [
     text: "A simple guide to one of the most common translation words in traditional herb content.",
   },
   {
+    slug: "four-natures-of-food",
+    title: "The Four Natures (Temperature) of Food",
+    text: "A comprehensive guide to the traditional temperature categories of food — from Cold to Hot with practical examples.",
+  },
+  {
     slug: "what-does-moisten-dryness-mean",
     title: "What Does Moisten Dryness Mean?",
     text: "A beginner-friendly explanation of a classic phrase used on gentle food and herb pages.",
