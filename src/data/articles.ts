@@ -1630,63 +1630,6 @@ const rawBasicsArticles: ContentArticle[] = [
       },
     ],
   },
-  {
-    slug: "four-gentlemen-soup-base",
-    title: "The Four Gentlemen Soup (Si Jun Zi Tang) Base",
-    description: "The most famous foundational recipe in traditional Chinese wellness for supporting digestion and building Qi — a harmonious four-herb blend with modern scientific backing on polysaccharides and gut microbiome support.",
-    eyebrow: "Kitchen Traditions",
-    intro:
-      "The 'Four Gentlemen Decoction' (Si Jun Zi Tang) is perhaps the most famous foundational recipe in traditional Chinese wellness for supporting digestion and building energy (Qi). It is called the 'Four Gentlemen' because the four herbs work together harmoniously, without harshness or aggressive action. The traditional formula consists of Ginseng (or Codonopsis), Atractylodes, Poria, and Honey-fried Licorice. In home kitchens, Astragalus is often substituted for Ginseng for a gentler, everyday approach. Modern research indicates that these ingredients contain polysaccharides and saponins that support gut microbiome health and modulate immune function, providing a scientific basis for their traditional use in addressing fatigue and digestive sluggishness.",
-    recipe: {
-      recipeYield: "4 servings",
-      prepTime: "PT15M",
-      totalTime: "PT2H",
-      ingredients: [
-        "3-4 slices dried Astragalus root (Astragalus membranaceus) or Codonopsis root (Codonopsis pilosula)",
-        "3-4 slices dried Poria (Poria cocos)",
-        "2-3 dried Jujubes (Ziziphus jujuba)",
-        "1 small slice of Licorice root (Glycyrrhiza uralensis)",
-        "4 cups water or bone broth",
-        "Optional: Chicken or pork ribs for a savory soup",
-      ],
-      steps: [
-        "Rinse all the dried herbs under cold water.",
-        "If making a savory soup, blanch the meat in boiling water for 5 minutes, then rinse and place it in a clean soup pot.",
-        "Add the rinsed herbs and the 4 cups of water (or broth) to the pot.",
-        "Bring to a boil over medium-high heat.",
-        "Reduce the heat to the lowest setting, cover, and let it simmer gently for 1.5 to 2 hours. This long, slow simmer is necessary to extract the active polysaccharides from the woody roots.",
-        "Remove and discard the Astragalus, Poria, and Licorice slices before serving (they are too tough to eat). The jujubes can be eaten.",
-      ],
-      servingNotes: [
-        "This is a classic foundational soup meant to be enjoyed regularly as part of a balanced kitchen routine, not as a one-time quick fix.",
-        "The broth can be stored in the refrigerator for up to 3 days and reheated gently — the flavor often deepens overnight.",
-        "For a vegetarian version, simply omit the meat and use a high-quality vegetable broth or plain water.",
-      ],
-      caution: [
-        "This is a classic tonifying (building) soup. Because it is designed to build energy, it is traditionally advised to pause consumption when experiencing an acute onset of symptoms, such as a cold, flu, or acute digestive upset.",
-        "Individuals taking products that affect circulation or immune function should seek professional guidance before making strong herbal broths a regular part of their routine.",
-      ],
-    },
-    sections: [
-      {
-        title: "Why It Works: Tradition Meets Science",
-        paragraphs: [
-          "The 'Four Gentlemen Decoction' (Si Jun Zi Tang) is perhaps the most famous foundational recipe in traditional Chinese wellness for supporting digestion and building energy (Qi). It is called the 'Four Gentlemen' because the four herbs work together harmoniously, without harshness or aggressive action. The traditional formula consists of Ginseng (or Codonopsis), Atractylodes, Poria, and Honey-fried Licorice. In home kitchens, Astragalus is often substituted for Ginseng for a gentler, everyday approach.",
-          "Modern research indicates that these ingredients contain polysaccharides and saponins that support gut microbiome health and modulate immune function, providing a scientific basis for their traditional use in addressing fatigue and digestive sluggishness.",
-          "This soup is not a quick fix — it is a slow, steady builder. The long simmer time (1.5 to 2 hours) is essential for extracting the active compounds from the woody roots, and the result is a deeply nourishing broth that embodies the traditional principle of food as foundation.",
-        ],
-      },
-      {
-        title: "Safety and Caution Details",
-        paragraphs: [
-          "This is a classic tonifying (building) soup. Because it is designed to build energy, it is traditionally advised to pause consumption when experiencing an acute onset of symptoms, such as a cold, flu, or acute digestive upset. Individuals taking products that affect circulation or immune function should seek professional guidance before making strong herbal broths a regular part of their routine.",
-        ],
-      },
-    ],
-    references: [
-      "[1] NCCIH. Astragalus. https://www.nccih.nih.gov/health/astragalus",
-    ],
-  },
 ];
 
 export const basicsArticles = rawBasicsArticles.map((article) => sanitizeContentArticle(article));
