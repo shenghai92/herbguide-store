@@ -711,25 +711,53 @@ const rawHerbs: Herb[] = [
     slug: "black-sesame-seed",
     name: "Black Sesame Seed",
     pinyin: "Hei Zhi Ma",
-            chinese: "Hei Zhi Ma",
-    latin: "Sesami Semen Nigrum",
+    chinese: "黑芝麻",
+    latin: "Sesamum indicum",
     partUsed: "Seed",
-    category: "Kitchen herbs",
-    summary: "A familiar kitchen ingredient with strong potential for accessible beauty and nourishment content.",
+    category: "Herbs that tonify Yin",
+    commonNames: "Black Sesame Seed",
+    arabicName: "سمسم أسود (Simsim Aswad)",
+    summary: "Small, flat, oily seeds that are a cornerstone of Asian culinary and wellness traditions — the black variety is specifically prized in traditional Chinese frameworks for its deep, nourishing qualities. This guide explores what modern science says about its dense concentration of healthy fats, essential minerals, and unique lignans that support cellular aging and cardiovascular wellness.",
     whatItIs:
-      "Black sesame meets readers where they already are: in food, desserts, breakfast bowls, and pantry curiosity.",
+      "Black sesame seeds (Sesamum indicum) are small, flat, oily seeds that are a cornerstone of Asian culinary and wellness traditions. While white sesame is more common globally, traditional Chinese frameworks specifically prize the black variety for its deep, nourishing qualities. Today, what modern science says about black sesame highlights its dense concentration of healthy fats, essential minerals, and unique lignans that support cellular aging and cardiovascular wellness.",
     nature: "Neutral",
     flavor: "Sweet",
-    channels: "Liver, Kidney, Large Intestine",
+    channels: "Kidney, Liver, Large Intestine",
     traditionalUses: [
-      "Traditionally used to nourish and moisten.",
-      "A natural fit for pantry-forward recipe content.",
-      "Useful for ingredient-based lifestyle pages.",
+      "In traditional frameworks, Black Sesame (Hei Zhi Ma) is categorized as an herb that tonifies Yin and Blood. It is primarily associated with the Kidney, Liver, and Large Intestine channels.",
+      "Deeply nourishing Kidney essence (jing) and Liver blood. In traditional thought, this makes it a premier ingredient for supporting healthy aging, often used to address premature graying of hair, blurry vision, and lower back weakness.",
+      "Moistening the Large Intestine. Because of its high oil content, it is traditionally used to gently lubricate the digestive tract and support regular bowel movements, especially in older adults.",
     ],
-    foodUses: ["Porridge", "Paste", "Dessert"],
+    foodUses: ["Porridge and congee", "Black sesame paste (desserts)", "Breakfast bowls and toppings"],
     caution:
-      "Beauty-related content should stay grounded and avoid exaggerated external claims.",
-    tags: ["pantry", "beauty foods", "seed", "breakfast", "beginner"],
+      "Black sesame seeds are a safe, nutritious food for most people. However, individuals with a known allergy to sesame must avoid them strictly.",
+    cautionDetails: [
+      "Digestive sensitivity: Because they are rich and oily, consuming very large quantities may cause digestive upset or loose stools in some individuals. They are best consumed lightly toasted to enhance their flavor and nutrient bioavailability.",
+    ],
+    scientificSections: [
+      {
+        title: "Nutritional and Active Compounds",
+        paragraphs: [
+          "Black sesame seeds are rich in healthy monounsaturated and polyunsaturated fats, plant-based protein, and dietary fiber. They are an excellent source of calcium, magnesium, iron, and zinc. Most notably, they contain unique beneficial plant compounds called lignans, particularly sesamin and sesamolin, as well as a high concentration of vitamin E (gamma-tocopherol).",
+        ],
+      },
+      {
+        title: "Cardiovascular Wellness",
+        paragraphs: [
+          "The lignans and phytosterols in black sesame seeds have been extensively studied for their cardiovascular benefits. Research indicates that sesamin can help support healthy lipid profiles by inhibiting the absorption of cholesterol in the digestive tract and supporting its metabolism in the liver. Additionally, the magnesium content supports healthy blood pressure levels.",
+        ],
+      },
+      {
+        title: "Cellular Protection and Antioxidant Support",
+        paragraphs: [
+          "The combination of vitamin E and sesame lignans provides potent antioxidant activity. These compounds help neutralize free radicals and protect cells from oxidative stress. Some studies suggest that the specific antioxidants in the black seed coat may offer stronger protective effects against cellular aging compared to white sesame seeds, providing a scientific echo to its traditional use as a longevity food.",
+        ],
+      },
+    ],
+    references: [
+      "[1] Healthline. 15 Health and Nutrition Benefits of Sesame Seeds. https://www.healthline.com/nutrition/sesame-seeds",
+    ],
+    tags: ["black sesame", "hei zhi ma", "sesamum indicum", "kidney essence", "longevity food", "beauty foods", "sesamin", "antioxidant seed"],
   },
   {
     slug: "mint",
@@ -1896,6 +1924,7 @@ const herbCategoryAliases: Record<string, string[]> = {
   "Herbs that clear heat": ["cooling", "clear heat", "summer", "seasonal", "light"],
   "Herbs that regulate Qi": ["qi", "movement", "emotional balance", "liver", "harmony"],
   "Herbs that tonify Qi": ["qi", "energy", "nourishing", "warming", "foundational strength"],
+  "Herbs that tonify Yin": ["yin", "nourishing", "moistening", "cooling", "restorative"],
 };
 
 const getNatureAliases = (nature: string) => {
