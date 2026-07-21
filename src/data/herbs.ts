@@ -639,25 +639,54 @@ const rawHerbs: Herb[] = [
     slug: "lotus-seed",
     name: "Lotus Seed",
     pinyin: "Lian Zi",
-            chinese: "Lian Zi",
-    latin: "Nelumbinis Semen",
+    chinese: "莲子",
+    latin: "Nelumbo nucifera",
     partUsed: "Seed",
-    category: "Kitchen herbs",
-    summary: "A classic ingredient for soups, congee, and desserts that adds depth to gentle kitchen content.",
+    category: "Herbs that astringe",
+    commonNames: "Lotus Seed, Lotus Nut",
+    arabicName: "بذور اللوتس (Budhoor Al-Lotus)",
+    summary: "The seed from the pod of the sacred lotus flower — a versatile ingredient used in everything from savory soups to sweet mooncake fillings. This guide explores its gentle, binding nature in traditional wellness and what modern science says about its high-quality plant protein, complex carbohydrates, and unique alkaloids that may support nervous system calm.",
     whatItIs:
-      "Lotus seed fits naturally into sweet soup, porridge, and family-style kitchen traditions, especially when readers want a mild, nutty pantry ingredient.",
+      "The lotus seed (Nelumbo nucifera) comes from the pod of the sacred lotus flower. In East Asian culinary traditions, it is a versatile ingredient used in everything from savory soups to sweet mooncake fillings. In traditional wellness practices, it is highly valued for its gentle, binding nature. Today, what modern science says about lotus seeds focuses on their high-quality plant protein, complex carbohydrates, and unique alkaloids that may support nervous system calm.",
     nature: "Neutral",
     flavor: "Sweet, astringent",
     channels: "Heart, Kidney, Spleen",
     traditionalUses: [
-      "Traditionally described as a sweet, slightly astringent ingredient in household food language.",
-      "Appears often in sweet soup, congee, lotus seed paste, and family-style dessert traditions.",
-      "Useful for cross-linking with longan, tremella, and lily bulb.",
+      "In traditional frameworks, Lotus Seed (Lian Zi) is categorized as an herb that astringes (binds and contains) and tonifies. It is primarily associated with the Heart, Kidney, and Spleen channels.",
+      "Tonifying the Spleen and stopping occasional loose stools. Its astringent nature helps gently bind the digestive tract.",
+      "Nourishing the Heart and calming the spirit (shen). It is famously used in evening porridges to support emotional steadiness and restful sleep.",
+      "Securing Kidney essence, helping to prevent the 'leakage' of vital energy.",
     ],
-    foodUses: ["Sweet soup", "Congee", "Dessert", "Paste filling"],
+    foodUses: ["Sweet soup (dessert)", "Congee and porridge", "Lotus seed paste (mooncake fillings)", "Savory soups"],
     caution:
-      "Use careful language when discussing mood or sleep themes and keep all claims general.",
-    tags: ["lotus seed soup", "cored lotus seed", "lotus seed paste", "recipe", "family kitchen", "seed"],
+      "Lotus seeds are a safe and nutritious food. However, because of their traditional 'astringent' (binding) nature, it is generally advised to avoid consuming large amounts if you are experiencing severe constipation or abdominal bloating. They are best consumed fully cooked (boiled or steamed until soft) to ensure optimal digestion.",
+    cautionDetails: [
+      "Green germ note: The green germ (plumule) inside the seed is intensely bitter and strongly cooling. It is usually removed before the seed is used for nourishment, though the germ itself is sometimes brewed separately as a tea to clear Heart heat.",
+    ],
+    scientificSections: [
+      {
+        title: "Nutritional and Active Compounds",
+        paragraphs: [
+          "Lotus seeds are rich in complex carbohydrates, providing a low-glycemic energy source. They are an excellent source of plant-based protein, dietary fiber, and essential minerals such as magnesium, potassium, and phosphorus. They also contain various bioactive compounds, including flavonoids and specific alkaloids like liensinine.",
+        ],
+      },
+      {
+        title: "Nervous System and Sleep Support",
+        paragraphs: [
+          "The traditional use of lotus seeds for calming the spirit is supported by modern investigations into its alkaloid content. Some animal studies suggest that the alkaloids extracted from lotus seeds may have a mild sedative and calming effect on the central nervous system. While more human trials are needed, the combination of these compounds with magnesium (known for muscle relaxation) makes lotus seeds a logical choice for evening meals.",
+        ],
+      },
+      {
+        title: "Digestive and Metabolic Wellness",
+        paragraphs: [
+          "The high proportion of resistant starch and dietary fiber in lotus seeds makes them excellent for digestive health. Resistant starch acts as a prebiotic, feeding beneficial gut bacteria, and helps maintain stable blood sugar levels by slowing the absorption of glucose. This aligns perfectly with its traditional role in supporting Spleen (digestive) Qi.",
+        ],
+      },
+    ],
+    references: [
+      "[1] WebMD. Health Benefits of Lotus. https://www.webmd.com/diet/health-benefits-lotus",
+    ],
+    tags: ["lotus seed", "lian zi", "nelumbo nucifera", "astringent herb", "shen calming", "evening porridge", "resistant starch", "traditional Chinese seed"],
   },
   {
     slug: "jobs-tears",
@@ -1925,6 +1954,7 @@ const herbCategoryAliases: Record<string, string[]> = {
   "Herbs that regulate Qi": ["qi", "movement", "emotional balance", "liver", "harmony"],
   "Herbs that tonify Qi": ["qi", "energy", "nourishing", "warming", "foundational strength"],
   "Herbs that tonify Yin": ["yin", "nourishing", "moistening", "cooling", "restorative"],
+  "Herbs that astringe": ["astringent", "binding", "containing", "securing", "shen calming"],
 };
 
 const getNatureAliases = (nature: string) => {
