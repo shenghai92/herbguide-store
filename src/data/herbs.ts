@@ -591,25 +591,55 @@ const rawHerbs: Herb[] = [
     slug: "schisandra-berry",
     name: "Schisandra Berry",
     pinyin: "Wu Wei Zi",
-            chinese: "Wu Wei Zi",
-    latin: "Schisandrae Chinensis Fructus",
+    chinese: "五味子",
+    latin: "Schisandra chinensis",
     partUsed: "Fruit",
-    category: "Astringent herbs",
-    summary: "A well-known five-flavor berry that stands out in both traditional writing and modern lifestyle writing.",
+    category: "Herbs that astringe",
+    commonNames: "Schisandra, Five-Flavor Berry, Magnolia Vine",
+    arabicName: "شيزاندرا (Shizandra) / توت النكهات الخمس (Toot Al-Nakhat Al-Khams)",
+    summary: "A bright red berry with a unique place in traditional wellness — its Chinese name translates to 'Five-Flavor Berry' because it possesses all five traditional flavors. This guide explores its role as a powerful adaptogen, supporting the body's resilience to stress and promoting liver health.",
     whatItIs:
-      "Schisandra has strong storytelling value because its 'five flavor' identity is memorable and distinctive in English content.",
+      "Schisandra (Schisandra chinensis) is a bright red berry that holds a unique place in traditional wellness. Its Chinese name, Wu Wei Zi, translates to 'Five-Flavor Berry' because it is said to possess all five traditional flavors: sour, sweet, salty, bitter, and pungent (though sour is the most dominant). Today, what modern science says about schisandra focuses on its role as a powerful adaptogen, supporting the body's resilience to stress and promoting liver health.",
     nature: "Warm",
-    flavor: "Sour, sweet, salty, bitter, pungent",
-    channels: "Heart, Lung, Kidney",
+    flavor: "Sour, sweet (contains all five flavors)",
+    channels: "Lung, Kidney, Heart",
     traditionalUses: [
-      "Traditionally used to astringe and in discussions of lung and kidney-related patterns.",
-      "Frequently referenced in lifestyle media because of its unique flavor identity.",
-      "Useful for glossary content about flavor theory.",
+      "In traditional frameworks, Schisandra (Wu Wei Zi) is categorized as an herb that astringes (binds and contains). It is primarily associated with the Lung, Kidney, and Heart channels.",
+      "Containing the leakage of Lung Qi, making it a primary herb for supporting respiratory resilience and calming chronic, dry coughs.",
+      "Tonifying the Kidneys and securing essence, often used to address excessive sweating or frequent urination.",
+      "Calming the spirit (shen) and nourishing the Heart, used to support restful sleep and emotional focus.",
     ],
-    foodUses: ["Tea", "Tincture discussions", "Herbal blends"],
+    foodUses: ["Schisandra tea", "Herbal blends", "Tonic preparations"],
     caution:
-      "This page should carefully separate traditional symbolism from modern evidence claims.",
-    tags: ["five flavor", "berry", "seo", "distinctive", "glossary"],
+      "Schisandra is generally safe for most people when used appropriately. However, because of its strong 'astringent' (containing) nature, traditional practice strongly advises against using it during the early, acute stages of a cold or flu, as it may 'trap' the pathogen.",
+    cautionDetails: [
+      "Medication interactions: It may also interact with certain medications processed by the liver (cytochrome P450 substrates). If you are taking prescription medications or are pregnant, seek guidance from a qualified professional before use.",
+    ],
+    scientificSections: [
+      {
+        title: "Nutritional and Active Compounds",
+        paragraphs: [
+          "The primary active constituents in schisandra berries are a group of lignans known as schisandrins (including schisandrin A, B, and C). These unique compounds are heavily concentrated in the seeds of the berry and are responsible for the majority of the plant's documented biological activity.",
+        ],
+      },
+      {
+        title: "Liver Support and Cellular Protection",
+        paragraphs: [
+          "One of the most extensively researched benefits of schisandra is its hepatoprotective (liver-protecting) capability. Studies indicate that schisandrins help support liver function by stimulating the production of glutathione, the body's master antioxidant, and by promoting the regeneration of liver tissue. This makes it a frequent subject of study in protocols supporting liver wellness.",
+        ],
+      },
+      {
+        title: "Adaptogenic and Cognitive Support",
+        paragraphs: [
+          "As an adaptogen, schisandra helps modulate the body's stress response system (the HPA axis). Research suggests it may help combat mental fatigue, improve concentration, and increase physical endurance under stress. Some studies have shown that schisandra extracts can support cognitive function and memory, aligning with its traditional use for 'calming the spirit' and improving focus.",
+        ],
+      },
+    ],
+    references: [
+      "[1] Healthline. Schisandra: Benefits, Uses, and Side Effects. https://www.healthline.com/health/schisandra",
+      "[2] MSKCC. Schisandra. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/schisandra",
+    ],
+    tags: ["wu wei zi", "schisandra", "five flavor berry", "adaptogen", "astringent herb", "liver support", "schisandrins", "traditional Chinese berry"],
   },
   {
     slug: "chinese-yam",
