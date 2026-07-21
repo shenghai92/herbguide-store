@@ -414,27 +414,56 @@ const rawHerbs: Herb[] = [
   },
   {
     slug: "longan-fruit",
-    name: "Longan Fruit",
+    name: "Longan",
     pinyin: "Long Yan Rou",
-        chinese: "Long Yan Rou",
-    latin: "Longan Arillus",
-    partUsed: "Fruit aril",
-    category: "Nourishing herbs",
-    summary: "A sweet dried fruit often used in traditional dessert soups, tea, and softly sweet pantry bowls.",
+    chinese: "龙眼肉",
+    latin: "Dimocarpus longan",
+    partUsed: "Fruit flesh (aril)",
+    category: "Herbs that tonify Blood",
+    commonNames: "Longan, Dragon Eye Fruit",
+    arabicName: "لونجان (Longan) / عين التنين (Ayn Al-Tinneen)",
+    summary: "A tropical fruit closely related to the lychee — when shelled, the translucent flesh surrounds a black seed, resembling a 'dragon's eye.' This guide explores its rich antioxidant profile, its traditional role in nourishing Blood and calming the spirit, and what modern science says about its potential to support memory and nervous system health.",
     whatItIs:
-      "Longan fruit is best known in dried form, where it shows up in sweet soup, tea, and congee content that still feels approachable to beginners.",
+      "The longan (Dimocarpus longan) is a tropical fruit closely related to the lychee. When shelled, the translucent flesh surrounds a black seed, resembling a 'dragon's eye.' While delicious fresh, it is the dried flesh (Long Yan Rou) that is most commonly used in traditional wellness soups and teas. Today, what modern science says about longan highlights its rich antioxidant profile and its potential to support memory and nervous system health.",
     nature: "Warm",
     flavor: "Sweet",
     channels: "Heart, Spleen",
     traditionalUses: [
-      "Traditionally described as warm and sweet in pantry-style kitchen language.",
-      "Often appears in dried longan tea, sweet soup, and other evening-style household recipes.",
-      "Pairs especially well with jujube and lotus seed content.",
+      "In traditional frameworks, Longan (Long Yan Rou) is categorized as an herb that tonifies Blood and Qi. It is primarily associated with the Heart and Spleen channels.",
+      "Nourishing the Heart Blood and calming the spirit (shen). It is famously used for individuals experiencing overwork, mental exhaustion, or difficulty sleeping due to a racing mind.",
+      "Tonifying the Spleen Qi, providing gentle, warming nourishment to support healthy digestion and energy production.",
+      "Being a key ingredient in traditional formulas designed to support students or those engaged in heavy intellectual labor.",
     ],
-    foodUses: ["Dessert soup", "Tea", "Congee"],
+    foodUses: ["Dessert soup (sweet soup)", "Longan tea", "Congee and porridge"],
     caution:
-      "Sweet tonic foods are not a universal fit. Content should stay descriptive and not prescriptive.",
-    tags: ["dried longan", "longan tea", "longan sweet soup", "fruit", "gentle", "recipe-friendly"],
+      "Longan is a sweet, nutritious food that is safe for general consumption. However, because it is energetically 'warm' and very sweet, traditional practice advises moderation. Consuming too much can lead to internal 'heat' (manifesting as a dry mouth or restlessness) or 'dampness' (digestive sluggishness).",
+    cautionDetails: [
+      "Blood sugar: Individuals managing their blood sugar levels should be mindful of its high natural sugar content and seek professional guidance if necessary.",
+    ],
+    scientificSections: [
+      {
+        title: "Nutritional and Active Compounds",
+        paragraphs: [
+          "Dried longan flesh is a concentrated source of natural sugars, providing quick energy. It is rich in vitamin C, potassium, and B vitamins. More importantly, it contains significant amounts of bioactive compounds, including polyphenols, flavonoids, and polysaccharides, which provide strong antioxidant activity.",
+        ],
+      },
+      {
+        title: "Cognitive and Nervous System Support",
+        paragraphs: [
+          "Research has focused heavily on longan's potential neuroprotective effects. Animal studies suggest that longan polysaccharides and extracts may help protect brain cells from oxidative damage and support memory and learning capabilities. Its traditional use for sleep support is also being investigated, with some studies indicating it may help modulate neurotransmitters to promote relaxation.",
+        ],
+      },
+      {
+        title: "Immune and Cellular Wellness",
+        paragraphs: [
+          "The polysaccharides found in longan have been shown in laboratory studies to possess immunomodulatory properties, helping to support the activity of immune cells. Additionally, its high antioxidant capacity helps neutralize free radicals, supporting overall cellular resilience and cardiovascular wellness.",
+        ],
+      },
+    ],
+    references: [
+      "[1] WebMD. Health Benefits of Longan. https://www.webmd.com/diet/health-benefits-longan",
+    ],
+    tags: ["longan", "long yan rou", "dimocarpus longan", "dragon eye fruit", "shen calming", "blood tonic", "antioxidant fruit", "traditional Chinese fruit"],
   },
   {
     slug: "lily-bulb",
@@ -1985,6 +2014,7 @@ const herbCategoryAliases: Record<string, string[]> = {
   "Herbs that tonify Qi": ["qi", "energy", "nourishing", "warming", "foundational strength"],
   "Herbs that tonify Yin": ["yin", "nourishing", "moistening", "cooling", "restorative"],
   "Herbs that astringe": ["astringent", "binding", "containing", "securing", "shen calming"],
+  "Herbs that tonify Blood": ["blood", "nourishing", "shen calming", "warming", "restorative"],
 };
 
 const getNatureAliases = (nature: string) => {
