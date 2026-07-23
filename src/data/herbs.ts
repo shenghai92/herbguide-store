@@ -1177,27 +1177,53 @@ const rawHerbs: Herb[] = [
   },
   {
     slug: "tremella-mushroom",
-    name: "Tremella Mushroom",
+    name: "White Wood Ear Mushroom",
     pinyin: "Yin Er",
-            chinese: "Yin Er",
-    latin: "Tremellae Fuciformis Sporophorum",
+    chinese: "银耳",
+    latin: "Tremella fuciformis",
     partUsed: "Fruiting body",
-    category: "Kitchen herbs",
-    summary: "A gentle edible mushroom often used in sweet soups and soft seasonal kitchen content.",
+    category: "Herbs that tonify Yin",
+    commonNames: "White Wood Ear, Tremella Mushroom, Snow Fungus",
+    arabicName: "فطر الأذن البيضاء (Fatr Al-Udhun Al-Bayda)",
+    summary: "A beautiful, frilly, translucent mushroom that develops a gelatinous, slippery texture when soaked — a prized ingredient in traditional East Asian desserts and beauty soups. This guide explores its role as the ultimate 'moistening' food and what modern science says about its exceptional water-holding capacity and unique polysaccharides that support skin and immune health.",
     whatItIs:
-      "Tremella mushroom is one of the most approachable Chinese kitchen-tradition ingredients because it behaves like a real kitchen ingredient first and a traditional teaching ingredient second.",
-    nature: "Neutral to slightly cool",
-    flavor: "Sweet, mild",
-    channels: "Lung, Stomach",
+      "The White Wood Ear mushroom (Tremella fuciformis), also known as Snow Fungus, is a beautiful, frilly, translucent mushroom. When soaked and cooked, it develops a gelatinous, slippery texture. It is a prized ingredient in traditional East Asian desserts and beauty soups. In traditional frameworks, it is the ultimate 'moistening' food. Today, what modern science says about Tremella focuses on its exceptional water-holding capacity and its unique polysaccharides that support skin and immune health.",
+    nature: "Neutral",
+    flavor: "Sweet, Bland",
+    channels: "Lung, Stomach, Kidney",
     traditionalUses: [
-      "Traditionally used in traditional food writing to support moisture and softness.",
-      "Often associated with dessert soups, pear pairings, and gentle seasonal dryness content.",
-      "A strong bridge ingredient between pantry cooking and plain-English traditional vocabulary.",
+      "In traditional frameworks, White Wood Ear (Yin Er) is categorized as an herb that tonifies Yin (fluids and moisture). It is primarily associated with the Lung, Stomach, and Kidney channels.",
+      "Nourishing Lung Yin and moistening dryness. It is the classic traditional recommendation for a dry, hacking cough, a dry throat, or when the air is particularly arid (like in autumn).",
+      "Nourishing Stomach Yin, helping to support healthy digestion when the stomach feels dry or irritated.",
+      "Promoting a radiant complexion. Because it deeply moistens the body's internal tissues, it is traditionally believed to reflect outward, keeping the skin plump and hydrated.",
     ],
-    foodUses: ["Sweet soup", "Pear soup", "Dessert bowl"],
+    foodUses: ["Sweet soup (dessert)", "Pear and tremella soup", "Traditional beauty soup"],
     caution:
-      "Even food-like ingredients should be framed carefully. Readers should avoid turning a sweet soup page into individualized advice.",
-    tags: ["mushroom", "dryness", "sweet soup", "pantry", "beginner"],
+      "White Wood Ear is a very safe, gentle food suitable for regular consumption by people of all ages. Because its traditional function is to deeply moisten and retain fluids, individuals experiencing an acute condition characterized by heavy, sticky phlegm or severe fluid retention (Dampness) may want to consume it in moderation until the acute symptoms pass.",
+    scientificSections: [
+      {
+        title: "Unmatched Hydration and Skin Support",
+        paragraphs: [
+          "The most famous characteristic of Tremella is its gelatinous polysaccharides. These complex sugars have an astonishing capacity to bind and hold water—often compared to or even exceeding the water-holding capacity of hyaluronic acid. When consumed, these polysaccharides help support systemic hydration. In the cosmetic industry, Tremella extract is increasingly used in topical serums to support skin moisture and elasticity.",
+        ],
+      },
+      {
+        title: "Immune System Modulation",
+        paragraphs: [
+          "Like many medicinal mushrooms, Tremella is rich in beta-glucans. Research demonstrates that these specific polysaccharides can interact with immune receptors in the gut, helping to modulate and support a healthy immune response without overstimulating it.",
+        ],
+      },
+      {
+        title: "Antioxidant and Cellular Resilience",
+        paragraphs: [
+          "Studies indicate that Tremella polysaccharides possess strong antioxidant properties. By helping to neutralize free radicals, they protect cells from oxidative stress, supporting healthy aging and overall cellular resilience.",
+        ],
+      },
+    ],
+    references: [
+      "[1] Healthline. Tremella Mushroom: Benefits, Uses, and Side Effects. https://www.healthline.com/nutrition/tremella-mushroom",
+    ],
+    tags: ["yin er", "tremella", "snow fungus", "white wood ear", "yin tonifying", "beauty foods", "hyaluronic acid", "traditional Chinese mushroom"],
   },
   {
     slug: "adzuki-bean",
