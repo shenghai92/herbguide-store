@@ -780,25 +780,54 @@ const rawHerbs: Herb[] = [
     slug: "jobs-tears",
     name: "Job's Tears",
     pinyin: "Yi Yi Ren",
-            chinese: "Yi Yi Ren",
-    latin: "Coicis Semen",
+    chinese: "薏苡仁",
+    latin: "Coix lacryma-jobi",
     partUsed: "Seed",
-    category: "Dampness-related herbs",
-    summary: "A grain-like ingredient often used in traditional kitchen discussions about dampness and heaviness.",
+    category: "Herbs that drain dampness",
+    commonNames: "Job's Tears, Coix Seed, Adlay, Chinese Pearl Barley",
+    arabicName: "دموع أيوب (Dumu' Ayoub)",
+    summary: "A plump, gluten-free grain native to Southeast Asia — often mistakenly called Chinese pearl barley. This guide explores its traditional role in clearing sluggish fluids from the body, and what modern science says about its unique polysaccharides and potential to support metabolic and immune wellness.",
     whatItIs:
-      "Job's tears helps explain dampness through a grain-like ingredient that fits naturally into recipe and pantry education.",
-    nature: "Slightly cold",
-    flavor: "Sweet, bland",
-    channels: "Lung, Spleen, Stomach",
+      "Job's Tears (Coix lacryma-jobi), often mistakenly called Chinese pearl barley, is a plump, gluten-free grain native to Southeast Asia. It is a staple ingredient in traditional soups, porridges, and cooling summer drinks. In traditional frameworks, it is highly valued for its ability to clear sluggish fluids from the body. Today, what modern science says about Job's Tears highlights its unique polysaccharides and potential to support metabolic and immune wellness.",
+    nature: "Slightly Cold",
+    flavor: "Sweet, Bland",
+    channels: "Spleen, Stomach, Lung",
     traditionalUses: [
-      "Traditionally used to support dampness resolution in traditional language.",
-      "Often introduced through porridge and soup recipes.",
-      "A good teaching herb for discussing body heaviness in traditional theory.",
+      "In traditional frameworks, Job's Tears (Yi Yi Ren) is categorized as an herb that drains dampness. It is primarily associated with the Spleen, Stomach, and Lung channels.",
+      "Promoting urination and leaching out 'Dampness' (sluggish, accumulated fluids). It is famously used when individuals feel heavy, bloated, or have swollen joints due to fluid retention.",
+      "Strengthening the Spleen. Unlike many herbs that drain fluids (which can be harsh), Job's Tears gently supports the digestive system's ability to process fluids naturally.",
+      "Clearing heat and expelling pus, traditionally used to support healthy, clear skin.",
     ],
-    foodUses: ["Congee", "Soup", "Grain bowl"],
+    foodUses: ["Congee and porridge", "Cooling summer drinks", "Traditional soups and grain bowls"],
     caution:
-      "Extra caution notes for major life stages and other specialized situations should be clearly flagged when this page is published in full.",
-    tags: ["dampness", "grain-like", "recipe", "porridge", "seo"],
+      "Job's Tears is a safe, everyday food grain for most people. However, because its primary traditional action is to 'drain downward' and promote fluid elimination, traditional practice strongly advises against consuming it during pregnancy, particularly in the first trimester.",
+    cautionDetails: [
+      "Dehydration and dry constipation: Individuals who are severely dehydrated or experiencing chronic, dry constipation should consume it sparingly, as it may further dry the body.",
+    ],
+    scientificSections: [
+      {
+        title: "Nutritional and Active Compounds",
+        paragraphs: [
+          "Job's Tears is a highly nutritious grain, rich in complex carbohydrates, high-quality plant protein, and dietary fiber. It contains unique bioactive compounds, including coixenolide and coixans (specific polysaccharides), which are the focus of most scientific research.",
+        ],
+      },
+      {
+        title: "Immune and Cellular Support",
+        paragraphs: [
+          "Research indicates that the polysaccharides in Job's Tears possess immunomodulatory properties, meaning they help support the healthy function of immune cells. Some laboratory and animal studies have also investigated coixenolide for its potential to support cellular health and resilience against oxidative stress.",
+        ],
+      },
+      {
+        title: "Metabolic and Digestive Wellness",
+        paragraphs: [
+          "The high fiber content of Job's Tears helps slow the absorption of sugars in the digestive tract, supporting stable blood sugar levels. Furthermore, studies suggest that its specific lipid compounds may help support healthy cholesterol metabolism, aligning with its traditional use for clearing 'sluggish' accumulations in the body.",
+        ],
+      },
+    ],
+    references: [
+      "[1] WebMD. Health Benefits of Job's Tears. https://www.webmd.com/diet/health-benefits-jobs-tears",
+    ],
+    tags: ["job's tears", "yi yi ren", "coix seed", "adlay", "chinese pearl barley", "dampness draining", "immunomodulatory", "traditional Chinese grain"],
   },
   {
     slug: "mulberry-fruit",
@@ -2045,6 +2074,7 @@ const herbCategoryAliases: Record<string, string[]> = {
   "Herbs that astringe": ["astringent", "binding", "containing", "securing", "shen calming"],
   "Herbs that tonify Blood": ["blood", "nourishing", "shen calming", "warming", "restorative"],
   "Herbs that relieve food stagnation": ["food stagnation", "digestive", "post-meal", "circulation", "cardiovascular"],
+  "Herbs that drain dampness": ["dampness", "draining", "fluids", "lightness", "summer"],
 };
 
 const getNatureAliases = (nature: string) => {
