@@ -703,25 +703,54 @@ const rawHerbs: Herb[] = [
     slug: "chinese-yam",
     name: "Chinese Yam",
     pinyin: "Shan Yao",
-            chinese: "Shan Yao",
-    latin: "Dioscoreae Rhizoma",
-    partUsed: "Rhizome",
-    category: "Kitchen herbs",
-    summary: "A food-grade staple that blends kitchen use with traditional herb education.",
+    chinese: "山药",
+    latin: "Dioscorea polystachya",
+    partUsed: "Rhizome / Root",
+    category: "Herbs that tonify Qi",
+    commonNames: "Chinese Yam, Cinnamon-Vine",
+    arabicName: "اليام الصيني (Al-Yam Al-Sini)",
+    summary: "A long, starchy root vegetable with a unique, slightly mucilaginous (slippery) texture — a staple food across East Asia. This guide explores its role as one of the most balanced, gentle, and universally beneficial foods for daily nourishment, and what modern science says about its unique mucilage, complex carbohydrates, and compounds that support metabolic and digestive wellness.",
     whatItIs:
-      "Chinese yam is especially helpful for a practical site because it feels more like a pantry ingredient and less like an intimidating concentrated product.",
+      "The Chinese Yam (Dioscorea polystachya) is a long, starchy root vegetable with a unique, slightly mucilaginous (slippery) texture when peeled. It is a staple food across East Asia, eaten steamed, stir-fried, or simmered in broths. In traditional frameworks, it is considered one of the most balanced, gentle, and universally beneficial foods for daily nourishment. Today, what modern science says about Chinese yam highlights its unique mucilage, complex carbohydrates, and compounds that support metabolic and digestive wellness.",
     nature: "Neutral",
     flavor: "Sweet",
-    channels: "Lung, Spleen, Kidney",
+    channels: "Spleen, Lung, Kidney",
     traditionalUses: [
-      "Traditionally used in traditional theory in discussions of spleen and lung function.",
-      "A natural fit for porridge, soup, and ingredient-based pages.",
-      "Helps show the overlap between nourishment and traditional herbal classification.",
+      "In traditional frameworks, Chinese Yam (Shan Yao) is categorized as an herb that tonifies Qi (energy) and nourishes Yin (fluids). It is primarily associated with the Spleen, Lung, and Kidney channels.",
+      "Tonifying Spleen Qi and Stomach Yin. Because it is neutral and gentle, it is the premier food for supporting a weak digestive system, especially when someone experiences fatigue or occasional loose stools.",
+      "Nourishing Lung Yin. It is traditionally used to moisten the lungs and support respiratory resilience, particularly for dry, chronic coughs.",
+      "Securing Kidney essence, helping to build a strong foundation of vitality and stamina.",
     ],
-    foodUses: ["Soup", "Porridge", "Steamed dishes"],
+    foodUses: ["Steamed (plain or with seasoning)", "Simmered in soups and broths", "Stir-fried with vegetables"],
     caution:
-      "This page should keep food-use guidance general and avoid personalized diet claims.",
-    tags: ["food-grade", "pantry", "soup", "neutral", "beginner"],
+      "Chinese yam is a very safe, everyday food. It is best consumed cooked (steamed, boiled, or baked). When handling the raw root, the mucilage can cause mild skin irritation or itchiness in some individuals; wearing gloves while peeling is recommended.",
+    cautionDetails: [
+      "Constipation note: Because of its slightly astringent (binding) nature, individuals experiencing severe, dry constipation may want to consume it in moderation alongside plenty of hydrating foods.",
+    ],
+    scientificSections: [
+      {
+        title: "Digestive Health and Mucilage",
+        paragraphs: [
+          "The signature slippery texture of raw Chinese yam comes from its mucilage, which is rich in unique glycoproteins and polysaccharides. Research indicates that this mucilage acts as a soothing agent for the mucosal lining of the gastrointestinal tract. Furthermore, it contains a high amount of resistant starch, which acts as a powerful prebiotic, feeding beneficial gut bacteria and supporting overall microbiome health.",
+        ],
+      },
+      {
+        title: "Metabolic and Blood Sugar Support",
+        paragraphs: [
+          "Unlike simple starches that cause rapid blood sugar spikes, the complex carbohydrates and resistant starch in Chinese yam are digested slowly. Studies suggest that specific compounds in the yam, including dioscorin, may help support stable blood sugar levels and healthy lipid profiles, making it an excellent carbohydrate choice for metabolic wellness.",
+        ],
+      },
+      {
+        title: "Immune System Modulation",
+        paragraphs: [
+          "The polysaccharides found in Chinese yam have been shown in laboratory studies to possess immunomodulatory properties. They help support the healthy function of immune cells, providing a scientific basis for the traditional view that yam 'builds Qi' and enhances the body's defensive resilience.",
+        ],
+      },
+    ],
+    references: [
+      "[1] Healthline. Yam: Nutrition, Benefits, and How to Cook It. https://www.healthline.com/nutrition/yam-benefits",
+    ],
+    tags: ["shan yao", "chinese yam", "dioscorea polystachya", "qi tonifying", "spleen health", "prebiotic", "mucilage", "traditional Chinese root"],
   },
   {
     slug: "lotus-seed",
