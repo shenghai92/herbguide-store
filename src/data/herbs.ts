@@ -313,25 +313,54 @@ const rawHerbs: Herb[] = [
     slug: "hawthorn-berry",
     name: "Hawthorn Berry",
     pinyin: "Shan Zha",
-        chinese: "Shan Zha",
-    latin: "Crataegi Fructus",
+    chinese: "山楂",
+    latin: "Crataegus pinnatifida",
     partUsed: "Fruit",
-    category: "Digestive herbs",
-    summary: "A tart fruit traditionally associated with food stagnation and digestive heaviness in this framework. This expanded guide looks at its role after rich meals.",
+    category: "Herbs that relieve food stagnation",
+    commonNames: "Hawthorn Berry, Chinese Hawthorn",
+    arabicName: "زعرور (Za'rur)",
+    summary: "A bright red, tart berry that is a beloved snack across East Asia — often candied on sticks (tanghulu) or dried for tea. This guide explores its traditional role in supporting digestion and promoting healthy circulation, and what modern science says about its rich flavonoid content and well-documented role in supporting cardiovascular wellness.",
     whatItIs:
-      "Unlike sweet berries, hawthorn is famously tart. It is the secret behind many traditional after-dinner teas and snacks, designed specifically for moments when you have eaten a bit too much.",
-    nature: "Slightly warm",
-    flavor: "Sour, sweet",
+      "The Chinese hawthorn (Crataegus pinnatifida) produces a bright red, tart berry that is a beloved snack across East Asia, often candied on sticks (tanghulu) or dried for tea. In traditional wellness frameworks, it is highly regarded for its ability to support digestion and promote healthy circulation. Today, what modern science says about hawthorn focuses on its rich flavonoid content and its well-documented role in supporting cardiovascular wellness.",
+    nature: "Slightly Warm",
+    flavor: "Sour, Sweet",
     channels: "Spleen, Stomach, Liver",
     traditionalUses: [
-      "Traditionally used when heavy foods feel difficult to process.",
-      "Often discussed in relation to meat-heavy meals and digestive stagnation.",
-      "Works well in comparison articles and food-centered explainers.",
+      "In traditional frameworks, Hawthorn Berry (Shan Zha) is categorized as an herb that relieves food stagnation. It is primarily associated with the Spleen, Stomach, and Liver channels.",
+      "Strongly promoting digestion and relieving food stagnation, particularly when a person has consumed too much heavy, greasy food or meat.",
+      "Moving blood and dispersing stasis. Because of its sour flavor (which enters the Liver channel) and its ability to promote flow, it is traditionally used to support healthy circulation and ease discomfort associated with sluggish blood flow.",
     ],
-    foodUses: ["Tea", "Fruit snacks", "Digestive drink"],
+    foodUses: ["Digestive tea (after heavy meals)", "Candied hawthorn snacks (tanghulu)", "Traditional digestive fruit preparations"],
     caution:
-      "Because of its tart nature, it is traditionally not recommended on an empty stomach, especially for those with sensitive digestion.",
-    tags: ["digestive", "fruit", "tart", "post-meal"],
+      "Hawthorn is a widely consumed food and is generally safe. However, because it promotes stomach acid secretion to aid digestion, individuals with a history of acid reflux, stomach ulcers, or an empty stomach should consume it in moderation.",
+    cautionDetails: [
+      "Cardiovascular medication interactions: Most importantly, because of its strong effects on circulation and the heart, individuals taking prescription cardiovascular medications (such as blood pressure drugs or products that affect circulation) must seek professional guidance before using hawthorn supplements or drinking large amounts of the tea, as it may amplify the effects of these medications.",
+    ],
+    scientificSections: [
+      {
+        title: "Cardiovascular Wellness",
+        paragraphs: [
+          "Hawthorn is one of the most extensively studied botanicals for heart health. Research indicates that its active compounds, particularly oligomeric proanthocyanidins (OPCs) and flavonoids like vitexin, help dilate blood vessels, which supports healthy blood flow and helps maintain healthy blood pressure levels. Furthermore, studies suggest it may help improve the heart muscle's efficiency in utilizing oxygen.",
+        ],
+      },
+      {
+        title: "Metabolic and Digestive Support",
+        paragraphs: [
+          "The traditional use of hawthorn for digesting heavy meals aligns with modern findings that it can support lipid metabolism. Some animal studies suggest that hawthorn extract may help support healthy cholesterol and triglyceride levels by promoting their breakdown in the liver. Its high pectin (soluble fiber) content also acts as a prebiotic, supporting a healthy gut microbiome.",
+        ],
+      },
+      {
+        title: "Antioxidant Activity",
+        paragraphs: [
+          "The bright red color of the berry is a clear indicator of its high antioxidant capacity. These antioxidants help neutralize free radicals, protecting cells—particularly those lining the blood vessels—from oxidative stress.",
+        ],
+      },
+    ],
+    references: [
+      "[1] Healthline. 9 Impressive Health Benefits of Hawthorn Berry. https://www.healthline.com/nutrition/hawthorn-berry-benefits",
+      "[2] MSKCC. Hawthorn. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/hawthorn",
+    ],
+    tags: ["hawthorn berry", "shan zha", "crataegus pinnatifida", "food stagnation", "cardiovascular support", "digestive aid", "OPCs", "traditional Chinese fruit"],
   },
   {
     slug: "chen-pi",
@@ -2015,6 +2044,7 @@ const herbCategoryAliases: Record<string, string[]> = {
   "Herbs that tonify Yin": ["yin", "nourishing", "moistening", "cooling", "restorative"],
   "Herbs that astringe": ["astringent", "binding", "containing", "securing", "shen calming"],
   "Herbs that tonify Blood": ["blood", "nourishing", "shen calming", "warming", "restorative"],
+  "Herbs that relieve food stagnation": ["food stagnation", "digestive", "post-meal", "circulation", "cardiovascular"],
 };
 
 const getNatureAliases = (nature: string) => {
