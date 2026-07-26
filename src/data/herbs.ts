@@ -992,49 +992,113 @@ const rawHerbs: Herb[] = [
     slug: "perilla-leaf",
     name: "Perilla Leaf",
     pinyin: "Zi Su Ye",
-            chinese: "Zi Su Ye",
-    latin: "Perillae Folium",
+    chinese: "紫苏叶",
+    latin: "Perilla frutescens (L.) Britt.",
     partUsed: "Leaf",
     category: "Kitchen herbs",
-    summary: "An aromatic culinary leaf that expands the library's food-first and pantry-first range.",
+    commonNames: "Perilla, Shiso (Japanese), Purple Mint, Beefsteak Plant",
+    arabicName: "البريلا (Al-Berilla)",
+    summary: "A globally recognized culinary leaf — from Japanese shiso garnishes to Korean pickles — with a powerful traditional role as a first-response herb for chills, congestion, and stomach discomfort. This guide explores its active compound rosmarinic acid, its traditional context for 'releasing the exterior,' and its broad culinary uses across East Asia.",
     whatItIs:
-      "Perilla leaf is useful because it connects traditional herb writing with real cooking traditions and ingredient recognition across Asian food cultures.",
+      "Perilla Leaf (Zi Su Ye) is one of the most important herbs for 'releasing the exterior' — a concept that describes the body's ability to push out an invading cold or chill before it penetrates deeper. When someone gets caught in cold, wet weather and begins to feel chilled, achy, and congested, perilla leaf is the classic first response. It is also a culinary staple across East and Southeast Asia: known as shiso in Japan, used as a pickle wrap in Korea, and torn fresh over noodles and soups in Chinese cooking. This page explores its science, traditional context, and kitchen versatility.",
     nature: "Warm",
     flavor: "Pungent",
     channels: "Lung, Spleen",
     traditionalUses: [
-      "Traditionally used to move qi and support exterior-release discussions in traditional writing.",
-      "A useful herb for showing that some materia medica lives close to the kitchen.",
-      "Good for seasonal and aromatic content.",
+      "In traditional Chinese wellness practices, Perilla Leaf (Zi Su Ye) is pungent and warm, primarily entering the Lung and Spleen channels. It is one of the most important herbs for 'releasing the exterior' — pushing out an invading cold or chill before it penetrates deeper.",
+      "Releasing the exterior and dispelling cold — the classic first response when someone feels the early signs of a chill after exposure to cold or wet weather, helping induce a mild sweat to push the pathogen out.",
+      "Moving Qi and harmonizing the Stomach — highly valued for addressing nausea, morning sickness, and the bloating that comes from eating too much cold or raw food.",
+      "Warming the Lungs — used to address congestion and a feeling of tightness in the chest associated with early-stage cold patterns.",
     ],
-    foodUses: ["Soup", "Herbal broth", "Culinary leaf use"],
+    foodUses: ["Fresh garnish over noodles and soups", "Pickled in soy sauce and sesame oil (Korean style)", "Simmered briefly in broths", "Sashimi garnish (Japanese shiso)"],
     caution:
-      "This page should distinguish clearly between culinary use and concentrated traditional use.",
-    tags: ["aromatic", "leaf", "kitchen", "warm", "seasonal"],
+      "This page is an educational reference built around traditional herb writing and publicly available research summaries. It is not a wellness recommendation, a substitute for professional guidance, or a claim that this herb is appropriate for any specific person.",
+    cautionDetails: [
+      "When to pause: As a warming, pungent herb, Perilla is best suited for cold-type conditions. Individuals experiencing significant Heat signs — such as a high fever, a very red and sore throat, or profuse sweating — should avoid using it in large quantities.",
+      "Allergies: Those with known allergies to plants in the Lamiaceae (mint) family should exercise caution.",
+      "Kitchen note: Perilla leaf is a food-grade herb with an excellent safety profile when used in culinary amounts. The seeds (Zi Su Zi) are used separately as an herb to address coughs and wheezing.",
+    ],
+    scientificSections: [
+      {
+        title: "Active Compounds",
+        paragraphs: [
+          "Perilla leaf is exceptionally rich in rosmarinic acid, luteolin, apigenin, and perillaldehyde — the compound responsible for its distinctive, sharp aroma. These polyphenols are potent antioxidants and are the focus of most modern research on Perilla's biological effects.",
+        ],
+      },
+      {
+        title: "Respiratory and Immune Support",
+        paragraphs: [
+          "Rosmarinic acid, the primary active compound in Perilla, has been extensively studied for its ability to support a balanced immune response, particularly in relation to seasonal respiratory sensitivities. Research published in peer-reviewed journals suggests it may help modulate the body's response to environmental triggers, providing a scientific basis for its traditional use during the early stages of colds and congestion.",
+        ],
+      },
+      {
+        title: "Digestive Comfort",
+        paragraphs: [
+          "Perillaldehyde has been shown to have mild antispasmodic effects on the gastrointestinal tract. This provides a scientific basis for Perilla's traditional use in calming nausea, bloating, and stomach discomfort — particularly the kind associated with eating cold or raw foods.",
+        ],
+      },
+    ],
+    references: [
+      "[1] Healthline. Perilla: Benefits, Uses, and Side Effects. https://www.healthline.com/nutrition/perilla-frutescens",
+      "[2] PubMed. Rosmarinic acid and its pharmacological perspectives. https://pubmed.ncbi.nlm.nih.gov/26773014/",
+    ],
+    tags: ["perilla leaf", "zi su ye", "shiso", "perilla frutescens", "exterior-releasing herbs", "rosmarinic acid", "culinary herb", "traditional Chinese leaf"],
   },
   {
     slug: "cinnamon-twig",
     name: "Cinnamon Twig",
     pinyin: "Gui Zhi",
-            chinese: "Gui Zhi",
-    latin: "Cinnamomi Ramulus",
-    partUsed: "Twig",
+    chinese: "桂枝",
+    latin: "Cinnamomum cassia Presl",
+    partUsed: "Young twig",
     category: "Warming herbs",
-    summary: "A warming classic that helps explain why traditional categories do not always match supermarket spice categories one-to-one.",
+    commonNames: "Cinnamon Twig, Cassia Twig",
+    arabicName: "عود القرفة (Oud Al-Qirfa)",
+    summary: "The young, slender twig of the cinnamon tree — gentler and more surface-focused than the thick bark, with a unique role in warming the channels and promoting circulation to the limbs. This guide explores the crucial distinction between Cinnamon Twig and Cinnamon Bark, its traditional context in the famous Gui Zhi Tang formula, and what modern science says about cinnamaldehyde.",
     whatItIs:
-      "Cinnamon twig is editorially useful because readers assume they already understand cinnamon, but traditional distinctions create a strong teaching moment.",
+      "It is important to distinguish Gui Zhi (the young twig) from Rou Gui (the thick bark). While both are warming, Gui Zhi is gentler and more focused on the body's surface and channels, making it ideal for releasing the exterior and promoting the flow of Yang Qi through the limbs. It is the key herb in the famous Gui Zhi Tang formula, one of the oldest and most celebrated formulas in East Asian wellness history. This page explores its traditional context, active compounds, and simple kitchen preparations.",
     nature: "Warm",
     flavor: "Pungent, sweet",
     channels: "Heart, Lung, Bladder",
     traditionalUses: [
-      "Traditionally used to warm channels and release exterior-cold patterns in traditional language.",
-      "Supports strong glossary and comparison content.",
-      "Adds depth to warming-herb articles.",
+      "In traditional Chinese wellness practices, Cinnamon Twig (Gui Zhi) is pungent, sweet, and warm. It primarily enters the Heart, Lung, and Bladder channels. It is important to distinguish Gui Zhi (the young twig) from Rou Gui (the thick bark) — while both are warming, the twig is gentler and more surface-focused.",
+      "Releasing the exterior and promoting sweating — the key herb in the classic Gui Zhi Tang formula for a cold with sweating, aversion to wind, and a floating pulse.",
+      "Warming the channels and unblocking Yang — used to promote the flow of Yang Qi through the limbs, addressing cold extremities and poor peripheral circulation.",
+      "Promoting blood circulation — its warming, moving nature helps address pain and stiffness where cold constricts the flow of Qi and Blood.",
     ],
-    foodUses: ["Decoction", "Spice comparisons", "Warm blends"],
+    foodUses: ["Simmered in warming teas with fresh ginger and jujube", "Added to broths for cold winter evenings", "Traditional decoctions for early-stage chills"],
     caution:
-      "Comparison and distinction are important here. Readers should not assume all cinnamon products are interchangeable.",
-    tags: ["warming", "comparison", "classic", "seo", "glossary"],
+      "This page is an educational reference built around traditional herb writing and publicly available research summaries. It is not a wellness recommendation, a substitute for professional guidance, or a claim that this herb is appropriate for any specific person.",
+    cautionDetails: [
+      "When to pause: Because Gui Zhi is a warming herb that promotes sweating and movement, it should be used with great caution — or avoided entirely — by individuals who tend to run hot, have significant Yin Deficiency (characterized by night sweats, a dry mouth, and a red tongue).",
+      "Pregnancy: Warming herbs that strongly move Qi and Blood are traditionally contraindicated during pregnancy.",
+      "Kitchen tip: A simple warming tea can be made by simmering 3-5 cinnamon twigs with a few slices of fresh ginger and some jujube dates — the resulting tea is gently sweet, spicy, and deeply warming.",
+    ],
+    scientificSections: [
+      {
+        title: "Active Compounds",
+        paragraphs: [
+          "The primary bioactive compound in cinnamon twig is cinnamaldehyde, along with cinnamic acid, eugenol, and various polyphenols. These compounds are responsible for its characteristic warming aroma and most of its studied properties.",
+        ],
+      },
+      {
+        title: "Circulatory and Metabolic Support",
+        paragraphs: [
+          "Cinnamaldehyde has been studied for its ability to support healthy blood glucose metabolism by improving insulin sensitivity. Research also suggests it may help support healthy circulation by mildly dilating peripheral blood vessels, which provides a scientific basis for its traditional use in warming cold extremities and promoting the flow of Yang Qi to the limbs.",
+        ],
+      },
+      {
+        title: "Antimicrobial Properties",
+        paragraphs: [
+          "Multiple studies have demonstrated that cinnamaldehyde has broad antimicrobial activity against a range of common bacteria and fungi. This aligns with its traditional use during the early stages of cold and flu, where its warming, exterior-releasing action is thought to help the body address the initial invasion of a pathogen.",
+        ],
+      },
+    ],
+    references: [
+      "[1] NCCIH. Cinnamon. https://www.nccih.nih.gov/health/cinnamon",
+      "[2] Healthline. 10 Evidence-Based Health Benefits of Cinnamon. https://www.healthline.com/nutrition/10-proven-benefits-of-cinnamon",
+    ],
+    tags: ["cinnamon twig", "gui zhi", "cinnamomum cassia", "warming herbs", "cinnamaldehyde", "exterior-releasing", "cinnamon twig vs bark", "traditional Chinese twig"],
   },
   {
     slug: "sichuan-lovage-root",
@@ -1176,31 +1240,62 @@ const rawHerbs: Herb[] = [
     slug: "ophiopogon-root",
     name: "Ophiopogon Root",
     pinyin: "Mai Men Dong",
-            chinese: "Mai Men Dong",
-    latin: "Ophiopogonis Radix",
+    chinese: "麦门冬",
+    latin: "Ophiopogon japonicus (L.f.) Ker-Gawl.",
     partUsed: "Root tuber",
     category: "Moistening herbs",
-    summary: "A classic herb for dryness-related explanations and fluid-nourishing discussions in traditional writing.",
+    commonNames: "Ophiopogon, Lilyturf Root, Mondo Grass Root, Dwarf Lilyturf",
+    arabicName: "جذر الأوفيوبوغون (Jidhr Al-Ophiopogon)",
+    summary: "A small, pearl-like tuber with a pleasantly sweet flavor — one of the premier herbs for nourishing Yin, moistening dryness, and calming an overheated, restless mind. This guide explores its traditional role in addressing dry coughs and parched throats, and what modern science says about its saponins and polysaccharides.",
     whatItIs:
-      "Ophiopogon helps build a more refined educational vocabulary around dryness and fluids without relying on exaggerated health promises.",
+      "Ophiopogon Root (Mai Men Dong) is a small, translucent, pearl-like tuber that is one of the premier herbs for nourishing Yin and moistening dryness. When the body's Yin fluids are depleted — whether from prolonged illness, chronic stress, or the natural process of aging — the body becomes dry: dry skin, dry throat, dry cough, and a restless, overheated feeling. Mai Men Dong is the classic remedy for this pattern. It is also specifically used to clear Heart Heat and calm the mind. This page explores its traditional context, active compounds, and simple kitchen preparations.",
     nature: "Slightly cold",
     flavor: "Sweet, slightly bitter",
     channels: "Heart, Lung, Stomach",
     traditionalUses: [
-      "Traditionally used to nourish fluids and moisten dryness in traditional language.",
-      "Useful in dry-weather and throat-focused educational writing.",
-      "Pairs well with lily bulb and pear-style food content.",
+      "In traditional Chinese wellness practices, Ophiopogon Root (Mai Men Dong) is sweet, slightly bitter, and slightly cold. It primarily enters the Heart, Lung, and Stomach channels.",
+      "Nourishing Yin and moistening dryness — the classic remedy when Yin fluids are depleted, addressing dry skin, dry throat, dry cough, and a restless, overheated feeling associated with Yin Deficiency.",
+      "Clearing Heart Heat and calming the mind — specifically addresses the restlessness, insomnia, and palpitations that arise when the Heart is not properly nourished by Yin.",
+      "Generating fluids and supporting the Stomach — helps address thirst and dry mouth by promoting the body's own fluid production.",
     ],
-    foodUses: ["Advanced tea", "Soup pairings"],
+    foodUses: ["Simmered in nourishing soups with Tremella and Lily Bulb", "Sweet tea with rock sugar for dry autumn days", "Combined with Goji Berries in Yin-nourishing blends"],
     caution:
-      "Keep the language descriptive and avoid using this page as implied individualized advice for airway-related situations.",
-    tags: ["dryness", "moistening", "seasonal", "authority", "pairing"],
+      "This page is an educational reference built around traditional herb writing and publicly available research summaries. It is not a wellness recommendation, a substitute for professional guidance, or a claim that this herb is appropriate for any specific person.",
+    cautionDetails: [
+      "When to pause: Because ophiopogon root is cold and moistening, it is not appropriate for individuals with a 'Cold and Damp' constitution — those who tend to feel cold, have loose stools, poor appetite, and a pale, swollen tongue. Its moistening nature can exacerbate these conditions.",
+      "Digestive issues: It should be used with caution by those experiencing acute digestive issues such as bloating or diarrhea.",
+    ],
+    scientificSections: [
+      {
+        title: "Active Compounds",
+        paragraphs: [
+          "Ophiopogon root contains a rich array of steroidal saponins (ophiopogonins), homoisoflavonoids, and polysaccharides. These compounds are responsible for most of its studied biological activities, particularly in the respiratory and cardiovascular systems.",
+        ],
+      },
+      {
+        title: "Respiratory and Fluid Support",
+        paragraphs: [
+          "The polysaccharides in ophiopogon root have been studied for their ability to support the body's natural mucus production in the respiratory tract. This provides a scientific basis for its traditional use in addressing dry, unproductive coughs and a parched throat — conditions where the mucosal lining lacks adequate moisture.",
+        ],
+      },
+      {
+        title: "Cardiovascular Support",
+        paragraphs: [
+          "Ophiopogonin D, one of the key saponins, has been studied for its potential to support healthy heart rhythm and protect cardiac cells from oxidative stress. This aligns with its traditional use in formulas designed to calm the Heart and address palpitations associated with Yin Deficiency.",
+        ],
+      },
+    ],
+    references: [
+      "[1] PubMed. Ophiopogon japonicus — A phytochemical and pharmacological review. https://pubmed.ncbi.nlm.nih.gov/27498339/",
+      "[2] Healthline. What Is Ophiopogon? https://www.healthline.com/health/ophiopogon",
+    ],
+    tags: ["ophiopogon root", "mai men dong", "lilyturf root", "yin-nourishing herbs", "dry cough", "heart heat", "ophiopogonins", "traditional Chinese tuber"],
   },
   {
     slug: "dried-ginger",
     name: "Dried Ginger",
     pinyin: "Gan Jiang",
-            chinese: "Gan Jiang",
+    chinese: "Gan Jiang",
     latin: "Zingiberis Rhizoma",
     partUsed: "Dried rhizome",
     category: "Warming herbs",
@@ -1224,49 +1319,112 @@ const rawHerbs: Herb[] = [
     slug: "kudzu-root",
     name: "Kudzu Root",
     pinyin: "Ge Gen",
-            chinese: "Ge Gen",
-    latin: "Puerariae Lobatae Radix",
+    chinese: "葛根",
+    latin: "Pueraria montana var. lobata (Willd.) Maesen & S.M.Almeida",
     partUsed: "Root",
     category: "Exterior-related herbs",
-    summary: "A notable traditional root that brings both cultural depth and search potential to the library.",
+    commonNames: "Kudzu Root, Japanese Arrowroot, Pueraria Root",
+    arabicName: "جذر الكودزو (Jidhr Al-Kudzu)",
+    summary: "Famous for its ability to relieve the stiff, tense neck and shoulders that accompany the early stages of a cold — plus a prized thickening starch used across East Asian kitchens. This guide explores its traditional role in 'releasing the exterior' and generating fluids, and what modern science says about its active isoflavone puerarin.",
     whatItIs:
-      "Kudzu root appears in both traditional herb writing and broader East Asian food traditions, which gives it room for educational crossover content.",
+      "Kudzu Root (Ge Gen) is famous for two things: its ability to 'release the exterior and relieve stiffness,' and its ability to 'generate fluids and reduce thirst.' It is the primary herb in the Ge Gen Tang formula, specifically used for the early stages of a cold or flu where the dominant symptom is a very stiff, painful neck and upper back. In the kitchen, kudzu root starch is a prized thickening agent with a silky texture. This page explores its traditional context, active compounds, and versatile kitchen uses.",
     nature: "Cool",
     flavor: "Sweet, pungent",
     channels: "Spleen, Stomach",
     traditionalUses: [
-      "Traditionally used in discussions involving the neck, fluids, and outer-layer patterns.",
-      "A good example of a herb with multiple contexts across food and tradition.",
-      "Useful for readers who want to explore more cross-cultural herb traditions.",
+      "In traditional Chinese wellness practices, Kudzu Root (Ge Gen) is sweet, pungent, and cool. It primarily enters the Spleen and Stomach channels.",
+      "Releasing the exterior and relieving stiffness — the primary herb in Ge Gen Tang, specifically used for the early stages of a cold where the dominant symptom is a very stiff, painful neck and upper back.",
+      "Generating fluids and reducing thirst — its cool, sweet nature helps address thirst and mild fever by promoting the body's fluid production.",
+      "Supporting the Spleen — it is also used to address diarrhea and digestive upset associated with certain exterior patterns.",
     ],
-    foodUses: ["Starch use", "Traditional drinks", "Powder"],
+    foodUses: ["Kudzu starch as a silky thickening agent for sauces and soups", "Dried root slices simmered in pork rib soups (Cantonese style)", "Traditional decoctions for early-stage colds with neck stiffness"],
     caution:
-      "Because this page can attract broad lifestyle curiosity, it should stay tightly grounded and not overstate evidence.",
-    tags: ["root", "cooling", "seo", "cross-cultural", "authority"],
+      "This page is an educational reference built around traditional herb writing and publicly available research summaries. It is not a wellness recommendation, a substitute for professional guidance, or a claim that this herb is appropriate for any specific person.",
+    cautionDetails: [
+      "Hormone sensitivity: Because kudzu root contains phytoestrogens (plant-based compounds with mild estrogen-like activity), individuals with hormone-sensitive conditions should consult a qualified professional before using it in concentrated supplement form.",
+      "Food use: As a food and tea ingredient used in traditional culinary quantities, it is widely consumed without concern. The whole root slices and starch are considered very safe.",
+    ],
+    scientificSections: [
+      {
+        title: "Active Compounds",
+        paragraphs: [
+          "Kudzu root is exceptionally rich in isoflavones, particularly puerarin, daidzein, and daidzin. These phytoestrogens are the primary focus of modern research and are responsible for most of kudzu's studied biological effects.",
+        ],
+      },
+      {
+        title: "Circulatory and Musculoskeletal Support",
+        paragraphs: [
+          "Puerarin has been extensively studied for its vasodilatory effects — its ability to relax and widen blood vessels. This provides a compelling scientific basis for kudzu's traditional use in addressing the stiff, tense neck and shoulders that often accompany the early stages of a cold or tension headache. By improving blood flow to the muscles of the upper back and neck, it helps release that characteristic tightness.",
+        ],
+      },
+      {
+        title: "Metabolic Support",
+        paragraphs: [
+          "Research has explored puerarin's potential to support healthy blood glucose levels and insulin sensitivity, making kudzu root a subject of interest in metabolic wellness research. These findings align with its traditional use for addressing thirst and fluid imbalances.",
+        ],
+      },
+    ],
+    references: [
+      "[1] NCCIH. Kudzu. https://www.nccih.nih.gov/health/kudzu",
+      "[2] Healthline. Kudzu Root: Benefits, Uses, and Side Effects. https://www.healthline.com/nutrition/kudzu",
+    ],
+    tags: ["kudzu root", "ge gen", "pueraria", "japanese arrowroot", "exterior-releasing herbs", "puerarin", "neck stiffness", "traditional Chinese root"],
   },
   {
     slug: "eucommia-bark",
     name: "Eucommia Bark",
     pinyin: "Du Zhong",
-            chinese: "Du Zhong",
-    latin: "Eucommiae Cortex",
+    chinese: "杜仲",
+    latin: "Eucommia ulmoides Oliv.",
     partUsed: "Bark",
     category: "Kidney-related herbs",
-    summary: "A classic herb that helps round out the library with deeper traditional categories.",
+    commonNames: "Eucommia Bark, Hardy Rubber Tree Bark, Chinese Rubber Tree",
+    arabicName: "لحاء الأوكوميا (Liha' Al-Eucommia)",
+    summary: "The single most important herb in the traditional pharmacopeia for strengthening the lower back, bones, and tendons — a warming Kidney tonic with a unique stringy, latex-like inner bark. This guide explores its traditional role in addressing lower back weakness, what modern science says about its connective tissue support, and its use in deeply nourishing broths.",
     whatItIs:
-      "Eucommia bark is more advanced than beginner favorites, but it helps the library grow beyond entry-level ingredients over time.",
+      "Eucommia Bark (Du Zhong) is the single most important herb in the traditional pharmacopeia for tonifying the Kidneys and Liver and strengthening the bones and tendons. Because the Kidneys traditionally govern the bones and the lower back, and the Liver governs the tendons, a deficiency in either system manifests as weakness, pain, and stiffness in the lower back and knees. Du Zhong directly addresses this pattern. Its inner bark has a unique characteristic — when torn, it reveals stringy, latex-like threads — and it is also traditionally used to 'calm the fetus' during pregnancy. This page explores its traditional context, science, and kitchen use.",
     nature: "Warm",
     flavor: "Sweet",
     channels: "Kidney, Liver",
     traditionalUses: [
-      "Traditionally used in discussions of liver and kidney functions.",
-      "Useful for explaining structural support concepts in traditional language.",
-      "Best published after core beginner content is stable.",
+      "In traditional Chinese wellness practices, Eucommia Bark (Du Zhong) is sweet and warm. It primarily enters the Kidney and Liver channels. It is the single most important herb for tonifying the Kidneys and Liver and strengthening the bones and tendons.",
+      "Strengthening the lower back and knees — because the Kidneys govern the bones and the lower back, Du Zhong directly addresses the weakness, pain, and stiffness that arise from Kidney and Liver Deficiency.",
+      "Supporting the tendons and ligaments — the Liver governs the tendons in traditional theory, and Du Zhong's warming, nourishing nature supports their strength and flexibility.",
+      "Calming the fetus — it is traditionally used during pregnancy to strengthen the Kidney Qi that holds the pregnancy in place and prevent miscarriage.",
     ],
-    foodUses: ["Advanced soup use", "Traditional tonics"],
+    foodUses: ["Simmered in deeply nourishing broths with black beans and walnuts", "Traditional decoctions for lower back support", "Prepared herbal formulas and tinctures"],
     caution:
-      "This page should avoid targeted outcome claims and keep the language clearly educational.",
-    tags: ["advanced", "bark", "kidney", "authority", "library depth"],
+      "This page is an educational reference built around traditional herb writing and publicly available research summaries. It is not a wellness recommendation, a substitute for professional guidance, or a claim that this herb is appropriate for any specific person.",
+    cautionDetails: [
+      "When to pause: Because Eucommia is a warming tonic that strengthens Kidney Yang, it may not be appropriate for individuals with significant Heat signs or Yin Deficiency (characterized by night sweats, a dry mouth, and a red tongue).",
+      "Pregnancy: Pregnant individuals should consult a qualified professional before use, despite its traditional use as a pregnancy-supporting herb — its effects in modern clinical contexts require professional assessment.",
+      "Kitchen note: Eucommia bark is not a culinary ingredient in the way that ginger or jujube are. It is primarily used as a medicinal herb, typically simmered in teas or decoctions — a common preparation is with black beans, walnuts, and a small amount of salt for a savory, Kidney-nourishing broth.",
+    ],
+    scientificSections: [
+      {
+        title: "Active Compounds",
+        paragraphs: [
+          "Eucommia bark contains a unique array of bioactive compounds including chlorogenic acid, aucubin, geniposidic acid, and eucommiol. It also contains a natural latex-like polymer that gives the inner bark its characteristic stringy appearance when torn — a key identification feature in traditional herb quality assessment.",
+        ],
+      },
+      {
+        title: "Musculoskeletal Support",
+        paragraphs: [
+          "Chlorogenic acid and aucubin have been studied for their ability to support the health of connective tissue, including tendons and ligaments, by promoting collagen synthesis and reducing oxidative stress in these tissues. This provides a scientific basis for eucommia's long-standing traditional use as the premier herb for a weak, aching lower back.",
+        ],
+      },
+      {
+        title: "Cardiovascular and Blood Pressure Support",
+        paragraphs: [
+          "Multiple studies have investigated eucommia bark's potential to support healthy blood pressure levels. Research suggests its compounds may help relax blood vessel walls, contributing to healthy vascular tone. This aligns with its traditional use as a tonic that strengthens the foundational Kidney energy thought to govern the body's structural integrity.",
+        ],
+      },
+    ],
+    references: [
+      "[1] PubMed. Eucommia ulmoides Oliver: A review of chemistry and pharmacology. https://pubmed.ncbi.nlm.nih.gov/21951669/",
+      "[2] Healthline. Eucommia Bark: Benefits, Dosage, and Side Effects. https://www.healthline.com/health/eucommia-bark",
+    ],
+    tags: ["eucommia bark", "du zhong", "eucommia ulmoides", "kidney tonifying", "lower back support", "chlorogenic acid", "traditional Chinese bark"],
   },
   {
     slug: "tremella-mushroom",
