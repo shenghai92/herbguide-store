@@ -1064,49 +1064,113 @@ const rawHerbs: Herb[] = [
     slug: "white-peony-root",
     name: "White Peony Root",
     pinyin: "Bai Shao",
-            chinese: "Bai Shao",
-    latin: "Paeoniae Radix Alba",
+    chinese: "白芍",
+    latin: "Paeonia lactiflora Pall.",
     partUsed: "Root",
     category: "Blood-related herbs",
-    summary: "An important classic herb for explaining nourishment, moderation, and the traditional concept of blood.",
+    commonNames: "White Peony Root, Peony",
+    arabicName: "عود الصليب الأبيض (Oud Al-Saleeb Al-Abyad)",
+    summary: "A foundational herb in traditional blood-nourishing frameworks — prized for its ability to soften the Liver, ease muscle tension, and support women's wellness. This guide explores its traditional context, what modern science says about its active compound paeoniflorin, and its classic pairing with Licorice Root.",
     whatItIs:
-      "White peony root helps teach one of the most misunderstood ideas in English-language traditional writing: what 'blood' means in traditional theory.",
+      "White Peony Root (Bai Shao) is one of the most important herbs in traditional Chinese wellness practices for nourishing Blood and preserving Yin. Its slightly cold, bitter, and sour nature gives it a unique astringent quality — it helps the body 'hold in' fluids and Yin while gently softening tension. In traditional frameworks, it is most famously paired with Licorice Root (Gan Cao) to create a simple sweet-and-sour tea specifically for relieving muscle spasms. This page explores its traditional context, active compounds, and what modern science reveals about its benefits.",
     nature: "Slightly cold",
     flavor: "Bitter, sour",
     channels: "Liver, Spleen",
     traditionalUses: [
-      "Traditionally used to nourish blood and preserve yin in traditional language.",
-      "Useful for careful educational discussions about cramping, dryness, and balance in traditional theory.",
-      "Supports glossary and pattern pages.",
+      "In traditional Chinese herb frameworks, White Peony Root (Bai Shao) is considered one of the most important herbs for nourishing Blood and preserving Yin. It is associated with the Liver and Spleen channels.",
+      "Nourishing the Blood and softening the Liver — when Liver Blood is deficient, the Liver becomes 'hard' and tense, leading to tight tendons, muscle cramps, and emotional irritability. Bai Shao softens this tension by nourishing the Blood.",
+      "Easing muscle cramps and smoothing the flow of Liver Qi — its sour, astringent nature helps calm spasms, particularly in the calves and abdomen.",
+      "Preserving Yin and preventing excessive sweating — the sour flavor gives it a gentle 'holding in' quality that supports the body's fluid balance.",
     ],
-    foodUses: ["Advanced traditional preparations"],
+    foodUses: ["Decoctions (boiled teas) with Licorice Root", "Powdered formulations", "Traditional tonic preparations"],
     caution:
-      "Because this page can attract highly specific searches, the disclaimer and cautious wording need to be especially visible.",
-    tags: ["blood", "yin", "authority", "glossary", "advanced"],
+      "This page is an educational reference built around traditional herb writing and publicly available research summaries. It is not a wellness recommendation, a substitute for professional guidance, or a claim that this herb is appropriate for any specific person.",
+    cautionDetails: [
+      "When to pause: Traditional practice advises against using White Peony Root during the early stages of a cold or flu, when the goal is to push the pathogen out rather than 'hold in.' Its slightly cold and astringent nature can work against the body's natural expulsion process during acute illness.",
+      "Digestive sensitivity: Individuals with severe Spleen Qi Deficiency — characterized by very weak digestion and chronic loose stools — should use it with caution, as its cold nature can further slow digestion.",
+      "Product interactions: White Peony Root is generally well-tolerated, but as with any herb, individuals taking prescription medications should seek guidance from a qualified professional before regular use.",
+    ],
+    scientificSections: [
+      {
+        title: "Active Compounds",
+        paragraphs: [
+          "The primary active constituent in White Peony Root is paeoniflorin, a highly studied monoterpene glycoside. It also contains paeonol, albiflorin, and various flavonoids and tannins that contribute to its biological activity. These compounds have been the focus of extensive pharmacological research, particularly regarding their effects on the nervous and endocrine systems.",
+        ],
+      },
+      {
+        title: "Muscle and Nerve Support",
+        paragraphs: [
+          "Research indicates that paeoniflorin possesses significant antispasmodic properties. It appears to work by modulating calcium channels and interacting with adenosine receptors, which helps relax smooth and skeletal muscles. This provides a scientific basis for its traditional use in addressing muscle cramps and spasms, particularly when paired with Licorice Root.",
+        ],
+      },
+      {
+        title: "Endocrine and Women's Wellness",
+        paragraphs: [
+          "White Peony Root is frequently studied for its role in women's health, particularly in contexts like Polycystic Ovary Syndrome (PCOS). Studies suggest that paeoniflorin may help regulate the hypothalamic-pituitary-ovarian axis, potentially assisting in the reduction of elevated testosterone levels and supporting a more balanced menstrual cycle. This aligns with its traditional classification as a premier Blood-nourishing herb for women's wellness.",
+        ],
+      },
+    ],
+    references: [
+      "[1] NCCIH. Traditional Chinese Medicine: What You Need To Know. https://www.nccih.nih.gov/health/traditional-chinese-medicine-what-you-need-to-know",
+      "[2] PubMed. Pharmacological effects of paeoniflorin. https://pubmed.ncbi.nlm.nih.gov/21683058/",
+    ],
+    tags: ["white peony root", "bai shao", "paeonia lactiflora", "blood-nourishing herbs", "paeoniflorin", "muscle cramps", "PCOS", "traditional Chinese root"],
   },
   {
     slug: "prepared-rehmannia",
     name: "Prepared Rehmannia",
     pinyin: "Shu Di Huang",
-            chinese: "Shu Di Huang",
-    latin: "Rehmanniae Radix Praeparata",
-    partUsed: "Prepared root",
+    chinese: "熟地黄",
+    latin: "Rehmannia glutinosa (Gaertn.) Libosch. ex Fisch. & C.A. Mey.",
+    partUsed: "Prepared root (steamed with wine)",
     category: "Blood-related herbs",
-    summary: "A classic dense tonic herb that belongs in the library for depth, not as a casual beginner ingredient.",
+    commonNames: "Prepared Rehmannia, Chinese Foxglove Root",
+    arabicName: "جذور الرحمانية المطبوخة (Juthoor Al-Rehmannia Al-Matbookha)",
+    summary: "The undisputed king of nourishing Yin and building Blood in traditional frameworks — a deeply restorative root transformed through repeated steaming with wine. This guide explores its traditional context, what modern science says about its effects on blood production and neuroprotection, and why it is a staple in postpartum recovery soups.",
     whatItIs:
-      "Prepared rehmannia is a denser traditional herb that shows the library covers more than grocery-friendly ingredients while still demanding careful tone.",
+      "Prepared Rehmannia (Shu Di Huang) is the heavily processed form of the raw Rehmannia root. The raw root (Sheng Di Huang) is cold and used to clear heat, but once it is repeatedly steamed and dried with wine, it turns pitch black and becomes deeply nourishing. This transformation is not just cosmetic — it fundamentally alters the root's chemical profile, reducing its cold nature and enhancing its restorative properties. In traditional frameworks, it is the foundational ingredient in almost all classic formulas for Kidney Yin Deficiency. This page explores its science, traditional context, and kitchen use.",
     nature: "Slightly warm",
     flavor: "Sweet",
     channels: "Heart, Kidney, Liver",
     traditionalUses: [
-      "Traditionally used to nourish blood and essence in traditional theory.",
-      "Useful for explaining why some herbs are foundational but not casual.",
-      "Supports long-term library credibility.",
+      "In traditional Chinese wellness practices, Prepared Rehmannia (Shu Di Huang) is the undisputed king of nourishing Yin and tonifying Blood. It is sweet, slightly warm, and very heavy and dense. It specifically targets the Kidneys and Liver, replenishing the deep reserves of Jing (Essence) and Blood.",
+      "Deeply nourishing Kidney Yin and Essence — it is the foundational ingredient in classic formulas like Liu Wei Di Huang Wan, designed to rebuild the body's deepest reserves.",
+      "Building Blood — it is traditionally considered a premier Blood builder, often used for addressing pale complexion, dizziness, and overall depletion.",
+      "Supporting healthy aging — by replenishing Jing (Essence), it is traditionally associated with slowing the signs of aging and supporting vitality in later years.",
     ],
-    foodUses: ["Advanced tonic preparations"],
+    foodUses: ["Slow-cooked bone broths and meat stews", "Postpartum recovery soups with Dang Gui and Goji Berries", "Traditional tonic preparations with Chen Pi or fresh ginger"],
     caution:
-      "This page should strongly reinforce that educational content is not a personalized recommendation.",
-    tags: ["tonic", "advanced", "blood", "essence", "authority"],
+      "This page is an educational reference built around traditional herb writing and publicly available research summaries. It is not a wellness recommendation, a substitute for professional guidance, or a claim that this herb is appropriate for any specific person.",
+    cautionDetails: [
+      "Digestive sensitivity: Because Prepared Rehmannia is so dense, rich, and cloying, it can be very difficult to digest. Traditional practice strongly advises that individuals with weak digestive systems (Spleen Qi Deficiency), heavy Dampness, or Phlegm should avoid it, as it can cause severe bloating, indigestion, and loose stools.",
+      "Kitchen pairing tip: It is traditionally cooked with a small amount of Chen Pi (Aged Tangerine Peel) or fresh ginger to help the stomach process its heavy, nourishing nature.",
+      "Product interactions: Individuals taking prescription medications should seek guidance from a qualified professional before regular use, particularly those on blood-sugar or circulation-related products.",
+    ],
+    scientificSections: [
+      {
+        title: "Active Compounds",
+        paragraphs: [
+          "The root contains a rich matrix of iridoid glycosides — most notably catalpol — as well as phenethyl alcohol glycosides and unique Rehmannia polysaccharides. The traditional preparation process of repeated steaming with wine significantly alters its chemical profile, reducing its inherently cold nature and enhancing its restorative properties. This transformation from raw Sheng Di Huang to prepared Shu Di Huang is a key example of how traditional processing methods have measurable chemical effects.",
+        ],
+      },
+      {
+        title: "Blood and Circulatory Support",
+        paragraphs: [
+          "Research suggests that Prepared Rehmannia can stimulate the production of red blood cells and improve bone marrow function. Studies on its polysaccharides indicate they may help protect hematopoietic (blood-forming) stem cells from oxidative damage. This aligns closely with its traditional reputation as a premier Blood builder, particularly in contexts of depletion and recovery.",
+        ],
+      },
+      {
+        title: "Neuroprotection and Healthy Aging",
+        paragraphs: [
+          "Modern investigations have highlighted the potential of catalpol, a key compound in Rehmannia, to support cognitive health. It exhibits neuroprotective properties by reducing oxidative stress and inflammation in brain tissue. These findings support its traditional use in formulas designed to address the signs of aging and Essence depletion, making it a subject of ongoing research in the context of age-related cognitive decline.",
+        ],
+      },
+    ],
+    references: [
+      "[1] MSKCC. Rehmannia. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/rehmannia",
+      "[2] PubMed. Rehmannia glutinosa: Review of botany, chemistry and pharmacology. https://pubmed.ncbi.nlm.nih.gov/18407446/",
+    ],
+    tags: ["prepared rehmannia", "shu di huang", "rehmannia glutinosa", "blood-nourishing herbs", "kidney yin", "catalpol", "postpartum soup", "traditional Chinese root"],
   },
   {
     slug: "ophiopogon-root",
@@ -1282,25 +1346,58 @@ const rawHerbs: Herb[] = [
     slug: "dong-quai",
     name: "Dong Quai",
     pinyin: "Dang Gui",
-    chinese: "Dang Gui",
-    latin: "Angelicae Sinensis Radix",
+    chinese: "当归",
+    latin: "Angelica sinensis (Oliv.) Diels",
     partUsed: "Root",
     category: "Blood-related herbs",
-    summary: "A famous traditional root often searched by English name and best explained with careful context instead of hype. Here is how it actually fits into soup traditions.",
+    commonNames: "Dong Quai, Angelica, Female Ginseng",
+    arabicName: "حشيشة الملاك الصينية (Hasheeshat Al-Malak Al-Seeniya)",
+    summary: "The most important herb in traditional frameworks for both building Blood and ensuring it circulates smoothly — a sweet, pungent, warming root with a distinctive celery-like aroma. This guide explores its traditional context as a women's wellness staple, what modern science says about its active compounds like ligustilide, and its essential role in slow-cooked soup traditions.",
     whatItIs:
-      "Dong Quai has a very distinct, earthy, almost celery-like aroma. It is widely known in the West, but often misunderstood. In the traditional kitchen, it is a soup staple, not just a supplement.",
+      "Dong Quai (Dang Gui) has a very distinct, earthy, almost celery-like aroma. It is widely known in the West, but often misunderstood — in the traditional kitchen, it is a soup staple, not just a supplement. While other herbs (like Rehmannia) simply build Blood, Dang Gui builds it AND ensures it circulates smoothly. This dual action makes it indispensable for addressing both Blood Deficiency and Blood Stasis. Because the Liver stores Blood and governs the menstrual cycle, Dang Gui is considered essential for women's wellness. This page explores its traditional context, active compounds, and what modern science reveals.",
     nature: "Warm",
     flavor: "Sweet, pungent, bitter",
     channels: "Liver, Heart, Spleen",
     traditionalUses: [
-      "Traditionally used to nourish and move blood in the traditional framework.",
-      "Often discussed in women's traditional routines, though not exclusively.",
-      "Commonly framed as a warming, moving ingredient for cold, stagnant patterns.",
+      "In traditional Chinese wellness practices, Dang Gui is universally recognized as the most important herb for tonifying and moving Blood. It is sweet, pungent, and warm, with a unique ability to both nourish and invigorate.",
+      "Building Blood while ensuring circulation — unlike purely nourishing herbs, Dang Gui simultaneously builds Blood and moves it, preventing stagnation and ensuring the newly built Blood reaches where it is needed.",
+      "Regulating the menstrual cycle — because the Liver stores Blood and governs menstruation in traditional theory, Dang Gui is the foundational herb for women's wellness, helping to ease discomfort and support regularity.",
+      "Warming and moving cold-stagnant patterns — its warming nature makes it especially suited for addressing pain and sluggish circulation associated with coldness in traditional frameworks.",
     ],
-    foodUses: ["Broth", "Soup", "Prepared tonic recipes"],
+    foodUses: ["Slow-cooked chicken, mutton, or pork rib soups", "Winter warming broths", "Postpartum recovery soups with Goji Berries and Red Dates"],
     caution:
-      "Because of its warming and moving nature, it is traditionally avoided during certain times (like heavy bleeding or when experiencing strong heat signs).",
-    tags: ["dong quai", "blood", "warming", "soup"],
+      "This page is an educational reference built around traditional herb writing and publicly available research summaries. It is not a wellness recommendation, a substitute for professional guidance, or a claim that this herb is appropriate for any specific person.",
+    cautionDetails: [
+      "Blood-thinning interactions: Due to its ability to invigorate circulation and potential anti-platelet effects, Dong Quai should be used with extreme caution by individuals taking blood-thinning products such as warfarin or aspirin. Professional guidance is essential in these cases.",
+      "Pregnancy: It is traditionally contraindicated during the first trimester of pregnancy due to its moving nature. Individuals who are pregnant or nursing should seek professional guidance.",
+      "Heat conditions: Because it is warm and slightly heavy, it should be avoided by those experiencing acute Heat conditions or severe digestive weakness with loose stools.",
+      "Kitchen dosage note: Because its flavor is very dominant, it is usually used in small quantities — 3 to 5 slices per pot of soup — and balanced with sweeter ingredients like Goji Berries and Red Dates.",
+    ],
+    scientificSections: [
+      {
+        title: "Active Compounds",
+        paragraphs: [
+          "The root is rich in volatile oils — notably ligustilide and n-butylidenephthalide — as well as ferulic acid and various polysaccharides. These compounds are responsible for its strong, distinctive celery-like aroma and its wide-ranging biological effects. Ligustilide, in particular, is the most studied compound and is believed to be responsible for many of Dong Quai's observed effects on smooth muscle tissue.",
+        ],
+      },
+      {
+        title: "Circulatory and Uterine Support",
+        paragraphs: [
+          "Research demonstrates that the volatile oils in Dong Quai — specifically ligustilide — have a dual, modulating effect on the uterus. They can help relax uterine muscles, potentially easing cramps, while other compounds in the root can stimulate mild contractions. This bidirectional regulation is a key area of pharmacological interest. Furthermore, ferulic acid has been shown to inhibit platelet aggregation and promote vasodilation, supporting healthy blood circulation.",
+        ],
+      },
+      {
+        title: "Blood Building and Immune Support",
+        paragraphs: [
+          "Dong Quai polysaccharides have been studied for their ability to stimulate hematopoiesis — the production of blood cells — in the bone marrow. This provides a scientific basis for its traditional classification as a premier Blood tonic. Additionally, the polysaccharides exhibit immunomodulatory properties, supporting the body's natural defense mechanisms.",
+        ],
+      },
+    ],
+    references: [
+      "[1] MSKCC. Dong Quai. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/dong-quai",
+      "[2] NCCIH. Dong Quai. https://www.nccih.nih.gov/health/dong-quai",
+    ],
+    tags: ["dong quai", "dang gui", "angelica sinensis", "female ginseng", "blood-nourishing herbs", "ligustilide", "women's wellness", "traditional Chinese root"],
   },
   {
     slug: "red-sage-root",

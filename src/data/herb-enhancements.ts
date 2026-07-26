@@ -248,20 +248,60 @@ const rawHerbEnhancements: HerbEnhancement[] = [
     ],
   },
   {
-    slug: "dong-quai",
+    slug: "white-peony-root",
     kitchenPairings: [
-      "White Peony Root",
-      "Sichuan Lovage Root",
-      "Prepared Rehmannia",
+      "Licorice Root (Gan Cao) — classic sweet-and-sour tea for muscle cramps",
+      "Dong Quai (Dang Gui) — foundational blood-nourishing combinations",
+      "Fresh Ginger — balances its slightly cold nature in digestive formulas",
     ],
     goodStartingPoints: [
-      "It is most commonly experienced in slow-cooked chicken or mutton soups.",
-      "The flavor is strong, so a little goes a long way in the kitchen.",
+      "Think of White Peony Root as a tension reliever — it is traditionally used to 'soften the Liver' when tightness, cramping, or irritability suggest Liver Blood Deficiency.",
+      "The most famous kitchen use is a simple decoction with Licorice Root (Gan Cao), creating a sweet-and-sour tea specifically associated with easing sudden muscle spasms.",
+      "It is not typically eaten as food — unlike goji or jujube — and is almost always used in boiled preparations or powdered formulas.",
+    ],
+    compareLinks: [
+      { title: "What Does Blood Mean in Traditional Herb Writing?", href: "/basics/what-does-blood-mean/" },
+      { title: "What Does Nourish Blood Mean?", href: "/basics/what-does-nourish-blood-mean/" },
+      { title: "Dong Quai Guide", href: "/herbs/dong-quai/" },
+    ],
+  },
+  {
+    slug: "prepared-rehmannia",
+    kitchenPairings: [
+      "Chen Pi (Aged Tangerine Peel) — helps the stomach process this dense, heavy root",
+      "Dong Quai (Dang Gui) and Goji Berries — classic postpartum soup trio",
+      "Fresh Ginger — added to bone broths with Rehmannia to support digestion",
+    ],
+    goodStartingPoints: [
+      "Think of Prepared Rehmannia as a deep, slow-building tonic — it is rich, sticky, and pitch black, designed for long-term nourishment rather than quick fixes.",
+      "In the kitchen, it is most approachable when added to slow-cooked bone broths or meat stews, where it turns the broth a dark, rich color and adds a mild earthy sweetness.",
+      "If your digestion feels weak or sluggish, start with a small amount and always include Chen Pi or fresh ginger — traditional practice considers this essential pairing advice.",
+    ],
+    compareLinks: [
+      { title: "What Does Nourish Blood Mean?", href: "/basics/what-does-nourish-blood-mean/" },
+      { title: "What Does Jing Mean?", href: "/basics/what-does-jing-mean/" },
+      { title: "Dong Quai Guide", href: "/herbs/dong-quai/" },
+    ],
+  },
+  {
+    slug: "dong-quai",
+    kitchenPairings: [
+      "White Peony Root (Bai Shao)",
+      "Prepared Rehmannia (Shu Di Huang)",
+      "Goji Berries and Red Dates",
+      "Slow-cooked chicken or mutton",
+    ],
+    goodStartingPoints: [
+      "Dong Quai is most commonly experienced in slow-cooked chicken or mutton soups — it is a kitchen staple, not just a supplement.",
+      "The flavor is strong and distinctive — earthy, celery-like — so use only 3 to 5 thin slices per pot of soup and balance with sweeter ingredients like Goji Berries and Red Dates.",
+      "Think of it as the herb that builds Blood AND moves it — unlike purely nourishing herbs like Rehmannia, Dong Quai prevents stagnation by ensuring newly built Blood circulates smoothly.",
     ],
     compareLinks: [
       { title: "What Does Blood Mean in Traditional Herb Writing?", href: "/basics/what-does-blood-mean/" },
       { title: "What Does Nourish Blood Mean?", href: "/basics/what-does-nourish-blood-mean/" },
       { title: "What Does Tonify Mean in Traditional Herb Writing?", href: "/basics/what-does-tonify-mean/" },
+      { title: "White Peony Root Guide", href: "/herbs/white-peony-root/" },
+      { title: "Prepared Rehmannia Guide", href: "/herbs/prepared-rehmannia/" },
     ],
   },
   {
