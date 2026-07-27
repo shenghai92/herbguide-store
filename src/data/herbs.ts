@@ -1480,25 +1480,56 @@ const rawHerbs: Herb[] = [
     slug: "adzuki-bean",
     name: "Adzuki Bean",
     pinyin: "Chi Xiao Dou",
-            chinese: "Chi Xiao Dou",
-    latin: "Vignae Semen",
+    chinese: "赤小豆",
+    latin: "Vigna umbellata (Thunb.) Ohwi & H.Ohashi",
     partUsed: "Bean",
     category: "Kitchen herbs",
-    summary: "A pantry-friendly bean that fits naturally into lighter soups and dampness-related kitchen reading.",
+    commonNames: "Adzuki Bean, Azuki Bean, Red Bean, Small Red Bean",
+    arabicName: "الفاصوليا الحمراء الصغيرة (Al-Fasulya Al-Hamra Al-Saghira)",
+    summary: "A small, deep red bean beloved across East Asian kitchens — from Japanese sweet red bean paste to Chinese Damp-draining congees. This guide explores its traditional role in gently draining excess fluid and clearing Heat, and what modern science says about its fiber, polyphenols, and metabolic support.",
     whatItIs:
-      "Adzuki bean keeps the library grounded in food-first content because readers can understand it through soup, porridge, and pantry routines before needing much theory.",
+      "Adzuki Bean (Chi Xiao Dou) is one of the most important food-grade herbs for draining Dampness and reducing swelling. When the body accumulates excess fluid — manifesting as puffiness in the legs and ankles, a heavy and bloated sensation, or difficult urination — adzuki bean gently moves this fluid out through the urinary system. In the kitchen, it is equally at home in sweet red bean paste filling mochi and dorayaki, or simmered into savory congees with Job's Tears. This page explores its traditional context, science, and versatile kitchen uses.",
     nature: "Neutral",
     flavor: "Sweet, slightly sour",
     channels: "Heart, Small Intestine",
     traditionalUses: [
-      "Traditionally used in kitchen writing around lightness, drainage, and food-level dampness language.",
-      "Often paired with grains or beans in simple soups and porridge-style meals.",
-      "Useful for connecting pantry cooking with beginner traditional explanation.",
+      "In traditional Chinese wellness practices, Adzuki Bean (Chi Xiao Dou) is sweet, sour, and neutral. It primarily enters the Heart and Small Intestine channels.",
+      "Draining Dampness and reducing swelling — when the body accumulates excess fluid, adzuki bean gently promotes urination to move stagnant fluids out of the body, addressing puffiness and that heavy, bloated sensation.",
+      "Clearing Heat and resolving toxicity — traditionally used for skin conditions associated with Damp-Heat, where redness, swelling, and irritation are present.",
+      "Supporting the Heart and Small Intestine channels — its entry into these channels makes it useful for addressing conditions where Heat affects the upper body or urinary system.",
     ],
-    foodUses: ["Soup", "Bean porridge", "Light stew"],
+    foodUses: ["Sweet red bean soup with rock sugar and lotus seeds", "Savory congee with Job's Tears for Damp-draining breakfasts", "Red bean paste (anko) for mochi and traditional sweets", "Simmered in light soups and grain bowls"],
     caution:
-      "Food-first pages should still avoid implying that one bean or soup is the answer to ongoing concerns or personal situations.",
-    tags: ["bean", "pantry", "dampness", "soup", "beginner"],
+      "This page is an educational reference built around traditional herb writing and publicly available research summaries. It is not a wellness recommendation, a substitute for professional guidance, or a claim that this herb is appropriate for any specific person.",
+    cautionDetails: [
+      "Preparation note: Like all legumes, adzuki beans should be soaked and cooked thoroughly to deactivate lectins and improve digestibility. Individuals with sensitive digestion may wish to start with small amounts and gradually increase.",
+      "Allergies: Those with known legume allergies should exercise appropriate caution.",
+    ],
+    scientificSections: [
+      {
+        title: "Active Compounds",
+        paragraphs: [
+          "Adzuki beans are an excellent source of dietary fiber, plant-based protein, folate, potassium, magnesium, and iron. They also contain significant amounts of polyphenols, including catechins and procyanidins, which act as antioxidants and are responsible for many of their studied health benefits.",
+        ],
+      },
+      {
+        title: "Metabolic and Cardiovascular Support",
+        paragraphs: [
+          "The high fiber content of adzuki beans — particularly soluble fiber — has been shown to support healthy blood glucose levels by slowing the absorption of sugar after meals. This fiber also helps bind to cholesterol in the digestive tract, supporting healthy lipid levels and overall cardiovascular wellness. The potassium content further contributes to maintaining healthy blood pressure.",
+        ],
+      },
+      {
+        title: "Fluid Balance Support",
+        paragraphs: [
+          "Adzuki beans have a mild diuretic effect, meaning they gently promote the excretion of excess fluid through the kidneys. This provides a scientific basis for their traditional use in addressing puffiness and water retention — a key aspect of the traditional concept of 'draining Dampness.'",
+        ],
+      },
+    ],
+    references: [
+      "[1] Healthline. Adzuki Beans: Nutrition, Benefits, and How to Cook Them. https://www.healthline.com/nutrition/adzuki-beans",
+      "[2] PubMed. Nutritional and functional properties of adzuki bean. https://pubmed.ncbi.nlm.nih.gov/28239982/",
+    ],
+    tags: ["adzuki bean", "chi xiao dou", "red bean", "azuki bean", "dampness draining", "legume", "traditional Chinese bean", "anko"],
   },
   {
     slug: "dong-quai",
@@ -1561,25 +1592,57 @@ const rawHerbs: Herb[] = [
     slug: "red-sage-root",
     name: "Red Sage Root",
     pinyin: "Dan Shen",
-    chinese: "Dan Shen",
-    latin: "Salviae Miltiorrhizae Radix et Rhizoma",
+    chinese: "丹参",
+    latin: "Salvia miltiorrhiza Bunge",
     partUsed: "Root and rhizome",
     category: "Movement herbs",
-    summary: "A well-known classic root that appears in deeper traditional reading and broad English-language herb searches.",
+    commonNames: "Red Sage Root, Chinese Sage, Danshen, Cinnabar Root",
+    arabicName: "جذر المريمية الحمراء (Jidhr Al-Mariyamiya Al-Hamra)",
+    summary: "The premier herb for invigorating Blood and removing Blood stasis — a potent cardiovascular herb with extensive modern research backing. This guide explores its traditional role in addressing chest pain and calming the mind, what modern science says about salvianolic acids and tanshinones, and its crucial safety considerations.",
     whatItIs:
-      "Red sage root, often known by the pinyin name dan shen, is a high-interest traditional herb that needs plain-English context and visible safety boundaries.",
+      "Red Sage Root (Dan Shen) is the premier herb in the traditional pharmacopeia for 'Invigorating the Blood and Removing Blood Stasis.' When the blood becomes sluggish and stagnant — a pattern that can manifest as a fixed, stabbing pain, a dark complexion, or a dark purple tongue — Dan Shen powerfully moves the blood and breaks up this stagnation. Because it enters the Heart channel, it is specifically used for stagnation in the chest and heart area. This page explores its traditional context, active compounds, and safety considerations.",
     nature: "Slightly cold",
     flavor: "Bitter",
     channels: "Heart, Liver",
     traditionalUses: [
-      "Traditionally used in discussions involving blood movement and settled or constrained patterns in this framework.",
-      "Often appears in more advanced reading than beginner kitchen herbs.",
-      "Useful for showing how traditional herb language can be descriptive without becoming a promise.",
+      "In traditional Chinese wellness practices, Red Sage Root (Dan Shen) is bitter and slightly cold. It primarily enters the Heart and Pericardium channels.",
+      "Invigorating the Blood and removing Blood stasis — the premier herb for addressing sluggish, stagnant blood patterns that manifest as fixed, stabbing pain, a dark complexion, or a dark purple tongue.",
+      "Calming the Heart and mind — because it enters the Heart channel, it is specifically used for restlessness, palpitations, and insomnia that arise from Heart Heat and Blood stasis.",
+      "Clearing Heat and reducing swelling — traditionally used for inflammatory conditions associated with blood stasis and heat.",
     ],
-    foodUses: ["Advanced decoction context", "Traditional broth context"],
+    foodUses: ["Simmered as a tea or decoction for 15-20 minutes", "Found in prepared herbal formulas", "Not typically used in everyday cooking"],
     caution:
-      "This is not a casual self-use herb page. Readers should not turn a traditional profile into personal decision-making, especially where ongoing care plans are involved.",
-    tags: ["dan shen", "salvia", "movement herb", "advanced", "high search volume"],
+      "This page is an educational reference built around traditional herb writing and publicly available research summaries. It is not a wellness recommendation, a substitute for professional guidance, or a claim that this herb is appropriate for any specific person.",
+    cautionDetails: [
+      "Medication interactions: Dan Shen has well-documented interactions with blood-thinning products (including warfarin/Coumadin) and may enhance their effects, potentially affecting circulation management. It should not be combined with such products without guidance from a qualified professional.",
+      "Pregnancy: It is traditionally contraindicated during pregnancy.",
+      "General warning: Dan Shen is a potent herb that significantly affects blood circulation and should be used with care. Always seek professional guidance before using Dan Shen if you are managing any cardiovascular situation.",
+    ],
+    scientificSections: [
+      {
+        title: "Active Compounds",
+        paragraphs: [
+          "Dan Shen contains two main groups of bioactive compounds: water-soluble phenolic acids (primarily salvianolic acids A and B, and rosmarinic acid) and fat-soluble tanshinones (tanshinone I, IIA, and cryptotanshinone). Both groups have been extensively studied, with salvianolic acid B being recognized as one of the most potent natural antioxidants known.",
+        ],
+      },
+      {
+        title: "Cardiovascular Support",
+        paragraphs: [
+          "Research has shown that tanshinones and salvianolic acids may help support healthy blood viscosity and platelet aggregation, and may help protect the heart muscle from oxidative stress. This provides a strong scientific basis for Dan Shen's long history of use in cardiovascular wellness contexts, particularly where blood stasis is a dominant pattern.",
+        ],
+      },
+      {
+        title: "Calming Properties",
+        paragraphs: [
+          "Dan Shen has been studied for its potential to support healthy sleep and reduce anxiety-related behaviors in preclinical models. This aligns with its traditional use in calming the Heart and settling the mind, particularly when mental restlessness is associated with Heat and blood stasis in the Heart channel.",
+        ],
+      },
+    ],
+    references: [
+      "[1] MSKCC. Danshen. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/danshen",
+      "[2] NCCIH. Danshen. https://www.nccih.nih.gov/health/danshen",
+    ],
+    tags: ["red sage root", "dan shen", "salvia miltiorrhiza", "blood-invigorating herbs", "tanshinones", "salvianolic acid", "cardiovascular support", "traditional Chinese root"],
   },
   {
     slug: "reishi-mushroom",
@@ -1645,25 +1708,58 @@ const rawHerbs: Herb[] = [
     slug: "cordyceps",
     name: "Cordyceps",
     pinyin: "Dong Chong Xia Cao",
-    chinese: "Dong Chong Xia Cao",
-    latin: "Cordyceps",
+    chinese: "冬虫夏草",
+    latin: "Cordyceps sinensis (Berk.) Sacc. / Ophiocordyceps sinensis",
     partUsed: "Fungal complex",
     category: "Kidney-related herbs",
-    summary: "A high-interest traditional fungus that brings search traffic but requires especially careful copy.",
+    commonNames: "Cordyceps, Caterpillar Fungus, Dong Chong Xia Cao",
+    arabicName: "فطر الكورديسيبس (Fatr Al-Cordyceps)",
+    summary: "One of the most precious tonics in traditional practice — simultaneously supporting both Kidney Yang and Lung Yin. This guide explores its unique dual-nourishing action, what modern science says about cordycepin and ATP energy support, and how cultivated varieties make this once-rare ingredient accessible for everyday kitchen use.",
     whatItIs:
-      "Cordyceps is a globally searched traditional fungus that easily attracts exaggerated claims, which is exactly why a calm, educational herb page is useful.",
+      "Cordyceps (Dong Chong Xia Cao) occupies a unique place in the traditional pharmacopeia as an herb that simultaneously tonifies both Kidney Yang (the body's foundational warming energy) and Lung Yin (the body's respiratory fluids). This dual action makes it exceptionally valuable for individuals who experience both fatigue and respiratory weakness. While wild cordyceps is extraordinarily expensive, cultivated varieties are widely available. This page explores its traditional context, science, and practical kitchen preparations.",
     nature: "Warm",
     flavor: "Sweet",
     channels: "Lung, Kidney",
     traditionalUses: [
-      "Traditionally used in discussions involving lung and kidney language in this framework.",
-      "Often presented as a prized or premium ingredient in traditional writing.",
-      "Useful for explaining why expensive or famous herbs still need context and restraint.",
+      "In traditional Chinese wellness practices, Cordyceps (Dong Chong Xia Cao) is sweet and warm. It primarily enters the Kidney and Lung channels.",
+      "Tonifying the Kidneys and supporting vitality — it strengthens Kidney Yang, the body's foundational warming energy, addressing deep fatigue and supporting stamina.",
+      "Nourishing the Lungs — it simultaneously tonifies Lung Yin, making it valuable for respiratory weakness, chronic cough, and shortness of breath.",
+      "Replenishing Jing and Qi — considered one of the most precious tonics for rebuilding the body's deepest reserves after prolonged illness or in older adults.",
     ],
-    foodUses: ["Soup", "Broth", "Traditional tonic cooking"],
+    foodUses: ["Simmered in broths with duck or chicken for nourishing tonic soups", "Steeped as a tea", "Cordyceps powder added to smoothies, coffee, or warm drinks"],
     caution:
-      "Because this herb attracts strong performance and longevity searches, the page should stay descriptive and avoid turning reputation into a claim.",
-    tags: ["cordyceps", "premium herb", "kidney-related", "search demand", "fungus"],
+      "This page is an educational reference built around traditional herb writing and publicly available research summaries. It is not a wellness recommendation, a substitute for professional guidance, or a claim that this herb is appropriate for any specific person.",
+    cautionDetails: [
+      "Heat conditions: Because it is a warming tonic that strengthens Yang, it may not be appropriate for individuals with significant Yin Deficiency or active Heat conditions.",
+      "Autoimmune situations: Individuals with autoimmune situations should consult a qualified professional before use, as its immune-modulating properties may interact with their management approach.",
+      "Allergies: Those with known mold or fungal sensitivities should exercise caution.",
+      "Product note: Most modern research and commercially available products use cultivated species (Cordyceps militaris) or mycelium, as wild-harvested specimens are extremely rare and expensive.",
+    ],
+    scientificSections: [
+      {
+        title: "Active Compounds",
+        paragraphs: [
+          "Cordyceps contains several unique bioactive compounds, including cordycepin (3'-deoxyadenosine), polysaccharides (beta-glucans), and adenosine. Most modern research uses the cultivated species Cordyceps militaris or the mycelium of Cordyceps sinensis, as wild-harvested specimens are extremely rare and expensive.",
+        ],
+      },
+      {
+        title: "Energy and Stamina Support",
+        paragraphs: [
+          "Cordycepin and adenosine have been studied for their role in supporting cellular energy production (ATP synthesis). Several human studies have explored cordyceps supplementation in the context of exercise performance, with some suggesting improvements in oxygen utilization (VO2 max) and reduced fatigue in older adults. This aligns with its traditional use as a premier tonic for vitality and stamina.",
+        ],
+      },
+      {
+        title: "Immune Modulation",
+        paragraphs: [
+          "The beta-glucan polysaccharides in cordyceps have been studied for their ability to gently modulate the immune system, supporting the body's natural defenses without overstimulating them. This balanced immunomodulatory effect is consistent with its traditional role as a long-term, restorative tonic rather than an acute remedy.",
+        ],
+      },
+    ],
+    references: [
+      "[1] MSKCC. Cordyceps. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/cordyceps",
+      "[2] Healthline. 6 Benefits of Cordyceps, All Backed by Science. https://www.healthline.com/nutrition/cordyceps-benefits",
+    ],
+    tags: ["cordyceps", "dong chong xia cao", "caterpillar fungus", "cordycepin", "stamina support", "kidney tonic", "traditional Chinese fungus"],
   },
   {
     slug: "monk-fruit",
@@ -1717,49 +1813,111 @@ const rawHerbs: Herb[] = [
     slug: "fritillary-bulb",
     name: "Fritillary Bulb",
     pinyin: "Chuan Bei Mu",
-    chinese: "Chuan Bei Mu",
-    latin: "Fritillariae Cirrhosae Bulbus",
+    chinese: "川贝母",
+    latin: "Fritillaria cirrhosa D.Don",
     partUsed: "Bulb",
     category: "Moistening herbs",
-    summary: "A classic bulb often searched in relation to pear soups and traditional moisture-themed content.",
+    commonNames: "Fritillary Bulb, Sichuan Fritillary, Tendril-leaf Fritillary Bulb",
+    arabicName: "بصلة الفريتيلاريا (Basalat Al-Fritillaria)",
+    summary: "The most prized herb for a dry, persistent, unproductive cough — gentle yet profoundly moistening, and famous for the classic Snow Pear with Fritillary Bulb dessert. This guide explores its traditional role in resolving Phlegm and stopping coughs, and what modern science says about its alkaloids and bronchodilatory effects.",
     whatItIs:
-      "Fritillary bulb is one of those ingredients readers often discover through food tradition pages, especially pear-based recipes, before they fully understand the traditional vocabulary behind it.",
+      "Fritillary Bulb (Chuan Bei Mu) is the most prized herb in the traditional pharmacopeia for a specific type of cough: the dry, persistent, unproductive cough that lingers after a cold, or the cough associated with Lung Yin Deficiency. Unlike harsh expectorants, it works gently by moistening the Lungs and resolving Phlegm. The most famous kitchen use is the classic 'Snow Pear with Fritillary Bulb' — a cored snow pear filled with fritillary powder and rock sugar, steamed until tender. This page explores its traditional context, science, and comforting kitchen preparations.",
     nature: "Slightly cold",
     flavor: "Bitter, sweet",
     channels: "Heart, Lung",
     traditionalUses: [
-      "Traditionally used in discussions of phlegm, dryness, and lung-related language in this framework.",
-      "Often appears beside pear and gentle soup-style pairings in food tradition writing.",
-      "Useful for connecting moisture-themed kitchen pages with more formal herb naming.",
+      "In traditional Chinese wellness practices, Fritillary Bulb (Chuan Bei Mu) is sweet, bitter, and slightly cold. It primarily enters the Lung and Heart channels.",
+      "Moistening the Lungs and resolving Phlegm — the premier herb for dry, persistent, unproductive coughs, especially those lingering after illness or associated with Lung Yin Deficiency.",
+      "Clearing Heat and stopping coughs — specifically suited for coughs with heat signs, where the phlegm is thick, yellow, or difficult to expectorate.",
+      "Clearing Heat and scattering nodules — traditionally used to address lumps and swellings associated with Phlegm-Heat.",
     ],
-    foodUses: ["Pear soup", "Light broth", "Traditional dessert soup context"],
+    foodUses: ["Classic Snow Pear with Fritillary Bulb (steamed pear dessert)", "Added to honey-based syrups with loquat leaf", "Simmered in light, moistening soups"],
     caution:
-      "Because many readers arrive through narrow throat-and-lung searches, the page should remain educational and avoid sounding like directed care.",
-    tags: ["chuan bei mu", "pear soup", "moistening", "lung language", "long-tail search"],
+      "This page is an educational reference built around traditional herb writing and publicly available research summaries. It is not a wellness recommendation, a substitute for professional guidance, or a claim that this herb is appropriate for any specific person.",
+    cautionDetails: [
+      "When to pause: Because it is a cold, moistening herb, it is not appropriate for coughs caused by Cold and Dampness — a loose, wet cough with clear or white phlegm and a feeling of chilliness. It is specifically indicated for dry, hot, or Yin-deficient cough patterns.",
+      "Professional guidance: Always seek guidance from a qualified professional for persistent respiratory issues.",
+    ],
+    scientificSections: [
+      {
+        title: "Active Compounds",
+        paragraphs: [
+          "Fritillary bulb contains a range of steroidal alkaloids, including peiminine, peimine, and imperialine, as well as various nucleosides and polysaccharides. These alkaloids are the primary focus of pharmacological research and are responsible for most of the bulb's studied respiratory effects.",
+        ],
+      },
+      {
+        title: "Respiratory Support",
+        paragraphs: [
+          "The alkaloids in fritillary bulb have been studied for their bronchodilatory effects — their ability to relax the smooth muscles of the airways, making breathing easier. They have also been investigated for their expectorant properties, meaning they may help loosen and clear mucus from the respiratory tract. This provides a strong scientific basis for fritillary's primary traditional use in addressing stubborn, dry, or phlegmy coughs.",
+        ],
+      },
+      {
+        title: "Anti-inflammatory Properties",
+        paragraphs: [
+          "Several studies have demonstrated that fritillary alkaloids have anti-inflammatory effects in respiratory tissue, which may help soothe irritated airways. This aligns with its traditional use in addressing the inflammation and irritation associated with chronic coughing and Phlegm-Heat patterns.",
+        ],
+      },
+    ],
+    references: [
+      "[1] PubMed. Pharmacological activities of Fritillaria alkaloids. https://pubmed.ncbi.nlm.nih.gov/28866416/",
+      "[2] Healthline. Fritillary Bulb: Benefits and Uses. https://www.healthline.com/health/fritillary-bulb",
+    ],
+    tags: ["fritillary bulb", "chuan bei mu", "fritillaria cirrhosa", "moistening herbs", "dry cough", "pear soup", "alkaloids", "traditional Chinese bulb"],
   },
   {
     slug: "honeysuckle-flower",
     name: "Honeysuckle Flower",
     pinyin: "Jin Yin Hua",
-    chinese: "Jin Yin Hua",
-    latin: "Lonicerae Japonicae Flos",
+    chinese: "金银花",
+    latin: "Lonicera japonica Thunb.",
     partUsed: "Flower",
     category: "Tea herbs",
-    summary: "A cooling flower with strong tea-style potential and broad traditional recognition.",
+    commonNames: "Honeysuckle Flower, Japanese Honeysuckle, Gold and Silver Flower",
+    arabicName: "زهر العسل (Zahr Al-Asal)",
+    summary: "The most important herb for clearing Heat and resolving toxicity — the star ingredient in the famous Yin Qiao San formula and one of the most popular herbal teas in China. This guide explores its traditional role as a first-line response to sore throats and fever, and what modern science says about chlorogenic acid and its antimicrobial properties.",
     whatItIs:
-      "Honeysuckle flower is easier to introduce through tea and seasonal reading than through abstract theory, which makes it useful for long-tail educational searches.",
+      "Honeysuckle Flower (Jin Yin Hua) is the most important herb in the traditional pharmacopeia for 'Clearing Heat and Resolving Toxicity.' It is the primary herb in the famous Yin Qiao San formula — the classic remedy for the early stages of a Wind-Heat cold characterized by a sore throat, fever, headache, and slight cough. As a tea, it is one of the most popular herbal beverages in China, especially during hot summer months. This page explores its traditional context, active compounds, and kitchen uses.",
     nature: "Cold",
     flavor: "Sweet",
     channels: "Lung, Heart, Stomach",
     traditionalUses: [
-      "Traditionally used in discussions of heat and seasonal warmth language in this framework.",
-      "Often introduced as a floral tea herb with a cleaner cooling identity.",
-      "Useful when readers want to compare floral cooling pages beyond chrysanthemum alone.",
+      "In traditional Chinese wellness practices, Honeysuckle Flower (Jin Yin Hua) is sweet and cold. It primarily enters the Lung, Heart, and Stomach channels. It is the most important herb for clearing Heat and resolving toxicity.",
+      "Dispersing Wind-Heat — the primary herb in Yin Qiao San, the classic formula for early-stage Wind-Heat colds with sore throat, fever, and headache.",
+      "Clearing Heat and resolving toxicity — used for Heat conditions characterized by redness, swelling, and inflammation, particularly in the upper body.",
+      "Cooling the Blood — traditionally used when Heat affects the blood level, manifesting as skin eruptions or inflammatory conditions.",
     ],
-    foodUses: ["Tea", "Floral infusion", "Seasonal drink context"],
+    foodUses: ["Honeysuckle tea (steeped dried flowers in hot water)", "Classic 'cooling tea' blend with chrysanthemum and mint", "Key ingredient in traditional Cantonese herbal cooling teas (凉茶)"],
     caution:
-      "Cooling flower pages should stay contextual and should not present a floral tea as individualized advice.",
-    tags: ["jin yin hua", "honeysuckle tea", "cooling flower", "seasonal search", "tea herb"],
+      "This page is an educational reference built around traditional herb writing and publicly available research summaries. It is not a wellness recommendation, a substitute for professional guidance, or a claim that this herb is appropriate for any specific person.",
+    cautionDetails: [
+      "When to pause: Because honeysuckle is a cold herb, it is not appropriate for individuals with a Cold constitution — those who tend to feel cold, have loose stools, poor appetite, and low energy. It is specifically suited for Heat conditions.",
+      "Duration of use: Prolonged use of cold herbs can weaken the Spleen and Stomach's digestive warmth. It should be used for acute situations and not taken continuously for extended periods without professional guidance.",
+    ],
+    scientificSections: [
+      {
+        title: "Active Compounds",
+        paragraphs: [
+          "Honeysuckle flower is exceptionally rich in chlorogenic acid, luteolin, quercetin, and various iridoid glycosides. Chlorogenic acid is one of the most studied plant polyphenols in the world and is responsible for many of honeysuckle's documented biological effects.",
+        ],
+      },
+      {
+        title: "Immune and Antioxidant Support",
+        paragraphs: [
+          "Chlorogenic acid and luteolin are potent antioxidants that have been studied for their ability to support a balanced immune response. Research has demonstrated significant antimicrobial activity against a broad spectrum of common bacteria, providing a strong scientific basis for honeysuckle's traditional use during the early stages of a cold or flu with fever, sore throat, and inflammation.",
+        ],
+      },
+      {
+        title: "Anti-inflammatory Properties",
+        paragraphs: [
+          "Multiple studies have confirmed the anti-inflammatory effects of honeysuckle's key compounds, particularly their ability to modulate pro-inflammatory signaling pathways. This supports its traditional use in addressing 'Heat Toxin' conditions — situations characterized by redness, swelling, and heat — and explains why it features so prominently in formulas for acute upper respiratory conditions.",
+        ],
+      },
+    ],
+    references: [
+      "[1] MSKCC. Honeysuckle. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/honeysuckle",
+      "[2] Healthline. Honeysuckle: Benefits, Uses, and Side Effects. https://www.healthline.com/nutrition/honeysuckle",
+    ],
+    tags: ["honeysuckle flower", "jin yin hua", "lonicera japonica", "clear heat", "cooling tea", "chlorogenic acid", "sore throat tea", "traditional Chinese flower"],
   },
   {
     slug: "osmanthus-flower",
