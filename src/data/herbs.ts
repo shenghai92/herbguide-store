@@ -1923,49 +1923,111 @@ const rawHerbs: Herb[] = [
     slug: "osmanthus-flower",
     name: "Osmanthus Flower",
     pinyin: "Gui Hua",
-    chinese: "Gui Hua",
-    latin: "Osmanthi Flos",
+    chinese: "桂花",
+    latin: "Osmanthus fragrans (Thunb.) Lour.",
     partUsed: "Flower",
     category: "Tea herbs",
-    summary: "A fragrant flower that appears in sweet teas, pear drinks, and dessert-style kitchen reading with strong long-tail search appeal.",
+    commonNames: "Osmanthus Flower, Sweet Osmanthus, Fragrant Olive Flower",
+    arabicName: "زهر الأوسمانثوس (Zahr Al-Osmanthus)",
+    summary: "One of the world's most beloved natural fragrances — with an extraordinary apricot-like aroma that defines countless Chinese desserts, wines, and teas. This guide explores its traditional role in warming the Stomach and dispersing Cold, and what modern science says about its volatile aromatic compounds.",
     whatItIs:
-      "Osmanthus flower is one of the most approachable floral ingredients for readers who want a clear bridge between Chinese tea culture, dessert aromas, and traditional kitchen language.",
+      "Osmanthus Flower (Gui Hua) is primarily known for its extraordinary fragrance, considered one of the most beautiful natural scents in the world. Its warm, sweet, apricot-like aroma makes it one of the most beloved flavoring ingredients in Chinese cuisine and confectionery. In traditional wellness practice, it is used to warm the Stomach, disperse Cold, transform Phlegm, and freshen breath. This page explores its traditional context, active compounds, and comforting kitchen preparations.",
     nature: "Warm",
     flavor: "Sweet, slightly pungent",
     channels: "Lung, Spleen, Stomach",
     traditionalUses: [
-      "Traditionally used in fragrant kitchen and tea-style writing where warmth and aroma are described in a gentle way.",
-      "Often paired with pear, tea, and dessert-style ingredients that keep the page food-first and easy to picture.",
-      "Useful for readers searching sweet osmanthus tea, gui hua tea, or floral pantry ingredients in plain English.",
+      "In traditional Chinese wellness practices, Osmanthus Flower (Gui Hua) is pungent and warm. It primarily enters the Lung, Spleen, and Kidney channels.",
+      "Warming the Stomach and dispersing Cold — helpful for stomach pain and bloating caused by cold, making it a gentle warming addition to after-meal teas.",
+      "Transforming Phlegm and stopping cough — its warm, aromatic nature helps address phlegm conditions associated with coldness in the Lungs.",
+      "Freshening the breath — traditionally used for its pleasant aroma and breath-freshening properties, making it a popular addition to teas after meals.",
     ],
-    foodUses: ["Tea", "Pear tea", "Dessert garnish"],
+    foodUses: ["Osmanthus tea steeped with hot water or green tea", "Osmanthus wine and honey", "Osmanthus cake and glutinous rice desserts", "Paired with pear, ginger, and honey in dessert soups"],
     caution:
-      "Floral tea pages should stay educational and should not turn a fragrant kitchen ingredient into a personal-use claim.",
-    tags: ["gui hua", "sweet osmanthus", "osmanthus tea", "floral tea", "long-tail search"],
+      "This page is an educational reference built around traditional herb writing and publicly available research summaries. It is not a wellness recommendation, a substitute for professional guidance, or a claim that this herb is appropriate for any specific person.",
+    cautionDetails: [
+      "When to pause: Because it is warm and aromatic, very large amounts may not be suitable for individuals with significant Heat conditions.",
+      "Allergies: Those with known pollen allergies should be aware that osmanthus is a flowering plant, though it is generally considered to have low allergenic potential.",
+    ],
+    scientificSections: [
+      {
+        title: "Active Compounds",
+        paragraphs: [
+          "Osmanthus flowers contain a rich array of volatile aromatic compounds — including linalool, alpha-ionone, and beta-ionone — as well as flavonoids (luteolin, apigenin) and polyphenols. These compounds are responsible for its extraordinary, apricot-like fragrance and its studied biological properties.",
+        ],
+      },
+      {
+        title: "Antioxidant and Digestive Support",
+        paragraphs: [
+          "The flavonoids and polyphenols in osmanthus have demonstrated antioxidant activity in laboratory studies. The aromatic volatile compounds have been studied for their ability to support digestive comfort by gently relaxing the smooth muscles of the gastrointestinal tract, providing a basis for its traditional use in soothing stomach discomfort and bloating.",
+        ],
+      },
+      {
+        title: "Mood and Cognitive Support",
+        paragraphs: [
+          "Emerging research has explored the aromatherapy applications of osmanthus's key volatile compounds, with some studies suggesting potential benefits for mood, stress reduction, and cognitive function. This aligns with its traditional reputation as a gentle, uplifting herb.",
+        ],
+      },
+    ],
+    references: [
+      "[1] PubMed. Chemical composition and biological activities of Osmanthus fragrans. https://pubmed.ncbi.nlm.nih.gov/29099763/",
+      "[2] Healthline. Osmanthus Tea: Benefits, Uses, and How to Make It. https://www.healthline.com/nutrition/osmanthus-tea",
+    ],
+    tags: ["osmanthus flower", "gui hua", "sweet osmanthus", "osmanthus tea", "fragrant olive", "warming herbs", "floral tea", "traditional Chinese flower"],
   },
   {
     slug: "jasmine-flower",
     name: "Jasmine Flower",
     pinyin: "Mo Li Hua",
-    chinese: "Mo Li Hua",
-    latin: "Jasmini Flos",
+    chinese: "茉莉花",
+    latin: "Jasminum sambac (L.) Aiton",
     partUsed: "Flower",
     category: "Tea herbs",
-    summary: "A widely recognized floral ingredient that helps readers connect jasmine tea searches with calmer traditional kitchen context.",
+    commonNames: "Jasmine Flower, Arabian Jasmine, Common Jasmine",
+    arabicName: "زهر الياسمين (Zahr Al-Yasmin)",
+    summary: "The iconic flower behind one of the world's most popular scented teas — a gentle yet powerful herb for moving Qi, calming the mind, and soothing digestive tension. This guide explores its traditional role in harmonizing the Stomach and soothing the Liver, and what modern science says about linalool and its calming effects.",
     whatItIs:
-      "Jasmine flower is already familiar to many readers through jasmine tea, which makes it a strong educational page for explaining floral tea culture without drifting into exaggerated language.",
+      "Jasmine Flower (Mo Li Hua) is most famously used to scent jasmine tea — one of the most popular teas in China. Its aromatic compounds, particularly linalool, have been studied for their calming and anxiety-reducing effects. In traditional practice, it is used to move Liver Qi, harmonize the Stomach, and calm the mind. This page explores its traditional context, active compounds, and beloved kitchen uses.",
     nature: "Warm",
     flavor: "Sweet, aromatic",
-    channels: "Lung, Spleen, Stomach",
+    channels: "Liver, Spleen, Stomach",
     traditionalUses: [
-      "Traditionally used in floral tea and fragrance-focused kitchen writing where aroma and light warmth are part of the description.",
-      "Often introduced through tea culture, making it easier for readers to understand than more abstract flower pages.",
-      "Useful for searches around jasmine flower tea, floral tea ingredients, and beginner-friendly tea traditions.",
+      "In traditional Chinese wellness practices, Jasmine Flower (Mo Li Hua) is sweet and warm. It primarily enters the Liver, Spleen, and Stomach channels.",
+      "Soothing the Liver and calming the mind — by moving Liver Qi, it addresses irritability, tension, and emotional tightness associated with Liver Qi stagnation.",
+      "Moving Qi and harmonizing the Stomach — helpful for bloating, nausea, and poor appetite that arise from Qi stagnation in the digestive system.",
+      "Clearing Damp-Heat — its aromatic nature helps address conditions where Dampness and Heat combine, particularly affecting the digestive system.",
     ],
-    foodUses: ["Tea", "Floral infusion", "Scented dessert context"],
+    foodUses: ["Jasmine tea — scented green or white tea layered with fresh jasmine blossoms", "Dried flowers steeped directly in hot water for a simple floral tea", "Used to flavor rice, desserts, and syrups"],
     caution:
-      "Readers should view jasmine flower as a culinary and tea ingredient page, not as a direct how-to page for personal concerns.",
-    tags: ["mo li hua", "jasmine tea", "jasmine flower tea", "floral ingredient", "beginner tea"],
+      "This page is an educational reference built around traditional herb writing and publicly available research summaries. It is not a wellness recommendation, a substitute for professional guidance, or a claim that this herb is appropriate for any specific person.",
+    cautionDetails: [
+      "Allergies: Individuals with known fragrance or pollen allergies should exercise appropriate caution.",
+      "Pregnancy: As with all aromatic, Qi-moving herbs, very large amounts are not recommended during pregnancy.",
+    ],
+    scientificSections: [
+      {
+        title: "Active Compounds",
+        paragraphs: [
+          "Jasmine flowers contain a complex array of aromatic volatile compounds — including benzyl acetate, linalool, and indole — as well as flavonoids (quercetin, kaempferol) and polyphenols. The aromatic compounds are responsible for jasmine's iconic, intensely sweet floral scent.",
+        ],
+      },
+      {
+        title: "Calming and Mood Support",
+        paragraphs: [
+          "Several studies have investigated the anxiolytic (anxiety-reducing) and calming effects of jasmine's aromatic compounds, particularly linalool. Research suggests that inhaling jasmine scent may help reduce nervous tension and promote a sense of calm and well-being, providing a scientific basis for its traditional use in calming the mind and soothing the Liver.",
+        ],
+      },
+      {
+        title: "Antioxidant Properties",
+        paragraphs: [
+          "The flavonoids in jasmine, particularly quercetin and kaempferol, are well-documented antioxidants that help protect cells from oxidative stress. This supports its traditional use as a gentle, long-term wellness ingredient.",
+        ],
+      },
+    ],
+    references: [
+      "[1] Healthline. Jasmine Tea: Benefits, Uses, and Side Effects. https://www.healthline.com/nutrition/jasmine-tea-benefits",
+      "[2] PubMed. Linalool and its anxiolytic effects. https://pubmed.ncbi.nlm.nih.gov/19962291/",
+    ],
+    tags: ["jasmine flower", "mo li hua", "jasminum sambac", "jasmine tea", "qi-moving herbs", "linalool", "floral tea", "traditional Chinese flower"],
   },
   {
     slug: "rose-bud",
@@ -2082,73 +2144,169 @@ const rawHerbs: Herb[] = [
     slug: "lotus-leaf",
     name: "Lotus Leaf",
     pinyin: "He Ye",
-    chinese: "He Ye",
-    latin: "Nelumbinis Folium",
+    chinese: "荷叶",
+    latin: "Nelumbo nucifera Gaertn.",
     partUsed: "Leaf",
     category: "Tea herbs",
-    summary: "A broad, recognizable leaf ingredient that helps readers explore lotus leaf tea and light summer pantry traditions in plain English.",
+    commonNames: "Lotus Leaf, Sacred Lotus Leaf",
+    arabicName: "ورقة اللوتس (Waraqa Al-Lotus)",
+    summary: "The classic summer herb for clearing heat, lifting energy, and resolving that heavy, sluggish feeling of hot, humid days — famous both as a natural food wrapper for sticky rice and as a widely consumed slimming tea. This guide explores its traditional role and what modern science says about its unique alkaloid nuciferine.",
     whatItIs:
-      "Lotus leaf is easiest to understand as a visual tea and kitchen ingredient rather than as a narrow search claim, which makes it a useful bridge for readers exploring Chinese pantry tea culture.",
+      "Lotus Leaf (He Ye) is primarily used to clear Summer-Heat and resolve Dampness — making it the classic herb for the heavy, sluggish, and overheated feeling of a hot, humid summer. It is also used to raise the clear Yang Qi of the Spleen. In the kitchen, it is most famously used to wrap sticky rice (Lo Mai Gai) before steaming, imparting its distinctive clean, earthy fragrance. This page explores its traditional context, active compounds, and versatile uses.",
     nature: "Neutral to slightly cool",
     flavor: "Bitter, mild",
     channels: "Liver, Spleen, Stomach",
     traditionalUses: [
-      "Traditionally used in seasonal kitchen writing, light tea language, and broader discussions of summer-style food routines.",
-      "Often introduced through lotus leaf tea, pantry jars, or gentle comparisons beside chrysanthemum, mint, and floral cups.",
-      "Useful for readers searching lotus leaf tea, he ye tea, or simple Chinese tea ingredients in plain English.",
+      "In traditional Chinese wellness practices, Lotus Leaf (He Ye) is bitter and neutral. It primarily enters the Liver, Spleen, and Stomach channels.",
+      "Clearing Summer-Heat and resolving Dampness — the classic herb for the heavy, sluggish, overheated feeling of a hot, humid summer day.",
+      "Raising the clear Yang Qi of the Spleen — helps lift energy and clear the head, addressing that foggy, heavy-headed feeling associated with Dampness.",
+      "Cooling the Blood — traditionally used when Heat affects the blood level, particularly in the context of Summer-Heat patterns.",
     ],
-    foodUses: ["Tea", "Seasonal infusion", "Light pantry tea blends"],
+    foodUses: ["Wrapping sticky rice (Lo Mai Gai) — imparts its unique fragrance to the rice", "Lotus leaf tea — brewed alone or with hawthorn berry and cassia seed", "Classic 'slimming tea' blend for reducing Phlegm and Dampness"],
     caution:
-      "This page should stay educational and food-first. Lotus leaf searches often carry strong expectations, so the copy should avoid directed or outcome-heavy language.",
-    tags: ["he ye", "lotus leaf tea", "tea leaf", "summer tea", "pantry tea"],
+      "This page is an educational reference built around traditional herb writing and publicly available research summaries. It is not a wellness recommendation, a substitute for professional guidance, or a claim that this herb is appropriate for any specific person.",
+    cautionDetails: [
+      "When to pause: Because it is a cooling herb that raises Yang, it is generally not recommended for individuals with significant Yang Deficiency — those who feel chronically cold, have very low energy, and loose stools.",
+      "Pregnancy: Pregnant individuals should consult a qualified professional before using it in concentrated supplement form.",
+    ],
+    scientificSections: [
+      {
+        title: "Active Compounds",
+        paragraphs: [
+          "Lotus leaf is exceptionally rich in nuciferine — a unique aporphine alkaloid — as well as quercetin, kaempferol, and various other flavonoids and polyphenols. Nuciferine is the primary focus of modern metabolic research on lotus leaf.",
+        ],
+      },
+      {
+        title: "Metabolic and Lipid Support",
+        paragraphs: [
+          "Nuciferine has been studied for its potential to inhibit the absorption of dietary fat and carbohydrates in the digestive tract, and to support healthy lipid metabolism. Multiple studies have investigated lotus leaf extract in the context of healthy weight management and metabolic wellness, with promising results in preclinical and some clinical studies.",
+        ],
+      },
+      {
+        title: "Cardiovascular Support",
+        paragraphs: [
+          "The flavonoids in lotus leaf, particularly quercetin, have well-documented antioxidant and anti-inflammatory properties that support cardiovascular wellness. This provides a scientific basis for its traditional use in the context of summer wellness and Dampness-related health patterns.",
+        ],
+      },
+    ],
+    references: [
+      "[1] PubMed. Nuciferine from lotus leaf and its pharmacological activities. https://pubmed.ncbi.nlm.nih.gov/25829822/",
+      "[2] Healthline. Lotus Root and Lotus Leaf: Benefits and Uses. https://www.healthline.com/nutrition/lotus-root",
+    ],
+    tags: ["lotus leaf", "he ye", "nelumbo nucifera", "summer-heat clearing", "nuciferine", "lotus leaf tea", "lo mai gai", "traditional Chinese leaf"],
   },
   {
     slug: "burdock-root",
     name: "Burdock Root",
     pinyin: "Niu Bang Gen",
-    chinese: "Niu Bang Gen",
-    latin: "Arctii Radix",
+    chinese: "牛蒡根",
+    latin: "Arctium lappa L.",
     partUsed: "Root",
     category: "Tea herbs",
-    summary: "A familiar root ingredient that gives burdock root tea and earthy pantry drinks a clearer place in traditional kitchen reading.",
+    commonNames: "Burdock Root, Gobo (Japanese), Great Burdock",
+    arabicName: "جذر الأرقطيون (Jidhr Al-Arqatiyun)",
+    summary: "A beloved root vegetable in Japanese cuisine and one of the richest natural sources of prebiotic inulin — traditionally valued as a blood-purifying food for skin health. This guide explores its traditional role in clearing Heat and resolving toxicity, and what modern science says about its gut microbiome and skin-supporting properties.",
     whatItIs:
-      "Burdock root is easier for many readers to trust when framed as an earthy kitchen ingredient and tea root rather than a concentrated product keyword, which fits HerbGuide's pantry-first style well.",
+      "Burdock Root (Niu Bang Gen / Gobo) is a distinctive root vegetable with an earthy, slightly sweet flavor and satisfying fibrous texture. It is one of the richest natural sources of inulin — a prebiotic fiber that feeds beneficial gut bacteria. While the seed (Niu Bang Zi) is the primary medicinal form in traditional practice, the root is more commonly used as a nourishing food. This page explores its traditional context, active compounds, and kitchen versatility.",
     nature: "Neutral",
     flavor: "Sweet, slightly bitter",
     channels: "Lung, Stomach",
     traditionalUses: [
-      "Traditionally used in tea and root-ingredient discussions that emphasize kitchen context, earthy flavor, and broader seasonal reading.",
-      "Often introduced through burdock root tea, simple simmered drinks, or comparisons with pear, chrysanthemum, and other approachable pantry ingredients.",
-      "Useful for readers searching burdock root tea, niu bang gen, or earthy Chinese-style tea ingredients.",
+      "In traditional Chinese wellness practices, Burdock Root (Niu Bang Gen) is used as a nourishing, blood-purifying food. The seed (Niu Bang Zi) is pungent, bitter, and cold, primarily entering the Lung and Stomach channels.",
+      "Clearing Heat and resolving toxicity — traditionally used as a 'blood purifying' herb supporting skin health by addressing underlying Heat and toxicity.",
+      "Dispersing Wind-Heat — the seed is specifically used for sore throats, swollen tonsils, and skin eruptions associated with Wind-Heat patterns.",
+      "Supporting the skin — used both internally and externally for various skin conditions rooted in Heat and Dampness.",
     ],
-    foodUses: ["Tea", "Light simmered drink", "Pantry root pairings"],
+    foodUses: ["Kinpira Gobo — classic Japanese dish stir-fried with carrot, soy sauce, mirin, and sesame oil", "Added to miso soup and rice dishes", "Tempura-fried burdock root", "Simmered in earthy, nourishing teas"],
     caution:
-      "Because root-tea searches can drift into strong promise language, this page should remain descriptive, kitchen-focused, and clearly non-individualized.",
-    tags: ["niu bang gen", "burdock root tea", "root tea", "earthy tea", "kitchen ingredient"],
+      "This page is an educational reference built around traditional herb writing and publicly available research summaries. It is not a wellness recommendation, a substitute for professional guidance, or a claim that this herb is appropriate for any specific person.",
+    cautionDetails: [
+      "Allergies: Individuals with known allergies to plants in the Asteraceae/Compositae family (such as ragweed, chrysanthemum, or marigold) may have cross-reactive sensitivity to burdock and should exercise caution.",
+      "Digestive note: Because the seed is cold and purgative, it is not appropriate for individuals with loose stools or diarrhea.",
+      "Preparation: Burdock root should be peeled, sliced, and soaked in cold water before cooking to remove any bitterness.",
+    ],
+    scientificSections: [
+      {
+        title: "Active Compounds",
+        paragraphs: [
+          "Burdock root is rich in inulin (a prebiotic fiber), arctigenin (a lignan), chlorogenic acid, quercetin, and various other polyphenols. Arctigenin is the primary focus of modern research and is responsible for many of burdock's studied biological effects.",
+        ],
+      },
+      {
+        title: "Prebiotic and Digestive Support",
+        paragraphs: [
+          "Burdock root is one of the richest natural sources of inulin, a type of soluble fiber that acts as a prebiotic — it feeds the beneficial bacteria in the gut microbiome. A healthy gut microbiome is essential for proper digestion, immune function, and overall wellness. This aligns with its traditional use as a nourishing, long-term food for building foundational health.",
+        ],
+      },
+      {
+        title: "Antioxidant and Skin Support",
+        paragraphs: [
+          "Arctigenin and the polyphenols in burdock root have demonstrated significant antioxidant and anti-inflammatory properties. Research has explored their potential to support healthy skin by reducing oxidative stress and inflammation, providing a scientific basis for burdock's traditional use as a 'blood purifying' herb for skin conditions.",
+        ],
+      },
+    ],
+    references: [
+      "[1] Healthline. Burdock Root: Benefits, Uses, and Side Effects. https://www.healthline.com/nutrition/burdock-root",
+      "[2] PubMed. Arctigenin and its biological activities. https://pubmed.ncbi.nlm.nih.gov/26462869/",
+    ],
+    tags: ["burdock root", "niu bang gen", "gobo", "arctium lappa", "prebiotic", "inulin", "kinpira gobo", "traditional Chinese root"],
   },
   {
     slug: "cassia-seed",
     name: "Cassia Seed",
     pinyin: "Jue Ming Zi",
-    chinese: "Jue Ming Zi",
-    latin: "Cassiae Semen",
+    chinese: "决明子",
+    latin: "Senna obtusifolia (L.) H.S.Irwin & Barneby",
     partUsed: "Seed",
     category: "Tea herbs",
-    summary: "A widely searched seed ingredient that helps readers explore cassia seed tea through light, kitchen-first traditional context.",
+    commonNames: "Cassia Seed, Sickle Senna Seed, Foetid Cassia Seed",
+    arabicName: "بذور القرنفل الصيني (Buthur Al-Qarnful Al-Sini)",
+    summary: "One of the most popular daily wellness teas across East Asia — lightly roasted to release a nutty, coffee-like aroma — traditionally used to clear Liver Heat, brighten tired eyes, and promote gentle bowel regularity. This guide explores its traditional context and what modern science says about its anthraquinones.",
     whatItIs:
-      "Cassia seed is easier to trust when framed as a roasted-seed tea ingredient and pantry tradition rather than as a narrow outcome keyword, which makes it a strong fit for HerbGuide's cautious style.",
+      "Cassia Seed (Jue Ming Zi) is one of the most popular herbs in modern East Asian wellness culture, widely consumed as a daily tea for its gentle, cumulative benefits. The seeds are typically lightly roasted in a dry pan until fragrant, which reduces their cold nature and enhances their nutty, slightly coffee-like aroma. It is primarily used to clear Liver Heat and brighten the eyes — a pattern often associated with excessive screen time, stress, and poor sleep. This page explores its traditional context, active compounds, and preparation methods.",
     nature: "Cool",
-    flavor: "Bitter, sweet, mild",
+    flavor: "Bitter, sweet, salty",
     channels: "Liver, Large Intestine",
     traditionalUses: [
-      "Traditionally used in tea and seed-ingredient writing that emphasizes seasonal lightness and plain-English kitchen context.",
-      "Often introduced through cassia seed tea, roasted pantry seeds, or calm comparisons with chrysanthemum, lotus leaf, and other light tea pages.",
-      "Useful for readers searching cassia seed tea, jue ming zi tea, or roasted seed tea in simple language.",
+      "In traditional Chinese wellness practices, Cassia Seed (Jue Ming Zi) is sweet, bitter, salty, and slightly cold. It primarily enters the Liver and Large Intestine channels.",
+      "Clearing Liver Heat and brightening the eyes — addressing the red, dry, irritated eyes and blurred vision that arise from Liver Heat, often associated with excessive screen time, stress, and poor sleep.",
+      "Moistening the intestines and promoting bowel movement — gently addressing constipation caused by Heat or Yin Deficiency through mild laxative effects.",
+      "Supporting healthy blood pressure — traditionally used in the context of Liver Yang Rising patterns associated with hypertension and dizziness.",
     ],
-    foodUses: ["Tea", "Roasted seed infusion", "Seasonal pantry tea"],
+    foodUses: ["Roasted cassia seed tea — steeped in hot water for a nutty, coffee-like brew", "Classic 'eye-brightening' tea blend with chrysanthemum and goji berry", "Combined with lotus leaf and hawthorn in traditional slimming teas"],
     caution:
-      "This page should stay educational and avoid turning popular seed-tea searches into directed promises or personalized suggestions.",
-    tags: ["jue ming zi", "cassia seed tea", "roasted seed tea", "seasonal tea", "search-friendly"],
+      "This page is an educational reference built around traditional herb writing and publicly available research summaries. It is not a wellness recommendation, a substitute for professional guidance, or a claim that this herb is appropriate for any specific person.",
+    cautionDetails: [
+      "Laxative effects: Cassia seed contains anthraquinones, which have mild laxative effects. It should not be consumed in large amounts or for extended periods without professional guidance. Chronic use of anthraquinone-containing herbs can potentially affect bowel regularity.",
+      "When to pause: It is not appropriate for individuals with loose stools or diarrhea.",
+      "Pregnancy: Pregnant individuals should avoid it, as anthraquinones may stimulate uterine contractions.",
+      "Allergies: Individuals with known sensitivity to senna-family plants should exercise caution.",
+    ],
+    scientificSections: [
+      {
+        title: "Active Compounds",
+        paragraphs: [
+          "Cassia seeds contain anthraquinones — including emodin, chrysophanol, and obtusin — as well as naphthopyrone glycosides and various polyphenols. These compounds are responsible for most of its studied biological activities, particularly in ocular and digestive health.",
+        ],
+      },
+      {
+        title: "Eye and Liver Support",
+        paragraphs: [
+          "The anthraquinones and naphthopyrone glycosides in cassia seed have been studied for their antioxidant effects in ocular tissue. This provides a scientific basis for its traditional use in supporting eye health and addressing eye fatigue and redness associated with Liver Heat — a pattern increasingly relevant in modern life with prolonged screen exposure.",
+        ],
+      },
+      {
+        title: "Cardiovascular and Metabolic Support",
+        paragraphs: [
+          "Multiple studies have investigated cassia seed's potential to support healthy blood pressure and lipid levels. Its fiber content also contributes to healthy cholesterol management by binding to bile acids in the digestive tract, aligning with its traditional use in Liver-related metabolic patterns.",
+        ],
+      },
+    ],
+    references: [
+      "[1] MSKCC. Senna. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/senna",
+      "[2] Healthline. Cassia Seed Tea: Benefits, Side Effects, and Uses. https://www.healthline.com/nutrition/cassia-seed-tea",
+    ],
+    tags: ["cassia seed", "jue ming zi", "senna obtusifolia", "eye health tea", "liver heat clearing", "roasted seed tea", "anthraquinones", "traditional Chinese seed"],
   },
   {
     slug: "corn-silk",
