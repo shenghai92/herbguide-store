@@ -310,6 +310,59 @@ const rawHerbs: Herb[] = [
     tags: ["ju hua", "chrysanthemum", "chrysanthemum tea", "cooling flower tea", "luteolin", "eye health", "cardiovascular support", "traditional Chinese tea"],
   },
   {
+    slug: "mung-bean",
+    name: "Mung Bean",
+    pinyin: "Lu Dou",
+    chinese: "绿豆",
+    latin: "Vigna radiata",
+    partUsed: "Seed / Bean",
+    category: "Herbs that clear heat",
+    commonNames: "Mung Bean, Green Bean",
+    arabicName: "ماش (Mash) / فول مونج (Foul Mung)",
+    summary: "A small, green legume widely cultivated across Asia — a staple food that holds a highly respected place in traditional Chinese wellness as a powerful cooling food. This guide explores its traditional context, kitchen uses, and what modern science says about its exceptional nutritional profile and high antioxidant capacity.",
+    whatItIs:
+      "The mung bean (Vigna radiata) is a small, green legume widely cultivated across Asia. While it is a staple food ingredient used in everything from noodles to desserts, it holds a highly respected place in traditional Chinese wellness practices. In traditional frameworks, it is considered a powerful cooling food. Today, what modern science says about mung beans highlights their exceptional nutritional profile, high antioxidant capacity, and potential to support metabolic wellness.",
+    nature: "Cold",
+    flavor: "Sweet",
+    channels: "Heart, Stomach",
+    traditionalUses: [
+      "In traditional frameworks, Mung Bean (Lu Dou) is categorized as an herb that clears heat and resolves toxicity. It is primarily associated with the Heart and Stomach channels.",
+      "Strongly clearing summer heat. Mung bean soup is the most famous traditional remedy for preventing overheating during hot, humid summer months.",
+      "Resolving toxicity, which in traditional terms often refers to clearing severe heat that manifests as red, swollen skin issues or digestive discomfort from rich foods.",
+      "Quenching thirst and gently supporting the body's fluid balance.",
+    ],
+    foodUses: ["Mung bean soup (summer cooling remedy)", "Mung bean congee / porridge", "Mung bean tea / infusion", "Noodles and desserts"],
+    caution:
+      "Mung beans are a safe, everyday food for the vast majority of people. However, because of their traditionally 'cold' nature, individuals with a very sensitive or 'cold' digestive constitution (who frequently experience loose stools or feel cold easily) should consume them in moderation.",
+    cautionDetails: [
+      "Cold constitution: In traditional practice, it is often recommended to cook mung beans with a slice of fresh ginger to balance their cooling energy.",
+    ],
+    scientificSections: [
+      {
+        title: "Nutritional and Active Compounds",
+        paragraphs: [
+          "Mung beans are an excellent source of plant-based protein, dietary fiber, and essential minerals like magnesium, potassium, and folate. Importantly, they are rich in phenolic acids and flavonoids, particularly vitexin and isovitexin. These specific antioxidants are heavily concentrated in the seed coat (the green skin of the bean) and are known for their potent free-radical scavenging abilities.",
+        ],
+      },
+      {
+        title: "Cardiovascular and Metabolic Wellness",
+        paragraphs: [
+          "Research suggests that the high fiber and complex carbohydrate content of mung beans can support metabolic wellness by helping to maintain stable blood sugar levels. Furthermore, animal and test-tube studies indicate that the antioxidants in mung beans, particularly vitexin, may help protect blood vessels from oxidative stress, thereby supporting overall cardiovascular health and healthy blood pressure levels.",
+        ],
+      },
+      {
+        title: "Digestive Support",
+        paragraphs: [
+          "The dietary fiber in mung beans, particularly a type of soluble fiber called pectin, is excellent for digestive regularity. It helps speed up the movement of food through the gut and serves as a prebiotic, nourishing beneficial gut bacteria. This aligns well with its traditional use for soothing the Stomach channel.",
+        ],
+      },
+    ],
+    references: [
+      "[1] Healthline. 10 Health Benefits of Mung Beans. https://www.healthline.com/nutrition/mung-bean-benefits",
+    ],
+    tags: ["mung bean", "lu dou", "vigna radiata", "clear heat", "summer heat", "cooling food", "legume", "antioxidant", "vitexin", "traditional Chinese bean"],
+  },
+  {
     slug: "hawthorn-berry",
     name: "Hawthorn Berry",
     pinyin: "Shan Zha",
