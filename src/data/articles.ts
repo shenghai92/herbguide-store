@@ -3886,4 +3886,74 @@ export const foodTherapyArticles: ContentArticle[] = [
       },
     ],
   },
+  {
+    slug: "ginger-and-brown-sugar-tea-for-cold-days",
+    title: "Ginger and Brown Sugar Tea for Cold Days",
+    description:
+      "A classic traditional remedy for dispelling cold and supporting circulation — fresh ginger paired with unrefined brown sugar. Includes ingredients, step-by-step preparation, safety notes, and related herb links.",
+    eyebrow: "Kitchen Traditions",
+    intro:
+      "Fresh ginger (Zingiber officinale) combined with unrefined brown sugar is a classic traditional remedy for dispelling cold and supporting circulation. In traditional frameworks, fresh ginger is highly valued for its ability to warm the center, promote sweating, and push out external cold, making it the go-to drink when experiencing an acute onset of winter chills. Brown sugar is traditionally considered warming and nourishing to the blood, unlike refined white sugar. Modern research highlights ginger's active compounds, such as gingerols and shogaols, which possess strong antioxidant and anti-inflammatory properties.",
+    recipe: {
+      recipeYield: "1 mug",
+      prepTime: "PT5M",
+      totalTime: "PT20M",
+      ingredients: [
+        "3-4 thin slices of fresh ginger root (Zingiber officinale)",
+        "1-2 tablespoons unrefined brown sugar (or dark muscovado sugar)",
+        "2 cups water",
+      ],
+      steps: [
+        "Place the fresh ginger slices and water in a small saucepan.",
+        "Bring to a boil over medium-high heat.",
+        "Reduce the heat to low, cover, and let it simmer gently for 10-15 minutes to extract the active compounds from the ginger.",
+        "Stir in the brown sugar until completely dissolved.",
+        "Strain the tea into a mug and drink it while it is hot.",
+      ],
+      servingNotes: [
+        "This tea is excellent for occasional use during cold weather.",
+        "The brown sugar adds a warming sweetness that complements the pungent heat of fresh ginger.",
+        "For a lighter version, reduce the ginger to 2 slices; for a stronger brew, add an extra slice and extend the simmer time to 20 minutes.",
+      ],
+      caution: [
+        "This tea is excellent for occasional use during cold weather. However, because it is strongly warming, traditional practice advises against drinking it if you are experiencing signs of internal heat, such as a sore throat, dry mouth, or restlessness.",
+        "Individuals with a history of gallstones or those taking products that affect circulation should consult a qualified professional before consuming large amounts of ginger regularly.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why It Works: Tradition Meets Science",
+        paragraphs: [
+          "Fresh ginger (Zingiber officinale) combined with unrefined brown sugar is a classic traditional remedy for dispelling cold and supporting circulation. In traditional frameworks, fresh ginger is highly valued for its ability to warm the center, promote sweating, and push out external cold, making it the go-to drink when experiencing an acute onset of winter chills. Brown sugar is traditionally considered warming and nourishing to the blood, unlike refined white sugar.",
+          "Modern research highlights ginger's active compounds, such as gingerols and shogaols, which possess strong antioxidant and anti-inflammatory properties. These compounds are known to support healthy circulation and provide digestive comfort, offering a scientific basis for the warm, invigorating feeling this tea provides.",
+        ],
+      },
+      {
+        title: "Safety and Caution Details",
+        paragraphs: [
+          "This tea is excellent for occasional use during cold weather. However, because it is strongly warming, traditional practice advises against drinking it if you are experiencing signs of internal heat, such as a sore throat, dry mouth, or restlessness.",
+          "Individuals with a history of gallstones or those taking products that affect circulation should consult a qualified professional before consuming large amounts of ginger regularly.",
+        ],
+      },
+      {
+        title: "Related herb pages for this recipe",
+        paragraphs: [
+          "These kitchen pages perform best when they connect directly to ingredient profiles so readers can check traditional terms, food uses, and caution notes in one place.",
+        ],
+        bullets: [
+          "Fresh Ginger",
+          "Mung Bean",
+        ],
+      },
+      {
+        title: "Back to Kitchen Traditions",
+        paragraphs: [
+          "This article is part of the Kitchen Traditions section. Return there for more kitchen-focused reading and ingredient ideas.",
+        ],
+      },
+    ],
+    references: [
+      "[1] MSKCC. Ginger. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginger",
+    ],
+  },
 ];

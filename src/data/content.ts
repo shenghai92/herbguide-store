@@ -403,6 +403,11 @@ const rawRecipeCards = [
     title: "Poria and Coix Seed Congee",
     text: "A gentle, grain-based bowl designed to clear traditional dampness and support digestion when you feel heavy or sluggish.",
   },
+  {
+    slug: "ginger-and-brown-sugar-tea-for-cold-days",
+    title: "Ginger and Brown Sugar Tea for Cold Days",
+    text: "A classic traditional remedy for dispelling cold — fresh ginger paired with unrefined brown sugar for winter chills.",
+  },
 ];
 
 export const recipeCards = rawRecipeCards.map((card) => sanitizeContentCard(card));
