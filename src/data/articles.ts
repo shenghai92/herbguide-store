@@ -3956,4 +3956,76 @@ export const foodTherapyArticles: ContentArticle[] = [
       "[1] MSKCC. Ginger. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginger",
     ],
   },
+  {
+    slug: "mung-bean-soup-for-summer-heat",
+    title: "Mung Bean Soup for Summer Heat",
+    description:
+      "The quintessential summer beverage in East Asian traditions — mung bean soup prized for its cooling nature. Includes ingredients, step-by-step preparation, safety notes, and related herb links.",
+    eyebrow: "Kitchen Traditions",
+    intro:
+      "Mung bean (Vigna radiata) soup is the quintessential summer beverage in East Asian traditions. In traditional frameworks, mung beans are prized for their cold nature and their ability to clear summer heat and resolve toxicity. They are used to cool the body down, quench thirst, and soothe heat-related irritability. Modern nutritional science confirms that mung beans are rich in phenolic acids and flavonoids, particularly vitexin and isovitexin, which are concentrated in the green seed coat and help protect cells from heat-induced oxidative stress.",
+    recipe: {
+      recipeYield: "2 to 3 servings",
+      prepTime: "PT5M",
+      totalTime: "PT55M",
+      ingredients: [
+        "1/2 cup dried mung beans (Vigna radiata)",
+        "4-5 cups water",
+        "Optional: Rock sugar to taste",
+        "Optional: A slice of fresh ginger (to balance the cold nature)",
+      ],
+      steps: [
+        "Rinse the mung beans thoroughly under cold water.",
+        "In a medium pot, combine the mung beans and water. Add the ginger slice if using.",
+        "Bring to a boil over high heat.",
+        "Reduce the heat to low, cover, and simmer for 40-50 minutes, or until the beans have burst open and are tender.",
+        "Stir in rock sugar to taste during the last 5 minutes of cooking.",
+        "Serve warm or at room temperature. (Traditional practice advises against serving it ice-cold, as this can shock the digestive system).",
+      ],
+      servingNotes: [
+        "This soup is best consumed during hot weather or when experiencing signs of internal heat.",
+        "The optional ginger slice helps balance the strongly cooling nature of the mung beans.",
+        "For a lighter version, reduce the beans to 1/3 cup; for a thicker soup, keep the full 1/2 cup.",
+      ],
+      caution: [
+        "Because mung beans are strongly cooling, this soup is best consumed during hot weather or when experiencing signs of internal heat.",
+        "Individuals with a 'cold' or sensitive digestive constitution (who frequently experience loose stools or feel cold easily) should consume it in moderation and are encouraged to include the ginger slice to provide a warming balance.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why It Works: Tradition Meets Science",
+        paragraphs: [
+          "Mung bean (Vigna radiata) soup is the quintessential summer beverage in East Asian traditions. In traditional frameworks, mung beans are prized for their cold nature and their ability to clear summer heat and resolve toxicity. They are used to cool the body down, quench thirst, and soothe heat-related irritability.",
+          "Modern nutritional science confirms that mung beans are rich in phenolic acids and flavonoids, particularly vitexin and isovitexin, which are concentrated in the green seed coat. These antioxidants help protect cells from heat-induced oxidative stress. Furthermore, the high water and electrolyte content of the soup helps support hydration during hot weather.",
+        ],
+      },
+      {
+        title: "Safety and Caution Details",
+        paragraphs: [
+          "Because mung beans are strongly cooling, this soup is best consumed during hot weather or when experiencing signs of internal heat.",
+          "Individuals with a 'cold' or sensitive digestive constitution (who frequently experience loose stools or feel cold easily) should consume it in moderation and are encouraged to include the ginger slice to provide a warming balance.",
+        ],
+      },
+      {
+        title: "Related herb pages for this recipe",
+        paragraphs: [
+          "These kitchen pages perform best when they connect directly to ingredient profiles so readers can check traditional terms, food uses, and caution notes in one place.",
+        ],
+        bullets: [
+          "Mung Bean",
+          "Fresh Ginger",
+        ],
+      },
+      {
+        title: "Back to Kitchen Traditions",
+        paragraphs: [
+          "This article is part of the Kitchen Traditions section. Return there for more kitchen-focused reading and ingredient ideas.",
+        ],
+      },
+    ],
+    references: [
+      "[1] Healthline. 10 Health Benefits of Mung Beans. https://www.healthline.com/nutrition/mung-bean-benefits",
+    ],
+  },
 ];

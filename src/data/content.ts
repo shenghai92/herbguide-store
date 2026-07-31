@@ -408,6 +408,11 @@ const rawRecipeCards = [
     title: "Ginger and Brown Sugar Tea for Cold Days",
     text: "A classic traditional remedy for dispelling cold — fresh ginger paired with unrefined brown sugar for winter chills.",
   },
+  {
+    slug: "mung-bean-soup-for-summer-heat",
+    title: "Mung Bean Soup for Summer Heat",
+    text: "The quintessential summer beverage in East Asian traditions — a cooling mung bean soup for hot weather.",
+  },
 ];
 
 export const recipeCards = rawRecipeCards.map((card) => sanitizeContentCard(card));
