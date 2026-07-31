@@ -190,6 +190,11 @@ const rawBasicsCards = [
     title: "What Is Blood Deficiency?",
     text: "A comprehensive guide to the traditional concept of Blood Deficiency — what it means, signs, and practical ways to nourish Blood through diet and lifestyle.",
   },
+  {
+    slug: "what-is-phlegm",
+    title: "What Is Phlegm in Traditional Wellness?",
+    text: "A comprehensive guide to the traditional concept of Phlegm — the difference between visible and invisible Phlegm, signs of accumulation, and kitchen approaches to resolving it.",
+  },
 ];
 
 export const basicsCards = rawBasicsCards.map((card) => sanitizeContentCard(card));
