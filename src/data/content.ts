@@ -185,6 +185,11 @@ const rawBasicsCards = [
     title: "How to Build a Simple Herbal Tea Routine",
     text: "Practical, seasonal, no-pressure guidance for people who want a traditional tea ritual, not a strict medical regimen.",
   },
+  {
+    slug: "what-is-blood-deficiency",
+    title: "What Is Blood Deficiency?",
+    text: "A comprehensive guide to the traditional concept of Blood Deficiency — what it means, signs, and practical ways to nourish Blood through diet and lifestyle.",
+  },
 ];
 
 export const basicsCards = rawBasicsCards.map((card) => sanitizeContentCard(card));

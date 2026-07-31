@@ -1668,6 +1668,62 @@ const rawBasicsArticles: ContentArticle[] = [
       },
     ],
   },
+  {
+    slug: "what-is-blood-deficiency",
+    title: "What Is Blood Deficiency?",
+    description:
+      "A comprehensive guide to the traditional concept of Blood Deficiency — what Blood represents, signs of deficiency, traditional approaches, and practical kitchen and lifestyle notes for nourishing Blood.",
+    eyebrow: "Basics & Concepts",
+    intro:
+      "In traditional Chinese wellness practices, 'Blood' (血, Xuě) encompasses more than just the red fluid flowing through our veins. It is viewed as a dense, nourishing substance that moistens the tissues, nourishes the organs, and anchors the mind (shen). While Qi provides the functional energy for movement and warmth, Blood provides the material foundation for rest and repair.",
+    sections: [
+      {
+        title: "Understanding Blood Deficiency",
+        paragraphs: [
+          "'Blood Deficiency' (血虚, Xuě Xū) is a conceptual term used to describe a state where the body lacks sufficient nourishing fluids to properly maintain its tissues and calm the nervous system. It is not necessarily synonymous with the Western medical diagnosis of anemia, though the two concepts can overlap.",
+        ],
+      },
+      {
+        title: "Signs of Blood Deficiency",
+        paragraphs: [
+          "Traditional practitioners look for signs that the body's 'moistening and nourishing' functions are depleted. Common signs include:",
+        ],
+        bullets: [
+          "A pale or sallow complexion, particularly pale lips and nail beds",
+          "Dry skin, dry hair, and brittle nails",
+          "Occasional dizziness or lightheadedness, especially upon standing",
+          "Blurry vision or dry eyes",
+          "Difficulty falling asleep or a restless mind (because the Blood is failing to 'anchor' the spirit)",
+          "Menstrual irregularities or scanty periods",
+        ],
+      },
+      {
+        title: "Traditional Approaches to Nourishing Blood",
+        paragraphs: [
+          "The traditional approach to managing Blood Deficiency focuses heavily on diet and digestion. Because Blood is created from the nutrients extracted by the Spleen and Stomach, supporting digestion is the first step.",
+        ],
+        bullets: [
+          "Jujube (Red Date): A staple for gentle, everyday blood nourishment.",
+          "Goji Berry: Traditionally used to nourish Liver blood and support the eyes.",
+          "Longan (Dragon Eye Fruit): Used to nourish Heart blood and support restful sleep.",
+          "Dong Quai (Dang Gui): One of the most famous herbs for supporting healthy blood flow and menstrual comfort.",
+          "Dark, leafy greens and red meats: From a culinary perspective, these are highly valued for building blood.",
+        ],
+      },
+      {
+        title: "Lifestyle and Kitchen Notes",
+        paragraphs: [
+          "From a traditional dietary perspective, individuals experiencing Blood Deficiency are encouraged to consume warm, cooked, nutrient-dense foods. Soups and slow-cooked stews are ideal because they are easy for the digestive system to process and assimilate. It is also traditionally advised to avoid excessive mental strain or overwork, as intense intellectual activity is believed to 'consume' Heart blood.",
+        ],
+      },
+      {
+        title: "Read This Page in Context",
+        paragraphs: [
+          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        ],
+      },
+    ],
+  },
 ];
 
 export const basicsArticles = rawBasicsArticles.map((article) => sanitizeContentArticle(article));
