@@ -1530,6 +1530,56 @@ const rawHerbs: Herb[] = [
     tags: ["yin er", "tremella", "snow fungus", "white wood ear", "yin tonifying", "beauty foods", "hyaluronic acid", "traditional Chinese mushroom"],
   },
   {
+    slug: "black-bean",
+    name: "Black Bean",
+    pinyin: "Hei Dou",
+    chinese: "黑豆",
+    latin: "Glycine max (black seeded variety)",
+    partUsed: "Seed",
+    category: "Herbs that tonify Yin and Blood",
+    commonNames: "Black Bean, Black Soybean",
+    arabicName: "فاصوليا سوداء (Fasoulya Sawda)",
+    summary: "A specific variety of black-seeded soybean — in traditional frameworks, the color black is strongly associated with the Kidney system, making this bean a staple for deep nourishment. This guide explores its traditional context, kitchen uses, and what modern science says about its exceptional anthocyanin content and role in supporting cardiovascular health.",
+    whatItIs:
+      "The black bean used in traditional East Asian wellness is a specific variety of black-seeded soybean (Glycine max), though common black turtle beans share similar nutritional profiles. In traditional frameworks, the color black is strongly associated with the Kidney system, making this bean a staple for deep nourishment. Today, what modern science says about black beans focuses on their exceptional anthocyanin content, high-quality protein, and role in supporting cardiovascular health.",
+    nature: "Neutral",
+    flavor: "Sweet",
+    channels: "Kidney, Spleen",
+    traditionalUses: [
+      "In traditional frameworks, Black Bean (Hei Dou) is categorized as an ingredient that tonifies Blood and Yin, while also gently promoting fluid metabolism. It is primarily associated with the Kidney and Spleen channels.",
+      "Nourishing Kidney Yin and Blood. Because of its dark color and Kidney affinity, it is traditionally used to support healthy aging, robust hair growth, and lower back strength.",
+      "Clearing heat and resolving toxicity, often used in traditional broths to gently cleanse the body of metabolic waste.",
+      "Promoting urination to gently reduce fluid retention, supporting the Spleen's fluid management.",
+    ],
+    foodUses: ["Traditional broths and soups", "Slow-cooked with rice or grains", "Paired with kombu seaweed for better digestion", "Black bean tea / infusion"],
+    caution:
+      "Black beans are a highly nutritious, everyday food. To ensure optimal digestion and nutrient absorption, they must be fully cooked. Like all legumes, they contain phytic acid and oligosaccharides that can cause gas and bloating if not properly prepared; soaking them overnight and cooking them thoroughly with a slice of fresh ginger or a piece of kombu seaweed can help mitigate this.",
+    scientificSections: [
+      {
+        title: "Antioxidant Power (Anthocyanins)",
+        paragraphs: [
+          "The deep black color of the seed coat is due to a massive concentration of anthocyanins—the same powerful antioxidants found in blueberries and blackberries. Research shows that these compounds help neutralize free radicals, protecting cells from oxidative stress and supporting healthy aging.",
+        ],
+      },
+      {
+        title: "Cardiovascular and Metabolic Support",
+        paragraphs: [
+          "Black beans are an excellent source of soluble fiber, plant protein, and complex carbohydrates. Studies indicate that this combination helps slow the absorption of glucose, supporting stable blood sugar levels. Furthermore, the fiber and specific phytosterols in the beans help support healthy cholesterol levels, contributing to overall cardiovascular wellness.",
+        ],
+      },
+      {
+        title: "Bone and Structural Health",
+        paragraphs: [
+          "As a Kidney-supporting food in traditional thought, it is fitting that black beans are highly rich in minerals essential for bone health, including calcium, magnesium, phosphorus, and zinc. They also provide isoflavones, which are being studied for their potential to support bone density and hormonal balance.",
+        ],
+      },
+    ],
+    references: [
+      "[1] Healthline. Black Beans: Nutrition, Benefits, and How to Cook Them. https://www.healthline.com/nutrition/black-beans-nutrition",
+    ],
+    tags: ["black bean", "hei dou", "glycine max", "kidney tonic", "yin and blood", "anthocyanins", "legume", "bone health", "traditional Chinese bean"],
+  },
+  {
     slug: "adzuki-bean",
     name: "Adzuki Bean",
     pinyin: "Chi Xiao Dou",
