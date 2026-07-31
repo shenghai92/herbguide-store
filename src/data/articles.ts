@@ -1724,6 +1724,63 @@ const rawBasicsArticles: ContentArticle[] = [
       },
     ],
   },
+  {
+    slug: "what-is-phlegm",
+    title: "What Is Phlegm in Traditional Wellness?",
+    description:
+      "A comprehensive guide to the traditional concept of Phlegm — beyond the respiratory tract, the difference between visible and invisible Phlegm, signs of accumulation, traditional approaches, and practical kitchen notes.",
+    eyebrow: "Basics & Concepts",
+    intro:
+      "In Western terms, 'phlegm' usually refers strictly to the mucus produced in the respiratory system during a cold. However, in traditional Chinese wellness frameworks, 'Phlegm' (痰, Tán) is a much broader concept. It represents a pathological accumulation of thick, sticky fluids anywhere in the body. Traditional theory often states: 'The Spleen is the source of Phlegm, and the Lungs are the receptacle.' This means that while Phlegm often shows up in the lungs, its root cause is usually a sluggish digestive system (the Spleen) failing to properly metabolize fluids.",
+    sections: [
+      {
+        title: "Visible vs. Invisible Phlegm",
+        paragraphs: [
+          "Traditional practice divides Phlegm into two categories:",
+        ],
+        bullets: [
+          "Visible Phlegm: This is the mucus we can see and feel, such as congestion in the lungs, a runny nose, or a thick, greasy coating on the tongue.",
+          "Invisible Phlegm: This is a conceptual way of describing thick, stagnant fluids that accumulate internally, blocking the flow of Qi and blood. It is traditionally associated with situations like chronic swollen lymph nodes, certain types of joint stiffness, or even a feeling of profound mental fogginess and confusion (often described as 'Phlegm misting the mind').",
+        ],
+      },
+      {
+        title: "Signs of Phlegm Accumulation",
+        paragraphs: [
+          "Traditional practitioners look for signs that suggest sticky fluids are obstructing normal function. These may include:",
+        ],
+        bullets: [
+          "Chronic respiratory congestion or throat clearing",
+          "A feeling of heaviness or grogginess, especially in the head",
+          "Nausea or a feeling of fullness in the chest and upper abdomen",
+          "A thick, greasy, or sticky coating on the tongue",
+          "Sluggish digestion",
+        ],
+      },
+      {
+        title: "Traditional Approaches to Resolving Phlegm",
+        paragraphs: [
+          "The traditional approach to managing Phlegm involves using herbs and foods that 'transform' or break up the stickiness, while also supporting the digestive system so it stops producing more Phlegm.",
+        ],
+        bullets: [
+          "Chen Pi (Aged Tangerine Peel): Highly valued for its ability to move Qi, dry dampness, and transform Phlegm in the digestive and respiratory systems.",
+          "Fresh Ginger: Used to warm the digestion and resolve cold, watery Phlegm.",
+          "Radish and Daikon: Traditionally used in the kitchen to break up stagnation and clear mucus.",
+        ],
+      },
+      {
+        title: "Lifestyle and Kitchen Notes",
+        paragraphs: [
+          "From a dietary perspective, Phlegm is often exacerbated by consuming foods that are difficult to digest or overly dampening. Traditional frameworks strongly advise limiting dairy products, refined sugars, fried foods, and cold/raw meals when experiencing Phlegm accumulation. Instead, the focus shifts to warm, aromatic, and lightly spiced foods that encourage movement and healthy fluid metabolism.",
+        ],
+      },
+      {
+        title: "Read This Page in Context",
+        paragraphs: [
+          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        ],
+      },
+    ],
+  },
 ];
 
 export const basicsArticles = rawBasicsArticles.map((article) => sanitizeContentArticle(article));
