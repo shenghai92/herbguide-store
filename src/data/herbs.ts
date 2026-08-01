@@ -1580,6 +1580,56 @@ const rawHerbs: Herb[] = [
     tags: ["black bean", "hei dou", "glycine max", "kidney tonic", "yin and blood", "anthocyanins", "legume", "bone health", "traditional Chinese bean"],
   },
   {
+    slug: "walnut",
+    name: "Walnut",
+    pinyin: "He Tao Ren",
+    chinese: "核桃仁",
+    latin: "Juglans regia",
+    partUsed: "Nut / Seed",
+    category: "Herbs that tonify Yang",
+    commonNames: "Walnut, English Walnut",
+    arabicName: "جوز (Jouz)",
+    summary: "Globally recognized as a nutritious snack, but in traditional Chinese wellness viewed as a potent functional food — traditionally associated with brain health due to its resemblance to the human brain. This guide explores its traditional context, kitchen uses, and what modern science says about its exceptional omega-3 content and neuroprotective properties.",
+    whatItIs:
+      "Walnuts (Juglans regia) are globally recognized as a nutritious snack. In traditional Chinese wellness, however, they are viewed as a potent functional food with specific energetic properties. Because the wrinkled nut resembles a human brain, traditional 'like-treats-like' philosophy has long associated it with cognitive health. Today, what modern science says about walnuts strongly supports this ancient intuition, highlighting their exceptional omega-3 fatty acid content and neuroprotective properties.",
+    nature: "Warm",
+    flavor: "Sweet",
+    channels: "Kidney, Lung, Large Intestine",
+    traditionalUses: [
+      "In traditional frameworks, Walnut (He Tao Ren) is categorized as an herb that tonifies Yang (warming, active energy). It is primarily associated with the Kidney, Lung, and Large Intestine channels.",
+      "Tonifying the Kidneys and warming the lower back. It is traditionally used to support stamina, strengthen the knees and back, and provide deep, warming energy to the body's foundation.",
+      "Warming the Lungs to help grasp Qi. It is often used in traditional formulas to support respiratory health, especially when breathing feels shallow due to 'cold' or weakness.",
+      "Moistening the Large Intestine. The rich oils in the nut gently lubricate the digestive tract, supporting regular bowel movements in older adults or those with a dry constitution.",
+    ],
+    foodUses: ["Raw or roasted snack", "Porridge and congee topping", "Traditional tonic soups with black sesame", "Walnut paste and breakfast bowls"],
+    caution:
+      "Walnuts are a highly nutritious food for most people. However, individuals with tree nut allergies must avoid them strictly. Because walnuts are energetically 'warm' and rich in oils, traditional practice advises against eating large quantities if you are experiencing signs of acute internal 'heat' (such as a sore throat or mouth sores) or if you are prone to loose stools.",
+    scientificSections: [
+      {
+        title: "Brain Health and Cognitive Support",
+        paragraphs: [
+          "Walnuts are the only tree nut that provides a significant source of alpha-linolenic acid (ALA), the plant-based omega-3 essential fatty acid. Research strongly links ALA and the rich polyphenols in walnuts to reduced oxidative stress and inflammation in the brain. Studies suggest that regular walnut consumption supports memory, cognitive flexibility, and overall neurological resilience, validating their traditional reputation as a 'brain food.'",
+        ],
+      },
+      {
+        title: "Cardiovascular Wellness",
+        paragraphs: [
+          "The unique combination of omega-3s, plant sterols, and antioxidants in walnuts makes them exceptionally beneficial for the heart. Clinical trials consistently show that incorporating walnuts into the diet helps support healthy cholesterol levels, improves the function of the blood vessel lining (endothelial function), and supports healthy blood pressure.",
+        ],
+      },
+      {
+        title: "Antioxidant and Cellular Protection",
+        paragraphs: [
+          "Walnuts contain a high concentration of specific antioxidants, including vitamin E (gamma-tocopherol), melatonin, and ellagitannins. These compounds help neutralize free radicals throughout the body, supporting cellular health and healthy aging.",
+        ],
+      },
+    ],
+    references: [
+      "[1] Healthline. 13 Proven Health Benefits of Walnuts. https://www.healthline.com/nutrition/benefits-of-walnuts",
+    ],
+    tags: ["walnut", "he tao ren", "juglans regia", "yang tonic", "brain food", "omega-3", "kidney tonic", "cognitive health", "traditional Chinese nut"],
+  },
+  {
     slug: "adzuki-bean",
     name: "Adzuki Bean",
     pinyin: "Chi Xiao Dou",
