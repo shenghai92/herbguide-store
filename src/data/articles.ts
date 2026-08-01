@@ -1831,6 +1831,66 @@ const rawBasicsArticles: ContentArticle[] = [
       },
     ],
   },
+  {
+    slug: "what-is-kidney-essence",
+    title: "What Is Kidney Essence (Jing)?",
+    description:
+      "A comprehensive guide to the traditional concept of Kidney Essence (Jing) — the body's deepest constitutional reserve, the difference between pre-natal and post-natal Jing, signs of depletion, and traditional approaches to conservation through diet and lifestyle.",
+    eyebrow: "Basics & Concepts",
+    intro:
+      "In traditional Chinese wellness practices, the 'Kidneys' (肾, Shèn) are considered the most fundamental organs in the body. They are often called the 'Root of Life.' They do not just filter urine; they store the body's deepest reserves of energy, govern growth, reproduction, and aging, and provide the foundational warmth (Yang) and moisture (Yin) for all other organs.",
+    sections: [
+      {
+        title: "Understanding Essence (Jing)",
+        paragraphs: [
+          "At the core of the Kidney system is a concept called 'Essence' or 'Jing' (精). Jing is the dense, material foundation of life. You can think of it as your body's constitutional battery pack or your genetic inheritance.",
+        ],
+        bullets: [
+          "Pre-natal Jing: The fundamental constitution you inherit from your parents. This is a fixed reserve; you cannot add to it, you can only conserve it.",
+          "Post-natal Jing: The daily energy extracted from the food you eat and the air you breathe (managed by the Spleen and Lungs). This daily energy is used to support your activities, and any surplus is sent to the Kidneys to help protect and preserve your Pre-natal Jing.",
+        ],
+      },
+      {
+        title: "Signs of Depleted Kidney Essence",
+        paragraphs: [
+          "Because Jing governs growth, maturation, and aging, the natural decline of Jing over decades is what causes the normal signs of aging. However, chronic overwork, severe stress, poor diet, or lack of sleep can deplete Jing prematurely.",
+          "Traditional practitioners look for signs that the body's deep reserves are running low, such as:",
+        ],
+        bullets: [
+          "Premature graying or thinning of hair",
+          "Weakness or chronic soreness in the lower back and knees",
+          "A decline in memory, focus, or cognitive sharpness",
+          "Issues with reproductive health or vitality",
+          "A profound, deep-seated fatigue that isn't cured by a single night of sleep",
+          "Dental issues or brittle bones (as the Kidneys traditionally 'govern the bones')",
+        ],
+      },
+      {
+        title: "Traditional Approaches to Supporting Kidney Essence",
+        paragraphs: [
+          "Because you cannot easily replace lost Jing, traditional wellness focuses heavily on conservation. The primary strategy is to ensure your digestion (Spleen) is strong enough to extract maximum daily energy from food, so you don't have to draw from your deep Kidney reserves.",
+        ],
+        bullets: [
+          "Black Sesame Seeds: Used to support hair health and deep nourishment.",
+          "Walnuts: Used to support the brain and warm the lower back.",
+          "Goji Berries: Used to nourish Kidney Yin and Liver Blood.",
+          "Bone Broths: Traditionally viewed as deeply restorative to the bones and marrow.",
+        ],
+      },
+      {
+        title: "Lifestyle and Kitchen Notes",
+        paragraphs: [
+          "The most important traditional advice for protecting Kidney Essence is lifestyle-based: prioritizing adequate sleep, avoiding chronic overexertion, and managing stress. In the kitchen, focusing on warm, cooked, nutrient-dense meals ensures that the body gets the daily energy it needs, allowing the Kidneys to rest and preserve their vital reserves.",
+        ],
+      },
+      {
+        title: "Read This Page in Context",
+        paragraphs: [
+          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        ],
+      },
+    ],
+  },
 ];
 
 export const basicsArticles = rawBasicsArticles.map((article) => sanitizeContentArticle(article));

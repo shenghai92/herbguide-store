@@ -200,6 +200,11 @@ const rawBasicsCards = [
     title: "What Is Liver Qi Stagnation?",
     text: "A comprehensive guide to the traditional concept of Liver Qi Stagnation — how stress manifests physically, signs of stagnation, and traditional approaches to moving Liver Qi through diet and lifestyle.",
   },
+  {
+    slug: "what-is-kidney-essence",
+    title: "What Is Kidney Essence (Jing)?",
+    text: "A comprehensive guide to the traditional concept of Kidney Essence — the body's deepest constitutional reserve, the difference between pre-natal and post-natal Jing, and how to conserve it through diet and lifestyle.",
+  },
 ];
 
 export const basicsCards = rawBasicsCards.map((card) => sanitizeContentCard(card));
