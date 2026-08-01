@@ -195,6 +195,11 @@ const rawBasicsCards = [
     title: "What Is Phlegm in Traditional Wellness?",
     text: "A comprehensive guide to the traditional concept of Phlegm — the difference between visible and invisible Phlegm, signs of accumulation, and kitchen approaches to resolving it.",
   },
+  {
+    slug: "what-is-liver-qi-stagnation",
+    title: "What Is Liver Qi Stagnation?",
+    text: "A comprehensive guide to the traditional concept of Liver Qi Stagnation — how stress manifests physically, signs of stagnation, and traditional approaches to moving Liver Qi through diet and lifestyle.",
+  },
 ];
 
 export const basicsCards = rawBasicsCards.map((card) => sanitizeContentCard(card));

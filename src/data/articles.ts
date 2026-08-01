@@ -1781,6 +1781,56 @@ const rawBasicsArticles: ContentArticle[] = [
       },
     ],
   },
+  {
+    slug: "what-is-liver-qi-stagnation",
+    title: "What Is Liver Qi Stagnation?",
+    description:
+      "A comprehensive guide to the traditional concept of Liver Qi Stagnation — what the Liver represents, how stagnation manifests, traditional and dietary approaches, and practical lifestyle notes for moving Liver Qi.",
+    eyebrow: "Basics & Concepts",
+    intro:
+      "In traditional Chinese wellness practices, the 'Liver' (肝, Gān) refers to much more than the physical organ that detoxifies blood. It represents a systemic function responsible for ensuring the smooth, unhindered flow of energy (Qi), blood, and emotions throughout the body. Traditional theory states that the Liver 'loves movement and hates restriction.' When we are relaxed and our environment is harmonious, Liver Qi flows smoothly. When we are stressed, frustrated, or physically sedentary, this flow becomes blocked.",
+    sections: [
+      {
+        title: "Understanding Liver Qi Stagnation",
+        paragraphs: [
+          "'Liver Qi Stagnation' (肝气郁结, Gān Qì Yù Jié) is the traditional term for what happens when the smooth flow of energy is interrupted. In modern terms, it is the physical manifestation of chronic stress and emotional tension.",
+          "Because the Liver channel traverses the sides of the body, the chest, and the digestive organs, stagnation here can cause a wide variety of symptoms. Traditional practitioners often look for:",
+        ],
+        bullets: [
+          "A feeling of tightness, fullness, or distension in the chest, ribs, or upper abdomen",
+          "Frequent sighing (the body's subconscious attempt to move stuck Qi)",
+          "Irritability, mood swings, frustration, or a feeling of being 'wound up'",
+          "Digestive upset that worsens with stress (such as a nervous stomach or irregular bowel movements, traditionally described as 'Liver invading the Spleen')",
+          "Menstrual irregularities or premenstrual tension",
+        ],
+      },
+      {
+        title: "Traditional Approaches to Moving Liver Qi",
+        paragraphs: [
+          "The traditional approach to resolving Liver Qi Stagnation focuses on movement—both physical and energetic.",
+          "From an herbal and dietary perspective, ingredients that are aromatic, slightly pungent, and moving are used to 'soothe' the Liver. Common examples include:",
+        ],
+        bullets: [
+          "Mint (Bo He): Its aromatic, cooling nature helps gently disperse stuck energy and clear the head.",
+          "Rose Bud (Mei Gui Hua): Famous for gently moving Qi and Blood, particularly for emotional and menstrual comfort.",
+          "Citrus Peels (like Chen Pi): Used to break up stagnation in the chest and digestive tract.",
+          "Chrysanthemum: Used to clear heat that often builds up when Liver Qi is stagnant for too long.",
+        ],
+      },
+      {
+        title: "Lifestyle and Kitchen Notes",
+        paragraphs: [
+          "Diet alone cannot fix Liver Qi Stagnation if the root cause is a highly stressful lifestyle. Traditional frameworks emphasize that physical movement (like walking, stretching, or Tai Chi) is essential to physically pump the Qi and break up stagnation. From a culinary standpoint, adding aromatic herbs (like mint, cilantro, and fennel) and slightly sour foods (like lemon or vinegar, as sour is the flavor associated with the Liver) can help gently encourage flow and release tension.",
+        ],
+      },
+      {
+        title: "Read This Page in Context",
+        paragraphs: [
+          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        ],
+      },
+    ],
+  },
 ];
 
 export const basicsArticles = rawBasicsArticles.map((article) => sanitizeContentArticle(article));
