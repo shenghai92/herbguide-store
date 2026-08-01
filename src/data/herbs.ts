@@ -1630,6 +1630,56 @@ const rawHerbs: Herb[] = [
     tags: ["walnut", "he tao ren", "juglans regia", "yang tonic", "brain food", "omega-3", "kidney tonic", "cognitive health", "traditional Chinese nut"],
   },
   {
+    slug: "chestnut",
+    name: "Chestnut",
+    pinyin: "Li Zi",
+    chinese: "栗子",
+    latin: "Castanea mollissima (Chinese chestnut)",
+    partUsed: "Nut / Seed",
+    category: "Herbs that tonify Qi and Yang",
+    commonNames: "Chestnut, Sweet Chestnut",
+    arabicName: "كستناء (Kastana)",
+    summary: "A unique nut composed predominantly of complex carbohydrates — unlike oily tree nuts, it has a starchy, sweet, potato-like texture. This guide explores its traditional role as the 'fruit of the Kidneys,' and what modern science says about its high vitamin C content, dietary fiber, and sustained energy release.",
+    whatItIs:
+      "The chestnut (Castanea mollissima) is a unique nut. Unlike most tree nuts, which are high in fat and oil, the chestnut is predominantly composed of complex carbohydrates and water, giving it a starchy, sweet, potato-like texture when roasted or boiled. In traditional frameworks, it is considered the 'fruit of the Kidneys.' Today, what modern science says about chestnuts highlights their high vitamin C content, dietary fiber, and sustained energy release.",
+    nature: "Warm",
+    flavor: "Sweet",
+    channels: "Spleen, Stomach, Kidney",
+    traditionalUses: [
+      "In traditional frameworks, Chestnut (Li Zi) is categorized as a food that tonifies Qi and gently warms Yang. It is primarily associated with the Spleen, Stomach, and Kidney channels.",
+      "Tonifying the Spleen and Stomach. It is highly valued as a nourishing, easily digestible food that builds energy (Qi) and supports a healthy appetite.",
+      "Nourishing the Kidneys and strengthening the tendons and bones. It is traditionally recommended for older adults to support lower back and leg strength, and to maintain overall physical stamina.",
+      "Promoting healthy blood flow, traditionally used to support tissue recovery after physical exertion.",
+    ],
+    foodUses: ["Roasted chestnuts (winter snack)", "Simmered in soups and broths", "Steamed and mashed in porridge", "Chestnut and chicken stew"],
+    caution:
+      "Chestnuts are a safe, wholesome food. However, because they are dense and starchy, they must be chewed thoroughly. Traditional practice advises against eating too many raw chestnuts (which can be hard to digest) or consuming excessive amounts of cooked chestnuts at one time, as this can lead to bloating or a feeling of stagnation in the stomach. They are best enjoyed roasted, steamed, or simmered in soups.",
+    scientificSections: [
+      {
+        title: "Unique Nutritional Profile",
+        paragraphs: [
+          "Unlike oily nuts (like walnuts or almonds), chestnuts are low in fat and high in complex carbohydrates. Remarkably, they are one of the only nuts that contain a significant amount of Vitamin C—even after cooking, a substantial portion of this antioxidant vitamin remains. They are also an excellent source of essential minerals, particularly copper, manganese, and potassium.",
+        ],
+      },
+      {
+        title: "Digestive and Metabolic Support",
+        paragraphs: [
+          "The complex carbohydrates in chestnuts are accompanied by a high amount of dietary fiber. This combination ensures a slow, steady release of glucose into the bloodstream, supporting stable energy levels without rapid blood sugar spikes. The fiber also acts as a prebiotic, supporting a healthy gut microbiome and regular digestion, which aligns with its traditional use for supporting Spleen Qi.",
+        ],
+      },
+      {
+        title: "Bone and Structural Health",
+        paragraphs: [
+          "Chestnuts provide important trace minerals like copper and magnesium, which are essential for bone health, connective tissue formation, and iron absorption. This provides a modern nutritional basis for the traditional belief that chestnuts 'strengthen the tendons and bones.'",
+        ],
+      },
+    ],
+    references: [
+      "[1] WebMD. Health Benefits of Chestnuts. https://www.webmd.com/diet/health-benefits-chestnuts",
+    ],
+    tags: ["chestnut", "li zi", "castanea mollissima", "qi and yang tonic", "kidney support", "bone health", "complex carbohydrates", "vitamin C", "traditional Chinese nut"],
+  },
+  {
     slug: "adzuki-bean",
     name: "Adzuki Bean",
     pinyin: "Chi Xiao Dou",
