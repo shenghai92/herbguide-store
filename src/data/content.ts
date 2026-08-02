@@ -210,6 +210,11 @@ const rawBasicsCards = [
     title: "What Is Lung Qi?",
     text: "A comprehensive guide to the traditional concept of Lung Qi — the functional energy of the respiratory system, how the Lungs govern the body's defensive Wei Qi, and traditional approaches to supporting Lung Qi through diet and lifestyle.",
   },
+  {
+    slug: "what-is-heart-fire",
+    title: "What Is Heart Fire?",
+    text: "A comprehensive guide to the traditional concept of Heart Fire — how excess heat in the Heart system manifests physically and emotionally, signs to recognize, and traditional approaches to clearing Heart Fire through diet and lifestyle.",
+  },
 ];
 
 export const basicsCards = rawBasicsCards.map((card) => sanitizeContentCard(card));
