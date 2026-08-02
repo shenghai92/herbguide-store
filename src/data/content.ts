@@ -448,6 +448,11 @@ const rawRecipeCards = [
     title: "Black Sesame and Walnut Porridge for Healthy Aging",
     text: "A classic traditional recipe — black sesame seed and walnut combined in a warming porridge for sustained energy and healthy aging support.",
   },
+  {
+    slug: "chestnut-chicken-soup-for-stamina",
+    title: "Chestnut and Chicken Soup for Stamina",
+    text: "A classic autumn and winter comfort soup — chestnut and chicken paired for building energy and warming the body, with clear steps and traditional kitchen context.",
+  },
 ];
 
 export const recipeCards = rawRecipeCards.map((card) => sanitizeContentCard(card));
