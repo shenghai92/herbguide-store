@@ -1951,6 +1951,62 @@ const rawBasicsArticles: ContentArticle[] = [
       },
     ],
   },
+  {
+    slug: "what-is-heart-fire",
+    title: "What Is Heart Fire?",
+    description:
+      "A comprehensive guide to the traditional concept of Heart Fire — how excess heat localized in the Heart system manifests physically and emotionally, signs to recognize, and traditional approaches to clearing Heart Fire through diet and lifestyle.",
+    eyebrow: "Basics & Concepts",
+    intro:
+      "In traditional Chinese wellness practices, the 'Heart' (心, Xīn) is considered the 'Emperor' or 'Monarch' of all the organ systems. It is responsible not only for circulating Blood through the vessels but also for housing the 'Shen' (神)—the spirit, mind, and consciousness. When the Heart is balanced, a person experiences clear thinking, restful sleep, and emotional steadiness. When it is out of balance, emotional and psychological symptoms are often the first to appear.",
+    sections: [
+      {
+        title: "Understanding Heart Fire",
+        paragraphs: [
+          "'Heart Fire' (心火, Xīn Huǒ) is a traditional concept describing a state of hyperactive, excess heat localized in the Heart system. In traditional theory, 'Fire' always moves upward and outward, causing symptoms of restlessness and heat in the upper body.",
+          "This condition is most commonly triggered by chronic emotional stress, deep-seated frustration, anxiety, or consuming too many hot, spicy, or stimulating foods and beverages (like excess alcohol or coffee).",
+        ],
+      },
+      {
+        title: "Signs of Heart Fire",
+        paragraphs: [
+          "Because the Heart houses the mind and traditionally 'opens into the tongue,' signs of Heart Fire manifest both emotionally and physically in the upper body:",
+        ],
+        bullets: [
+          "Severe restlessness, agitation, or a feeling of being constantly 'wired'",
+          "Difficulty falling asleep or sleep disturbed by vivid, exhausting dreams",
+          "A red, flushed face or a feeling of heat in the chest",
+          "Mouth sores, particularly on the tip of the tongue (the area of the tongue traditionally associated with the Heart)",
+          "A bitter taste in the mouth upon waking",
+          "Dark, scanty urine (as the heat consumes body fluids)",
+        ],
+      },
+      {
+        title: "Traditional Approaches to Clearing Heart Fire",
+        paragraphs: [
+          "The traditional strategy for addressing Heart Fire involves using ingredients that are 'Cold' or 'Cool' in nature and 'Bitter' in flavor, as the bitter flavor is traditionally believed to drain heat downward and clear the Heart.",
+        ],
+        bullets: [
+          "Lotus Seed Heart (Lian Zi Xin): The green germ inside the lotus seed is intensely bitter and is a classic remedy for clearing Heart heat and calming the mind.",
+          "Chrysanthemum (Ju Hua): Often used as a cooling tea to gently clear heat from the upper body.",
+          "Mung Bean (Lu Dou): A classic cooling food used to clear systemic heat and soothe irritability.",
+          "Reishi Mushroom (Ling Zhi): While not strongly cold, its bitter nature helps calm the Shen and settle a restless mind.",
+        ],
+      },
+      {
+        title: "Lifestyle and Kitchen Notes",
+        paragraphs: [
+          "Dietary adjustments are crucial when addressing Heart Fire. Traditional frameworks strongly advise eliminating spicy foods, heavy red meats, alcohol, and excessive caffeine, as these act like 'fuel' for the fire. Instead, the diet should focus on cooling, hydrating foods like cucumber, watermelon, celery, and green tea. Equally important is lifestyle modification: incorporating meditation, quiet rest, and activities that actively reduce emotional friction and stress.",
+        ],
+      },
+      {
+        title: "Read This Page in Context",
+        paragraphs: [
+          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        ],
+      },
+    ],
+  },
 ];
 
 export const basicsArticles = rawBasicsArticles.map((article) => sanitizeContentArticle(article));
