@@ -4440,4 +4440,73 @@ export const foodTherapyArticles: ContentArticle[] = [
       "[2] Healthline. 15 Health and Nutrition Benefits of Sesame Seeds. https://www.healthline.com/nutrition/sesame-seeds",
     ],
   },
+  {
+    slug: "chestnut-chicken-soup-for-stamina",
+    title: "Chestnut and Chicken Soup for Stamina",
+    description: "A classic autumn and winter comfort soup — chestnut and chicken paired for building energy (Qi) and warming the body. Includes ingredients, step-by-step preparation, safety notes, and related herb links.",
+    eyebrow: "Kitchen Traditions",
+    intro: "Chestnut (Castanea mollissima) and chicken is a classic, comforting pairing in East Asian culinary traditions, especially during the autumn and winter months. In traditional frameworks, this combination is highly regarded for its ability to build energy (Qi) and warm the body. Chicken is considered a warm, nourishing meat that tonifies the Spleen and Stomach, while chestnuts specifically target the Kidneys, supporting lower back strength and overall physical stamina.",
+    recipe: {
+      recipeYield: "4 servings",
+      prepTime: "PT15M",
+      totalTime: "PT1H50M",
+      ingredients: [
+        "1 lb (about 450g) bone-in chicken pieces (thighs or drumsticks work best for broth)",
+        "1 cup peeled, roasted or boiled chestnuts (Castanea mollissima)",
+        "3-4 slices fresh ginger (Zingiber officinale)",
+        "1 tablespoon goji berries (Lycium barbarum) (optional, for added sweetness and color)",
+        "6 cups water",
+        "Salt to taste",
+      ],
+      steps: [
+        "Blanch the chicken: Place the chicken pieces in a pot of boiling water for 3-5 minutes to remove impurities. Drain and rinse the chicken under cold water.",
+        "Build the soup: In a clean soup pot or slow cooker, combine the blanched chicken, fresh ginger slices, and 6 cups of water.",
+        "Simmer: Bring to a boil, then reduce the heat to the lowest setting. Cover and simmer gently for 1 hour.",
+        "Add the chestnuts: Add the peeled chestnuts to the pot. Continue to simmer for another 30-40 minutes until the chicken is fall-off-the-bone tender and the chestnuts are soft but still holding their shape.",
+        "Final touches: Stir in the goji berries during the last 5 minutes of cooking. Season with salt to taste before serving.",
+      ],
+      servingNotes: [
+        "This is a deeply nourishing, warming soup ideal for recovery after exertion or during cold weather.",
+        "Bone-in chicken pieces (especially thighs and drumsticks) yield the richest, most flavorful broth.",
+      ],
+      caution: [
+        "Because this is a 'building' (tonifying) recipe, traditional practice advises pausing consumption if you are experiencing the acute onset of a cold or flu, as heavy, nourishing foods can sometimes make the digestive system sluggish.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why It Works: Tradition Meets Science",
+        paragraphs: [
+          "Chestnut (Castanea mollissima) and chicken is a classic, comforting pairing in East Asian culinary traditions, especially during the autumn and winter months. In traditional frameworks, this combination is highly regarded for its ability to build energy (Qi) and warm the body. Chicken is considered a warm, nourishing meat that tonifies the Spleen and Stomach, while chestnuts specifically target the Kidneys, supporting lower back strength and overall physical stamina.",
+          "Modern nutritional analysis shows why this soup is so revitalizing. Chicken provides high-quality, easily digestible protein and essential amino acids necessary for tissue repair. Chestnuts, unlike oily tree nuts, are rich in complex carbohydrates and vitamin C, providing a slow, sustained release of energy. Together, they create a balanced, low-fat, nutrient-dense meal that supports metabolic wellness and physical endurance without overburdening the digestive system.",
+        ],
+      },
+      {
+        title: "Safety and Caution Details",
+        paragraphs: [
+          "This is a deeply nourishing, warming soup ideal for recovery after exertion or during cold weather. Because it is a 'building' (tonifying) recipe, traditional practice advises pausing consumption if you are experiencing the acute onset of a cold or flu, as heavy, nourishing foods can sometimes make the digestive system sluggish when it needs to focus on clearing an external stressor.",
+        ],
+      },
+      {
+        title: "Related herb pages for this recipe",
+        paragraphs: [
+          "These kitchen pages perform best when they connect directly to ingredient profiles so readers can check traditional terms, food uses, and caution notes in one place.",
+        ],
+        bullets: [
+          "Chestnut",
+          "Fresh Ginger",
+          "Goji Berry",
+        ],
+      },
+      {
+        title: "Back to Kitchen Traditions",
+        paragraphs: [
+          "This article is part of the Kitchen Traditions section. Return there for more kitchen-focused reading and ingredient ideas.",
+        ],
+      },
+    ],
+    references: [
+      "[1] WebMD. Health Benefits of Chestnuts. https://www.webmd.com/diet/health-benefits-chestnuts",
+    ],
+  },
 ];
