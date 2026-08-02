@@ -1891,6 +1891,66 @@ const rawBasicsArticles: ContentArticle[] = [
       },
     ],
   },
+  {
+    slug: "what-is-lung-qi",
+    title: "What Is Lung Qi?",
+    description:
+      "A comprehensive guide to the traditional concept of Lung Qi — the functional energy of the respiratory system, how the Lungs govern the body's defensive barrier, signs of weakness, and traditional approaches to supporting Lung Qi through diet and lifestyle.",
+    eyebrow: "Basics & Concepts",
+    intro:
+      "In traditional Chinese wellness practices, the 'Lungs' (肺, Fèi) are often referred to as the 'Canopy' of the internal organs because of their high physical position in the chest. However, their traditional function extends far beyond respiration. The Lungs are considered the delicate intermediary between the body and the outside world. They are responsible for taking in fresh Qi from the air, mixing it with the Qi extracted from food by the Spleen, and distributing this energy throughout the body.",
+    sections: [
+      {
+        title: "Understanding Lung Qi",
+        paragraphs: [
+          "'Lung Qi' (肺气, Fèi Qì) specifically refers to the functional energy of the respiratory system and its associated pathways. Its primary traditional functions include:",
+        ],
+        bullets: [
+          "Governing Respiration: Taking in the 'clear' Qi of the air and expelling the 'turbid' Qi.",
+          "Diffusing and Descending: Sending energy and fluids outward to the skin (diffusing) and downward to the Kidneys and Bladder (descending).",
+          "Controlling the Exterior (Wei Qi): The Lungs manage the opening and closing of the pores and govern the Defensive Qi (Wei Qi), which acts as the body's protective shield against external stressors like wind and cold.",
+        ],
+      },
+      {
+        title: "Signs of Weak Lung Qi",
+        paragraphs: [
+          "Because the Lungs are in constant contact with the external environment, they are considered the most vulnerable organ system. When Lung Qi is weak, the body's protective barrier and respiratory functions are compromised. Traditional practitioners often look for:",
+        ],
+        bullets: [
+          "A weak, quiet voice or a reluctance to speak",
+          "Shortness of breath, especially after mild physical exertion",
+          "A chronic, weak cough",
+          "Frequent susceptibility to seasonal stressors (catching colds easily)",
+          "Spontaneous sweating during the day without exertion (because the Lungs are failing to regulate the pores)",
+          "A pale complexion and a general feeling of low energy",
+        ],
+      },
+      {
+        title: "Traditional Approaches to Supporting Lung Qi",
+        paragraphs: [
+          "The traditional approach to supporting Lung Qi involves herbs and foods that are slightly warm, sweet, and nourishing, as well as practices that strengthen the Spleen (since the Spleen is traditionally viewed as the 'mother' of the Lungs, providing the raw material for Lung Qi).",
+        ],
+        bullets: [
+          "Astragalus Root (Huang Qi): The premier herb for boosting Lung Qi and strengthening the defensive Wei Qi.",
+          "Codonopsis (Dang Shen) or Ginseng: Used to support both Spleen and Lung energy.",
+          "Chinese Yam (Shan Yao): A gentle, neutral food that supports the Spleen-Lung connection.",
+          "Walnuts: Used to help the Kidneys 'grasp' the Lung Qi, supporting deep, steady breathing.",
+        ],
+      },
+      {
+        title: "Lifestyle and Kitchen Notes",
+        paragraphs: [
+          "From a lifestyle perspective, protecting the Lungs involves avoiding extreme exposure to cold, wind, and dry environments. Deep breathing exercises (like Qi Gong or simply mindful diaphragmatic breathing) are considered essential for maintaining strong Lung Qi. In the kitchen, avoiding overly cold or raw foods helps protect the Spleen, which in turn ensures the Lungs receive adequate nourishment.",
+        ],
+      },
+      {
+        title: "Read This Page in Context",
+        paragraphs: [
+          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        ],
+      },
+    ],
+  },
 ];
 
 export const basicsArticles = rawBasicsArticles.map((article) => sanitizeContentArticle(article));

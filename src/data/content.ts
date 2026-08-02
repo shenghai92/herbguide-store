@@ -205,6 +205,11 @@ const rawBasicsCards = [
     title: "What Is Kidney Essence (Jing)?",
     text: "A comprehensive guide to the traditional concept of Kidney Essence — the body's deepest constitutional reserve, the difference between pre-natal and post-natal Jing, and how to conserve it through diet and lifestyle.",
   },
+  {
+    slug: "what-is-lung-qi",
+    title: "What Is Lung Qi?",
+    text: "A comprehensive guide to the traditional concept of Lung Qi — the functional energy of the respiratory system, how the Lungs govern the body's defensive Wei Qi, and traditional approaches to supporting Lung Qi through diet and lifestyle.",
+  },
 ];
 
 export const basicsCards = rawBasicsCards.map((card) => sanitizeContentCard(card));
