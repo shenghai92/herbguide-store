@@ -443,6 +443,11 @@ const rawRecipeCards = [
     title: "Mung Bean Soup for Summer Heat",
     text: "The quintessential summer beverage in East Asian traditions — a cooling mung bean soup for hot weather.",
   },
+  {
+    slug: "black-sesame-walnut-porridge-for-healthy-aging",
+    title: "Black Sesame and Walnut Porridge for Healthy Aging",
+    text: "A classic traditional recipe — black sesame seed and walnut combined in a warming porridge for sustained energy and healthy aging support.",
+  },
 ];
 
 export const recipeCards = rawRecipeCards.map((card) => sanitizeContentCard(card));

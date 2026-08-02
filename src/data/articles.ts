@@ -4367,4 +4367,77 @@ export const foodTherapyArticles: ContentArticle[] = [
       "[1] Healthline. 10 Health Benefits of Mung Beans. https://www.healthline.com/nutrition/mung-bean-benefits",
     ],
   },
+  {
+    slug: "black-sesame-walnut-porridge-for-healthy-aging",
+    title: "Black Sesame and Walnut Porridge for Healthy Aging",
+    description:
+      "A classic traditional recipe pairing black sesame seed and walnut — two ingredients deeply nourishing to the Kidneys and brain. Includes ingredients, step-by-step preparation, safety notes, and related herb links.",
+    eyebrow: "Kitchen Traditions",
+    intro:
+      "In traditional Chinese wellness, the pairing of Black Sesame Seed (Sesamum indicum) and Walnut (Juglans regia) is a classic recipe for supporting healthy aging. Traditional frameworks view both ingredients as deeply nourishing to the Kidneys—the organ system believed to govern longevity, bone health, and the brain. Black sesame is prized for nourishing Kidney Yin and Blood, while walnut warms Kidney Yang and supports the 'marrow' (which traditionally includes the brain). Modern nutritional science provides robust support for this ancient pairing, with black sesame seeds providing unique lignans and vitamin E for antioxidant protection, and walnuts providing the premier plant source of omega-3 fatty acids.",
+    recipe: {
+      recipeYield: "2 bowls",
+      prepTime: "PT5M",
+      totalTime: "PT25M",
+      ingredients: [
+        "3 tablespoons black sesame seeds (Sesamum indicum), lightly toasted",
+        "1/4 cup walnuts (Juglans regia), roughly chopped",
+        "1/2 cup rolled oats or short-grain rice (as the porridge base)",
+        "2 cups water or unsweetened almond milk",
+        "Optional: 1-2 teaspoons honey or maple syrup to taste",
+      ],
+      steps: [
+        "Toast the seeds (if raw): Place the black sesame seeds in a dry skillet over medium-low heat. Stir constantly for 3-5 minutes until they become fragrant. (Be careful not to burn them, as they will turn bitter).",
+        "Prepare the base: In a small pot, combine the oats (or rice) and water/milk. Bring to a gentle boil, then reduce the heat to low.",
+        "Add the nuts and seeds: Stir in the toasted black sesame seeds and chopped walnuts.",
+        "Simmer: Cover and let the porridge simmer gently. If using oats, cook for 10-15 minutes until creamy. If using rice, simmer for 30-40 minutes until the rice breaks down into a soft congee.",
+        "Serve: Remove from heat, stir in sweetener if desired, and enjoy warm.",
+      ],
+      servingNotes: [
+        "This porridge is rich, warming, and dense in healthy fats — an excellent breakfast for cooler weather or for individuals seeking sustained energy.",
+        "Lightly toasting the black sesame seeds before adding them to the porridge enhances their nutty flavor and aroma.",
+        "For a smoother texture, the toasted sesame seeds can be ground into a powder before adding to the pot.",
+      ],
+      caution: [
+        "Because this porridge is heavy and oily, traditional practice advises consuming it in moderation if you are experiencing acute digestive sluggishness, a heavy feeling in the stomach, or loose stools.",
+        "Individuals with tree nut or sesame allergies must avoid this recipe.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why It Works: Tradition Meets Science",
+        paragraphs: [
+          "In traditional Chinese wellness, the pairing of Black Sesame Seed (Sesamum indicum) and Walnut (Juglans regia) is a classic recipe for supporting healthy aging. Traditional frameworks view both ingredients as deeply nourishing to the Kidneys—the organ system believed to govern longevity, bone health, and the brain. Black sesame is prized for nourishing Kidney Yin and Blood, while walnut warms Kidney Yang and supports the 'marrow' (which traditionally includes the brain).",
+          "Modern nutritional science provides robust support for this ancient pairing. Black sesame seeds are rich in unique lignans (like sesamin) and vitamin E, which offer powerful antioxidant protection against cellular aging. Walnuts are the premier plant source of omega-3 fatty acids (ALA) and polyphenols, which are extensively researched for their neuroprotective and cardiovascular benefits. Together, they create a nutrient-dense, healthy-fat powerhouse that supports cognitive function and cellular resilience.",
+        ],
+      },
+      {
+        title: "Safety and Caution Details",
+        paragraphs: [
+          "This porridge is rich, warming, and dense in healthy fats. It is an excellent breakfast for cooler weather or for individuals seeking sustained energy. However, because it is heavy and oily, traditional practice advises consuming it in moderation if you are experiencing acute digestive sluggishness, a heavy feeling in the stomach, or loose stools.",
+          "Individuals with tree nut or sesame allergies must avoid this recipe.",
+        ],
+      },
+      {
+        title: "Related herb pages for this recipe",
+        paragraphs: [
+          "These kitchen pages perform best when they connect directly to ingredient profiles so readers can check traditional terms, food uses, and caution notes in one place.",
+        ],
+        bullets: [
+          "Black Sesame Seed",
+          "Walnut",
+        ],
+      },
+      {
+        title: "Back to Kitchen Traditions",
+        paragraphs: [
+          "This article is part of the Kitchen Traditions section. Return there for more kitchen-focused reading and ingredient ideas.",
+        ],
+      },
+    ],
+    references: [
+      "[1] Healthline. 13 Proven Health Benefits of Walnuts. https://www.healthline.com/nutrition/benefits-of-walnuts",
+      "[2] Healthline. 15 Health and Nutrition Benefits of Sesame Seeds. https://www.healthline.com/nutrition/sesame-seeds",
+    ],
+  },
 ];
