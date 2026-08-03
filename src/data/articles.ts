@@ -1832,6 +1832,72 @@ const rawBasicsArticles: ContentArticle[] = [
     ],
   },
   {
+    slug: "what-is-yang-deficiency",
+    title: "What Is Yang Deficiency?",
+    description:
+      "A comprehensive guide to the traditional concept of Yang Deficiency — what Yang represents, how deficiency manifests as internal coldness and sluggishness, signs, causes, traditional approaches to warming Yang, and lifestyle and kitchen notes.",
+    eyebrow: "Basics & Concepts",
+    intro:
+      "In the traditional philosophy of Yin and Yang, 'Yang' represents the warming, active, moving, and transformative aspects of the body. It is the metabolic fire that drives digestion, the energy that keeps the body warm, and the force that circulates fluids and blood. In the body, Yang is the functional energy—the 'pilot light' that keeps the physical structure (Yin) active and alive.",
+    sections: [
+      {
+        title: "Understanding Yang Deficiency",
+        paragraphs: [
+          "'Yang Deficiency' (阳虚, Yáng Xū) occurs when the body's warming and active energy is depleted. When there is not enough Yang (fire/warmth) to balance the Yin (water/coolness), the body experiences a state of internal coldness and sluggishness.",
+          "If Yin Deficiency is like an engine running hot because it lacks oil, Yang Deficiency is like an engine that cannot start because the battery is weak and the environment is freezing.",
+        ],
+      },
+      {
+        title: "Signs of Yang Deficiency",
+        paragraphs: [
+          "Because Yang Deficiency involves a lack of metabolic fire, traditional practitioners look for signs of chronic coldness, fluid retention, and sluggish function:",
+        ],
+        bullets: [
+          "Coldness: A profound aversion to cold, feeling cold to the bone, and constantly having cold hands and feet.",
+          "Sluggish Digestion: Poor appetite, a feeling of heaviness after eating, and a tendency toward loose, watery stools (especially early in the morning).",
+          "Fluid Retention: Because there is not enough 'heat' to evaporate and circulate fluids, individuals may experience edema (swelling), particularly in the lower legs and ankles.",
+          "Lethargy: A deep, physical exhaustion, a desire to sleep excessively, and a lack of motivation or drive.",
+          "Physical Signs: A pale, swollen tongue (often with teeth marks on the edges) and a pale complexion.",
+        ],
+      },
+      {
+        title: "Causes of Yang Deficiency",
+        paragraphs: [
+          "Yang naturally declines with age, which is why older adults often feel the cold more acutely. However, it can be accelerated by:",
+        ],
+        bullets: [
+          "A diet excessively high in cold, raw foods (like iced drinks, raw salads, and ice cream), which forces the digestive 'fire' to work overtime.",
+          "Prolonged exposure to cold environments without adequate protection.",
+          "Chronic illness or severe physical exhaustion that drains the body's deep reserves.",
+        ],
+      },
+      {
+        title: "Traditional Approaches to Warming Yang",
+        paragraphs: [
+          "The traditional strategy is to gently rebuild the body's internal fire using ingredients that are 'Warm' or 'Hot,' 'Sweet,' and often slightly pungent.",
+        ],
+        bullets: [
+          "Walnuts (He Tao Ren): Warms the Kidneys and the lower back.",
+          "Fresh Ginger (Sheng Jiang): Warms the Spleen and Stomach, driving out digestive cold.",
+          "Cinnamon and Clove: Highly warming spices used to stimulate circulation and metabolic fire.",
+          "Chestnuts (Li Zi): Gently warms and nourishes the Spleen and Kidneys.",
+        ],
+      },
+      {
+        title: "Lifestyle and Kitchen Notes",
+        paragraphs: [
+          "For those experiencing Yang Deficiency, traditional frameworks emphasize warmth in all aspects of life. In the kitchen, this means avoiding raw, cold foods entirely. Meals should consist of warm, cooked, easily digestible foods like soups, stews, and roasted root vegetables. Lifestyle adjustments include keeping the lower back, abdomen, and feet warmly dressed, and engaging in gentle, warming exercise (like walking or Tai Chi) to promote circulation without causing excessive sweating (which would further deplete energy).",
+        ],
+      },
+      {
+        title: "Read This Page in Context",
+        paragraphs: [
+          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "what-is-kidney-essence",
     title: "What Is Kidney Essence (Jing)?",
     description:
