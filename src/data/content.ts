@@ -220,6 +220,11 @@ const rawBasicsCards = [
     title: "What Is Yang Deficiency?",
     text: "A comprehensive guide to the traditional concept of Yang Deficiency — what Yang represents, signs of internal coldness and sluggishness, causes, and traditional approaches to warming Yang through diet and lifestyle.",
   },
+  {
+    slug: "what-is-blood-stasis",
+    title: "What Is Blood Stasis?",
+    text: "A comprehensive guide to the traditional concept of Blood Stasis — what Blood represents, how stasis differs from stagnation, signs of localized blood obstruction, causes, and traditional approaches to moving Blood through diet and lifestyle.",
+  },
 ];
 
 export const basicsCards = rawBasicsCards.map((card) => sanitizeContentCard(card));

@@ -1084,6 +1084,71 @@ const rawBasicsArticles: ContentArticle[] = [
     ],
   },
   {
+    slug: "what-is-blood-stasis",
+    title: "What Is Blood Stasis?",
+    description:
+      "A comprehensive guide to the traditional concept of Blood Stasis — what Blood represents, how stasis differs from stagnation, signs of localized blood obstruction, causes, traditional approaches to moving Blood, and lifestyle and kitchen notes.",
+    eyebrow: "Basics & Concepts",
+    intro:
+      "In traditional Chinese wellness practices, 'Blood' (血, Xuě) is more than just the red fluid in the veins. It is a dense, nourishing substance that provides the material foundation for the body and the mind. It moistens the tissues, nourishes the organs, and provides the physical 'home' for the Shen (spirit/mind). For Blood to perform its nourishing function, it must circulate smoothly and continuously, driven by the pumping action of Qi (energy).",
+    sections: [
+      {
+        title: "Understanding Blood Stasis",
+        paragraphs: [
+          "'Blood Stasis' (血瘀, Xuě Yū) occurs when the flow of blood slows down, pools, or becomes obstructed. In traditional theory, 'Where there is free flow, there is no pain; where there is pain, there is no free flow.' Blood Stasis is considered one of the primary traditional causes of localized, sharp discomfort.",
+          "You can think of Blood Stasis like a traffic jam on a highway. When cars (blood) stop moving smoothly, congestion builds up, causing pressure and localized issues.",
+        ],
+      },
+      {
+        title: "Signs of Blood Stasis",
+        paragraphs: [
+          "Because Blood Stasis involves a physical blockage of circulation, its signs are often highly localized, fixed, and visible:",
+        ],
+        bullets: [
+          "Discomfort: Pain that is sharp, stabbing, and fixed in one specific location. Unlike Qi Stagnation (which causes a moving, dull ache or bloating), Blood Stasis pain does not move.",
+          "Visible Signs: Dark, purplish discoloration. This can manifest as dark circles under the eyes, purplish lips, spider veins, or a tendency to bruise easily.",
+          "Menstrual Signs: For women, Blood Stasis is often associated with dark menstrual blood, clots, and sharp cramps.",
+          "Physical Signs: A tongue that is dark purple or has distinct purple spots, and veins under the tongue that are dark and distended.",
+        ],
+      },
+      {
+        title: "Causes of Blood Stasis",
+        paragraphs: [
+          "Blood Stasis rarely happens on its own; it is usually the result of another underlying imbalance:",
+        ],
+        bullets: [
+          "Qi Stagnation: If the energy (Qi) stops moving, it cannot push the blood. (Chronic stress leading to physical tension).",
+          "Cold: Just as a river freezes in winter, internal cold causes blood vessels to constrict and circulation to slow down.",
+          "Qi Deficiency: If the body is too weak, it lacks the force to pump the blood efficiently.",
+          "Physical Trauma: An injury, surgery, or impact physically disrupts the local blood vessels, causing immediate stasis (a bruise).",
+        ],
+      },
+      {
+        title: "Traditional Approaches to Moving Blood",
+        paragraphs: [
+          "The traditional strategy is to 'invigorate' or 'move' the blood and break up the stasis using ingredients that are moving, slightly pungent, and sometimes warm (if cold is the root cause).",
+        ],
+        bullets: [
+          "Hawthorn Berry (Shan Zha): Traditionally used to move blood and disperse stasis, particularly in the chest and digestive tract.",
+          "Rose Bud (Mei Gui Hua): Gently moves Qi and Blood, commonly used for menstrual comfort.",
+          "Turmeric and Saffron: Potent spices traditionally used to invigorate circulation and ease joint and muscle discomfort.",
+        ],
+      },
+      {
+        title: "Lifestyle and Kitchen Notes",
+        paragraphs: [
+          "Movement is the antidote to stasis. Regular, moderate cardiovascular exercise is considered essential for keeping the blood flowing smoothly. In the kitchen, incorporating warming, moving spices (like ginger, turmeric, and garlic) and slightly sour foods (like hawthorn or vinegar, which interact with the Liver channel that stores blood) can help support healthy circulation. It is also important to avoid overly cold foods, which can cause vessels to constrict.",
+        ],
+      },
+      {
+        title: "Read This Page in Context",
+        paragraphs: [
+          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "what-is-food-stagnation",
     title: "What Is Food Stagnation?",
     description:
