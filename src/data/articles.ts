@@ -4424,51 +4424,52 @@ export const foodTherapyArticles: ContentArticle[] = [
     slug: "mung-bean-soup-for-summer-heat",
     title: "Mung Bean Soup for Summer Heat",
     description:
-      "The quintessential summer beverage in East Asian traditions — mung bean soup prized for its cooling nature. Includes ingredients, step-by-step preparation, safety notes, and related herb links.",
+      "The quintessential summer beverage across East Asia — mung bean soup prized for its cooling nature. Includes two preparation methods (clear broth for quick cooling, hearty soup for dessert), safety notes, and related herb links.",
     eyebrow: "Kitchen Traditions",
     intro:
-      "Mung bean (Vigna radiata) soup is the quintessential summer beverage in East Asian traditions. In traditional frameworks, mung beans are prized for their cold nature and their ability to clear summer heat and resolve toxicity. They are used to cool the body down, quench thirst, and soothe heat-related irritability. Modern nutritional science confirms that mung beans are rich in phenolic acids and flavonoids, particularly vitexin and isovitexin, which are concentrated in the green seed coat and help protect cells from heat-induced oxidative stress.",
+      "Mung Bean (Vigna radiata) soup is the quintessential summer beverage across East Asia. When the weather is sweltering and humid, traditional frameworks recommend this simple, slightly sweet broth to 'clear Summer Heat' and 'resolve toxicity.' The mung bean is highly valued for its cold nature, which rapidly cools the body, quenches thirst, and soothes the irritability that often accompanies extreme heat. Modern nutritional science supports the use of mung beans for heat relief — they are exceptionally rich in potassium, magnesium, and B vitamins, electrolytes that are rapidly lost through sweating.",
     recipe: {
       recipeYield: "2 to 3 servings",
       prepTime: "PT5M",
-      totalTime: "PT55M",
+      totalTime: "PT25M (clear broth) to PT55M (hearty soup)",
       ingredients: [
-        "1/2 cup dried mung beans (Vigna radiata)",
-        "4-5 cups water",
-        "Optional: Rock sugar to taste",
-        "Optional: A slice of fresh ginger (to balance the cold nature)",
+        "1/2 cup dried mung beans (Vigna radiata), rinsed well",
+        "5 to 6 cups water",
+        "2-3 tablespoons rock sugar or raw cane sugar (adjust to taste)",
+        "Optional: A small piece of dried tangerine peel (Chen Pi) to aid digestion",
       ],
       steps: [
-        "Rinse the mung beans thoroughly under cold water.",
-        "In a medium pot, combine the mung beans and water. Add the ginger slice if using.",
-        "Bring to a boil over high heat.",
-        "Reduce the heat to low, cover, and simmer for 40-50 minutes, or until the beans have burst open and are tender.",
-        "Stir in rock sugar to taste during the last 5 minutes of cooking.",
-        "Serve warm or at room temperature. (Traditional practice advises against serving it ice-cold, as this can shock the digestive system).",
+        "Rinse and soak (optional): Rinse the mung beans thoroughly. While not strictly necessary, soaking them for 1-2 hours can speed up the cooking time.",
+        "Boil the water: In a medium pot, bring the 5-6 cups of water to a rolling boil.",
+        "Add the beans: Add the rinsed mung beans (and the tangerine peel, if using) to the boiling water.",
+        "Simmer for clear broth (for heat relief): If your primary goal is rapid cooling and hydration, boil the beans for just 15-20 minutes until the water turns a clear, greenish-yellow, but the beans have not yet burst. You can drink this clear broth throughout the day.",
+        "Simmer for a hearty soup: If you prefer a more substantial dessert soup, reduce the heat, cover, and simmer for 40-50 minutes until the beans burst open and the soup becomes slightly cloudy and thick.",
+        "Sweeten: Stir in the rock sugar until dissolved. Remove from heat.",
+        "Serve: Mung bean soup can be served warm, at room temperature, or chilled in the refrigerator for a refreshing summer treat.",
       ],
       servingNotes: [
-        "This soup is best consumed during hot weather or when experiencing signs of internal heat.",
-        "The optional ginger slice helps balance the strongly cooling nature of the mung beans.",
-        "For a lighter version, reduce the beans to 1/3 cup; for a thicker soup, keep the full 1/2 cup.",
+        "The clear broth version (15-20 minute simmer) is ideal for rapid cooling and hydration — the water turns a clear, greenish-yellow color.",
+        "The hearty soup version (40-50 minute simmer) is better as a more substantial dessert soup, with the beans bursting open and the soup becoming slightly cloudy.",
+        "Chen Pi (aged tangerine peel) is a traditional addition that helps support digestion and balance the cooling nature of the beans.",
       ],
       caution: [
-        "Because mung beans are strongly cooling, this soup is best consumed during hot weather or when experiencing signs of internal heat.",
-        "Individuals with a 'cold' or sensitive digestive constitution (who frequently experience loose stools or feel cold easily) should consume it in moderation and are encouraged to include the ginger slice to provide a warming balance.",
+        "Mung bean soup is an excellent, hydrating food for hot weather. However, because the beans are energetically 'cold,' traditional practice advises against consuming large quantities of chilled mung bean soup if you have a 'cold' digestive constitution.",
+        "Pregnant women and those taking prescription medications should consume it in moderation, as its strong 'clearing' nature may interact with certain wellness protocols.",
       ],
     },
     sections: [
       {
         title: "Why It Works: Tradition Meets Science",
         paragraphs: [
-          "Mung bean (Vigna radiata) soup is the quintessential summer beverage in East Asian traditions. In traditional frameworks, mung beans are prized for their cold nature and their ability to clear summer heat and resolve toxicity. They are used to cool the body down, quench thirst, and soothe heat-related irritability.",
-          "Modern nutritional science confirms that mung beans are rich in phenolic acids and flavonoids, particularly vitexin and isovitexin, which are concentrated in the green seed coat. These antioxidants help protect cells from heat-induced oxidative stress. Furthermore, the high water and electrolyte content of the soup helps support hydration during hot weather.",
+          "Mung Bean (Vigna radiata) soup is the quintessential summer beverage across East Asia. When the weather is sweltering and humid, traditional frameworks recommend this simple, slightly sweet broth to 'clear Summer Heat' and 'resolve toxicity.' The mung bean is highly valued for its cold nature, which rapidly cools the body, quenches thirst, and soothes the irritability that often accompanies extreme heat.",
+          "Modern nutritional science supports the use of mung beans for heat relief. Mung beans are exceptionally rich in potassium, magnesium, and B vitamins—electrolytes and nutrients that are rapidly lost through sweating. Furthermore, the seed coat of the mung bean contains potent flavonoid antioxidants (like vitexin and isovitexin) that have been shown to protect cells against heat-induced oxidative stress. The soup acts as a natural, hydrating electrolyte replacement that supports cellular resilience during hot weather.",
         ],
       },
       {
         title: "Safety and Caution Details",
         paragraphs: [
-          "Because mung beans are strongly cooling, this soup is best consumed during hot weather or when experiencing signs of internal heat.",
-          "Individuals with a 'cold' or sensitive digestive constitution (who frequently experience loose stools or feel cold easily) should consume it in moderation and are encouraged to include the ginger slice to provide a warming balance.",
+          "Mung bean soup is an excellent, hydrating food for hot weather. However, because the beans are energetically 'cold,' traditional practice advises against consuming large quantities of chilled mung bean soup if you have a 'cold' digestive constitution (characterized by a tendency toward loose stools, a pale tongue, or feeling cold easily).",
+          "Pregnant women and those taking prescription medications should consume it in moderation, as its strong 'clearing' nature may interact with certain wellness protocols.",
         ],
       },
       {
@@ -4478,7 +4479,7 @@ export const foodTherapyArticles: ContentArticle[] = [
         ],
         bullets: [
           "Mung Bean",
-          "Fresh Ginger",
+          "Chen Pi",
         ],
       },
       {
