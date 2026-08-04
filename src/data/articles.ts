@@ -1791,51 +1791,45 @@ const rawBasicsArticles: ContentArticle[] = [
   },
   {
     slug: "what-is-phlegm",
-    title: "What Is Phlegm in Traditional Wellness?",
+    title: "What Is Phlegm in Traditional Frameworks?",
     description:
-      "A comprehensive guide to the traditional concept of Phlegm — beyond the respiratory tract, the difference between visible and invisible Phlegm, signs of accumulation, traditional approaches, and practical kitchen notes.",
+      "A detailed guide to the traditional concept of Phlegm — visible vs. invisible Phlegm, the Spleen as the root source, how congealed fluids can lodge anywhere in the body, traditional approaches to transforming Phlegm, and practical kitchen notes for avoiding Phlegm-producing foods.",
     eyebrow: "Basics & Concepts",
     intro:
-      "In Western terms, 'phlegm' usually refers strictly to the mucus produced in the respiratory system during a cold. However, in traditional Chinese wellness frameworks, 'Phlegm' (痰, Tán) is a much broader concept. It represents a pathological accumulation of thick, sticky fluids anywhere in the body. Traditional theory often states: 'The Spleen is the source of Phlegm, and the Lungs are the receptacle.' This means that while Phlegm often shows up in the lungs, its root cause is usually a sluggish digestive system (the Spleen) failing to properly metabolize fluids.",
+      "In modern terms, 'phlegm' usually refers to the mucus coughed up from the lungs during a cold. However, in traditional Chinese wellness practices, 'Phlegm' (痰, Tán) is a much broader and more profound concept. Traditionally, Phlegm is defined as any congealed, pathological fluid that has accumulated in the body due to a failure in fluid metabolism. It is considered a secondary pathogen—meaning it is created by the body when organs (usually the Spleen, Lungs, or Kidneys) fail to process water properly.",
     sections: [
       {
         title: "Visible vs. Invisible Phlegm",
         paragraphs: [
-          "Traditional practice divides Phlegm into two categories:",
+          "Traditional theory divides Phlegm into two categories:",
         ],
         bullets: [
-          "Visible Phlegm: This is the mucus we can see and feel, such as congestion in the lungs, a runny nose, or a thick, greasy coating on the tongue.",
-          "Invisible Phlegm: This is a conceptual way of describing thick, stagnant fluids that accumulate internally, blocking the flow of Qi and blood. It is traditionally associated with situations like chronic swollen lymph nodes, certain types of joint stiffness, or even a feeling of profound mental fogginess and confusion (often described as 'Phlegm misting the mind').",
+          "Visible Phlegm: This is the phlegm we are familiar with. It is the tangible mucus that accumulates in the Lungs and respiratory tract, leading to coughing, a runny nose, or a feeling of something stuck in the throat.",
+          "Invisible Phlegm: This is a more abstract concept. When congealed fluids accumulate in places other than the lungs, they form 'Invisible Phlegm.' Because Phlegm is heavy, sticky, and obstructive, it can lodge anywhere in the body, causing various issues: in the head (brain fog, dizziness), under the skin (cysts, swollen lymph nodes), in the joints (stiffness, swelling), and in the digestive tract (chronic nausea, a thick greasy tongue coating).",
         ],
       },
       {
-        title: "Signs of Phlegm Accumulation",
+        title: "The Root Cause: The Spleen",
         paragraphs: [
-          "Traditional practitioners look for signs that suggest sticky fluids are obstructing normal function. These may include:",
-        ],
-        bullets: [
-          "Chronic respiratory congestion or throat clearing",
-          "A feeling of heaviness or grogginess, especially in the head",
-          "Nausea or a feeling of fullness in the chest and upper abdomen",
-          "A thick, greasy, or sticky coating on the tongue",
-          "Sluggish digestion",
+          "A famous traditional saying states: 'The Spleen is the source of Phlegm production; the Lungs are the receptacle that stores it.' When the Spleen (the digestive engine) is weak or overwhelmed by a poor diet, it cannot properly vaporize and distribute the fluids from food and drink. These unprocessed fluids pool together, stagnate, and eventually congeal into sticky Phlegm.",
         ],
       },
       {
         title: "Traditional Approaches to Resolving Phlegm",
         paragraphs: [
-          "The traditional approach to managing Phlegm involves using herbs and foods that 'transform' or break up the stickiness, while also supporting the digestive system so it stops producing more Phlegm.",
+          "Because Phlegm is sticky and stubborn, traditional strategies involve 'transforming' or 'melting' it, while simultaneously strengthening the Spleen so it stops producing more. Common ingredients used to address Phlegm include:",
         ],
         bullets: [
-          "Chen Pi (Aged Tangerine Peel): Highly valued for its ability to move Qi, dry dampness, and transform Phlegm in the digestive and respiratory systems.",
-          "Fresh Ginger: Used to warm the digestion and resolve cold, watery Phlegm.",
-          "Radish and Daikon: Traditionally used in the kitchen to break up stagnation and clear mucus.",
+          "Aged Tangerine Peel (Chen Pi): The premier herb for drying dampness, transforming Phlegm, and regulating the Spleen.",
+          "Fresh Ginger (Sheng Jiang): Warms the digestion and helps 'melt' cold, watery phlegm.",
+          "White Wood Ear (Yin Er): Used specifically for dry phlegm (when fluids have been 'baked' into sticky, hard-to-expectorate mucus by internal heat).",
+          "Job's Tears (Yi Yi Ren): Helps drain the underlying Dampness before it congeals into Phlegm.",
         ],
       },
       {
         title: "Lifestyle and Kitchen Notes",
         paragraphs: [
-          "From a dietary perspective, Phlegm is often exacerbated by consuming foods that are difficult to digest or overly dampening. Traditional frameworks strongly advise limiting dairy products, refined sugars, fried foods, and cold/raw meals when experiencing Phlegm accumulation. Instead, the focus shifts to warm, aromatic, and lightly spiced foods that encourage movement and healthy fluid metabolism.",
+          "The most effective way to address Phlegm is to stop feeding it. Traditional frameworks strongly advise avoiding 'Phlegm-producing' foods, which include dairy products (especially cold milk and cheese), refined sugars, greasy or deep-fried foods, and excessive raw/cold foods. A diet focused on warm, cooked, easily digestible meals with aromatic spices (like ginger, cardamom, and citrus peel) helps keep the Spleen strong and fluids moving smoothly.",
         ],
       },
       {
