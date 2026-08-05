@@ -4635,4 +4635,75 @@ export const foodTherapyArticles: ContentArticle[] = [
       "[1] WebMD. Health Benefits of Chestnuts. https://www.webmd.com/diet/health-benefits-chestnuts",
     ],
   },
+  {
+    slug: "white-wood-ear-and-pear-soup-for-autumn-dryness",
+    title: "White Wood Ear and Pear Soup for Autumn Dryness",
+    description:
+      "A gentle, deeply hydrating dessert soup for autumn — White Wood Ear mushroom and Asian Pear combine to nourish Yin and moisten the Lungs. Includes ingredients, step-by-step preparation, safety notes, and related herb links.",
+    eyebrow: "Kitchen Traditions",
+    intro:
+      "In traditional East Asian wellness, autumn is associated with the Lung system and the environmental pathogen of 'Dryness.' As the air turns crisp and arid, it is common to experience dry skin, a scratchy throat, and a dry cough. To combat this, traditional kitchens turn to White Wood Ear mushroom (Tremella fuciformis) and Asian Pear. Both ingredients are prized for their ability to deeply nourish Yin (fluids) and moisten the Lungs. Modern science reveals why this combination is so effective for hydration — White Wood Ear is packed with unique gelatinous polysaccharides that have an extraordinary capacity to bind and hold water.",
+    recipe: {
+      recipeYield: "2 to 3 bowls",
+      prepTime: "PT10M",
+      totalTime: "PT1H40M",
+      ingredients: [
+        "1 small dried White Wood Ear mushroom (Tremella fuciformis) (about 15-20g)",
+        "1 large Asian pear (or 2 small firm pears), peeled, cored, and cut into bite-sized chunks",
+        "1 tablespoon goji berries (Lycium barbarum), rinsed",
+        "4-5 cups water",
+        "2-3 tablespoons rock sugar (adjust to taste)",
+      ],
+      steps: [
+        "Rehydrate the mushroom: Place the dried White Wood Ear in a large bowl of room-temperature water. Let it soak for 30-45 minutes until it is fully expanded, soft, and translucent.",
+        "Trim and tear: Drain the mushroom. Use scissors or your hands to cut away the hard, yellowish core at the base. Tear the frilly, soft parts into small, bite-sized pieces. (Smaller pieces yield a more gelatinous soup).",
+        "Simmer the mushroom: In a pot, combine the torn mushroom pieces and 4-5 cups of water. Bring to a boil, then reduce the heat to low. Cover and simmer gently for 45-60 minutes. The longer it simmers, the more the polysaccharides release, making the soup thick and slippery.",
+        "Add the pear: Add the pear chunks and rock sugar to the pot. Simmer for another 15-20 minutes until the pear is tender.",
+        "Add goji berries: Stir in the goji berries during the last 5 minutes of cooking.",
+        "Serve: Serve warm as a comforting dessert or snack.",
+      ],
+      servingNotes: [
+        "This soup is gentle, deeply hydrating, and safe for regular consumption — perfect for combating autumn dryness.",
+        "The longer you simmer the White Wood Ear, the more gelatinous and slippery the soup becomes as the polysaccharides release.",
+        "For an even more nourishing version, you can add a small handful of lotus seeds or a few jujubes during the simmering stage.",
+      ],
+      caution: [
+        "Because its primary traditional function is to moisten and retain fluids, it is best avoided if you are experiencing a heavy, chesty cough with copious amounts of clear or white phlegm, as adding more 'moisture' to a damp condition can exacerbate the symptoms.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why It Works: Tradition Meets Science",
+        paragraphs: [
+          "In traditional East Asian wellness, autumn is associated with the Lung system and the environmental pathogen of 'Dryness.' As the air turns crisp and arid, it is common to experience dry skin, a scratchy throat, and a dry cough. To combat this, traditional kitchens turn to White Wood Ear mushroom (Tremella fuciformis) and Asian Pear. Both ingredients are prized for their ability to deeply nourish Yin (fluids) and moisten the Lungs.",
+          "Modern science reveals why this combination is so effective for hydration. White Wood Ear is packed with unique gelatinous polysaccharides that have an extraordinary capacity to bind and hold water, supporting systemic hydration and skin elasticity. Asian pears are rich in water, vitamin C, and specific phenolic compounds that help soothe the respiratory tract. Together, they create a functional dessert that acts as an internal moisturizer, supporting the mucosal linings of the throat and digestive tract.",
+        ],
+      },
+      {
+        title: "Safety and Caution Details",
+        paragraphs: [
+          "This soup is gentle, deeply hydrating, and safe for regular consumption. However, because its primary traditional function is to moisten and retain fluids, it is best avoided if you are experiencing a heavy, chesty cough with copious amounts of clear or white phlegm, as adding more 'moisture' to a damp condition can exacerbate the symptoms.",
+        ],
+      },
+      {
+        title: "Related herb pages for this recipe",
+        paragraphs: [
+          "These kitchen pages perform best when they connect directly to ingredient profiles so readers can check traditional terms, food uses, and caution notes in one place.",
+        ],
+        bullets: [
+          "White Wood Ear Mushroom",
+          "Goji Berry",
+        ],
+      },
+      {
+        title: "Back to Kitchen Traditions",
+        paragraphs: [
+          "This article is part of the Kitchen Traditions section. Return there for more kitchen-focused reading and ingredient ideas.",
+        ],
+      },
+    ],
+    references: [
+      "[1] Healthline. Tremella Mushroom: Benefits, Uses, and Side Effects. https://www.healthline.com/nutrition/tremella-mushroom",
+    ],
+  },
 ];

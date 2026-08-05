@@ -463,6 +463,11 @@ const rawRecipeCards = [
     title: "Chestnut and Chicken Soup for Stamina",
     text: "A classic autumn and winter comfort soup — chestnut and chicken paired for building energy and warming the body, with clear steps and traditional kitchen context.",
   },
+  {
+    slug: "white-wood-ear-and-pear-soup-for-autumn-dryness",
+    title: "White Wood Ear and Pear Soup for Autumn Dryness",
+    text: "A gentle, deeply hydrating dessert soup for autumn — White Wood Ear mushroom and Asian Pear combine to nourish Yin and moisten the Lungs.",
+  },
 ];
 
 export const recipeCards = rawRecipeCards.map((card) => sanitizeContentCard(card));
