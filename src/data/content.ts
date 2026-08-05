@@ -225,6 +225,11 @@ const rawBasicsCards = [
     title: "What Is Blood Stasis?",
     text: "A comprehensive guide to the traditional concept of Blood Stasis — what Blood represents, how stasis differs from stagnation, signs of localized blood obstruction, causes, and traditional approaches to moving Blood through diet and lifestyle.",
   },
+  {
+    slug: "what-is-spleen-qi-deficiency",
+    title: "What Is Spleen Qi Deficiency?",
+    text: "A comprehensive guide to the traditional concept of Spleen Qi Deficiency — what the Spleen represents, signs of digestive sluggishness and fatigue, causes, and traditional approaches to tonifying Spleen Qi through diet and lifestyle.",
+  },
 ];
 
 export const basicsCards = rawBasicsCards.map((card) => sanitizeContentCard(card));

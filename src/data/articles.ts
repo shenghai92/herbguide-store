@@ -1734,6 +1734,72 @@ const rawBasicsArticles: ContentArticle[] = [
     ],
   },
   {
+    slug: "what-is-spleen-qi-deficiency",
+    title: "What Is Spleen Qi Deficiency?",
+    description:
+      "A comprehensive guide to the traditional concept of Spleen Qi Deficiency — what the Spleen represents, how deficiency manifests as digestive sluggishness, fatigue, and fluid retention, signs, causes, traditional approaches to tonifying Spleen Qi, and lifestyle and kitchen notes.",
+    eyebrow: "Basics & Concepts",
+    intro:
+      "In traditional Chinese wellness practices, the 'Spleen' (脾, Pí) is not merely the organ that filters blood (as in modern anatomy). Instead, it represents the entire digestive and metabolic engine of the body. The Spleen is responsible for 'Transformation and Transportation.' It takes the food and drink we consume, transforms them into usable energy (Qi) and Blood, and transports these vital substances throughout the body. It is often called the 'Root of Post-Natal Life.'",
+    sections: [
+      {
+        title: "Understanding Spleen Qi Deficiency",
+        paragraphs: [
+          "'Spleen Qi Deficiency' (脾气虚, Pí Qì Xū) occurs when this digestive engine becomes weak or sluggish. When the Spleen lacks the energy to process food efficiently, the body fails to produce enough Qi and Blood, and unprocessed fluids begin to accumulate (leading to Dampness).",
+          "You can think of Spleen Qi Deficiency like a slow, weak fire under a cooking pot. The food doesn't cook properly, leaving you without nourishment and creating a soggy, unappetizing mess inside the pot.",
+        ],
+      },
+      {
+        title: "Signs of Spleen Qi Deficiency",
+        paragraphs: [
+          "Because the Spleen governs digestion, energy production, and the muscles, signs of its deficiency are widespread:",
+        ],
+        bullets: [
+          "Digestive Sluggishness: Poor appetite, a feeling of bloating or fullness immediately after eating (even small amounts), and a tendency toward loose, unformed stools.",
+          "Fatigue: A profound, heavy tiredness, especially in the morning or after meals (when the weak Spleen is struggling to digest).",
+          "Muscle Weakness: Because the Spleen traditionally 'governs the muscles,' weakness in the limbs or a feeling of physical heaviness is common.",
+          "Fluid Retention: Unprocessed fluids can lead to mild swelling, a feeling of heaviness in the head, and a pale, swollen tongue with teeth marks on the edges.",
+          "Mental Fog: Often described as a 'heavy head,' caused by Dampness rising and obstructing clear thought.",
+        ],
+      },
+      {
+        title: "Causes of Spleen Qi Deficiency",
+        paragraphs: [
+          "The Spleen is most commonly damaged by dietary habits and mental overwork:",
+        ],
+        bullets: [
+          "Cold and Raw Foods: Ice water, raw salads, and cold smoothies force the Spleen to expend extra energy to 'warm up' the food before it can be digested, eventually exhausting its fire.",
+          "Over-thinking and Worry: In traditional theory, the emotion associated with the Spleen is 'pensiveness.' Chronic worrying or studying for long hours without rest directly depletes Spleen Qi.",
+          "Irregular Eating: Skipping meals, eating too quickly, or eating while stressed.",
+        ],
+      },
+      {
+        title: "Traditional Approaches to Tonifying Spleen Qi",
+        paragraphs: [
+          "The traditional strategy is to 'warm the center' and 'tonify the Spleen' using ingredients that are 'Sweet,' 'Warm,' and easy to digest.",
+        ],
+        bullets: [
+          "Chinese Yam (Shan Yao): A gentle, neutral food that builds Spleen Qi without being heavy.",
+          "Job's Tears (Yi Yi Ren): Helps drain the Dampness that often accompanies a weak Spleen.",
+          "Ginseng or Codonopsis (Dang Shen): Powerful tonics for boosting core energy.",
+          "Jujube (Red Date): A sweet, nourishing fruit that supports Spleen function and builds Blood.",
+        ],
+      },
+      {
+        title: "Lifestyle and Kitchen Notes",
+        paragraphs: [
+          "For those experiencing Spleen Qi Deficiency, the most important change is dietary. Traditional frameworks insist that all food should be cooked and served warm. Soups, stews, and porridges (congee) are ideal because the 'cooking' has already been done outside the body, giving the Spleen a rest. It is also crucial to chew food thoroughly and avoid drinking large amounts of cold water during meals, which dilutes digestive fire.",
+        ],
+      },
+      {
+        title: "Read This Page in Context",
+        paragraphs: [
+          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "what-is-blood-deficiency",
     title: "What Is Blood Deficiency?",
     description:
