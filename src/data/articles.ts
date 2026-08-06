@@ -2143,6 +2143,72 @@ const rawBasicsArticles: ContentArticle[] = [
     ],
   },
   {
+    slug: "what-is-heart-blood-deficiency",
+    title: "What Is Heart Blood Deficiency?",
+    description:
+      "A comprehensive guide to the traditional concept of Heart Blood Deficiency — what Heart Blood represents, how deficiency manifests as sleep issues, restlessness, and palpitations, causes, traditional approaches to nourishing Heart Blood, and lifestyle and kitchen notes.",
+    eyebrow: "Basics & Concepts",
+    intro:
+      "In traditional Chinese wellness practices, the 'Heart' (心, Xīn) has two primary roles: it governs the physical circulation of Blood, and it houses the 'Shen' (神)—the spirit, consciousness, and mind. 'Heart Blood' (心血, Xīn Xuě) is the dense, nourishing substance that anchors the Shen. If the Shen is a ship, Heart Blood is the anchor. When the Blood is abundant, the mind is calm, sleep is deep, and emotions are stable.",
+    sections: [
+      {
+        title: "Understanding Heart Blood Deficiency",
+        paragraphs: [
+          "'Heart Blood Deficiency' (心血虚, Xīn Xuě Xū) occurs when the body lacks sufficient Blood to properly nourish the Heart and anchor the mind. Without this grounding substance, the Shen 'floats,' leading to restlessness and a lack of mental rootedness.",
+          "It is important to note that 'Blood Deficiency' in traditional terms is not exactly the same as the modern medical definition of anemia (though they can overlap). It is a broader concept referring to the quality and nourishing capacity of the blood.",
+        ],
+      },
+      {
+        title: "Signs of Heart Blood Deficiency",
+        paragraphs: [
+          "Because Heart Blood is responsible for calming the mind and nourishing the upper body, its deficiency manifests primarily in sleep, mood, and physical appearance:",
+        ],
+        bullets: [
+          "Sleep Issues: Difficulty falling asleep, easily waking up, and sleep disturbed by frequent, exhausting dreams (because the Shen has no anchor to rest upon).",
+          "Restlessness: Mild anxiety, a tendency to startle easily, and a feeling of being ungrounded or scatterbrained.",
+          "Palpitations: A fluttering feeling in the chest, often occurring when resting or trying to fall asleep.",
+          "Physical Signs: A pale, dull complexion, pale lips, and pale nail beds. The tongue is typically pale and thin.",
+          "Cognitive Signs: Poor memory and difficulty concentrating, as the brain is not receiving adequate nourishment.",
+        ],
+      },
+      {
+        title: "Causes of Heart Blood Deficiency",
+        paragraphs: [
+          "Heart Blood Deficiency rarely happens overnight. It is usually the result of long-term depletion:",
+        ],
+        bullets: [
+          "Spleen Qi Deficiency: The Spleen is responsible for making Blood from food. If digestion is weak, the body cannot produce enough Blood to nourish the Heart.",
+          "Chronic Blood Loss: Heavy menstrual bleeding or recovery from childbirth/surgery without adequate restorative nutrition.",
+          "Mental Overwork: Intense, prolonged studying, chronic anxiety, or obsessive thinking 'burns' through Heart Blood.",
+        ],
+      },
+      {
+        title: "Traditional Approaches to Nourishing Heart Blood",
+        paragraphs: [
+          "The traditional strategy is to 'Nourish Blood and Calm the Shen' using ingredients that are 'Sweet,' 'Warm,' and deeply restorative.",
+        ],
+        bullets: [
+          "Longan Aril (Long Yan Rou): A sweet, warming fruit specifically famous for nourishing Heart Blood and calming the mind.",
+          "Jujube (Red Date): A staple for building Blood and supporting the Spleen's ability to produce more Blood.",
+          "Dang Gui (Angelica Sinensis): One of the most famous traditional herbs for tonifying Blood.",
+          "Sour Jujube Seed (Suan Zao Ren): Traditionally used to nourish the Heart and support deep, restful sleep.",
+        ],
+      },
+      {
+        title: "Lifestyle and Kitchen Notes",
+        paragraphs: [
+          "Because Blood is a dense substance, it takes time to rebuild. Traditional frameworks emphasize the importance of nutrient-dense, easily digestible foods. Bone broths, dark leafy greens, and red or black foods (like black beans, goji berries, and red dates) are highly recommended. Equally important is reducing mental strain; stepping away from screens before bed and practicing gentle, grounding activities helps the Shen settle, allowing the body to focus on rebuilding its reserves.",
+        ],
+      },
+      {
+        title: "Read This Page in Context",
+        paragraphs: [
+          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "what-is-heart-fire",
     title: "What Is Heart Fire?",
     description:

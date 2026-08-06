@@ -230,6 +230,11 @@ const rawBasicsCards = [
     title: "What Is Spleen Qi Deficiency?",
     text: "A comprehensive guide to the traditional concept of Spleen Qi Deficiency — what the Spleen represents, signs of digestive sluggishness and fatigue, causes, and traditional approaches to tonifying Spleen Qi through diet and lifestyle.",
   },
+  {
+    slug: "what-is-heart-blood-deficiency",
+    title: "What Is Heart Blood Deficiency?",
+    text: "A comprehensive guide to the traditional concept of Heart Blood Deficiency — what Heart Blood represents, signs of sleep issues and restlessness, causes, and traditional approaches to nourishing Heart Blood through diet and lifestyle.",
+  },
 ];
 
 export const basicsCards = rawBasicsCards.map((card) => sanitizeContentCard(card));
