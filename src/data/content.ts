@@ -478,6 +478,11 @@ const rawRecipeCards = [
     title: "White Wood Ear and Pear Soup for Autumn Dryness",
     text: "A gentle, deeply hydrating dessert soup for autumn — White Wood Ear mushroom and Asian Pear combine to nourish Yin and moisten the Lungs.",
   },
+  {
+    slug: "four-gentlemen-soup-si-jun-zi-tang",
+    title: "Four Gentlemen Soup (Si Jun Zi Tang)",
+    text: "The most famous and foundational recipe in traditional Chinese wellness — a harmonious blend of four gentle herbs for tonifying Qi and supporting the digestive system.",
+  },
 ];
 
 export const recipeCards = rawRecipeCards.map((card) => sanitizeContentCard(card));

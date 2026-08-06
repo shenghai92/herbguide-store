@@ -4768,6 +4768,91 @@ export const foodTherapyArticles: ContentArticle[] = [
     ],
   },
   {
+    slug: "four-gentlemen-soup-si-jun-zi-tang",
+    title: "Four Gentlemen Soup (Si Jun Zi Tang)",
+    description:
+      "The most famous and foundational recipe in traditional Chinese wellness for tonifying Qi and strengthening the digestive system — a harmonious blend of four gentle herbs as a base for nourishing chicken or pork rib soup. Includes ingredients, step-by-step preparation, safety notes, and related herb links.",
+    eyebrow: "Kitchen Traditions",
+    intro:
+      "'Four Gentlemen Soup' (Si Jun Zi Tang) is arguably the most famous and foundational recipe in traditional Chinese wellness for tonifying Qi and strengthening the digestive system (Spleen and Stomach). The name 'Gentlemen' refers to the gentle, harmonious, and balanced nature of the ingredients—they support the body without being harsh or overly stimulating. In traditional frameworks, this combination perfectly addresses Spleen Qi Deficiency by gently warming the center, draining excess dampness, and building core energy.",
+    recipe: {
+      recipeYield: "4 servings",
+      prepTime: "PT15M",
+      totalTime: "PT2H15M",
+      ingredients: [
+        "15g Codonopsis root (Codonopsis pilosula / Dang Shen)",
+        "15g Atractylodes rhizome (Atractylodes macrocephala / Bai Zhu)",
+        "15g Poria mushroom (Poria cocos / Fu Ling)",
+        "5g Prepared Licorice root (Glycyrrhiza uralensis / Zhi Gan Cao)",
+        "1 lb (about 450g) bone-in chicken or pork ribs",
+        "3 slices fresh ginger",
+        "6-8 cups water",
+        "Salt to taste",
+      ],
+      steps: [
+        "Rinse the herbs: Briefly rinse the four dry herbs under cold water to remove any dust.",
+        "Blanch the meat: Place the chicken or pork in a pot of boiling water for 3-5 minutes. Drain and rinse the meat to ensure a clear broth.",
+        "Combine and simmer: In a large soup pot or slow cooker, combine the blanched meat, the four herbs, the fresh ginger, and the water.",
+        "Cook: Bring to a boil, then reduce the heat to the lowest setting. Cover and simmer gently for 1.5 to 2 hours. (If using a slow cooker, cook on low for 4-6 hours).",
+        "Serve: Remove from heat and season with salt. The broth is the most important part. You can eat the meat, but the woody herbs (Codonopsis, Atractylodes, Licorice) are usually discarded, though the soft Poria pieces can be eaten if desired.",
+      ],
+      servingNotes: [
+        "This is a classic 'tonifying' (building) soup best suited for those feeling depleted, tired, or recovering from exertion.",
+        "In daily cooking, the gentler Codonopsis (Dang Shen) is often preferred over the stronger Ginseng (Ren Shen).",
+        "The soft Poria pieces can be eaten if desired, but the woody Codonopsis, Atractylodes, and Licorice are usually discarded.",
+      ],
+      caution: [
+        "This is a classic 'tonifying' (building) soup. Because it is designed to build energy and warmth, traditional practice advises against drinking it if you are currently experiencing the acute onset of a cold or flu, or if you have strong signs of internal 'Heat' (such as a high fever, severe thirst, or a very red tongue).",
+      ],
+    },
+    sections: [
+      {
+        title: "Why It Works: Tradition Meets Science",
+        paragraphs: [
+          "'Four Gentlemen Soup' (Si Jun Zi Tang) is arguably the most famous and foundational recipe in traditional Chinese wellness for tonifying Qi and strengthening the digestive system (Spleen and Stomach). The name 'Gentlemen' refers to the gentle, harmonious, and balanced nature of the ingredients—they support the body without being harsh or overly stimulating.",
+          "In traditional frameworks, this combination perfectly addresses Spleen Qi Deficiency (fatigue, poor appetite, loose stools) by gently warming the center, draining excess dampness, and building core energy.",
+          "Modern science looks at these four ingredients and sees a powerhouse of adaptogens, polysaccharides, and prebiotics. The combination supports the gut microbiome, modulates the immune system, and provides sustained, easily digestible energy, making it an ideal restorative broth for recovery or chronic fatigue.",
+        ],
+      },
+      {
+        title: "The Four 'Gentlemen'",
+        paragraphs: [
+          "Ginseng (Ren Shen) or Codonopsis (Dang Shen): The chief ingredient. It powerfully tonifies the primal Qi and strengthens the Spleen. (In daily cooking, the gentler Codonopsis is often preferred over the stronger Ginseng).",
+          "Atractylodes (Bai Zhu): Tonifies the Spleen and dries Dampness. It helps the digestive system process fluids properly.",
+          "Poria (Fu Ling): A mild mushroom that gently drains Dampness through urination and calms the mind, supporting the action of Bai Zhu.",
+          "Licorice Root (Gan Cao): The harmonizer. It is sweet and warm, tonifying the Spleen while ensuring the other three ingredients work together smoothly.",
+        ],
+      },
+      {
+        title: "Safety and Caution Details",
+        paragraphs: [
+          "This is a classic 'tonifying' (building) soup. Because it is designed to build energy and warmth, traditional practice advises against drinking it if you are currently experiencing the acute onset of a cold or flu, or if you have strong signs of internal 'Heat' (such as a high fever, severe thirst, or a very red tongue). It is best suited for those feeling depleted, tired, or recovering from exertion.",
+        ],
+      },
+      {
+        title: "Related herb pages for this recipe",
+        paragraphs: [
+          "These kitchen pages perform best when they connect directly to ingredient profiles so readers can check traditional terms, food uses, and caution notes in one place.",
+        ],
+        bullets: [
+          "Codonopsis",
+          "Poria",
+          "Licorice Root",
+          "Fresh Ginger",
+        ],
+      },
+      {
+        title: "Back to Kitchen Traditions",
+        paragraphs: [
+          "This article is part of the Kitchen Traditions section. Return there for more kitchen-focused reading and ingredient ideas.",
+        ],
+      },
+    ],
+    references: [
+      "[1] NCCIH. Asian Ginseng. https://www.nccih.nih.gov/health/asian-ginseng",
+    ],
+  },
+  {
     slug: "white-wood-ear-and-pear-soup-for-autumn-dryness",
     title: "White Wood Ear and Pear Soup for Autumn Dryness",
     description:
