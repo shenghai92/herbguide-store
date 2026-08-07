@@ -4768,6 +4768,73 @@ export const foodTherapyArticles: ContentArticle[] = [
     ],
   },
   {
+    slug: "ginger-brown-sugar-tea-for-cold-relief",
+    title: "Ginger and Brown Sugar Tea for Cold Relief",
+    description:
+      "The immediate traditional response when caught in a cold rain or shivering from winter winds — Fresh Ginger and Brown Sugar tea promotes a light sweat to push out 'Wind-Cold' before it settles deeper into the body. Includes ingredients, step-by-step preparation, safety notes, and related herb links.",
+    eyebrow: "Kitchen Traditions",
+    intro:
+      "When someone is caught in a cold rain, shivering from winter winds, or experiencing the very first, chilly signs of an acute respiratory issue, Ginger and Brown Sugar Tea is the immediate traditional response. In traditional frameworks, Fresh Ginger (Zingiber officinale) is pungent and warm; it 'releases the exterior,' meaning it promotes a light sweat to push out 'Wind-Cold' before it can settle deeper into the body. Brown sugar is added not just for taste, but because it is traditionally viewed as warming and nourishing to the Blood and Spleen.",
+    recipe: {
+      recipeYield: "1 mug",
+      prepTime: "PT5M",
+      totalTime: "PT20M",
+      ingredients: [
+        "1 thumb-sized piece of fresh ginger (Zingiber officinale), washed (no need to peel)",
+        "1-2 tablespoons dark brown sugar or traditional black sugar (Hei Tang)",
+        "2 cups water",
+      ],
+      steps: [
+        "Prepare the ginger: Slice the fresh ginger into thin rounds. For a stronger, spicier tea, you can crush or gently smash the ginger slices with the flat side of a knife before boiling.",
+        "Boil: In a small saucepan, combine the ginger slices and water. Bring to a rolling boil.",
+        "Simmer: Reduce the heat to low, cover, and simmer for 10-15 minutes. The longer it simmers, the spicier and more potent the tea will become.",
+        "Sweeten: Stir in the brown sugar until it is completely dissolved.",
+        "Serve: Pour into a mug and drink it while it is as hot as you can comfortably tolerate.",
+      ],
+      servingNotes: [
+        "This tea is designed to induce a light sweat and rapidly warm the body — ideal for 'Cold' conditions like shivering, clear runny nose, or cold hands and feet.",
+        "For a stronger, spicier tea, crush or smash the ginger slices before boiling to release more of the active compounds.",
+        "It is also a classic remedy for easing menstrual cramps associated with cold and stagnation.",
+      ],
+      caution: [
+        "Traditional practice strongly advises against using this tea if you are experiencing a 'Heat' condition — such as a high fever, severe sore throat, sweating without shivering, or thick yellow phlegm — as the pungent warmth of the ginger will only add fuel to the fire.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why It Works: Tradition Meets Science",
+        paragraphs: [
+          "When someone is caught in a cold rain, shivering from winter winds, or experiencing the very first, chilly signs of an acute respiratory issue, Ginger and Brown Sugar Tea is the immediate traditional response. In traditional frameworks, Fresh Ginger (Zingiber officinale) is pungent and warm; it 'releases the exterior,' meaning it promotes a light sweat to push out 'Wind-Cold' before it can settle deeper into the body. Brown sugar is added not just for taste, but because it is traditionally viewed as warming and nourishing to the Blood and Spleen.",
+          "Modern science confirms ginger's potent effects. The active compound in fresh ginger, gingerol, has strong circulatory-stimulating properties. It causes vasodilation (widening of the blood vessels), which creates a physical sensation of warmth and promotes sweating. Additionally, gingerol possesses well-documented anti-nausea and mild anti-inflammatory properties, making it highly effective for soothing a cold, upset stomach.",
+        ],
+      },
+      {
+        title: "Safety and Caution Details",
+        paragraphs: [
+          "This tea is designed to induce a light sweat and rapidly warm the body. It is highly effective for 'Cold' conditions (shivering, clear runny nose, cold hands/feet). However, traditional practice strongly advises against using this tea if you are experiencing a 'Heat' condition—such as a high fever, severe sore throat, sweating without shivering, or thick yellow phlegm—as the pungent warmth of the ginger will only add fuel to the fire. It is also a classic remedy for easing menstrual cramps associated with cold and stagnation.",
+        ],
+      },
+      {
+        title: "Related herb pages for this recipe",
+        paragraphs: [
+          "These kitchen pages perform best when they connect directly to ingredient profiles so readers can check traditional terms, food uses, and caution notes in one place.",
+        ],
+        bullets: [
+          "Fresh Ginger",
+        ],
+      },
+      {
+        title: "Back to Kitchen Traditions",
+        paragraphs: [
+          "This article is part of the Kitchen Traditions section. Return there for more kitchen-focused reading and ingredient ideas.",
+        ],
+      },
+    ],
+    references: [
+      "[1] MSKCC. Ginger. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginger",
+    ],
+  },
+  {
     slug: "longan-and-red-date-tea-for-restful-sleep",
     title: "Longan and Red Date Tea for Restful Sleep",
     description:

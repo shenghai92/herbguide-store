@@ -488,6 +488,11 @@ const rawRecipeCards = [
     title: "Longan and Red Date Tea for Restful Sleep",
     text: "A beloved, naturally sweet infusion used throughout East Asia — Longan and Red Date pair as the ultimate remedy for Heart Blood Deficiency, calming a restless mind and encouraging deep sleep.",
   },
+  {
+    slug: "ginger-brown-sugar-tea-for-cold-relief",
+    title: "Ginger and Brown Sugar Tea for Cold Relief",
+    text: "The immediate traditional response for cold and chills — fresh ginger and brown sugar promote a light sweat to push out Wind-Cold before it settles deeper into the body.",
+  },
 ];
 
 export const recipeCards = rawRecipeCards.map((card) => sanitizeContentCard(card));
