@@ -483,6 +483,11 @@ const rawRecipeCards = [
     title: "Four Gentlemen Soup (Si Jun Zi Tang)",
     text: "The most famous and foundational recipe in traditional Chinese wellness — a harmonious blend of four gentle herbs for tonifying Qi and supporting the digestive system.",
   },
+  {
+    slug: "longan-and-red-date-tea-for-restful-sleep",
+    title: "Longan and Red Date Tea for Restful Sleep",
+    text: "A beloved, naturally sweet infusion used throughout East Asia — Longan and Red Date pair as the ultimate remedy for Heart Blood Deficiency, calming a restless mind and encouraging deep sleep.",
+  },
 ];
 
 export const recipeCards = rawRecipeCards.map((card) => sanitizeContentCard(card));

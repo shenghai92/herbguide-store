@@ -4768,6 +4768,76 @@ export const foodTherapyArticles: ContentArticle[] = [
     ],
   },
   {
+    slug: "longan-and-red-date-tea-for-restful-sleep",
+    title: "Longan and Red Date Tea for Restful Sleep",
+    description:
+      "A beloved, naturally sweet infusion used throughout East Asia to promote relaxation and encourage deep sleep — Longan and Red Date pair as the ultimate remedy for Heart Blood Deficiency. Includes ingredients, step-by-step preparation, safety notes, and related herb links.",
+    eyebrow: "Kitchen Traditions",
+    intro:
+      "Longan and Red Date tea is a beloved, naturally sweet infusion used throughout East Asia to promote relaxation, support recovery, and encourage deep sleep. In traditional frameworks, this combination is the ultimate remedy for 'Heart Blood Deficiency.' Longan specifically targets the Heart and Spleen, calming a restless Shen (mind) and easing palpitations, while Red Dates (Jujubes) build the Blood necessary to anchor that mind.",
+    recipe: {
+      recipeYield: "2 mugs",
+      prepTime: "PT5M",
+      totalTime: "PT25M",
+      ingredients: [
+        "10-12 dried Longan arils (Dimocarpus longan / Long Yan Rou)",
+        "3-5 dried Red Dates (Ziziphus jujuba / Hong Zao), pitted and sliced in half",
+        "1 tablespoon Goji berries (Lycium barbarum / Gou Qi Zi) (optional, for added Yin support)",
+        "3-4 cups water",
+      ],
+      steps: [
+        "Prepare the dates: It is important to slice or tear the red dates in half to allow their sweetness and nutrients to release into the water.",
+        "Combine ingredients: In a small pot, combine the dried longan, sliced red dates, and water.",
+        "Simmer: Bring the water to a gentle boil, then reduce the heat to low. Cover and simmer for 15-20 minutes. The water will turn a beautiful golden-brown color and become incredibly fragrant.",
+        "Add goji berries (optional): If using goji berries, stir them in during the last 3-5 minutes of simmering so they do not become mushy.",
+        "Serve: Pour the tea into mugs. It is naturally very sweet, so no added sugar is necessary. You can eat the rehydrated fruits at the bottom of the cup!",
+      ],
+      servingNotes: [
+        "This tea is deeply nourishing, sweet, and energetically 'warm' — an excellent evening drink for those feeling depleted, anxious, or struggling with poor sleep.",
+        "No added sugar is necessary because the longan and red dates provide abundant natural sweetness.",
+        "The rehydrated fruits at the bottom of the cup are edible and delicious — don't throw them away!",
+      ],
+      caution: [
+        "This tea is deeply nourishing, sweet, and energetically 'warm.' However, because it is very sweet and warming, traditional practice advises consuming it in moderation if you have signs of excess 'Heat' (such as a red face, severe thirst, or mouth sores) or if you are experiencing a heavy, damp, phlegmy cough, as the rich sweetness can sometimes exacerbate dampness.",
+      ],
+    },
+    sections: [
+      {
+        title: "Why It Works: Tradition Meets Science",
+        paragraphs: [
+          "Longan and Red Date tea is a beloved, naturally sweet infusion used throughout East Asia to promote relaxation, support recovery, and encourage deep sleep. In traditional frameworks, this combination is the ultimate remedy for 'Heart Blood Deficiency.' Longan specifically targets the Heart and Spleen, calming a restless Shen (mind) and easing palpitations, while Red Dates (Jujubes) build the Blood necessary to anchor that mind.",
+          "Modern nutritional science provides insight into this calming effect. Both fruits are rich in complex carbohydrates that provide a gentle, sustained rise in blood sugar, which can help promote the release of serotonin and melatonin in the brain. Furthermore, research into Longan extract has highlighted its potential mild sedative and anxiolytic (anti-anxiety) properties, supporting its traditional use for insomnia and stress-related fatigue.",
+        ],
+      },
+      {
+        title: "Safety and Caution Details",
+        paragraphs: [
+          "This tea is deeply nourishing, sweet, and energetically 'warm.' It is an excellent evening drink for those feeling depleted, anxious, or struggling with poor sleep. However, because it is very sweet and warming, traditional practice advises consuming it in moderation if you have signs of excess 'Heat' (such as a red face, severe thirst, or mouth sores) or if you are experiencing a heavy, damp, phlegmy cough, as the rich sweetness can sometimes exacerbate dampness.",
+        ],
+      },
+      {
+        title: "Related herb pages for this recipe",
+        paragraphs: [
+          "These kitchen pages perform best when they connect directly to ingredient profiles so readers can check traditional terms, food uses, and caution notes in one place.",
+        ],
+        bullets: [
+          "Longan Fruit",
+          "Jujube",
+          "Goji Berry",
+        ],
+      },
+      {
+        title: "Back to Kitchen Traditions",
+        paragraphs: [
+          "This article is part of the Kitchen Traditions section. Return there for more kitchen-focused reading and ingredient ideas.",
+        ],
+      },
+    ],
+    references: [
+      "[1] Healthline. What Is Jujube Fruit? Nutrition, Benefits, and Uses. https://www.healthline.com/nutrition/jujube",
+    ],
+  },
+  {
     slug: "four-gentlemen-soup-si-jun-zi-tang",
     title: "Four Gentlemen Soup (Si Jun Zi Tang)",
     description:
