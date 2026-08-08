@@ -354,6 +354,73 @@ const rawBasicsArticles: ContentArticle[] = [
     ],
   },
   {
+    slug: "what-is-qi-deficiency",
+    title: "What Is Qi Deficiency?",
+    description:
+      "A comprehensive guide to the traditional concept of Qi Deficiency — what Qi represents, how deficiency manifests as systemic depletion, signs, causes, traditional approaches to tonifying Qi, and lifestyle and kitchen notes.",
+    eyebrow: "Basics & Concepts",
+    intro:
+      "In traditional Chinese wellness practices, 'Qi' (气) is the fundamental life force or vital energy that animates the body. It is responsible for all movement, transformation, protection, and warming within the body. While Qi is often translated simply as 'energy,' it is more accurately understood as the functional capacity of the organs. For example, Spleen Qi is the digestive capacity, Lung Qi is the respiratory capacity, and Heart Qi is the pumping capacity.",
+    sections: [
+      {
+        title: "Understanding Qi Deficiency",
+        paragraphs: [
+          "'Qi Deficiency' (气虚, Qì Xū) occurs when the body lacks sufficient vital energy to perform its daily functions efficiently. It is a state of systemic depletion, similar to a battery that cannot hold a full charge.",
+          "When Qi is deficient, the organs cannot perform their jobs optimally. Digestion slows down, the immune barrier weakens, and physical stamina drops.",
+        ],
+      },
+      {
+        title: "Signs of Qi Deficiency",
+        paragraphs: [
+          "Because Qi powers every function in the body, its deficiency manifests as a general lack of power and resilience:",
+        ],
+        bullets: [
+          "Profound Fatigue: A deep, physical exhaustion that is not fully relieved by sleep. The fatigue often worsens after physical exertion.",
+          "Weak Voice and Shortness of Breath: A reluctance to speak, a soft voice, and feeling out of breath after minor activity (signs of Lung Qi Deficiency).",
+          "Spontaneous Sweating: Sweating during the day without physical exertion or heat, because the Qi is too weak to keep the pores closed.",
+          "Digestive Sluggishness: Poor appetite, bloating after eating, and loose stools (signs of Spleen Qi Deficiency).",
+          "Physical Signs: A pale complexion, a pale and slightly swollen tongue (often with teeth marks), and a weak pulse.",
+        ],
+      },
+      {
+        title: "Causes of Qi Deficiency",
+        paragraphs: [
+          "Qi is primarily generated from the food we eat and the air we breathe. Therefore, Qi Deficiency is usually caused by:",
+        ],
+        bullets: [
+          "Poor Diet or Weak Digestion: If the Spleen cannot extract energy from food, the body cannot produce new Qi.",
+          "Chronic Overwork: Physical, mental, or emotional overexertion that drains the body's reserves faster than they can be replenished.",
+          "Prolonged Illness: A lingering health challenge that consumes the body's vital energy over time.",
+          "Aging: A natural, gradual decline in the body's functional capacity.",
+        ],
+      },
+      {
+        title: "Traditional Approaches to Tonifying Qi",
+        paragraphs: [
+          "The traditional strategy is to 'Tonify Qi' (补气) using ingredients that are 'Sweet,' 'Warm,' and nourishing, focusing heavily on supporting the Spleen and Lungs.",
+        ],
+        bullets: [
+          "Ginseng (Ren Shen) or Codonopsis (Dang Shen): The most powerful herbs for boosting core energy.",
+          "Astragalus Root (Huang Qi): Excellent for boosting Lung Qi, lifting energy, and stopping spontaneous sweating.",
+          "Chinese Yam (Shan Yao): A gentle, balanced food that supports the Spleen and Lungs.",
+          "Jujube (Red Date) and Licorice Root: Used to gently nourish the center and harmonize other ingredients.",
+        ],
+      },
+      {
+        title: "Lifestyle and Kitchen Notes",
+        paragraphs: [
+          "For those experiencing Qi Deficiency, rest is paramount. Traditional frameworks emphasize the need to balance activity with adequate recovery. In the kitchen, the focus should be on warm, cooked, easily digestible meals (like soups and stews) that require minimal energy to digest. Cold, raw, and greasy foods should be strictly avoided, as they force the already weak digestive system to work harder.",
+        ],
+      },
+      {
+        title: "Read This Page in Context",
+        paragraphs: [
+          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "what-is-qi-stagnation",
     title: "What Is Qi Stagnation?",
     description:

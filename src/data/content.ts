@@ -235,6 +235,11 @@ const rawBasicsCards = [
     title: "What Is Heart Blood Deficiency?",
     text: "A comprehensive guide to the traditional concept of Heart Blood Deficiency — what Heart Blood represents, signs of sleep issues and restlessness, causes, and traditional approaches to nourishing Heart Blood through diet and lifestyle.",
   },
+  {
+    slug: "what-is-qi-deficiency",
+    title: "What Is Qi Deficiency?",
+    text: "A comprehensive guide to the traditional concept of Qi Deficiency — what Qi represents, signs of systemic depletion and profound fatigue, causes, and traditional approaches to tonifying Qi through diet and lifestyle.",
+  },
 ];
 
 export const basicsCards = rawBasicsCards.map((card) => sanitizeContentCard(card));
