@@ -365,8 +365,8 @@ const rawRecipeCards = [
   },
   {
     slug: "goji-and-chrysanthemum-tea-basics",
-    title: "Goji and Chrysanthemum Tea Basics",
-    text: "A visual pantry tea page that connects one popular berry with one especially clear cooling herb.",
+    title: "Goji and Chrysanthemum Tea for Eye Health",
+    text: "A classic East Asian tea pairing — Goji Berry and Chrysanthemum for eye support, backed by zeaxanthin, lutein, and anti-inflammatory flavonoids.",
   },
   {
     slug: "jujube-and-lotus-seed-congee-for-quiet-evenings",
