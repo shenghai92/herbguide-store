@@ -245,6 +245,11 @@ const rawBasicsCards = [
     title: "What Is Wind-Cold?",
     text: "A comprehensive guide to the traditional concept of Wind-Cold — what Wind represents, how it combines with Cold to cause acute respiratory challenges, signs, traditional approaches to dispersing Wind-Cold, and lifestyle and kitchen notes.",
   },
+  {
+    slug: "what-is-wind-heat",
+    title: "What Is Wind-Heat?",
+    text: "A comprehensive guide to the traditional concept of Wind-Heat — what Wind represents, how it combines with Heat to cause inflammation and sore throat, signs, traditional approaches to dispersing Wind-Heat, and cooling lifestyle and kitchen notes.",
+  },
 ];
 
 export const basicsCards = rawBasicsCards.map((card) => sanitizeContentCard(card));
