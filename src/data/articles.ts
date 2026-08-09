@@ -2407,6 +2407,76 @@ const rawBasicsArticles: ContentArticle[] = [
       },
     ],
   },
+  {
+    slug: "what-is-wind-heat",
+    title: "What Is Wind-Heat?",
+    description:
+      "A plain-English guide to the traditional concept of Wind-Heat — what it means, signs, causes, traditional approaches to dispersing it, and practical lifestyle and kitchen notes.",
+    eyebrow: "Basics & Concepts",
+    intro:
+      "In traditional Chinese wellness practices, \"Wind-Heat\" (风热, Fēng Rè) is the traditional term for an acute respiratory challenge characterized by heat, inflammation, and rapid onset. When Wind-Heat penetrates the body's defensive barrier, the Heat component immediately begins to dry up fluids and cause localized inflammation, particularly in the throat and respiratory tract.",
+    sections: [
+      {
+        title: "The Concept of Wind in Traditional Frameworks",
+        paragraphs: [
+          "In traditional Chinese wellness practices, \"Wind\" (风, Fēng) is considered the primary vehicle that carries external stressors into the body. It strikes suddenly, changes rapidly, and typically affects the upper parts of the body (head, throat, and lungs) and the surface of the skin.",
+          "While Wind can combine with Cold (causing shivering and clear mucus), it frequently combines with Heat, creating a very different set of symptoms.",
+        ],
+      },
+      {
+        title: "Understanding Wind-Heat",
+        paragraphs: [
+          "\"Wind-Heat\" (风热, Fēng Rè) is the traditional term for an acute respiratory challenge characterized by heat, inflammation, and rapid onset.",
+          "When Wind-Heat penetrates the body's defensive barrier, the Heat component immediately begins to dry up fluids and cause localized inflammation, particularly in the throat and respiratory tract.",
+        ],
+      },
+      {
+        title: "Signs of Wind-Heat",
+        paragraphs: [
+          "Because Heat is active, inflammatory, and drying, the signs of Wind-Heat are distinct from those of Wind-Cold:",
+        ],
+        bullets: [
+          "Fever and Sweating: A feeling of heat or a fever, often accompanied by mild sweating (unlike Wind-Cold, where the pores are locked tight).",
+          "Severe Sore Throat: A throat that is red, swollen, and painful to swallow. This is a hallmark sign of Wind-Heat.",
+          "Thirst: A strong desire for cold drinks, as the Heat consumes body fluids.",
+          "Respiratory Signs: A cough with thick, sticky, yellow or green mucus. The nose may run, but the discharge is thick and yellowish, not clear and watery.",
+          "Headache: A throbbing, expansive headache, often felt in the front of the head or behind the eyes.",
+          "Physical Signs: A red tongue tip or edges, often with a thin yellow coating, and a rapid pulse.",
+        ],
+      },
+      {
+        title: "Causes of Wind-Heat",
+        paragraphs: [
+          "Wind-Heat can be caused by exposure to hot, windy environments, but it more commonly arises during seasonal transitions (like spring) when viral and bacterial challenges are prevalent. It can also occur when a Wind-Cold condition is not resolved quickly and \"transforms into Heat\" as it moves deeper into the body.",
+        ],
+      },
+      {
+        title: "Traditional Approaches to Dispersing Wind-Heat",
+        paragraphs: [
+          "The traditional strategy for addressing Wind-Heat is to \"Release the Exterior and Clear Heat\" (辛凉解表). This is done using ingredients that are \"Pungent\" (to push the pathogen out) but \"Cool\" or \"Cold\" in nature (to clear the inflammation and soothe the throat).",
+        ],
+        bullets: [
+          "Mint (Bo He): Pungent and cooling, it is excellent for clearing the head, soothing a sore throat, and gently releasing Wind-Heat.",
+          "Chrysanthemum (Ju Hua): A cooling flower used to clear Heat from the upper body and soothe red, irritated eyes.",
+          "Mulberry Leaf (Sang Ye): Often combined with Chrysanthemum to clear Wind-Heat from the Lungs and moisten a dry cough.",
+          "Honeysuckle (Jin Yin Hua) and Forsythia (Lian Qiao): Two powerful cooling herbs traditionally used to clear strong Heat and resolve toxicity in the throat.",
+        ],
+      },
+      {
+        title: "Lifestyle and Kitchen Notes",
+        paragraphs: [
+          "When dealing with Wind-Heat, traditional frameworks advise avoiding warming, spicy foods (like ginger, garlic, or chili) and heavy, greasy meals, as these will add fuel to the fire. Instead, the focus should be on cooling, hydrating foods. Drinking plenty of warm (not ice-cold) water, consuming light broths, and drinking cooling teas (like Chrysanthemum and Mint) can help soothe the throat and clear the heat.",
+        ],
+      },
+      {
+        title: "Read This Page in Context",
+        paragraphs: [
+          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        ],
+      },
+    ],
+  },
+
 ];
 
 export const basicsArticles = rawBasicsArticles.map((article) => sanitizeContentArticle(article));
