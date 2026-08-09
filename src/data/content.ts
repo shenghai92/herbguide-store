@@ -240,6 +240,11 @@ const rawBasicsCards = [
     title: "What Is Qi Deficiency?",
     text: "A comprehensive guide to the traditional concept of Qi Deficiency — what Qi represents, signs of systemic depletion and profound fatigue, causes, and traditional approaches to tonifying Qi through diet and lifestyle.",
   },
+  {
+    slug: "what-is-wind-cold",
+    title: "What Is Wind-Cold?",
+    text: "A comprehensive guide to the traditional concept of Wind-Cold — what Wind represents, how it combines with Cold to cause acute respiratory challenges, signs, traditional approaches to dispersing Wind-Cold, and lifestyle and kitchen notes.",
+  },
 ];
 
 export const basicsCards = rawBasicsCards.map((card) => sanitizeContentCard(card));

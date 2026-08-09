@@ -1354,6 +1354,73 @@ const rawBasicsArticles: ContentArticle[] = [
     ],
   },
   {
+    slug: "what-is-wind-cold",
+    title: "What Is Wind-Cold?",
+    description:
+      "A comprehensive guide to the traditional concept of Wind-Cold — what Wind represents as the 'spearhead of a thousand diseases,' how it combines with Cold to cause acute respiratory challenges, signs, causes, traditional approaches to dispersing Wind-Cold, and lifestyle and kitchen notes.",
+    eyebrow: "Basics & Concepts",
+    intro:
+      "In traditional Chinese wellness practices, 'Wind' (风, Fēng) is considered the 'spearhead of a thousand diseases.' Just as wind in nature moves quickly, changes direction, and penetrates the environment, Wind in the body represents external stressors that strike suddenly, move rapidly, and often affect the upper body and the surface of the skin. Wind rarely acts alone; it usually carries other environmental factors with it, most commonly Cold or Heat.",
+    sections: [
+      {
+        title: "Understanding Wind-Cold",
+        paragraphs: [
+          "'Wind-Cold' (风寒, Fēng Hán) is the traditional term for the acute onset of a cold or respiratory challenge triggered by exposure to chilly, drafty environments. When the body's defensive barrier (Wei Qi) is compromised, Wind and Cold penetrate the surface. The Cold constricts the pores and muscles, trapping the body's defensive energy and preventing normal circulation and sweating.",
+        ],
+      },
+      {
+        title: "Signs of Wind-Cold",
+        paragraphs: [
+          "Because Wind-Cold involves a sudden, constricting attack on the body's exterior, the signs are usually immediate and focused on the upper respiratory tract and muscles:",
+        ],
+        bullets: [
+          "Aversion to Cold: A strong dislike of cold air or drafts, and a desire to bundle up in warm clothes.",
+          "Shivering and Chills: Feeling cold to the bone, often without sweating (because the Cold has constricted the pores).",
+          "Body Aches: Stiff, aching muscles, particularly in the neck, shoulders, and upper back.",
+          "Respiratory Signs: A runny nose with clear, watery mucus, sneezing, and a scratchy (but not severely sore or red) throat.",
+          "Headache: A tight, constricting headache, often at the back of the head or neck.",
+          "Physical Signs: A pale tongue with a thin white coating, and a tight, 'floating' pulse.",
+        ],
+      },
+      {
+        title: "Causes of Wind-Cold",
+        paragraphs: [
+          "Wind-Cold is primarily caused by external environmental factors:",
+        ],
+        bullets: [
+          "Exposure to sudden drops in temperature, cold winds, or drafts.",
+          "Sitting in strong air conditioning while sweating.",
+          "Going outside with wet hair in cool weather.",
+          "A pre-existing weakness in the body's Defensive Qi (Wei Qi), making it easier for the Wind-Cold to penetrate.",
+        ],
+      },
+      {
+        title: "Traditional Approaches to Dispersing Wind-Cold",
+        paragraphs: [
+          "The traditional strategy for addressing Wind-Cold is to 'Release the Exterior and Disperse Cold' (辛温解表). This is done using ingredients that are 'Pungent' (spicy) and 'Warm.' The goal is to open the pores, promote a light sweat, and push the Cold back out of the body.",
+        ],
+        bullets: [
+          "Fresh Ginger (Sheng Jiang): The premier kitchen remedy for warming the body and inducing a light sweat.",
+          "Scallion Whites (Cong Bai): Often boiled with ginger to help open the pores and disperse Wind-Cold.",
+          "Cinnamon Twig (Gui Zhi): Used to warm the muscles and promote circulation to the surface.",
+          "Perilla Leaf (Zi Su Ye): A warming, aromatic herb used to release the exterior and soothe the stomach.",
+        ],
+      },
+      {
+        title: "Lifestyle and Kitchen Notes",
+        paragraphs: [
+          "When Wind-Cold strikes, immediate action is key. Traditional frameworks recommend drinking a hot, spicy tea (like Ginger and Brown Sugar Tea) and immediately getting into a warm bed under heavy blankets to encourage a light sweat. It is crucial to stay out of drafts and avoid cold, raw foods during this time. Once the body sweats lightly and the shivering stops, the Wind-Cold is considered to have been 'pushed out.'",
+        ],
+      },
+      {
+        title: "Read This Page in Context",
+        paragraphs: [
+          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        ],
+      },
+    ],
+  },
+  {
     slug: "chen-pi-vs-hawthorn-berry",
     title: "Chen Pi vs Hawthorn Berry",
     description:
