@@ -2477,6 +2477,83 @@ const rawBasicsArticles: ContentArticle[] = [
     ],
   },
 
+  {
+    slug: "what-is-liver-blood-deficiency",
+    title: "What Is Liver Blood Deficiency?",
+    description:
+      "A plain-English guide to the traditional concept of Liver Blood Deficiency — what it means, signs, causes, traditional approaches to nourishing Liver Blood, and practical lifestyle and kitchen notes.",
+    eyebrow: "Basics & Concepts",
+    intro:
+      "In traditional Chinese wellness practices, the \"Liver\" (肝, Gān) is responsible for ensuring the smooth flow of Qi and emotions throughout the body. More importantly, it \"stores the Blood.\" When the body is active, Blood flows outward to nourish the muscles and tendons. When the body rests, Blood returns to the Liver to be stored, cleansed, and regenerated.",
+    sections: [
+      {
+        title: "The Concept of the Liver in Traditional Frameworks",
+        paragraphs: [
+          "In traditional Chinese wellness practices, the \"Liver\" (肝, Gān) is responsible for ensuring the smooth flow of Qi and emotions throughout the body. More importantly, it \"stores the Blood.\"",
+          "When the body is active, Blood flows outward to nourish the muscles and tendons. When the body rests (especially during sleep), Blood returns to the Liver to be stored, cleansed, and regenerated. The Liver also traditionally \"opens into the eyes\" and governs the tendons, nails, and menstrual cycle.",
+        ],
+      },
+      {
+        title: "Understanding Liver Blood Deficiency",
+        paragraphs: [
+          "\"Liver Blood Deficiency\" (肝血虚, Gān Xuě Xū) occurs when the body lacks sufficient Blood to properly nourish the Liver and the areas it governs.",
+          "If the Liver is a reservoir, Liver Blood Deficiency means the water level has dropped too low. The surrounding \"land\" (the eyes, tendons, and skin) becomes dry and undernourished, and the Liver's ability to keep energy flowing smoothly is compromised.",
+        ],
+      },
+      {
+        title: "Signs of Liver Blood Deficiency",
+        paragraphs: [
+          "Because Liver Blood nourishes the eyes, tendons, and reproductive system, its deficiency manifests clearly in these areas:",
+        ],
+        bullets: [
+          "Eye Issues: Dry, gritty, or tired eyes, blurred vision, and \"floaters\" in the field of vision.",
+          "Tendon and Muscle Signs: Muscle cramps, spasms, numbness in the limbs, and tight, inflexible joints (because the tendons lack lubrication).",
+          "Physical Appearance: Pale, brittle, or ridged fingernails; dry, dull hair and skin; and a pale complexion.",
+          "Sleep and Mood: Difficulty falling asleep, vivid dreams, and a tendency toward mild anxiety or irritability.",
+          "Women's Health: A light, scanty menstrual flow, delayed cycles, or missed periods.",
+          "Physical Signs: A pale tongue, especially on the sides, and a thin, weak pulse.",
+        ],
+      },
+      {
+        title: "Causes of Liver Blood Deficiency",
+        paragraphs: [
+          "Liver Blood Deficiency is typically a chronic condition that develops over time:",
+        ],
+        bullets: [
+          "Spleen Qi Deficiency: The Spleen creates Blood from food. If digestion is weak, Blood production falls behind.",
+          "Chronic Blood Loss: Heavy menstrual bleeding or recovery from childbirth.",
+          "Overworking the Eyes: Staring at screens for long hours without rest directly consumes Liver Blood.",
+          "Lack of Rest: Staying up late prevents Blood from returning to the Liver to be regenerated.",
+        ],
+      },
+      {
+        title: "Traditional Approaches to Nourishing Liver Blood",
+        paragraphs: [
+          "The traditional strategy is to \"Nourish Blood and Soften the Liver\" using ingredients that are \"Sweet,\" \"Sour,\" and deeply hydrating.",
+        ],
+        bullets: [
+          "Goji Berry (Gou Qi Zi): The premier fruit for nourishing Liver Blood and brightening the eyes.",
+          "White Peony Root (Bai Shao): Nourishes Blood and softens the Liver, helping to relieve muscle cramps.",
+          "Dang Gui (Angelica Sinensis): A powerful Blood tonic, especially used in women's wellness.",
+          "Longan Aril (Long Yan Rou): Nourishes both Heart and Liver Blood.",
+        ],
+      },
+      {
+        title: "Lifestyle and Kitchen Notes",
+        paragraphs: [
+          "Dietary support is crucial. Traditional frameworks emphasize nutrient-dense, dark-colored foods: dark leafy greens (spinach, kale), black beans, black sesame seeds, and bone broths. Equally important is lifestyle: reducing screen time to protect the eyes, and ensuring adequate sleep before midnight so the Liver can properly store and regenerate Blood.",
+        ],
+      },
+      {
+        title: "Read This Page in Context",
+        paragraphs: [
+          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        ],
+      },
+    ],
+  },
+
+
 ];
 
 export const basicsArticles = rawBasicsArticles.map((article) => sanitizeContentArticle(article));

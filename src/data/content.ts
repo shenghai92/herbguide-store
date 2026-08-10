@@ -250,6 +250,12 @@ const rawBasicsCards = [
     title: "What Is Wind-Heat?",
     text: "A comprehensive guide to the traditional concept of Wind-Heat — what Wind represents, how it combines with Heat to cause inflammation and sore throat, signs, traditional approaches to dispersing Wind-Heat, and cooling lifestyle and kitchen notes.",
   },
+  {
+    slug: "what-is-liver-blood-deficiency",
+    title: "What Is Liver Blood Deficiency?",
+    text: "A comprehensive guide to the traditional concept of Liver Blood Deficiency — what the Liver represents, how Blood Deficiency manifests in eyes, tendons, sleep, and women's health, signs, causes, traditional approaches, and lifestyle and kitchen notes.",
+  },
+
 ];
 
 export const basicsCards = rawBasicsCards.map((card) => sanitizeContentCard(card));
