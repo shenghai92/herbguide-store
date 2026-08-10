@@ -256,6 +256,12 @@ const rawBasicsCards = [
     text: "A comprehensive guide to the traditional concept of Liver Blood Deficiency — what the Liver represents, how Blood Deficiency manifests in eyes, tendons, sleep, and women's health, signs, causes, traditional approaches, and lifestyle and kitchen notes.",
   },
 
+  {
+    slug: "what-is-stomach-yin-deficiency",
+    title: "What Is Stomach Yin Deficiency?",
+    text: "A comprehensive guide to the traditional concept of Stomach Yin Deficiency — what Stomach Yin represents, how its deficiency causes digestive dryness and Empty Heat, signs, causes, traditional approaches, and lifestyle and kitchen notes.",
+  },
+
 ];
 
 export const basicsCards = rawBasicsCards.map((card) => sanitizeContentCard(card));
