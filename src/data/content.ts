@@ -261,6 +261,12 @@ const rawBasicsCards = [
     title: "What Is Stomach Yin Deficiency?",
     text: "A comprehensive guide to the traditional concept of Stomach Yin Deficiency — what Stomach Yin represents, how its deficiency causes digestive dryness and Empty Heat, signs, causes, traditional approaches, and lifestyle and kitchen notes.",
   },
+  {
+    slug: "what-is-lung-yin-deficiency",
+    title: "What Is Lung Yin Deficiency?",
+    text: "A comprehensive guide to the traditional concept of Lung Yin Deficiency — what Lung Yin represents, how its deficiency causes respiratory dryness and dry cough, signs, causes, traditional approaches, and lifestyle and kitchen notes.",
+  },
+
 
 ];
 

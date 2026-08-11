@@ -2627,6 +2627,81 @@ const rawBasicsArticles: ContentArticle[] = [
     ],
   },
 
+  {
+    slug: "what-is-lung-yin-deficiency",
+    title: "What Is Lung Yin Deficiency?",
+    description:
+      "A plain-English guide to the traditional concept of Lung Yin Deficiency — what it means, signs, causes, traditional approaches to nourishing Lung Yin, and practical lifestyle and kitchen notes.",
+    eyebrow: "Basics & Concepts",
+    intro:
+      "In traditional Chinese wellness practices, the Lungs are considered a \"delicate organ.\" They are the uppermost organ in the body and the first point of contact with the external environment. The Lungs prefer a moist, cool environment. \"Lung Yin\" (肺阴, Fèi Yīn) refers to the essential fluids that keep the respiratory tract, throat, and nasal passages moistened, lubricated, and protected from external dryness and heat.",
+    sections: [
+      {
+        title: "The Concept of Lung Yin",
+        paragraphs: [
+          "In traditional Chinese wellness practices, the Lungs are considered a \"delicate organ.\" They are the uppermost organ in the body and the first point of contact with the external environment.",
+          "The Lungs prefer a moist, cool environment. \"Lung Yin\" (肺阴, Fèi Yīn) refers to the essential fluids that keep the respiratory tract, throat, and nasal passages moistened, lubricated, and protected from external dryness and heat.",
+        ],
+      },
+      {
+        title: "Understanding Lung Yin Deficiency",
+        paragraphs: [
+          "\"Lung Yin Deficiency\" (肺阴虚, Fèi Yīn Xū) occurs when the respiratory system loses its essential moisture.",
+          "When Lung Yin is depleted, the respiratory tract becomes dry and irritated. Because Yin represents the cooling aspect of the body, a lack of Yin allows \"Empty Heat\" to rise, causing mild inflammation and a chronic, dry cough.",
+        ],
+      },
+      {
+        title: "Signs of Lung Yin Deficiency",
+        paragraphs: [
+          "The signs of Lung Yin Deficiency are centered around the respiratory tract and the presence of dryness and Empty Heat:",
+        ],
+        bullets: [
+          "Dry Cough: A chronic, dry, hacking cough with little to no phlegm. If phlegm is present, it is scanty, sticky, and difficult to expectorate.",
+          "Throat Issues: A dry, scratchy, or slightly sore throat, which is often worse in the afternoon or evening.",
+          "Voice Changes: Hoarseness or a loss of voice after speaking.",
+          "Heat Signs: A feeling of heat in the palms and soles of the feet, mild night sweats, and flushed cheeks in the afternoon.",
+          "Physical Signs: A red tongue with little or no coating, and a thin, rapid pulse.",
+        ],
+      },
+      {
+        title: "Causes of Lung Yin Deficiency",
+        paragraphs: [
+          "Lung Yin can be depleted by environmental factors, lifestyle choices, and chronic conditions:",
+        ],
+        bullets: [
+          "Environmental Dryness: Living in a very dry climate or spending long hours in heavily air-conditioned or artificially heated environments.",
+          "Chronic Cough: A lingering respiratory challenge that has \"burned up\" the Lung fluids over time.",
+          "Vocal Strain: Teachers, singers, or public speakers who overuse their voice.",
+          "Smoking: Tobacco smoke is hot and dry, directly damaging Lung Yin.",
+        ],
+      },
+      {
+        title: "Traditional Approaches to Nourishing Lung Yin",
+        paragraphs: [
+          "The traditional strategy is to \"Nourish Yin, Moisten the Lungs, and Clear Empty Heat\" using ingredients that are \"Sweet,\" \"Cool,\" and mucilaginous (gelatinous).",
+        ],
+        bullets: [
+          "Lily Bulb (Bai He): Sweet and cooling, it is excellent for moistening the Lungs and stopping a dry cough.",
+          "White Wood Ear Mushroom (Yin Er): A highly hydrating, gelatinous food that coats and soothes the respiratory tract.",
+          "Pear (Xue Li): The premier fruit for clearing Lung Heat and generating fluids.",
+          "Ophiopogon Root (Mai Dong): Deeply moistens both the Lungs and the Stomach.",
+        ],
+      },
+      {
+        title: "Lifestyle and Kitchen Notes",
+        paragraphs: [
+          "Dietary support is highly effective for Lung Yin Deficiency. The classic kitchen remedy is a slow-cooked soup made of Asian pear, white wood ear mushroom, and a small amount of rock sugar. This creates a thick, soothing broth that directly hydrates the throat and lungs. It is important to avoid spicy, roasted, and overly dry foods, and to ensure the living environment is adequately humidified.",
+        ],
+      },
+      {
+        title: "Read This Page in Context",
+        paragraphs: [
+          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        ],
+      },
+    ],
+  },
+
 ];
 
 export const basicsArticles = rawBasicsArticles.map((article) => sanitizeContentArticle(article));
