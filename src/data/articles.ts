@@ -2702,6 +2702,81 @@ const rawBasicsArticles: ContentArticle[] = [
     ],
   },
 
+  {
+    slug: "what-is-kidney-yang-deficiency",
+    title: "What Is Kidney Yang Deficiency?",
+    description:
+      "A plain-English guide to the traditional concept of Kidney Yang Deficiency — what it means, signs, causes, traditional approaches to warming Kidney Yang, and practical lifestyle and kitchen notes.",
+    eyebrow: "Basics & Concepts",
+    intro:
+      "In traditional Chinese wellness practices, the Kidneys are the \"Root of Pre-Natal Life.\" They store the body's deepest reserves of energy and essence. The Kidneys have two aspects: Yin (the cooling, nourishing substance) and Yang (the warming, activating fire). \"Kidney Yang\" (肾阳, Shèn Yáng) is the fundamental \"Pilot Light\" or \"Ming Men Fire\" (Fire of the Gate of Life) that warms the entire body and provides the spark for all metabolic and digestive processes.",
+    sections: [
+      {
+        title: "The Concept of Kidney Yang",
+        paragraphs: [
+          "In traditional Chinese wellness practices, the Kidneys are the \"Root of Pre-Natal Life.\" They store the body's deepest reserves of energy and essence.",
+          "The Kidneys have two aspects: Yin (the cooling, nourishing substance) and Yang (the warming, activating fire). \"Kidney Yang\" (肾阳, Shèn Yáng) is the fundamental \"Pilot Light\" or \"Ming Men Fire\" (Fire of the Gate of Life) that warms the entire body and provides the spark for all metabolic and digestive processes.",
+        ],
+      },
+      {
+        title: "Understanding Kidney Yang Deficiency",
+        paragraphs: [
+          "\"Kidney Yang Deficiency\" (肾阳虚, Shèn Yáng Xū) occurs when this internal pilot light grows dim.",
+          "When Kidney Yang is weak, the body loses its ability to warm itself. Because the Kidney Fire is responsible for warming the Spleen (digestion), a lack of Kidney Yang often leads to a slowing down of the entire metabolic engine, resulting in profound coldness and fluid accumulation.",
+        ],
+      },
+      {
+        title: "Signs of Kidney Yang Deficiency",
+        paragraphs: [
+          "The signs of Kidney Yang Deficiency are characterized by deep, systemic coldness and a lack of functional energy:",
+        ],
+        bullets: [
+          "Profound Coldness: Feeling constantly cold, especially in the lower back, knees, and extremities (hands and feet), which is not relieved by wearing more clothes.",
+          "Lower Body Weakness: A dull, lingering ache and weakness in the lower back and knees.",
+          "Fluid Issues: Because the body lacks the heat to vaporize fluids, water accumulates. This leads to frequent, clear, and copious urination (especially at night) or edema (swelling) in the lower legs.",
+          "Digestive Signs: \"Daybreak diarrhea\" (loose stools occurring very early in the morning) because the Spleen lacks the Kidney Fire needed to digest food.",
+          "Physical Signs: A pale, bright, or slightly dark complexion, a pale, wet, swollen tongue, and a deep, weak pulse.",
+        ],
+      },
+      {
+        title: "Causes of Kidney Yang Deficiency",
+        paragraphs: [
+          "Kidney Yang Deficiency is usually a chronic condition that develops over many years:",
+        ],
+        bullets: [
+          "Aging: The natural decline of the body's vital fire as we grow older.",
+          "Chronic Illness: Long-term health challenges that eventually deplete the body's deepest reserves.",
+          "Excessive Cold: Long-term consumption of ice-cold foods and drinks, or prolonged exposure to cold, damp environments without adequate protection.",
+          "Overwork: Severe physical or mental exhaustion over a period of years.",
+        ],
+      },
+      {
+        title: "Traditional Approaches to Warming Kidney Yang",
+        paragraphs: [
+          "The traditional strategy is to \"Warm and Tonify Kidney Yang\" using ingredients that are \"Pungent,\" \"Sweet,\" and distinctly \"Warm\" or \"Hot.\"",
+        ],
+        bullets: [
+          "Cinnamon Bark (Rou Gui): A powerful, warming spice that guides heat back to the body's core.",
+          "Walnut (He Tao Ren): A warm, nourishing nut that supports the Kidneys and the brain.",
+          "Morinda Root (Ba Ji Tian): A classic herb for warming Kidney Yang and strengthening the lower back and bones.",
+          "Eucommia Bark (Du Zhong): Used to tonify Kidney Yang and specifically strengthen the tendons and bones.",
+        ],
+      },
+      {
+        title: "Lifestyle and Kitchen Notes",
+        paragraphs: [
+          "For Kidney Yang Deficiency, keeping the body warm is the absolute priority. The lower back and feet must be protected from drafts and cold floors. In the kitchen, all food must be cooked and served warm. Warming spices like ginger, cinnamon, clove, and fennel should be incorporated into daily meals. Cold, raw foods, and iced beverages must be completely eliminated to protect the remaining internal fire.",
+        ],
+      },
+      {
+        title: "Read This Page in Context",
+        paragraphs: [
+          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        ],
+      },
+    ],
+  },
+
 ];
 
 export const basicsArticles = rawBasicsArticles.map((article) => sanitizeContentArticle(article));

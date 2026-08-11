@@ -268,6 +268,12 @@ const rawBasicsCards = [
   },
 
 
+  {
+    slug: "what-is-kidney-yang-deficiency",
+    title: "What Is Kidney Yang Deficiency?",
+    text: "A comprehensive guide to the traditional concept of Kidney Yang Deficiency — what Kidney Yang represents, how its deficiency causes systemic coldness and fluid issues, signs, causes, traditional approaches, and lifestyle and kitchen notes.",
+  },
+
 ];
 
 export const basicsCards = rawBasicsCards.map((card) => sanitizeContentCard(card));
