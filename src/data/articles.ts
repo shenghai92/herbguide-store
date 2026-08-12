@@ -2777,6 +2777,80 @@ const rawBasicsArticles: ContentArticle[] = [
     ],
   },
 
+  {
+    slug: "what-is-liver-qi-stagnation",
+    title: "What Is Liver Qi Stagnation?",
+    description:
+      "A plain-English guide to the traditional concept of Liver Qi Stagnation — what it means, signs, causes, traditional approaches to smoothing Liver Qi, and practical lifestyle and kitchen notes.",
+    eyebrow: "Basics & Concepts",
+    intro:
+      "In traditional Chinese wellness practices, the Liver (肝, Gān) is likened to a military general who plans and strategizes. One of its most important functions is ensuring the \"smooth and free flow\" of Qi (energy), Blood, and emotions throughout the entire body. When the Liver is functioning well, energy moves smoothly, digestion is coordinated, and emotions are balanced and resilient.",
+    sections: [
+      {
+        title: "The Concept of the Liver and Qi Flow",
+        paragraphs: [
+          "In traditional Chinese wellness practices, the Liver (肝, Gān) is likened to a military general who plans and strategizes. One of its most important functions is ensuring the \"smooth and free flow\" of Qi (energy), Blood, and emotions throughout the entire body.",
+          "When the Liver is functioning well, energy moves smoothly, digestion is coordinated, and emotions are balanced and resilient.",
+        ],
+      },
+      {
+        title: "Understanding Liver Qi Stagnation",
+        paragraphs: [
+          "\"Liver Qi Stagnation\" (肝气郁结, Gān Qì Yù Jié) occurs when the Liver's ability to maintain this smooth flow is compromised.",
+          "Instead of flowing freely like a clear river, the Qi becomes blocked, congested, and pressurized — like a traffic jam or water building up behind a dam. Because the Liver governs emotions, this physical stagnation is almost always linked to emotional stress.",
+        ],
+      },
+      {
+        title: "Signs of Liver Qi Stagnation",
+        paragraphs: [
+          "Because Qi is blocked, the primary symptom is a feeling of pressure, tightness, or distention, rather than sharp pain:",
+        ],
+        bullets: [
+          "Emotional Signs: Frequent sighing, mood swings, irritability, a short temper, and feeling easily frustrated or depressed.",
+          "Physical Tension: A feeling of tightness or distention in the chest, ribs, or upper abdomen. A sensation of a \"lump in the throat\" that cannot be swallowed or coughed up (traditionally called \"Plum Pit Qi\").",
+          "Digestive Upset: Because the Liver \"overacts\" on the Spleen and Stomach when it is stagnant, this can cause bloating, belching, and alternating constipation and loose stools (especially when stressed).",
+          "Women's Health: Premenstrual tension (PMS), breast distention before the cycle, and irregular or painful periods.",
+          "Physical Signs: A tongue with slightly red or swollen edges, and a \"wiry\" or tight pulse.",
+        ],
+      },
+      {
+        title: "Causes of Liver Qi Stagnation",
+        paragraphs: [
+          "Liver Qi Stagnation is arguably the most common imbalance in modern, fast-paced societies:",
+        ],
+        bullets: [
+          "Emotional Stress: Unexpressed anger, chronic frustration, resentment, and high-pressure work environments are the primary causes. The Liver hates being constrained.",
+          "Lack of Movement: A sedentary lifestyle contributes to physical stagnation, which in turn leads to Qi stagnation.",
+          "Poor Diet: Eating while angry or stressed, or consuming too many heavy, greasy foods that block the smooth flow of energy.",
+        ],
+      },
+      {
+        title: "Traditional Approaches to Smoothing Liver Qi",
+        paragraphs: [
+          "The traditional strategy is to \"Soothe the Liver and Regulate Qi\" using ingredients that are aromatic, light, and slightly pungent to break up the congestion.",
+        ],
+        bullets: [
+          "Chai Hu (Bupleurum): The most famous herb for soothing the Liver and releasing stagnant Qi.",
+          "Rose Bud (Mei Gui Hua): A gentle, aromatic flower that smooths Liver Qi and gently moves Blood, highly favored for emotional and menstrual balance.",
+          "Mint (Bo He): Its light, aromatic nature helps clear the head and release mild Liver constraint.",
+          "Chen Pi (Aged Tangerine Peel): Used to regulate Qi in the digestive system, addressing the bloating caused by a stagnant Liver.",
+        ],
+      },
+      {
+        title: "Lifestyle and Kitchen Notes",
+        paragraphs: [
+          "While herbs and foods can help, lifestyle changes are essential for resolving Liver Qi Stagnation. Physical movement is crucial — brisk walking, stretching, or yoga physically moves the body, which helps move the Qi. Finding healthy outlets for stress and frustration (rather than bottling them up) is equally important. In the kitchen, light, aromatic teas (like Rose and Mint) are excellent for gently releasing tension throughout the day.",
+        ],
+      },
+      {
+        title: "Read This Page in Context",
+        paragraphs: [
+          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        ],
+      },
+    ],
+  },
+
 ];
 
 export const basicsArticles = rawBasicsArticles.map((article) => sanitizeContentArticle(article));

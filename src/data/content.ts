@@ -274,6 +274,12 @@ const rawBasicsCards = [
     text: "A comprehensive guide to the traditional concept of Kidney Yang Deficiency — what Kidney Yang represents, how its deficiency causes systemic coldness and fluid issues, signs, causes, traditional approaches, and lifestyle and kitchen notes.",
   },
 
+  {
+    slug: "what-is-liver-qi-stagnation",
+    title: "What Is Liver Qi Stagnation?",
+    text: "A comprehensive guide to the traditional concept of Liver Qi Stagnation — what the Liver represents, how Qi stagnation causes physical tension, emotional stress, and digestive upset, signs, causes, traditional approaches, and lifestyle and kitchen notes.",
+  },
+
 ];
 
 export const basicsCards = rawBasicsCards.map((card) => sanitizeContentCard(card));
