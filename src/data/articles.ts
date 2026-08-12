@@ -2925,8 +2925,6 @@ const rawBasicsArticles: ContentArticle[] = [
       },
     ],
   },
-
-];
   {
     slug: "what-is-lung-qi-deficiency",
     title: "What Is Lung Qi Deficiency?",
@@ -3001,6 +2999,9 @@ const rawBasicsArticles: ContentArticle[] = [
       },
     ],
   },
+
+];
+
 
 
 export const basicsArticles = rawBasicsArticles.map((article) => sanitizeContentArticle(article));
