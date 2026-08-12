@@ -280,6 +280,12 @@ const rawBasicsCards = [
     text: "A comprehensive guide to the traditional concept of Liver Qi Stagnation — what the Liver represents, how Qi stagnation causes physical tension, emotional stress, and digestive upset, signs, causes, traditional approaches, and lifestyle and kitchen notes.",
   },
 
+  {
+    slug: "what-is-heart-yin-deficiency",
+    title: "What Is Heart Yin Deficiency?",
+    text: "A comprehensive guide to the traditional concept of Heart Yin Deficiency — what Heart Yin represents, how its deficiency causes insomnia, anxiety, and Empty Heat, signs, causes, traditional approaches, and lifestyle and kitchen notes.",
+  },
+
 ];
 
 export const basicsCards = rawBasicsCards.map((card) => sanitizeContentCard(card));

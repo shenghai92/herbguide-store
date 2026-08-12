@@ -2851,6 +2851,81 @@ const rawBasicsArticles: ContentArticle[] = [
     ],
   },
 
+  {
+    slug: "what-is-heart-yin-deficiency",
+    title: "What Is Heart Yin Deficiency?",
+    description:
+      "A plain-English guide to the traditional concept of Heart Yin Deficiency — what it means, signs, causes, traditional approaches to nourishing Heart Yin and calming the Shen, and practical lifestyle and kitchen notes.",
+    eyebrow: "Basics & Concepts",
+    intro:
+      "In traditional Chinese wellness practices, the \"Heart\" (心, Xīn) houses the \"Shen\" (the spirit, mind, and consciousness) and governs the circulation of Blood. \"Heart Yin\" (心阴, Xīn Yīn) represents the cooling, moistening, and calming fluids that nourish the Heart and anchor the mind. If the Heart is an engine, Heart Yin is the coolant system that prevents it from overheating while it runs.",
+    sections: [
+      {
+        title: "The Concept of Heart Yin",
+        paragraphs: [
+          "In traditional Chinese wellness practices, the \"Heart\" (心, Xīn) houses the \"Shen\" (the spirit, mind, and consciousness) and governs the circulation of Blood.",
+          "\"Heart Yin\" (心阴, Xīn Yīn) represents the cooling, moistening, and calming fluids that nourish the Heart and anchor the mind. If the Heart is an engine, Heart Yin is the coolant system that prevents it from overheating while it runs.",
+        ],
+      },
+      {
+        title: "Understanding Heart Yin Deficiency",
+        paragraphs: [
+          "\"Heart Yin Deficiency\" (心阴虚, Xīn Yīn Xū) occurs when the Heart lacks this essential cooling and nourishing substance.",
+          "Without enough Yin to cool the system, \"Empty Heat\" (a false, hyperactive heat) arises. This heat disturbs the Shen, causing the mind to become restless, agitated, and unable to settle, especially at night. It is like an engine running hot without enough oil — it races and stutters.",
+        ],
+      },
+      {
+        title: "Signs of Heart Yin Deficiency",
+        paragraphs: [
+          "The signs of Heart Yin Deficiency combine the restlessness of an unanchored mind with the physical signs of Empty Heat:",
+        ],
+        bullets: [
+          "Sleep Disturbances: Severe insomnia, difficulty falling asleep, and waking up frequently. The sleep is often accompanied by vivid, exhausting dreams.",
+          "Mental Restlessness: A feeling of anxiety, agitation, and an inability to \"switch off\" the mind, even when physically exhausted.",
+          "Palpitations: A rapid, fluttering heartbeat, often worse in the evening or when trying to rest.",
+          "Heat Signs: Night sweats, a feeling of heat in the palms, soles of the feet, and chest (called \"Five-Palm Heat\"), and a dry mouth and throat.",
+          "Physical Signs: A red tongue with little or no coating (especially red at the tip), and a rapid, thin pulse.",
+        ],
+      },
+      {
+        title: "Causes of Heart Yin Deficiency",
+        paragraphs: [
+          "Heart Yin is typically depleted by long-term emotional and physical strain:",
+        ],
+        bullets: [
+          "Chronic Emotional Stress: Long-term anxiety, worry, or sadness \"burns up\" the Heart Yin.",
+          "Overwork: Pushing the body and mind past their limits without adequate rest, especially staying up late frequently.",
+          "Kidney Yin Deficiency: In traditional theory, the Kidneys are the source of all Yin in the body. If Kidney Yin is depleted, it fails to nourish Heart Yin, leading to a combined deficiency.",
+          "Post-Illness: Recovering from a severe, feverish illness that consumed the body's fluids.",
+        ],
+      },
+      {
+        title: "Traditional Approaches to Nourishing Heart Yin",
+        paragraphs: [
+          "The traditional strategy is to \"Nourish Heart Yin, Clear Empty Heat, and Calm the Shen\" using ingredients that are \"Sweet,\" \"Cool,\" and deeply restorative.",
+        ],
+        bullets: [
+          "Lily Bulb (Bai He): Sweet and cooling, it nourishes Heart Yin, clears heat, and gently calms the spirit.",
+          "Ophiopogon Root (Mai Dong): Deeply moistens the Heart and Lungs and clears Empty Heat.",
+          "Sour Jujube Seed (Suan Zao Ren): One of the most famous herbs for nourishing the Heart and promoting deep sleep.",
+          "Schisandra Berry (Wu Wei Zi): An astringent berry that helps \"hold in\" the Heart Qi and Yin, preventing night sweats and calming the mind.",
+        ],
+      },
+      {
+        title: "Lifestyle and Kitchen Notes",
+        paragraphs: [
+          "For Heart Yin Deficiency, the priority is cooling, hydrating nourishment and profound rest. The diet should focus on moistening foods like pears, white wood ear mushrooms, lily bulbs, and light broths. Spicy, roasted, and heavily caffeinated foods must be strictly avoided, as they directly generate heat and further agitate the Heart. Establishing a calming evening routine and prioritizing sleep before midnight is essential to allow the Yin to regenerate.",
+        ],
+      },
+      {
+        title: "Read This Page in Context",
+        paragraphs: [
+          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        ],
+      },
+    ],
+  },
+
 ];
 
 export const basicsArticles = rawBasicsArticles.map((article) => sanitizeContentArticle(article));
