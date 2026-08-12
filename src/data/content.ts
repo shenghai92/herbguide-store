@@ -286,6 +286,12 @@ const rawBasicsCards = [
     text: "A comprehensive guide to the traditional concept of Heart Yin Deficiency — what Heart Yin represents, how its deficiency causes insomnia, anxiety, and Empty Heat, signs, causes, traditional approaches, and lifestyle and kitchen notes.",
   },
 
+  {
+    slug: "what-is-lung-qi-deficiency",
+    title: "What Is Lung Qi Deficiency?",
+    text: "A comprehensive guide to the traditional concept of Lung Qi Deficiency — what Lung Qi represents, how its deficiency causes respiratory weakness, weak immunity, and frequent colds, signs, causes, traditional approaches, and lifestyle and kitchen notes.",
+  },
+
 ];
 
 export const basicsCards = rawBasicsCards.map((card) => sanitizeContentCard(card));

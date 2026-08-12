@@ -2927,6 +2927,81 @@ const rawBasicsArticles: ContentArticle[] = [
   },
 
 ];
+  {
+    slug: "what-is-lung-qi-deficiency",
+    title: "What Is Lung Qi Deficiency?",
+    description:
+      "A plain-English guide to the traditional concept of Lung Qi Deficiency — what it means, signs, causes, traditional approaches to tonifying Lung Qi, and practical lifestyle and kitchen notes.",
+    eyebrow: "Basics & Concepts",
+    intro:
+      "In traditional Chinese wellness practices, the Lungs (肺, Fèi) are responsible for taking in fresh Qi from the air and distributing it throughout the body. They are also considered the \"canopy\" of the organs, providing the first line of defense against external environmental stressors. The Lungs govern the \"Wei Qi\" (Defensive Qi), which circulates just under the skin to protect the body, open and close the pores, and regulate sweating.",
+    sections: [
+      {
+        title: "The Concept of Lung Qi",
+        paragraphs: [
+          "In traditional Chinese wellness practices, the Lungs (肺, Fèi) are responsible for taking in fresh Qi from the air and distributing it throughout the body. They are also considered the \"canopy\" of the organs, providing the first line of defense against external environmental stressors.",
+          "The Lungs govern the \"Wei Qi\" (Defensive Qi), which circulates just under the skin to protect the body, open and close the pores, and regulate sweating.",
+        ],
+      },
+      {
+        title: "Understanding Lung Qi Deficiency",
+        paragraphs: [
+          "\"Lung Qi Deficiency\" (肺气虚, Fèi Qì Xū) occurs when the Lungs lack the vital energy to perform their respiratory and defensive functions.",
+          "When Lung Qi is weak, the breath becomes shallow, the voice loses its power, and the body's defensive barrier becomes porous, leaving the individual highly susceptible to catching colds and feeling the effects of wind and weather.",
+        ],
+      },
+      {
+        title: "Signs of Lung Qi Deficiency",
+        paragraphs: [
+          "The signs of Lung Qi Deficiency are centered around respiration, vocal power, and immune resilience:",
+        ],
+        bullets: [
+          "Respiratory Weakness: Shortness of breath, especially after mild physical exertion, and a chronic, weak, and tired cough.",
+          "Weak Voice: A soft, low voice, and a reluctance to speak because talking feels exhausting.",
+          "Spontaneous Sweating: Sweating easily during the day with minimal exertion. This happens because the weak Lung Qi cannot hold the pores closed.",
+          "Vulnerability to Colds: Catching colds easily and frequently, and taking a long time to recover from them.",
+          "Physical Signs: A pale complexion, a tendency to feel chilly, a pale tongue with a thin white coating, and a weak pulse.",
+        ],
+      },
+      {
+        title: "Causes of Lung Qi Deficiency",
+        paragraphs: [
+          "Lung Qi can be depleted by chronic respiratory issues, lifestyle habits, and underlying digestive weakness:",
+        ],
+        bullets: [
+          "Chronic Respiratory Challenges: A lingering cough or long-term respiratory issue that exhausts the Lungs' energy over time.",
+          "Spleen Qi Deficiency: In traditional theory, the Spleen (Earth) generates the Lungs (Metal). If digestion is weak, the Spleen cannot produce enough Qi to support the Lungs.",
+          "Poor Posture: Slouching or hunching over restricts the physical expansion of the chest, hindering the Lungs' ability to gather Qi.",
+          "Grief and Sadness: In traditional theory, the emotion associated with the Lungs is grief. Prolonged, unresolved sadness directly depletes Lung Qi.",
+        ],
+      },
+      {
+        title: "Traditional Approaches to Tonifying Lung Qi",
+        paragraphs: [
+          "The traditional strategy is to \"Tonify Lung Qi and Consolidate the Exterior\" using ingredients that are \"Sweet,\" \"Warm,\" and specifically targeted at the Lungs and Spleen.",
+        ],
+        bullets: [
+          "Astragalus Root (Huang Qi): The premier herb for tonifying Lung Qi, boosting the Wei Qi (immune barrier), and stopping spontaneous sweating.",
+          "Ginseng (Ren Shen) or Codonopsis (Dang Shen): Powerful tonics that support both the Lungs and the Spleen.",
+          "Chinese Yam (Shan Yao): A gentle food that tonifies both Lung and Spleen Qi.",
+          "Schisandra Berry (Wu Wei Zi): Astringent in nature, it helps the Lungs \"grasp\" the Qi and stops chronic coughing and sweating.",
+        ],
+      },
+      {
+        title: "Lifestyle and Kitchen Notes",
+        paragraphs: [
+          "For Lung Qi Deficiency, supporting digestion (the Spleen) is just as important as supporting the Lungs. Warm, easily digestible soups and stews are ideal. Gentle aerobic exercise (like Tai Chi or Qi Gong) that focuses on deep, diaphragmatic breathing is highly recommended to physically expand the chest and build respiratory capacity. It is also crucial to protect the neck and upper back from cold drafts to prevent external stressors from penetrating the weakened defensive barrier.",
+        ],
+      },
+      {
+        title: "Read This Page in Context",
+        paragraphs: [
+          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        ],
+      },
+    ],
+  },
+
 
 export const basicsArticles = rawBasicsArticles.map((article) => sanitizeContentArticle(article));
 
