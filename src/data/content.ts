@@ -358,8 +358,8 @@ const rawRecipeCards = [
   },
   {
     slug: "chrysanthemum-and-mint-cooling-tea-basics",
-    title: "Chrysanthemum and Mint Cooling Tea Basics",
-    text: "A simple tea guide that explains cooling language through two familiar ingredients.",
+    title: "Chrysanthemum and Mint Tea",
+    text: "A bright, cooling two-ingredient tea pairing chrysanthemum flower with peppermint to soothe tired eyes and clear the head on hot days.",
   },
   {
     slug: "chrysanthemum-tea-basics",
@@ -428,8 +428,8 @@ const rawRecipeCards = [
   },
   {
     slug: "adzuki-bean-and-jobs-tears-soup-basics",
-    title: "Adzuki Bean and Job's Tears Soup Basics",
-    text: "A pantry-style soup page that gives dampness and digestive readers one clear, low-hype bowl to picture.",
+    title: "Red Bean and Job's Tears Soup",
+    text: "A classic two-ingredient damp-clearing soup pairing adzuki bean with Job's Tears — simple, nourishing, and gentle on digestion.",
   },
   {
     slug: "chinese-yam-and-carrot-soup-basics",
@@ -478,8 +478,8 @@ const rawRecipeCards = [
   },
   {
     slug: "osmanthus-and-pear-tea-basics",
-    title: "Osmanthus and Pear Tea Basics",
-    text: "A fragrant pear tea page that brings sweet osmanthus into a gentle, search-friendly floral kitchen routine.",
+    title: "Osmanthus and Pear Tea",
+    text: "A fragrant autumn tea pairing sweet osmanthus flower with moistening pear to gently soothe dry throats.",
   },
   {
     slug: "jasmine-and-pear-tea-basics",
@@ -498,13 +498,13 @@ const rawRecipeCards = [
   },
   {
     slug: "cassia-seed-and-corn-silk-tea-basics",
-    title: "Cassia Seed and Corn Silk Tea Basics",
-    text: "A mild pantry tea page that connects cassia seed and corn silk through a light seasonal cup with search-friendly kitchen language.",
+    title: "Cassia Seed and Corn Silk Tea",
+    text: "A classic two-ingredient summer tea pairing roasted cassia seed with corn silk to gently support the eyes, liver, and kidneys.",
   },
   {
     slug: "lotus-root-soup-basics",
-    title: "Lotus Root Soup Basics",
-    text: "A simple lotus root soup page built around a widely searched ingredient with calm, kitchen-first wording.",
+    title: "Lotus Root and Pork Rib Soup",
+    text: "A deeply nourishing Cantonese classic pairing lotus root with pork ribs, red dates, and ginger for a warming autumn broth.",
   },
   {
     slug: "astragalus-and-jujube-chicken-broth",
