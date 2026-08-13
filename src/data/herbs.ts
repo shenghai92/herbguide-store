@@ -1577,7 +1577,8 @@ const rawHerbs: Herb[] = [
       },
     ],
     references: [
-      "[1] Healthline. Black Beans: Nutrition, Benefits, and How to Cook Them. https://www.healthline.com/nutrition/black-beans-nutrition",
+      "[1] Healthline. Black Beans: Nutrition, Benefits, and More. https://www.healthline.com/nutrition/black-beans-nutrition",
+      "[2] PubMed. Health benefits of black soybeans. https://pubmed.ncbi.nlm.nih.gov/28911534/",
     ],
     tags: ["black bean", "hei dou", "glycine max", "kidney tonic", "yin and blood", "anthocyanins", "legume", "bone health", "traditional Chinese bean"],
   },
