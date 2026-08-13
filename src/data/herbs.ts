@@ -801,7 +801,8 @@ const rawHerbs: Herb[] = [
       },
     ],
     references: [
-      "[1] Healthline. Yam: Nutrition, Benefits, and How to Cook It. https://www.healthline.com/nutrition/yam-benefits",
+      "[1] NCCIH. Traditional Chinese Medicine: What You Need To Know. https://www.nccih.nih.gov/health/traditional-chinese-medicine-what-you-need-to-know",
+      "[2] PubMed. Nutritional and pharmacological properties of Dioscorea opposita. https://pubmed.ncbi.nlm.nih.gov/25694676/",
     ],
     tags: ["shan yao", "chinese yam", "dioscorea polystachya", "qi tonifying", "spleen health", "prebiotic", "mucilage", "traditional Chinese root"],
   },
