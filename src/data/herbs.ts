@@ -1630,6 +1630,7 @@ const rawHerbs: Herb[] = [
     ],
     references: [
       "[1] Healthline. 13 Proven Health Benefits of Walnuts. https://www.healthline.com/nutrition/benefits-of-walnuts",
+      "[2] PubMed. Health Benefits of Walnuts. https://pubmed.ncbi.nlm.nih.gov/25747270/",
     ],
     tags: ["walnut", "he tao ren", "juglans regia", "yang tonic", "brain food", "omega-3", "kidney tonic", "cognitive health", "traditional Chinese nut"],
   },
