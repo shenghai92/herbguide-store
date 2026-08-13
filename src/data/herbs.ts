@@ -1526,7 +1526,8 @@ const rawHerbs: Herb[] = [
       },
     ],
     references: [
-      "[1] Healthline. Tremella Mushroom: Benefits, Uses, and Side Effects. https://www.healthline.com/nutrition/tremella-mushroom",
+      "[1] PubMed. Tremella fuciformis polysaccharides: A review of their chemistry, pharmacological activities, and applications. https://pubmed.ncbi.nlm.nih.gov/34219001/",
+      "[2] Healthline. 6 Benefits of Tremella Mushrooms. https://www.healthline.com/nutrition/tremella-mushroom-benefits",
     ],
     tags: ["yin er", "tremella", "snow fungus", "white wood ear", "yin tonifying", "beauty foods", "hyaluronic acid", "traditional Chinese mushroom"],
   },
