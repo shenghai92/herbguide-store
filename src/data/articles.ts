@@ -5377,6 +5377,7 @@ export const foodTherapyArticles: ContentArticle[] = [
     ],
     references: [
       "[1] MSKCC. Ginger. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginger",
+      "[2] Healthline. 11 Proven Health Benefits of Ginger. https://www.healthline.com/nutrition/11-proven-benefits-of-ginger",
     ],
   },
   {
@@ -5659,6 +5660,7 @@ export const foodTherapyArticles: ContentArticle[] = [
     ],
     references: [
       "[1] MSKCC. Ginger. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginger",
+      "[2] Healthline. 11 Proven Health Benefits of Ginger. https://www.healthline.com/nutrition/11-proven-benefits-of-ginger",
     ],
   },
   {
@@ -5813,7 +5815,7 @@ export const foodTherapyArticles: ContentArticle[] = [
       },
     ],
     references: [
-      "[1] NCCIH. Asian Ginseng. https://www.nccih.nih.gov/health/asian-ginseng",
+      "[1] NCCIH. Traditional Chinese Medicine: What You Need To Know. https://www.nccih.nih.gov/health/traditional-chinese-medicine-what-you-need-to-know",
     ],
   },
   {

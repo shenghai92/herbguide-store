@@ -1680,7 +1680,8 @@ const rawHerbs: Herb[] = [
       },
     ],
     references: [
-      "[1] WebMD. Health Benefits of Chestnuts. https://www.webmd.com/diet/health-benefits-chestnuts",
+      "[1] Healthline. 9 Surprising Health Benefits of Chestnuts. https://www.healthline.com/nutrition/chestnuts-benefits",
+      "[2] PubMed. Nutritional composition and health benefits of chestnuts. https://pubmed.ncbi.nlm.nih.gov/32205068/",
     ],
     tags: ["chestnut", "li zi", "castanea mollissima", "qi and yang tonic", "kidney support", "bone health", "complex carbohydrates", "vitamin C", "traditional Chinese nut"],
   },
