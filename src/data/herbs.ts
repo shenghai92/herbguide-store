@@ -907,7 +907,8 @@ const rawHerbs: Herb[] = [
       },
     ],
     references: [
-      "[1] WebMD. Health Benefits of Job's Tears. https://www.webmd.com/diet/health-benefits-jobs-tears",
+      "[1] PubMed. Pharmacological properties of Coix lacryma-jobi. https://pubmed.ncbi.nlm.nih.gov/28668109/",
+      "[2] Healthline. What Is Coix Seed? https://www.healthline.com/nutrition/coix-seed",
     ],
     tags: ["job's tears", "yi yi ren", "coix seed", "adlay", "chinese pearl barley", "dampness draining", "immunomodulatory", "traditional Chinese grain"],
   },
