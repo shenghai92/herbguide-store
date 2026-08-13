@@ -410,8 +410,8 @@ const rawHerbs: Herb[] = [
       },
     ],
     references: [
-      "[1] Healthline. 9 Impressive Health Benefits of Hawthorn Berry. https://www.healthline.com/nutrition/hawthorn-berry-benefits",
-      "[2] MSKCC. Hawthorn. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/hawthorn",
+      "[1] MSKCC. Hawthorn. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/hawthorn",
+      "[2] NCCIH. Hawthorn. https://www.nccih.nih.gov/health/hawthorn",
     ],
     tags: ["hawthorn berry", "shan zha", "crataegus pinnatifida", "food stagnation", "cardiovascular support", "digestive aid", "OPCs", "traditional Chinese fruit"],
   },
