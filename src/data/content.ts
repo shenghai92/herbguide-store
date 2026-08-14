@@ -57,8 +57,8 @@ const rawBasicsCards = [
   },
   {
     slug: "ginseng-vs-american-ginseng",
-    title: "Ginseng vs American Ginseng",
-    text: "A clear comparison that shows why traditional herb writing does not flatten all ginseng into one idea.",
+    title: "Asian Ginseng vs American Ginseng",
+    text: "A plain-English comparison of two ginseng species with opposite energetic natures — warm vs cool, and how to choose between them.",
   },
   {
     slug: "goji-berry-vs-jujube",
@@ -138,7 +138,12 @@ const rawBasicsCards = [
   {
     slug: "chen-pi-vs-hawthorn-berry",
     title: "Chen Pi vs Hawthorn Berry",
-    text: "A plain-English comparison of two common digestive ingredients that often get mentioned near heavy meals.",
+    text: "Two classic digestive herbs compared — Chen Pi moves Qi and dries Dampness, while Hawthorn reduces food stagnation from heavy meals.",
+  },
+  {
+    slug: "reishi-vs-cordyceps",
+    title: "Reishi vs Cordyceps",
+    text: "Two legendary functional mushrooms compared — Reishi for calm and immune support, Cordyceps for stamina and physical energy.",
   },
   {
     slug: "chen-pi-tea-recipe-faq",

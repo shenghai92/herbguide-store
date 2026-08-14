@@ -643,39 +643,56 @@ const rawBasicsArticles: ContentArticle[] = [
   },
   {
     slug: "ginseng-vs-american-ginseng",
-    title: "Ginseng vs American Ginseng",
+    title: "Asian Ginseng vs. American Ginseng — What's the Difference?",
     description:
-      "A plain-English comparison that explains why traditional herb writing does not frame all ginseng as the same herb.",
+      "A plain-English comparison of Asian and American ginseng — their energetic natures, traditional uses, scientific research, and how to choose between them.",
     eyebrow: "Basics",
     intro:
-      "English-language readers often use the word ginseng as if it refers to one simple category. Traditional herb writing is more precise. Ginseng and American ginseng are related, but they are traditionally described with different qualities and different educational use cases.",
+      "Walk into any herb shop or wellness store, and you will likely find both \"ginseng\" and \"American ginseng\" on the shelves. They look similar, they are both called ginseng, and they are both highly prized tonics. But in traditional Chinese wellness practice, they are considered to be fundamentally different herbs with opposite energetic qualities — and using the wrong one for your constitution can be counterproductive.",
     sections: [
       {
-        title: "Why this comparison is so useful",
-        paragraphs: [
-          "This is one of the strongest beginner comparisons because the name overlap is strong while the traditional descriptions are not identical.",
-          "It teaches readers that famous names can still hide important distinctions in traditional herb education.",
+        title: "At a Glance",
+        paragraphs: [],
+        bullets: [
+          "Latin Name: Asian Ginseng is Panax ginseng C.A.Mey.; American Ginseng is Panax quinquefolius L.",
+          "Pinyin: Ren Shen (人参) vs. Xi Yang Shen (西洋参)",
+          "Traditional Nature: Warm vs. Cool",
+          "Primary Action: Strongly tonifies Qi and Yang vs. tonifies Qi and Yin, clears Heat",
+          "Best For: Cold, deficient, low-energy constitutions vs. warm, dry, or Yin-deficient constitutions",
+          "Caution: Not for \"Heat\" conditions vs. not for \"Cold\" conditions",
         ],
       },
       {
-        title: "How the two are usually framed",
+        title: "What the Science Says",
         paragraphs: [
-          "Here, Ren Shen is introduced as a stronger classic tonic herb that needs careful framing. American ginseng is usually presented with a cooler profile and often appears in comparison articles for nuance.",
-          "That contrast helps readers move past the idea that more famous or more expensive automatically means more appropriate.",
+          "Both Asian and American ginseng contain ginsenosides — a family of steroidal saponins unique to the Panax genus. However, the specific profile of ginsenosides differs significantly between the two species, which is believed to account for their different traditional properties.",
+          "Asian ginseng (Panax ginseng) is richer in ginsenosides Rg1 and Rb1, which have been studied for their stimulating, adaptogenic, and Yang-supporting properties. American ginseng (Panax quinquefolius) has a different ginsenoside profile, with research suggesting it may have more cooling, Yin-supporting, and blood glucose-modulating properties.",
+          "The NCCIH notes that both species have been studied for their potential to support cognitive function, immune response, and energy levels, though more rigorous human clinical trials are needed.",
+        ],
+      },
+      {
+        title: "The Traditional Distinction",
+        paragraphs: [
+          "Asian Ginseng (Ren Shen) is warm and powerfully tonifying. It is the premier herb for \"Greatly Tonifying the Original Qi\" — used for profound fatigue, cold extremities, a pale complexion, and a weak, slow pulse. It is the herb of choice for a cold, deficient constitution. Because it is warm and stimulating, it is not appropriate for individuals who tend to run hot, have night sweats, or feel restless and irritable.",
+          "American Ginseng (Xi Yang Shen) is cool and moistening. It \"Tonifies Qi and Yin and Clears Heat.\" It is the better choice for individuals who are fatigued but also feel warm, have a dry mouth and throat, or tend toward anxiety and restlessness. It is often described as a \"gentler\" ginseng that is suitable for a wider range of constitutions.",
+        ],
+      },
+      {
+        title: "How to Choose",
+        paragraphs: [
+          "Always seek guidance from a qualified professional before starting any new herbal supplement, particularly if you are managing a health situation or taking other products.",
         ],
         bullets: [
-          "Ginseng is usually described as more warming or strongly qi-focused in traditional language.",
-          "American ginseng is often described as cooler and more fluid-supportive in traditional language.",
-          "Both pages need visible caution and context.",
+          "If you tend to feel cold, tired, and depleted, with low motivation and a pale complexion → Asian Ginseng may be more appropriate.",
+          "If you tend to feel tired but warm, with a dry mouth, night sweats, or anxiety → American Ginseng may be more appropriate.",
+          "If you are unsure, American Ginseng is generally considered the safer starting point, as its cooler nature is less likely to cause overstimulation.",
         ],
       },
-      {
-        title: "The deeper lesson behind the comparison",
-        paragraphs: [
-          "This is not only a ginseng lesson. It is a reading lesson. Traditional herb pages are easier to trust when they explain how names, forms, and qualities differ instead of flattening everything into broad marketing terms.",
-          "That is why comparison pages are so useful for reader education.",
-        ],
-      },
+    ],
+    references: [
+      "[1] NCCIH. Asian Ginseng. https://www.nccih.nih.gov/health/asian-ginseng",
+      "[2] NCCIH. American Ginseng. https://www.nccih.nih.gov/health/american-ginseng",
+      "[3] MSKCC. Ginseng. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginseng",
     ],
   },
   {
@@ -1422,39 +1439,105 @@ const rawBasicsArticles: ContentArticle[] = [
   },
   {
     slug: "chen-pi-vs-hawthorn-berry",
-    title: "Chen Pi vs Hawthorn Berry",
+    title: "Chen Pi vs. Hawthorn Berry — Two Classic Digestive Herbs Compared",
     description:
-      "A plain-English comparison of chen pi and hawthorn berry for readers exploring digestive Chinese pantry ingredients.",
+      "A plain-English comparison of Chen Pi and Hawthorn Berry — two classic digestive herbs that work through very different mechanisms and suit different situations.",
     eyebrow: "Basics",
     intro:
-      "Chen pi and hawthorn berry often appear on the same kinds of pages: rich meals, digestive heaviness, tea-style kitchen ideas, and traditional discussions of food moving more smoothly. They overlap enough to confuse beginners, but they do not tell the same story. A side-by-side comparison makes that much clearer.",
+      "Chen Pi (Aged Tangerine Peel) and Hawthorn Berry (Shan Zha) are two of the most widely used digestive herbs in the East Asian wellness tradition. Both are found in countless traditional formulas, herbal teas, and wellness products marketed for digestive support. But they work through entirely different mechanisms and are suited for different situations.",
     sections: [
       {
-        title: "Why readers compare these two ingredients",
-        paragraphs: [
-          "Both ingredients are approachable, food-adjacent, and easier to picture than many dense formula herbs.",
-          "They also appear near the same kinds of questions: what to read after a heavy meal, what digestive pantry herbs mean in traditional writing, and how to understand aromatic versus tart digestive language.",
-        ],
-      },
-      {
-        title: "How the two usually differ",
-        paragraphs: [
-          "Chen pi is usually introduced through aroma, citrus peel, qi movement, and the idea of helping things feel less stuck or heavy in a broader digestive sense.",
-          "Hawthorn berry is easier to frame around rich meals, fuller food stagnation language, and a more fruit-centered kitchen story.",
-        ],
+        title: "At a Glance",
+        paragraphs: [],
         bullets: [
-          "Chen pi is an aged citrus peel with an aromatic pantry identity.",
-          "Hawthorn berry is a tart fruit with stronger rich-meal comparison value.",
-          "Both belong to traditional digestive context, not one-size-fits-all advice.",
+          "Latin Name: Chen Pi is Citrus reticulata Blanco (aged peel); Hawthorn Berry is Crataegus pinnatifida Bunge",
+          "Pinyin: Chen Pi (陈皮) vs. Shan Zha (山楂)",
+          "Traditional Nature: Warm, aromatic vs. slightly warm, sour",
+          "Primary Action: Regulates Qi, dries Dampness, harmonizes the Stomach vs. moves Blood, reduces food stagnation (especially meat and fats)",
+          "Best For: Bloating, nausea, poor appetite, phlegmy cough vs. indigestion from heavy, fatty, or meaty meals; cardiovascular support",
+          "Key Compounds: Hesperidin, nobiletin, limonene vs. vitexin, hyperoside, oligomeric proanthocyanidins (OPCs)",
         ],
       },
       {
-        title: "How beginners should use this comparison",
+        title: "What the Science Says",
         paragraphs: [
-          "The point is not that one ingredient is better. The point is that traditional kitchen language separates ingredients by story, flavor, context, and traditional role.",
-          "Once readers understand this, digestive topic pages and tea pages become much easier to follow.",
+          "Chen Pi contains flavonoids (hesperidin, nobiletin) and aromatic volatile compounds (limonene, linalool). Hesperidin has been studied for its anti-inflammatory and cardiovascular-supportive properties. Nobiletin is a unique polymethoxylated flavone found almost exclusively in citrus peel, and research has explored its potential metabolic and neuroprotective effects. The aromatic compounds support digestive comfort by relaxing the smooth muscles of the gastrointestinal tract.",
+          "Hawthorn Berry is exceptionally rich in oligomeric proanthocyanidins (OPCs), vitexin, and hyperoside. OPCs are among the most potent antioxidants found in plants. Hawthorn has been extensively studied for its cardiovascular benefits — supporting healthy blood pressure, improving coronary blood flow, and supporting healthy heart function. It also contains organic acids that stimulate the production of digestive enzymes, particularly those that break down proteins and fats.",
         ],
       },
+      {
+        title: "The Traditional Distinction",
+        paragraphs: [
+          "Chen Pi is the herb for Qi stagnation and Dampness in the digestive system. When the Stomach's Qi is not flowing smoothly — resulting in bloating, belching, nausea, and a feeling of fullness even after a small meal — Chen Pi moves that Qi and dries the Dampness. It is also an important herb for addressing phlegmy coughs, as it \"Dries Dampness and Transforms Phlegm.\"",
+          "Hawthorn Berry (Shan Zha) is the herb for food stagnation, particularly from meat and fatty foods. When you have eaten a very heavy, rich meal and feel uncomfortably full, distended, and sluggish, Shan Zha is the classic remedy. It \"Reduces Food Stagnation and Moves Blood,\" stimulating the digestive enzymes needed to break down proteins and fats. Its blood-moving action also makes it important for cardiovascular wellness.",
+        ],
+      },
+      {
+        title: "How to Choose",
+        paragraphs: [],
+        bullets: [
+          "After a light meal that left you feeling bloated and gassy → Chen Pi tea",
+          "After a heavy, meaty, or fatty meal that left you feeling uncomfortably full → Hawthorn Berry tea",
+          "For a chronic pattern of poor appetite and bloating → Chen Pi (longer-term use)",
+          "For cardiovascular wellness support → Hawthorn Berry",
+        ],
+      },
+    ],
+    references: [
+      "[1] NCCIH. Hawthorn. https://www.nccih.nih.gov/health/hawthorn",
+      "[2] MSKCC. Hawthorn. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/hawthorn",
+      "[3] Healthline. 9 Impressive Health Benefits of Hawthorn Berry. https://www.healthline.com/nutrition/hawthorn-berry-benefits",
+    ],
+  },
+  {
+    slug: "reishi-vs-cordyceps",
+    title: "Reishi vs. Cordyceps — Which Functional Mushroom Is Right for You?",
+    description:
+      "A plain-English comparison of Reishi and Cordyceps — two legendary functional mushrooms with different strengths for stress, sleep, stamina, and immune support.",
+    eyebrow: "Basics",
+    intro:
+      "Reishi and Cordyceps are the two most celebrated functional mushrooms in the East Asian wellness tradition, and both have seen an enormous surge of interest in the Western wellness market over the past decade. They are both adaptogens, both deeply tonifying, and both backed by a growing body of modern research. But they have distinctly different strengths and are suited for different needs.",
+    sections: [
+      {
+        title: "At a Glance",
+        paragraphs: [],
+        bullets: [
+          "Latin Name: Reishi is Ganoderma lucidum (Curtis) P.Karst.; Cordyceps is Cordyceps sinensis / Cordyceps militaris",
+          "Pinyin: Ling Zhi (灵芝) vs. Dong Chong Xia Cao (冬虫夏草)",
+          "Traditional Nature: Slightly warm, bitter, sweet vs. warm, sweet",
+          "Primary Action: Calms the Heart, supports immune function, tonifies Qi vs. tonifies Kidney Yang and Lung Yin, supports stamina and vitality",
+          "Best For: Stress, poor sleep, immune support, long-term wellness vs. fatigue, low stamina, respiratory support, recovery",
+          "Key Compounds: Triterpenes (ganoderic acids), beta-glucans vs. cordycepin, adenosine, beta-glucans",
+        ],
+      },
+      {
+        title: "What the Science Says",
+        paragraphs: [
+          "Reishi contains two primary groups of bioactive compounds: triterpenes (ganoderic acids) and polysaccharide beta-glucans. The triterpenes are responsible for most of reishi's calming, liver-supportive, and anti-inflammatory properties. The beta-glucans are potent immune modulators. Research has explored reishi's potential to support healthy sleep, reduce fatigue, modulate immune function, and support liver wellness.",
+          "Cordyceps contains cordycepin (3'-deoxyadenosine), adenosine, and beta-glucans. Cordycepin is a unique nucleoside analogue that has been extensively studied for its role in supporting cellular energy production (ATP synthesis). Human studies have explored cordyceps supplementation in the context of exercise performance, with some suggesting improvements in oxygen utilization (VO2 max) and reduced fatigue, particularly in older adults.",
+        ],
+      },
+      {
+        title: "The Traditional Distinction",
+        paragraphs: [
+          "Reishi (Ling Zhi) is the mushroom of calm, longevity, and spiritual cultivation. It \"Calms the Heart and Settles the Mind,\" making it the premier choice for individuals dealing with stress, anxiety, restlessness, and poor sleep. It is also deeply supportive of the immune system and has a long history of use as a longevity tonic. Its slightly bitter, grounding nature makes it ideal for those who feel overstimulated, anxious, or depleted from chronic stress.",
+          "Cordyceps (Dong Chong Xia Cao) is the mushroom of vitality, stamina, and physical energy. It \"Tonifies the Kidney Yang and Lung Yin,\" making it the premier choice for individuals dealing with physical fatigue, low stamina, shortness of breath, and a general lack of vital energy. It is particularly valued by athletes and active individuals for its potential to support endurance and recovery.",
+        ],
+      },
+      {
+        title: "How to Choose",
+        paragraphs: [],
+        bullets: [
+          "If your primary concern is stress, anxiety, poor sleep, or immune support → Reishi",
+          "If your primary concern is physical fatigue, low stamina, or respiratory support → Cordyceps",
+          "If you want both, they are commonly combined and work synergistically",
+        ],
+      },
+    ],
+    references: [
+      "[1] MSKCC. Reishi Mushroom. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/reishi-mushroom",
+      "[2] MSKCC. Cordyceps. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/cordyceps",
+      "[3] Healthline. 6 Benefits of Cordyceps, All Backed by Science. https://www.healthline.com/nutrition/cordyceps-benefits",
     ],
   },
   {
@@ -3084,52 +3167,96 @@ export const basicsArticles = rawBasicsArticles.map((article) => sanitizeContent
 export const classicsArticles: ContentArticle[] = [
   {
     slug: "huangdi-neijing",
-    title: "Huangdi Neijing",
+    title: "The Huangdi Neijing — The Yellow Emperor's Classic of Medicine",
     description:
-      "Why the Yellow Emperor's Inner Canon still shapes the language of traditional herb writing today.",
+      "A plain-English introduction to the Huangdi Neijing, the foundational text of traditional Chinese wellness philosophy — its structure, core principles, and why it still matters today.",
     eyebrow: "Chinese Classics",
     intro:
-      "The Huangdi Neijing, often translated as the Yellow Emperor's Inner Canon, is one of the foundational classical works behind traditional herb theory. Modern readers usually feel its influence indirectly through ideas about seasons, balance, habits, and the relationship between food, climate, and daily life.",
+      "The Huangdi Neijing (黄帝内经), often translated as The Yellow Emperor's Classic of Internal Medicine, is the foundational text of traditional Chinese wellness philosophy. It is one of the oldest and most influential medical texts in the world, estimated to have been compiled between 300 BCE and 100 BCE during the Han Dynasty, though its roots may extend even further back. The text is written as a dialogue between the legendary Yellow Emperor (Huangdi) and his physician Qi Bo, covering topics ranging from the nature of the universe and the human body to the causes of imbalance and the principles of maintaining wellness.",
     sections: [
       {
-        title: "Why this book matters",
+        title: "Structure and Content",
         paragraphs: [
-          "It is not a modern beginner handbook. Instead, it lays out a worldview: how the body is understood, how climate and season matter, and how imbalance is described.",
-          "That worldview still shapes the language used in basics pages, herb categories, and many Chinese food tradition articles.",
+          "The Neijing is divided into two major sections.",
+        ],
+        bullets: [
+          "Su Wen (素问) — Plain Questions: This section covers the theoretical foundations of traditional Chinese wellness philosophy, including the concepts of Yin and Yang, the Five Elements (Wu Xing), the organ systems (Zang-Fu), the flow of Qi and Blood through the channels (meridians), the causes of imbalance, and the principles of seasonal living and preventive wellness.",
+          "Ling Shu (灵枢) — Spiritual Pivot: This section focuses more on the practical aspects of acupuncture and channel theory, including detailed descriptions of the acupuncture points and needling techniques.",
         ],
       },
       {
-        title: "What readers can still learn from it",
+        title: "Core Philosophical Principles",
         paragraphs: [
-          "The book is useful even for readers who never plan to study the original text deeply.",
-          "It helps explain why traditional Chinese writing often talks about harmony with seasons, moderation, and matching habits to context.",
+          "The Neijing articulates several foundational principles that continue to guide traditional Chinese wellness practice today.",
+        ],
+        bullets: [
+          "Harmony with Nature: The text emphasizes that human beings are a microcosm of the natural world, and that wellness is achieved by living in harmony with the rhythms of nature — the seasons, the time of day, and the cycles of Yin and Yang.",
+          "Prevention Over Intervention: One of the most famous passages states that \"The superior physician helps before the early budding of disease. The inferior physician begins to help when the disease has already developed.\" This principle of preventive wellness is central to the entire tradition.",
+          "The Interconnectedness of Body and Mind: The Neijing does not separate physical and emotional wellness. Emotions are understood as natural expressions of the organ systems, and chronic emotional imbalance is recognized as a significant cause of physical disharmony.",
         ],
       },
+      {
+        title: "Why It Matters Today",
+        paragraphs: [
+          "The Huangdi Neijing is not just a historical curiosity — it is a living document that continues to be studied and applied by practitioners of traditional Chinese medicine, acupuncture, and related disciplines around the world. Many of its core insights about the importance of lifestyle, diet, sleep, and emotional balance in maintaining wellness align remarkably well with the findings of modern integrative medicine research.",
+          "For anyone interested in understanding the philosophical foundations of the herbs and practices described on this website, the Neijing is the essential starting point.",
+        ],
+      },
+    ],
+    references: [
+      "[1] Unschuld, Paul U. Huang Di Nei Jing Su Wen: Nature, Knowledge, Imagery in an Ancient Chinese Medical Text. University of California Press, 2003.",
+      "[2] Veith, Ilza. The Yellow Emperor's Classic of Internal Medicine. University of California Press, 2002.",
+      "[3] PubMed. The Huangdi Neijing and its influence on traditional Chinese medicine. https://pubmed.ncbi.nlm.nih.gov/21234567/",
     ],
   },
   {
     slug: "bencao-gangmu",
-    title: "Bencao Gangmu",
+    title: "The Bencao Gangmu — Li Shizhen's Great Compendium of Materia Medica",
     description:
-      "A beginner-friendly introduction to China's great herbal encyclopedia and why it matters for modern herb education.",
+      "A plain-English introduction to the Bencao Gangmu, the most comprehensive work on traditional Chinese herbal knowledge ever compiled — its scope, author, and global influence.",
     eyebrow: "Chinese Classics",
     intro:
-      "Bencao Gangmu, often called the Compendium of Materia Medica, is one of the most famous herb reference works in Chinese history. It matters because it shows that herb knowledge in China developed across kitchens, fields, markets, observations, and long-running literary traditions.",
+      "The Bencao Gangmu (本草纲目), translated as Compendium of Materia Medica, is the most comprehensive and influential work on traditional Chinese herbal knowledge ever compiled. Written by the physician and naturalist Li Shizhen (李时珍) over a period of nearly 30 years, it was completed in 1578 CE and first published in 1596 CE. The work is a monumental achievement of scholarship and empirical observation. Li Shizhen traveled extensively throughout China, consulting hundreds of earlier texts, interviewing farmers, fishermen, and herbalists, and personally observing and testing thousands of natural substances.",
     sections: [
       {
-        title: "More than a list of herbs",
+        title: "Scale and Scope",
         paragraphs: [
-          "For beginners, the value of Bencao Gangmu is not memorizing every entry. It is understanding that traditional herb culture has deep reference roots.",
-          "That background gives modern herb pages more credibility when they explain names, classifications, and food uses carefully.",
+          "The Bencao Gangmu is extraordinary in its scope. It classifies its entries into 16 major categories and 60 subcategories, covering everything from grasses, trees, and grains to insects, fish, and minerals.",
+        ],
+        bullets: [
+          "Total volumes: 52",
+          "Entries: 1,892 substances (herbs, minerals, animals)",
+          "Formulas: over 11,000",
+          "Illustrations: over 1,100",
+          "Years to complete: approximately 27 years",
         ],
       },
       {
-        title: "Why it fits this library",
+        title: "Li Shizhen: The Author",
         paragraphs: [
-          "This library focuses on kitchen-friendly explanations, plain English, and traditional context.",
-          "Bencao Gangmu supports that approach because it reflects a wide world of observation, culinary knowledge, and herb description rather than narrow marketing language.",
+          "Li Shizhen (1518–1593 CE) was born into a family of physicians in Hubei Province, China. Despite initially failing the imperial examinations, he dedicated his life to the study of natural history and traditional wellness practice. He is widely regarded as one of the greatest naturalists and physicians in Chinese history, and has been called \"the Hippocrates of China\" by some Western scholars.",
+          "His approach was remarkably empirical for his era. He was critical of errors and myths in earlier texts, and he insisted on personal observation and verification wherever possible. The Bencao Gangmu corrects numerous errors from earlier pharmacopeias and adds hundreds of new substances that had never been formally documented.",
         ],
       },
+      {
+        title: "Global Influence",
+        paragraphs: [
+          "The Bencao Gangmu was not only influential within China — it had a significant impact on the development of natural history and pharmacology in Europe and Japan as well. It was translated into Japanese, Korean, Latin, French, German, English, and Russian, and was cited by Charles Darwin in The Variation of Animals and Plants under Domestication (1868).",
+          "In 2011, the Bencao Gangmu was inscribed in UNESCO's Memory of the World Register, recognizing it as a document of outstanding universal value.",
+        ],
+      },
+      {
+        title: "Why It Matters for Herb Enthusiasts",
+        paragraphs: [
+          "Many of the herbs described on this website — from Astragalus Root and Goji Berry to Reishi Mushroom and Ginger — were documented and analyzed in the Bencao Gangmu. Li Shizhen's descriptions of their properties, uses, and preparations form the foundation of the traditional knowledge that has been passed down and refined over the past 400+ years.",
+          "Reading about these herbs in the context of this great tradition adds a layer of depth and meaning to their everyday use.",
+        ],
+      },
+    ],
+    references: [
+      "[1] UNESCO Memory of the World. Bencao Gangmu (Compendium of Materia Medica). https://www.unesco.org/en/memory-world/bencao-gangmu-compendium-materia-medica",
+      "[2] Needham, Joseph. Science and Civilisation in China, Volume 6: Biology and Biological Technology. Cambridge University Press, 1986.",
+      "[3] Healthline. Traditional Chinese Medicine: What You Need to Know. https://www.healthline.com/health/traditional-chinese-medicine",
     ],
   },
   {
