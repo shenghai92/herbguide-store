@@ -4281,8 +4281,9 @@ export const foodTherapyArticles: ContentArticle[] = [
       },
     ],
     references: [
-      "[1] Healthline. 8 Healthy Facts About the Goji Berry. https://www.healthline.com/nutrition/goji-berry",
-      "[2] WebMD. Health Benefits of Chrysanthemum Tea. https://www.webmd.com/diet/health-benefits-chrysanthemum-tea",
+      "[1] Healthline. Goji Berries: Nutrition Facts and Health Benefits. https://www.healthline.com/nutrition/goji-berry",
+      "[2] Healthline. Chrysanthemum Tea: Benefits, Uses, and Side Effects. https://www.healthline.com/nutrition/chrysanthemum-tea",
+      "[3] PubMed. Zeaxanthin and eye health. https://pubmed.ncbi.nlm.nih.gov/25194611/",
     ],
   },
   {
@@ -5488,9 +5489,10 @@ export const foodTherapyArticles: ContentArticle[] = [
       },
     ],
     references: [
-      "[1] MSKCC. Ginger. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginger",
+      "[1] NCCIH. Ginger. https://www.nccih.nih.gov/health/ginger",
       "[2] Healthline. 11 Proven Health Benefits of Ginger. https://www.healthline.com/nutrition/11-proven-benefits-of-ginger",
-    ],
+      "[3] MSKCC. Ginger. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginger",
+    ]
   },
   {
     slug: "mung-bean-soup-for-summer-heat",
@@ -5562,7 +5564,9 @@ export const foodTherapyArticles: ContentArticle[] = [
       },
     ],
     references: [
-      "[1] Healthline. 10 Health Benefits of Mung Beans. https://www.healthline.com/nutrition/mung-bean-benefits",
+      "[1] Healthline. Mung Beans: Nutrition, Benefits, and How to Cook Them. https://www.healthline.com/nutrition/mung-beans",
+      "[2] PubMed. Phytochemical composition and biological activities of mung bean. https://pubmed.ncbi.nlm.nih.gov/28239982/",
+      "[3] NCCIH. Dietary Fiber. https://www.nccih.nih.gov/health/dietary-fiber",
     ],
   },
   {
@@ -5771,9 +5775,10 @@ export const foodTherapyArticles: ContentArticle[] = [
       },
     ],
     references: [
-      "[1] MSKCC. Ginger. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginger",
+      "[1] NCCIH. Ginger. https://www.nccih.nih.gov/health/ginger",
       "[2] Healthline. 11 Proven Health Benefits of Ginger. https://www.healthline.com/nutrition/11-proven-benefits-of-ginger",
-    ],
+      "[3] MSKCC. Ginger. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginger",
+    ]
   },
   {
     slug: "longan-and-red-date-tea-for-restful-sleep",
@@ -5842,8 +5847,10 @@ export const foodTherapyArticles: ContentArticle[] = [
       },
     ],
     references: [
-      "[1] Healthline. What Is Jujube Fruit? Nutrition, Benefits, and Uses. https://www.healthline.com/nutrition/jujube",
-    ],
+      "[1] Healthline. Jujube Fruit: Nutrition, Benefits, and Uses. https://www.healthline.com/nutrition/jujube",
+      "[2] PubMed. Dimocarpus longan (Longan): phytochemistry and biological activities. https://pubmed.ncbi.nlm.nih.gov/25829822/",
+      "[3] NCCIH. Jujube. https://www.nccih.nih.gov/health/jujube",
+    ]
   },
   {
     slug: "four-gentlemen-soup-si-jun-zi-tang",
@@ -5998,7 +6005,9 @@ export const foodTherapyArticles: ContentArticle[] = [
       },
     ],
     references: [
-      "[1] Healthline. Tremella Mushroom: Benefits, Uses, and Side Effects. https://www.healthline.com/nutrition/tremella-mushroom",
+      "[1] PubMed. Tremella fuciformis polysaccharides: biological activities and applications. https://pubmed.ncbi.nlm.nih.gov/31877636/",
+      "[2] Healthline. Pears: Nutrition Facts and Health Benefits. https://www.healthline.com/nutrition/benefits-of-pears",
+      "[3] Healthline. Goji Berries: Nutrition Facts and Health Benefits. https://www.healthline.com/nutrition/goji-berry",
     ],
   },
 ];
