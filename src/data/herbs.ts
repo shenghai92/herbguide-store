@@ -1094,8 +1094,9 @@ const rawHerbs: Herb[] = [
       },
     ],
     references: [
-      "[1] Healthline. Perilla: Benefits, Uses, and Side Effects. https://www.healthline.com/nutrition/perilla-frutescens",
-      "[2] PubMed. Rosmarinic acid and its pharmacological perspectives. https://pubmed.ncbi.nlm.nih.gov/26773014/",
+      "[1] NCCIH. Perilla. https://www.nccih.nih.gov/health/perilla",
+      "[2] Healthline. Shiso: Benefits, Uses, and How to Eat It. https://www.healthline.com/nutrition/shiso",
+      "[3] PubMed. Rosmarinic acid: biological activities and applications. https://pubmed.ncbi.nlm.nih.gov/22749174/",
     ],
     tags: ["perilla leaf", "zi su ye", "shiso", "perilla frutescens", "exterior-releasing herbs", "rosmarinic acid", "culinary herb", "traditional Chinese leaf"],
   },
@@ -1151,7 +1152,8 @@ const rawHerbs: Herb[] = [
     ],
     references: [
       "[1] NCCIH. Cinnamon. https://www.nccih.nih.gov/health/cinnamon",
-      "[2] Healthline. 10 Evidence-Based Health Benefits of Cinnamon. https://www.healthline.com/nutrition/10-proven-benefits-of-cinnamon",
+      "[2] MSKCC. Cinnamon. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/cinnamon",
+      "[3] Healthline. 10 Evidence-Based Health Benefits of Cinnamon. https://www.healthline.com/nutrition/10-proven-benefits-of-cinnamon",
     ],
     tags: ["cinnamon twig", "gui zhi", "cinnamomum cassia", "warming herbs", "cinnamaldehyde", "exterior-releasing", "cinnamon twig vs bark", "traditional Chinese twig"],
   },
@@ -1421,7 +1423,8 @@ const rawHerbs: Herb[] = [
     ],
     references: [
       "[1] NCCIH. Kudzu. https://www.nccih.nih.gov/health/kudzu",
-      "[2] Healthline. Kudzu Root: Benefits, Uses, and Side Effects. https://www.healthline.com/nutrition/kudzu",
+      "[2] MSKCC. Kudzu. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/kudzu",
+      "[3] Healthline. Kudzu: Benefits, Dosage, and Side Effects. https://www.healthline.com/nutrition/kudzu",
     ],
     tags: ["kudzu root", "ge gen", "pueraria", "japanese arrowroot", "exterior-releasing herbs", "puerarin", "neck stiffness", "traditional Chinese root"],
   },
@@ -2123,8 +2126,9 @@ const rawHerbs: Herb[] = [
       },
     ],
     references: [
-      "[1] MSKCC. Honeysuckle. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/honeysuckle",
+      "[1] NCCIH. Honeysuckle. https://www.nccih.nih.gov/health/honeysuckle",
       "[2] Healthline. Honeysuckle: Benefits, Uses, and Side Effects. https://www.healthline.com/nutrition/honeysuckle",
+      "[3] PubMed. Lonicera japonica: phytochemistry and biological activities. https://pubmed.ncbi.nlm.nih.gov/21782876/",
     ],
     tags: ["honeysuckle flower", "jin yin hua", "lonicera japonica", "clear heat", "cooling tea", "chlorogenic acid", "sore throat tea", "traditional Chinese flower"],
   },
@@ -2761,25 +2765,56 @@ const rawHerbs: Herb[] = [
     slug: "safflower",
     name: "Safflower",
     pinyin: "Hong Hua",
-    chinese: "Hong Hua",
-    latin: "Carthami Flos",
-    partUsed: "Flower",
+    chinese: "红花",
+    latin: "Carthamus tinctorius",
+    partUsed: "Dried flowers",
     category: "Movement herbs",
-    summary: "A striking flower often searched in traditional blood-movement contexts and best handled with restraint.",
+    commonNames: "Safflower, False Saffron, Dyer's Saffron, American Saffron",
+    arabicName: "العصفر (Al-'Usfur) / القرطم (Al-Qurtum)",
+    summary: "One of the most important Blood-moving herbs in the traditional Chinese wellness pharmacopeia — a warm, pungent flower used to activate circulation and address Blood Stasis patterns, handled with significant caution.",
     whatItIs:
-      "Safflower is visually memorable and highly searchable, but traditional herb pages about it need very careful boundaries because the flower is often tied to specific, high-risk searches.",
+      "Safflower (Hong Hua, literally \"Red Flower\") is one of the most important Blood-moving herbs in the traditional Chinese wellness pharmacopeia. It is derived from the dried flowers of the safflower plant — the same plant whose seeds are pressed to produce safflower oil, a popular cooking oil in the West. In traditional Chinese wellness practice, Hong Hua is a warm, pungent herb that \"Activates Blood Circulation and Removes Blood Stasis.\" It is used for the dull, fixed pain, dark complexion, and purple-tinged tongue that characterize Blood Stasis patterns.",
     nature: "Warm",
     flavor: "Pungent",
     channels: "Heart, Liver",
     traditionalUses: [
-      "Traditionally used in blood-movement discussions and more active traditional language.",
-      "Often introduced in more advanced classical or formula study than beginner pantry pages.",
-      "Useful for teaching readers how stronger movement herbs differ from gentle kitchen ingredients.",
+      "Traditional texts place Hong Hua in the category of herbs that \"Activate Blood and Remove Stasis.\" Its warm, pungent nature moves the Blood and breaks up stagnation, while its affinity for the Heart and Liver channels directs its action to the cardiovascular system and the menstrual cycle.",
+      "It is commonly used in formulas for menstrual irregularities, particularly those characterized by delayed, scanty, or painful menstruation from Blood Stasis.",
     ],
-    foodUses: ["Traditional infusion context", "Color-focused culinary context"],
+    foodUses: ["A less expensive substitute for saffron in cooking", "Safflower oil pressed from the seeds"],
     caution:
-      "This page should be especially careful. It should not encourage use in high-caution situations or other contexts where direct guidance belongs elsewhere.",
-    tags: ["hong hua", "safflower", "movement herb", "flower", "high-caution search"],
+      "Safflower (Hong Hua) is a potent Blood-moving herb and should be used with significant caution. This herb is best used under the guidance of a qualified practitioner of traditional Chinese wellness.",
+    cautionDetails: [
+      "Pregnancy: Safflower is traditionally contraindicated during pregnancy due to its strong Blood-moving action, which may stimulate uterine contractions. Pregnant individuals should avoid this herb entirely.",
+      "Bleeding situations: Individuals with any bleeding situation or those using products that affect circulation (blood-thinning products, antiplatelet products) should seek guidance from a qualified professional before use.",
+      "Surgery: Discontinue use at least two weeks before any scheduled surgical procedure.",
+    ],
+    scientificSections: [
+      {
+        title: "Active Compounds",
+        paragraphs: [
+          "Safflower contains hydroxysafflor yellow A (HSYA), safflower yellow, carthamin (the red pigment), and various flavonoids. HSYA is the primary bioactive compound and has been the subject of extensive pharmacological research.",
+        ],
+      },
+      {
+        title: "Cardiovascular Support",
+        paragraphs: [
+          "HSYA has been studied for its potential to support healthy blood circulation, reduce platelet aggregation, and support healthy blood pressure. Research has explored its role in cardiovascular wellness, with a focus on its antioxidant and anti-inflammatory properties.",
+        ],
+      },
+      {
+        title: "Women's Wellness Support",
+        paragraphs: [
+          "Safflower's traditional use for menstrual support has been explored in modern research, with studies suggesting it may support healthy menstrual flow and reduce the discomfort associated with menstrual irregularities from Blood Stasis.",
+        ],
+      },
+    ],
+    references: [
+      "[1] MSKCC. Safflower. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/safflower",
+      "[2] Healthline. Safflower Oil: Is It Good for You? https://www.healthline.com/nutrition/safflower-oil",
+      "[3] PubMed. Carthamus tinctorius (Safflower): phytochemistry and biological activities. https://pubmed.ncbi.nlm.nih.gov/25312168/",
+    ],
+    tags: ["hong hua", "safflower", "carthamus tinctorius", "blood-moving herb", "menstrual support", "cardiovascular support", "high-caution herb"],
   },
   {
     slug: "skullcap-root",
