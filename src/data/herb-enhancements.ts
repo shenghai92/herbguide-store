@@ -652,6 +652,19 @@ const rawHerbEnhancements: HerbEnhancement[] = [
       { title: "A Simple Warming Soup Guide for Cold Weather", href: "/kitchen/a-simple-warming-soup-guide-for-cold-weather/" },
     ],
   },
+  {
+    slug: "american-ginseng",
+    kitchenPairings: ["Pear", "Chicken soup", "Jujube (Chinese red date)", "Chrysanthemum"],
+    goodStartingPoints: [
+      "Begin by identifying the product on a label: species (Panax quinquefolius), part (root), and form (whole, sliced, powdered, extract).",
+      "For kitchen-minded readers, thin dried slices are the gentlest starting point for tea and slow-simmered broths.",
+    ],
+    compareLinks: [
+      { title: "Ginseng vs American Ginseng", href: "/basics/ginseng-vs-american-ginseng/" },
+      { title: "Ginseng Guide", href: "/herbs/ginseng/" },
+      { title: "What Does Qi Mean?", href: "/basics/what-does-qi-mean/" },
+    ],
+  },
 ];
 
 export const herbEnhancements = rawHerbEnhancements.map((item) => sanitizeHerbEnhancementContent(item));
