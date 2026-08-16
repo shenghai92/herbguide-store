@@ -119,15 +119,15 @@ const rawHerbEnhancements: HerbEnhancement[] = [
   },
   {
     slug: "poria",
-    kitchenPairings: ["Job's Tears", "Chinese Yam", "Adzuki Bean"],
+    kitchenPairings: ["Lotus seed", "Chinese yam (shan yao)", "Rice", "Chicken soup"],
     goodStartingPoints: [
-      "Add a few pieces to your next batch of rice porridge or chicken soup.",
-      "It will not change the taste, but it adds traditional value to the bowl.",
+      "Begin by confirming form and label: whole dried slices, granules, or a marketed blend.",
+      "For pantry experimentation, start with small quantities in a long-simmered soup or congee where poria's mild texture can be observed without overwhelming other ingredients.",
     ],
     compareLinks: [
       { title: "What Is Dampness?", href: "/basics/what-is-dampness/" },
-      { title: "Job's Tears Porridge for Heavy Days", href: "/kitchen/jobs-tears-porridge-for-heavy-days/" },
-      { title: "Poria vs Job's Tears", href: "/basics/poria-vs-jobs-tears/" },
+      { title: "Job's Tears Guide", href: "/herbs/jobs-tears/" },
+      { title: "Chinese Yam Guide", href: "/herbs/chinese-yam/" },
     ],
   },
   {
@@ -210,15 +210,15 @@ const rawHerbEnhancements: HerbEnhancement[] = [
   },
   {
     slug: "licorice-root",
-    kitchenPairings: ["Mild tea blends", "Broth support", "Formula context", "Pantry-style comparison reading"],
+    kitchenPairings: ["Ginger", "Jujube (red date)", "Pear", "Mixed root soups"],
     goodStartingPoints: [
-      "Licorice root makes the most sense on HerbGuide when readers understand it as a harmonizing herb rather than as a casual everyday sweet root.",
-      "The best first click after this page is usually a plain-English basics article about harmonizing or a gentle digestive pathway page.",
+      "Begin by reading product labels for the botanical name (Glycyrrhiza uralensis) and the stated plant part (root and rhizome).",
+      "For pantry experimentation, try a single whole slice in a large pot of broth or a mild herbal blend to observe how it changes the flavor profile, then remove the slice before serving.",
     ],
     compareLinks: [
       { title: "What Does Harmonizing Mean?", href: "/basics/what-does-harmonizing-mean/" },
-      { title: "What Does Tonify Mean in Traditional Herb Writing?", href: "/basics/what-does-tonify-mean/" },
-      { title: "Balanced Pantry Habits", href: "/topics/balanced-pantry-habits/" },
+      { title: "Fresh Ginger Guide", href: "/herbs/fresh-ginger/" },
+      { title: "Jujube Guide", href: "/herbs/jujube-red-date/" },
     ],
   },
   {
@@ -676,6 +676,19 @@ const rawHerbEnhancements: HerbEnhancement[] = [
       { title: "Ginseng Guide", href: "/herbs/ginseng/" },
       { title: "American Ginseng Guide", href: "/herbs/american-ginseng/" },
       { title: "What Does Qi Mean?", href: "/basics/what-does-qi-mean/" },
+    ],
+  },
+  {
+    slug: "lily-bulb",
+    kitchenPairings: ["Pear", "Lotus seed", "Rice", "Light chicken soup"],
+    goodStartingPoints: [
+      "Begin by confirming the product form and label: look for the botanical name (Lilium brownii) or the Chinese name Bai He on the package and choose dried bulb scales for soups and sweet porridges.",
+      "If you are exploring literature or concentrated products, distinguish whole-food culinary uses from extracts or powdered preparations, which are different product types.",
+    ],
+    compareLinks: [
+      { title: "Pear and Chrysanthemum Tea", href: "/kitchen/pear-and-chrysanthemum-tea-for-warm-afternoons/" },
+      { title: "Lotus Seed Guide", href: "/herbs/lotus-seed/" },
+      { title: "What Does Moisten Dryness Mean?", href: "/basics/what-does-moisten-dryness-mean/" },
     ],
   },
 ];
