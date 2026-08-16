@@ -665,6 +665,19 @@ const rawHerbEnhancements: HerbEnhancement[] = [
       { title: "What Does Qi Mean?", href: "/basics/what-does-qi-mean/" },
     ],
   },
+  {
+    slug: "codonopsis",
+    kitchenPairings: ["Chicken", "Jujube (red date)", "Goji berry", "Chinese yam (Dioscorea)"],
+    goodStartingPoints: [
+      "Begin by checking the label language on pantry packets: botanical name (Codonopsis pilosula), form (sliced, whole), and whether it appears alone or in a blend.",
+      "For kitchen experiments, try adding a few slices to a long-simmered stock or chicken pot and observe how the broth changes across a 1-3 hour simmer.",
+    ],
+    compareLinks: [
+      { title: "Ginseng Guide", href: "/herbs/ginseng/" },
+      { title: "American Ginseng Guide", href: "/herbs/american-ginseng/" },
+      { title: "What Does Qi Mean?", href: "/basics/what-does-qi-mean/" },
+    ],
+  },
 ];
 
 export const herbEnhancements = rawHerbEnhancements.map((item) => sanitizeHerbEnhancementContent(item));
