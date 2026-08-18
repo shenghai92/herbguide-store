@@ -236,15 +236,15 @@ const rawHerbEnhancements: HerbEnhancement[] = [
   },
   {
     slug: "mulberry-fruit",
-    kitchenPairings: ["Goji berry", "Pear", "Light berry teas", "Gentle seasonal pantry reading"],
+    kitchenPairings: ["Goji berry", "Black sesame", "Oats", "Rice porridge"],
     goodStartingPoints: [
-      "Mulberry fruit is strongest on HerbGuide when readers approach it as a softer berry ingredient with clear seasonal and tea-style context.",
-      "A comparison page or berry-tea page usually explains mulberry better than a dense theory-first route.",
+      "Begin by checking the package: confirm the botanical name (Morus alba) and the plant part (dried fruit / sang shen).",
+      "Try a small-scale trial such as steeping a few berries in hot water to observe rehydration, color release, and flavor.",
     ],
     compareLinks: [
-      { title: "Mulberry Fruit vs Goji Berry", href: "/basics/mulberry-fruit-vs-goji-berry/" },
-      { title: "Mulberry and Goji Tea Basics", href: "/kitchen/mulberry-and-goji-tea-basics/" },
-      { title: "Seasonal Kitchen Ideas", href: "/topics/seasonal-kitchen-ideas/" },
+      { title: "Goji Berry Guide", href: "/herbs/goji-berry/" },
+      { title: "Black Sesame Seed Guide", href: "/herbs/black-sesame-seed/" },
+      { title: "Goji Berry vs Jujube", href: "/basics/goji-berry-vs-jujube/" },
     ],
   },
   {
@@ -349,27 +349,28 @@ const rawHerbEnhancements: HerbEnhancement[] = [
   },
   {
     slug: "monk-fruit",
-    kitchenPairings: ["Pear", "Light tea", "Cooling fruit infusions", "Seasonal drink reading"],
+    kitchenPairings: ["Pear", "Chrysanthemum", "Dried longan", "Warm water infusions"],
     goodStartingPoints: [
-      "Monk fruit is easiest to understand as a tea or fruit page first, not only as a sweetener search.",
-      "Pair it with gentle cooling and dryness language so the context stays coherent.",
+      "Begin by identifying which product form you have: a whole dried fruit, a tea bag/blend, or a commercial sweetener product.",
+      "For whole dried fruits, look at the shell and labeling for processing notes; for packaged sweeteners, prioritize ingredient transparency.",
     ],
     compareLinks: [
-      { title: "What Does Clear Heat Mean?", href: "/basics/what-does-clear-heat-mean/" },
-      { title: "Seasonal Kitchen Ideas", href: "/topics/seasonal-kitchen-ideas/" },
+      { title: "Chrysanthemum Tea Basics", href: "/kitchen/chrysanthemum-tea-basics/" },
+      { title: "Pear and Chrysanthemum Tea", href: "/kitchen/pear-and-chrysanthemum-tea-for-warm-afternoons/" },
+      { title: "Longan Fruit Guide", href: "/herbs/longan-fruit/" },
     ],
   },
   {
     slug: "white-atractylodes-root",
-    kitchenPairings: ["Poria", "Fresh ginger", "Mild soups", "Foundational digestive reading"],
+    kitchenPairings: ["Poria", "Chinese yam (Shan Yao)", "Rice", "Chicken soup"],
     goodStartingPoints: [
-      "This page becomes much easier after a plain-English article about spleen or dampness language.",
-      "Think of it as a foundational theory herb more than a casual pantry item.",
+      "Begin by confirming the name and form on the product label: ensure the botanical (Atractylodes macrocephala) and the plant part (rhizome) are clear.",
+      "If the product is powdered or concentrated, pause to read the safety note and the science section before relying on research summaries.",
     ],
     compareLinks: [
-      { title: "What Does Spleen Mean in Traditional Herb Writing?", href: "/basics/what-does-spleen-mean/" },
-      { title: "What Is Dampness?", href: "/basics/what-is-dampness/" },
-      { title: "Digestive Traditions", href: "/topics/digestive-traditions/" },
+      { title: "Poria Guide", href: "/herbs/poria/" },
+      { title: "Chinese Yam Guide", href: "/herbs/chinese-yam/" },
+      { title: "What Does Tonify Mean?", href: "/basics/what-does-tonify-mean/" },
     ],
   },
   {
@@ -689,6 +690,32 @@ const rawHerbEnhancements: HerbEnhancement[] = [
       { title: "Pear and Chrysanthemum Tea", href: "/kitchen/pear-and-chrysanthemum-tea-for-warm-afternoons/" },
       { title: "Lotus Seed Guide", href: "/herbs/lotus-seed/" },
       { title: "What Does Moisten Dryness Mean?", href: "/basics/what-does-moisten-dryness-mean/" },
+    ],
+  },
+  {
+    slug: "dried-ginger",
+    kitchenPairings: ["Jujube (dried red date)", "Scallion", "Chicken soup", "Rice congee"],
+    goodStartingPoints: [
+      "Begin by checking the product label for the botanical name (Zingiber officinale) and the stated form (dried rhizome, powdered, slices).",
+      "Try a simple culinary test: add a single thin slice to a cup of hot water or a pot of soup to observe how the flavor develops over ten to thirty minutes.",
+    ],
+    compareLinks: [
+      { title: "Fresh Ginger vs Dried Ginger", href: "/basics/fresh-ginger-vs-dried-ginger/" },
+      { title: "Fresh Ginger Guide", href: "/herbs/fresh-ginger/" },
+      { title: "Jujube Guide", href: "/herbs/jujube-red-date/" },
+    ],
+  },
+  {
+    slug: "sichuan-lovage-root",
+    kitchenPairings: ["Angelica root (Dang Gui)", "White peony (Bai Shao)", "Ginger", "Chicken broth"],
+    goodStartingPoints: [
+      "Begin by confirming that your supplier lists the botanical name (Ligusticum chuanxiong) and the plant part (rhizome) on the label.",
+      "Then explore the kitchen notes and pairing table to imagine small-scale, flavor-oriented use in long-simmered broths.",
+    ],
+    compareLinks: [
+      { title: "What Is Blood Stasis?", href: "/basics/what-is-blood-stasis/" },
+      { title: "Dong Quai Guide", href: "/herbs/dong-quai/" },
+      { title: "White Peony Root Guide", href: "/herbs/white-peony-root/" },
     ],
   },
 ];
