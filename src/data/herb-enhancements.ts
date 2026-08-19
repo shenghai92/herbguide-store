@@ -493,40 +493,41 @@ const rawHerbEnhancements: HerbEnhancement[] = [
   },
   {
     slug: "corn-silk",
-    kitchenPairings: ["Pear", "Cassia seed", "Lotus leaf", "Simple simmered tea"],
+    kitchenPairings: ["Barley", "Red date (jujube)", "Roasted corn", "Simple warm-water infusions"],
     goodStartingPoints: [
-      "Corn silk is strongest when presented as a familiar pantry tea ingredient with clear boundaries, not as a promise-heavy shortcut page.",
-      "Readers usually trust this ingredient faster when it sits inside a simple seasonal tea recipe.",
+      "Begin by confirming the ingredient name and form on any package (dried styles and stigmas or corn silk/yu mi xu) and read labels for processing and country of origin.",
+      "Try a single-ingredient warm infusion to note the plain flavor, then experiment with gentle pairings such as barley or mild dried fruit.",
     ],
     compareLinks: [
-      { title: "Seasonal Kitchen Ideas", href: "/topics/seasonal-kitchen-ideas/" },
-      { title: "Balanced Pantry Habits", href: "/topics/balanced-pantry-habits/" },
       { title: "Cassia Seed and Corn Silk Tea Basics", href: "/kitchen/cassia-seed-and-corn-silk-tea-basics/" },
+      { title: "Jujube Guide", href: "/herbs/jujube-red-date/" },
+      { title: "What Does Clear Heat Mean?", href: "/basics/what-does-clear-heat-mean/" },
     ],
   },
   {
     slug: "gardenia-fruit",
-    kitchenPairings: ["Cooling teas", "Seasonal reading", "Advanced floral pages", "Heat-language comparisons"],
+    kitchenPairings: ["Rice dishes", "Broths", "Yellow-colored desserts", "Carefully balanced aromatic blends"],
     goodStartingPoints: [
-      "This page is best read as advanced vocabulary support, not a first-step tea ingredient page.",
-      "Readers should pair it with one plain-English basics page on heat language first.",
+      "Begin by identifying the product form and label information: botanical name (Gardenia jasminoides), declared plant part (dried fruit), and country or mill of origin.",
+      "If the material appears as a specialized extract or powder, consider it a concentrated pantry ingredient that merits additional product-literacy steps.",
     ],
     compareLinks: [
+      { title: "Turmeric Root Guide", href: "/herbs/turmeric-root/" },
       { title: "What Does Clear Heat Mean?", href: "/basics/what-does-clear-heat-mean/" },
-      { title: "What Is Damp Heat?", href: "/basics/what-is-damp-heat/" },
+      { title: "Warming vs Cooling Foods", href: "/basics/warming-vs-cooling-foods/" },
     ],
   },
   {
     slug: "cinnamon-bark",
-    kitchenPairings: ["Fresh ginger", "Cinnamon twig", "Broth", "Cold-weather reading"],
+    kitchenPairings: ["Star anise", "Ginger", "Beef braises", "Pear poaching liquid"],
     goodStartingPoints: [
-      "This page is strongest when readers compare bark-level warming with simpler kitchen ginger content.",
-      "It helps show why one spice family can split into different traditional identities.",
+      "Begin by checking the label on the spice jar or package: botanical name (Cinnamomum cassia vs. C. verum), form (whole quill, broken bark, or ground), and country of origin.",
+      "If you are investigating concentrated products rather than culinary spice, prioritize product identity and independent quality information.",
     ],
     compareLinks: [
+      { title: "Cinnamon Twig Guide", href: "/herbs/cinnamon-twig/" },
+      { title: "Fresh Ginger Guide", href: "/herbs/fresh-ginger/" },
       { title: "Warming vs Cooling Foods", href: "/basics/warming-vs-cooling-foods/" },
-      { title: "Fresh Ginger vs Dried Ginger", href: "/basics/fresh-ginger-vs-dried-ginger/" },
-      { title: "Warming Foods", href: "/topics/warming-foods/" },
     ],
   },
   {
@@ -543,27 +544,28 @@ const rawHerbEnhancements: HerbEnhancement[] = [
   },
   {
     slug: "balloon-flower-root",
-    kitchenPairings: ["Pear", "Light broth", "Upper-body language reading", "Formula context"],
+    kitchenPairings: ["Sesame", "Garlic", "Soy sauce", "Scallion", "Chicken soup"],
     goodStartingPoints: [
-      "This page should be used to understand lung-related traditional vocabulary, not as direct personal advice.",
-      "It works well beside one simpler seasonal or moisture-themed page.",
+      "Begin by identifying the form you can buy: fresh root, dried slices, or a prepared banchan, then read the kitchen notes and pairings for practical ideas.",
+      "If you encounter this botanical in a supplement or concentrated extract, pause and check product labeling and formulation information.",
     ],
     compareLinks: [
-      { title: "What Does Channel Entry Mean?", href: "/basics/what-does-channel-entry-mean/" },
-      { title: "What Does Moisten Dryness Mean?", href: "/basics/what-does-moisten-dryness-mean/" },
+      { title: "What Does Clear Heat Mean?", href: "/basics/what-does-clear-heat-mean/" },
+      { title: "Fresh Ginger Guide", href: "/herbs/fresh-ginger/" },
+      { title: "Seasonal Kitchen Ideas", href: "/topics/seasonal-kitchen-ideas/" },
     ],
   },
   {
     slug: "fo-ti-root",
-    kitchenPairings: ["Black sesame", "Goji berry", "Prepared root reading", "Long-term nourishment vocabulary"],
+    kitchenPairings: ["Black sesame", "Jujube (red date)", "Specialty traditional preparations"],
     goodStartingPoints: [
-      "Readers should approach this page as a caution-first profile, not a folklore endorsement page.",
-      "It is strongest when paired with basics content about jing and nourishment language.",
+      "Begin by confirming the botanical name and the form on the label (Polygonum multiflorum; prepared root tuber; extract).",
+      "For culinary interest, consider Fo-Ti a specialty ingredient: learn how it is listed and prepared rather than attempting an at-home protocol.",
     ],
     compareLinks: [
+      { title: "Black Sesame Seed Guide", href: "/herbs/black-sesame-seed/" },
       { title: "What Does Jing Mean?", href: "/basics/what-does-jing-mean/" },
-      { title: "What Does Nourish Blood Mean?", href: "/basics/what-does-nourish-blood-mean/" },
-      { title: "Beauty Foods", href: "/topics/beauty-foods/" },
+      { title: "What Is Kidney Essence?", href: "/basics/what-is-kidney-essence/" },
     ],
   },
   {
