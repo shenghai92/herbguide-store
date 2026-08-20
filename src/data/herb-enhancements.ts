@@ -570,27 +570,28 @@ const rawHerbEnhancements: HerbEnhancement[] = [
   },
   {
     slug: "barley-sprout",
-    kitchenPairings: ["Hawthorn berry", "Chen pi", "Light tea", "Digestive grain reading"],
+    kitchenPairings: ["Hawthorn", "Rice", "Roasted corn", "Congee"],
     goodStartingPoints: [
-      "Barley sprout becomes memorable when readers connect it with food accumulation language and grain familiarity.",
-      "A simple digestive basics page is the best companion read.",
+      "Begin by clarifying the name and product form on a package: is it labeled germinated grain, malted barley, or barley grass?",
+      "Try a small amount of whole or lightly ground germinated barley in a plain rice congee or as a single-ingredient grain tea to understand its flavor and aroma.",
     ],
     compareLinks: [
-      { title: "What Is Food Stagnation?", href: "/basics/what-is-food-stagnation/" },
+      { title: "Hawthorn Berry Guide", href: "/herbs/hawthorn-berry/" },
+      { title: "What Does Tonify Mean?", href: "/basics/what-does-tonify-mean/" },
       { title: "Digestive Traditions", href: "/topics/digestive-traditions/" },
     ],
   },
   {
     slug: "amomum-fruit",
-    kitchenPairings: ["Chen pi", "Fresh ginger", "Rice porridge", "Aromatic digestive reading"],
+    kitchenPairings: ["Rice porridge", "Pork", "Ginger", "Mushroom broths"],
     goodStartingPoints: [
-      "This page helps readers understand why aromatic and digestive language often overlap in traditional writing.",
-      "It makes more sense after one plain-English page on dampness or qi movement.",
+      "Begin by confirming the product form on the label (whole pods, seeds, or powder) and try a small culinary test such as a single pod in a pot of rice.",
+      "If you are exploring it as a botanical or a product, prioritize learning the botanical name and part used before attempting concentrated use.",
     ],
     compareLinks: [
-      { title: "What Is Dampness?", href: "/basics/what-is-dampness/" },
-      { title: "What Is Qi Stagnation?", href: "/basics/what-is-qi-stagnation/" },
-      { title: "Digestive Traditions", href: "/topics/digestive-traditions/" },
+      { title: "Fresh Ginger Guide", href: "/herbs/fresh-ginger/" },
+      { title: "What Does Harmonizing Mean?", href: "/basics/what-does-harmonizing-mean/" },
+      { title: "Seasonal Kitchen Ideas", href: "/topics/seasonal-kitchen-ideas/" },
     ],
   },
   {
@@ -607,14 +608,15 @@ const rawHerbEnhancements: HerbEnhancement[] = [
   },
   {
     slug: "skullcap-root",
-    kitchenPairings: ["Advanced tea context", "Dampness reading", "Heat-language basics", "Root comparisons"],
+    kitchenPairings: ["Traditional formula context", "Label-reading (multi-ingredient products)", "Botanical identification (other skullcaps)"],
     goodStartingPoints: [
-      "This page should be used to decode high-intent traditional searches, not as a personal tea suggestion.",
-      "Readers usually need a simpler heat-language page before this root fully makes sense.",
+      "Begin by confirming the botanical name and plant part on any product label (Scutellaria baicalensis, root).",
+      "For culinary curiosity, consider this a specialist bitter root: learn about its forms (dried slice versus powder) and cultural preparation context.",
     ],
     compareLinks: [
       { title: "What Does Clear Heat Mean?", href: "/basics/what-does-clear-heat-mean/" },
       { title: "What Is Damp Heat?", href: "/basics/what-is-damp-heat/" },
+      { title: "Safety", href: "/safety/" },
     ],
   },
   {
@@ -718,6 +720,32 @@ const rawHerbEnhancements: HerbEnhancement[] = [
       { title: "What Is Blood Stasis?", href: "/basics/what-is-blood-stasis/" },
       { title: "Dong Quai Guide", href: "/herbs/dong-quai/" },
       { title: "White Peony Root Guide", href: "/herbs/white-peony-root/" },
+    ],
+  },
+  {
+    slug: "dried-orange-peel",
+    kitchenPairings: ["Ginger", "Duck", "Red bean", "Long-simmered soups"],
+    goodStartingPoints: [
+      "Begin by confirming the product identity on a label: botanical name (Citrus reticulata), form (aged peel), and any aging or origin notes.",
+      "Try smelling the peel and testing a small, food-focused infusion or adding a small piece to a long-simmered dish to learn its contribution.",
+    ],
+    compareLinks: [
+      { title: "Chen Pi Guide", href: "/herbs/chen-pi/" },
+      { title: "Tangerine Peel Guide", href: "/herbs/tangerine-peel/" },
+      { title: "Chen Pi Tea Recipe FAQ", href: "/basics/chen-pi-tea-recipe-faq/" },
+    ],
+  },
+  {
+    slug: "tangerine-peel",
+    kitchenPairings: ["Ginger", "Duck", "Red date", "Pork braises"],
+    goodStartingPoints: [
+      "Begin by confirming the product form and label language: fresh zest, dried tangerine peel (ju pi), candied rind, aged chen pi, or essential oil.",
+      "For most kitchen uses, try a modest amount of dried peel in a tea or simmered braise to learn its aromatic range.",
+    ],
+    compareLinks: [
+      { title: "Chen Pi Guide", href: "/herbs/chen-pi/" },
+      { title: "Dried Orange Peel Guide", href: "/herbs/dried-orange-peel/" },
+      { title: "Fresh Ginger Guide", href: "/herbs/fresh-ginger/" },
     ],
   },
 ];
