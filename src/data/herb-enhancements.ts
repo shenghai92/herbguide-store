@@ -621,39 +621,40 @@ const rawHerbEnhancements: HerbEnhancement[] = [
   },
   {
     slug: "bupleurum-root",
-    kitchenPairings: ["Formula reading", "Liver qi basics", "Root comparisons", "Advanced movement vocabulary"],
+    kitchenPairings: ["Other aromatic roots and rhizomes", "Label-reading for mixed herbal products", "Traditional preparation methods"],
     goodStartingPoints: [
-      "This page works best for readers who keep seeing chai hu in formulas and want a calmer explanation.",
-      "It should be paired with a simple basics page on qi stagnation or liver language.",
+      "Begin by noting the plant name, the exact plant part (root), and the form offered on a label — whole root, cut root, or extract.",
+      "For a specialist botanical like Bupleurum root, understanding whether a product contains whole dried root versus a concentrated extract helps decide how it appears in traditional compound preparations.",
     ],
     compareLinks: [
       { title: "What Is Qi Stagnation?", href: "/basics/what-is-qi-stagnation/" },
       { title: "What Does Liver Mean in Traditional Herb Writing?", href: "/basics/what-does-liver-mean/" },
+      { title: "Safety", href: "/safety/" },
     ],
   },
   {
     slug: "ginkgo-leaf",
-    kitchenPairings: ["Light leaf infusions", "Pear in softer seasonal reading", "Classical leaf comparisons", "Calmer educational routes"],
+    kitchenPairings: ["Botanical identity (Ginkgo biloba)", "Supplement-label reading", "Safety and interactions"],
     goodStartingPoints: [
-      "This page works best when readers treat ginkgo leaf as a naming-and-context guide rather than a shortcut to supplement conclusions.",
-      "A simple basics page on traditional theory or channel language helps the herb feel less random and more readable.",
+      "Begin by confirming the exact name and plant part on any package: botanical name (Ginkgo biloba), the stated part used (leaf), and the product form (dried leaf, powdered extract, standardized extract).",
+      "For kitchen-minded readers, recognize that this species is a specialist botanical in contemporary commerce; understanding the form and label language is more useful than attempting culinary substitution.",
     ],
     compareLinks: [
-      { title: "What Is Traditional Herb Theory?", href: "/basics/what-is-traditional-herb-theory/" },
       { title: "What Does Channel Entry Mean?", href: "/basics/what-does-channel-entry-mean/" },
-      { title: "Seasonal Kitchen Ideas", href: "/topics/seasonal-kitchen-ideas/" },
+      { title: "What Is Traditional Herb Theory?", href: "/basics/what-is-traditional-herb-theory/" },
+      { title: "Safety", href: "/safety/" },
     ],
   },
   {
     slug: "turmeric-root",
-    kitchenPairings: ["Fresh ginger", "Light broths", "Root comparisons", "Food-first spice reading"],
+    kitchenPairings: ["Black pepper", "Coconut milk", "Lentils", "Ginger"],
     goodStartingPoints: [
-      "This page is easiest to trust when readers see how jiang huang differs from broad internet turmeric marketing.",
-      "Pair it with one basics page on traditional theory and one simple soup page so the herb stays grounded in context.",
+      "Begin by identifying the form you have: fresh rhizome, ground spice, or a packaged extract. For cooking, follow standard culinary techniques (grating, toasting, blooming in fat).",
+      "If you encounter a product labeled as an extract or as containing concentrated curcuminoids, pause and read the science and safety sections to understand how those products differ from cooking spice.",
     ],
     compareLinks: [
-      { title: "What Is Traditional Herb Theory?", href: "/basics/what-is-traditional-herb-theory/" },
-      { title: "What Is Qi Stagnation?", href: "/basics/what-is-qi-stagnation/" },
+      { title: "Fresh Ginger Guide", href: "/herbs/fresh-ginger/" },
+      { title: "What Does Harmonizing Mean?", href: "/basics/what-does-harmonizing-mean/" },
       { title: "A Simple Warming Soup Guide for Cold Weather", href: "/kitchen/a-simple-warming-soup-guide-for-cold-weather/" },
     ],
   },
