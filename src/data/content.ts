@@ -378,8 +378,8 @@ const rawRecipeCards = [
   },
   {
     slug: "5-easy-traditional-kitchen-ingredients-for-beginners",
-    title: "5 Easy Chinese Food Therapy Ingredients for Beginners",
-    text: "Start with simple pantry ingredients that feel familiar and useful.",
+    title: "5 Easy Traditional Kitchen Ingredients for Beginners",
+    text: "Five easy-to-find pantry ingredients — ginger, jujube, goji, chrysanthemum, and black sesame — with a simple brewed cup method.",
   },
   {
     slug: "lotus-seed-and-longan-sweet-soup-basics",
