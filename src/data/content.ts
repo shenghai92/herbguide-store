@@ -414,7 +414,7 @@ const rawRecipeCards = [
   {
     slug: "mulberry-and-goji-tea-basics",
     title: "Mulberry and Goji Tea Basics",
-    text: "A simple berry tea page that gives mulberry fruit a clearer pantry-friendly path beside goji berry.",
+    text: "A pantry mulberry and goji tea with a gentle steep or stronger simmer, plus iced and concentrate options.",
   },
   {
     slug: "goji-and-chrysanthemum-tea-basics",
@@ -429,7 +429,7 @@ const rawRecipeCards = [
   {
     slug: "tremella-and-pear-sweet-soup-basics",
     title: "Tremella and Pear Sweet Soup Basics",
-    text: "A very simple dessert-soup page that turns tremella and pear into a gentle seasonal beginner recipe.",
+    text: "A soft tremella and snow pear sweet soup with rehydration notes, a low simmer, and optional jujube and goji.",
   },
   {
     slug: "adzuki-bean-and-jobs-tears-soup-basics",
@@ -439,17 +439,17 @@ const rawRecipeCards = [
   {
     slug: "chinese-yam-and-carrot-soup-basics",
     title: "Chinese Yam and Carrot Soup Basics",
-    text: "A very simple beginner soup that makes Chinese yam feel practical, mild, and easy to trust.",
+    text: "A mild Chinese yam and carrot soup with a low simmer, ginger, and simple finishing and storage notes.",
   },
   {
     slug: "perilla-and-ginger-soup-for-cool-days",
     title: "Perilla and Ginger Soup for Cool Days",
-    text: "A light warming soup that turns perilla leaf into a practical kitchen ingredient for cool-weather reading.",
+    text: "A fragrant perilla leaf and ginger soup with fresh leaves added at the end and a clear, light broth.",
   },
   {
     slug: "tremella-and-lotus-seed-sweet-soup-basics",
     title: "Tremella and Lotus Seed Sweet Soup Basics",
-    text: "A soft dessert-soup page that deepens the tremella and lotus seed network with one easy bowl.",
+    text: "A tremella and lotus seed sweet soup with rehydration and trimming steps, texture cues, and storage notes.",
   },
   {
     slug: "schisandra-and-jujube-tea-basics",
