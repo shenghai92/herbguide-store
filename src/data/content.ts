@@ -454,32 +454,32 @@ const rawRecipeCards = [
   {
     slug: "schisandra-and-jujube-tea-basics",
     title: "Schisandra and Jujube Tea Basics",
-    text: "A gentle pantry tea that makes schisandra easier to understand through a familiar jujube pairing.",
+    text: "A simple schisandra and jujube tea balancing tart, resinous berries with mellow red dates, plus cold-steep and concentrate options.",
   },
   {
     slug: "monk-fruit-and-pear-tea-basics",
     title: "Monk Fruit and Pear Tea Basics",
-    text: "A light fruit tea page that gives monk fruit a clearer place in gentle cooling kitchen reading.",
+    text: "A quietly sweet whole monk fruit and pear tea with a short simmer and pear added late for texture.",
   },
   {
     slug: "walnut-and-black-sesame-paste-basics",
     title: "Walnut and Black Sesame Paste Basics",
-    text: "A pantry-style breakfast bowl that expands black sesame into a richer but still approachable kitchen routine.",
+    text: "A toasted walnut and black sesame paste with a gentle thickening slurry for a smooth, spoonable breakfast bowl.",
   },
   {
     slug: "barley-sprout-and-chen-pi-tea-basics",
     title: "Barley Sprout and Chen Pi Tea Basics",
-    text: "A practical pantry tea that connects barley sprout and chen pi through everyday meal-friendly kitchen language.",
+    text: "A toasty barley sprout and chen pi tea with bright citrus aroma and a short simmer for a low-acidity cup.",
   },
   {
     slug: "chinese-yam-and-jujube-porridge-basics",
     title: "Chinese Yam and Jujube Porridge Basics",
-    text: "A soft beginner porridge that brings Chinese yam and jujube together in a balanced, kitchen-first bowl.",
+    text: "A gentle Chinese yam and jujube porridge with rice or oats, a silky texture, and simple serving and storage notes.",
   },
   {
     slug: "tangerine-peel-and-pear-warm-tea-basics",
     title: "Tangerine Peel and Pear Warm Tea Basics",
-    text: "A light pantry tea that connects citrus peel and pear through a simple, search-friendly warm drink.",
+    text: "A light tangerine (chen pi) peel and pear warm tea with citrus perfume and a short, low simmer.",
   },
   {
     slug: "osmanthus-and-pear-tea-basics",
@@ -489,17 +489,17 @@ const rawRecipeCards = [
   {
     slug: "jasmine-and-pear-tea-basics",
     title: "Jasmine and Pear Tea Basics",
-    text: "A soft floral pear tea page that gives jasmine a calm, kitchen-first landing page with safe long-tail wording.",
+    text: "A fragrant jasmine and pear tea with a late jasmine steep to keep the floral aroma bright.",
   },
   {
     slug: "rose-bud-and-mulberry-leaf-tea-basics",
     title: "Rose Bud and Mulberry Leaf Tea Basics",
-    text: "A gentle floral-leaf tea page that connects rose bud and mulberry leaf through a light, kitchen-first cup.",
+    text: "A light rose bud and mulberry leaf tea with floral perfume over a clean, green base and a gentle steep.",
   },
   {
     slug: "lotus-leaf-and-burdock-root-tea-basics",
     title: "Lotus Leaf and Burdock Root Tea Basics",
-    text: "A light pantry tea page that connects lotus leaf and burdock root through an earthy, seasonal cup with safe search intent.",
+    text: "An earthy lotus leaf and burdock root tea with a steep or gentle simmer and pantry-friendly notes.",
   },
   {
     slug: "cassia-seed-and-corn-silk-tea-basics",
@@ -514,12 +514,12 @@ const rawRecipeCards = [
   {
     slug: "astragalus-and-jujube-chicken-broth",
     title: "Astragalus and Jujube Chicken Broth",
-    text: "A deeply comforting winter soup that pairs astragalus root with jujube for a classic warming broth.",
+    text: "A comforting astragalus and jujube chicken broth with a slow simmer, clear-stock tips, and food-safety guidance.",
   },
   {
     slug: "poria-and-coix-seed-congee",
     title: "Poria and Coix Seed Congee",
-    text: "A gentle, grain-based bowl designed to clear traditional dampness and support digestion when you feel heavy or sluggish.",
+    text: "A quietly mild poria and coix seed rice congee with a single-pot method, texture checkpoints, and storage notes.",
   },
   {
     slug: "ginger-and-brown-sugar-tea-for-cold-days",
