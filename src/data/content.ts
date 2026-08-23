@@ -389,27 +389,27 @@ const rawRecipeCards = [
   {
     slug: "chen-pi-tea-for-heavy-meal-days",
     title: "Chen Pi Tea for Heavy Meal Days",
-    text: "A pantry-style tea page that gives digestive readers a very practical chen pi entry point.",
+    text: "A pantry-style aged tangerine peel tea with steeping and simmering options, optional ginger or hawthorn, and storage notes.",
   },
   {
     slug: "hawthorn-berry-tea-for-rich-meals",
     title: "Hawthorn Berry Tea for Rich Meals",
-    text: "A simple digestive tea page built around one of the clearest food-adjacent traditional ingredients.",
+    text: "A tart dried hawthorn berry tea for after richer meals, with optional chen pi or ginger, iced prep, and safety notes.",
   },
   {
     slug: "black-sesame-and-jujube-breakfast-bowl",
     title: "Black Sesame and Jujube Breakfast Bowl",
-    text: "A soft pantry-style breakfast page that deepens black sesame and jujube kitchen reading.",
+    text: "A toasted black sesame and jujube breakfast bowl over oats or congee, with texture, sweetness, and allergy notes.",
   },
   {
     slug: "jobs-tears-porridge-for-heavy-days",
     title: "Job's Tears Porridge for Heavy Days",
-    text: "A gentle grain-style page that turns dampness language into a concrete pantry recipe readers can picture.",
+    text: "A stovetop or pressure-cooker job's tears porridge with soak and water-ratio tips plus sweet and savory finishes.",
   },
   {
     slug: "pear-and-chrysanthemum-tea-for-warm-afternoons",
     title: "Pear and Chrysanthemum Tea for Warm Afternoons",
-    text: "A light seasonal tea page that supports cooling and dryness themes without overclaiming.",
+    text: "A light pear and chrysanthemum tea with a stovetop method and cold-brew option, plus serving and storage notes.",
   },
   {
     slug: "mulberry-and-goji-tea-basics",
