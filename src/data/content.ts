@@ -38,27 +38,27 @@ const rawBasicsCards = [
   {
     slug: "what-does-blood-mean",
     title: "What Does Blood Mean in Traditional Herb Writing?",
-    text: "A careful beginner explanation of what blood means inside traditional theory.",
+    text: "A plain-English guide to \"blood\" (xue) as traditional kitchen language: nourishment, moisture, movement, and containment.",
   },
   {
     slug: "what-is-qi-stagnation",
     title: "What Is Qi Stagnation?",
-    text: "A simple guide to a common traditional pattern phrase readers often see online.",
+    text: "A plain-English guide to \"qi stagnation\"—stuck flow, and the aromatic peels, mints, and preparations that express movement.",
   },
   {
     slug: "fresh-ginger-vs-dried-ginger",
     title: "Fresh Ginger vs Dried Ginger",
-    text: "Why traditional herb pages describe two forms of ginger as related but not identical.",
+    text: "A kitchen comparison of fresh and dried ginger: flavor, aroma, heat, texture, and when each form works best.",
   },
   {
     slug: "what-are-the-five-flavors",
     title: "What Are the Five Flavors?",
-    text: "A plain-English guide to the five flavors in traditional Chinese food writing with practical kitchen examples.",
+    text: "A plain-English guide to the Five Flavors—pungent, sweet, sour, bitter, salty—as a cook's map for contrast and balance.",
   },
   {
     slug: "ginseng-vs-american-ginseng",
     title: "Asian Ginseng vs American Ginseng",
-    text: "A plain-English comparison of two ginseng species with opposite energetic natures — warm vs cool, and how to choose between them.",
+    text: "A cook's comparison of Asian ginseng (warm) and American ginseng (cool): flavor, forms, and kitchen uses.",
   },
   {
     slug: "goji-berry-vs-jujube",

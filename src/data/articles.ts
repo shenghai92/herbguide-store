@@ -608,37 +608,139 @@ const rawBasicsArticles: ContentArticle[] = [
     slug: "what-does-blood-mean",
     title: "What Does Blood Mean in Traditional Herb Writing?",
     description:
-      "A careful beginner guide to the traditional idea of blood and why it is broader than the everyday English word suggests.",
-    eyebrow: "Basics",
+      "A plain-English guide to \"blood\" (xue, 血) as traditional kitchen language: nourishment, moisture, movement, containment, and how to read it in herb notes.",
+    eyebrow: "Basics & Concepts",
     intro:
-      "When traditional herb writing talks about blood, it is not always speaking only about literal blood in a lab-based modern sense. In this framework, blood is a broader traditional concept tied to nourishment, grounding, and the body's ability to support tissues and rhythm.",
+      "In traditional herb and food writing, \"blood\" (xue, 血) is not just the literal liquid from modern anatomy. It's a kitchen-facing term for nourishment, moisture, and steady rhythm—imagery that helps cooks and readers talk about fullness, color, and movement in the body's everyday life. You'll see phrases like \"nourish blood,\" \"move blood,\" or \"preserve blood\" in herb notes and recipe prefaces. Read them as traditional culinary language and metaphor, not a lab measurement or a personal label.",
     sections: [
       {
-        title: "Why the word causes confusion",
+        title: "The short answer in plain English",
         paragraphs: [
-          "English-speaking readers naturally assume blood means exactly what modern anatomy means by blood. In traditional writing, the term overlaps with that idea but also reaches further into a traditional model of nourishment and stability.",
-          "That is why direct one-to-one translation can be misleading if no explanation is provided.",
-        ],
-      },
-      {
-        title: "How blood shows up in herb pages",
-        paragraphs: [
-          "Some herbs are traditionally described as nourishing blood, moving blood, or preserving blood. Those phrases are part of a historical vocabulary used in traditional herb education.",
-          "Here, that language is translated carefully so readers understand it as traditional theory rather than a promise about one personal condition.",
+          "When a traditional source mentions \"blood,\" it's pointing to a bundle of ideas: richness, moisture, and stable support—something you can picture the way you picture a well-fed stew, a soft dewy crumb in a cake, or the steady color of a long-simmered broth.",
         ],
         bullets: [
-          "Blood in this framework is a traditional concept.",
-          "It often overlaps with ideas of nourishment, moisture, and regulation.",
-          "It should not be read as shorthand for self-labeling.",
+          "Nourishment and density (hearty, sustaining).",
+          "Moisture and lubrication (not dry, not scratchy).",
+          "Movement or stillness (lively vs. stuck).",
+          "Containment (holding in, not leaking out).",
+          "Color and vitality imagery tied to food choices (luster, glow).",
         ],
       },
       {
-        title: "Why this matters for responsible reading",
-        paragraphs: [
-          "Readers searching for cramping, dryness, tiredness, or cycle-related questions often find this blood language online very quickly.",
-          "A responsible site should explain what the term means without nudging readers into overly specific interpretations. That is the standard HerbGuide follows.",
+        title: "Where you'll see the word",
+        paragraphs: [],
+        bullets: [
+          "Herb monographs and blend notes: \"nourishes blood,\" \"moves blood,\" \"preserves blood.\"",
+          "Recipe prefaces: \"winter stews to enrich blood,\" \"spring teas to move blood.\"",
+          "Market talk and household tradition: \"black sesame and jujube breads for blood,\" \"longan-ginger sweet soups after exertion.\"",
+          "Commentaries on color and texture: \"deep-red broths,\" \"silky porridges,\" \"tender greens for freshness.\"",
         ],
       },
+      {
+        title: "A kitchen-language map of blood",
+        paragraphs: [],
+        bullets: [
+          "Nourishment: dense, gentle, sustaining foods—a bowl that \"sticks with you\" without harsh spice or sharp acidity. Roots, grains, seeds, and dark fruits.",
+          "Moisture: lubricating or dewy mouthfeel—silken tofu, soaked goji berries, pear simmered low and slow.",
+          "Movement: aromatic push that keeps things from going flat—a light swirl of ginger or citrus peel that wakes up a heavy stew.",
+          "Containment (astringing or preserving): tighter mouthfeel, puckering, or tannic finish—hawthorn, pomegranate rind, or strong tea that \"gathers.\"",
+          "Color and luster: visual language matters—red hues, glossy surfaces, and full-looking textures.",
+        ],
+      },
+      {
+        title: "Action verbs you'll read around the term",
+        paragraphs: [],
+        bullets: [
+          "Nourish/enrich blood: add density and softness; favor gentle heat and round flavors—long-simmered broths, seed-and-date porridges, black sesame desserts.",
+          "Move blood: wake up heaviness; use light aromatics and a bit of heat—fresh ginger in a mild soup, aged vinegar in a braise, citrus peel in tea.",
+          "Preserve/contain blood: hold in and tighten; rely on a touch of tart/astringent—hawthorn jelly, pomegranate, strong-brewed tea.",
+          "Warm and quicken blood: warming aromatics to lighten sluggishness—ginger-infused sweet rice wine, cinnamon twig in a mild stew.",
+          "Cool the blood: bitter-fresh greens and cooling teas for a light, clear finish—chrysanthemum with goji, mulberry leaf tea, cucumber salad.",
+        ],
+      },
+      {
+        title: "Example lines, unpacked for cooks and readers",
+        paragraphs: [],
+        bullets: [
+          "\"Nourishes blood and moistens dryness\": choose foods with body and gentle moisture—black sesame paste with jujube, congee with millet and goji.",
+          "\"Moves blood to dispel stasis\": add a bright nudge to heavy dishes—fresh ginger in rich broth, small amounts of aged citrus peel in meats.",
+          "\"Preserves blood and calms flow\": use astringent/tart elements to help hold in—hawthorn syrup, pomegranate, strong-brewed tea jelly.",
+          "\"Warms channels, quickens blood\": a warming aromatic to lighten sluggishness—ginger-infused sweet rice wine or cinnamon twig in a mild stew.",
+          "\"Clears heat from the blood\": bitter-fresh greens and cooling teas for a light, clear finish—chrysanthemum with goji, mulberry leaf tea, cucumber salad.",
+        ],
+      },
+      {
+        title: "Nearby terms and how they differ",
+        paragraphs: [],
+        bullets: [
+          "Blood (xue, 血): nourishment, moisture, color, steady rhythm—jujube, goji, black sesame, Chinese angelica; slow simmering, porridge, sweet soups. Verbs: nourish, move, preserve, warm, cool.",
+          "Qi (气): uplift, movement, breath-like liveliness—astragalus, citrus peel, lightly aromatic roots; gentle simmer, light aromatics, broths. Often paired with blood: \"qi moves blood.\"",
+          "Yin fluids (津液): moisture, lubrication, cool softness—pear, tremella fungus, lily bulb, tofu skin; soaking, low-and-slow, light sweetness.",
+          "Dampness (湿): heaviness, sogginess, stuckness in food feel—Job's tears, poria, aged tangerine peel; draining, drying, toasting, clear broths.",
+          "Blood stasis (瘀血): heaviness or stuck imagery in the blood domain—safflower, peach kernel (in classic notes), mild aromatics; short infusions, small accents. Read as \"unsticking\" rather than nourishing.",
+        ],
+      },
+      {
+        title: "Seasonal and menu context",
+        paragraphs: [],
+        bullets: [
+          "Winter: hearty stews, seed pastes, and sweet soups with dried fruits are framed as \"enriching blood\"—black sesame with rice, red date and longan desserts, slow-braised meats.",
+          "Spring: writers introduce movement—citrus peel and fresh ginger lift dense dishes; vinegar brightens braises; early greens add light bitterness.",
+          "Late summer: moisture becomes a theme—pear and tremella soups, chilled tofu skin salads, gentle syrups that gloss rather than thicken.",
+          "Autumn festivals: baked goods and confections use black sesame, walnut, and jujube to signal richness and color tied to \"blood.\"",
+          "Everyday cooking: a cook may call a broth \"nourishing\" if it's glossy, red-brown, and softly sweet, or a tea \"moving\" if it's aromatic with a mild warming thread.",
+        ],
+      },
+      {
+        title: "What readers often miss",
+        paragraphs: [],
+        bullets: [
+          "It's not a lab term: \"blood\" here is a traditional category, closer to a chef's shorthand than a scientific measure.",
+          "Context rules: \"move blood\" in a spring tea and \"nourish blood\" in a winter stew serve different kitchen goals.",
+          "Pairings matter: classics discuss \"qi and blood\" together—qi as lift and drive, blood as richness and moisture.",
+          "Verbs change the picture: \"nourish,\" \"move,\" and \"preserve\" point in different directions; check the ingredient list and method.",
+          "Translation can flatten nuance: HerbGuide keeps verbs closer to everyday cooking language—enrich, move, and preserve.",
+        ],
+      },
+      {
+        title: "How to read herb pages that use the term",
+        paragraphs: [],
+        bullets: [
+          "Note the verb + \"blood\": nourish, move, preserve, warm, or cool—that verb is your compass.",
+          "Scan flavor and nature: warming aromatics (ginger, cinnamon twig) suggest movement; gentle sweetness (jujube, black sesame) suggests nourishment; tart/astringent (hawthorn, pomegranate) suggests preserving.",
+          "Look at the method: long simmering and porridge lean nourishing; quick infusions and light aromatics lean moving; reductions and tannic ingredients lean preserving.",
+          "Cross-check nearby terms: \"nourish blood and enrich yin\" means soft, moist, cool-leaning; \"move blood and regulate qi\" means aromatic, lightly warming.",
+          "Picture the bowl: a deep red-brown broth with sheen says something different from a pale, brisk tea with citrus.",
+        ],
+      },
+      {
+        title: "Translation and naming notes",
+        paragraphs: [],
+        bullets: [
+          "Chinese term: 血 (xue), commonly rendered as \"blood.\"",
+          "Collocations: 补血 (bu xue, \"nourish blood\"), 活血 (huo xue, \"move blood\"), 凉血 (liang xue, \"cool the blood\"), 温经养血 (wen jing yang xue, \"warm the channels and nourish blood\"), 敛血 (lian xue, \"preserve/contain blood\").",
+          "English choices: HerbGuide prefers verbs like nourish, move, cool, warm, and preserve, avoiding highly technical renderings.",
+          "Romanization: Pinyin is used for consistency; older books may use Wade-Giles.",
+          "Visual cues: traditional texts often connect \"blood\" to red hues, luster, and fullness.",
+        ],
+      },
+      {
+        title: "Common questions",
+        paragraphs: [
+          "Does \"blood\" here mean iron-rich foods? Not directly. Traditional \"blood\" is a culinary vocabulary bundle—richness, moisture, color, and steady rhythm—rather than a nutrition number. Some dishes that \"nourish blood\" happen to be dense or dark, but the term is about how a recipe is framed, not a mineral count.",
+          "Why do recipes pair \"qi and blood\" so often? It's a long-standing pairing: qi is written about as uplift and movement; blood as richness and moisture. Classic sources use them together to describe balance and tempo, so modern food writing inherits the habit.",
+          "How can I tell \"move blood\" from \"nourish blood\" on a page? Check the verb, ingredients, and method. \"Move blood\" favors aromatics and warming lift (fresh ginger, citrus peel, a splash of vinegar). \"Nourish blood\" leans dense and moist (jujube, black sesame, angelica; porridge, slow braise).",
+        ],
+      },
+      {
+        title: "About this page",
+        paragraphs: [
+          "This page explains how \"blood\" is used as traditional culinary vocabulary—how the term guides flavor choices, cooking methods, color imagery, and reading of herb notes. It aims to make recipe language and herb descriptions easier to follow without turning kitchen phrasing into modern lab terms.",
+        ],
+      },
+    ],
+    references: [
+      "[1] Chinese Text Project. Huangdi Neijing (Yellow Emperor's Inner Canon). https://ctext.org/huangdi-neijing",
     ],
   },
   {
@@ -712,177 +814,367 @@ const rawBasicsArticles: ContentArticle[] = [
     slug: "what-is-qi-stagnation",
     title: "What Is Qi Stagnation?",
     description:
-      "A beginner-friendly guide to one of the most common pattern phrases in traditional herb writing.",
-    eyebrow: "Basics",
+      "A plain-English guide to \"qi stagnation\" in traditional food writing: stuck flow, and the aromatic peels, mints, and preparations that express movement and release.",
+    eyebrow: "Basics & Concepts",
     intro:
-      "Qi stagnation is a traditional phrase used when movement, flow, or ease is described as constrained. It is a pattern term inside traditional herb writing, not a modern personal label, but readers see it often enough that it deserves a clear plain-English explanation.",
+      "\"Qi stagnation\" is a traditional phrase used in Chinese food and herb writing to describe stuck flow—when movement, spread, or ease is said to be constrained. It is pattern language inside that literary tradition, not a modern personal label. You'll see it attached to aromatic peels, mints, and other ingredients that are described as helping things \"move\" or \"unwind\" in a culinary sense. Learning the term makes classic herb notes and recipe headnotes far easier to read in plain English.",
     sections: [
       {
-        title: "A traditional idea about flow and constraint",
+        title: "Short answer: a working definition",
         paragraphs: [
-          "In simple terms, qi stagnation language often points to a sense that things are not moving as smoothly as they should in the traditional model.",
-          "That is why the phrase is often paired with language around tension, fullness, frustration, irregularity, or stuckness depending on the context.",
-        ],
-      },
-      {
-        title: "Why it appears on digestive and aromatic herb pages",
-        paragraphs: [
-          "Readers often meet this phrase on pages about chen pi, mint, perilla leaf, or other herbs that are traditionally discussed in relation to movement and release.",
-          "Without explanation, the phrase can sound either mysterious or overly dramatic. A better approach is to translate the traditional idea into readable English while keeping the limits clear.",
+          "In traditional herb and kitchen texts, qi is a broad word for vitality and movement. \"Stagnation\" is blockage, holding, or congestion. Put together, \"qi stagnation\" signals the idea that movement is not smooth—things feel pent-up, tense, or uneven. The writing is metaphor-first, built to guide choices among ingredients associated with loosening, spreading, or venting aromas.",
         ],
         bullets: [
-          "Qi stagnation is part of traditional pattern language.",
-          "It is usually about functional flow in a traditional sense.",
-          "It should not be turned into a label someone assigns to themself from one article.",
+          "It is descriptive vocabulary, not a label to pin on yourself.",
+          "Writers use it to connect taste, smell, and preparation to the theme of flow.",
+          "You'll meet it most often near citrus peels, mints, perilla, and other ingredients praised for movement and release.",
         ],
       },
       {
-        title: "How to use the term usefully",
-        paragraphs: [
-          "The most useful reason to learn this phrase is that it makes many herb descriptions easier to understand.",
-          "Once readers know what qi stagnation means in traditional language, comparisons between aromatic, digestive, and movement-related herbs become much clearer.",
+        title: "Where you'll see the phrase in herb and recipe reading",
+        paragraphs: [],
+        bullets: [
+          "Herb profiles that highlight citrus peel (chen pi), perilla leaf (zi su ye), or field mint (bo he).",
+          "Recipe headnotes for broths, teas, or congees that emphasize venting fragrance or \"lifting\" heaviness after a rich meal.",
+          "Ingredient comparisons that sort aromatics by how strongly they \"move\" or \"spread.\"",
         ],
       },
+      {
+        title: "A plain-English vocabulary map",
+        paragraphs: [],
+        bullets: [
+          "Movement/flow: move, spread, course, circulate, vent, open.",
+          "Stuckness/constraint: bind, knot, fullness, distension, tightness.",
+          "Mood and demeanor words: irritability, frustration, pent-up (used metaphorically to echo \"constraint\").",
+          "Directional cues: upbearing, outward, dispersing vs. sinking, inward, constraining.",
+          "Texture and sensation: aromatic, light, pungent, bitter, warming, cooling.",
+        ],
+      },
+      {
+        title: "Flavor, aroma, and form cues tied to this idea",
+        paragraphs: [],
+        bullets: [
+          "Aromatic top-notes: volatile, high fragrance that rises from the cup or bowl—mint steam, tangerine zest, fresh perilla.",
+          "Lively mouthfeel: a sense of lift or spread from light pungency, citrus oils, or a touch of bitterness.",
+          "Preparations that vent: short infusions, quick tosses in a hot wok, or later-stage additions to preserve aroma.",
+          "Forms that carry scent: dried peels, shredded leaves, cracked seeds—often bruised or lightly toasted to wake up oils.",
+        ],
+      },
+      {
+        title: "Kitchen pictures: how writers illustrate stuckness",
+        paragraphs: [],
+        bullets: [
+          "Lifting the lid: steam rushes out carrying ginger and orange peel—that rush is \"movement\"; a stuffy, sealed pot is \"stagnation.\"",
+          "Zesting citrus: the moment you bend the peel and a fine mist of oil sprays the air—that instant of sparkle is the opposite of stuckness.",
+          "Quick-toss aromatics: perilla or scallion hitting hot oil in the last seconds of a stir-fry; fragrance blooms and \"opens\" the dish.",
+          "After a heavy banquet: a simple cup of mint and aged tangerine peel; the language says it \"disperses\" and \"releases.\"",
+        ],
+      },
+      {
+        title: "Nearby traditional terms, sorted by kitchen logic",
+        paragraphs: [],
+        bullets: [
+          "Qi stagnation: stuck aroma or constrained movement; preference for venting and spreading—aromatic, light, slightly pungent or citrusy (chen pi, mint, perilla leaf).",
+          "Food stagnation: heavy fullness from rich, excessive foods; preference for \"unblocking\" digestion—bitter, slightly sour, aromatic (hawthorn fruit, radish seed, malted barley).",
+          "Dampness: clammy heaviness and sluggishness; preference for drying and transforming—fragrant, gently bitter, warm-drying (atractylodes, poria, tangerine peel).",
+          "Cold constraint: contraction from cold; preference for warming and opening—warm, pungent, dispersing (fresh ginger, cinnamon twig, scallion).",
+          "Constraint with heat: pent-up fullness with a hot edge; preference for venting while cooling—aromatic plus cool-light (chrysanthemum, mint, gardenia in teas).",
+        ],
+      },
+      {
+        title: "How to read herb profiles when this term shows up",
+        paragraphs: [],
+        bullets: [
+          "Identify the movement word: look for \"move,\" \"spread,\" \"vent,\" \"disperse,\" or \"open\"—these verbs tell you the direction (upward, outward, or through).",
+          "Link to flavor: dispersing often rides on minty, citrusy, or lightly pungent notes; venting often carries a whisper of bitterness.",
+          "Note preparation: movement-oriented ingredients are often added late to protect volatile oils (mint, perilla), dry-toasted or bruised to wake fragrance (citrus peel), or infused briefly rather than simmered long.",
+        ],
+      },
+      {
+        title: "Ingredient forms and preparation that signal movement",
+        paragraphs: [],
+        bullets: [
+          "Dried citrus peel (chen pi): scraped of pith, aged, sliced thin; quick infusions preserve the bright, rising scent.",
+          "Perilla leaf: torn or chiffonaded; added at the end of cooking or stirred into warm broth so it wilts but still lifts.",
+          "Field mint: steeped briefly to keep its top-notes; over-long simmering mutes the quality traditional writers praise.",
+          "Radish seed: lightly cracked before steeping or toasting to turn locked fragrance into accessible perfume.",
+          "Ginger skin and tips: used when a lighter, venting lift is wanted rather than the deeper heat of thick slices.",
+        ],
+      },
+      {
+        title: "What readers often miss",
+        paragraphs: [],
+        bullets: [
+          "It's literary, not literal: \"qi stagnation\" is a centuries-old way to talk about stuckness and release—flavor-and-preparation guidance, not a personal status.",
+          "Context matters more than any single word: the same profile might mention stagnation near \"cold,\" \"heat,\" or \"dampness,\" each nudging flavor and technique differently.",
+          "Movement isn't always hot: sometimes it's cool-light (mint, chrysanthemum), sometimes warm-light (ginger), sometimes a bittersweet lift (aged citrus peel).",
+          "Preparation creates the effect: if a note praises \"dispersing aroma,\" overcooking the aromatic defeats the point—look for late additions, bruising, or brief infusions.",
+          "Names reflect families of ideas: \"wood,\" \"earth,\" or seasonal images signal taste directions and kitchen moods, not strict categories.",
+        ],
+      },
+      {
+        title: "Common questions",
+        paragraphs: [
+          "Is \"qi\" a substance I should picture, or just a metaphor? In kitchen reading, it behaves like a metaphor for vitality and movement—steam rising, aroma venting, flavors spreading. Think \"how does this ingredient move—up, out, or through?\" rather than \"what is qi made of?\"",
+          "Does \"stagnation\" always call for strong spices? No. The writing praises movement, not heat for its own sake. Sometimes the right move is cool-light and aromatic (mint, chrysanthemum); other times it's warm-light and dispersing (ginger, scallion). When the cluster includes heaviness from rich food, a bittersweet lift (aged citrus peel, hawthorn) may be preferred.",
+          "Why do citrus peels show up so often in these notes? Aged tangerine peel and related peels pack volatile oils that read as buoyant and clarifying. They are easy to dose, quick to wake with a toast or bruise, and play well with both cool and warm partners.",
+        ],
+      },
+      {
+        title: "About this page",
+        paragraphs: [
+          "This Basics page translates the traditional phrase \"qi stagnation\" into plain kitchen language: aroma that vents, flavors that spread, and preparations that protect or wake volatile oils. It orients readers to where the term appears, how to map nearby vocabulary to flavor and direction, and which forms and techniques commonly express the idea.",
+        ],
+      },
+    ],
+    references: [
+      "[1] Chinese Text Project. Huangdi Neijing (Yellow Emperor's Inner Canon). https://ctext.org/huangdi-neijing",
     ],
   },
   {
     slug: "fresh-ginger-vs-dried-ginger",
     title: "Fresh Ginger vs Dried Ginger",
     description:
-      "A clear beginner guide to why traditional herb pages describe fresh and dried ginger as related but not interchangeable.",
-    eyebrow: "Basics",
+      "A kitchen-focused comparison of fresh and dried ginger: flavor, aroma, heat, texture, and when each form works best in stir-fries, braises, baking, and teas.",
+    eyebrow: "Basics & Concepts",
     intro:
-      "Many readers assume ginger is just ginger. Traditional herb writing makes a more careful distinction. Fresh ginger and dried ginger come from the same plant, but they are described differently because preparation changes how the ingredient is understood in traditional language and kitchen use.",
+      "Fresh and dried ginger come from the same rhizome, but preparation changes their flavor, aroma, and how recipe writers describe their \"heat\" in traditional culinary language. Fresh ginger tastes bright and citrusy with a juicy bite; dried ginger is hotter, deeper, and more concentrated. Use fresh for quick-sautéed dishes, brothy soups, and lively teas. Use dried for spice blends, long simmers, and baking. They are not direct substitutes; choose by cooking method, texture, and intensity.",
     sections: [
       {
-        title: "Same plant, different preparation, different role",
-        paragraphs: [
-          "Fresh ginger usually feels easier to connect with everyday cooking. It appears in soups, teas, stir-fries, and light cold-weather recipes.",
-          "Dried ginger is a more concentrated comparison herb in traditional writing. It is often described as hotter and more strongly warming than the fresh form.",
-        ],
-      },
-      {
-        title: "Why the distinction matters on herb pages",
-        paragraphs: [
-          "This comparison helps readers see one of the most important ideas in traditional herb education: preparation matters. A fresh ingredient and a dried ingredient can share a name while still being framed quite differently.",
-          "That is one reason HerbGuide keeps herb pages separate instead of collapsing them into one generic ginger entry.",
-        ],
+        title: "Quick comparison at a glance",
+        paragraphs: [],
         bullets: [
-          "Fresh ginger is commonly linked with tea, soup, and kitchen-friendly warming language.",
-          "Dried ginger is usually presented as stronger and more concentrated.",
-          "Readers should not assume traditional categories frame all forms of an herb as interchangeable.",
+          "Fresh ginger (young to mature): bright, lemony, peppery aroma that blooms when sliced or grated; lively, surface-forward warmth described as lighter and more outward-moving; juicy and water-based, so it steams and perfumes liquids. Uses: stir-fries, quick sautés, broths, teas, dressings, relishes.",
+          "Dried ginger slices (whole): concentrated, camphor-spicy with less citrus top note; deeper and steadier warmth, often framed as stronger and more inward; dry, releases slowly, tolerates long heat. Uses: red-cooked dishes, braises, slow soups, pantry spice blends.",
+          "Ground dried ginger (powder): focused, hot-sweet, slightly woody, immediate impact; direct and punchy warmth in small amounts; disperses quickly, bonds well in batters and rubs. Uses: baking, dry rubs, spice pastes, quick pantry teas.",
+          "Fresh-grated paste (pounded or microplaned): intensely aromatic, grassy-citrus at first then peppery; fast bloom, quick fade in high heat; integrates into sauces without chunks. Uses: marinades, dumpling fillings, silky sauces.",
         ],
       },
       {
-        title: "How beginners should use this comparison",
-        paragraphs: [
-          "The most useful takeaway is not that one form is better. The useful takeaway is that traditional categories care about form, preparation, and context.",
-          "Once readers understand this, other comparisons across the herb library become easier too.",
+        title: "One plant, two kitchen forms",
+        paragraphs: [],
+        bullets: [
+          "Shared starting point: both come from Zingiber officinale; what changes is moisture, fiber structure, and how volatile compounds are preserved or transformed by drying.",
+          "Fresh ginger: smooth, tan rhizomes; young knobs are thin-skinned and tender, mature ones more fibrous. Slice for perfume, smash for big hits, or grate for an almost creamy paste.",
+          "Dried ginger: the same rhizome cut and dehydrated, sold as coins or powder. Drying concentrates certain flavors and mutes others, so the citrusy lift gives way to a sharper, more camphor-like spice.",
         ],
       },
       {
-        title: "How the warming difference usually reads in kitchen writing",
-        paragraphs: [
-          "Fresh ginger usually reads brighter, lighter, and more outward-moving in tea, soup, and everyday cooking. Dried ginger usually reads deeper, stronger, and more concentrated in slow-simmered pantry-style recipes.",
-          "That difference is one reason traditional pages keep the two separate instead of treating dried ginger as a simple backup for the fresh root.",
+        title: "How preparation changes flavor and behavior",
+        paragraphs: [],
+        bullets: [
+          "Volatiles vs concentration: fresh ginger carries bright top notes that flash when first heated; dried ginger trades some fleeting aromas for a deeper, steadier spice that survives long simmering.",
+          "Texture matters: fresh slices release aroma into oil and stock while offering a chew or soft bite; powder brings flavor only; dried slices infuse like a spice and are lifted out.",
+          "Water and fat pathways: fresh ginger's moisture pulls flavor into broths and steamed dishes; dried forms deliver spice into fat for rubs, ghee, or oil-based sauces.",
+          "Heat character in traditional language: fresh is described as lighter and surface-forward; dried as deeper and more concentrated—kitchen shorthand for where heat seems to land.",
         ],
       },
       {
-        title: "Easy kitchen examples readers can picture",
-        paragraphs: [
-          "Fresh ginger fits naturally into rainy-day tea, light soups, stir-fries, and recipes that need a quick aromatic lift. Dried ginger fits more naturally into colder-season broths, deeper warming blends, and stronger pantry reading.",
-          "Those food examples make the comparison easier to trust because the difference can be pictured in a pot or a cup, not only in abstract terminology.",
+        title: "When recipes choose one over the other",
+        paragraphs: [],
+        bullets: [
+          "Stir-fries and quick sautés: fresh ginger shines—thin matchsticks or smashed coins perfume hot oil, then mingle with vegetables or meat.",
+          "Long braises and red-cooked dishes: dried ginger slices hold their presence across hours alongside soy sauce, sugar, and darker spices.",
+          "Baking and sweets: ground dried ginger spreads evenly through batters; fresh ginger's moisture and fibers can complicate dough, so use it sparingly in syrups or as a fine accent.",
+          "Teas and broths: fresh ginger makes a lively, lemony cup; dried ginger builds a heavier pantry-style cup. Many cooks blend the two for layers.",
+          "Condiments and dressings: fresh-grated paste brings grassy perfume to cold noodles; powder can dull in cold applications unless supported and rested.",
         ],
       },
+      {
+        title: "Aroma, texture, and timing in the pan",
+        paragraphs: [],
+        bullets: [
+          "Knife shape guides aroma: coins and chunks give a gentler, rounder aroma; matchsticks release brighter; grated or pounded gives fast, intense perfume.",
+          "Oil first, then steam: briefly sizzle fresh ginger in oil to open aroma; toast dried slices lightly or add early to liquid; bloom powder gently with aromatics or moist ingredients.",
+          "Timing: fresh—add early for perfume, hold some back for a final lift; dried slices—add early for the whole journey; powder—add midstream once moisture is present.",
+          "Texture choices: use fresh matchsticks for bite, powder for invisible spice, dried coins for an infusion only.",
+        ],
+      },
+      {
+        title: "Buying, storing, and grinding choices",
+        paragraphs: [],
+        bullets: [
+          "Selecting fresh: look for taut skin and a heavy feel; young ginger (thin, almost translucent skin) is tender, mature ginger keeps longer.",
+          "Storing fresh: keep unpeeled knobs dry in the crisper; freeze whole pieces and grate from frozen; wrap cut pieces tightly.",
+          "Selecting dried: slices should look clean and evenly cut without musty odors; ground ginger should smell lively, not flat.",
+          "Storing dried: keep tightly sealed away from light and heat; use clean, dry spoons; follow general spice-safety guidance for clean handling, reputable sourcing, and proper storage.",
+          "Grinding your own: grinding small batches from high-quality slices yields brighter powder; sieve for a fine, even texture in baking.",
+        ],
+      },
+      {
+        title: "Recipe-context choices",
+        paragraphs: [],
+        bullets: [
+          "Wet, quick, aromatic: fresh ginger—its moisture pops in hot oil, then perfumes a light sauce or broth.",
+          "Dry, even, structured: ground dried ginger—it threads through batters, rubs, and dry mixes without adding water.",
+          "Long, steady simmer: dried slices—they resist fading and hold their line alongside sturdy spices.",
+          "Layered effect: combine forms—a coin or two of dried ginger in the pot for depth, plus a last-minute spoon of fresh-grated paste for lift.",
+        ],
+      },
+      {
+        title: "Common mix-ups and how to avoid them",
+        paragraphs: [],
+        bullets: [
+          "Swapping one-for-one: a tablespoon of fresh is not equal to a teaspoon of powder; match the form to the dish and adjust gradually.",
+          "Overblooming powder: dumping ground ginger into very hot oil can scorch it—moisten first or bloom gently with aromatics.",
+          "Fibrous surprises: thick coins of mature fresh ginger can stay tough—slice thinner for stir-fries or grate for sauces.",
+          "Soggy top notes: adding fresh ginger only at the start of a long braise loses its bright lift—hold back a portion for the end.",
+          "Flat dried slices: if dried slices smell faint, toast them lightly in a dry pan before adding to liquid, or replace with a fresher batch.",
+        ],
+      },
+      {
+        title: "Common questions",
+        paragraphs: [
+          "Can I use fresh and dried ginger together in one dish? Yes. Many cooks build a base with dried slices for depth, then finish with fresh-grated ginger for lift. Use small amounts of each at first.",
+          "What's the simplest way to get clear ginger flavor in a weeknight stir-fry? Peel a thumb-sized piece, slice into thin matchsticks, and start it in the oil before other aromatics—20-30 seconds until fragrant, then add garlic, scallions, and main ingredients.",
+          "Why does my gingerbread taste different with fresh versus ground ginger? Ground ginger spreads evenly and bakes into a uniform hot-sweet spice; fresh ginger carries moisture and volatile top notes that can fade in the oven. Keep ground ginger for structure and add fresh garnish after baking if you want zing.",
+        ],
+      },
+      {
+        title: "About this page",
+        paragraphs: [
+          "This page explains how fresh and dried ginger differ in flavor, texture, and kitchen behavior, with attention to the way traditional Chinese culinary vocabulary describes \"heat\" and preparation. It's written for cooks who want clear, food-first distinctions and practical examples.",
+        ],
+      },
+    ],
+    references: [
+      "[1] U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
     ],
   },
   {
     slug: "what-are-the-five-flavors",
-    title: "The Five Flavors in Traditional Wellness",
+    title: "What Are the Five Flavors?",
     description:
-      "A comprehensive guide to the Five Flavors system in traditional Chinese dietary therapy — how each flavor directs energy, which organ systems it influences, and practical ingredient examples for each, from pungent to salty.",
+      "A plain-English guide to the Five Flavors (Wu Wei): pungent, sweet, sour, bitter, and salty as a cook's map for contrast, pairing, and balancing a plate.",
     eyebrow: "Basics & Concepts",
     intro:
-      "In traditional Chinese dietary therapy, the flavor of a food or herb is not just a description of how it tastes on the tongue—it is an indicator of its energetic action in the body. The 'Five Flavors' (五味, Wǔ Wèi) system categorizes ingredients based on how they direct energy and influence specific organ systems. The five traditional flavors are Pungent (Spicy), Sweet, Sour, Bitter, and Salty. A balanced diet is traditionally thought to include a harmony of all five.",
+      "In traditional Chinese food writing, the \"Five Flavors\" (五味, Wǔ Wèi) are a simple way to organize taste: pungent (辛), sweet (甘), sour (酸), bitter (苦), and salty (咸). The set appears in classical sources and later kitchen commentaries as a cook's map for building contrast, pacing a meal, and pairing ingredients. Think of it as a tasting framework: each flavor has a typical \"direction\" in the mouth and in a dish, and cooks use that motion to balance a table of foods.",
     sections: [
       {
-        title: "Beyond Just Taste",
-        paragraphs: [
-          "In traditional Chinese dietary therapy, the flavor of a food or herb is not just a description of how it tastes on the tongue—it is an indicator of its energetic action in the body. The 'Five Flavors' (五味, Wǔ Wèi) system categorizes ingredients based on how they direct energy and influence specific organ systems.",
-          "The five traditional flavors are Pungent (Spicy), Sweet, Sour, Bitter, and Salty. A balanced diet is traditionally thought to include a harmony of all five. Each flavor has a specific direction, action, and organ association — and understanding these relationships helps make sense of why certain ingredients are paired together in traditional recipes.",
-        ],
-      },
-      {
-        title: "1. Pungent (Acrid / Spicy)",
-        paragraphs: [
-          "Pungent flavors are the most outwardly moving of the five. They disperse, promote circulation, and push energy outward and upward — which is why they are so often used at the onset of a chill or to break up stagnant, stuck sensations.",
-        ],
+        title: "The five-flavor framework, in plain kitchen terms",
+        paragraphs: [],
         bullets: [
-          "Action: Disperses, moves, and promotes circulation.",
-          "Direction: Moves energy outward and upward.",
-          "Organ Association: Lungs and Large Intestine.",
-          "Examples: Fresh ginger, scallions, mint, black pepper.",
-          "Traditional Use: Often used to induce sweating and push out external stressors (like the onset of a cold) or to break up stagnant energy.",
+          "Pungent (acrid/spicy, 辛): bright, volatile, and outward—ginger, scallion, white pepper. It wakes up the nose and fans out quickly.",
+          "Sweet (甘): round, soft, and centering—rice, winter squash, jujube (red dates). It smooths edges and ties elements together.",
+          "Sour (酸): gathering and tightening—vinegar, citrus, pickled plum. It pulls flavors inward and sharpens the finish.",
+          "Bitter (苦): clearing and downward—tea, bitter melon, dark caramelization. It reins in richness and resets the palate.",
+          "Salty (咸): deep and settling—salt, soy sauce, seaweed. It grounds a dish and carries savor.",
         ],
       },
       {
-        title: "2. Sweet",
-        paragraphs: [
-          "Sweet is the most foundational and nourishing flavor in the traditional diet. Unlike the sugary sweets of modern processed food, traditional sweet refers to the mild, grounding sweetness found in grains, root vegetables, and dried fruits — foods that build and sustain energy over time.",
-        ],
+        title: "A kitchen-language map: motion, focus, and pairing",
+        paragraphs: [],
         bullets: [
-          "Action: Tonifies, harmonizes, and relaxes.",
-          "Direction: Slows down and centers energy.",
-          "Organ Association: Spleen and Stomach.",
-          "Examples: Jujube (red date), goji berry, rice, sweet potato.",
-          "Traditional Use: Used to build energy (Qi), nourish the body, and soothe tension. It is the most common flavor in a traditional diet.",
+          "Pungent disperses: volatile aromas lift and spread—use to open a dish or wake a mild base.",
+          "Sweet centers: gentle sweetness rounds corners—use to connect ingredients into one voice.",
+          "Sour gathers: acids pull flavors tight—use to focus and cut through richness.",
+          "Bitter descends: bitterness reins in excess—use to dry, clear, or finish a course.",
+          "Salty settles: salt deepens and anchors—use to carry \"savory\" and define edges. Start volatile (pungent), build body (sweet + salty), adjust edges (sour), and apply a quiet brake (bitter).",
         ],
       },
       {
-        title: "3. Sour",
-        paragraphs: [
-          "Sour flavors have a gathering, astringent quality — they move energy inward and help the body retain what it needs. This makes them particularly useful when fluids or energy are being lost too freely.",
-        ],
+        title: "Pantry examples you can actually taste",
+        paragraphs: [],
         bullets: [
-          "Action: Astringes, gathers, and contains.",
-          "Direction: Moves energy inward.",
-          "Organ Association: Liver and Gallbladder.",
-          "Examples: Schisandra berry, lemon, vinegar, fermented foods.",
-          "Traditional Use: Used to prevent the leakage of fluids (like excessive sweating) and to gently support digestion.",
+          "Pungent (辛): slice fresh ginger; smash scallion whites with salt; crack white pepper over hot oil and inhale.",
+          "Sweet (甘): taste warm plain rice; chew steamed sweet potato; steep a few jujubes in hot water and sip.",
+          "Sour (酸): splash rice vinegar into a neutral broth; squeeze lemon over blanched greens; nibble a pickled mustard stem.",
+          "Bitter (苦): sip strong green tea; bite a sliver of charred broccoli stem; taste 90% cocoa.",
+          "Salty (咸): dissolve sea salt in warm water and taste; try a drop of soy sauce on plain tofu; crunch roasted seaweed.",
         ],
       },
       {
-        title: "4. Bitter",
-        paragraphs: [
-          "Bitter is the most clearing and downward-moving flavor. It is not meant to be pleasant in large amounts — its role is to cool, drain, and dry what is excessive. Bitter ingredients often appear in cooling teas and formulas designed to address heat or dampness.",
-        ],
+        title: "How cooking changes the five voices",
+        paragraphs: [],
         bullets: [
-          "Action: Clears heat, drains downward, and dries dampness.",
-          "Direction: Moves energy downward.",
-          "Organ Association: Heart and Small Intestine.",
-          "Examples: Reishi mushroom, dandelion, bitter melon, coffee.",
-          "Traditional Use: Used to cool an overheated body, calm a restless mind, or support the elimination of sluggish fluids.",
+          "Heat and time: slow roasting converts surface sugars to dark bitters; quick blanching softens bitter edges in greens.",
+          "Moisture: steaming keeps sweetness pure; dry-frying concentrates saltiness and brings nutty bitters.",
+          "Fermentation: brining and culturing steer foods toward salty-and-sour with new aromatics.",
+          "Oil: stir-frying blossoms pungent aromatics; deep-frying adds a toasty bitter note.",
+          "Cutting: fine mince or smash (garlic, ginger, scallion) increases pungent contact; larger cuts mute volatility and tilt toward sweet.",
         ],
       },
       {
-        title: "5. Salty",
-        paragraphs: [
-          "Salty is the deepest and most inward-moving flavor. It softens what is hard, purges downward, and is closely tied to the Kidney system — the body's deepest reservoir of energy.",
-        ],
+        title: "Spotlight techniques and balancing",
+        paragraphs: [],
         bullets: [
-          "Action: Softens hardness and purges downward.",
-          "Direction: Moves energy downward and inward.",
-          "Organ Association: Kidneys and Bladder.",
-          "Examples: Seaweed, salt, miso, certain shellfish.",
-          "Traditional Use: Used to soften tight, knotted areas and to support healthy elimination.",
+          "Pungent (辛): bloom aromatics in hot oil or add fresh at the end; pair with a sweet base (rice, squash) so it doesn't dominate.",
+          "Sweet (甘): steam, simmer, or gently braise; edge with sour or bitter to avoid cloying.",
+          "Sour (酸): splash at the end or quick pickle; soften with sweet or a little fat.",
+          "Bitter (苦): controlled charring, brief steep, blanch then sauté; counter with sweet or salty.",
+          "Salty (咸): season in layers and dissolve into sauces; lift with sour or a touch of pungent.",
         ],
       },
       {
-        title: "Read This Page in Context",
-        paragraphs: [
-          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        title: "Building balance on the plate",
+        paragraphs: [],
+        bullets: [
+          "Base (sweet + salty): steamed rice with light soy, or a root-vegetable soup—this sets the center.",
+          "Accent (pungent): ginger-scallion oil on chicken, white pepper on congee, garlic chive in dumplings.",
+          "Edge (sour): a cucumber quick pickle, black vinegar dipping sauce, or a squeeze of citrus.",
+          "Brake (bitter): tea alongside the meal, a touch of char on greens, or chrysanthemum greens to reset the palate.",
+          "Return (salt in control): season so salt carries savor rather than announces itself; taste and adjust at the end.",
         ],
       },
+      {
+        title: "Nearby ideas: aroma, texture, and umami",
+        paragraphs: [],
+        bullets: [
+          "Aroma vs pungent: pungent points to a sharp, nose-first family (ginger, mustard); not all aromas are pungent—toasted sesame reads nutty-sweet and savory.",
+          "Umami and the five flavors: umami is not one of the five, but it travels with salty carriers (fermented soy, dried seafood, mushrooms) and deepens the salty voice.",
+          "Texture ties it together: crisp accents make sour feel brighter; silky textures can tone down bitter.",
+          "Heat, not only spice: chili heat is a physical burn, often paired with pungent aromatics but distinct from the five-flavor categories.",
+        ],
+      },
+      {
+        title: "Seasonal and regional expressions",
+        paragraphs: [],
+        bullets: [
+          "Northern China: stronger salty and sour notes (salted cabbage, black vinegar), with wheat-based staples carrying sweet roundness.",
+          "Eastern seaboard: delicate sweet-salty seafood dishes with light pungent touches (ginger, scallion) and restrained sourness.",
+          "Southwest: vivid pungent and chili heat layered over sour ferments and a steady salty backbone.",
+          "Season: late-summer tomatoes lend sweet-sour richness; winter greens lean bitter; spring scallions shout pungent.",
+        ],
+      },
+      {
+        title: "Reading classical flavor notes on menus and labels",
+        paragraphs: [],
+        bullets: [
+          "\"Five flavors\" (五味, Wǔ Wèi): the five-part set itself.",
+          "Pungent (辛, xīn): sometimes shown as \"acrid.\"",
+          "Sweet (甘, gān): often \"sweet-mild\" in English notes to signal gentleness.",
+          "Sour (酸, suān): includes pickled and fermented tang.",
+          "Bitter (苦, kǔ): can be literal (tea, bitter greens) or a light char.",
+          "Salty (咸, xián): includes brined and fermented savory depth. Directional phrases—disperse, gather, descend, center—are culinary metaphors, not scientific descriptions.",
+        ],
+      },
+      {
+        title: "Practical tasting exercises",
+        paragraphs: [],
+        bullets: [
+          "One-ingredient, five-voice broccoli: blanch (sweet), roast to char (bitter), finish with soy (salty), hit with rice vinegar (sour), top with ginger oil (pungent).",
+          "Tea as a bitter \"course\": brew green tea strong and sip between bites of a sweet-salty noodle bowl.",
+          "Vinegar ladder: compare black vinegar, rice vinegar, and citrus—all sour, but the aroma and aftertaste differ.",
+          "Ginger three ways: raw matchsticks (sharp pungent), briefly sautéed (rounder pungent-sweet), simmered in broth (mellow, almost sweet).",
+        ],
+      },
+      {
+        title: "Common questions",
+        paragraphs: [
+          "Is \"five flavors\" the same as \"five elements\"? No. \"Five flavors\" (五味) is a taste framework used in traditional food writing. \"Five elements\" (五行) is a separate classical system. Some texts discuss both, but cooks reach for flavors to season food, not to sort cosmology.",
+          "Where does \"umami\" fit if it isn't on the list? Umami is often carried by salty ferments and broths—soy sauce, miso, dried mushrooms, kombu. It deepens the salty voice and doesn't replace any of the five.",
+          "How much of each flavor belongs in a single meal? There is no fixed ratio. Many home tables lean sweet-salty with a small pungent accent, then use sour and a touch of bitter to keep bites lively. The most useful habit is to taste, identify what the dish is saying, and add contrast without shouting.",
+        ],
+      },
+      {
+        title: "About this page",
+        paragraphs: [
+          "This page explains the traditional five-flavor framework as food and flavor vocabulary. It offers kitchen imagery, pantry examples, and technique notes so readers can recognize pungent, sweet, sour, bitter, and salty in everyday cooking and understand how classical terms are used in culinary writing.",
+        ],
+      },
+    ],
+    references: [
+      "[1] Chinese Text Project. Huangdi Neijing (Yellow Emperor's Inner Canon). https://ctext.org/huangdi-neijing",
     ],
   },
   {
@@ -931,56 +1223,119 @@ const rawBasicsArticles: ContentArticle[] = [
   },
   {
     slug: "ginseng-vs-american-ginseng",
-    title: "Asian Ginseng vs. American Ginseng — What's the Difference?",
+    title: "Asian Ginseng vs American Ginseng",
     description:
-      "A plain-English comparison of Asian and American ginseng — their energetic natures, traditional uses, scientific research, and how to choose between them.",
-    eyebrow: "Basics",
+      "A cook's-eye comparison of Asian ginseng (Ren Shen) and American ginseng (Xi Yang Shen): warm vs cool, flavor, forms, and how each is used in soups, teas, and congee.",
+    eyebrow: "Basics & Concepts",
     intro:
-      "Walk into any herb shop or wellness store, and you will likely find both \"ginseng\" and \"American ginseng\" on the shelves. They look similar, they are both called ginseng, and they are both highly prized tonics. But in traditional Chinese wellness practice, they are considered to be fundamentally different herbs with opposite energetic qualities — and using the wrong one for your constitution can be counterproductive.",
+      "Asian ginseng (Panax ginseng) and American ginseng (Panax quinquefolius) are close cousins with noticeably different kitchen personalities. In traditional Chinese food writing, Asian ginseng (Ren Shen) is described as warm and robust, often used in richer stews or steamed into \"red ginseng.\" American ginseng (Xi Yang Shen) is described as cool and gently refreshing, favored in lighter soups and sipping infusions. When a recipe leans warming, cooks reach for Asian ginseng; when the menu asks for a cooler, cleaner line, American ginseng steps in.",
     sections: [
       {
-        title: "At a Glance",
+        title: "Quick kitchen comparison",
         paragraphs: [],
         bullets: [
-          "Latin Name: Asian Ginseng is Panax ginseng C.A.Mey.; American Ginseng is Panax quinquefolius L.",
-          "Pinyin: Ren Shen (人参) vs. Xi Yang Shen (西洋参)",
-          "Traditional Nature: Warm vs. Cool",
-          "Primary Action: Strongly tonifies Qi and Yang vs. tonifies Qi and Yin, clears Heat",
-          "Best For: Cold, deficient, low-energy constitutions vs. warm, dry, or Yin-deficient constitutions",
-          "Caution: Not for \"Heat\" conditions vs. not for \"Cold\" conditions",
+          "Traditional label in food writing: Asian ginseng \"warm,\" fortifying; American ginseng \"cool,\" moistening—menu direction warming vs cooling (shorthand from traditional culinary language, not chemistry).",
+          "Flavor and aroma: Asian ginseng earthy, slightly bitter with sweet aftertaste, fuller body; American ginseng gentle bitterness, clean sweetness, lighter body.",
+          "Common forms: Asian ginseng whole roots, white (sun-dried) or red (steamed); American ginseng slender roots, often sliced, pale cream. Red ginseng brings a darker, toffee-like undertone.",
+          "Usual pairings: Asian ginseng with jujube, glutinous rice, chicken, ginger; American ginseng with chrysanthemum, pear, lean poultry, lily bulb.",
+          "Typical use at home: Asian ginseng in double-boiled tonic soups, congee, long brews; American ginseng in summer infusions, light soups, daily sips.",
         ],
       },
       {
-        title: "What the Science Says",
+        title: "One plant family, two regional traditions",
         paragraphs: [
-          "Both Asian and American ginseng contain ginsenosides — a family of steroidal saponins unique to the Panax genus. However, the specific profile of ginsenosides differs significantly between the two species, which is believed to account for their different traditional properties.",
-          "Asian ginseng (Panax ginseng) is richer in ginsenosides Rg1 and Rb1, which have been studied for their stimulating, adaptogenic, and Yang-supporting properties. American ginseng (Panax quinquefolius) has a different ginsenoside profile, with research suggesting it may have more cooling, Yin-supporting, and blood glucose-modulating properties.",
-          "The NCCIH notes that both species have been studied for their potential to support cognitive function, immune response, and energy levels, though more rigorous human clinical trials are needed.",
+          "Both roots come from the Panax genus—Asian ginseng is Panax ginseng; American ginseng is Panax quinquefolius. In Chinese-language food and herb writing, these appear as Ren Shen (人参) for Asian ginseng and Xi Yang Shen (西洋参) for American ginseng, literally \"Western Ocean ginseng,\" a name that signals its New World origin. Panax ginseng is native to Northeast Asia; Panax quinquefolius is native to North America and found its way back to Chinese kitchens through trade. As cooks adopted it, they kept the ginseng family name but consistently described its profile as cooler in tone.",
         ],
       },
       {
-        title: "The Traditional Distinction",
-        paragraphs: [
-          "Asian Ginseng (Ren Shen) is warm and powerfully tonifying. It is the premier herb for \"Greatly Tonifying the Original Qi\" — used for profound fatigue, cold extremities, a pale complexion, and a weak, slow pulse. It is the herb of choice for a cold, deficient constitution. Because it is warm and stimulating, it is not appropriate for individuals who tend to run hot, have night sweats, or feel restless and irritable.",
-          "American Ginseng (Xi Yang Shen) is cool and moistening. It \"Tonifies Qi and Yin and Clears Heat.\" It is the better choice for individuals who are fatigued but also feel warm, have a dry mouth and throat, or tend toward anxiety and restlessness. It is often described as a \"gentler\" ginseng that is suitable for a wider range of constitutions.",
-        ],
-      },
-      {
-        title: "How to Choose",
-        paragraphs: [
-          "Always seek guidance from a qualified professional before starting any new herbal supplement, particularly if you are managing a health situation or taking other products.",
-        ],
+        title: "Taste, aroma, and warm/cool as kitchen shorthand",
+        paragraphs: [],
         bullets: [
-          "If you tend to feel cold, tired, and depleted, with low motivation and a pale complexion → Asian Ginseng may be more appropriate.",
-          "If you tend to feel tired but warm, with a dry mouth, night sweats, or anxiety → American Ginseng may be more appropriate.",
-          "If you are unsure, American Ginseng is generally considered the safer starting point, as its cooler nature is less likely to cause overstimulation.",
+          "Asian ginseng (Ren Shen) is called warm: on the tongue it leans earthy and slightly bitter with a lingering, rounded sweetness; long simmering thickens the body and brings a plush backbone to soups.",
+          "American ginseng (Xi Yang Shen) is called cool: it tastes more delicate—mildly bitter with a transparent sweetness that feels refreshing; quick infusions preserve that clean line.",
+        ],
+      },
+      {
+        title: "Forms, grades, and processing: what you'll see in shops",
+        paragraphs: [],
+        bullets: [
+          "White vs red ginseng (Asian): white is simply dried; red is the same root steamed and then dried, which darkens the root, intensifies sweetness, and layers in a caramel-like note.",
+          "Whole roots vs slices: whole roots can be simmered whole in chicken soups; slices brew faster and more evenly for daily decoctions, teas, or congee.",
+          "American ginseng forms: often thin, ivory-colored slices or small roots, ready for quick steeping.",
+          "Powdered forms: convenient for congee or warm drinks; powders disperse quickly but can muddy a clear broth.",
+          "Storage: keep in an airtight container away from sunlight, moisture, and strongly perfumed spices.",
+        ],
+      },
+      {
+        title: "How cooks use them: teas, soups, and porridges",
+        paragraphs: [],
+        bullets: [
+          "Clear sips (daily infusions): Asian ginseng—3-5 thin slices per cup, simmered gently 15-20 minutes with a jujube or goji; American ginseng—4-6 slices steeped in hot water 8-12 minutes, optionally with chrysanthemum petals.",
+          "Double-boiled soups: Asian ginseng with chicken, jujubes, ginger, double-boiled 2-3 hours until golden and plush; American ginseng with lean poultry, lily bulb, and dried pear for a clear, delicate broth.",
+          "Congee: Asian ginseng simmered with rice until creamy, finished with Shaoxing wine; American ginseng added near the end to preserve a crisp finish.",
+          "Sweets and snacks: red ginseng candied in rock sugar syrup; American ginseng jelly set with agar, paired with fruit.",
+        ],
+      },
+      {
+        title: "Preparation variables that change the profile",
+        paragraphs: [],
+        bullets: [
+          "Slice thickness: thinner slices extract faster and skew brighter; thicker slices yield a slower, rounder broth. Asian ginseng in soups is often thicker; American ginseng in infusions thinner.",
+          "Soaking vs direct heat: a brief 10-minute pre-soak softens slices and can moderate early bitterness; direct simmering gives a bolder first pour.",
+          "Vessel choice: a double-boiler avoids a hard boil and protects subtle aromatics; clay or ceramic pots help maintain gentle, even heat.",
+          "Steaming into red ginseng: steaming transforms white into red, building sweetness and a darker hue (typically a supplier-side process).",
+          "Re-steeps: especially with American ginseng, the second pour can be the sweetest—top up and rest another 10 minutes.",
+          "Companion ingredients: ginger, date, and sticky rice pull Asian ginseng toward warmth; pear, chrysanthemum, and lily bulb pull American ginseng toward cool clarity.",
+        ],
+      },
+      {
+        title: "Choosing for a recipe: flavor direction and menu context",
+        paragraphs: [],
+        bullets: [
+          "Cooler, bright courses: for a summer lunch or a menu already featuring warming spices, American ginseng keeps the note crisp.",
+          "Cozy, slow courses: for a winter stew, braised poultry, or anchoring congee, Asian ginseng delivers a sturdier base; red ginseng leans dessert-friendly when candied.",
+          "Mixed menus: place either ginseng to balance the whole—American ginseng in a chilled infusion to offset lamb, Asian ginseng in the soup course to underline warmth.",
+          "Tea service: American ginseng is common for its clean finish and quick steep; Asian ginseng teas are brewed longer and served in small cups alongside rich snacks.",
+        ],
+      },
+      {
+        title: "Common mix-ups and how to read labels",
+        paragraphs: [],
+        bullets: [
+          "\"Ginseng\" without a qualifier: in East Asian shops it usually means Panax ginseng (Asian); if the label says Ren Shen (人参), expect Asian; Xi Yang Shen (西洋参) means American.",
+          "Red vs white: \"red ginseng\" refers to steamed Asian ginseng, not a color variety of American ginseng.",
+          "Not all \"ginsengs\" are Panax: \"Siberian ginseng\" is not a Panax species; look for the Panax genus on the label.",
+          "Whole root photos: a dramatic anthropomorphic root often signals Asian ginseng; American ginseng products commonly show slender, paler roots.",
+          "Origin notes: Asian ginseng may note Korea, Jilin, or Changbai; American ginseng may note Wisconsin or Canadian origin.",
+        ],
+      },
+      {
+        title: "Shared starting point: what unites both roots",
+        paragraphs: [],
+        bullets: [
+          "Signature bittersweet line: light bitterness opens the palate and a drift of sweetness closes it, friendly to both savory and sweet formats.",
+          "Compatibility with slow heat: gentle, extended heat coaxes depth without blowing out the aroma.",
+          "Flexibility across courses: teas, soups, porridges, candies, even jellies.",
+          "Small-format power: a few slices can steer the feeling of a pot—handy for setting a warm or cool tone without rewriting a recipe.",
+        ],
+      },
+      {
+        title: "Common questions",
+        paragraphs: [
+          "What does \"red ginseng\" mean in recipes? It means Asian ginseng that has been steamed and dried, giving a deeper color and a richer, caramel-leaning tone. Red ginseng behaves like a warmer, fuller version of white (sun-dried) Asian ginseng.",
+          "Can I swap Asian ginseng and American ginseng one-for-one? You can, but expect the dish to shift. Swapping Asian ginseng into a recipe written for American ginseng makes the result warmer and rounder; the other way lightens and freshens it. Start by replacing only half and taste.",
+          "How many times can I re-steep ginseng slices? Two to three times is common. The first pour carries the most shape; the second often reveals an easy sweetness; the third is delicate and best for sipping on its own.",
+        ],
+      },
+      {
+        title: "About this page",
+        paragraphs: [
+          "This comparison focuses on flavor, form, preparation, and traditional kitchen vocabulary found in Chinese food writing. It explains how Asian and American ginseng are described in that context and how cooks use them in teas, soups, porridges, and sweets, giving English-language readers a clear way to read labels, choose formats, and understand the warm/cool shorthand.",
         ],
       },
     ],
     references: [
-      "[1] NCCIH. Asian Ginseng. https://www.nccih.nih.gov/health/asian-ginseng",
-      "[2] NCCIH. American Ginseng. https://www.nccih.nih.gov/health/american-ginseng",
-      "[3] MSKCC. Ginseng. https://www.mskcc.org/cancer-care/integrative-medicine/herbs/ginseng",
+      "[1] Chinese Text Project. Huangdi Neijing (Yellow Emperor's Inner Canon). https://ctext.org/huangdi-neijing",
     ],
   },
   {
