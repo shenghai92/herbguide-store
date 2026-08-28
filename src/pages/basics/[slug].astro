@@ -450,6 +450,22 @@ const basicsFaqSchema = {
           </>
         )}
       </article>
+      {article.references && article.references.length > 0 && (
+        <article class="prose-block card">
+          <p class="eyebrow">References</p>
+          <h2>References</h2>
+          {article.references.map((ref) => {
+            const urlMatch = ref.match(/(https?:\/\/[^\s]+)/);
+            const url = urlMatch ? urlMatch[1] : null;
+            const label = url ? ref.replace(url, "").trim() : ref;
+            return url ? (
+              <p>{label} <a href={url} target="_blank" rel="noopener noreferrer">{url}</a></p>
+            ) : (
+              <p>{ref}</p>
+            );
+          })}
+        </article>
+      )}
       {relatedTopics.length > 0 && (
         <article class="prose-block card">
           <p class="eyebrow">Topic hubs</p>

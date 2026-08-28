@@ -13,27 +13,27 @@ const rawBasicsCards = [
   {
     slug: "what-is-traditional-herb-theory",
     title: "What Is Traditional Herb Theory?",
-    text: "A clear first look at this traditional framework without the jargon overload.",
+    text: "A kitchen reader's guide to warming, cooling, nature, flavor, movement, and pairing vocabulary in traditional herb writing.",
   },
   {
     slug: "what-does-qi-mean",
     title: "What Does Qi Mean?",
-    text: "A plain-English explanation for readers searching what qi means and how herb pages use the term.",
+    text: "A kitchen reader's guide to qi—how it describes movement, warmth, direction, and flow in recipes and herb notes.",
   },
   {
     slug: "warming-vs-cooling-foods",
     title: "Warming vs Cooling Foods",
-    text: "A practical guide for readers searching warming foods, cooling foods, and everyday ingredient examples.",
+    text: "A plain-English guide to warming and cooling foods, with ingredient examples, cooking-method cues, and seasonal menu notes.",
   },
   {
     slug: "what-is-dampness",
     title: "What Is Dampness?",
-    text: "An accessible explanation for readers searching what dampness means in traditional herb and food writing.",
+    text: "A plain-English guide to Dampness in traditional food writing—heaviness, stickiness, and the aromatics and methods that balance it.",
   },
   {
     slug: "what-is-yin-and-yang",
     title: "What Is Yin and Yang?",
-    text: "A plain-English guide to one of the most famous but most flattened traditional ideas.",
+    text: "A kitchen reading of Yin and Yang as paired qualities—cool and warm, soft and crisp, still and lively—in traditional food writing.",
   },
   {
     slug: "what-does-blood-mean",

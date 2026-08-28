@@ -30,290 +30,578 @@ const rawBasicsArticles: ContentArticle[] = [
     slug: "what-is-traditional-herb-theory",
     title: "What Is Traditional Herb Theory?",
     description:
-      "A clear first look at traditional herb theory in plain American English, with practical explanations and clear boundaries.",
-    eyebrow: "Basics",
+      "A kitchen reader's guide to traditional herb theory: what warming, cooling, nature, flavor, movement, and pairing mean in plain English, with practical examples.",
+    eyebrow: "Basics & Concepts",
     intro:
-      "Traditional herb theory is a long-running body of ideas about the body, food, herbs, climate, rhythm, and patterns. Here, it is presented as a traditional framework that helps readers understand herb language and food traditions, not as individualized guidance.",
+      "Traditional herb theory is a centuries-old way of talking about foods and herbs using ideas like warming and cooling, seasonal rhythm, aroma, and movement. It reads like a map for cooks: flavor, nature, and pairing rules guide how ingredients are combined. On HerbGuide, these phrases are presented as cultural and culinary language from classical sources, not as modern labels or promises. Learn the vocabulary and you'll recognize why certain soups, teas, and pantry habits appear across East Asian food writing.",
     sections: [
       {
-        title: "A traditional framework, not a modern labeling system",
+        title: "Short answer: what this framework means in plain English",
         paragraphs: [
-          "This framework uses its own vocabulary to describe how the body functions, how climate and season are understood, and how herbs and foods are traditionally categorized.",
-          "That vocabulary does not map neatly onto modern lab testing or personal labeling. A reader can still learn a lot from it, but it should be read as part of a historical and cultural system.",
+          "Traditional herb theory is a shared vocabulary used in classical Chinese herb and food writing. It sorts ingredients by \"nature\" (warming, cooling, neutral), flavor (acrid, sweet, bitter, sour, salty), aroma, and the way an ingredient is said to \"move\" in the body according to that tradition. It also considers season, climate, and cooking methods. Think of it as a kitchen atlas: it helps explain why ginger is paired with fish, why chrysanthemum shows up as a light infusion, and why some broths are called \"warming\" on chilly days. The phrases come from an old literary system, recorded and commented on for many centuries, including early ideas seen in classics such as the Huangdi Neijing.",
         ],
       },
       {
-        title: "Why readers still care about this framework today",
-        paragraphs: [
-          "Many English-language readers first meet this framework through tea, soups, herbal products, acupuncture, or family food traditions.",
-          "Learning the basics makes herb pages easier to understand because terms like qi, dampness, warming, cooling, and channel entry stop feeling abstract.",
-        ],
+        title: "Where you'll see this wording in everyday food writing",
+        paragraphs: [],
         bullets: [
-          "It helps explain why the same ingredient may be described differently in different traditions.",
-          "It gives cultural context for herb names, soup pairings, and pantry habits.",
-          "It creates a clearer path into Chinese classics and herb profiles.",
+          "Tea counters and grocers: short tags like \"warming,\" \"aromatic,\" or \"clears heat\" appear on jars and menus; read them as flavor-nature notes rather than lab claims.",
+          "Cookbooks and family recipes: a ginger-and-scallion porridge for windy, damp weather, or a light chrysanthemum infusion poured with afternoon snacks.",
+          "Herb dictionaries and materia medica texts: these list natures, flavors, and pairing notes; HerbGuide adapts that structure into clear, food-first pages.",
+          "Restaurant menus: soups described as \"warming,\" teas as \"cooling\"—traditional shorthand for mouthfeel, seasonal appropriateness, and expected pairing.",
+          "Pantry talk: a household keeps dried orange peel, poria, or astragalus on hand \"for damp weather\" or \"to strengthen soups.\"",
         ],
       },
       {
-        title: "How HerbGuide uses the term",
-        paragraphs: [
-          "HerbGuide uses this term as an educational frame. We explain how an herb is traditionally described, what those labels mean in plain English, and where caution is needed.",
-          "We do not present these traditional phrases as direct promises, fixed plans, or instructions for any one person.",
+        title: "The core vocabulary, translated for the kitchen",
+        paragraphs: [],
+        bullets: [
+          "Qi (often glossed as \"vital breath\") / qi-tonifying: buoyant, steadying; builds the base of a broth or porridge. Typical form: dried roots and beans (astragalus). Pairings: rice, chicken, jujube, mild aromatics. Example: long-simmered chicken-astragalus broth.",
+          "Warming (hot nature): spicy, cozy; suits cold, windy days. Typical form: fresh rhizomes and spices (ginger, cinnamon twig). Pairings: fish, scallion, brown sugar, rice wine. Example: fresh ginger with steamed fish.",
+          "Cooling (cold nature): light, refreshing; suits hot, stuffy afternoons. Typical form: leaves and flowers (chrysanthemum, mint). Pairings: goji leaf, mulberry leaf, light honey. Example: chrysanthemum infusion with snacks.",
+          "Dispersing (release exterior): vents outward; fragrances that \"open.\" Typical form: pungent herbs (mint, perilla, scallion greens). Pairings: congee, tofu, light broths. Example: mint-scallion congee on breezy days.",
+          "Transform dampness: cuts heaviness; dries and brightens. Typical form: fungi and peels (poria, aged tangerine peel). Pairings: grains, beans, ginger. Example: poria-coix congee on muggy days.",
         ],
       },
+      {
+        title: "How cooks classify herbs and foods in this framework",
+        paragraphs: [],
+        bullets: [
+          "Nature (xing): a warming-cooling scale plus \"neutral.\" This is not thermometer temperature; it is a culinary feel. Warming ingredients often carry spice or deep aroma; cooling ones feel light, crisp, or gently bitter.",
+          "Flavor (wei): acrid, sweet, bitter, sour, salty. Each flavor is linked to a direction and cooking role: acrid moves outward and vents, sweet builds body and harmonizes, bitter dries and focuses, sour gathers, salty softens and deepens.",
+          "Aroma and movement: fragrant leaves (mint) are said to move outward and upward; aged tangerine peel is said to move downward and settle; ginger warms and disperses.",
+          "Season and climate: a cooling flower infusion in summer, a warming stew in winter, barley and dried peel in rainy stretches—this is seasonal kitchen rhythm.",
+          "Processing and cooking (pao zhi): roasting, honey-frying, wine-washing, and long simmering shift an ingredient's nature and movement. In kitchen terms, toasting spices or slow-cooking bones changes aroma and mouthfeel.",
+        ],
+      },
+      {
+        title: "Reading labels and classic phrases without overreading",
+        paragraphs: [],
+        bullets: [
+          "\"Enters the Lung/Spleen channel\" and similar lines signal where a flavor's action is imagined to travel. For kitchen reading, describe them as sensory pointers: \"Lung\" phrases often pair with aromatic leaves (mint, perilla); \"Spleen\" phrases with grains, roots, and gentle aromatics that build congee and broth.",
+          "\"Resolves the exterior,\" \"releases wind,\" \"clears heat\" are weather metaphors—guidance on when a tea or soup feels suitable: breezy/damp days vs. still/hot afternoons.",
+          "\"Tonifies,\" \"supplements,\" \"harmonizes\" are structure words: the ingredient builds body, ties flavors together, or gives a steady backbone.",
+          "\"Contraindicated\" or \"use with caution\" appears in traditional lists. HerbGuide does not translate these into personal instructions; in kitchen terms it often means the ingredient is potent, strongly flavored, or not typically used in certain seasons.",
+        ],
+      },
+      {
+        title: "Example: one ingredient, several descriptions (fresh ginger)",
+        paragraphs: [],
+        bullets: [
+          "Nature and flavor: classified as acrid and warming; ginger brings spice and warmth in the pan.",
+          "Movement: said to disperse outward—a quick, rising aroma that opens the nose and livens a bland base.",
+          "Part and form: fresh ginger warms more quickly and spreads; dried ginger (gan jiang) is framed as deeper, with more anchored heat in long stews.",
+          "Pairings: ginger + scallion for seafood; ginger + jujube in sweet broths; ginger + aged tangerine peel cuts greasy textures.",
+        ],
+      },
+      {
+        title: "Nearby terms and how they differ",
+        paragraphs: [],
+        bullets: [
+          "Materia medica: a traditional catalog of herbs with nature, flavor, movement, and classic pairings. HerbGuide's Herb Library takes inspiration from that layout but uses plain cooking language.",
+          "Decoction vs. infusion: a decoction is a long simmer (firm roots, barks, mushrooms); an infusion is a short steep (flowers and leaves). The method is part of the effect—mouthfeel, aroma, extraction.",
+          "Pao zhi (processing): roasting, toasting with bran, or honey-frying shift aroma and perceived nature—like how toasting fennel softens its sharpness.",
+          "Channels and zang-fu: organ names and \"channels\" are historical markers. For cooks, describe them as flavor pathways: leaf aromatics are \"up and out,\" roots and grains are \"down and in.\"",
+          "Warming vs. hot, cooling vs. cold: \"warm\" and \"cool\" are gentle; \"hot\" and \"cold\" are strong. A warm ingredient nudges; a hot one commands.",
+        ],
+      },
+      {
+        title: "What readers often miss on first pass",
+        paragraphs: [],
+        bullets: [
+          "It's descriptive, not prescriptive. The framework names patterns it sees in kitchens and seasons; it does not assign modern labels to people.",
+          "Context rules. A \"cooling\" ingredient brewed lightly in spring is not the same as a strong, bitter decoction in high summer. Dose, part, and method matter.",
+          "Pairings make the page. A single herb rarely stands alone in classical writing; you learn the most by watching how it plays with grains, meats, and aromatics.",
+          "Translations carry imagery. Words like \"dampness,\" \"wind,\" and \"phlegm\" are traditional metaphors pointing to texture and atmosphere: heavy vs. light, stuck vs. moving, muggy vs. crisp.",
+        ],
+      },
+      {
+        title: "Common questions",
+        paragraphs: [
+          "Is this the same as nutrition science or modern spice charts? No. Traditional herb theory is a literary and culinary system. It sorts ingredients by nature, flavor, movement, and season, and uses metaphors like wind and dampness. Nutrition charts and modern lab tools answer different questions; use both side by side.",
+          "Do I need Chinese language skills to use HerbGuide pages? Not at all. We keep traditional names so you can recognize labels in shops, then give clear English explanations and kitchen examples.",
+          "Why do some entries say an herb \"enters the Liver channel\" or similar? That phrase comes from classical mapping. HerbGuide keeps the wording for cultural literacy, then adds a plain-English cue such as \"focuses inward,\" \"opens outward,\" or \"builds the base.\"",
+        ],
+      },
+      {
+        title: "About this page",
+        paragraphs: [
+          "This page explains how traditional herb vocabulary works as food writing: flavor, nature, movement, season, processing, and pairings. It is meant for cooks and readers who want to read herb names, soup notes, and infusion tags with clear, kitchen-centered translations, and it points you to pantry examples so the terms become concrete.",
+        ],
+      },
+    ],
+    references: [
+      "[1] Chinese Text Project. Huangdi Neijing (Yellow Emperor's Inner Canon). https://ctext.org/huangdi-neijing",
     ],
   },
   {
     slug: "what-does-qi-mean",
     title: "What Does Qi Mean?",
     description:
-      "A comprehensive guide to the traditional concept of Qi — what it means, its five core functions, signs of imbalance, and practical approaches to supporting Qi through diet and lifestyle.",
+      "A kitchen reader's guide to the traditional word qi: how it describes movement, warmth, direction, and flow in food and herb writing, with sensory examples.",
     eyebrow: "Basics & Concepts",
     intro:
-      "In traditional Chinese wellness frameworks, 'Qi' (气, pronounced 'chee') is arguably the most fundamental concept. It is commonly translated as 'vital energy' or 'life force,' but these translations often fall short. A more accurate way to understand Qi is as the functional activity of the body. It is the invisible force that drives movement, transformation, and protection. If the body were a machine, the organs would be the hardware, the blood would be the fuel, and Qi would be the electricity or the spark that makes everything run.",
+      "In traditional Chinese food and herb writing, qi (气, pronounced \"chee\") is a catch-all word for life's activity—movement, warmth, and the way things get done. Think of qi as the \"going\" in cooking and in the body's everyday work: steam rising from a pot, appetite waking with aroma, circulation quickened by a walk. Writers use qi to talk about direction (up, down), vigor, and flow—useful cues for reading soups, teas, and pantry notes in that tradition.",
     sections: [
       {
-        title: "The Concept of Qi",
+        title: "Qi in plain English",
         paragraphs: [
-          "In traditional Chinese wellness frameworks, 'Qi' (气, pronounced 'chee') is arguably the most fundamental concept. It is commonly translated as 'vital energy' or 'life force,' but these translations often fall short. A more accurate way to understand Qi is as the functional activity of the body. It is the invisible force that drives movement, transformation, and protection.",
-          "If the body were a machine, the organs would be the hardware, the blood would be the fuel, and Qi would be the electricity or the spark that makes everything run. This analogy helps ground an otherwise abstract concept in something tangible — Qi is not a mystical substance, but rather the functional spark that animates every physiological process.",
+          "Qi is not a single substance you can scoop up. It's a way of speaking about function and motion: what moves, what warms, what transforms. In kitchen language, qi shows up when a recipe aims to \"get things moving,\" \"kindle the middle,\" or \"gather and hold.\" The word also names direction—qi can rise, descend, enter, or disperse—so you'll see it used to explain why an herb peel brightens heaviness or why a steamed porridge feels steadying.",
         ],
       },
       {
-        title: "The Functions of Qi",
+        title: "Where you'll see the word: menus, teas, and herb notes",
+        paragraphs: [],
+        bullets: [
+          "Soup and congee notes: \"bu qi\" (to build qi) appears beside mild, cooked, sweet-leaning bowls—rice porridge with jujube and a sliver of ginseng.",
+          "Tea blurbs: aged tangerine peel with ripe pu-erh may be praised for \"moving qi,\" a way to say it lightens stuffiness with citrusy lift.",
+          "Pantry jars: \"huang qi\" (Astragalus) literally contains the character for qi; labels often place it in a \"supporting qi\" category.",
+          "Wok talk: Cantonese \"wok hei\" (breath of the wok) uses the same 气 character—a lively sear, rising fragrance, a dish that feels animated.",
+          "Seasonal advice: older notes mention \"wei qi\" (often glossed as the outward, protective aspect), especially around drafts, wind, and feeling snug against chill.",
+        ],
+      },
+      {
+        title: "A plain-English map of qi words",
+        paragraphs: [],
+        bullets: [
+          "Movement: \"move qi\" or \"soothe qi\" points to easing stuckness—bright aroma, gentle bitterness, lightness. Citrus peels, perilla leaf, hawthorn, and malt teas are classic.",
+          "Warmth: \"warming qi\" or \"kindling the middle\" speaks to cozy heat and digestive fire. Fresh ginger, scallion whites, and long-simmered broths belong here.",
+          "Holding: \"secure qi\" or \"gather qi\" turns up with grains and roots that feel steadying—millet, glutinous rice, lotus seed, and yam in porridge or stew.",
+          "Transformation: \"transforming qi\" refers to turning one state into another—raw into cooked, damp into light, rough into smooth. Toasting, slow simmering, and gentle roasting are the kitchen's translators.",
+          "Boundary and surface: \"wei qi\" (outer qi) often accompanies talk of pores, wind, and temperature shifts—scarves and soups share the same seasonal page in older writing.",
+        ],
+      },
+      {
+        title: "How writers describe qi in dishes",
+        paragraphs: [],
+        bullets: [
+          "Bu qi (补气): build up steadiness and vigor; gentle nourishment. Typical ingredients: astragalus, jujube, glutinous rice, chicken. Preparation: slow simmer into broth or congee.",
+          "Li qi (理气) / xing qi (行气): set things moving; ease heaviness. Typical ingredients: aged tangerine peel (chen pi), perilla leaf, hawthorn. Preparation: brief infusions, light stir-fries, aperitif-style teas.",
+          "Yi qi sheng jin (益气生津): support activity and replenish fluids. Typical ingredients: American ginseng, ophiopogon, pear. Preparation: lightly sweet teas, poached fruit, double-steeped infusions.",
+          "Jian pi yi qi (健脾益气): strengthen digestion and support activity. Typical ingredients: codonopsis, yam (shan yao), barley. Preparation: gentle soups, barley congee, mild decoctions.",
+          "He qi (和气): harmonize; soothe ups and downs. Typical ingredients: fresh ginger with jujube. Preparation: balanced soups; not too hot, not too cold.",
+        ],
+      },
+      {
+        title: "Nearby terms and how they differ",
+        paragraphs: [],
+        bullets: [
+          "Xue (血, \"blood\"): in kitchen prose, qi moves and xue nourishes; congee strengthened with dates may be introduced as \"enriching xue while supporting qi.\"",
+          "Jin-ye (津液, \"fluids\"): teas labeled \"engender fluids\" often include pears, ophiopogon, or lily bulb; the talk here is about moistening the mouth and smoothing texture.",
+          "Jing (精, \"essence\"): a deeper reserve in traditional vocabulary—met more in tonic wine and long-brew broths; qi is the daily spark, jing is the storehouse.",
+          "Shen (神, \"spirit\" or \"presence\"): clarity and brightness of gaze and manner in older writing; a tea with good shen feels clean and poised.",
+          "Ying qi (营气) and wei qi (卫气): inner and outer aspects of activity—ying with nourishment, wei with the surface and season; mostly seen in commentaries and seasonal guides.",
+        ],
+      },
+      {
+        title: "Sensory handles for qi: what you can taste, see, and do",
+        paragraphs: [],
+        bullets: [
+          "Aroma that lifts: cracked aged tangerine peel gives a light, citrusy, clearing first breath. Recipes that \"move qi\" lean on rising fragrance—perilla, citrus, fresh ginger, toasted barley.",
+          "Warmth that kindles: ginger in oil releases quick, peppery heat; scallion whites perfume the pan. \"Kindle the middle\" is old phrasing for this centered warmth.",
+          "Texture that steadies: milky porridge, lotus seed simmered creamy, yam that holds shape—\"gather and secure\" points to foods that sit kindly and feel anchoring.",
+          "Breath of the wok: high flame, dry-hot metal, and quick tossing create wok hei—seared aroma, lively edges, steam that smells like something just woke up.",
+          "Teaware that shapes feel: clay vs. porcelain can change how a tea opens and how the liquor feels; vessel choice is part of the \"qi\" conversation among tea drinkers.",
+        ],
+      },
+      {
+        title: "Direction matters: up, down, in, out",
+        paragraphs: [],
+        bullets: [
+          "Up: bubbly or aromatic elements that rise—sparing wine, fresh zest, scallion greens—are \"raising.\"",
+          "Down: bitter greens, aged peels, and slow simmering \"descend,\" settling a dish's center of gravity.",
+          "Inward: starchy cores (millet, glutinous rice, lotus seed) draw attention inward and hold shape—\"securing.\"",
+          "Outward: spices that open (ginger, pepper, mustard greens) send a gentle wave out—\"releasing to the exterior.\" A single dish can stage multiple directions, like chicken congee topped with scallion and ginger.",
+        ],
+      },
+      {
+        title: "What readers often miss",
+        paragraphs: [],
+        bullets: [
+          "Qi is more verb than noun—less \"a thing\" than \"what's happening.\" Read it as motion and most passages click.",
+          "Temperature words are relative: \"warm\" and \"cool\" are about felt qualities in the mouth and belly, not thermometer readings.",
+          "Context is regional: Cantonese soup talk, Sichuan spice notes, and northern grain porridges use the same words with different habits behind them.",
+          "Technique carries the message: toasting barley until nutty, simmering bones clear, or steeping peel just long enough all express the qi description as much as the ingredient list.",
+          "Classical sources use broad metaphors: the same 气 character appears in passages about weather, breath, aroma, and action.",
+        ],
+      },
+      {
+        title: "A short path from page to pot",
         paragraphs: [
-          "Traditional theory outlines several specific functions of Qi in the body:",
+          "If you want to practice reading, pick one idea—say, \"move qi\"—and stage it in a simple cup or bowl.",
         ],
         bullets: [
-          "Promoting (Movement): Qi drives the circulation of blood, the movement of food through the digestive tract, and the growth and development of the body.",
-          "Warming: Qi provides the physiological heat necessary to maintain a normal body temperature and support digestion.",
-          "Defending (Wei Qi): A specific type of Qi acts as the body's defensive shield, protecting against external stressors like cold, wind, or dampness.",
-          "Checking (Holding): Qi holds things in their proper place — it keeps blood within the vessels, organs in their proper positions, and regulates sweating and urination.",
-          "Transforming: Qi is responsible for metabolizing food and water into usable energy and blood.",
+          "Tea: steep a strip of aged tangerine peel with a slice of fresh ginger and notice the lift on the first sip.",
+          "Congee: cook rice down until silky; add jujube and a few slices of codonopsis for gentle sweetness and a steadying texture.",
+          "Stir-fry: heat a wok until smoking, add oil, then scallion whites and ginger; breathe the quick bloom—that's the liveliness writers point to.",
         ],
       },
       {
-        title: "Signs of Qi Imbalance",
+        title: "Common questions",
         paragraphs: [
-          "When Qi is out of balance, traditional practitioners often describe it in two main ways:",
-        ],
-        bullets: [
-          "Qi Deficiency: A lack of functional energy. This often manifests as profound fatigue, a weak voice, poor digestion, or a tendency to catch colds easily (weak Wei Qi).",
-          "Qi Stagnation: When energy fails to flow smoothly. This is often associated with feelings of tightness, frustration, irritability, or physical tension, particularly in the chest or digestive area.",
+          "Is qi just \"energy\"? \"Energy\" is a handy starter word, but it can be misleading. In traditional food writing, qi points to functions and directions—how things move, warm, settle, or open. Reading it as action rather than a substance keeps the meaning clear.",
+          "Why do some recipes say a soup \"builds qi\"? It's genre shorthand. \"Builds qi\" signals a gentle, steadying bowl—often warm, mildly sweet, and easy to digest—such as chicken broth with astragalus and jujube, or barley congee with yam. It tells you what to expect in feel and method, not a promise about outcomes.",
+          "Does qi have a flavor? Not exactly, but certain flavors and textures are linked to qi talk: bright aromatics (citrus, perilla) \"move,\" cozy spices (ginger, scallion) \"warm,\" and soft grains (millet, glutinous rice) \"gather.\"",
         ],
       },
       {
-        title: "Supporting Qi Through Diet and Lifestyle",
+        title: "About this page",
         paragraphs: [
-          "Traditional approaches to supporting Qi focus heavily on digestion and rest. The Spleen and Stomach are considered the 'root of post-natal Qi,' meaning they extract energy from food. Therefore, a diet rich in warm, cooked, easily digestible foods (like porridges and soups) is recommended. Herbs like Astragalus (Huang Qi) and Ginseng (Ren Shen) are famously used to support and tonify Qi.",
+          "This page explains the traditional word qi as it appears in Chinese-influenced food and herb writing. It uses plain English, kitchen imagery, and sensory examples—aroma, warmth, texture, and direction—so readers can navigate recipes, tea notes, and pantry labels without specialized jargon.",
         ],
       },
-      {
-        title: "Read This Page in Context",
-        paragraphs: [
-          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
-        ],
-      },
+    ],
+    references: [
+      "[1] Chinese Text Project. Huangdi Neijing (Yellow Emperor's Inner Canon). https://ctext.org/huangdi-neijing",
+      "[2] Guo et al. Influence of Various Tea Utensils on Sensory and Chemical Quality of Different Teas. Plants (2024). https://doi.org/10.3390/plants13050669",
     ],
   },
   {
     slug: "warming-vs-cooling-foods",
-    title: "Warming vs. Cooling Foods: Understanding the Traditional Kitchen Compass",
+    title: "Warming vs Cooling Foods",
     description:
-      "A comprehensive guide to the traditional concepts of warming and cooling foods — what they mean, how they work in the kitchen, and practical examples of warming, cooling, and neutral ingredients for everyday cooking.",
+      "A plain-English guide to warming and cooling foods in traditional kitchen language, with ingredient examples, cooking-method cues, and seasonal menu notes.",
     eyebrow: "Basics & Concepts",
     intro:
-      "If you spend any time exploring traditional East Asian cooking or wellness, you will inevitably hear foods described as 'warming' or 'cooling.' It is crucial to understand that these terms do not refer to the physical temperature of the food, nor do they refer to how spicy it is. Instead, they describe the energetic effect the food is believed to have on the body after it is digested. Think of it as a traditional compass for maintaining internal balance.",
+      "In East Asian food writing, \"warming\" and \"cooling\" describe an ingredient's traditional character once cooked and eaten—not its serving temperature, and not how spicy it tastes. Warming foods lean robust, aromatic, and grounding; cooling foods lean light, crisp, and settling. Cooks use these labels the way one uses a compass: to balance a menu, pair ingredients, and match dishes to the season. Think ginger with crab, or chilled pear with chrysanthemum.",
     sections: [
       {
-        title: "What Does 'Warming' or 'Cooling' Mean?",
-        paragraphs: [
-          "If you spend any time exploring traditional East Asian cooking or wellness, you will inevitably hear foods described as 'warming' (热/温) or 'cooling' (寒/凉).",
-          "It is crucial to understand that these terms do not refer to the physical temperature of the food, nor do they refer to how spicy it is. Instead, they describe the energetic effect the food is believed to have on the body after it is digested.",
-          "Think of it as a traditional compass for maintaining internal balance. If you are feeling sluggish and cold, you eat warming foods. If you are feeling agitated, flushed, or inflamed, you eat cooling foods.",
-        ],
-      },
-      {
-        title: "The Core Concept: Balance and Harmony",
-        paragraphs: [
-          "Traditional wellness frameworks view the body as an ecosystem that is constantly interacting with its environment. Just as the weather changes with the seasons, the body's internal state shifts based on stress, sleep, environment, and diet.",
-          "The goal is not to eat only warming foods or only cooling foods. The goal is harmony.",
-          "A classic example is how seafood is prepared. Crabs and most fish are considered highly 'cooling.' To prevent them from causing digestive discomfort or a 'cold' stomach, they are almost universally cooked with fresh ginger—a quintessential 'warming' ingredient. The ginger balances the crab, creating a harmonious dish.",
-        ],
-      },
-      {
-        title: "Warming Foods (Yang-Supporting)",
-        paragraphs: [
-          "Warming foods are believed to stimulate circulation, move energy outward and upward, and support the body's metabolic fire (Yang). They are often used in winter, or when a person feels fatigued, cold, or sluggish.",
-        ],
+        title: "Warming vs cooling at a glance",
+        paragraphs: [],
         bullets: [
-          "Characteristics: Often grow in the earth or take longer to grow; tend to be denser, heavier, or sweeter; many spices and pungent ingredients fall into this category.",
-          "Spices: Fresh ginger, cinnamon, cloves, garlic, black pepper.",
-          "Proteins: Lamb, beef, chicken, venison.",
-          "Vegetables: Pumpkins, squash, sweet potatoes, onions, leeks.",
-          "Fruits: Cherries, peaches, longan, lychee.",
-          "Herbs: Ginseng, astragalus, dried tangerine peel (Chen Pi).",
+          "Spices and aromatics: warming—pungent roots, sweet woods, dry toasting (ginger-scallion oil over noodles); cooling—minty leaves, floral petals, fresh and raw (chrysanthemum and goji infusion). When cooks lean this way: blustery weather vs. late-summer afternoons.",
+          "Proteins: warming—lamb, beef, chicken, slow braise, browning (red-cooked beef with star anise); cooling—crab, clams, tofu, poach/steam, clear broths (steamed crab with ginger). Deep winter vs. humid coastal evenings.",
+          "Vegetables and legumes: warming—dense roots, alliums, roasting (roasted squash with cinnamon); cooling—water-rich greens, quick stir-fry, blanching (cucumber-sesame salad). Cold nights vs. picnic lunches.",
+          "Fruits: warming—stone fruits, dried fruits, stewed (warm spiced peaches); cooling—melons, citrus, pears, high water content (chilled watermelon). Fireplace desserts vs. shade-side snacks.",
+          "Drinks and infusions: warming—roasted oolong, cinnamon or dried tangerine peel (hot ginger tea after dinner); cooling—green tea, chrysanthemum, mint (afternoon chrysanthemum). Post-feast winding down vs. midsummer breaks.",
         ],
       },
       {
-        title: "Cooling Foods (Yin-Supporting)",
+        title: "A kitchen compass, not a thermometer",
         paragraphs: [
-          "Cooling foods are believed to clear heat, calm agitation, detoxify, and direct energy inward and downward. They support the body's fluids and cooling system (Yin). They are favored in summer, or when a person feels flushed, restless, or is experiencing acute heat (like a sore throat).",
+          "\"Warming\" (热/温; rè/wēn) and \"cooling\" (凉/寒; liáng/hán) are long-standing labels in Chinese culinary and herb literature. They describe an ingredient's traditional nature—its direction, feel, and how cooks expect it to harmonize with other elements—rather than the plate's temperature. A hot bowl of chrysanthemum infusion can still be called \"cooling,\" while room-temperature ginger can be \"warming.\" Classical sources outline this hot-cold spectrum in food and herb discussions, providing a vocabulary that later kitchen writing adopts.",
         ],
+      },
+      {
+        title: "What gives an ingredient its reputation",
+        paragraphs: [],
         bullets: [
-          "Characteristics: Often grow quickly or have high water content; tend to be green, crisp, or slightly bitter; many raw foods fall into this category.",
-          "Vegetables: Cucumbers, celery, spinach, tomatoes, bitter melon.",
-          "Fruits: Watermelon, bananas, pears, grapefruit, citrus.",
-          "Proteins: Crab, clams, duck, tofu.",
-          "Beverages: Green tea, chrysanthemum tea, peppermint tea.",
-          "Herbs: Mint, mulberry leaf, dandelion.",
+          "Growth and part used: roots, barks, and seeds are often described as warming—dense, concentrated, aromatic when toasted or simmered. Leaves, shoots, and tender fruit skew cooling—green, quick-cooking, and water-rich.",
+          "Aroma and taste family: pungent, woody, and sweet-spice notes (ginger, cinnamon, clove) are classic warming cues; bitter-fresh or floral-minty notes (bitter melon, chrysanthemum, mint) read as cooling.",
+          "Texture and density: heavy, starchy vegetables and long-cooking cuts feel warming on the table; crisp, juicy produce and delicate proteins lean cooling.",
+          "Fresh vs. dried: drying often concentrates and \"warms\" an item's character (dried tangerine peel vs. fresh zest); very fresh, raw, or simply blanched greens read cooler than stewed versions.",
         ],
       },
       {
-        title: "Neutral Foods",
-        paragraphs: [
-          "Not everything is extremely warm or extremely cold. Many foundational foods are considered 'Neutral' (平). These foods are gentle, nourishing, and suitable for almost everyone, forming the bulk of a balanced diet.",
-        ],
+        title: "Preparation changes the tilt",
+        paragraphs: [],
         bullets: [
-          "Grains: White rice, oats, corn.",
-          "Proteins: Pork, most white fish, eggs.",
-          "Vegetables: Carrots, cabbage, potatoes.",
-          "Fruits: Apples, figs, grapes.",
-          "Herbs: Goji berries, reishi mushroom, licorice root.",
+          "Dry heat tends to warm: toasting spices, wok-roasting peanuts, or oven-roasting squash concentrates aroma and sweetness; browning meat with star anise and cinnamon builds a deep, warming bowl.",
+          "Moist, brief heat tends to cool: blanching pea shoots, steaming clams, or lightly poaching chicken keeps textures light and juices clear; quick stir-fries that leave greens crisp read cooler than slow braises.",
+          "Raw and pickled lean cooler: chilled cucumber batons, radish salads, and vinegar-forward pickles land on the cooling side; pear with chrysanthemum or mint with preserved plum make classic warm-day sips.",
+          "Balancing pairings: very cooling seafood is famously paired with fresh ginger or scallion oil—a nudge back toward center; bitter greens meet rich, warming aromatics to round off sharp edges.",
         ],
       },
       {
-        title: "How to Apply This in the Kitchen",
-        paragraphs: [
-          "You don't need to memorize a chart to use this framework. It is highly intuitive:",
-        ],
+        title: "Building dishes by season and setting",
+        paragraphs: [],
         bullets: [
-          "Observe the Season: Eat more cooling, water-rich foods in the hot summer. Shift to warming, slow-cooked root vegetables and warming spices in the cold winter.",
-          "Listen to Your Body: If you have been eating a lot of heavy, fried, or spicy foods (which generate heat) and feel sluggish or agitated, balance it with cooling teas (like chrysanthemum) or crisp greens.",
-          "Pair Intelligently: If you are eating a very cooling food (like a large raw salad or seafood), add a warming element (like a ginger dressing or a side of warm soup) to protect your digestion.",
+          "Winter bowls: lamb stew with ginger, cinnamon, and dried tangerine peel; braised daikon and carrot; claypot rice with chicken and shiitake—leaning warming, suited to short days and cold kitchens.",
+          "Spring and shoulder seasons: young greens flash-stirred with garlic, tofu with soy-ginger sauce, rice congee with chives—neutral-to-cool with just enough warmth to ground the plate.",
+          "High summer spreads: cucumber-sesame salad, chilled tofu, watermelon, chrysanthemum infusion—crisp, juicy, cooling, with small dabs of warming aromatics to avoid flatness.",
+          "Festive menus: rich centerpieces (red-cooked pork belly, beef noodle soup) flanked by cooling vegetables and bright pickles so diners can move between poles.",
+          "Plan counterweights: if a main leans warming, bring cooling sides (blanched greens, citrus slaws); if the spread is mostly cooling, keep a ginger-scallion broth or roasted roots within reach.",
         ],
       },
       {
-        title: "Read This Page in Context",
-        paragraphs: [
-          "This page explores traditional culinary and wellness concepts. It is an educational reference designed to help you understand the philosophy behind traditional recipes. It is not a medical diagnostic tool or a substitute for professional nutritional or medical guidance. If you are managing a specific health condition, always seek guidance from a qualified professional before making significant changes to your diet.",
+        title: "What readers often miss",
+        paragraphs: [],
+        bullets: [
+          "It is a spectrum: warming and cooling are endpoints with many gentle steps between; most ingredients sit near the middle and take direction from preparation.",
+          "Methods matter as much as materials: the wok, the oven, the steamer each tilt the compass.",
+          "The words are cultural tools: these labels come from a long thread of Chinese writing where foods and herbs were cataloged for character, not just flavor.",
+          "Neutral is strategic: rice, tofu, cabbage, eggs are neutral anchors that make balancing easy.",
+          "Spicy heat is not the same as warming language: chili burn is a sensation; \"warming\" is broader—aroma family, density, method, and pairings.",
         ],
       },
+      {
+        title: "A plain-English vocabulary map",
+        paragraphs: [],
+        bullets: [
+          "温 (wēn) / 热 (rè): warm / hot—warming character. Ginger, lamb, or cinnamon are described this way.",
+          "凉 (liáng) / 寒 (hán): cool / cold—cooling character. Cucumbers, chrysanthemum, many shellfish, and leafy greens are common examples.",
+          "平 (píng): neutral—everyday staples that sit in the center: rice, cabbage, eggs.",
+          "配 (pèi): to pair, match, or complement—\"pair crab with ginger\" or \"match bitter greens with warming aromatics.\"",
+          "相宜 / 相佐 (xiāngyí / xiāngzuǒ): suitable together / supportive pairing; 相畏 / 相反 (xiāngwèi / xiāngfǎn): mutually restraining / mutually opposing.",
+        ],
+      },
+      {
+        title: "Kitchen-reading examples",
+        paragraphs: [],
+        bullets: [
+          "Ginger-scallion crab: crab sits on the cooling end; fresh ginger and scallion oil add warmth without masking the sea-sweet meat; hot rice (neutral) steadies the set.",
+          "Bitter melon with black bean and garlic: bitter melon is cooling and assertive; fermented black beans and garlic bring savory depth and a little warmth.",
+          "Cinnamon-anise beef noodle soup: long-simmered beef with cinnamon, star anise, and dried citrus peel leans warming; pickled mustard greens and scallions add lift.",
+          "Pear and chrysanthemum infusion: both show up as cooling in kitchen language; serve warm or at room temperature—the label refers to character, not the cup's heat.",
+          "Congee two ways: morning congee (neutral base) swings warmer with ginger and chicken or cooler with century egg, tofu, and pickled cucumber.",
+        ],
+      },
+      {
+        title: "Choosing ingredients: material, form, and the cook's hand",
+        paragraphs: [],
+        bullets: [
+          "Start with material: dense roots and longer-growing items often bring warmth; tender leaves and water-rich fruits often bring coolness. Build the plate around one anchor material.",
+          "Nudge with form: cut size, surface area, and moisture change how an ingredient shows up—thin-sliced ginger perfumes without dominating, large hunks warm more strongly.",
+          "Season with intent: use aromatics as dials—a teaspoon of toasted spice in oil warms a pan of neutral noodles, a handful of herb leaves cools a rich braise.",
+          "Plate for balance: offer contrast on the same table—a warming claypot next to a crisp salad, a cooling infusion beside a spiced dessert.",
+        ],
+      },
+      {
+        title: "Common questions",
+        paragraphs: [
+          "Is a \"cooling\" item always served cold? No. These labels describe traditional character, not serving temperature. A hot cup of chrysanthemum infusion can still be called cooling, while a room-temperature ginger syrup remains warming.",
+          "Why is ginger paired with seafood so often? Many shellfish are described as cooling in traditional notes. Fresh ginger and scallion oil add a warming counterpoint, bringing the dish toward center while highlighting ocean flavors.",
+          "Do spicy chilies automatically make a dish \"warming\"? Not necessarily. Chili fire is a sensation; \"warming\" is broader—aroma family, density, cooking method, and pairings. A chili-bright cucumber salad may still read chiefly as cooling.",
+        ],
+      },
+      {
+        title: "About this page",
+        paragraphs: [
+          "This Basics page explains how \"warming\" and \"cooling\" function as traditional kitchen language in East Asian food writing. It focuses on flavor families, ingredient form, cooking method, and seasonal menu planning, giving English-language readers clear terms and grounded examples for reading recipes, market labels, and culinary notes that use this vocabulary.",
+        ],
+      },
+    ],
+    references: [
+      "[1] Chinese Text Project. Huangdi Neijing (Yellow Emperor's Inner Canon). https://ctext.org/huangdi-neijing",
     ],
   },
   {
     slug: "what-is-dampness",
     title: "What Is Dampness?",
     description:
-      "A comprehensive guide to the traditional concept of Dampness — what it means, internal vs external dampness, signs of internal dampness, and practical lifestyle and kitchen approaches.",
+      "A plain-English guide to \"Dampness\" in traditional Chinese food writing: heaviness, stickiness, and excess moisture, plus the balancing aromatics and methods.",
     eyebrow: "Basics & Concepts",
     intro:
-      "In traditional Chinese wellness frameworks, 'Dampness' (湿, shī) is a conceptual term used to describe a state of sluggishness, heaviness, and abnormal fluid accumulation in the body. It is often compared to the feeling of a humid, foggy day—everything feels weighed down, sticky, and slow to move. Dampness is considered a 'yin' pathogen, meaning it is heavy, cold in nature, and tends to sink to the lower parts of the body.",
+      "In traditional Chinese kitchen language, \"Dampness\" (湿, shī) is a descriptive idea used to talk about heaviness, stickiness, and excess moisture—whether in the weather, in an ingredient, or in the way a dish feels after eating. Think of a muggy day, a gluey porridge, or an oily buffet plate that sits heavy. Writers pair this idea with balancing cues like aromatic spices, lightly bitter greens, and drying grains. It's culinary shorthand, not a modern label, and it guides how recipes, seasons, and pantry choices are discussed.",
     sections: [
       {
-        title: "The Concept of Dampness",
+        title: "Short answer: the plain-English idea",
         paragraphs: [
-          "In traditional Chinese wellness frameworks, 'Dampness' (湿, shī) is a conceptual term used to describe a state of sluggishness, heaviness, and abnormal fluid accumulation in the body. It is often compared to the feeling of a humid, foggy day—everything feels weighed down, sticky, and slow to move.",
-          "Dampness is considered a 'yin' pathogen, meaning it is heavy, cold in nature, and tends to sink to the lower parts of the body. This helps explain why many traditional descriptions of dampness involve sensations of heaviness in the legs, bloating in the lower abdomen, or a general feeling of being weighed down.",
+          "Dampness is a metaphor from traditional Chinese food writing. It points to qualities that feel wet, sluggish, and hard to move. You'll see it applied to climate (muggy air, lingering mist), ingredients (high-water produce, sticky starches, rich dairy), and dishes (heavy, oily, under-spiced meals that feel bogged down). By contrast, writers describe \"aromatic,\" \"drying,\" or \"transforming\" pairings—ginger, cardamom, aged citrus peel, toasted grains—as ways to cut through that sogginess in the bowl and on the palate.",
         ],
       },
       {
-        title: "Internal vs. External Dampness",
-        paragraphs: [
-          "Traditional theory divides Dampness into two categories:",
-        ],
+        title: "Where you'll see the word",
+        paragraphs: [],
         bullets: [
-          "External Dampness: This occurs when the body is exposed to humid, damp environments for prolonged periods, such as living in a damp basement, wearing wet clothes, or experiencing prolonged rainy weather. It often manifests as heavy, aching joints or a sudden feeling of lethargy.",
-          "Internal Dampness: This is far more common in modern life. It is generated from within, usually due to a weakened digestive system (the Spleen). When the digestive system is overwhelmed, it fails to properly metabolize fluids, leading to internal accumulation.",
+          "Traditional cookbooks and household manuals: notes on why congees get aromatics in humid months.",
+          "Herb primers: short entries that tag select ingredients as \"aromatic and drying\" or \"drains Dampness.\"",
+          "Market talk and seasonal menus: steamed, aromatic snacks when the air is wet; stir-fries and congees that lift a heavy day.",
+          "Regional dining notes: southern river cities speaking of \"moist\" heat and lighter aromatics; northern kitchens leaning on roasting and dry heat.",
         ],
       },
       {
-        title: "Signs of Internal Dampness",
-        paragraphs: [
-          "Traditional practitioners look for signs that suggest fluid metabolism is sluggish. These often include:",
-        ],
+        title: "A kitchen-language map of Dampness",
+        paragraphs: [],
         bullets: [
-          "A feeling of heaviness in the head or limbs (like wearing a wet towel)",
-          "Brain fog and lethargy, especially after eating",
-          "Digestive sluggishness, bloating, or loose stools",
-          "A thick, sticky coating on the tongue",
-          "Swelling or fluid retention, particularly in the legs or ankles",
+          "The core word: 湿 (shī)—damp, humid, moist. Culinary use: sticky, boggy, heavy-feeling.",
+          "Opposite family: 燥 (zào)—dry; crisp, toasty, evaporated moisture.",
+          "Balancing phrase: 芳香化湿 (fāngxiāng huà shī)—\"aromatics that transform Dampness,\" usually citrus peel, ginger, cardamom, perilla.",
+          "Texture link: 稠 (chóu) thick; 粘 (nián) sticky; 油腻 (yóunì) greasy.",
+          "Cooking verbs that matter: 炒香 (chǎo xiāng) stir-fry until fragrant; 爆香 (bào xiāng) bloom aromatics in hot oil; 干煎/干炒 dry-pan sear or fry; 文火熬 slow simmer, often with skimming.",
         ],
       },
       {
-        title: "Lifestyle and Kitchen Notes",
-        paragraphs: [
-          "From a traditional dietary perspective, Internal Dampness is frequently caused by consuming too many cold, raw, sweet, or dairy-rich foods, which are believed to 'dampen' the digestive fire.",
-          "To support the body in resolving Dampness, traditional kitchen practices emphasize:",
-        ],
+        title: "Kitchen-reading examples you can picture",
+        paragraphs: [],
         bullets: [
-          "Warm, cooked foods: Soups, stews, and porridges are preferred over raw salads.",
-          "Aromatic herbs: Ingredients like cardamom, ginger, and orange peel (Chen Pi) are used to 'awaken' the digestion and cut through the stickiness.",
-          "Draining ingredients: Foods like Job's Tears (Yi Yi Ren), adzuki beans, and Poria (Fu Ling) are traditionally used to gently encourage the body to process and eliminate excess fluids.",
+          "The muggy-evening congee: rice porridge on a rainy night can feel gluey; cooks toss in slivered ginger and a thread of aged tangerine peel to lift the aroma.",
+          "The cold-smoothie lunch: an icy blend of banana and yogurt lands cool, sweet, and thick—\"damp-forming\" in traditional phrasing; a pinch of grated ginger or a bitter green salad is the balancing move.",
+          "The all-oil stir-fry: a plate that glistens but smells shy signals heaviness; \"bloom aromatics first\"—scallion, ginger, dried citrus peel—reduces the sense of oiliness.",
+          "The toasted-barley side: roasted barley tea and toasted coix show the \"drying\" side of the map; dry heat plus a little bitterness counters soggy textures.",
+          "The summer market tray: cucumbers, melons, and gourds are high in water and read \"wet\"; cooks add salt, vinegar, or aromatics to keep the plate from feeling boggy.",
         ],
       },
       {
-        title: "Read This Page in Context",
-        paragraphs: [
-          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        title: "Nearby terms and how they differ",
+        paragraphs: [],
+        bullets: [
+          "Dampness (shī 湿): muggy air, sticky porridge, oily plate that sits heavy. Pairings: ginger, aged citrus peel, cardamom, coix/Job's tears. Method: bloom aromatics, toast grains, gentle simmer with skimming.",
+          "Cold-damp (hán shī 寒湿): chilled + wet—fridge-cold dairy, raw salads in rainy weather. Pairings: warming aromatics, long-simmered broths, congee. Method: warm, cooked, lightly spiced.",
+          "Damp-heat (shī rè 湿热): hot + wet—sauna air, spicy, oily, saucy dishes. Pairings: bitter greens, aromatic spices, light broths. Method: reduce oil, add bitter notes, quick-cook.",
+          "Phlegm (tán 痰): congealed damp—gravy that set, jelly-like textures. Pairings: pinellia in classic texts; citrus peel, aged ginger in kitchen talk. Method: stronger aromatics, cut thick sauces, clear broths.",
+          "Dryness (zào 燥): crackers, toasted tea, desert air. Pairings: pears, sesame, lily bulb, gentle moist cooking. Method: add moisture, steam or stew.",
         ],
       },
+      {
+        title: "Climate, season, and method in practice",
+        paragraphs: [],
+        bullets: [
+          "Place: river-delta cities feel humid; southern kitchens use more aromatics and gentle simmering. Arid northern kitchens lean on roasting and dry heat.",
+          "Season: summer and late summer prompt lighter, more aromatic menus; late-night congee with ginger, spriggy herbs, and citrus peel is classic.",
+          "Method: steaming and poaching preserve moisture; roasting, stir-frying \"to fragrant,\" and pan-toasting evaporate it. Deep-frying removes water but can add oiliness.",
+          "Menu building: if a main is saucy and rich, side plates may skew bitter-aromatic or toasty-dry—a see-saw of heavy alongside light, wet alongside dry.",
+        ],
+      },
+      {
+        title: "Ingredients often paired with this idea in traditional writing",
+        paragraphs: [],
+        bullets: [
+          "Aromatics that \"cut through\" heaviness: fresh ginger, scallion, garlic, perilla leaf, Sichuan pepper, and aged tangerine peel—usually bloomed in hot oil or tossed into steaming bowls to add lift.",
+          "Lightly bitter greens: chrysanthemum leaves, dandelion, cress—bitterness often reads as drying and clearing in a heavy meal.",
+          "Toasty grains and legumes: barley, coix/Job's tears, adzuki beans—often toasted or slow-simmered for a dry, gentle backbone.",
+          "Fungi and dried goods: poria (often a dried cube in congees) and dried citrus peel, for an un-sticky, light finish.",
+          "Wet-feeling produce, given lift: cucumbers, winter melon, fuzzy melon, and gourds, paired with ginger, shrimp paste, or dried citrus plus a brisk cook.",
+        ],
+      },
+      {
+        title: "What readers often miss",
+        paragraphs: [],
+        bullets: [
+          "It's about feel, not a fixed label. No food is \"Dampness\" by itself; the same rice can be airy when toasted or sticky when overcooked.",
+          "It's relative to your sky: a stew in Arizona might feel comforting and moist; the same bowl in Guangzhou in July might read boggy.",
+          "Method matters more than category: how you handle oil, water, heat, and aroma decides whether a dish lands light or leaden.",
+          "Sweet and cold amplify the \"wet\" feeling: cold temperature and heavy sweetness stack the deck toward sluggish textures.",
+          "\"Transforming Dampness\" is a set phrase—a nudge to use aromatics, dry heat, and bitter edges to keep dishes from feeling bogged down, not a promise.",
+        ],
+      },
+      {
+        title: "Common questions",
+        paragraphs: [
+          "Is Dampness just about weather? Weather is the easy on-ramp—muggy air sets the scene. But the term also covers how ingredients and methods behave in the pot. In this vocabulary, climate, ingredient, and technique are a triangle; Dampness sits in the middle where they meet.",
+          "Why do some books call certain foods \"damp-forming\"? It's shorthand for combinations that feel wet, sticky, and heavy—often cold temperature plus sweetness plus viscosity (ice cream or banana smoothies). The note invites balancing: toast the grain, bloom aromatics, add a bitter green, or finish with citrus.",
+          "How do cooks \"balance\" a damp-feeling menu without making it harsh? They favor lift over brute force: blooming ginger, scallion, and aged citrus peel for aroma; dry heat (roasting, pan-toasting) to reduce sogginess; lightly bitter greens to offset heaviness; bright finishes (vinegar, citrus zest) to keep sauces from feeling oily.",
+        ],
+      },
+      {
+        title: "About this page",
+        paragraphs: [
+          "This page explains how the traditional term \"Dampness\" is used in food and flavor writing: the textures it names, the cooking techniques it suggests, and the seasonal pantry notes you'll often see beside it. It's written for kitchen readers who want clear, plain-English translations of traditional Chinese culinary vocabulary.",
+        ],
+      },
+    ],
+    references: [
+      "[1] Chinese Text Project. Huangdi Neijing (Yellow Emperor's Inner Canon). https://ctext.org/huangdi-neijing",
+      "[2] USDA FoodData Central. https://fdc.nal.usda.gov/",
     ],
   },
   {
     slug: "what-is-yin-and-yang",
     title: "What Is Yin and Yang?",
     description:
-      "A comprehensive guide to the traditional concept of Yin and Yang — the core philosophy, key differences, dynamic balance, and practical kitchen and lifestyle applications for achieving harmony.",
+      "A kitchen reading of Yin and Yang as paired qualities in traditional food writing: cool and warm, soft and crisp, still and lively, with ingredient and method examples.",
     eyebrow: "Basics & Concepts",
     intro:
-      "The concept of Yin and Yang (阴阳) is the philosophical foundation of all traditional Chinese wellness practices. It is a way of understanding the universe as a delicate balance of opposing but complementary forces. Nothing is completely Yin or completely Yang; they exist only in relation to one another, constantly shifting and seeking equilibrium.",
+      "Yin and Yang (阴阳) is a traditional way of talking about paired qualities in the world—cool and warm, soft and crisp, quiet and lively. In food writing, it gives cooks a shared lens: ingredients, cooking methods, and seasons lean one way or the other, and good dishes balance the pair. Nothing is purely Yin or purely Yang. The meaning comes from context—how foods are grown, cooked, combined, and served, not from a fixed label.",
     sections: [
       {
-        title: "The Core of Traditional Philosophy",
+        title: "The short answer: Yin and Yang in kitchen language",
         paragraphs: [
-          "The concept of Yin and Yang (阴阳) is the philosophical foundation of all traditional Chinese wellness practices. It is a way of understanding the universe as a delicate balance of opposing but complementary forces. Nothing is completely Yin or completely Yang; they exist only in relation to one another, constantly shifting and seeking equilibrium.",
-          "This framework is not about labeling things as good or bad, strong or weak. It is about understanding relationship — how one quality defines the other, and how both are necessary for a complete and functioning whole.",
+          "At its simplest, Yin and Yang is a contrast that helps describe how things feel and behave. In the kitchen, it's the difference between a chilled cucumber salad and a sizzling wok toss, between silken tofu and seared lamb, between a slow-simmered broth and a sun-bright flash-fry. Writers use the pair to talk about direction, motion, temperature, texture, weight, and time. The aim isn't to grade foods but to read their tendencies, then shape a plate that sits comfortably in season and setting.",
         ],
       },
       {
-        title: "Understanding the Differences",
-        paragraphs: [
-          "To understand how this applies to the body, it helps to look at how Yin and Yang are observed in nature:",
-        ],
+        title: "Where you'll see it: markets, menus, and herb notes",
+        paragraphs: [],
         bullets: [
-          "Yin (阴): Water, Moon, Night, Winter — qualities of cold, rest, stillness, dark, inward and downward movement.",
-          "Yang (阳): Fire, Sun, Day, Summer — qualities of heat, activity, movement, light, outward and upward movement.",
-          "In the Body — Yin represents the physical substance: fluids, blood, tissue, and cooling restorative mechanisms; Yang represents the functional energy: Qi, warmth, metabolism, and active moving forces.",
+          "In markets: produce is nicknamed by feel—\"cooling\" greens, \"warming\" spices, \"neutral\" grains; pairings like mung bean with summer heat or lamb with winter cold are familiar kitchen sense.",
+          "On menus and tea lists: \"warming ginger broth,\" \"cool chrysanthemum infusion,\" \"balanced with pear\"—the wording sets expectation about warmth, lift, or calm.",
+          "In herb and pantry notes: dried tangerine peel is said to \"move\" and \"lift,\" while lotus seed \"settles\"—culinary verbs for mouthfeel, aroma direction, and pacing.",
         ],
       },
       {
-        title: "The Dynamic Balance",
-        paragraphs: [
-          "Health, in traditional frameworks, is defined as a dynamic balance between Yin and Yang. When one becomes deficient or excessive, the other is affected.",
-        ],
+        title: "A plain-English vocabulary map",
+        paragraphs: [],
         bullets: [
-          "Yang Deficiency: If the body's warming, active energy (Yang) is weak, the cooling nature of Yin takes over. This might manifest as feeling constantly cold, having low energy, or sluggish digestion.",
-          "Yin Deficiency: If the body's cooling, moistening fluids (Yin) are depleted, the warming nature of Yang goes unchecked. This often manifests as feeling overly warm (especially at night), experiencing dry skin or a dry throat, and feeling restless or ungrounded.",
+          "Temperature: cool (Yin) vs. warm (Yang).",
+          "Motion: still, settling (Yin) vs. rising, lively (Yang).",
+          "Texture: soft, moist, yielding (Yin) vs. crisp, dry-edged, chewy (Yang).",
+          "Light: shaded, dusky (Yin) vs. bright, gleaming (Yang).",
+          "Direction: inward/downward (Yin) vs. outward/upward (Yang); pace slow and lingering (Yin) vs. quick and immediate (Yang); weight dense and grounding (Yin) vs. light and buoyant (Yang).",
         ],
       },
       {
-        title: "Kitchen and Lifestyle Applications",
-        paragraphs: [
-          "Traditional dietary therapy uses the concepts of Yin and Yang to bring the body back into balance.",
-        ],
+        title: "Seasons and stovetops: how cooks express the balance",
+        paragraphs: [],
         bullets: [
-          "Someone experiencing a Yang deficiency might be encouraged to consume warming foods like ginger, cinnamon, and slow-cooked stews.",
-          "Someone experiencing a Yin deficiency might be guided toward cooling, moistening foods like pear, lily bulb, and tremella mushroom.",
-          "The ultimate goal is never to maximize one over the other, but to maintain a harmonious, adaptable state where both forces support each other.",
+          "Temperature: cool, chilled (Yin) vs. hot, sizzling (Yang)—chilled tofu with soy vs. wok-seared tofu with chili oil.",
+          "Texture and moisture: silky, moist, yielding (Yin) vs. crisp-edged, dry-surfaced, chewy (Yang)—steamed egg custard vs. pan-fried egg pancake.",
+          "Direction and motion: settling, inward, downward (Yin) vs. lifting, outward, upward (Yang)—lotus root soup vs. ginger-scallion stir-fry.",
+          "Pace and time: slow-simmered, braised, stewed (Yin) vs. flash-fried, quick-poached, stir-fried (Yang)—clay-pot rice vs. quick wok toss.",
+          "Season and light: winter, night, shade (Yin) vs. summer, day, sun (Yang)—dark soy-braised mushrooms vs. bright vinegared cucumbers.",
         ],
       },
       {
-        title: "Read This Page in Context",
-        paragraphs: [
-          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        title: "Ingredient examples you already know",
+        paragraphs: [],
+        bullets: [
+          "Cucumber and chili: cucumber's watery crunch reads cool and inward; chili oil explodes outward—together a push-pull that wakes up a hot day.",
+          "Tofu and lamb: silken tofu sits soft and quiet; seared lamb is assertive and warming. Mapo tofu marries both.",
+          "Pear and ginger: a raw pear whispers moisture and calm; fresh ginger is vivid and rising—poached pear with ginger threads brings contrast into one spoonful.",
+          "Chrysanthemum and roasted oolong: a cool-feeling floral infusion vs. a toasty, outward roasted oolong—alternating cups highlights the difference.",
+          "Mung bean and garlic: mung bean soups read gentle and cooling; garlic and scallion punch upward, keeping a dish awake.",
         ],
       },
+      {
+        title: "Sides of a pair: contrast, complement, and context",
+        paragraphs: [],
+        bullets: [
+          "Read for contrast, not verdicts: a dish can carry both sides at once—spicy-braised eggplant (creamy flesh under a chili-bright sauce).",
+          "Let context lead: July shade, November dusk, coastal damp, mountain air—these details nudge the same ingredient different ways.",
+          "Balance with intention: cooks offset a strong lean with a flick of the opposite—chili oil on silken tofu, black vinegar in a long braise, scallions over slow-cooked pork.",
+        ],
+      },
+      {
+        title: "Nearby terms that travel with Yin-Yang",
+        paragraphs: [],
+        bullets: [
+          "Qi (气): kitchen language about movement—\"lifting fragrance,\" \"moving aroma,\" \"circulating steam.\"",
+          "Five flavors (五味): sour, bitter, sweet, pungent, salty—each with a feel and direction that balance a plate.",
+          "Nature (性, xìng): a common word on tea canisters and herb jars—warm, cool, neutral—signaling the lean of an item before cooking.",
+          "Directional verbs: rising (升), descending (降), floating (浮), sinking (沉)—what a food or spice seems to do to aroma, appetite, and feel.",
+          "Dampness (湿) and dryness (燥): textures and environments—humid-day cooking vs. a crisp dry autumn roast.",
+        ],
+      },
+      {
+        title: "How to read recipes and herb notes with this lens",
+        paragraphs: [],
+        bullets: [
+          "Scan verbs and heat: simmer, braise, and steam often point inward; stir-fry, sauté, and sear often point outward.",
+          "Notice liquids and fats: broths and high-moisture sauces lean softer; reduced glazes and crisp oils lean brighter and more assertive.",
+          "Track cut and surface: bigger cuts and thicker peels slow a dish; fine julienne and high surface area speed it up.",
+          "Watch finishing moves: vinegar, citrus, and fresh herbs lift; dark soy, toasted sesame, and long infusions settle.",
+          "Think season and setting: a backyard lunch in midsummer wants different energy than a late-winter supper; the same pantry gives you both by swapping method and garnish.",
+        ],
+      },
+      {
+        title: "What readers often miss",
+        paragraphs: [],
+        bullets: [
+          "It's not a menu code for \"spicy\" and \"not spicy\": warmth can come from ginger, toasted aromatics, or a fast, hot sear, not just chilies.",
+          "It's not a permanent sticker: dry toast leans different from buttered toast; steamed greens are not wok-kissed greens; chilled tofu is not mapo tofu. Method matters more than category.",
+          "It's not moral language: \"cool\" and \"warm\" aren't \"good\" or \"bad\"—they're cues to how a dish behaves in season, mood, and table setting.",
+          "It's layered: color, cut, and garnish each carry a lean—dark soy deepens, a lemon twist lifts, sesame paste settles, raw scallion wakes.",
+          "It's a conversation starter: if a market vendor calls chrysanthemum \"cool,\" ask how they like to brew it in August versus January—the answers are recipe ideas hiding in plain sight.",
+        ],
+      },
+      {
+        title: "Common questions",
+        paragraphs: [
+          "Is Yin just \"cold\" and Yang just \"hot\"? Not exactly. Temperature is a big part of the pair, but writers also point to motion, texture, direction, and pace. A room-temperature dish can still feel Yang if it's crisp, aromatic, and lively; a hot dish can lean Yin if it's soft, moist, and settling.",
+          "Can a single food be both? Yes, depending on variety, cut, method, and pairing. Tofu is a good example: chilled silken tofu reads cool and inward, while mapo tofu, cooked hot with chilies and aromatics, reads warm and outward. The ingredient didn't change; the handling did.",
+          "Do cooking methods change a food's \"lean\"? All the time. Methods that add moisture and time (steaming, simmering, braising) pull inward; methods that add dry, high heat and speed (stir-frying, searing, roasting) push outward and brighten.",
+        ],
+      },
+      {
+        title: "About this page",
+        paragraphs: [
+          "This page explains Yin-Yang as kitchen language used in traditional Chinese food and herb writing. It focuses on flavor, texture, cooking method, and seasonal imagery so readers can recognize the vocabulary in recipes, markets, and tea or pantry notes. No individualized guidance is offered.",
+        ],
+      },
+    ],
+    references: [
+      "[1] Chinese Text Project. Huangdi Neijing (Yellow Emperor's Inner Canon). https://ctext.org/huangdi-neijing",
+      "[2] USDA FoodData Central. https://fdc.nal.usda.gov/",
     ],
   },
   {
