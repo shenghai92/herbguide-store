@@ -1179,48 +1179,83 @@ const rawBasicsArticles: ContentArticle[] = [
   },
   {
     slug: "four-natures-of-food",
-    title: "The Four Natures (Temperature) of Food",
+    title: "The Four Natures of Food",
     description:
-      "A comprehensive guide to the traditional Four Natures system — how foods have energetic temperature that affects the body, with detailed categories from Cold to Hot, practical examples, and guidance on balancing your diet.",
+      "A plain-English guide to the \"four natures\" (temperature) of food in Chinese food writing: cold, cool, neutral, warm, and hot—and how cooks use them.",
     eyebrow: "Basics & Concepts",
     intro:
-      "In traditional Chinese dietary therapy, every food and herb has an inherent 'Nature' (四气, Sì Qì) or energetic temperature. This does not refer to the physical temperature of the food when you eat it (e.g., hot soup vs. cold ice cream), but rather the physiological effect it has on your body after it is digested. For example, a cup of hot peppermint tea is physically hot, but its energetic nature is cooling. A piece of raw ginger is physically room temperature, but its energetic nature is warming.",
+      "In traditional Chinese food writing, every ingredient is said to have a \"nature\" (四气, sì qì)—often called its \"temperature.\" This isn't the serving temperature in your bowl. It's the felt direction of a food once eaten: cooling, gently cool, neutral, gently warm, or hot. Cucumber and chrysanthemum lean cool. Fresh ginger and cinnamon lean warm. Neutral staples like rice sit in the middle. Cooks combine these directions with season, place, and technique to shape a meal's overall feel.",
     sections: [
       {
-        title: "Energetic Temperature vs. Physical Temperature",
-        paragraphs: [
-          "In traditional Chinese dietary therapy, every food and herb has an inherent 'Nature' (四气, Sì Qì) or energetic temperature. This does not refer to the physical temperature of the food when you eat it (e.g., hot soup vs. cold ice cream), but rather the physiological effect it has on your body after it is digested.",
-          "For example, a cup of hot peppermint tea is physically hot, but its energetic nature is cooling. A piece of raw ginger is physically room temperature, but its energetic nature is warming. This distinction is fundamental to understanding how traditional food therapy works — the goal is not to eat food at a certain serving temperature, but to choose ingredients whose energetic qualities balance your body's current state.",
-        ],
-      },
-      {
-        title: "The Four Main Categories",
-        paragraphs: [
-          "The traditional framework divides ingredients into four main categories, plus a neutral category:",
-        ],
+        title: "The five categories in practice",
+        paragraphs: [],
         bullets: [
-          "Cold (寒, Hán): Strongly cools the body and clears heat. Examples: Watermelon, bitter melon, dandelion, lotus root. Best for hot summer days or individuals who tend to run hot, feel restless, or experience redness and inflammation.",
-          "Cool (凉, Liáng): Gently cools and moistens. Examples: Cucumber, pear, green tea, mint, chrysanthemum. Best for gentle daily cooling, supporting hydration, and soothing mild warmth.",
-          "Neutral (平, Píng): Neither warms nor cools; highly balancing and nourishing. Examples: Rice, potato, goji berry, poria (fu ling). Best for everyday consumption. Neutral foods form the foundation of a balanced, long-term diet because they are easy on the digestive system.",
-          "Warm (温, Wēn): Gently warms the body and promotes circulation. Examples: Fresh ginger, chicken, oats, jujube (red date). Best for cooler weather or individuals who tend to feel cold, have sluggish digestion, or lack energy.",
-          "Hot (热, Rè): Strongly warms and dispels deep cold. Examples: Dried ginger, cinnamon bark, black pepper, chili. Best for deep winter or addressing profound internal coldness. Use sparingly.",
+          "Cold (寒): bitter, fresh green, watery—bitter melon, watermelon, mung bean sprout, dandelion greens. Amplified by chilling and quick blanching.",
+          "Cool (凉): crisp, lightly sweet, floral—cucumber, pear, chrysanthemum, mung bean, green tea. Amplified by raw salads and cool infusions.",
+          "Neutral (平): soft sweet, mellow grain, nutty—rice, barley, tofu, chicken, mushrooms. Amplified by congee, gentle steaming, poaching.",
+          "Warm (温): pungent, toasty, roasted—fresh ginger, scallion, oats, lamb, sesame oil. Amplified by slow braising and roasting.",
+          "Hot (热): fiery, peppery, deeply toasty—dried ginger, cinnamon bark, chili, black pepper. Amplified by dry-frying and spice blooms.",
         ],
       },
       {
-        title: "Balancing Your Diet",
-        paragraphs: [
-          "The goal of this system is to use food to maintain balance. If you live in a cold climate or have a 'cold' constitution (poor circulation, lethargy), you would traditionally lean toward warm and neutral foods. If you live in a hot climate or have a 'hot' constitution (easily overheated, irritable), you would incorporate more cool and neutral foods.",
-          "This principle is not about rigidly categorizing every meal — it is about developing an intuitive awareness of how different foods make you feel. Over time, many people find that they naturally gravitate toward warming foods in winter and cooling foods in summer, even without conscious effort.",
+        title: "Serving temperature vs. inner feel",
+        paragraphs: [],
+        bullets: [
+          "Physical heat of the dish: soup is hot on the tongue, granita is cold—this affects comfort and aroma.",
+          "The ingredient's traditional \"nature\": mint is called cool, fresh ginger warm—the inner direction cooks expect after eating.",
+          "You can mix layers: iced ginger tea is physically cold yet warming in traditional language; a hot chrysanthemum infusion reads cool. Technique bridges the two—quick blanch keeps greens cool, long roast draws warmth.",
         ],
       },
       {
-        title: "Read This Page in Context",
+        title: "Taste tones that often travel with each nature",
+        paragraphs: [],
+        bullets: [
+          "Cool and cold ingredients often carry bitter or fresh green tones: chrysanthemum leaf, bitter melon, cucumber, mung beans.",
+          "Warm and hot ingredients often carry an acrid or peppery edge: ginger, cinnamon bark, black pepper, chili.",
+          "Neutral foods frequently taste gently sweet or mild: rice, tofu, barley, mushrooms, chicken.",
+          "Proportion, cut, and cooking decide the final read: a cucumber salad with sesame oil and ginger lands between cool and warm.",
+        ],
+      },
+      {
+        title: "Season, place, and adjusting a recipe's feel",
+        paragraphs: [],
+        bullets: [
+          "Summer and humid days center on cool and neutral foods with lots of water content: cucumbers, melons, pears, mung beans.",
+          "Winter and windy nights bring warm and hot ingredients forward: roasted squash, lamb stews, ginger broths.",
+          "Technique nudges nature: thin slices, toasted sesame oil, spice blooms, and aromatics lean warmer; mint, chrysanthemum, and citrus zest cool the edges.",
+          "Different forms of one ingredient shift too: fresh ginger is described as warm, dried ginger as hot; toasted spices read warmer than raw.",
+        ],
+      },
+      {
+        title: "A map to nearby terms",
+        paragraphs: [],
+        bullets: [
+          "Four natures (四气, sì qì): the temperature-style directions on this page.",
+          "Five flavors (五味, wǔ wèi): sour, bitter, sweet, acrid, salty—they hint at direction; bitter greens skew cool, acrid spices skew warm.",
+          "Yin-yang in the kitchen: a balancing lens of moist/dry, soft/crisp, heavy/light, warming/cooling.",
+          "Processing notes: drying, roasting, toasting, or fermenting changes an ingredient's feel—fresh vs. dried ginger are described quite differently.",
+        ],
+      },
+      {
+        title: "Common questions",
         paragraphs: [
-          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+          "Does \"nature\" mean spicy heat on the tongue? Not exactly. Spicy heat is a taste sensation; \"nature\" is a traditional label for how a food is expected to feel overall. Chili is both spicy and hot in nature, but a food can be warming without tasting fiery (fresh ginger) or cooling without tasting bitter (watermelon).",
+          "Are these categories about serving hot dishes in winter and cold dishes in summer? Serving temperature plays a role in comfort, but these categories are about an inner direction described with temperature words. A hot chrysanthemum infusion feels cooling; an iced ginger drink still feels warming.",
+          "Can cooking really shift a food's nature? Traditional sources and everyday experience both say yes. Fresh ginger is widely described as warm and dried ginger as hot; quick-steamed greens feel cooler than long-braised greens.",
+        ],
+      },
+      {
+        title: "About this page",
+        paragraphs: [
+          "This page explains the traditional \"four natures\" (plus neutral) as kitchen language. It focuses on food, flavor, preparation, and cultural vocabulary used in Chinese culinary writing, with examples of how cooks combine ingredients and techniques to shape a dish's overall feel.",
         ],
       },
     ],
+    references: [
+      "[1] Chinese Text Project. Huangdi Neijing (Yellow Emperor's Inner Canon). https://ctext.org/huangdi-neijing",
+    ],
   },
+
   {
     slug: "ginseng-vs-american-ginseng",
     title: "Asian Ginseng vs American Ginseng",
@@ -1342,400 +1377,749 @@ const rawBasicsArticles: ContentArticle[] = [
     slug: "goji-berry-vs-jujube",
     title: "Goji Berry vs Jujube",
     description:
-      "A beginner-friendly comparison of two popular Chinese pantry ingredients that show up often in teas and soups.",
-    eyebrow: "Basics",
+      "A clear kitchen comparison of goji berries (wolfberries) and jujubes (red dates): flavor, texture, timing, and how each shapes soups, congee, and tea infusions.",
+    eyebrow: "Basics & Concepts",
     intro:
-      "Goji berry and jujube are two of the easiest Chinese ingredients for beginners to recognize, but they play different roles in flavor, texture, and traditional storytelling. Comparing them side by side helps readers understand why both are popular without assuming they are interchangeable.",
+      "Goji berries (often labeled \"wolfberries\") are small, bright red-orange, and lightly sweet with a tender bite. They color a broth and add soft pops without steering the whole pot. Jujubes (often labeled \"red dates\") are larger, deeper in sweetness, and more date-like; they lend body, aroma, and a rounder, malty sweetness when simmered. In practice, goji is usually sprinkled in near the end, while jujube often anchors the base from the start.",
     sections: [
       {
-        title: "Why readers compare these two so often",
-        paragraphs: [
-          "Both ingredients are approachable, familiar, and closely tied to tea and soup content. That makes them natural beginner favorites.",
-          "At the same time, they feel different in the kitchen. Goji berry is usually lighter and smaller, while jujube adds sweetness, body, and a more obvious soup or tea presence.",
-        ],
-      },
-      {
-        title: "How the comparison helps in practice",
-        paragraphs: [
-          "A side-by-side article makes recipe pages easier to understand. Readers can see why goji may be added near the end for color and softness, while jujube may shape the flavor of the whole pot.",
-          "It also shows how traditional herb descriptions can overlap without being identical.",
-        ],
+        title: "A quick comparison at a glance",
+        paragraphs: [],
         bullets: [
-          "Goji berry often appears in porridge, light soup, and tea-style pages.",
-          "Jujube often appears in sweet broths, warming drinks, and gentle soup routines.",
-          "Both work well in beginner content, but they create different kinds of pages.",
+          "Size and look: goji are small, thin-skinned, red-orange, often wrinkled; jujubes are plum-sized with wrinkled mahogany skin, sometimes sliced or pitted.",
+          "Base flavor: goji are lightly sweet, gently fruity, a bit herbal; jujubes are richer, date-like, malty, sometimes with a hint of caramel.",
+          "Texture in liquid: goji are soft and tender, breaking down if boiled hard; jujubes are chewy to soft and hold shape longer.",
+          "When to add: goji in the last 5-10 minutes or after heat-off; jujube early (30-60+ minutes) to build sweetness and aroma.",
         ],
       },
       {
-        title: "Why this comparison fits the library well",
+        title: "Names, forms, and what you'll see at the shop",
+        paragraphs: [],
+        bullets: [
+          "Goji berry (枸杞, gǒuqǐ; \"wolfberry\"): small loose dried berries, brighter or more brick-red depending on drying.",
+          "Red jujube (红枣/大枣, hóngzǎo/dàzǎo): sold whole, pitted, or sliced; whole for long simmers, sliced for faster release.",
+          "Fresh vs dried: fresh green jujube (crisp like an apple) is a different experience; this page is about dried jujube.",
+          "Labels: \"seedless,\" \"Xinjiang,\" or \"sliced\" signal size, origin, or pitting; pitted or sliced is easier to sip.",
+        ],
+      },
+      {
+        title: "Preparation and timing differences in the pot",
+        paragraphs: [],
+        bullets: [
+          "Rinsing: a quick cool-water rinse clears dust and stickiness for both.",
+          "Soaking: goji need only 1-3 minutes; jujubes benefit from 10-20 minutes to release flavor quickly.",
+          "Cutting and pitting: use goji whole (slicing makes them disintegrate); slice or pit jujubes for faster flavor.",
+          "Heat level: gentle simmers preserve color and shape; a rolling boil toughens jujube skin and makes goji mushy.",
+        ],
+      },
+      {
+        title: "Flavor, body, and color: how each changes a broth",
+        paragraphs: [],
+        bullets: [
+          "Sweetness: goji adds delicate, top-note sweetness; jujube offers deeper, caramel-leaning sweetness.",
+          "Texture: goji melts into tender bites; jujube gives chewable pieces and fuller mouthfeel.",
+          "Color: goji tints water warm orange-red; jujube skins tone broth amber-brown and lend a polished look.",
+          "Aroma: goji is light and grassy-fruity; jujube leans to warm bakery scents—malty, faintly toffee-like.",
+        ],
+      },
+      {
+        title: "When a recipe chooses one over the other",
+        paragraphs: [],
+        bullets: [
+          "Tea-style infusions: goji for quick color and tender bites; jujube for a mellow, sweet backbone.",
+          "Congee and porridges: goji adds color and soft texture; jujube brings a dessert-adjacent undercurrent.",
+          "Clear soups with bones: jujubes early add depth; goji at the end adds fruit and lift.",
+          "Sweet broths: jujube is the default anchor; goji joins as a garnish. Use jujube to build the house, goji to open the windows.",
+        ],
+      },
+      {
+        title: "What readers often miss",
+        paragraphs: [],
+        bullets: [
+          "Timing matters more than quantity: a small handful of jujube early can outdo a large handful of goji added late.",
+          "Shape signals function: whole jujubes say \"simmer me,\" sliced say \"steep me.\"",
+          "Color tells you about heat: bright orange-red goji usually means gentle handling.",
+          "The two aren't either/or: many classic pots use jujube to carry sweetness and goji to brighten. Keep both airtight away from light and humidity.",
+        ],
+      },
+      {
+        title: "Common questions",
         paragraphs: [
-          "This is exactly the kind of page that supports both clarity and usability. It answers a real beginner question while strengthening links between pantry-friendly herb profiles and kitchen content.",
-          "It also stays safely educational rather than drifting into overpromised lifestyle language.",
+          "Can I swap goji for jujube in a tea-style infusion? Yes, with adjusted expectations. Goji will color and lightly sweeten but won't deliver jujube's date-like depth. To mimic jujube's roundness, include a few slices of dried longan or a touch of rock sugar.",
+          "Do I need to pit red jujubes before cooking? Not required. Whole jujubes look classic and slowly sweeten a soup; for mugs and congee, pitted or sliced fruit is easier. If using whole jujubes in a cup, remind guests about the pit.",
+          "Why did my goji berries turn pale and stringy? They likely boiled too hard or too long. Add goji in the final minutes or pour hot liquid over them and steep off-heat.",
+        ],
+      },
+      {
+        title: "About this page",
+        paragraphs: [
+          "This page compares goji berry and jujube as pantry fruits used in Chinese-style soups, porridges, and tea-style infusions. It focuses on flavor, texture, preparation, and the cultural kitchen language you'll see in recipes and cookbooks.",
         ],
       },
     ],
+    references: [
+      "[1] USDA FoodData Central. https://fdc.nal.usda.gov/",
+      "[2] Chinese Text Project. Huangdi Neijing (Yellow Emperor's Inner Canon). https://ctext.org/huangdi-neijing",
+    ],
   },
+
   {
     slug: "what-does-clear-heat-mean",
     title: "What Does Clear Heat Mean?",
     description:
-      "A plain-English explanation of one of the most common traditional phrases readers see on herb and tea pages.",
-    eyebrow: "Basics",
+      "A plain-English guide to \"clear heat\" in traditional Chinese food writing: cooling, clarifying ingredients, flavor cues, and the techniques that express it.",
+    eyebrow: "Basics & Concepts",
     intro:
-      "Clear heat is one of those classic phrases that shows up constantly in traditional herb writing but sounds vague in English. It belongs to a traditional descriptive system, not a modern labeling framework, and readers need a careful translation to use it well.",
+      "In traditional Chinese kitchen and herb writing, \"clear heat\" is a category label, not a promise. It points to foods, teas, and preparations described as cooling, clarifying, lightly bitter or aromatic, often watery or crisp, and suited to balmy weather. Think chrysanthemum or mint infusions, quick-blanched greens, cucumber and pear, mung bean broth.",
     sections: [
       {
-        title: "Why the phrase sounds stronger than it is",
-        paragraphs: [
-          "In English, clear heat can sound like a direct promise. In traditional writing, it is part of a pattern vocabulary used to describe how certain herbs and foods are categorized.",
-          "That means the phrase should be read as context for traditional classification, not as a one-line explanation of a personal situation.",
-        ],
-      },
-      {
-        title: "Where readers usually meet this phrase",
-        paragraphs: [
-          "Many beginners first see clear heat language on pages about chrysanthemum, mint, cooling teas, or warm-weather food traditions.",
-          "Without explanation, the phrase can create either confusion or overconfidence. A better site translates it into plain English and keeps the boundaries visible.",
-        ],
+        title: "The plain-English meaning",
+        paragraphs: [],
         bullets: [
-          "It is part of traditional heat-language, not a modern lab term.",
-          "It often appears on cooling herb and tea pages.",
-          "It should not be turned into self-labeling.",
+          "Temperature direction: cool rather than warm.",
+          "Flavor lean: often light-bitter, floral, grassy, or minty; sometimes lightly sweet.",
+          "Texture and water: crisp leaves, juicy fruits, seed broths, and clear infusions.",
+          "Cooking approach: brief heat or no heat; simmered broths that stay light and translucent.",
         ],
       },
       {
-        title: "How HerbGuide handles the phrase",
+        title: "Where you'll see it",
+        paragraphs: [],
+        bullets: [
+          "Tea notes: chrysanthemum, honeysuckle, lotus leaf, or mint described as \"clearing heat.\"",
+          "Summer menus: mung bean soup, chilled tofu, cucumber salads, or pear drinks introduced with cooling language.",
+          "Herb library entries: dried flowers, leaves, and seeds grouped by temperature (hot, warm, neutral, cool, cold).",
+          "Recipe headnotes: a cook pairs light bitterness with watery texture and calls the dish \"clearing\" for hot days.",
+        ],
+      },
+      {
+        title: "A simple heat-language map",
+        paragraphs: [],
+        bullets: [
+          "Temperature families: hot, warm, neutral, cool, cold—\"clear heat\" points to the cool/cold side.",
+          "Flavor allies: bitter and aromatic often signal \"clear heat\"; sweet can soften and moisten; sour can tighten and refresh.",
+          "Texture and form: leaves and flowers lean quick and dispersing; seeds and beans can be clearing yet heavier; high-water fruits feel refreshing.",
+          "Cooking verbs: blanch, steep, infuse, quick-sauté, simmer into a light broth, chill; long reductions and deep frying tilt the other way.",
+        ],
+      },
+      {
+        title: "Ingredients and preparations often labeled clear heat",
+        paragraphs: [],
+        bullets: [
+          "Chrysanthemum (ju hua) tea: dried flowers, floral and light-bitter; hot steep or cooled summer tea.",
+          "Mint (bo he) infusion: fresh or dried leaves, cool aroma and minty lift; quick steep, blends with green tea.",
+          "Mung bean (lu dou) soup: whole green beans, gentle beany sweetness; clear, silky broth when strained.",
+          "Watermelon rind: fresh julienned rind, juicy crunch; pickles, quick stir-fry, or chilled salad.",
+          "Lotus leaf (he ye) tea: dried leaf pieces, grassy and slightly bitter; brief simmer or long steep.",
+        ],
+      },
+      {
+        title: "Nearby terms and how they differ",
+        paragraphs: [],
+        bullets: [
+          "\"Disperse wind-heat\" (qu feng re): airy aromatics such as mint or chrysanthemum—a quick, surface-level lift; leans on aroma and short steeps.",
+          "\"Drain dampness\": light yet slightly drying preparations such as barley or adzuki soups; a dry, clean finish.",
+          "\"Cool the blood\" and \"clear heat and toxins\": a deeper bitter direction—heavier flowers or roots, longer simmers, stronger extraction.",
+          "\"Nourish yin\": a softer, moistening direction (pear, lily bulb, white fungus, silken tofu), often combined with gentle heat-clearing ingredients.",
+        ],
+      },
+      {
+        title: "What readers often miss",
+        paragraphs: [],
+        bullets: [
+          "Temperature is not just \"cold\": a room-temperature chrysanthemum infusion can feel more clarifying than the same tea over ice.",
+          "Bitter comes in shades: light, floral bitterness supports \"clear heat\"; dark, roasted bitterness trends toward warming.",
+          "Water content carries the idea: high-water produce and clear broths read more clearing than dense, dry items.",
+          "Technique flips the label: deep-frying mint turns it crisp and toasty, closer to neutral or lightly warm. Intensity is a dial—from gentle (lettuce) to strong (lotus leaf).",
+        ],
+      },
+      {
+        title: "Common questions",
         paragraphs: [
-          "HerbGuide uses clear heat as a traditional category label and then explains what kind of food or herb context that label usually points to.",
-          "That keeps the page educational, readable, and more trustworthy.",
+          "Does \"clear heat\" always mean a dish is served cold? No. The phrase points to a cooling direction, not serving temperature. A hot chrysanthemum infusion can still read as clearing because of its floral bitterness and light body.",
+          "Is fruit automatically \"clear heat\"? Not automatically. High-water fruits such as watermelon and Asian pear often fit, but sweetness, ripeness, and pairing matter. A dense, reduced fruit syrup leans warming.",
+          "Can cooking turn a \"clear heat\" ingredient into something else? Yes. Quick blanching, brief steeps, and clear broths keep the feel; long reductions, deep frying, or heavy roasting shift the dish toward neutral or warming.",
+        ],
+      },
+      {
+        title: "About this page",
+        paragraphs: [
+          "This page explains how \"clear heat\" functions as traditional culinary vocabulary—how it maps to flavor, texture, temperature direction, and kitchen technique, with examples a home cook can picture: flower infusions, watery fruits, quick-blanched greens, and light broths.",
         ],
       },
     ],
+    references: [
+      "[1] Chinese Text Project. Huangdi Neijing (Yellow Emperor's Inner Canon). https://ctext.org/huangdi-neijing",
+      "[2] Guo et al. Influence of Various Tea Utensils on Sensory and Chemical Quality of Different Teas. Plants (2024). https://doi.org/10.3390/plants13050669",
+    ],
   },
+
   {
     slug: "what-does-tonify-mean",
     title: "What Does Tonify Mean?",
     description:
-      "A comprehensive guide to the traditional concept of tonifying — what it means, the four main types of tonifying, key ingredients for each category, and when NOT to tonify.",
+      "A kitchen-language guide to \"tonify\" (补, bǔ): how it signals building, replenishing dishes, the four tonify phrases, and the forms and textures they point to.",
     eyebrow: "Basics & Concepts",
     intro:
-      "In the context of traditional Chinese wellness practices, to 'tonify' (补, bǔ) means to nourish, build up, or replenish something that is lacking or deficient in the body. You will often see this term used in phrases like 'tonify the Qi,' 'tonify the Blood,' or 'tonify Yin.' It is the opposite of 'clearing' or 'draining,' which are actions used when there is an excess of something (like heat or dampness).",
+      "In traditional Chinese food and herb writing, \"tonify\" (补, bǔ) means \"to build up\" or \"to replenish\" something described as lacking. You'll meet it in phrases like \"tonify qi,\" \"tonify blood,\" or \"tonify yin/yang.\" In kitchen terms, it signals recipes that lean nourishing, steady, and sustaining—congees, long-simmered broths, gentle steeps—rather than dishes meant to lighten, vent, or purge.",
     sections: [
       {
-        title: "The Concept of Tonifying",
-        paragraphs: [
-          "In the context of traditional Chinese wellness practices, to 'tonify' (补, bǔ) means to nourish, build up, or replenish something that is lacking or deficient in the body. You will often see this term used in phrases like 'tonify the Qi,' 'tonify the Blood,' or 'tonify Yin.'",
-          "It is the opposite of 'clearing' or 'draining,' which are actions used when there is an excess of something (like heat or dampness). Understanding this distinction is essential: tonifying herbs and foods are about building up what is depleted, not removing what is excessive. This is why a tonifying approach is not appropriate for every situation — and why traditional writing is careful about when and how these ingredients are used.",
-        ],
-      },
-      {
-        title: "The Four Main Types of Tonifying",
-        paragraphs: [
-          "Traditional theory generally categorizes deficiencies—and therefore the herbs and foods used to tonify them—into four main areas:",
-        ],
+        title: "Where you'll see the word in recipes and books",
+        paragraphs: [],
         bullets: [
-          "Tonifying Qi (Energy): Used when the body's functional energy is weak, leading to fatigue or poor digestion. Classic Qi-tonifying ingredients include Ginseng (Ren Shen), Astragalus (Huang Qi), and Chinese Yam (Shan Yao).",
-          "Tonifying Blood: Used when the body's nourishing fluids are depleted, which might manifest as a pale complexion, dry hair, or menstrual irregularities. Classic Blood-tonifying ingredients include Dong Quai (Dang Gui), Jujube (Red Date), and Goji Berry.",
-          "Tonifying Yin (Cooling/Moistening): Used when the body lacks its cooling, restorative fluids, leading to feelings of heat, dryness, or restlessness. Classic Yin-tonifying ingredients include Ophiopogon Root (Mai Men Dong), Lily Bulb (Bai He), and Tremella Mushroom.",
-          "Tonifying Yang (Warming/Active): Used when the body lacks its warming, active energy, leading to a deep feeling of cold or profound lethargy. Classic Yang-tonifying ingredients include Cinnamon Bark (Rou Gui) and Eucommia Bark (Du Zhong).",
+          "补气 bǔ qì — tonify qi.",
+          "补血 bǔ xuè — tonify blood.",
+          "补阴 bǔ yīn — tonify yin.",
+          "补阳 bǔ yáng — tonify yang. Editors sometimes swap \"tonify\" for \"nourish,\" \"fortify,\" or \"replenish,\" but the pinyin (bǔ) cues a specific cultural frame.",
         ],
       },
       {
-        title: "When NOT to Tonify",
-        paragraphs: [
-          "A crucial principle in traditional herb theory is knowing when not to tonify.",
-          "Tonifying herbs are generally rich, heavy, and deeply nourishing. Because of this, traditional practitioners usually advise against using strong tonics when the body is actively fighting an acute situation, such as a cold or flu. The traditional logic is that tonifying during an acute external challenge might 'feed' the pathogen or trap it inside the body. Instead, the focus shifts to 'clearing' the issue first, before returning to a tonifying regimen.",
+        title: "Plain-English meaning and the character 补 (bǔ)",
+        paragraphs: [],
+        bullets: [
+          "A handy image is topping up a pot that has simmered down—adding back, not pouring off.",
+          "Grains, roots, seeds, and denser fruits stand in for \"building blocks.\"",
+          "Slow, even heat (simmering, double-boiling, gentle steaming) keeps flavors round and calm.",
+          "By contrast, \"clear\" (清 qīng) and \"drain\" (泻 xiè) signal the opposite: lighter, venting, watery, or drying.",
         ],
       },
       {
-        title: "Read This Page in Context",
+        title: "The four \"tonify\" phrases, in kitchen terms",
+        paragraphs: [],
+        bullets: [
+          "Tonify qi (补气, bǔ qì): build everyday oomph—light broths, congee, mild steeps (astragalus root, Chinese yam, jujube).",
+          "Tonify blood (补血, bǔ xuè): enrich and moisten—sticky rice dishes, syrupy teas (angelica sinensis, goji, black sesame).",
+          "Tonify yin (补阴, bǔ yīn): cool, soothe, replenish fluids—lily-bulb soups, pear steeps, tremella desserts (lily bulb, ophiopogon, tremella).",
+          "Tonify yang (补阳, bǔ yáng): warm and invigorate—spiced stews and long brews (dried ginger, cinnamon bark, walnuts).",
+        ],
+      },
+      {
+        title: "Forms and techniques: how tonifying shows up on the stove",
+        paragraphs: [],
+        bullets: [
+          "Long simmering, soft finish: many tonifying broths simmer 1-2 hours or use double-boiling for a glossy, round, quiet result.",
+          "Congee and grain bases: rice, millet, or barley cooked with extra water until silky.",
+          "Syrupy steeps and dessert soups: tremella-and-pear soups, jujube-and-longan teas, black-sesame pastes with restrained sweetness.",
+          "Low-volatility seasoning: a slice of ginger rather than a fistful; a touch of rice wine rather than strong vinegar. Mouthfeel is silken, plush, or porridge-smooth; sweetness is honeyed or grain-sweet rather than candied.",
+        ],
+      },
+      {
+        title: "Nearby words: tonify vs. nourish, enrich, strengthen, warm",
+        paragraphs: [],
+        bullets: [
+          "Tonify (补, bǔ): the headline verb for \"add back\"—top up the pot.",
+          "Nourish (养 yǎng / 滋 zī): a softer cousin—gentle feeding and moistening (porridges, dessert soups).",
+          "Enrich (益 yì): signals density or moisture—seeds, nuts, black grains, syrupy textures.",
+          "Warm (温 wēn): temperature and spice direction—cinnamon, dried ginger, rice wine. \"Warm and tonify yang\" means spiced, inward-warming, and building.",
+        ],
+      },
+      {
+        title: "What readers often miss: context, season, and balance",
+        paragraphs: [],
+        bullets: [
+          "Read the season: tonifying menus tend to surface in cool weather and evening meals.",
+          "Watch the stack: \"warm + tonify\" usually points to yang-leaning spices; \"moisten + tonify\" leans yin with dessert soups.",
+          "Expect small, steady servings: tonifying bowls are often modest—one ladle of broth, a tea jar poured twice.",
+          "Balance with movement: even building dishes often carry a thread of \"move\" (tangerine peel, a coin of ginger) to avoid heaviness.",
+        ],
+      },
+      {
+        title: "Common questions",
         paragraphs: [
-          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+          "Does \"tonify\" always mean high-calorie cooking? No. Some tonifying dishes are rich and dense; others are light but steady, like a mild astragalus-and-jujube broth or a lily-bulb-and-pear steep. The label points to a \"build and replenish\" direction, not a calorie number.",
+          "Are animal ingredients required for tonifying recipes? Not at all. Many are entirely plant-based—grains, legumes, roots, seeds, nuts, and fruits. Bones, oxtail, or poultry are optional from a vocabulary point of view.",
+          "Can a dish be both \"warming\" and \"tonifying\"? Yes. Stacked labels are common: \"warm and tonify yang\" means a spice-forward, inward-warming profile carried by a building base. Read the stack as a flavor-and-form roadmap.",
+        ],
+      },
+      {
+        title: "About this page",
+        paragraphs: [
+          "This Basics page explains how the traditional verb \"tonify\" (补, bǔ) is used in food and herb writing. It focuses on kitchen-language meanings—flavor direction, texture, ingredient families, and cooking methods—so readers can parse recipes, menus, and glossaries without adopting personal labels.",
         ],
       },
     ],
+    references: [
+      "[1] Chinese Text Project. Huangdi Neijing (Yellow Emperor's Inner Canon). https://ctext.org/huangdi-neijing",
+    ],
   },
+
   {
     slug: "what-does-moisten-dryness-mean",
     title: "What Does Moisten Dryness Mean?",
     description:
-      "A simple guide to one of the most common traditional phrases used on kitchen-tradition and gentle herb pages.",
-    eyebrow: "Basics",
+      "A plain-English guide to \"moisten dryness\" in traditional food writing: juicy, tender ingredients and soft, humid cooking to balance dry air and dry-heat techniques.",
+    eyebrow: "Basics & Concepts",
     intro:
-      "Moisten dryness is a classic phrase that appears often on pages about pear, lily bulb, mulberry, and ophiopogon. It belongs to a traditional language system that connects climate, food texture, and seasonal reading in ways many English-speaking readers have not seen before.",
+      "In classical Chinese-influenced food writing, \"moisten dryness\" is a compact kitchen phrase. It points to choosing juicy, tender, or gently syruped foods and soft, humid cooking to balance parched air, parched menus, and dry-heat techniques. Think fall wind, radiators on, and too much frying—then think pears, lily bulb, snow fungus, light broths, and steam. The phrase helps cooks plan texture, liquid, and preparation style so a meal reads softer, silkier, and less raspy on the palate.",
     sections: [
       {
-        title: "Why the phrase appears so often",
-        paragraphs: [
-          "Dryness is one of the easiest traditional ideas to connect with season, weather, and food routine. Readers can imagine dry air, scratchy conditions, or the desire for softer foods even before they know the technical vocabulary.",
-          "That makes moisten dryness one of the most useful phrases for beginner education.",
-        ],
-      },
-      {
-        title: "How to read it responsibly",
-        paragraphs: [
-          "Here, moisten dryness is explained as part of traditional classification and seasonal food language.",
-          "It is not presented as a direct promise about one situation or one person. That distinction matters for safe and credible content.",
-        ],
+        title: "What the phrase means, plainly",
+        paragraphs: [],
         bullets: [
-          "The phrase often appears on gentle food pages.",
-          "It is tied to traditional climate and texture language.",
-          "It should stay descriptive, not prescriptive.",
+          "It means: bring back softness and juiciness when everything else feels a bit parched.",
+          "It is about moisture, mouthfeel, and gentle methods—steaming, poaching, light syrups, broths—not sweetness alone.",
+          "It shows up attached to fruit-forward snacks, delicate roots and bulbs, and translucent fungi and seeds that turn silky when simmered.",
         ],
       },
       {
-        title: "Where to see the idea in practice",
+        title: "A quick kitchen vocabulary map",
+        paragraphs: [],
+        bullets: [
+          "Dry-leaning cues: late autumn air; roasting, grilling, stir-frying until squeaky-dry; crackers and toasted nuts; tannic teas.",
+          "Moist-leaning cues: steam-hazy kitchens; poaching, double-steaming, gentle simmering; pears dripping with juice; soaked snow fungus that turns bouncy-silky.",
+          "Parched air or windy days call for sheen and juiciness—Asian pear, mulberry, ophiopogon in poached fruit, light syrups, or clear teas.",
+          "Lots of dry-heat cooking calls for rebalancing texture toward soft—fresh lily bulb, tremella in double-steamed soups or congee.",
+        ],
+      },
+      {
+        title: "Ingredient snapshots: how it shows up on the plate",
+        paragraphs: [],
+        bullets: [
+          "Asian pear (li): crisp yet juicy, stays moist after gentle heating; steamed with rock sugar until a light syrup forms.",
+          "Fresh lily bulb (bai he): petal-like segments that turn tender and satiny in porridge.",
+          "Mulberry (sang shen): plump, wine-colored berries simmered into syrupy liquid, spooned over tofu or rice porridge.",
+          "Ophiopogon (mai men dong): a thin, starchy root in tea-style infusions that gives a faintly slick mouthfeel.",
+          "Tremella (snow fungus, yin-er): soaked until it blooms, then simmered gelatinous and spoonable without dairy or starch.",
+          "Black sesame (hei zhi ma): ground into pastes and thin drinks with a glossy, moist-feeling texture.",
+        ],
+      },
+      {
+        title: "Cooking forms that carry moisture",
+        paragraphs: [],
+        bullets: [
+          "Steam and double-steam: traps humidity; pear halves or lily bulb with rock sugar are often double-steamed.",
+          "Poach and light syrup: low heat, a handful of fruit or seeds, just enough liquid for a thin, glossy bath.",
+          "Long-simmered broths with gelatinous pieces: tremella and white wood ear release a silky quality; the pot should burp gently, never boil hard.",
+          "Congee and porridge additions: rice porridge is a natural canvas for lily bulb petals, syruped mulberries, or black sesame paste.",
+        ],
+      },
+      {
+        title: "Nearby terms and what readers often miss",
+        paragraphs: [],
+        bullets: [
+          "Cooling points to fresh, crisp relief (cucumber, mung bean, chrysanthemum tea); moistening is about slip and gloss.",
+          "Warming can be moist (braises) or dry (toasted snacks); the emphasis is cozy heat.",
+          "Astringent (hawthorn, strong black tea) reads dry; \"moisten dryness\" moves the opposite direction.",
+          "It's not just \"add more water\": many watery foods still read dry because of tannin or bitterness; the goal is moisture plus glide. Sweet is not required, and season plus method matter as much as ingredient.",
+        ],
+      },
+      {
+        title: "Common questions",
         paragraphs: [
-          "Pear and lily bulb content is one of the clearest ways to understand how this phrase works. So are pages on lily bulb, mulberry, and other softer seasonal ingredients.",
-          "That is why HerbGuide links these explanation pages closely with kitchen-tradition content instead of keeping them isolated.",
+          "Is \"moisten dryness\" the same as \"make it sweet\"? No. Many moist-leaning dishes are lightly sweet, but sweetness is not the target—mouth-coating moisture is. You can \"moisten dryness\" with unsweetened congee, clear broths, and steamed dishes that stay juicy.",
+          "Does this mean avoid roasting and frying? Not necessarily. The phrase points to balance, not a ban. A roast-heavy menu can be balanced by a single moist-leaning soup or dessert.",
+          "Which ingredients are classic examples? Asian pear, fresh lily bulb, mulberry, ophiopogon, and snow fungus, often in steamed, poached, or long-simmered forms. They stay moist and produce glossy, gentle liquids.",
+        ],
+      },
+      {
+        title: "About this page",
+        paragraphs: [
+          "This Basics page explains a traditional kitchen phrase using food, flavor, texture, and preparation language. It focuses on how cooks express \"moisten dryness\" through ingredient choice, cooking method, and seasonal menu design.",
         ],
       },
     ],
+    references: [
+      "[1] Chinese Text Project. Huangdi Neijing (Yellow Emperor's Inner Canon). https://ctext.org/huangdi-neijing",
+    ],
   },
+
   {
     slug: "what-does-spleen-mean",
     title: "What Does Spleen Mean in Traditional Herb Writing?",
     description:
-      "A beginner-friendly explanation of why the traditional spleen is not exactly the same thing as the organ name many readers know from modern anatomy.",
-    eyebrow: "Basics",
+      "A plain-English guide to \"Spleen\" as kitchen language: the cook-and-carry rhythm of transforming meals, moving moisture, and the flavors and methods that support it.",
+    eyebrow: "Basics & Concepts",
     intro:
-      "The traditional spleen is one of the most misunderstood terms in traditional herb writing because readers naturally assume it means only the modern anatomical organ. In traditional herb and food language, the spleen usually points to a broader functional system connected with transformation, nourishment, and daily digestive rhythm.",
+      "In traditional herb and food writing, \"Spleen\" is a kitchen metaphor, not just the anatomical organ. It points to the daily work of turning cooked grain and roots into usable nourishment and moving moisture along. When a note says an ingredient \"supports the Spleen,\" read it as: helps the body's cook-and-carry rhythm—appetite, post-meal lightness vs. heaviness, and fluid handling. This vocabulary steers readers toward gentle heat, porridge, roasting, and mild, grain-friendly flavors.",
     sections: [
       {
-        title: "Why the term causes confusion",
-        paragraphs: [
-          "When readers see spleen on a herb page, they often think they are looking at a direct organ-targeting claim. In traditional writing, organ names often describe functional networks rather than one anatomical structure alone.",
-          "That difference matters because many kitchen-tradition pages, tonic herb pages, and dampness pages rely on spleen-language heavily.",
-        ],
-      },
-      {
-        title: "How the traditional spleen is usually described",
-        paragraphs: [
-          "Here, the traditional spleen is usually explained through food transformation, appetite, heaviness, fluid handling, and general nourishment language.",
-          "That makes it easier for readers to understand why astragalus, codonopsis, jujube, Chinese yam, and Job's Tears appear so often near spleen references.",
-        ],
+        title: "Short answer: how to read \"Spleen\"",
+        paragraphs: [],
         bullets: [
-          "The term belongs to a traditional model.",
-          "It often appears in digestive and dampness-related content.",
-          "It should not be read as a direct anatomical claim.",
+          "Think of \"Spleen\" as the house cook and porter: it \"cooks\" what you eat (transforming) and \"carries\" the result (transporting).",
+          "Appetite and the comfort of the middle after eating.",
+          "Whether a meal feels light and steady or heavy and boggy.",
+          "How the body deals with moisture (\"dampness\") and the steady, grain-centered rhythm of daily meals.",
         ],
       },
       {
-        title: "Why this page matters for beginners",
+        title: "Where you'll see it on HerbGuide and in cookery notes",
+        paragraphs: [],
+        bullets: [
+          "Ingredient pages: mild roots, grains, and seeds—astragalus, codonopsis, Chinese yam, Job's Tears, millet, rice.",
+          "Basics pages that explain texture words like \"dampness,\" \"phlegm,\" and \"qi.\"",
+          "Kitchen guides that emphasize steady heat and water: congee, barley soups, jujube-studded stews, gentle stir-fries.",
+        ],
+      },
+      {
+        title: "A plain-English vocabulary map for \"Spleen\"",
+        paragraphs: [],
+        bullets: [
+          "\"Fortify/strengthen the Spleen\": encourage steady appetite and easy conversion of meals into stamina—warm, even heat (astragalus, codonopsis, Chinese yam, jujube).",
+          "\"Move/transform dampness\": shed a heavy, boggy feeling—dry-toast, roast, or simmer (Job's Tears, barley, aged tangerine peel).",
+          "\"Spleen governs transport\": keep things moving so meals don't sit—light soups, balanced seasoning (millet congee, carrot-ginger broth).",
+          "\"Support middle burner\": keep the stove of the torso warm and steady—gentle warmth (fresh ginger, scallion, chicken-rice soup).",
+          "\"Spleen dislikes dampness\": heavy, undercooked, or greasy foods bog the system down—cook until tender, skim stocks.",
+        ],
+      },
+      {
+        title: "What readers often miss (and how to read with confidence)",
+        paragraphs: [],
+        bullets: [
+          "It's a model, not a map of one organ: the word points to a function idea—transform and transport.",
+          "Texture matters as much as ingredient names: a \"Spleen-friendly\" list can fall flat if the dish is under-cooked, greasy, or iced.",
+          "Sweetness is about grain, not sugar: the \"sweet\" linked to Spleen means millet, yam, squash, rice, and jujube mellow-sweet—not syrupy desserts.",
+          "Temperature is about effect, not thermometer numbers: \"warm\" means the feeling of a gentle stew or gingery broth. Phrases are signals, not commands.",
+        ],
+      },
+      {
+        title: "Common questions",
         paragraphs: [
-          "Once readers understand what spleen means in this framework, a large part of the herb library becomes much easier to read.",
-          "It is one of the most useful glossary pages because it removes confusion from many other articles at once.",
+          "Does \"Spleen\" always mean the anatomical spleen? No. In this tradition it names a broader functional idea about transforming meals and moving moisture. Read it as culinary shorthand rather than a literal organ reference.",
+          "Why do grains and pale roots show up whenever \"Spleen\" is mentioned? Because the associated flavor palette is the mellow sweetness of grains and tubers, prepared with steady warmth and careful moisture control—porridges, broths, and long-simmered pots that feel light yet sustaining.",
+          "How do I use this vocabulary when reading recipes? Translate the phrases into kitchen choices: \"fortify the Spleen\" nudges you toward warm, simply seasoned, grain-centric dishes; \"transform dampness\" hints at toasting, skimming, and not overloading the pot.",
+        ],
+      },
+      {
+        title: "About this page",
+        paragraphs: [
+          "This page explains how the traditional \"Spleen\" label functions as culinary vocabulary—its flavor associations, textures, and cooking methods—and shows how to read ingredient lists and recipe notes that use the term. The focus is food language, kitchen imagery, and cultural phrasing found in classic and modern herb-cookery writing.",
         ],
       },
     ],
+    references: [
+      "[1] Chinese Text Project. Huangdi Neijing (Yellow Emperor's Inner Canon). https://ctext.org/huangdi-neijing",
+    ],
   },
+
   {
     slug: "what-is-spleen-qi",
     title: "What Is Spleen Qi?",
     description:
-      "A comprehensive guide to the traditional concept of Spleen Qi — what the Spleen represents in traditional frameworks, the role and functions of Spleen Qi, signs of weakness, and practical ways to support it through diet.",
+      "A plain-English guide to \"Spleen Qi\" in traditional food writing: the transforming, distributing, and steadying \"engine\" behind everyday nourishment.",
     eyebrow: "Basics & Concepts",
     intro:
-      "When traditional Chinese wellness practices talk about the 'Spleen' (脾, Pí), they are not referring to the anatomical organ that filters blood in Western medicine. Instead, they are referring to a conceptual system—the entire process of digestion, nutrient absorption, and energy production. In traditional theory, the Spleen is paired with the Stomach. Together, they form the 'root of post-natal Qi,' meaning they are responsible for extracting energy (Qi) and nutrients from the food and drink we consume after birth.",
+      "In traditional Chinese food writing, \"Spleen Qi\" doesn't point to the anatomical spleen. It's a kitchen-style idea about how the body turns what you eat and drink into usable vitality and moves it where it needs to go. The Spleen is paired with the Stomach and often described as the post-meal \"engine\" that transforms grain, soups, and broths into strength. Think of it as the steady stove fire and orderly ladle-work behind everyday nourishment.",
     sections: [
       {
-        title: "Understanding the 'Spleen' in Traditional Frameworks",
-        paragraphs: [
-          "When traditional Chinese wellness practices talk about the 'Spleen' (脾, Pí), they are not referring to the anatomical organ that filters blood in Western medicine. Instead, they are referring to a conceptual system—the entire process of digestion, nutrient absorption, and energy production.",
-          "In traditional theory, the Spleen is paired with the Stomach. Together, they form the 'root of post-natal Qi,' meaning they are responsible for extracting energy (Qi) and nutrients from the food and drink we consume after birth. This is a foundational concept: if the Spleen-Stomach system is weak, the body cannot properly derive energy from food, no matter how nutrient-dense the diet may be.",
-        ],
-      },
-      {
-        title: "The Role of Spleen Qi",
-        paragraphs: [
-          "Spleen Qi specifically refers to the functional energy of this digestive system. Its primary traditional functions include:",
-        ],
+        title: "Plain-English meaning",
+        paragraphs: [],
         bullets: [
-          "Transformation and Transportation: Breaking down food and transporting the extracted nutrients and fluids throughout the body.",
-          "Holding Blood: Keeping blood contained within the vessels.",
-          "Raising Energy: Keeping the body's organs in their proper positions and providing a sense of physical uplift and lightness.",
+          "Transformation: cooking food down to essence.",
+          "Transportation: sending that essence to different places.",
+          "Raising and holding: lifting and organizing things so they don't sink or feel heavy.",
+          "It's a way to talk about appetite, cooking styles, textures, and whether a meal leaves you grounded or bogged down.",
         ],
       },
       {
-        title: "Signs of Weak Spleen Qi (Spleen Qi Deficiency)",
-        paragraphs: [
-          "When Spleen Qi is weak, the digestive system becomes sluggish, and the body fails to extract enough energy from food. Traditional practitioners often look for these signs:",
-        ],
+        title: "Where you'll see the phrase",
+        paragraphs: [],
         bullets: [
-          "Chronic fatigue, especially after eating a meal",
-          "Poor appetite or feeling full after eating very little",
-          "Loose stools or chronic digestive sluggishness",
-          "A feeling of heaviness in the limbs",
-          "A tendency to bruise easily (because the Spleen is failing to 'hold' the blood)",
+          "Classic herb and food texts describing why congees, millet porridges, and warm soups are praised.",
+          "Modern Chinese-language cookbooks that echo older metaphors (\"strengthening the Spleen with gentle grains\").",
+          "Teahouse or apothecary notes that sort ingredients by nature (warm, neutral, cool) and texture (drying, moistening).",
+          "Seasonal menu ideas that shift from raw crunch in summer to long-simmered bowls in cool, damp weather.",
         ],
       },
       {
-        title: "How to Support Spleen Qi",
-        paragraphs: [
-          "Because the Spleen is responsible for 'cooking' our food into energy, it strongly prefers warm, cooked, and easily digestible foods.",
-        ],
+        title: "A kitchen-language map of Spleen Qi",
+        paragraphs: [],
         bullets: [
-          "Foods to favor: Warm soups, porridges, root vegetables (like sweet potato and pumpkin), and gentle grains (like rice and oats).",
-          "Foods to limit: Cold, raw foods (like large salads or ice water), overly sweet foods, and heavy, greasy meals, all of which require too much energy for a weak Spleen to process.",
+          "\"Transform and transport\" (运化): break food down and move its essence—a steady simmer that reduces broth, then a ladle delivering it to bowls.",
+          "\"Raise the clear, descend the turbid\" (升清降浊): lift light, useful parts and let heaviness settle—skimming foam, keeping steam rising.",
+          "\"Likes warmth, dislikes cold\": warmth supports this process, cold slows it—warm teas, room-temp fruit, cooked greens.",
+          "\"Manages dampness\" (运湿): keeps sogginess in check—avoiding a gluey pot of rice, letting steam escape.",
+          "\"Holds and contains\": keeps things where they belong—a well-set custard, gentle proteins, balanced seasoning.",
         ],
       },
       {
-        title: "Read This Page in Context",
+        title: "From market to bowl: cooking moves tied to this idea",
+        paragraphs: [],
+        bullets: [
+          "Warmth at the core: long simmers and double-boiling for a round, settled result.",
+          "Gentle grains: millet, rice, and barley cooked until silky and spoonable.",
+          "Moisture control: drain blanched greens, keep rice fluffy, let steam escape to finish sauces bright.",
+          "Light aromatics: a coin of ginger or a strip of tangerine peel to lift without overwhelming.",
+        ],
+      },
+      {
+        title: "What readers often miss",
+        paragraphs: [],
+        bullets: [
+          "Spleen ≠ spleen: the capital-S \"Spleen\" is a role in a traditional framework, closer to a job title (\"the transformer\") than a body part.",
+          "Warming doesn't mean spicy: a dish can be \"warming\" because it's cooked and steamy, not hot with chiles.",
+          "Dampness is a texture word: \"managing dampness\" means keeping porridge from turning gluey.",
+          "It's a reading lens, not a rulebook: the same authors also praise crisp greens in the right season.",
+        ],
+      },
+      {
+        title: "Common questions",
         paragraphs: [
-          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+          "Does \"Spleen\" here mean the anatomical organ? No. In this context, \"Spleen\" is a role in a traditional framework about how meals are transformed and moved. It's paired with the Stomach and grouped under the \"Middle Burner\"—the old diagram's cooking zone.",
+          "Why do older recipes caution against icy drinks and giant raw salads for Spleen Qi? Because the tradition frames Spleen Qi as a steady flame and steady ladle-work. Icy, bulky foods are described as dousing the flame and overloading the pot; cooked and room-temperature dishes keep the \"stove\" consistent.",
+          "What does \"managing dampness\" look like on a plate? In kitchen terms, avoiding sogginess: drain blanched greens before stir-frying, keep rice fluffy not gluey, and let steam escape to finish a sauce bright.",
+        ],
+      },
+      {
+        title: "About this page",
+        paragraphs: [
+          "This page explains Spleen Qi as a piece of traditional Chinese food and flavor vocabulary. It focuses on kitchen imagery—temperature, texture, cut size, aromatics, and seasonal menu sense—so readers can navigate classic and modern recipes that use this language.",
         ],
       },
     ],
+    references: [
+      "[1] Chinese Text Project. Huangdi Neijing (Yellow Emperor's Inner Canon). https://ctext.org/huangdi-neijing",
+    ],
   },
+
   {
     slug: "what-does-liver-mean",
     title: "What Does Liver Mean in Traditional Herb Writing?",
     description:
-      "A plain-English guide to one of the most common and most misunderstood organ-system words in traditional herb writing.",
-    eyebrow: "Basics",
-    intro:
-      "The traditional liver is not just a one-to-one match for the modern anatomical liver. In traditional herb writing, liver often appears in discussions of flow, tension, blood storage, emotion, and the smooth movement of qi. That is why the word shows up on many herb pages that seem unrelated at first glance.",
-    sections: [
-      {
-        title: "Why the term appears so often",
-        paragraphs: [
-          "Readers meet liver-language on pages about goji berry, chrysanthemum, white peony root, mint, and many comparison or pattern pages.",
-          "Without explanation, this can make traditional writing feel either mystical or overly technical. A clear translation keeps the language grounded.",
-        ],
-      },
-      {
-        title: "How this guide explains liver-language",
-        paragraphs: [
-          "Here, the traditional liver is usually introduced through ideas of movement, stored blood, balance, and smoothness rather than through direct problem-solving claims.",
-          "That style helps readers understand why qi stagnation, blood-related pages, and cooling tea pages may all touch the same term in different ways.",
-        ],
-        bullets: [
-          "The traditional liver is a traditional functional system.",
-          "It often overlaps with qi movement and blood-language.",
-          "It should not be collapsed into one modern organ meaning.",
-        ],
-      },
-      {
-        title: "Where to see the concept in action",
-        paragraphs: [
-          "Comparison pages, cooling herb pages, and some nourishing herb pages are the easiest places to see this term used well.",
-          "Once readers know what the traditional liver means, they can interpret a wider range of herb descriptions with much more confidence.",
-        ],
-      },
-    ],
-  },
-  {
-    slug: "what-does-yin-deficiency-mean",
-    title: "What Is Yin Deficiency?",
-    description:
-      "A comprehensive guide to the traditional concept of Yin Deficiency — what Yin represents, how deficiency manifests as 'Empty Heat,' the signs, causes, traditional approaches, and lifestyle and kitchen notes for nourishing Yin.",
+      "A food-writing guide to \"Liver\" in traditional herb language: movement, smooth flow, stored blood, spring energy, and the moderating edge of sour flavor.",
     eyebrow: "Basics & Concepts",
     intro:
-      "In the traditional philosophy of Yin and Yang, 'Yin' represents the cooling, moistening, resting, and substantive aspects of the body. It is the water that cools the engine, the oil that lubricates the joints, and the quiet night that follows the active day. In the body, Yin encompasses all the dense, nourishing fluids and tissues—blood, marrow, cellular fluids, and the physical substance of the organs themselves.",
+      "In traditional herb and kitchen writing, \"Liver\" names a functional idea, not just the anatomical organ. It's shorthand for movement, smooth flow, stored blood, springlike energy, and the moderating edge of sour flavor. Writers use it to connect herbs, tastes, colors, and textures that support ease and smoothness—think mint's lift, chrysanthemum's cool clarity, vinegar's gathering quality, and the green of spring shoots. Read it as a mapping term that links ingredients and preparation styles, not as a one-to-one body part.",
     sections: [
       {
-        title: "The Concept of Yin in Traditional Frameworks",
-        paragraphs: [
-          "In the traditional philosophy of Yin and Yang, 'Yin' represents the cooling, moistening, resting, and substantive aspects of the body. It is the water that cools the engine, the oil that lubricates the joints, and the quiet night that follows the active day.",
-          "In the body, Yin encompasses all the dense, nourishing fluids and tissues—blood, marrow, cellular fluids, and the physical substance of the organs themselves. Without adequate Yin, the body loses its ability to cool, rest, repair, and regenerate — leading to a state of chronic, low-grade depletion.",
-        ],
-      },
-      {
-        title: "Understanding Yin Deficiency",
-        paragraphs: [
-          "'Yin Deficiency' (阴虚, Yīn Xū) occurs when the body's cooling and moistening reserves are depleted. When there is not enough Yin (water/coolness) to balance the Yang (fire/heat), the body experiences a state of 'False Fire' or 'Empty Heat.'",
-          "Unlike a true fever or acute inflammation (which is an excess of Yang), the heat from Yin Deficiency is a low-grade, chronic warmth caused by a lack of coolant. It is often compared to an engine running hot because it is low on oil. This distinction is critical: treating Empty Heat with strong cooling herbs meant for excess heat would be like draining the remaining oil from an overheating engine instead of adding more.",
-        ],
-      },
-      {
-        title: "Signs of Yin Deficiency",
-        paragraphs: [
-          "Because Yin Deficiency involves both a lack of moisture and a relative excess of heat, traditional practitioners look for signs of chronic dryness combined with low-grade, restless heat:",
-        ],
+        title: "Short answer: what \"Liver\" signals in this tradition",
+        paragraphs: [],
         bullets: [
-          "Dryness: Dry mouth and throat (especially at night), dry eyes, dry skin, and dry, hard stools.",
-          "Empty Heat: A feeling of heat in the 'five palms' (the palms of the hands, soles of the feet, and the center of the chest).",
-          "Night Sweats: Sweating while asleep is a classic hallmark of Yin failing to anchor the body's energy at night.",
-          "Restlessness: A feeling of being 'tired but wired,' mild anxiety, and difficulty staying asleep.",
-          "Physical Signs: A red tongue with little or no coating, and a flushed appearance on the cheekbones (malar flush).",
+          "Smooth, unobstructed movement (qi moving without snagging).",
+          "Stored blood and the even distribution that keeps things moving smoothly.",
+          "Spring, wood, and green—imagery of growth, flexibility, and bend-without-break.",
+          "Sour flavor as a gathering, focusing edge; tension and ease as felt qualities—tight versus unbound.",
         ],
       },
       {
-        title: "Causes of Yin Deficiency",
-        paragraphs: [
-          "Yin is naturally consumed as we age, making mild Yin Deficiency common in older adults (such as during menopause). However, it can be accelerated by:",
-        ],
+        title: "Where you'll see the word in herb and kitchen reading",
+        paragraphs: [],
         bullets: [
-          "Chronic overwork and lack of sleep (burning the candle at both ends)",
-          "Prolonged emotional stress or anxiety",
-          "A diet excessively high in hot, spicy, or drying foods (like coffee, alcohol, and chili)",
-          "Chronic, lingering illness that depletes the body's reserves",
+          "Cooling teas and simple infusions: chrysanthemum, mint, and mulberry leaf often appear with Liver notes.",
+          "Nourishing tonics and pantry herbs: goji berry and white peony root are frequently explained with Liver terms.",
+          "Spice rack standbys: vinegar (sour), citrus peel (movement), and aromatic stems (lift).",
+          "Seasonal and color cues: \"green,\" \"spring,\" \"wood,\" and \"sinewy\" textures group near Liver language.",
         ],
       },
       {
-        title: "Traditional Approaches to Nourishing Yin",
-        paragraphs: [
-          "The traditional strategy is to deeply hydrate and nourish the body using ingredients that are 'Sweet,' 'Cool,' and often slightly mucilaginous or dense.",
-          "Common ingredients used to tonify Yin include:",
-        ],
+        title: "A plain-English vocabulary map for \"Liver\"",
+        paragraphs: [],
         bullets: [
-          "Goji Berry (Gou Qi Zi): Nourishes Liver and Kidney Yin.",
-          "White Wood Ear Mushroom (Yin Er): Deeply moistens the Lungs and Stomach.",
-          "Lily Bulb (Bai He): Moistens the Lungs and calms the Heart.",
-          "Black Sesame Seeds and Walnuts: Provide dense, oily nourishment to the Kidneys and intestines.",
+          "Movement and direction: up and out (aromatics like mint lift and vent), out and across (untying tightness), in and gather (sour pulls inward and focuses).",
+          "Stored blood and smoothness: evenness, steadiness, and a sense of supply; nourishing roots or fruits that keep movement from drying out.",
+          "Wood and spring imagery: flexible, resilient, slightly wiry textures; sprouts, shoots, tender greens.",
+          "Mood and ease language: \"soothe,\" \"unconstrain,\" \"relax\" used as feel-words, not as promises.",
         ],
       },
       {
-        title: "Lifestyle and Kitchen Notes",
-        paragraphs: [
-          "For those experiencing Yin Deficiency, traditional frameworks emphasize the importance of rest. Going to bed early is considered crucial, as Yin is traditionally believed to regenerate during deep sleep. In the kitchen, the focus should be on hydrating, soupy, and easily digestible meals (like porridges and bone broths) while strictly avoiding harsh spices, caffeine, and late-night eating, which further 'burn' the Yin.",
+        title: "Taste, color, and season cues linked to the Liver",
+        paragraphs: [],
+        bullets: [
+          "Taste: sour is the Liver's taste—it gathers, tightens edges, and balances excess oil or richness.",
+          "Color: green marks spring and wood—fresh, flexible, sprouting.",
+          "Season: spring signals upward, outward movement and an uncoiling of tightness.",
+          "Texture: wiry, sinewy, and flexible textures are grouped with this idea.",
         ],
       },
       {
-        title: "Read This Page in Context",
+        title: "Quick translator's table: from traditional cue to kitchen sense",
+        paragraphs: [],
+        bullets: [
+          "\"Soothes/unconstrains the Liver\": eases tightness—light aromatics, venting teas (mint, perilla, chrysanthemum).",
+          "\"Nourishes Liver blood\": adds steadiness—gentle tonics, soft-sweet broths (goji berry, white peony root).",
+          "\"Sour enters the Liver\": sour gathers and focuses—rice vinegar, aged black vinegar, hawthorn.",
+          "\"Wood/spring/green\": flexible, sprouty energy—pea shoots, Chinese chives, spring spinach.",
+          "\"Moves qi in the Liver\": gets things unstuck—citrus peels, light bitters, tangerine peel, scallion greens.",
+        ],
+      },
+      {
+        title: "What readers often miss",
+        paragraphs: [],
+        bullets: [
+          "\"Liver\" does not mean \"eat more animal liver\": it's a functional idea about movement and sour/green/spring associations.",
+          "Context matters: a cooling tea and a nourishing root can both carry Liver notes—one vents, the other steadies.",
+          "Sour has range: citrus, aged vinegar, and tart fruit all \"gather,\" but each finishes and pairs differently.",
+        ],
+      },
+      {
+        title: "Common questions",
         paragraphs: [
-          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+          "Does \"Liver\" here mean the animal organ or a person's liver? Neither, in the narrow sense. It's a functional idea that gathers movement, smoothness, sour flavor, and spring/green imagery into one map—culinary and literary shorthand, not a label for a specific organ.",
+          "Why do mint, chrysanthemum, and goji all mention the Liver even though they taste different? They share functions in the same map. Mint lifts and vents, chrysanthemum cools and clarifies, and goji supports smooth, steady distribution.",
+          "Is \"Liver\" a direct instruction about what to cook? No. It's a reading lens: writers use it to explain why sour brightens a rich dish, why greens feel springlike, or why an aromatic tea reads as untying.",
+        ],
+      },
+      {
+        title: "About this page",
+        paragraphs: [
+          "This page is a Basics explainer for readers who want clear kitchen-language around a traditional term. It focuses on flavor, temperature, direction, texture, season, and color—how writers group them, and how those groups show up in herb notes, broths, teas, and everyday cooking.",
         ],
       },
     ],
+    references: [
+      "[1] Chinese Text Project. Huangdi Neijing (Yellow Emperor's Inner Canon). https://ctext.org/huangdi-neijing",
+    ],
   },
+
+  {
+    slug: "what-does-yin-deficiency-mean",
+    title: "What Does Yin Deficiency Mean?",
+    description:
+      "A food-writing guide to \"Yin Deficiency\": the cooling, moistening, substantial side running low, and the moist, gentle cooking that replenishes it.",
+    eyebrow: "Basics & Concepts",
+    intro:
+      "In traditional Chinese food and herb writing, \"Yin Deficiency\" (Yīn Xū) is shorthand for \"not enough yin\"—the cooling, moistening, and substantial side of things—relative to yang, which is active, warm, and drying. Writers use it like a kitchen metaphor: think of a soup pot simmering with too little liquid. The phrase signals gentle, moistening, often cool-leaning foods and slower, softer cooking methods in contrast to fiery sears, chilies, and drying techniques.",
+    sections: [
+      {
+        title: "The short answer in plain English",
+        paragraphs: [],
+        bullets: [
+          "\"Yin Deficiency\" is a traditional vocabulary tag, not a lab number or modern category.",
+          "Yin stands for cool, moist, substantial, and restful; yang for hot, dry, light, and active.",
+          "When a text says \"yin is insufficient,\" it points to dryness and gentle warmth—like heat rising from a pot low on broth.",
+          "Companion phrases \"nourish yin,\" \"enrich fluids,\" or \"clear empty heat\" guide you toward silky textures, water-rich produce, and sweet-mild flavors.",
+        ],
+      },
+      {
+        title: "Where you'll see the phrase in modern food reading",
+        paragraphs: [],
+        bullets: [
+          "Traditional Chinese cookbooks and seasonal food essays that group recipes by \"warming\" and \"cooling\" tendencies.",
+          "Herbal pantry guides and tea menus that tag items as \"yin-nourishing,\" \"moistening,\" or \"for dryness.\"",
+          "Shop signs for dessert soups, seeds, beans, and gels prized for their slippery or dewy textures.",
+          "Restaurant menus flagging double-boiled soups, tremella dessert soups, lily bulb congees, and pear-based sweets.",
+        ],
+      },
+      {
+        title: "A vocabulary map: yin, yang, dryness, and \"empty heat\"",
+        paragraphs: [],
+        bullets: [
+          "Yin (阴): cool, moist, dense, quiet—dew on greens, a long-steeped broth, silken tofu, steamed custard.",
+          "Yang (阳): hot, dry, light, active—wok sear, char, five-spice toasted in oil, chili heat.",
+          "Deficiency (虚): a lack or thinning—like a pantry running low on stock and oils.",
+          "Dryness (燥, zào): the parched side—crisp, brittle, rough textures; crackling stir-fries. Empty heat (虚热): gentle, restless warmth when the \"coolant\" is low.",
+        ],
+      },
+      {
+        title: "Kitchen-reading examples: what the phrase is nudging you toward",
+        paragraphs: [],
+        bullets: [
+          "Moistening textures: silky, gelatinous, slippery, or softly oily—tremella dessert soup, black-sesame paste, tofu custard, pear and barley soups.",
+          "Water-forward cooking: congee, double-boiled soups, simmered stews, and gentle braises that keep liquids in the pot.",
+          "Cool-leaning ingredients: pear, lily bulb, snow fungus, mulberry, and silken tofu.",
+          "Gentle sweetness rather than sharp pungency: dates, malt, and mild fruits over chilies and heavy searing.",
+        ],
+      },
+      {
+        title: "How this language shapes menu choices and what readers miss",
+        paragraphs: [],
+        bullets: [
+          "Double-boiled soups and slow congees anchor the \"yin\" corner of the table; dessert soups close the meal with moisture and gloss.",
+          "Wok-seared items and chile-forward stir-fries hold down the yang side, providing contrast.",
+          "\"Yin deficiency\" is not dehydration: dehydration is measurable; \"yin deficiency\" is an old culinary metaphor about coolness, moisture, density, and rest.",
+          "Serving temperature isn't the point: a gently simmered tremella soup reads more \"yin-nourishing\" than an ice-cold, heavily sweetened drink that offers chill without substance.",
+        ],
+      },
+      {
+        title: "Common questions",
+        paragraphs: [
+          "Is \"yin deficiency\" the same as being dehydrated? No. Dehydration is a modern, measurable idea; \"yin deficiency\" is an old culinary and herb-writing metaphor. Think of it as the difference between a chef saying \"this dish needs more stock and gloss\" versus a lab reading.",
+          "Why do some books say \"empty heat\"? If the pantry of moisture and substance (yin) runs low, warmth shows up more readily—like a pot that reaches a rolling boil faster because there's less liquid. Traditional writers call that warmth \"empty heat.\"",
+          "Does \"yin-nourishing\" mean cold food only? No. Many yin-nourishing dishes are served warm or at room temperature. Nature, texture, and cooking method matter more in the vocabulary than serving temperature.",
+        ],
+      },
+      {
+        title: "About this page",
+        paragraphs: [
+          "This page explains how \"Yin Deficiency\" functions as food and herb vocabulary: what the phrase means, where it shows up, how it maps onto flavors, textures, and cooking methods, and how nearby terms differ. It stays with kitchen imagery—moist vs. dry, cool-leaning vs. hot-leaning, simmer vs. sear.",
+        ],
+      },
+    ],
+    references: [
+      "[1] Chinese Text Project. Huangdi Neijing (Yellow Emperor's Inner Canon). https://ctext.org/huangdi-neijing",
+      "[2] USDA FoodData Central. https://fdc.nal.usda.gov/",
+    ],
+  },
+
   {
     slug: "what-does-shen-mean",
     title: "What Does Shen Mean in Traditional Herb Writing?",
     description:
-      "A plain-English guide to the traditional idea of shen and why the term is broader than mind alone.",
-    eyebrow: "Basics",
+      "A plain-English guide to \"shen\" in traditional herb and tea writing: presence, composure, and the settled brightness framed by gentle ingredients and evening preparations.",
+    eyebrow: "Basics & Concepts",
     intro:
-      "Shen is one of the most misunderstood words in traditional herb writing. It is often translated as spirit, but on a careful beginner site it usually needs a fuller explanation: shen can point to presence, clarity, emotional steadiness, expression, and the visible quality of someone's overall state inside a traditional framework.",
+      "In traditional herb and tea writing, shen is often translated as \"spirit,\" but in kitchen-friendly English it points to someone's visible presence—brightness of the eyes, steadiness, composure, and expressiveness. Writers use it to describe the felt tone around gentle ingredients and evening-style preparations. Think of shen as a cultural word that frames mood and demeanor, not a promise or a personal label. It helps readers catch the soft, human side of traditional food language.",
     sections: [
       {
-        title: "Why the word is hard to translate",
-        paragraphs: [
-          "If shen is translated only as spirit, many readers assume the term is purely mystical. If it is translated only as mind, important traditional nuance gets lost.",
-          "A better plain-English approach is to explain shen as a traditional idea that overlaps with alertness, composure, expression, and mental-emotional presence.",
-        ],
-      },
-      {
-        title: "Where readers usually see shen-language",
-        paragraphs: [
-          "Readers often meet this word on pages about longan, lotus seed, jujube, schisandra, and other ingredients associated with gentler evening or nourishing traditions.",
-          "Without explanation, those pages can sound vague. With explanation, they become much easier to understand as part of a broader cultural vocabulary.",
-        ],
+        title: "The short answer: how to read shen in food-writing language",
+        paragraphs: [],
         bullets: [
-          "Shen is a traditional concept, not a modern personal label.",
-          "It often appears in calm, grounding, or evening-style content.",
-          "It should not be turned into a promise about emotional outcomes.",
+          "Shen is a traditional word about presence: clear gaze, even temper, settled expression, lively but contained demeanor.",
+          "\"Nourishing shen\" or \"settling shen\" point toward calm, clarity, and expressive ease as a cultural ideal.",
+          "In modern kitchen English, \"presence,\" \"composure,\" or \"settled brightness\" will usually get you close enough.",
+          "This is vocabulary, not a scoreboard: a lens for reading ingredient notes and tea traditions, not an instruction or guarantee.",
         ],
       },
       {
-        title: "How HerbGuide uses the term",
+        title: "Where you'll actually see shen on herb and tea pages",
+        paragraphs: [],
+        bullets: [
+          "Dessert soups and sweet-brothy dishes: longan with red jujube; lotus seed simmered until creamy.",
+          "Light congees and porridges: rice-based bowls scented with goji or a few slices of jujube.",
+          "Teaware rituals around soft teas: chrysanthemum infusions; mild, rounded blends with jujube, poria, or lily bulb.",
+          "Ingredient pages: longan, lotus seed, jujube, schisandra, poria, lily bulb, and occasional sour-fragrant additions that \"gather\" a blend's mood.",
+        ],
+      },
+      {
+        title: "A plain-English map of shen language",
+        paragraphs: [],
+        bullets: [
+          "Presence: how someone seems \"there\" in the room—eyes attentive, face open, voice measured.",
+          "Clarity: brightness in the eyes and an unhurried, straightforward manner.",
+          "Composure: evenness and poise; a readiness to listen; gestures that match the pace of conversation.",
+          "Expression: capacity to show feeling without spilling over; harmony between inner mood and outward look.",
+        ],
+      },
+      {
+        title: "How translators handle the word—and why it matters",
+        paragraphs: [],
+        bullets: [
+          "Spirit: close to the historical wording but can sound mystical in modern kitchen contexts.",
+          "Mind: clear, but too head-focused; it can miss the visible, expressive side.",
+          "Awareness: points to alertness yet lacks the emotional texture.",
+          "Presence: strong for culinary pages—it covers gaze, composure, and social tone. For quick reading, \"presence\" is usually the most helpful swap.",
+        ],
+      },
+      {
+        title: "What readers often miss about shen",
+        paragraphs: [],
+        bullets: [
+          "It's social language: shen helps describe the shared mood around a table, not just an inner state.",
+          "It's visible: classic phrasing points to eyes, expression, gestures—things you can actually see.",
+          "It's contextual: the same ingredient reads differently at breakfast versus late evening; shen-language belongs to the quieter end of the day.",
+          "It's editorial, not instructional: part of the story craft of recipes and tea notes—akin to saying \"Sunday-supper slow\" or \"fireside cup.\"",
+        ],
+      },
+      {
+        title: "Common questions",
         paragraphs: [
-          "HerbGuide uses shen-language as educational context. We explain why the term appears, what it usually gestures toward in traditional writing, and where gentle food or tea pages make that language easier to grasp.",
-          "That keeps the concept readable without drifting into mystical marketing or individualized advice.",
+          "Is shen a flavor I can taste? Not exactly. Shen isn't a flavor like bitter or sweet. It's a cultural word about presence and demeanor. In culinary pages it shows up alongside flavors and textures that encourage a gentler pace—soft sweetness, warm temperature, and light floral aroma.",
+          "Does shen describe a person or a dish? Both, indirectly. Classic phrasing points to visible presence in a person—eyes, expression, composure—but food and tea pages use the word to suggest a scene that invites that presence.",
+          "What English word should I use when I see shen on a label? If you're reading quickly, \"presence\" is usually the most helpful swap. For longer explanations, \"composure,\" \"clarity,\" and \"expressive ease\" round out the picture.",
+        ],
+      },
+      {
+        title: "About this page",
+        paragraphs: [
+          "This page explains shen as it appears in traditional herb, tea, and kitchen writing. It focuses on food-friendly language—flavor, texture, serving temperature, timing, and cultural vocabulary—so readers can follow ingredient notes and menu descriptions without guessing at context.",
         ],
       },
     ],
+    references: [
+      "[1] Chinese Text Project. Huangdi Neijing (Yellow Emperor's Inner Canon). https://ctext.org/huangdi-neijing",
+    ],
   },
+
   {
     slug: "what-does-jing-mean",
     title: "What Does Jing Mean in Traditional Herb Writing?",
