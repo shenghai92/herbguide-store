@@ -113,52 +113,52 @@ const rawBasicsCards = [
   {
     slug: "what-does-jing-mean",
     title: "What Does Jing Mean in Traditional Herb Writing?",
-    text: "A careful beginner guide to the traditional idea of essence without turning it into hype.",
+        text: "A plain-English guide to jing (essence) in traditional herb writing: deep reserve, density, and the long, gentle cooking that evokes it.",
   },
   {
     slug: "what-does-channel-entry-mean",
     title: "What Does Channel Entry Mean?",
-    text: "A plain-English explanation for readers trying to understand channel entry on herb guides.",
+        text: "A plain-English guide to channel entry in traditional herb writing: a map label for pairing, flavor, and preparation logic—not a literal organ claim.",
   },
   {
     slug: "what-is-food-stagnation",
     title: "What Is Food Stagnation?",
-    text: "A careful beginner guide for readers searching food stagnation and digestive terminology in kitchen-style herb content.",
+        text: "A plain-English guide to food stagnation in traditional food writing: the post-meal, overfull feeling described with kitchen metaphors.",
   },
   {
     slug: "what-does-nourish-blood-mean",
     title: "What Does Nourish Blood Mean?",
-    text: "A plain-English guide to one of the most common traditional phrases on nourishing herb pages.",
+        text: "A plain-English guide to nourish blood in traditional food writing: the soft, building, moistening style signaled by dark, gently simmered dishes.",
   },
   {
     slug: "what-is-damp-heat",
     title: "What Is Damp Heat?",
-    text: "A careful beginner explanation for readers searching damp heat in digestive and seasonal content.",
+        text: "A plain-English guide to damp-heat (shi re): the compound flavor-and-weather idea of sticky heaviness plus active warmth.",
   },
   {
     slug: "chen-pi-vs-hawthorn-berry",
     title: "Chen Pi vs Hawthorn Berry",
-    text: "Two classic digestive herbs compared — Chen Pi moves Qi and dries Dampness, while Hawthorn reduces food stagnation from heavy meals.",
+        text: "A kitchen-focused comparison of chen pi (aged tangerine peel) and hawthorn berry—one lifts and perfumes, the other refreshes and rounds.",
   },
   {
     slug: "reishi-vs-cordyceps",
     title: "Reishi vs Cordyceps",
-    text: "Two legendary functional mushrooms compared — Reishi for calm and immune support, Cordyceps for stamina and physical energy.",
+        text: "A cook's guide comparing reishi and cordyceps: one anchors with bitter backbone, the other lifts with delicate savory sweetness.",
   },
   {
     slug: "chen-pi-tea-recipe-faq",
     title: "Chen Pi Tea Recipe FAQ",
-    text: "A question-led chen pi tea page built around how to make chen pi tea, core ingredients, and short simmer timing.",
+        text: "A question-led guide to making chen pi tea at home: ratios, simmer time, flavor map, and the optional ginger or hawthorn add-ins.",
   },
   {
     slug: "poria-vs-jobs-tears",
     title: "Poria vs Job's Tears",
-    text: "A practical comparison for readers trying to understand dampness-related pantry ingredients in traditional content.",
+        text: "A kitchen-side comparison of poria (fu ling) and job's tears (yi yi ren): fungus versus grain, and how each sits in a bowl.",
   },
   {
     slug: "chrysanthemum-vs-mint",
     title: "Chrysanthemum vs Mint",
-    text: "A plain-English comparison of two familiar cooling herbs that often appear together in tea pages.",
+        text: "How two cooling tea herbs differ: chrysanthemum reads floral and round; mint lands brisk and aromatic.",
   },
   {
     slug: "goji-berry-tea-vs-goji-berry-porridge",
