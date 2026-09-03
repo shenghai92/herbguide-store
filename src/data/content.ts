@@ -163,52 +163,52 @@ const rawBasicsCards = [
   {
     slug: "goji-berry-tea-vs-goji-berry-porridge",
     title: "Goji Berry Tea vs Goji Berry Porridge",
-    text: "A kitchen-first comparison that helps readers understand how the same ingredient reads differently in a cup and in a bowl.",
+        text: "A cook's comparison of goji berry tea and goji berry porridge: one is a light, bright infusion; the other turns the fruit soft and jammy in a spoonable grain base.",
   },
   {
     slug: "what-does-astringent-mean",
     title: "What Does Astringent Mean?",
-    text: "A plain-English explanation of one of the most confusing traditional quality words on many herb pages.",
+        text: "A plain-English guide to astringent in food writing: the drying, puckering sensation of over-steeped tea or tannic wine, and the traditional sè (涩) sense of tightening and retaining.",
   },
   {
     slug: "what-does-harmonizing-mean",
     title: "What Does Harmonizing Mean?",
-    text: "A plain-English guide to one of the most common but least explained role words on herb and formula pages.",
+        text: "A plain-English guide to harmonizing in traditional food writing: an ingredient's coordinating job that helps a blend play well together.",
   },
   {
     slug: "mulberry-fruit-vs-goji-berry",
     title: "Mulberry Fruit vs Goji Berry",
-    text: "A pantry-friendly comparison that helps readers separate two popular pantry berries in tea and gentle nourishment content.",
+        text: "A kitchen comparison of mulberry fruit and goji berry: goji reads bright and tidy; mulberry reads plush, jammy, and softly sweet.",
   },
   {
     slug: "chinese-pantry-starter-kit",
     title: "The Chinese Pantry Starter Kit",
-    text: "A friendly, opinionated list of 10 traditional ingredients every curious cook should know.",
+        text: "A starter kit of ten classic dried Chinese pantry ingredients: what to buy first, how to soak and simmer, and how they pair in everyday cooking.",
   },
   {
     slug: "simple-herbal-tea-routine",
     title: "How to Build a Simple Herbal Tea Routine",
-    text: "Practical, seasonal, no-pressure guidance for people who want a traditional tea ritual, not a strict medical regimen.",
+        text: "A plain-English guide to building a simple herbal tea routine from whole dried botanicals, hot water, and a cup you like.",
   },
   {
     slug: "what-is-blood-deficiency",
     title: "What Is Blood Deficiency?",
-    text: "A comprehensive guide to the traditional concept of Blood Deficiency — what it means, signs, and practical ways to nourish Blood through diet and lifestyle.",
+        text: "A plain-English guide to blood deficiency (xue xu) in traditional food writing: thin, insufficient nourishment described as a kitchen idea, not a lab value.",
   },
   {
     slug: "what-is-phlegm",
     title: "What Is Phlegm in Traditional Wellness?",
-    text: "A comprehensive guide to the traditional concept of Phlegm — the difference between visible and invisible Phlegm, signs of accumulation, and kitchen approaches to resolving it.",
+        text: "A plain-English guide to phlegm (tán) in traditional food writing: moisture that has thickened and clogged, and the drying, moving foods chosen to balance it.",
   },
   {
     slug: "what-is-liver-qi-stagnation",
     title: "What Is Liver Qi Stagnation?",
-    text: "A comprehensive guide to the traditional concept of Liver Qi Stagnation — how stress manifests physically, signs of stagnation, and traditional approaches to moving Liver Qi through diet and lifestyle.",
+        text: "A plain-English guide to liver qi stagnation in traditional food writing: movement described as stuck, and the light, aromatic ingredients that get it moving.",
   },
   {
     slug: "what-is-kidney-essence",
     title: "What Is Kidney Essence (Jing)?",
-    text: "A comprehensive guide to the traditional concept of Kidney Essence — the body's deepest constitutional reserve, the difference between pre-natal and post-natal Jing, and how to conserve it through diet and lifestyle.",
+        text: "A plain-English guide to kidney essence (jing) in traditional food writing: the body's deepest reserves and the dark, richly flavored foods said to nourish them.",
   },
   {
     slug: "what-is-lung-qi",

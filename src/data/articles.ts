@@ -3601,272 +3601,904 @@ const rawBasicsArticles: ContentArticle[] = [
     ]
   },
   {
-    slug: "goji-berry-tea-vs-goji-berry-porridge",
-    title: "Goji Berry Tea vs Goji Berry Porridge",
-    description:
-      "A kitchen-first comparison of goji berry tea and goji berry porridge for readers deciding where to start with this popular pantry ingredient.",
-    eyebrow: "Basics",
-    intro:
-      "Goji berry is one of the most approachable ingredients on HerbGuide, but the same ingredient can feel very different depending on whether it is steeped in a cup or cooked into a bowl. Comparing tea and porridge use helps readers understand how traditional kitchen traditions change the feel of an ingredient without changing its identity.",
-    sections: [
+    "slug": "goji-berry-tea-vs-goji-berry-porridge",
+    "title": "Goji Berry Tea vs Goji Berry Porridge: A Cook’s Comparison in Traditional Food Writing",
+    "description": "A cook's comparison of goji berry tea and goji berry porridge: one is a light, bright infusion; the other turns the fruit soft and jammy in a spoonable grain base.",
+    "eyebrow": "Basics & Concepts",
+    "intro": "Goji berry tea is a light, clear infusion that shows off the berry’s honeyed, gently tart notes and vivid orange-red color. Goji berry porridge (congee-style) turns the same fruit soft and jammy inside a warm, spoonable grain base. Choose tea for a quick, bright cup you can sip between tasks; choose porridge for a slower, meal-like bowl that takes well to grains and nuts. Both begin with dried goji; what changes is texture, pacing, and pairing.",
+    "sections": [
       {
-        title: "Why this comparison matters",
-        paragraphs: [
-          "Many beginners meet goji through tea first because it is quick and visual. Others trust porridge more because it feels closer to food and daily routine.",
-          "A side-by-side page helps both readers see that the difference is not only taste. It is also about texture, mood, and how kitchen learning is framed.",
-        ],
+        "title": "Quick comparison at a glance",
+        "paragraphs": [],
+        "bullets": [
+          "Time & effort — 3–8 minutes to steep; re-steeps well — 20–60 minutes to simmer, depending on grains — Cup vs bowl rhythm",
+          "Texture — Clear liquid; berries soften but stay intact — Creamy spoonable base; berries turn jammy — Sip vs spoon",
+          "Flavor emphasis — Floral-fruity, honeyed, lightly tart; delicate — Grain-forward, mellow sweetness; rounder — Bright vs cozy",
+          "Typical pairings — Chrysanthemum, jujube (red dates), pear, ginger — Rice or millet, red dates, lotus seeds, peanuts — Aromatic vs cereal-centered",
+          "Serving moments — Midday or late-afternoon, alongside light snacks — Breakfast or late evening; repeats well all week — Quick lift vs daily routine"
+        ]
       },
       {
-        title: "How the two formats usually differ",
-        paragraphs: [
-          "Goji tea is lighter, faster, and easier to pair with other gentle ingredients like chrysanthemum or pear.",
-          "Goji porridge is softer, slower, and better for readers who like breakfast-style pantry content or repeated food routines rather than a simple infusion.",
+        "title": "A shared starting point: the same little red fruit",
+        "paragraphs": [
+          "Whether you pour a clear cup or a creamy bowl, you start with the same pantry ingredient: dried goji berries (also called wolfberries; Mandarin: gouqi, 枸杞). In most markets they arrive lightly shriveled, flexible rather than brittle, with a sweet, almost tomato-currant aroma.",
+          "A quick rinse clears dust from drying and transport. Pinch off any lingering stems. From here, the fork in the road appears:",
+          "Both paths are gentle and pantry-friendly. The same bag of berries can support many cups of tea and several pots of porridge across a week."
         ],
-        bullets: [
-          "Tea feels lighter and more visual.",
-          "Porridge feels more grounding and meal-like.",
-          "Both are food-first uses, but they help readers understand the ingredient in different ways.",
-        ],
+        "bullets": [
+          "For tea, the berries go straight into hot water, where their color blooms and their sweetness leans floral.",
+          "For porridge, they meet grains and a longer simmer, which softens their skins and coaxes a jammy bite that blends with the pot."
+        ]
       },
       {
-        title: "What this teaches about the library's style",
-        paragraphs: [
-          "This comparison shows how HerbGuide prefers practical kitchen distinctions over vague lifestyle claims.",
-          "It also helps readers move between herb pages, tea pages, and breakfast pages with a clearer sense of what to click next.",
+        "title": "Format changes the ingredient: infusion vs spoonable base",
+        "paragraphs": [
+          "Steeping and simmering are different kitchen languages. With an infusion, water touches fruit briefly and extracts color, aroma, and a light sweetness. You experience goji’s brightness in a clear format, often through glass. Vessel material and shape can subtly affect warmth and aroma expression—research on traditional tea wares has shown that utensils influence sensory outcomes for brewed teas, a useful reminder when choosing a mug or pot for fruit infusions as well.",
+          "Porridge, by contrast, is about body and carry. Grains like jasmine rice or millet break down and create a creamy base. Goji berries ride inside that base. Time fattens their skins, the interior turns almost marmalade-like, and the fruit sweetens the pot rather than just tinting the water. The spoon, not the eye, becomes the primary way of reading the ingredient.",
+          "In short:"
         ],
+        "bullets": [
+          "Tea isolates and highlights.",
+          "Porridge integrates and rounds."
+        ]
       },
+      {
+        "title": "Flavor shape and pairing logic",
+        "paragraphs": [
+          "Goji’s core flavor is sweet first, then softly tart, with a faint herbal edge. How you build around it depends on whether you want to amplify brightness or deepen roundness.",
+          "For tea (keep it light and aromatic):",
+          "For porridge (lean into cozy grain notes):",
+          "Think of tea as a frame for color and aroma, and porridge as a canvas for texture and comfort. The same berry wears different clothes."
+        ],
+        "bullets": [
+          "Fragrant partners: chrysanthemum flowers and thin slices of Asian pear accent the floral-sweet line without clouding the cup.",
+          "Gentle body: a few red dates (jujubes) add prune-like depth; a slice or two of fresh ginger supplies lift without overpowering.",
+          "Sweetness cue: if you sweeten, a small knob of rock sugar or a drizzle of honey dissolves cleanly. A pinch of salt can heighten fruit, but is optional.",
+          "Grain base: jasmine rice for silky softness; millet for a nubbly, golden bowl; or a small portion of rolled oats folded into rice for a hybrid texture.",
+          "Nutty accents: peanuts or almonds offer bite against the soft berries; lotus seeds or tiny tapioca pearls create additional interest.",
+          "Timing matters: adding goji in the last 5–10 minutes preserves color and shape; adding near the start encourages a jammy melt-in, especially in millet.",
+          "Seasoning line: a pinch of salt wakes the grains; rock sugar, brown sugar, or a spoon of malt syrup creates a dessert-porridge profile. A scatter of dried osmanthus blossoms at the end adds perfume."
+        ]
+      },
+      {
+        "title": "Preparation rhythm and time windows",
+        "paragraphs": [
+          "You rarely need a strict recipe to understand the difference; a few kitchen ratios and cues are enough.",
+          "Goji berry tea, basic method:",
+          "Goji berry porridge, base approach:",
+          "Notice the clock: a cup fits between emails; a pot deserves a quiet half-hour. Each sets a different kitchen mood."
+        ],
+        "bullets": [
+          "Measure 1–2 teaspoons (about a small pinch to a rounded tablespoon) dried goji per 8–12 ounces of hot water.",
+          "Water around 175–195°F (80–90°C) keeps the fruit bright; a full rolling boil is not required.",
+          "Steep 3–5 minutes for a light cup; up to 8 minutes for a deeper color and sweeter taste. The berries will plump slightly.",
+          "Re-steep once, adding 1–2 minutes. Eat the softened berries at the end; they’re simply rehydrated dried fruit.",
+          "Rinse 1 part rice (or millet) until the water runs clearer. Combine with 8–10 parts water for a classic congee texture; use more water for a thinner bowl.",
+          "Bring to a boil, then simmer gently 25–50 minutes, stirring now and then to encourage creaminess (especially if using rice).",
+          "Add a handful of rinsed goji in the final 5–10 minutes for intact berries, or earlier if you want them to dissolve into the base.",
+          "Balance with a pinch of salt; sweeten only if making a dessert-style porridge. Finish with nuts or dried fruit if you like contrast."
+        ]
+      },
+      {
+        "title": "Choosing by recipe context",
+        "paragraphs": [
+          "Your choice isn’t only about flavor; it’s about where the ingredient lives in your day and what else is on the table.",
+          "Pick tea when:",
+          "Pick porridge when:",
+          "Between these poles is a middle path popular in Chinese home cooking: light dessert soups and sweet soups that include goji but are broth-like rather than grainy. Writers sometimes call these “porridge” in English, but their body is closer to a thin syrup or tea with extras. If your goal is clarity and speed, lean tea-ward; if you want something you can eat with a spoon that lingers, lean porridge-ward."
+        ],
+        "bullets": [
+          "You want a light, pretty cup beside crackers, sliced fruit, or a sesame pastry.",
+          "You plan to pour for guests and want a clear, color-forward presentation.",
+          "You prefer short, repeatable rituals: a handful of berries, hot water, done.",
+          "You like breakfast traditions: a simmering pot, toppings within reach, the same bowl most mornings.",
+          "You cook for a household and want something that reheats well; the base keeps in the fridge and the berries can be added during rewarm.",
+          "You’re pairing with other spoonable dishes, such as dessert soups (tong sui) or a soft egg; goji folds into both sweet and neutral profiles."
+        ]
+      },
+      {
+        "title": "Common mix-ups and naming notes",
+        "paragraphs": [
+          "The vocabulary shifts with region and kitchen habit. Use texture and cooking method as your compass more than the exact English label."
+        ],
+        "bullets": [
+          "Tea vs tisane: “Goji berry tea” in English usually means an herbal infusion with no Camellia sinensis. In traditional food writing, names are practical rather than botanical; don’t be thrown by labels.",
+          "Porridge vs congee vs zhou: English toggles between “porridge” and “congee” for 粥 (zhou). “Jook” appears in Cantonese contexts. All point to a long-cooked cereal base, typically rice, but millet and mixed grains are common too.",
+          "Dessert soup vs porridge: A sweet, spoonable soup (often with rock sugar, lotus seeds, and goji) is not the same as grain porridge. If the liquid is glossy and clear-ish, think “soup.” If it’s starchy and opaque, think “porridge.”",
+          "Eight-treasure bowls: “Eight-treasure congee” (babao zhou) often includes goji along with red beans, peanuts, and dates. The flavor is grain-and-legume forward; goji contributes color pops and soft sweetness."
+        ]
+      },
+      {
+        "title": "Pantry tips, batching, and equipment",
+        "paragraphs": [
+          "Goji keeps easily:",
+          "Batching ideas:",
+          "Equipment notes:"
+        ],
+        "bullets": [
+          "Storage: an airtight jar, away from heat and light. The berries should stay flexible, not crunchy-dry.",
+          "Rinse on demand: no long soak needed for tea; for porridge, a short soak (5–10 minutes) can plump them if you prefer a softer bite.",
+          "Tea: pre-portion little jars or envelopes with goji and any partner (chrysanthemum, a couple of red dates). When the kettle sings, you’re ready.",
+          "Porridge: cook a plain rice or millet base for 3–4 days of breakfasts. Add goji during reheat so they keep their color. The base can be thinned with water or milk-of-choice to adjust consistency day by day.",
+          "Tea thrives in glass mugs and small teapots. A lid helps trap aroma. Subtle differences in vessel material can shift warmth and perceived aroma, as shown in sensory work on tea utensils.",
+          "Porridge likes a heavy pot that holds a gentle simmer and encourages starch release. A clay pot offers steady heat and a soft burble; a standard saucepan works fine with more frequent stirring."
+        ]
+      },
+      {
+        "title": "What this comparison teaches about traditional food-writing style",
+        "paragraphs": [
+          "Kitchen format—cup vs bowl—shapes how you experience the same ingredient. Traditional Chinese food writing often uses framing words like “warming,” “cooling,” “light,” and “rich” to signal season, body, and mood. You can practice reading those cues by making goji two ways:",
+          "This page stays with culinary clues—texture, timing, pairings—so you can navigate the pantry and the bookshelf with the same sensory map."
+        ],
+        "bullets": [
+          "In tea, notice color clarity, aroma lift, and how small additions nudge direction without clouding the cup.",
+          "In porridge, notice how grains, nuts, and simmer time fold the fruit into a rounded, everyday bowl."
+        ]
+      },
+      {
+        "title": "Common questions",
+        "paragraphs": [
+          "Is goji berry tea the same as “goji water”? People use both phrases for a simple infusion of dried goji in hot water. “Tea” often implies a stronger cup or added aromatics like chrysanthemum or ginger. “Goji water” sounds plainer. Both are made the same way—hot water over berries—so let color and taste guide your timing.",
+          "Can I eat the berries after I finish the tea? Yes. They’re just rehydrated dried fruit. Many people snack on the softened berries, stir them into yogurt, or spoon them over porridge. If you plan to eat them from the cup, use a small strainer or a lidded mug with a built-in filter to catch them easily.",
+          "When should I add goji to porridge for the best color? Add in the last 5–10 minutes of simmering to keep the berries plump and bright. If you prefer them very soft and integrated—almost marmalade-like—add earlier. Neither approach is “right”; choose by the look and spoon-feel you enjoy."
+        ]
+      },
+      {
+        "title": "About this page",
+        "paragraphs": [
+          "This Basics comparison focuses on how the same ingredient—dried goji—changes character in two kitchen formats. It uses practical food vocabulary (texture, timing, pairing) drawn from traditional Chinese culinary writing, with plain-English cues for a home cook’s pantry. No individualized guidance—just the flavor, form, and preparation ideas you can taste and see."
+        ]
+      }
     ],
+    "references": [
+      "HerbGuide, “Goji Berry Tea vs Goji Berry Porridge.” https://herbguide.store/basics/goji-berry-tea-vs-goji-berry-porridge/",
+      "U.S. Department of Agriculture, FoodData Central. https://fdc.nal.usda.gov/",
+      "Guo et al., “Influence of Various Tea Utensils on Sensory and Chemical Quality of Different Teas,” Plants (2024). https://doi.org/10.3390/plants13050669 [Used here to note that vessel material can influence the sensory experience of brewed beverages.]"
+    ]
   },
   {
-    slug: "what-does-astringent-mean",
-    title: "What Does Astringent Mean?",
-    description:
-      "A comprehensive guide to the traditional concept of astringency — what it means in Chinese herb theory, how it works in traditional frameworks, common astringent ingredients, and important safety considerations.",
-    eyebrow: "Basics & Concepts",
-    intro:
-      "In the context of traditional Chinese herb theory, 'astringent' (涩, sè) refers to a specific flavor and action profile. Unlike the common culinary definition of astringent—which often describes a dry, puckering sensation in the mouth (like an unripe banana or strong black tea)—the traditional wellness definition focuses on the energetic action of containing, binding, or preventing leakage.",
-    sections: [
+    "slug": "what-does-astringent-mean",
+    "title": "What Does “Astringent” Mean in Food Writing?",
+    "description": "A plain-English guide to astringent in food writing: the drying, puckering sensation of over-steeped tea or tannic wine, and the traditional sè (涩) sense of tightening and retaining.",
+    "eyebrow": "Basics & Concepts",
+    "intro": "In everyday kitchen language, astringent means a drying, puckering sensation—think over-steeped black tea, unripe persimmon, or a very tannic red wine. In traditional Chinese food writing, the related term sè (涩) also points to an action idea: “tightening” or “retaining.” You’ll see both senses in cookbooks, tea notes, and translations. This page maps the two uses, shows where the word turns up, and gives plain-English cues so you can read recipes and flavor notes with confidence.",
+    "sections": [
       {
-        title: "The Concept of Astringency",
-        paragraphs: [
-          "In the context of traditional Chinese herb theory, 'astringent' (涩, sè) refers to a specific flavor and action profile. Unlike the common culinary definition of astringent—which often describes a dry, puckering sensation in the mouth (like an unripe banana or strong black tea)—the traditional wellness definition focuses on the energetic action of containing, binding, or preventing leakage.",
-          "This is an important distinction. The culinary sensation of astringency (that dry, mouth-puckering feeling) is a sensory experience. The traditional herb concept of astringency is a functional description of how certain herbs and foods are believed to act within the body's energetic system — gathering, securing, and helping to retain vital substances.",
+        "title": "Short answer: two uses of “astringent”",
+        "paragraphs": [
+          "Both meanings can show up in the same paragraph. A tea guide may note a drying feel (modern sense) and also classify a leaf or fruit under the traditional “tightening” heading (classical sense)."
         ],
+        "bullets": [
+          "Modern kitchen sense: A tactile taste experience that feels drying or mouth-puckering. It often comes from tannins in tea, wine, cacao, pomegranate rind, and some fruits before they ripen. It’s not sour; it’s more like the tongue and cheeks tightening.",
+          "Traditional Chinese sense (sè, 涩): A food-writing label that describes a “gathering” or “retaining” action in the classical flavor vocabulary. It overlaps with—but isn’t limited to—the mouthfeel we call astringent. You’ll see it in ingredient notes and recipe commentary, often translated as “astringent,” “binding,” or “retentive.”"
+        ]
       },
       {
-        title: "How It Works in Traditional Frameworks",
-        paragraphs: [
-          "Astringent herbs and foods are traditionally used when the body's energy or fluids are considered to be 'leaking' or failing to be properly contained. This concept is often applied in situations involving:",
-        ],
-        bullets: [
-          "Excessive sweating",
-          "Frequent urination",
-          "Chronic loose stools",
-          "Loss of essence (jing)",
-        ],
+        "title": "Where you’ll see the word",
+        "paragraphs": [],
+        "bullets": [
+          "Tasting notes: Tea, red wine, dark chocolate, and some apple or pear varieties are often described as “moderately astringent” or “firmly drying,” especially when tannins are obvious.",
+          "Produce descriptions: Farmers’ market signs for Hachiya persimmons, fresh walnuts, or quince sometimes warn about “astringent until fully ripe” fruit.",
+          "Ingredient labels and cookbooks: Pomegranate peel, sumac, and some bark- or leaf-based pantry items may be flagged as astringent in flavor or effect on texture.",
+          "Translations of Chinese food and herb texts: The character 涩 (sè) appears in classical lists and recipe notes to indicate a “tightening/retaining” quality; translators commonly render it as “astringent.”",
+          "Kitchen talk: Cooks use “astringent” to explain why a sauce tastes chalky, a tea is harsh, or a fruit needs more ripening."
+        ]
       },
       {
-        title: "Common Astringent Ingredients",
-        paragraphs: [
-          "Several well-known herbs and foods are classified as having astringent properties:",
+        "title": "A plain‑English vocabulary map",
+        "paragraphs": [
+          "It helps to separate taste feel from action language:"
         ],
-        bullets: [
-          "Schisandra Berry (Wu Wei Zi): Known as the 'five-flavor berry,' it is highly valued for its astringent qualities, often used to support respiratory resilience and contain bodily fluids.",
-          "Lotus Seed (Lian Zi): Frequently used in culinary soups to gently bind and support digestive function.",
-          "Pomegranate (Shi Liu): The rind and fruit are considered astringent and are used to support digestive stability.",
-        ],
+        "bullets": [
+          "Mouthfeel: Drying, puckering, tightening, gritty, chalky. Opposites include juicy, plush, velvety.",
+          "Flavor neighbors: Bitter (sharp, tonic-like), sour (tart, tangy), salty (mineral), sweet (round, mellow), umami (savory depth). Astringency can ride alongside any of these.",
+          "Traditional action words: “Gather,” “converge,” “bind,” “retain.” In classical Chinese food writing, these words describe what a flavor is understood to do within a recipe’s logic—how it “steers” sensations and textures in the dish. The term sè (涩) occupies the “tightening/retaining” corner of that map.",
+          "Everyday synonyms you’ll meet in notes: “Tannic,” “puckery,” “firm,” “grippy,” “drying.” None are perfect stand-ins, but they point in the same direction."
+        ]
       },
       {
-        title: "Safety and Caution Details",
-        paragraphs: [
-          "Because astringent ingredients act to bind and contain, they are traditionally contraindicated when the body is experiencing an acute onset of symptoms, such as a cold or flu. The traditional logic is that using astringent herbs during an acute situation might 'trap' the external stressor inside the body rather than allowing it to be expelled. Always seek guidance from a qualified professional if you are unsure.",
-        ],
+        "title": "Kitchen-reading examples you can picture",
+        "paragraphs": [],
+        "bullets": [
+          "Black tea that sits too long: The finish grips your gums. Add milk and it softens; add lemon and you overlay sour on top of that grip. The drying feel is astringency.",
+          "Unripe banana or persimmon: One bite and your mouth feels chalk-dry. As the fruit ripens, that harshness recedes and sweetness takes center stage.",
+          "Red wine with firm tannins: Cheek-tightening, especially in young, oak-aged bottles. Decanting, pairing with fatty foods, or just time in glass can make the grip feel gentler.",
+          "Pomegranate in the pot: The peel and membrane bring noticeable astringency; the juice brings bright sweet-sour. Choose your part depending on the effect you want.",
+          "Lotus seed in soup: In Chinese recipes, dried lotus seed adds a mild, “tightening” feel alongside its gentle nuttiness. In translation notes, you may see it labeled “astringent” in the traditional sense."
+        ]
       },
       {
-        title: "Read This Page in Context",
-        paragraphs: [
-          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        "title": "One word, two lenses: a quick table",
+        "paragraphs": [
+          "Note: In tea, perceived astringency shifts not only with water and leaf but also with the pot or cup material and brewing setup."
         ],
+        "bullets": [
+          "Tea tasting — Drying, grippy finish from tannins — Over-steeped black tea — Tannic, brisk, puckery — Up: longer steep, hotter water. Down: shorter steep, add milk or a splash of cold water.",
+          "Fruit ripeness — Unripe, chalky mouthfeel — Hachiya persimmon before softening — Green, firm, drying — Up: use peel/membrane. Down: ripen fully; cook with sugar or fat.",
+          "Wine & cacao — Firm tannic structure — Young Cabernet; high‑cocoa chocolate — Grippy, structured — Up: more extraction/oak. Down: decant; serve with fatty foods.",
+          "Traditional Chinese term (涩) — Action idea: “tightening/retaining” — Lotus seed, schisandra, hawthorn peel in notes — Binding, gathering — Up: use peel/seed/skin. Down: balance with sweet, mellow textures, or longer moist cooking.",
+          "Pantry botanicals — Drying edge from skins, peels, barks — Pomegranate rind, black walnut hull — Drying, resinous — Up: include more peel. Down: strain early; add honey or gelatinous ingredients."
+        ]
       },
+      {
+        "title": "Nearby terms and how they differ",
+        "paragraphs": [],
+        "bullets": [
+          "Astringent vs. sour: Sour is a taste (acidity). Astringent is a feel. Lemon is sour, tea tannins are astringent. Pomegranate juice is sour-sweet; pomegranate peel is astringent.",
+          "Astringent vs. bitter: Bitter is a taste (sharp, tonic-like). Astringent is tactile. Dark chocolate can be both: cocoa brings bitterness, polyphenols bring astringency.",
+          "Astringent vs. dry: “Dry” can be a texture or a lack of sweetness (as in “dry wine”). Astringency is specifically that mouth‑puckering grip. A wine can be dry (not sweet) without being astringent.",
+          "Tannic: Often used when astringency is driven by tannins. Not all astringency is tannin-only—skins, peels, and certain seeds also contribute.",
+          "In Chinese vocabulary: suān (酸, sour) and sè (涩, astringent) sometimes travel together in descriptions; suān is tartness, sè is tightening. Classical texts group flavor words by their directional effect on a dish or on the body’s sensed responses in traditional writing."
+        ]
+      },
+      {
+        "title": "Technique notes: how preparation changes astringency",
+        "paragraphs": [
+          "These are kitchen levers, not rules. They simply change how the drying feel shows up on your tongue."
+        ],
+        "bullets": [
+          "Ripening and aging: Enzymes and time mellow the grip in fruits like persimmon, quince, and certain pears. In wine and tea, aging and controlled oxidation can soften tannins.",
+          "Heat and moisture: Blanching, simmering, and stewing can pull harshness into the cooking liquid. Straining or balancing with sweetness, fat, or gelatinous elements (think tremella, collagen-rich broths, or sticky rice) can round the edges.",
+          "Surface area and contact time: More cut surface or longer infusion generally means more astringency. This is obvious in tea and cocoa, but it also shows up when simmering peels and barks.",
+          "Additions that buffer: Dairy, egg yolk, nut butters, and oils can coat and soften grip. In tea, a little milk can change the feel dramatically; in sauces, butter or tahini does similar work.",
+          "Tool choice: Clay vs. porcelain teapots, unglazed vs. glazed surfaces, and metal vs. ceramic strainers can change extraction and perceived grip during brewing."
+        ]
+      },
+      {
+        "title": "Reading traditional Chinese flavor language: the role of sè (涩)",
+        "paragraphs": [
+          "In classical Chinese food and herb writing, flavor words do double duty. They name sensations and they also hint at how an ingredient “behaves” in a recipe’s internal logic—where the dish is steering the diner’s experience. In that vocabulary, sè (涩) belongs to a cluster of words translated as “tightening,” “binding,” or “retaining.” You’ll meet related verbs like shōu (收, to gather) and phrases such as shōu‑sè (收涩), especially in commentaries and headnotes for soups, congees, and infusions.",
+          "What this means for reading:",
+          "This is vocabulary, not instruction. It simply helps you parse what a writer means when they choose the term."
+        ],
+        "bullets": [
+          "When you see “astringent (涩)” in a translation, it may be pointing to a mouthfeel you’ll notice, an action idea in the tradition, or both.",
+          "Ingredients commonly tagged this way in translations include schisandra berries (noted for a complex, firming taste), lotus seed (gentle, tightening feel), pomegranate rind and leaf (pronounced grip), and hawthorn peel.",
+          "In menus and home recipes, the label can nudge you toward balance: a “tightening” element alongside juicy, sweet, or oily components creates contrast and structure."
+        ]
+      },
+      {
+        "title": "Kitchen-reading examples from Chinese and cross‑cultural menus",
+        "paragraphs": [],
+        "bullets": [
+          "Sour‑astringent duet: Cold noodles dressed with black vinegar (tart) and strong tea oil (slightly drying) read as bright and firm at once.",
+          "Congee with lotus seed and jujube: Soft, mellow base; gentle tightening from the seed; honeyed notes from the fruit. The result feels tidy, not sloppy.",
+          "Pomegranate molasses glaze: Sour‑sweet from the syrup; faint grip if some peel essence is present. Brush onto grilled eggplant and you get a shiny, lively surface with a gentle, drying edge.",
+          "Cacao nib brittle: Burnished caramel (bitter‑sweet), nutty fat, and nibs that add both crunch and a firm astringent finish. A little goes a long way.",
+          "Young red wine with lamb: The meat’s fat relaxes the wine’s grip; the wine’s tannin keeps the dish from feeling heavy. Two directions meeting in the middle."
+        ]
+      },
+      {
+        "title": "What readers often miss",
+        "paragraphs": [],
+        "bullets": [
+          "Astringency is a feel, not a taste alone. It shows up as a physical tightening in your mouth, separate from sourness or bitterness.",
+          "Sugar doesn’t erase astringency. It can distract, but the drying grip can still be there under the sweetness.",
+          "Ripeness matters. The same fruit can swing from aggressively astringent to lush and gentle over a few days.",
+          "In translations, “astringent” may be action language (sè) rather than a strict flavor note. Context—ingredient lists, cooking method, companion tastes—tells you which meaning is in play.",
+          "Tools and timing matter. In tea and other infusions, vessel material and steep time noticeably shift the feel."
+        ]
+      },
+      {
+        "title": "Common questions",
+        "paragraphs": [
+          "Is astringent the same thing as bitter? No. Bitter is a taste; astringent is a feel. They can appear together (as in dark chocolate), but you can also find one without the other. Green tea may be lightly bitter with little grip, or lightly astringent with almost no bitterness, depending on how it’s brewed.",
+          "Why does unripe persimmon make my mouth feel chalky? Unripe persimmons carry abundant tannins and related compounds in their skins and flesh. These create a drying, puckering feel on contact with your mouth. As the fruit ripens and softens, that grip fades and sweetness becomes more prominent; cooked dishes can also surround and soften the feel.",
+          "In traditional Chinese food writing, is “astringent” a flavor or an action? Both ideas are in play. The character sè (涩) is used for mouthfeel and for an action idea often translated as “tightening” or “retaining.” You’ll see it in ingredient notes, headwords, and commentary that discuss how a dish is meant to “gather” or firm up its feel and structure in the bowl."
+        ]
+      },
+      {
+        "title": "About this page",
+        "paragraphs": [
+          "This page defines “astringent” for kitchen reading. It compares modern mouthfeel language with the traditional Chinese term sè (涩), using examples from tea, fruit, wine, and common pantry botanicals. The goal is to help you read recipes, tasting notes, and translations with clear, shared vocabulary around taste and texture."
+        ]
+      }
     ],
+    "references": [
+      "HerbGuide. What Does Astringent Mean? https://herbguide.store/basics/what-does-astringent-mean/",
+      "Huangdi Neijing (Yellow Emperor’s Inner Canon). Chinese Text Project: https://ctext.org/huangdi-neijing [Used here to note the classical flavor vocabulary and related action phrasing in traditional Chinese food writing.]",
+      "Guo et al. “Influence of Various Tea Utensils on Sensory and Chemical Quality of Different Teas.” Plants (2024). https://doi.org/10.3390/plants13050669 [Cited regarding how teaware can shift perceived astringency in brewed tea.]"
+    ]
   },
   {
-    slug: "what-does-harmonizing-mean",
-    title: "What Does Harmonizing Mean?",
-    description:
-      "A plain-English explanation of harmonizing as a traditional role in herb and formula writing.",
-    eyebrow: "Basics",
-    intro:
-      "Harmonizing is one of those traditional words that sounds gentle in English but can feel vague on a herb page. In traditional herb writing, it usually points to balance, coordination, or helping different ingredients work together more smoothly inside a formula or food-style framework.",
-    sections: [
+    "slug": "what-does-harmonizing-mean",
+    "title": "What Does “Harmonizing” Mean in Traditional Food Writing?",
+    "description": "A plain-English guide to harmonizing in traditional food writing: an ingredient's coordinating job that helps a blend play well together.",
+    "eyebrow": "Basics & Concepts",
+    "intro": "In traditional Chinese‑influenced food and herb writing, harmonizing describes an ingredient’s coordinating job inside a blend. It helps a mix play well together—bridging hot and cool qualities, softening sharp edges, linking top notes with base notes, or steering a recipe toward the center. Think of it as the conductor in an orchestra of flavors and effects. It’s a relationship word about the whole preparation, not a promise about one ingredient on its own.",
+    "sections": [
       {
-        title: "Why the word can feel unclear",
-        paragraphs: [
-          "Many beginners read harmonizing and assume it is just pleasant marketing language. On a serious herb page, though, it belongs to older technical vocabulary with a specific teaching role.",
-          "It does not mean every harmonizing herb does the same thing. It means the herb is often discussed through relationship, moderation, or support rather than through one loud standalone action.",
+        "title": "The short answer: a kitchen-minded definition",
+        "paragraphs": [
+          "Harmonizing is a classic verb that signals balance and coordination inside a multi‑ingredient preparation. Rather than standing out with one loud, singular action, a harmonizing ingredient supports the group:",
+          "You’ll often see licorice root, jujube (red date), aged tangerine peel (chenpi), fresh ginger, or honey described this way in formula‑style tea blends, broths, and porridges. The key idea is orchestration: a small addition that steadies the whole."
         ],
+        "bullets": [
+          "It rounds off harshness or rough corners.",
+          "It helps contrasting pieces—warming ginger and cooling chrysanthemum, for example—coexist.",
+          "It guides attention back to the “center” so the result feels even and composed."
+        ]
       },
       {
-        title: "How harmonizing shows up on herb pages",
-        paragraphs: [
-          "Readers often meet this language on pages about licorice root, formula support, or herbs that are described as helping ingredients fit together in a more balanced way.",
-          "That is why harmonizing often appears near digestive, tonic, or formula-context writing instead of only next to one narrow situation phrase.",
+        "title": "Where you’ll see “harmonizing” on HerbGuide and beyond",
+        "paragraphs": [
+          "Harmonizing appears where traditional formula language meets the kitchen:",
+          "The word comes from older Chinese culinary‑pharmacopoeia writing, where multi‑ingredient preparations are described by roles such as chief, deputy, assistant, and “envoy.” In those sources, verbs translated as “to harmonize” appear repeatedly in explanations of how a blend should read and feel as a whole. HerbGuide uses this as food-writing language so modern readers can follow the roles without needing the original terminology."
         ],
-        bullets: [
-          "Harmonizing is part of traditional herb vocabulary.",
-          "It often points to balance, coordination, or formula support.",
-          "The term should be read as context, not as a one-word personal recommendation.",
-        ],
+        "bullets": [
+          "On herb profiles that frequently play a coordinating role, especially licorice root, jujube, and chenpi.",
+          "In discussions of classic blends—congees, simple decoctions, or spice packets—where one piece is included “to harmonize the formula.”",
+          "In plain‑English intros to traditional vocabulary, like the Basics pages, so you can read classic terms without wading through specialist jargon."
+        ]
       },
       {
-        title: "Why this matters here",
-        paragraphs: [
-          "Explaining harmonizing clearly makes pages like licorice root easier to trust because readers can see why the herb keeps appearing in broader formula discussions.",
-          "It also gives beginners a better bridge between pantry-friendly herb pages and more classical content where formulas matter much more.",
+        "title": "A plain‑English map for harmonizing",
+        "paragraphs": [
+          "To keep your reading clear, map harmonizing against a few neighboring ideas you’ll meet in traditional kitchen language:",
+          "Harmonizing isn’t a flavor by itself. It’s a role—how an ingredient behaves within others. A harmonizing piece might be sweet (licorice), aromatic (chenpi), gently spicy (fresh ginger), or neutral (rice), depending on the blend. The common thread is coordination."
         ],
+        "bullets": [
+          "Harmonize: Coordinate a mixture so its parts support each other; bridge, round, or center the overall result.",
+          "Warm or cool: Add directional temperature qualities to a dish or brew (e.g., fresh ginger warming, chrysanthemum cooling).",
+          "Disperse: Move aromas and sensations outward and upward—think mint lifting a heavy dish.",
+          "Anchor or consolidate: Settle and focus—think jujube or glutinous rice imparting softness and cohesion.",
+          "Dry or moisten: Adjust texture and mouthfeel—think aged tangerine peel drying damp heaviness vs. honey lending moisture and glide."
+        ]
       },
+      {
+        "title": "How it reads in the kitchen: three quick pictures",
+        "paragraphs": [
+          "These are all harmonizing moments: not one ingredient doing everything, but one ingredient keeping the others in agreement."
+        ],
+        "bullets": [
+          "Ginger–jujube congee on a cold morning: Fresh ginger adds friendly heat; jujube softens edges and smooths the bowl’s feel. A small spoon of honey ties the top note to the rice base. Nothing shouts. The experience is balanced and centered.",
+          "Pork rib soup with chenpi and scallion: The aged tangerine peel adds a dry citrus aroma that cuts through fattiness and links the broth’s base to fresher, brighter notes. The broth tastes clearer and better organized.",
+          "Flower tea with chrysanthemum, goji, and a pinch of licorice root: Chrysanthemum leans cool and floral; goji is soft and slightly sweet; licorice root unifies them so the sip feels continuous rather than patchy. You’d notice the difference most if you brewed the same tea without the licorice."
+        ]
+      },
+      {
+        "title": "Harmonizing inside a formula: what the role looks like",
+        "paragraphs": [
+          "In traditional formula writing, roles are about how ingredients collaborate. Here’s a simple kitchen‑side view of common harmonizing jobs.",
+          "These roles overlap. One ingredient can cover more than one job depending on its neighbors and the cooking method."
+        ],
+        "bullets": [
+          "Smoothing the edges — Harshness softens; bitterness feels rounder — Licorice root, jujube, honey — Strong roots, bitter greens",
+          "Bridging hot and cool — Temperatures feel even, not jumpy — Fresh ginger, chrysanthemum (in tiny amounts together), mint — Warming spices, cooling flowers",
+          "Linking top and base — Aroma meets body; sip feels continuous — Aged tangerine peel (chenpi), perilla leaf — Rich meats, earthy roots",
+          "Steering toward center — The dish tastes composed, not scattered — Rice, barley, jujube — Mixed aromatics, assorted add‑ins",
+          "Clearing heaviness — Fatty or damp textures read cleaner — Chenpi, ginger, spring onion greens — Pork broth, soy‑rich stews"
+        ]
+      },
+      {
+        "title": "Neighbor words you may see next to “harmonizing”",
+        "paragraphs": [
+          "Traditional descriptions often travel with a small set of companion terms. When you meet them together, read the cluster, not just the single word.",
+          "Because these are translations from older Chinese texts and teacherly kitchen notes, you’ll sometimes see different English verbs in different books. The underlying idea—coordination inside the blend—stays stable across sources."
+        ],
+        "bullets": [
+          "Chief/deputy/assistant/envoy: Role labels that describe hierarchy and function inside a formula. A harmonizing piece often sits as an assistant or envoy, coordinating others rather than leading.",
+          "Guide or direct: Language that points an effect or aroma toward a part of the body or a sensory direction (upward, downward, inward, outward). A harmonizing ingredient may “guide” by linking layers so the experience unfolds smoothly.",
+          "Moderate: To restrain an overly sharp, hot, cold, or drying push. This is harmonizing’s cousin—same family of balancing verbs—emphasizing restraint.",
+          "Gather/disperse: Movement terms. Harmonizing often plays between them, gathering scattered pieces and softening aggressive dispersal."
+        ]
+      },
+      {
+        "title": "What readers often miss (and how to read past it)",
+        "paragraphs": [],
+        "bullets": [
+          "It’s not just sweetness. Licorice is sweet, but harmonizing isn’t a sugar note. Chenpi and perilla can harmonize without tasting sweet at all.",
+          "It’s not the same as “mild.” Some harmonizing ingredients carry a clear character (fresh ginger is lively; mint is bright). The role is about keeping the whole in tune, not about being bland.",
+          "It’s not a one‑ingredient promise. Remove neighbors and the word loses meaning. Harmonizing only makes sense inside a recipe, brew, or pairing.",
+          "Proportion and method matter. A pinch of licorice can round a pot; a heavy hand makes the pot taste like licorice. Long simmering draws depth; a quick steep keeps lift. The job shifts with technique.",
+          "Translation varies. You might see “to harmonize,” “to coordinate,” or “to balance.” describe them as the same family and look for the role in the recipe note, not a single perfect word."
+        ]
+      },
+      {
+        "title": "How to spot harmonizing roles in recipes and menus",
+        "paragraphs": [
+          "You can learn to recognize harmonizing at a glance by scanning for these patterns:",
+          "As you read HerbGuide’s Basics pages and herb profiles, try paraphrasing harmonizing language into your own kitchen words: “keeps the pot on an even keel,” “connects aroma to body,” “takes the edge off,” or “anchors the mix.”"
+        ],
+        "bullets": [
+          "One small addition keeps many parts together. When a soup has meat, roots, and aromatics, check for a coordinator—often a thin slice of ginger, a strip of chenpi, or a couple of jujubes. Their quantities look modest next to the main items.",
+          "A note links opposites. If a blend includes both “warming” and “cooling” elements, expect a harmonizer to appear—either something gently sweet (licorice, jujube) or something aromatic but steadying (chenpi).",
+          "The technique is chosen to unify. A long simmer, congee base, or honey‑water syrup often signals an intention to knit flavors together. Tiny additions added late (mint, scallion greens) can also harmonize by tying the finish to the base.",
+          "The tasting description sounds organized. Words like round, even, centered, or “brings the flavors together” are kitchen flags for harmonizing."
+        ]
+      },
+      {
+        "title": "A reader’s checklist: harmonizing vs. other roles",
+        "paragraphs": [
+          "When a page mentions harmonizing, ask:",
+          "If you can answer those, you’ve already decoded most of what the term is trying to teach."
+        ],
+        "bullets": [
+          "What is being bridged—temperature, texture, aroma, or intensity?",
+          "Which ingredient is it keeping in check?",
+          "How much is used, and at what stage (simmer, steep, finish)?",
+          "Is the result described as rounder, cleaner, or more centered?"
+        ]
+      },
+      {
+        "title": "Common questions",
+        "paragraphs": [
+          "Is harmonizing the same as making a dish sweeter? No. Sweetness can help round corners, which is why small amounts of licorice, jujube, or honey often show up in blends. But harmonizing is broader: an aromatic peel can harmonize by clarifying heaviness; mint can harmonize by linking aroma to finish. Sweetness is one possible tool, not the definition.",
+          "Does a harmonizing ingredient always taste neutral? Not necessarily. Many harmonizing pieces are gentle, but they can be distinct. Fresh ginger is lively; chenpi smells unmistakably citrusy. The key is proportion and placement. Used thoughtfully, a noticeable character can still play a coordinating job—like a concertmaster whose tone is present yet keeps the orchestra together.",
+          "Why is licorice root so often called harmonizing? Because it reliably softens hard edges and connects contrasting pieces without overpowering them. Even in small amounts, licorice tends to make a pot read as one voice rather than several competing voices. Traditional commentaries frequently cite it in this coordinating role, especially in multi‑ingredient decoctions and simple teas."
+        ]
+      },
+      {
+        "title": "About this page",
+        "paragraphs": [
+          "This Basics page explains harmonizing as a role in traditional Chinese‑influenced food and herb writing. It focuses on flavor direction, texture, proportion, cooking method, and how ingredients coordinate inside multi‑item recipes. You can use this vocabulary to read classic formula notes, tea blends, congees, and broths with clearer expectations about what each piece is doing in the pot."
+        ]
+      }
     ],
+    "references": [
+      "HerbGuide, “What Does Harmonizing Mean?” https://herbguide.store/basics/what-does-harmonizing-mean/",
+      "Chinese Text Project, Huangdi Neijing (selected passages discussing balanced combinations and coordinating roles in preparations). https://ctext.org/huangdi-neijing [Used here to note that classical sources describe coordination and harmony within multi‑ingredient preparations.]"
+    ]
   },
   {
-    slug: "mulberry-fruit-vs-goji-berry",
-    title: "Mulberry Fruit vs Goji Berry",
-    description:
-      "A pantry-friendly comparison of two popular Chinese berries that often appear in tea, gentle nourishment pages, and seasonal food writing.",
-    eyebrow: "Basics",
-    intro:
-      "Mulberry fruit and goji berry can look similar in broad pantry content, but they do not create the same feeling on the page. A side-by-side comparison helps readers understand why goji often anchors beginner pages while mulberry fruit tends to show up in softer dryness, moisture, or berry-tea themes.",
-    sections: [
+    "slug": "mulberry-fruit-vs-goji-berry",
+    "title": "Mulberry Fruit vs Goji Berry: flavor, texture, and kitchen uses in traditional pantry writing",
+    "description": "A kitchen comparison of mulberry fruit and goji berry: goji reads bright and tidy; mulberry reads plush, jammy, and softly sweet.",
+    "eyebrow": "Basics & Concepts",
+    "intro": "Goji berry is the bright, firm, tangy-sweet berry that holds its shape in congee, soups, and light teas. Mulberry fruit is deeper, jammy, and tender, lending purple-black color and soft berry body to teas, compotes, and seasonal desserts. Both are small fruits often used dried, but they behave differently in the bowl and cup: goji reads all-purpose and tidy; mulberry reads plush, staining, and softly sweet.",
+    "sections": [
       {
-        title: "Why these two berries get confused",
-        paragraphs: [
-          "Both ingredients are small fruits, both are highly visual, and both can appear in tea or gentle food-style content.",
-          "That overlap makes a comparison page useful for readers who want clearer distinctions without dense technical theory.",
+        "title": "Quick comparison at a glance",
+        "paragraphs": [
+          "The two berries can sit near each other in the pantry, yet they steer a dish differently. Use this table as a first-choice guide."
         ],
+        "bullets": [
+          "Breakfast congee or oatmeal — You want bright pops that stay whole and lightly tart. — You want a soft berry swirl with deeper sweetness. — Add goji in the last 5–10 minutes; fold mulberry earlier for a jammy finish. — Goji keeps the bowl pale; mulberry tints it purple.",
+          "Clear broth or slow-cooked soup — You want clean-looking broth with distinct berries. — You’re okay with a rustic look and a soft, fruity undernote. — Rinse both; add goji near the end; simmer mulberry longer if using. — Goji barely colors; mulberry can shade the broth.",
+          "Light tea/infusion — You prefer a delicate, honey-tomato tang. — You want a fuller berry note, like diluted blackberry. — Quick rinse; steep 5–10 minutes for goji; 10–15 for mulberry. — Goji = golden to rosy; mulberry = reddish purple.",
+          "Baking and sweets — You want chewy, cranberry-like bits in cookies or bars. — You want fig- or raisin-like depth in quick breads. — Brief soak and pat dry before folding into batter. — Goji holds color; mulberry may streak.",
+          "Snack mix or topping — You want tidy, firm bites with gentle tartness. — You want soft, sweet clusters that blend with nuts. — Keep both dry; store airtight to avoid stickiness. — Minimal for goji; darker smudges from mulberry."
+        ]
       },
       {
-        title: "How HerbGuide usually separates them",
-        paragraphs: [
-          "Goji berry usually reads as the easier all-purpose beginner berry because it already feels familiar in porridge, soups, teas, and grocery culture.",
-          "Mulberry fruit often feels softer, more seasonal, and slightly more niche, which makes it useful for moisture and berry-tea themes rather than for every beginner page.",
+        "title": "A shared starting point",
+        "paragraphs": [
+          "That overlap explains why the two get compared. But the moment they hit heat or liquid, their personalities part ways."
         ],
-        bullets: [
-          "Goji usually fits broader pantry and breakfast routes.",
-          "Mulberry often fits softer tea and seasonal berry content.",
-          "The same format does not make two herbs interchangeable.",
-        ],
+        "bullets": [
+          "Both are small fruits with long use in East Asian kitchen writing, often appearing in pantry lists alongside jujube (red date), chrysanthemum, and dried longan.",
+          "In North America and Europe, both are commonly sold dried; fresh mulberries may appear seasonally, while fresh goji berries are uncommon.",
+          "In home kitchens, you’ll see them in porridge, soups, teas, trail mixes, and simple desserts—always more fruit-forward than spice-forward."
+        ]
       },
       {
-        title: "What readers should click after this comparison",
-        paragraphs: [
-          "The best next step is usually either a practical recipe page or the individual herb profiles for goji berry and mulberry fruit.",
-          "That lets readers move from comparison language into real kitchen context immediately.",
+        "title": "Form, look, and buying notes",
+        "paragraphs": [
+          "Storage is straightforward: keep dried berries in a cool, dark cupboard in an airtight container. If your kitchen is humid, refrigerate the container to preserve texture. Fresh mulberries go in the fridge and are best within a day or two."
         ],
+        "bullets": [
+          "Goji berry (often labeled “wolfberry”) is small, oblong, and orange-red. Good dried goji feels pliable, not brittle. Expect a few tiny seeds; they’re soft.",
+          "Mulberry fruit ranges from beige-golden to purple-black, with a bumpy, elongated shape made of many tiny drupelets. Dried mulberries are lighter and more aerated than raisins; purple-black ones feel denser and can be stickier.",
+          "Fresh mulberries are fragile. They crush easily and stain fingertips and cutting boards a deep purple. If you find them, plan to use them quickly or freeze on a sheet tray for later.",
+          "Stems: Mulberries often retain a small stem; it softens on cooking. Goji typically has no noticeable stem attached.",
+          "Labels to recognize: goji = “wolfberry,” mulberry = “mulberry fruit” or “sangshen.” Packaging might mention traditional pantry language; read it as food-writing context rather than instruction."
+        ]
       },
+      {
+        "title": "Flavor, aroma, and mouthfeel",
+        "paragraphs": [
+          "A quick sniff test helps: goji smells bright and lightly herbal; mulberry leans dusky, grape-like, and dessert-leaning."
+        ],
+        "bullets": [
+          "Goji berry: tangy-sweet with a light tomato-honey note. The chew is firm when dry and pleasantly tender after soaking. It keeps its silhouette in liquid and doesn’t cloud the dish much. Think “gentle cranberry meets cherry tomato” rather than jammy berry.",
+          "Mulberry fruit: soft, jammy sweetness with hints of blackberry, fig, and grape. Even when dried, it turns tender quickly with heat or soaking. It bleeds color, softens edges, and contributes body to liquid. Think “miniature berry compote in the making.”"
+        ]
+      },
+      {
+        "title": "Preparation differences that change the dish",
+        "paragraphs": [
+          "Small handling choices decide whether a bowl reads crisp or plush."
+        ],
+        "bullets": [
+          "Rinsing: Give both a quick rinse to remove dust. Drain well.",
+          "Soaking: Goji needs only a brief soak (5 minutes) if you want it especially tender for salads or baking. Mulberry benefits from 10–15 minutes when you want softness without long simmering.",
+          "Simmering in soups: Add goji during the last 5–10 minutes to keep shape and color. Add mulberry earlier if you want its deeper tone to carry through; later if you prefer only a light berry hint.",
+          "In porridge/congee: Stir mulberry in earlier for a streaked, jam-like effect; drop goji in near the end for bright pops.",
+          "Teas and infusions: Use just-boiled water. Goji gives a clean, golden cup with a rosy cast and soft sweetness. Mulberry pushes toward reddish purple and a fuller berry roundness. Strain or sip around the fruit, then eat the berries if you like.",
+          "Baking: For cookies and granola bars, goji brings neat, chewy bits; mulberry may clump and smear color. For quick breads and muffins, chop mulberries (if large) and fold gently; brief soaking prevents hard edges without making batter streaky."
+        ]
+      },
+      {
+        "title": "Recipe-context choices: when one outshines the other",
+        "paragraphs": [],
+        "bullets": [
+          "For tidy, beginner-friendly pantry builds: Choose goji. It looks familiar in cereal bars, breakfast bowls, and light soups. Its bright profile supports, rather than dominates, other flavors.",
+          "For berry-tea or “soft dessert” storylines: Choose mulberry. It moves a drink or sweet toward a round, compote-like mood and contributes striking color.",
+          "For clear broths and refined plating: Goji behaves. It stays whole and doesn’t muddy the liquid.",
+          "For yogurt parfaits and rustic bakes: Mulberry works like a cross between raisin and fig, giving chew and gentle syrupy notes.",
+          "For quick stovetop sips with hot water: Either works, but your cup will read differently—goji for brightness, mulberry for body.",
+          "In traditional food-writing themes, goji often anchors “everyday pantry” examples; mulberry supports seasonal berry narratives and softer, moisture-leaning descriptions. Read those phrases as genre signals rather than instructions."
+        ]
+      },
+      {
+        "title": "Color, plating, and how they change the look",
+        "paragraphs": [
+          "A small handful can repaint a dish.",
+          "Keep a light hand. With both berries, too many can turn a dish from hinted-to to heavy-handed."
+        ],
+        "bullets": [
+          "Goji is camera-friendly: specks of sunset orange against pale rice or whites of soup. It rarely stains the base.",
+          "Mulberry is dramatic: purple streaks in porridge, a wine-like blush in tea, and dark dots in batter. If you want clean white bowls, add mulberry late or keep it to garnish.",
+          "Mixed visuals: Pair goji with pale elements—pear slices, lily bulb, chrysanthemum—to keep a delicate palette. Pair mulberry with dark companions—black sesame, red bean, cocoa—for a moody dessert tone."
+        ]
+      },
+      {
+        "title": "Common mix-ups and how to avoid them",
+        "paragraphs": [
+          "Packaging across regions can vary. If in doubt, look for shape (oblong vs. bumpy cluster), color, and common names on the label."
+        ],
+        "bullets": [
+          "Wolfberry vs. goji: They’re the same fruit; “wolfberry” is a common package term.",
+          "White vs. black mulberries: Both exist. White/golden dried mulberries are honey-sweet and less staining; black/purple ones are deeper and more staining. Flavor leans similar, with the darker fruit reading fuller.",
+          "Black goji confusion: Black goji (a different species) exists but is less common and usually costlier; it makes a blue-purple tea. Regular orange-red goji is the everyday pantry item.",
+          "Fruit vs. leaf: Mulberry leaf is its own ingredient and reads like a leafy tea; this page is about the fruit.",
+          "Fresh goji rarity: If you see fresh goji, handle like delicate grape tomatoes: quick rinse, gentle drying, and immediate use."
+        ]
+      },
+      {
+        "title": "Pantry planning: quantities, storage, and pairing ideas",
+        "paragraphs": [
+          "Label jars with the date and a quick note: “Goji—add late” and “Mulberry—stains, soften early.” It’s a small nudge that keeps cooking decisions quick on busy nights."
+        ],
+        "bullets": [
+          "Quantities: For porridge, start with 1–2 tablespoons goji or mulberry per serving; adjust to taste. For soups, a small palmful is plenty for a family pot.",
+          "Storage: Airtight jar, cool cupboard. If berries feel too dry after long storage, revive with a short soak before cooking.",
+          "Pairing ideas: — Goji with: jujube, ginger, pear, barley, light poultry broths. — Mulberry with: black sesame, red bean, oats, cocoa, yogurt. — Together: Use a small ratio of mulberry for color and roundness, then goji for bright punctuation."
+        ]
+      },
+      {
+        "title": "Common questions",
+        "paragraphs": [
+          "Can I swap goji for mulberry one-to-one in soup? You can make the swap by volume, but expect a different result. Goji will keep the broth clearer and the berries distinct. Mulberry will soften more, sweeten the base a touch, and may tint the liquid. If you substitute mulberry for goji, add it earlier for a rounder berry note, or later if you want only a hint of color.",
+          "Do I need to soak goji or mulberry before adding to porridge? Not required, but useful. A brief soak (5 minutes for goji; 10–15 for mulberry) evens out texture and keeps the rest of the pot from chasing moisture. If you prefer tidy, distinct bites, soak and add near the end. If you want a jammy swirl, skip soaking and add mulberry earlier so it melts into the grains.",
+          "Are mulberries always purple-black? No. Dried mulberries can be beige-golden or purple-black. Golden ones are honey-sweet and less staining; darker ones bring deeper color and a slightly fuller berry tone. Fresh mulberries also vary by variety and ripeness. Choose based on the look you want in the finished dish."
+        ]
+      },
+      {
+        "title": "About this page",
+        "paragraphs": [
+          "This Basics comparison explains how goji berry and mulberry fruit differ in flavor, form, preparation, and their roles in traditional pantry writing. It focuses on kitchen reading: how each fruit looks, tastes, and behaves when simmered, soaked, baked, or steeped. When older phrases appear, they’re presented as food-writing language, not as instructions or promises."
+        ]
+      }
     ],
+    "references": [
+      "HerbGuide, “Mulberry Fruit vs Goji Berry,” https://herbguide.store/basics/mulberry-fruit-vs-goji-berry/",
+      "U.S. Department of Agriculture, FoodData Central: entries for mulberries and goji/wolfberries, https://fdc.nal.usda.gov/"
+    ]
   },
   {
-    slug: "chinese-pantry-starter-kit",
-    title: "The Chinese Pantry Starter Kit",
-    description:
-      "A friendly, opinionated list of 10 traditional ingredients every curious cook should know. This page bridges the gap between a daunting Asian grocery store and your home kitchen.",
-    eyebrow: "Basics",
-    intro:
-      "A friendly, opinionated list of 10 traditional ingredients every curious cook should know. This page bridges the gap between a daunting Asian grocery store and your home kitchen.",
-    sections: [
+    "slug": "chinese-pantry-starter-kit",
+    "title": "The Chinese Pantry Starter Kit: Traditional ingredients you’ll actually use",
+    "description": "A starter kit of ten classic dried Chinese pantry ingredients: what to buy first, how to soak and simmer, and how they pair in everyday cooking.",
+    "eyebrow": "Basics & Concepts",
+    "intro": "This starter kit gathers ten classic dried ingredients you can find in most Asian markets and put to work right away. Think sweet red jujubes, bright tangerine peel, silky snow fungus, and pantry-friendly ginger. Together they create a small, flexible shelf of flavor: quick broth boosters, dessert soups, and add-ins for porridge or tea. You’ll learn what to buy first, how to soak and simmer, and how these ingredients naturally pair in everyday cooking.",
+    "sections": [
       {
-        title: "Why the word feels strange at first",
-        paragraphs: [
-          "Walking down the dried goods aisle of an Asian market can be overwhelming. There are roots, barks, dried fungi, and berries with no English instructions. It is easy to walk away empty-handed.",
+        "title": "How this starter kit works",
+        "paragraphs": [
+          "A useful pantry trims a crowded aisle into a handful of dependable flavors and textures. This kit focuses on dried goods long used in Chinese home kitchens and teahouse-style sweets. The goal is not a museum shelf, but a working set you’ll reach for on busy nights.",
+          "You’ll see familiar pairings from traditional food writing—ginger with aged citrus peel, or tremella with rock sugar—not as rules, but as kitchen shorthand that still works today."
         ],
+        "bullets": [
+          "Scope: dried fruits, peels, roots, seeds, fungi, and a sweetener commonly used in soups, braises, porridges, and infusions.",
+          "Approach: buy small, store well, and rotate often. Most items need only a rinse and soak, then simmer.",
+          "Flavor logic: combine a sweet anchor (jujube, lotus seed) with an aromatic accent (chen pi, ginger) and, when desired, a silky or savory base (tremella or shiitake)."
+        ]
       },
       {
-        title: "How pantry staple language appears on herb pages",
-        paragraphs: [
-          "We often reference these ingredients in our recipe pages as 'everyday pantry staples.' They are the quiet workhorses of traditional cooking.",
+        "title": "The 10-item list: what to buy first",
+        "paragraphs": [
+          "Below is a compact working set, with plain-English notes on flavor and quick use. Start with two or three, then grow into the full ten."
         ],
-        bullets: [
-          "They are used as food, not just medicine.",
-          "They are highly shelf-stable when stored correctly.",
-          "They require minimal prep—often just a quick rinse.",
-        ],
+        "bullets": [
+          "Goji berries (gouqi)",
+          "Flavor/texture: gently sweet, slightly tart; soft-chewy after soaking.",
+          "Quick use: a small handful in oatmeal, congee, steamed eggs, or light soups.",
+          "Tip: add near the end of cooking to keep their shape and color.",
+          "Red jujubes, a.k.a. Chinese red dates (hongzao)",
+          "Flavor/texture: honeyed date note; skins soften, flesh turns jammy.",
+          "Quick use: simmer whole in dessert soups or slice into braises for round sweetness.",
+          "Tip: pit before slicing; strain if making a clear infusion.",
+          "Dried ginger slices (gan jiang)",
+          "Flavor/texture: warm spice and citrusy zing; sturdy slices.",
+          "Quick use: steep a slice for a cup of ginger tea or add two to a pot of broth.",
+          "Tip: start small; dried ginger is more concentrated than fresh.",
+          "Aged tangerine peel (chen pi)",
+          "Flavor/texture: fragrant, slightly bitter-orange; softens with simmering.",
+          "Quick use: one small piece lifts slow-cooked meats, fish congee, or teas.",
+          "Tip: rinse briefly, then soak a few minutes; scrape off pith if very thick.",
+          "Dried lily bulb (baihe)",
+          "Flavor/texture: delicate, lightly sweet; petals turn tender with a faint snap.",
+          "Quick use: add to tremella or pear desserts; fold into light chicken soups.",
+          "Tip: soak 20–30 minutes, changing water if petals look dusty.",
+          "Lotus seeds (lianzi)",
+          "Flavor/texture: clean, nutty; creamy when cooked through.",
+          "Quick use: simmer in congee, sweet soups, or Cantonese-style tong sui.",
+          "Tip: buy split, peeled seeds for faster cooking; remove any green germ if present (it tastes very bitter).",
+          "Tremella mushroom, a.k.a. snow fungus (yiner)",
+          "Flavor/texture: neutral flavor; gelatinous-silky frills that thicken liquid slightly.",
+          "Quick use: dessert soups with rock sugar and fruit; add to light chicken broths.",
+          "Tip: soak 30–60 minutes until fully plumped; trim the tough yellow core.",
+          "Dried shiitake mushrooms (xianggu)",
+          "Flavor/texture: deep, woodsy savoriness; meaty caps.",
+          "Quick use: the soaking liquid becomes instant umami stock for noodles, rice, or stir-fries.",
+          "Tip: soak in warm water until very soft, then squeeze and slice.",
+          "Dried longan (longyan rou)",
+          "Flavor/texture: rich, caramelly sweet; soft-chewy after simmering.",
+          "Quick use: pair with jujube or goji in dessert soups; sweeten mild herbal infusions.",
+          "Tip: a few pieces go a long way; taste as you go.",
+          "Rock sugar (bing tang)",
+          "Flavor/texture: clean, neutral sweetness; slowly dissolves.",
+          "Quick use: balances bitter or sharp notes in teas, desserts, and braises.",
+          "Tip: crack large chunks before storing for easier portioning."
+        ]
       },
       {
-        title: "Why this matters here",
-        paragraphs: [
-          "Building a basic pantry means you can start cooking traditional, balancing meals immediately without needing to hunt down obscure ingredients every time you want to make a soup.",
+        "title": "Reading labels and buying well",
+        "paragraphs": [
+          "Asian markets often list names in multiple scripts and languages. A quick label map helps you shop with confidence.",
+          "For spices and dried seasonings in general, home cooks commonly keep them dry, avoid damp scoops, and apply cooking heat. The U.S. FDA discusses how spice handling is managed along the supply chain; at home, clean, dry storage and normal cooking are standard good habits."
         ],
+        "bullets": [
+          "Multiple names: look for English (e.g., “dried tangerine peel”), pinyin (chen pi), and sometimes Cantonese (chan pei). Character recognition helps when varieties sit side by side.",
+          "Whole vs. sliced: whole pieces (ginger, jujube, shiitake) store longer and let you control intensity; slices hydrate faster and are convenient for single cups or small pots.",
+          "Aged or grade-marked items: chen pi is often noted by age; older peel smells deeper and costs more. Shiitake may be graded by cap thickness and cracking (“donko,” “flower”).",
+          "Color and aroma: choose vibrant but natural colors, intact shapes, and a clean, lively smell. Extremely dull, dusty pieces or harsh, perfumey aromas are signs to skip.",
+          "Packaging: small sealed bags move quickly off store shelves. For bins, prefer high-turnover shops and scoop from the top layer with clean utensils."
+        ]
       },
       {
-        title: "What pantry staple can feel like in everyday foods",
-        paragraphs: [
-          "Start with the approachable items: Goji berries can go in oatmeal. Jujubes can sweeten a simple tea. Dried ginger is a lifesaver when you don't have fresh. These are not intimidating once they are in your kitchen.",
+        "title": "Quick prep and pairing map",
+        "paragraphs": [
+          "Use this chart as a five-ingredient snapshot. Times are guides; adjust for size and age."
         ],
+        "bullets": [
+          "Goji berries — Rinse; 5–10 min soak if very dry — Gentle sweetness; soft-chewy — Jujube — Oatmeal, congee, light soups",
+          "Red jujubes — Rinse; 15–20 min soak (optional) — Honeyed date; jammy — Ginger — Dessert soups, braises, teas",
+          "Tremella — Soak 30–60 min; trim core — Silky frills; slight thickening — Rock sugar — Sweet soups, light broths",
+          "Lotus seeds — Soak 1–2 hrs (split seeds less); simmer until creamy — Clean, nutty; creamy — Lily bulb — Congee, tong sui, soups",
+          "Chen pi — Rinse; 5–10 min soak; scrape pith if thick — Bright, bitter-orange aroma — Ginger — Braises, fish congee, teas"
+        ]
       },
       {
-        title: "How to read pantry staple pairings more clearly",
-        paragraphs: [
-          "The beauty of a starter pantry is that the ingredients naturally pair with each other. Goji and jujube. Chen pi and ginger. Lotus seed and tremella. Once you have the basics, the combinations are endless.",
+        "title": "Everyday patterns you can cook tonight",
+        "paragraphs": [
+          "Start with simple structures you can memorize, then customize by mood and what’s on hand.",
+          "Once these feel natural, riff within the same families: swap lily bulb for lotus seed in desserts when you want extra petal-soft texture, or pair chen pi with poultry instead of fish to perfume a slow stew. Classical pairings like chen pi with ginger appear across old culinary texts and commentaries, and they remain practical guidelines in home kitchens."
         ],
+        "bullets": [
+          "Bright ginger–citrus pot: 2 slices dried ginger + a small square of chen pi + a few red jujubes. Simmer 10–15 minutes for a fragrant cup, or build into fish congee for a clean, citrus-lifted bowl.",
+          "Sweet-fragrant dessert soup (tong sui): tremella + lotus seeds + rock sugar. Add goji near the end for color. Serve warm, spoonable, and lightly thickened.",
+          "Worknight umami: soak shiitake; slice. Use soaking liquid as stock for noodles with a pinch of rock sugar and a few goji. Top with the mushrooms and a splash of soy sauce if you keep it on hand.",
+          "Cozy porridge: plain rice congee enriched with split lotus seeds. Finish with goji and a drizzle of sesame oil, or go savory with sliced shiitake and a touch of white pepper.",
+          "Simple teahouse mix: jujube + dried longan for a deeper caramel note; add one slice of ginger to brighten."
+        ]
       },
       {
-        title: "Where to keep reading after this page",
-        paragraphs: [
-          "Head over to the Kitchen Traditions section to see exactly how we combine these starter ingredients into simple daily meals.",
+        "title": "Pairing logic, made simple",
+        "paragraphs": [
+          "Think in small flavor jobs. Each ingredient enters the pot with a role.",
+          "Build your pot with one item from each role, then adjust. If it tastes flat, add an accent (ginger or chen pi). If it’s sharp, add a sweet anchor (jujube or rock sugar). If it feels thin, add tremella or a bit more shiitake stock."
         ],
+        "bullets": [
+          "Sweet anchors: jujube, lotus seed, longan, and rock sugar build volume and roundness. They mellow sharper notes and carry softer flavors.",
+          "Aromatic accents: chen pi and dried ginger wake up a pot. Use the smallest piece that gets the job done; you can always add more.",
+          "Silky carriers: tremella contributes a gentle, spoon-coating body without heavy flavor. It’s a backdrop for fruit and floral notes.",
+          "Savory foundation: shiitake and its soaking liquid offer depth. Add early so the savoriness can weave through grains or greens.",
+          "Color and garnish: goji adds a cheerful red-orange pop and a light, fruity thread. Sprinkle near the end to keep it bright."
+        ]
       },
+      {
+        "title": "Technique variables that change flavor",
+        "paragraphs": [
+          "Small choices shift outcomes more than you might expect. Note these levers:",
+          "Kitchen handling matters too. Keep scoops dry, seal bags after use, and rely on normal cooking heat, which is the backbone of home spice and dried-ingredient handling advice."
+        ],
+        "bullets": [
+          "Soak time and temperature: warm water speeds softening for shiitake and tremella; cool water preserves brighter aromas for chen pi. Over-soaking lotus seeds can make them mushy; aim for just-tender, then simmer to finish.",
+          "Size of cut: whole jujubes give a clearer broth; sliced ones release more sweetness quickly. Thin ginger slices steep fast; thicker slices are rounder and less sharp.",
+          "Toasting aromatics: a quick dry toast of chen pi before soaking deepens its orange oil aroma. Use low heat and move constantly to avoid scorching.",
+          "Order of addition: add accents (ginger, chen pi) early for integrated flavor, or late for a top-note “lift.” Add goji late to keep color.",
+          "Water-to-ingredient ratio: tremella needs extra water to show its gentle thickening; shiitake soaking liquid counts as stock—don’t discard it unless gritty.",
+          "Pot choice: clay pots retain gentle, even heat for dessert soups; stainless or enameled pots are versatile and easy to clean.",
+          "Sweetness control: rock sugar dissolves slowly; crack pieces first and add in stages, tasting between additions."
+        ]
+      },
+      {
+        "title": "Storage that preserves aroma and texture",
+        "paragraphs": [
+          "Dried goods reward a little attention in storage.",
+          "If you spot off-odors, visible moisture, or insect activity, discard and replace. A tidy shelf makes it easy to see what you have and build pots on instinct."
+        ],
+        "bullets": [
+          "Containers: airtight jars or zip bags inside a lidded bin to block light. Label with purchase date and any prep notes (“chen pi: strong, use small piece”).",
+          "Climate: cool, dry, and dark. Avoid stovetop cabinets where steam collects.",
+          "Separation: store strong aromatics (ginger, chen pi) away from neutrals (tremella, lily bulb) to avoid scent drift.",
+          "Freezer help: for long holds, freeze small portions of shiitake or tangerine peel in sealed bags. Thaw sealed to avoid condensation.",
+          "Rotation: buy modest quantities you’ll finish in a few months. Use the oldest first."
+        ]
+      },
+      {
+        "title": "Common questions",
+        "paragraphs": [
+          "Do I need all ten items to start? No. Pick two or three that match what you already enjoy. If you like gentle sweetness, try jujube and goji. If you’re drawn to savory bowls, start with shiitake and chen pi. Add one new item each time you restock so your shelf grows in a direction you’ll actually use.",
+          "How do I know how much to use in a pot? Think in small pieces and handfuls. For a 1–1.5 quart (1–1.5 L) pot: 1 small piece of chen pi, 1–2 slices of dried ginger, 4–6 jujubes, a small handful of goji or longan, and a few lotus seeds or a palm-sized cluster of tremella. Taste midway and adjust—especially sweetness.",
+          "Can I substitute fresh ingredients? Often, yes—but expect different results. Fresh ginger is brighter and less concentrated than dried; use more and simmer a bit longer. Fresh citrus peel is zestier and less mellow than chen pi; a small strip can stand in, but it won’t have the same rounded depth. Fresh mushrooms won’t replace the deep stock that dried shiitake soaking liquid provides."
+        ]
+      },
+      {
+        "title": "About this page",
+        "paragraphs": [
+          "This page outlines a compact set of traditional Chinese dried ingredients as they appear in everyday cooking and food writing. It focuses on flavor roles, preparation (rinsing, soaking, simmering), pairing logic, and clear shopping language so readers can build a small, usable pantry for soups, porridges, braises, and dessert-style infusions."
+        ]
+      }
     ],
+    "references": [
+      "The Chinese Pantry Starter Kit. HerbGuide Basics. https://herbguide.store/basics/chinese-pantry-starter-kit/",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices [Used for general notes on home spice-handling habits and the role of cooking heat.]",
+      "Chinese Text Project. Huangdi Neijing. https://ctext.org/huangdi-neijing [Cited for the historical presence of ginger and citrus peel pairings in classical food-related writings.]"
+    ]
   },
   {
-    slug: "simple-herbal-tea-routine",
-    title: "How to Build a Simple Herbal Tea Routine",
-    description:
-      "Practical, seasonal, no-pressure guidance for people who want a traditional tea ritual, not a strict medical regimen.",
-    eyebrow: "Basics",
-    intro:
-      "Practical, seasonal, no-pressure guidance for people who want a traditional tea ritual, not a strict medical regimen.",
-    sections: [
+    "slug": "simple-herbal-tea-routine",
+    "title": "How to Build a Simple Herbal Tea Routine (traditional tea language for everyday kitchen use)",
+    "description": "A plain-English guide to building a simple herbal tea routine from whole dried botanicals, hot water, and a cup you like.",
+    "eyebrow": "Basics & Concepts",
+    "intro": "A simple herbal tea routine is an easy kitchen habit built from whole dried botanicals, hot water, and a cup you like using. Choose a base ingredient and a small accent, rinse briefly, then steep in hot water. Sip and refill with more hot water through the day, watching color and aroma as your guide. Keep pairings seasonal—spicier and toasty in cold months, floral and fresh in warm months—and keep the ritual light, practical, and repeatable.",
+    "sections": [
       {
-        title: "Why the word feels strange at first",
-        paragraphs: [
-          "In the West, herbal tea usually comes in a neat little paper bag. Traditional Chinese herbal teas often involve whole dried flowers, roots, and berries floating freely in a glass or thermos. It requires a slight shift in how we think about brewing.",
-        ],
+        "title": "What “herbal tea” means in this guide",
+        "paragraphs": [
+          "In many Western kitchens, “tea” suggests a paper bag tucked in a mug. In traditional Chinese food writing, everyday “herbal tea” points to whole dried pieces—flowers, roots, peels, berries—steeped directly in hot water. The look is different: petals and slices drift and unfurl; berries plump and glow. You’re not cooking a decoction for hours. You’re making a light, replenishable infusion that rides beside your workday like a thermos of coffee.",
+          "The sense of pace is different, too. You rely on visual and aromatic cues over strict timers. Water darkens, petals open, the steam turns fragrant—these are your signals. When the color fades and the cup tastes thin, you refresh the ingredients or switch to something new."
+        ]
       },
       {
-        title: "How tea routine language appears on herb pages",
-        paragraphs: [
-          "Across our site, you will see instructions to 'rinse and steep' rather than 'boil for hours.' This is the essence of a daily, accessible routine.",
+        "title": "A repeatable framework: base + accent + hot water",
+        "paragraphs": [
+          "Think in threes:",
+          "A practical ratio: 2–3 teaspoons of base plus 1–2 teaspoons (or a single slice/flower) of accent per 12–16 ounces of water. Rinse both quickly to wake aromas, then steep. Top up with more hot water as the day goes on.",
+          "This frame makes choices easy. You can swap in nearly any base or accent, keep the handfuls small, and let the palette shift with weather and mood."
         ],
-        bullets: [
-          "Routines should adapt to the season, not stay rigid year-round.",
-          "Visual cues (like water color and expanding berries) replace strict timers.",
-          "You can keep refilling your cup with hot water throughout the day.",
-        ],
+        "bullets": [
+          "Base ingredient: something steady that brews round and friendly. Examples: goji berry (gouqi), dried jujube dates, roasted barley, black or green tea if you enjoy a little caffeine.",
+          "Accent: a small, vivid lift. Examples: chrysanthemum flowers, a slice of fresh ginger, a few rose buds, a shard of dried tangerine peel.",
+          "Hot water: the quiet worker. You’ll use near-boiling water for thicker materials like roots and peels; slightly cooler water for delicate petals."
+        ]
       },
       {
-        title: "Why this matters here",
-        paragraphs: [
-          "A tea routine is one of the easiest ways to introduce traditional balancing concepts into your life. It takes two minutes of prep but provides hydration and subtle energetic support all day.",
+        "title": "Gear that makes it effortless",
+        "paragraphs": [
+          "You don’t need specialty equipment. Choose one item from each line and you’re set:",
+          "Different utensils can make flavor feel slightly different—glass tends to keep flavors clean and show off aroma; metal may run hotter and can emphasize briskness; clay can round edges and mute highs. None is “right”; pick the one that fits your desk or countertop and encourages you to actually steep."
         ],
+        "bullets": [
+          "A vessel: glass mug with an infuser basket, lidded tumbler, or a double‑walled glass thermos. Glass lets you watch the infusion, which is half the pleasure.",
+          "A kettle: electric with temperature control if you have it; a stovetop kettle works fine.",
+          "A strainer: small handheld strainer or the built‑in basket from your mug."
+        ]
       },
       {
-        title: "What tea routine can feel like in everyday foods",
-        paragraphs: [
-          "A glass thermos filled with hot water, a few goji berries, and a couple of chrysanthemum flowers is a common sight in many traditional households. It is as much a part of the workday as a cup of coffee.",
+        "title": "Rinse, steep, and refill: the everyday method",
+        "paragraphs": [
+          "A light, daily infusion follows a rhythm you can memorize:",
+          "Temperature notes:",
+          "Cleanup is simple: tap out the botanicals, rinse the cup and basket, and let them dry thoroughly before the next use."
         ],
+        "bullets": [
+          "Measure loosely.",
+          "Base: 2–3 teaspoons (or a small pinch for potent roots).",
+          "Accent: 1 teaspoon, 1–3 flowers, or a thumbnail of sliced ginger or peel.",
+          "Quick rinse.",
+          "Put the dried pieces in your basket or directly in the cup.",
+          "Pour in a splash of hot water, swirl for 2–3 seconds, and discard. This brightens aroma and clears dust from dried surfaces.",
+          "First steep.",
+          "Refill with hot water.",
+          "Time by sight and smell: petals unfurl and tint the water in about 1–3 minutes; berries and roots may want 4–6.",
+          "Taste early. When it’s pleasantly fragrant and not sharp, start sipping.",
+          "Refill through the day.",
+          "Top up with hot water whenever your cup runs low.",
+          "The second infusion is often the sweetest; the third is lighter and softer.",
+          "Retire the leaves or botanicals when color runs pale and the cup tastes like warm water.",
+          "Delicate flowers (chrysanthemum, rose): water just off boil (around the point small bubbles form), to keep florals fresh rather than stewy.",
+          "Heartier pieces (ginger, dried citrus peel, roots): a full boil helps pull flavor.",
+          "Mixed blends: aim high—boiling or near‑boiling—so sturdier parts wake up."
+        ]
       },
       {
-        title: "How to read tea routine pairings more clearly",
-        paragraphs: [
-          "A good routine relies on simple pairings. Pair a sweet ingredient (like longan) with a floral one (like rose bud). Pair a warming ingredient (like ginger) with a neutral base (like black tea).",
+        "title": "Seasonal shifts in flavor and feel",
+        "paragraphs": [
+          "Traditional tea language leans on warm‑to‑cool imagery, not on lab measurements. It’s kitchen shorthand that helps you steer pairings to match weather and table.",
+          "You can also steer by texture:",
+          "Use these words as food-writing pointers. They help you choose, not to make promises about outcomes."
         ],
+        "bullets": [
+          "Cold months: lean to “warming” accents—fresh ginger, roasted barley, aged tangerine peel—with deeper bases like black tea or jujube. The steam feels toasty; the cup sits round and mellow.",
+          "Transition seasons: think gentle and balanced—goji with chrysanthemum, rose on green tea, a sliver of licorice root to smooth edges.",
+          "Hot months: aim lighter and crisp—chrysanthemum alone or paired with a few goji berries; mint or osmanthus with green tea; a squeeze of citrus peel for brightness.",
+          "Want plush and sweet? Dried jujube or longan add honeyed roundness.",
+          "Want brisk and cooling on the palate? Chrysanthemum and mint lift and clear.",
+          "Want depth with no fuss? Roasted barley or buckwheat offers nutty calm with zero petals to manage."
+        ]
       },
       {
-        title: "Where to keep reading after this page",
-        paragraphs: [
-          "Check out our specific tea recipes to find the perfect starting point for your new routine.",
+        "title": "Pairings you can memorize",
+        "paragraphs": [
+          "Start with a familiar base, add a small accent, and watch for a clear visual cue before sipping. These combinations are simple, flexible, and easy to scale for a mug or a thermos.",
+          "describe the table as a starting point. If the cup runs dull by the second refill, add one more flower or a second coin of ginger next time. If it’s too strong, scale back the accent first."
         ],
+        "bullets": [
+          "Goji berries — Chrysanthemum flowers (2–3) — Soft, gently floral, lightly sweet — Berries plump; petals open; water turns pale gold — 1 heaping tsp goji + 2 flowers per 12 oz",
+          "Jujube (sliced) — Fresh ginger (1–2 thin coins) — Cozy, toasty, round — Dates redden the cup; ginger oils bead on surface — 2 slices jujube + 1 ginger coin per 12–14 oz",
+          "Green tea — Rose buds (2–3) — Bright, aromatic, lifted — Leaves unfurl; steam is leafy then rosy — 1 tsp green tea + 2 buds per 10–12 oz",
+          "Roasted barley — Dried tangerine peel (small shard) — Nutty with citrus high note — Barley deepens to amber; peel softens and curls — 2 tsp barley + 1 postage-stamp peel per 12–16 oz",
+          "Black tea — Dried longan (1–2 pieces) — Malty, honey‑edged, comforting — Water turns mahogany; longan swells — 1 tsp black tea + 1 longan per 10–12 oz"
+        ]
       },
+      {
+        "title": "Ingredient selection and storage",
+        "paragraphs": [
+          "What to buy:",
+          "Whole pieces are easier to portion by sight and give clearer, calmer infusions than powders. If you only have bagged blends at home, open a bag into your mug and describe it like loose botanicals; it will still benefit from a quick rinse and multiple refills.",
+          "Storage basics:",
+          "Sourcing:"
+        ],
+        "bullets": [
+          "Whole, recognizable pieces: intact flowers, evenly dried berries, roots that look cleanly sliced.",
+          "Light, clean aroma from the jar—no musty or stale notes.",
+          "Minimal dust in the bottom of the bag.",
+          "Use airtight glass jars or tins.",
+          "Keep jars in a cupboard away from direct sunlight and stove heat.",
+          "Label with the purchase month. Most dried botanicals keep their voice for several months; flowers fade earliest.",
+          "Use clean, dry spoons for scooping and reseal promptly—minimizing moisture and stray kitchen odors keeps pantry spices and botanicals in better contexts.",
+          "Look for trusted tea shops, Asian groceries with good turnover, or reputable online sellers. If the store lets you smell before buying, compare two lots and pick the brighter aroma."
+        ]
+      },
+      {
+        "title": "Make it yours without keeping score",
+        "paragraphs": [
+          "A routine works when it’s friction‑free. A few habits help:",
+          "Above all, keep it light. This is kitchen rhythm, not homework."
+        ],
+        "bullets": [
+          "Keep a small jar of your base and a tin of your favorite accent beside the kettle. The easier the reach, the more likely you’ll steep.",
+          "Portion by “pinch and piece,” not grams: a pinch of barley, one piece of peel. The visual ratio sticks in memory.",
+          "Choose a vessel that suits your desk: a wide glass for watching petals, a thermos for steady warmth, or a mug you don’t mind rinsing and refilling often.",
+          "Notice how the cup changes over the day. The first pour might be brisk; the second sweetest; the third gentle. Retire the batch when color and fragrance fade.",
+          "Rotate with the weather. When mornings turn chilly, let ginger walk into the mix. When afternoons run hot, bring in chrysanthemum or mint."
+        ]
+      },
+      {
+        "title": "Common questions",
+        "paragraphs": [
+          "Can I just use tea bags? Yes. If bags are what you have, open one or two into your cup and describe them like loose botanicals. Give a quick rinse, then steep and refill as you would with whole pieces. The main difference is visual: bags cloud sooner and are harder to refill repeatedly without turning flat, so expect fewer flavorful top‑ups.",
+          "Do I need precise temperatures and timers? Not for this style. Use near‑boiling water for sturdy materials (ginger, peels, roots) and slightly cooler for delicate flowers and green tea. Start tasting at the 1–2 minute mark for petals and 3–5 minutes for firmer pieces. Let color, aroma, and the first sip set your timing more than the clock.",
+          "Will a regular teapot work, or do I need a glass thermos? A regular teapot works well, as does a mug with a basket. Glass helps you read color and unfurling petals at a glance, which is useful for refining your touch. Metal teapots stay hot longer and may emphasize a brisk edge; clay can soften angles; choose what you enjoy using and keep refilling until the flavor thins."
+        ]
+      },
+      {
+        "title": "About this page",
+        "paragraphs": [
+          "This Basics page organizes everyday “herbal tea” as kitchen practice: how to choose ingredients, pair flavors, read visual cues, and brew with simple gear. It uses traditional Chinese tea vocabulary as food‑writing language and centers taste, aroma, and preparation methods familiar to home cooks."
+        ]
+      }
     ],
+    "references": [
+      "How to Build a Simple Herbal Tea Routine. HerbGuide Basics. https://herbguide.store/basics/simple-herbal-tea-routine/",
+      "Guo, Q., et al. “Influence of Various Tea Utensils on Sensory and Chemical Quality of Different Teas.” Plants (2024). https://doi.org/10.3390/plants13050669",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
+      "Notes: Vessel material can subtly shape perceived aroma, temperature retention, and mouthfeel. Using clean, dry utensils and minimizing moisture exposure supports better pantry contexts for dried spices and botanicals."
+    ]
   },
   {
     slug: "what-is-spleen-qi-deficiency",
@@ -3935,161 +4567,456 @@ const rawBasicsArticles: ContentArticle[] = [
     ],
   },
   {
-    slug: "what-is-blood-deficiency",
-    title: "What Is Blood Deficiency?",
-    description:
-      "A comprehensive guide to the traditional concept of Blood Deficiency — what Blood represents, signs of deficiency, traditional approaches, and practical kitchen and lifestyle notes for nourishing Blood.",
-    eyebrow: "Basics & Concepts",
-    intro:
-      "In traditional Chinese wellness practices, 'Blood' (血, Xuě) encompasses more than just the red fluid flowing through our veins. It is viewed as a dense, nourishing substance that moistens the tissues, nourishes the organs, and anchors the mind (shen). While Qi provides the functional energy for movement and warmth, Blood provides the material foundation for rest and repair.",
-    sections: [
+    "slug": "what-is-blood-deficiency",
+    "title": "What Is “Blood Deficiency” in Traditional Chinese Food Writing?",
+    "description": "A plain-English guide to blood deficiency (xue xu) in traditional food writing: thin, insufficient nourishment described as a kitchen idea, not a lab value.",
+    "eyebrow": "Basics & Concepts",
+    "intro": "In traditional Chinese food and herb writing, “Blood” (xue) is a dense, nourishing substance that moistens, enriches, and settles—more like a silky stock than a lab value. “Blood Deficiency” (xue xu) is shorthand for when that nourishing quality is considered thin or insufficient. Cooks and writers use the phrase to justify gentler cooking, richer textures, and ingredients thought to replenish moistness and depth. It is a literary, kitchen-facing idea, not a modern physiological label.",
+    "sections": [
       {
-        title: "Understanding Blood Deficiency",
-        paragraphs: [
-          "'Blood Deficiency' (血虚, Xuě Xū) is a conceptual term used to describe a state where the body lacks sufficient nourishing fluids to properly maintain its tissues and calm the nervous system. It is not necessarily synonymous with the Western medical diagnosis of anemia, though the two concepts can overlap.",
-        ],
+        "title": "The short answer",
+        "paragraphs": [
+          "When classical authors say someone “lacks Blood,” they are not measuring anything with instruments. They are using a culinary metaphor that combines texture, richness, and settling qualities. In the same sources, “Qi” moves and warms, while “Blood” moistens, nourishes, and anchors the mind (shen). Recipes that “nourish Blood” tend to be soft, glossy, slow-cooked, and slightly sweet or savory-sweet—think long-simmered broths, red date congee, black sesame paste, and silky egg custards.",
+          "This phrase appears throughout food-minded commentaries and herb lists as a way to group ingredients and techniques that build depth: simmer rather than sear; stew rather than scorch; moisten rather than dry. The concept echoes passages in classical texts where Blood is described as the moist substance that feeds and steadies the body’s landscape."
+        ]
       },
       {
-        title: "Signs of Blood Deficiency",
-        paragraphs: [
-          "Traditional practitioners look for signs that the body's 'moistening and nourishing' functions are depleted. Common signs include:",
+        "title": "Where you’ll see this term",
+        "paragraphs": [
+          "You’ll meet “Blood Deficiency” (血虚, xue xu) and “nourish Blood” (补血, bu xue) in:",
+          "Understanding the label helps you see why a dish leans toward deep color, gentle heat, syrupy reductions, and tender textures—and why it’s surrounded by companion terms like “move Blood,” “soothe the Liver,” or “anchor shen.”"
         ],
-        bullets: [
-          "A pale or sallow complexion, particularly pale lips and nail beds",
-          "Dry skin, dry hair, and brittle nails",
-          "Occasional dizziness or lightheadedness, especially upon standing",
-          "Blurry vision or dry eyes",
-          "Difficulty falling asleep or a restless mind (because the Blood is failing to 'anchor' the spirit)",
-          "Menstrual irregularities or scanty periods",
-        ],
+        "bullets": [
+          "Margin notes in herb primers that pair ingredients with a role, such as “tonifying” soups and porridges. In English menus, you might see “nourishing” or “enriching” in place of bu xue.",
+          "Household cookbooks that assemble postpartum soups, study-night porridges, and travel-restorative stews—times when tradition favors moisture, warmth, and steadying foods.",
+          "Tea and dried-goods shops, where labels on jujube (red dates), goji berries, longan, angelica (dang gui), and black sesame paste often include phrases like “nourish Blood and calm.”",
+          "Restaurant specials when the weather is dry or windy, featuring dishes described as “enriching” rather than “dispelling,” “clearing,” or “cooling.”"
+        ]
       },
       {
-        title: "Traditional Approaches to Nourishing Blood",
-        paragraphs: [
-          "The traditional approach to managing Blood Deficiency focuses heavily on diet and digestion. Because Blood is created from the nutrients extracted by the Spleen and Stomach, supporting digestion is the first step.",
+        "title": "A plain-English map of the idea",
+        "paragraphs": [
+          "A few core images make the term click for English readers:",
+          "The image is deliberately practical: cook food thoroughly, serve it warm, include ingredients with body and gloss, and season in ways that soften edges rather than sharpen them. That is how “nourish Blood” reads in the kitchen."
         ],
-        bullets: [
-          "Jujube (Red Date): A staple for gentle, everyday blood nourishment.",
-          "Goji Berry: Traditionally used to nourish Liver blood and support the eyes.",
-          "Longan (Dragon Eye Fruit): Used to nourish Heart blood and support restful sleep.",
-          "Dong Quai (Dang Gui): One of the most famous herbs for supporting healthy blood flow and menstrual comfort.",
-          "Dark, leafy greens and red meats: From a culinary perspective, these are highly valued for building blood.",
-        ],
+        "bullets": [
+          "Substance versus function: Qi is motion and function; Blood is substance and moisture. Picture steam (Qi) versus the gleaming stock that coats a spoon (Blood).",
+          "Making Blood in the kitchen: Classical food writing says the “Spleen and Stomach” extract fine essence from grains and meats to make Blood. In plain English: digestion transforms cooked food into the body’s “stock,” so dishes that are easy to digest are prized.",
+          "Where it’s “stored”: The “Liver” is said to store and release Blood, coordinating smooth flow. In kitchen terms, the pantry holds your stock and dispenses it where needed.",
+          "What it “anchors”: Texts often say Blood anchors shen—the mind’s steadiness. Culinary translations read this as: richer, moister foods support restfulness and a settled mood at the table.",
+          "When it’s “thin”: Writers notice paler color, dryness, lightheadedness, or restless sleep and may call the pattern “Blood Deficiency.” It’s a narrative cue for gentler cooking, moist textures, and subtle sweetness—not a scientific conclusion."
+        ]
       },
       {
-        title: "Lifestyle and Kitchen Notes",
-        paragraphs: [
-          "From a traditional dietary perspective, individuals experiencing Blood Deficiency are encouraged to consume warm, cooked, nutrient-dense foods. Soups and slow-cooked stews are ideal because they are easy for the digestive system to process and assimilate. It is also traditionally advised to avoid excessive mental strain or overwork, as intense intellectual activity is believed to 'consume' Heart blood.",
+        "title": "Kitchen and pantry examples",
+        "paragraphs": [
+          "Traditional pantries highlight ingredients believed to bring moistening depth:",
+          "Cooks translate the idea into method. A pot of chicken, red dates, angelica, and ginger is simmered low and slow until the broth coats a spoon and the meat gives easily. Congee with goji and jujube cooks until each grain blooms and the liquid turns satin-thick. Black sesame paste is stirred until it ribbons. These are the textures that “nourish Blood” is aiming for."
         ],
+        "bullets": [
+          "Jujube (red dates): Plump, softly sweet, and often simmered into porridge or long-brewed teas. They lend body and a round finish.",
+          "Goji berry: Chewy-tart and faintly sweet; dropped into soups or teas for color and a pleasing contrast to savory broth.",
+          "Longan: Honeyed and floral; dried longan infuses syrupy sweetness into dessert soups and bedtime teas.",
+          "Angelica sinensis (dang gui): Aromatic with a warm, resinous edge; added to chicken stews and mutton soups for fragrance and a sense of richness.",
+          "Black sesame: Ground into paste with a glossy sheen; served warm as a spoonable dessert.",
+          "Mulberry, purple rice, and dark leafy greens: Chosen for their depth of color and gentle sweetness when cooked. Modern food composition tables note that many dark greens and organ meats are mineral-dense, which partly explains their culinary reputation for “substance”."
+        ]
       },
       {
-        title: "Read This Page in Context",
-        paragraphs: [
-          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        "title": "Flavor, temperature, and texture cues",
+        "paragraphs": [
+          "Writers who use “Blood Deficiency” are really steering you toward a certain kitchen feel:",
+          "The cooking stance is readers and attentive. If “dispersing” dishes behave like a gust of wind through leaves, “nourishing Blood” dishes behave like a gentle drizzle that soaks in."
         ],
+        "bullets": [
+          "Temperature: Warm, not scorching. Long, even heat that softens rather than crisps. Clay pots and double-boilers are favored.",
+          "Texture: Soft, glossy, spoonable. Think custards, porridges, and unctuous stews rather than dry stir-fries.",
+          "Seasoning: Gentle aromatics—ginger, Chinese dates, licorice root—plus light sweetness from rock sugar or longan to round edges.",
+          "Fats and oils: Enough to carry flavor and sheen, not so much as to feel heavy. Sesame and chicken fat appear in small, deliberate amounts.",
+          "Color: Reds, maroons, and dark greens are read as suggestive, not decisive; cooks still judge by aroma, mouthfeel, and how the dish sits after a bowl or two."
+        ]
       },
+      {
+        "title": "A quick kitchen-language table",
+        "paragraphs": [
+          "Use these phrases as reading aids. They point to method (slow and moist), mouthfeel (silky and glossy), and pantry choices (dark, gently sweet, aromatic)."
+        ],
+        "bullets": [
+          "补血 (bu xue) — Nourish/supply Blood — Jujube, black sesame, chicken, leafy greens — Slow simmer, congee, paste — Red date–chicken soup",
+          "养血 (yang xue) — Enrich and maintain Blood — Goji, mulberry, longan — Gentle tea, dessert soup — Goji–longan bedtime tea",
+          "活血 (huo xue) — Move Blood’s circulation — Angelica, chuanxiong — Stew with aromatics — Angelica–mutton stew",
+          "养血安神 (yang xue an shen) — Enrich Blood and settle shen — Longan, jujube, licorice — Double-boiled tonic — Longan–jujube custard",
+          "养肝血 (yang gan xue) — Enrich the Liver’s Blood (classic wording) — Goji, chrysanthemum — Infusion/tea — Goji–chrysanthemum infusion"
+        ]
+      },
+      {
+        "title": "Nearby terms you’ll meet next",
+        "paragraphs": [
+          "These terms overlap. Reading them together helps you see why one congee gets ginger and chicken fat while another gets pear and rock sugar."
+        ],
+        "bullets": [
+          "Qi Deficiency: Where “Blood Deficiency” points to lack of moistening substance, “Qi Deficiency” points to low drive or warmth. In the kitchen, one nudges you toward richer textures; the other nudges you toward warm spices and gently invigorating soups.",
+          "Blood Stasis: Less about not-enough and more about not-moving. Dishes here include aromatics that get the broth circulating—angelica, chuanxiong—and techniques that keep stews from feeling stodgy.",
+          "Yin Deficiency: A cousin to “lack of fluids,” often leaning cool and moist. Recipes may use pear, lily bulb, white fungus, and light sweetness to make a dewy, cooling bowl distinct from the warmly rich feel of “nourish Blood.”",
+          "Dryness: A climate and texture note. When the air is crisp and dry, cooks choose moistening soups even without invoking Blood explicitly.",
+          "“Spleen” in kitchen language: A metaphor for digestion. If the “Spleen” is said to be weak, writers switch from raw and crunchy to cooked and soft."
+        ]
+      },
+      {
+        "title": "What readers often miss",
+        "paragraphs": [
+          "If you read the phrase as a menu cue—soft, moist, gently sweet, and thoroughly cooked—you’ll navigate traditional recipes with confidence."
+        ],
+        "bullets": [
+          "It’s culinary shorthand, not a modern lab idea. “Blood Deficiency” lives in the world of congee pots and clay casseroles. It signals a family of dishes with body, moisture, and calm—not a chart, scale, or test result.",
+          "Color is a hint, not a rule. Dark, red, and black foods often appear, but what matters most is digestibility and texture. A pale bowl of congee can be more “nourishing” in this sense than a fibrous heap of raw greens.",
+          "Method matters as much as ingredients. The same ingredients can behave differently: flash-fried spinach wilts quickly and feels dispersing, while spinach simmered with sesame and stock feels building.",
+          "The idea extends beyond meat. Legumes, seeds, grains, fruits, and fungi all take turns in “nourish Blood” recipes. Black sesame paste and red-bean soups are classic examples.",
+          "The “anchor shen” clause is culinary. When texts say Blood anchors shen, cooks translate that into bedtime bowls, lowered spice, soft sweetness, and a pace that invites unwinding."
+        ]
+      },
+      {
+        "title": "How cooks build a “nourishing” plate",
+        "paragraphs": [
+          "Here’s a common pattern you’ll see in kitchens that lean on this vocabulary:",
+          "None of this is a rulebook. It’s a reading key: you’ll notice these choices clustered whenever a cook is writing for “nourish Blood.”"
+        ],
+        "bullets": [
+          "Base: A broth or congee that’s been simmered until it gleams. Chicken frames, pork bones, or mushroom stems often form the backbone.",
+          "Body: Moist, yielding proteins—chicken thigh over chicken breast; tofu braised rather than seared; egg set softly rather than hard.",
+          "Color and fruit: Red dates, goji, mulberry, or longan to add hue and rounded sweetness.",
+          "Greens: Tender leaves cooked until just glossy, finished with sesame oil or broth; or a handful of spinach folded into congee.",
+          "Aroma: Ginger for warmth, angelica for resinous depth, a touch of licorice root for sweetness and harmony.",
+          "Finish: A drizzle of oil or a spoon of black sesame paste to add shine and mouthfeel."
+        ]
+      },
+      {
+        "title": "A note on digestion and pace",
+        "paragraphs": [
+          "Traditional food writing links “making Blood” with how well the body handles what you cook. In kitchen language, this means:",
+          "Long study sessions and all-night work show up in old texts as things that “use up” the Heart’s Blood, a poetic way to caution against frayed routines and to suggest steadying, warm bowls at the end of a day. This is culture and kitchen, not instruction."
+        ],
+        "bullets": [
+          "Favoring thorough cooking over raw crunch when you want a building, moistening effect.",
+          "Breaking ingredients down with water and time—soups, stews, porridges—so they land gently.",
+          "Eating in a rhythm: small, warm bowls taken without rushing, rather than a single heavy meal.",
+          "Balancing aromatics so the dish smells inviting but doesn’t scatter the senses."
+        ]
+      },
+      {
+        "title": "Common questions",
+        "paragraphs": [
+          "Is “Blood Deficiency” the same as anemia? No. “Blood Deficiency” is a traditional food-and-herb phrase. It organizes textures, temperatures, and ingredients in a culinary framework. Anemia is a modern physiological concept with measurements and criteria. The two ideas sometimes get mentioned together in casual talk, but they are not interchangeable on the page or in the kitchen.",
+          "Do I have to use red or black foods to “nourish Blood”? No. Color is a helpful cue, not a requirement. What ties “nourish Blood” dishes together is how they’re cooked and how they feel: warm, moist, glossy, and digestible. A pale chicken congee can fit the idea better than a dark but dry stir-fry.",
+          "Why do so many recipes in this category simmer for a long time? Time and water turn ingredients into something soft, unified, and easy to take in. That slow, saturating heat creates the “substance” classical writers point to when they speak about nourishing Blood—more stock-like body, less jagged intensity."
+        ]
+      },
+      {
+        "title": "About this page",
+        "paragraphs": [
+          "This Basics page translates a traditional Chinese culinary phrase into plain kitchen language for English readers. It focuses on flavor, texture, cooking method, and ingredient families as they appear in classic food writing and herb-focused recipes. The goal is clarity for reading menus, cookbooks, and pantry labels—not personal guidance or modern physiological claims."
+        ]
+      }
     ],
+    "references": [
+      "HerbGuide. “What Is Blood Deficiency?” https://herbguide.store/basics/what-is-blood-deficiency/",
+      "Huangdi Neijing (Yellow Emperor’s Inner Canon). Chinese Text Project. https://ctext.org/huangdi-neijing",
+      "U.S. Department of Agriculture. FoodData Central. https://fdc.nal.usda.gov/"
+    ]
   },
   {
-    slug: "what-is-phlegm",
-    title: "What Is Phlegm in Traditional Frameworks?",
-    description:
-      "A detailed guide to the traditional concept of Phlegm — visible vs. invisible Phlegm, the Spleen as the root source, how congealed fluids can lodge anywhere in the body, traditional approaches to transforming Phlegm, and practical kitchen notes for avoiding Phlegm-producing foods.",
-    eyebrow: "Basics & Concepts",
-    intro:
-      "In modern terms, 'phlegm' usually refers to the mucus coughed up from the lungs during a cold. However, in traditional Chinese wellness practices, 'Phlegm' (痰, Tán) is a much broader and more profound concept. Traditionally, Phlegm is defined as any congealed, pathological fluid that has accumulated in the body due to a failure in fluid metabolism. It is considered a secondary pathogen—meaning it is created by the body when organs (usually the Spleen, Lungs, or Kidneys) fail to process water properly.",
-    sections: [
+    "slug": "what-is-phlegm",
+    "title": "What Is “Phlegm” in Traditional Chinese Food Writing?",
+    "description": "A plain-English guide to phlegm (tán) in traditional food writing: moisture that has thickened and clogged, and the drying, moving foods chosen to balance it.",
+    "eyebrow": "Basics & Concepts",
+    "intro": "In traditional Chinese culinary and herb writing, “phlegm” (痰, tán) is a broad kitchen metaphor for moisture that has thickened, turned heavy, and begun to clog the works. It includes the literal stuff you can see, but also describes a pattern of stickiness and stagnation. Writers use the term to explain why certain flavors, textures, and cooking methods are chosen—think drying peels, lively aromatics, and techniques that keep moisture moving—so recipes and ingredient notes read cleaner and make more sense.",
+    "sections": [
       {
-        title: "Visible vs. Invisible Phlegm",
-        paragraphs: [
-          "Traditional theory divides Phlegm into two categories:",
+        "title": "The short answer in plain English",
+        "paragraphs": [
+          "When a classic recipe note says an ingredient “produces phlegm” or “transforms phlegm,” it’s not diagnosing anything. It’s using a shared kitchen language to talk about moisture behavior.",
+          "This vocabulary helps you read traditional cookery and herb notes with the right lens: texture, aroma, and movement."
         ],
-        bullets: [
-          "Visible Phlegm: This is the phlegm we are familiar with. It is the tangible mucus that accumulates in the Lungs and respiratory tract, leading to coughing, a runny nose, or a feeling of something stuck in the throat.",
-          "Invisible Phlegm: This is a more abstract concept. When congealed fluids accumulate in places other than the lungs, they form 'Invisible Phlegm.' Because Phlegm is heavy, sticky, and obstructive, it can lodge anywhere in the body, causing various issues: in the head (brain fog, dizziness), under the skin (cysts, swollen lymph nodes), in the joints (stiffness, swelling), and in the digestive tract (chronic nausea, a thick greasy tongue coating).",
-        ],
+        "bullets": [
+          "Phlegm = thick, sticky moisture. Imagine congealed stock, a sauce that won’t run, or oil pooling on top of soup.",
+          "Dampness is the lead‑up: heavy wetness that hasn’t fully congealed.",
+          "Writers map ingredients and techniques to either lighten, dry, vent, or moisten—depending on which texture they want less (or more) of at the table."
+        ]
       },
       {
-        title: "The Root Cause: The Spleen",
-        paragraphs: [
-          "A famous traditional saying states: 'The Spleen is the source of Phlegm production; the Lungs are the receptacle that stores it.' When the Spleen (the digestive engine) is weak or overwhelmed by a poor diet, it cannot properly vaporize and distribute the fluids from food and drink. These unprocessed fluids pool together, stagnate, and eventually congeal into sticky Phlegm.",
+        "title": "Where you’ll see the word",
+        "paragraphs": [
+          "You’ll most often meet “phlegm” in:",
+          "Read it as genre language. It sits alongside other shorthand such as “dampness,” “qi movement,” “warm” and “cool,” all of which guide choices about flavor, cut, heat, and timing."
         ],
+        "bullets": [
+          "Marginal notes beside classic prescriptions and kitchen formulas, where editors tag an herb as “drying,” “aromatic,” or “phlegm‑transforming.”",
+          "Recipe headnotes for congee, broths, and teas, especially ones featuring citrus peel, ginger, barley-like grains, or light mushrooms.",
+          "Tea shop and apothecary labels that classify blends by texture behavior—venting fragrance, drying dampness, or loosening heaviness."
+        ]
       },
       {
-        title: "Traditional Approaches to Resolving Phlegm",
-        paragraphs: [
-          "Because Phlegm is sticky and stubborn, traditional strategies involve 'transforming' or 'melting' it, while simultaneously strengthening the Spleen so it stops producing more. Common ingredients used to address Phlegm include:",
+        "title": "A kitchen map: from dampness to phlegm",
+        "paragraphs": [
+          "Traditional writers often draw a progression: thin wetness (dampness) can, under the wrong kitchen contexts, thicken and become phlegm. Think of a pot left off the boil: steam stops, fat settles, broth films over. The map looks like this, in cooking terms:",
+          "To counter heaviness, editors recommend aromas that rise (citrus, ginger), gentle drying (toasting peels, pan‑roasting grains), and steady heat that keeps steam moving. To counter over‑dryness on the other hand, you’ll see moistening ingredients and soft methods (steaming, light simmering) that add supple lubrication rather than grease."
         ],
-        bullets: [
-          "Aged Tangerine Peel (Chen Pi): The premier herb for drying dampness, transforming Phlegm, and regulating the Spleen.",
-          "Fresh Ginger (Sheng Jiang): Warms the digestion and helps 'melt' cold, watery phlegm.",
-          "White Wood Ear (Yin Er): Used specifically for dry phlegm (when fluids have been 'baked' into sticky, hard-to-expectorate mucus by internal heat).",
-          "Job's Tears (Yi Yi Ren): Helps drain the underlying Dampness before it congeals into Phlegm.",
-        ],
+        "bullets": [
+          "Dampness: wateriness, soggy textures, sluggish simmer.",
+          "Congealing: fats and sugars thicken and weigh down a dish.",
+          "Phlegm: sticky, gluey heaviness that resists movement."
+        ]
       },
       {
-        title: "Lifestyle and Kitchen Notes",
-        paragraphs: [
-          "The most effective way to address Phlegm is to stop feeding it. Traditional frameworks strongly advise avoiding 'Phlegm-producing' foods, which include dairy products (especially cold milk and cheese), refined sugars, greasy or deep-fried foods, and excessive raw/cold foods. A diet focused on warm, cooked, easily digestible meals with aromatic spices (like ginger, cardamom, and citrus peel) helps keep the Spleen strong and fluids moving smoothly.",
+        "title": "Visible and “invisible”: how texts divide it",
+        "paragraphs": [
+          "Traditional commentaries sometimes split phlegm into what you can see versus what you infer from texture and behavior:",
+          "This dual view lets cookbook notes point to both the obvious (skim the stock) and the systemic (choose ingredients and techniques that keep things light and moving)."
         ],
+        "bullets": [
+          "Visible phlegm: literal mucus, sticky residues, or scum you skim off a pot—anything tangible and thick.",
+          "“Invisible” phlegm: a figurative label for heaviness that shows up indirectly. In a kitchen sense, picture grease that coats the palate, cloying sweetness, or a gravy that refuses to pour. The idea is obstruction more than a single substance."
+        ]
       },
       {
-        title: "Read This Page in Context",
-        paragraphs: [
-          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        "title": "Signals traditional writers watch for",
+        "paragraphs": [
+          "How do classic notes recognize heaviness? With sensory cues a cook can confirm at the cutting board and stove:",
+          "Against these, writers contrast signs of “movement”: a snap of citrus, ginger’s lift, steam that carries aroma, or broths that look bright and pour easily."
         ],
+        "bullets": [
+          "Texture: gummy, gluey, congealed; gelatin that stays stiff even warm; rice that clumps and won’t fluff.",
+          "Mouthfeel: greasy film on the tongue; sweetness that lingers and feels sticky rather than clean.",
+          "Aroma: low, dull, or trapped; steam that rises weakly; oil that masks fragrance.",
+          "Appearance: soup with a persistent slick; glazes that crust instead of sheen; sauces that rope off the spoon."
+        ]
       },
+      {
+        "title": "Pantry examples in this vocabulary",
+        "paragraphs": [
+          "You’ll see certain ingredients repeatedly linked to the phlegm discussion—not as prescriptions, but as pattern markers in food writing. A few common ones:",
+          "Keep the frame clear: these notes explain why a traditional cook might reach for one ingredient over another to steer a dish’s weight, aroma, and pour."
+        ],
+        "bullets": [
+          "Aged tangerine peel (chen pi): Dry, bitter‑aromatic, and famously “cuts heaviness.” Editors pair it with braises, bean dishes, and rich broths to keep flavors clear and buoyant.",
+          "Fresh ginger (sheng jiang): Pungent and lively; it “warms” the profile and vents fragrance. Classics toss slices into fish soups or stir‑fries to lift humidity and wake up the pan.",
+          "Job’s tears/Coix (yi yi ren): A grain‑like seed used in porridge and soups, described as encouraging a drier, clearer finish in wet dishes.",
+          "White wood ear (yin er, snow fungus): Soft, silky mushroom used when the texture brief calls for gentle moistening—think pear‑and‑wood‑ear dessert soups prized for a dewy, lubricated mouthfeel.",
+          "Daikon/radish: Crisp, watery, and slightly pungent; shows up in stews and quick pickles where writers want movement without greasiness.",
+          "Perilla leaf (zi su ye): Fragrant leaf used to lift seafood dishes; the rising scent is classed as dispersing and decluttering."
+        ]
+      },
+      {
+        "title": "Methods that “transform” heaviness",
+        "paragraphs": [
+          "Technique is as important as pantry choice. In this vocabulary, cooks “transform” phlegm with steps that either dry, disperse, or streamline moisture.",
+          "Read any traditional kitchen chapter on soups or congee and you’ll see these tactics framed as ways to keep the pot from bogging down."
+        ],
+        "bullets": [
+          "Toasting and drying: light‑toasting citrus peel or pan‑roasting grains to introduce a dry, aromatic edge that cuts stickiness.",
+          "Quick stir‑fry with aromatics: hot wok, brief time, ginger and scallion to keep juices lively rather than stewing into glue.",
+          "Steady simmer and skimming: slow heat that keeps steam rising; routine skimming for a clean broth that doesn’t collect scum or grease.",
+          "Gentle steaming: used when the goal is supple moisture rather than oil—perfect for delicate fish, tender greens, or wood ear with pear.",
+          "Degreasing moves: blanching fatty cuts before braising; letting stock chill and lifting the fat cap; balancing oil with bitter or citrus notes."
+        ]
+      },
+      {
+        "title": "A quick vocabulary table",
+        "paragraphs": [
+          "These are reading guides, not rules; cooks combine rows to suit the dish and season."
+        ],
+        "bullets": [
+          "Phlegm (痰, tán) — Thickened, sticky moisture that bogs a dish down — Congealed stock, oily film, gluey sauces — Deep‑fried foods, heavy dairy, rich sweets labeled “phlegm‑forming” in notes — Skimming stock, adding drying aromatics, balancing with bitter or citrus",
+          "“Cold” phlegm — Thin‑but‑sluggish moisture; cool profile — Watery yet dull; chills mute aroma — Ginger, white pepper, scallion to lift — Quick stir‑fry, hot broths, serving warm",
+          "“Heat” phlegm — Thick‑dry stickiness; warm profile — Tacky, baked‑on coats; cloying sweetness — Asian pear, white wood ear, chrysanthemum for gentle moistening — Steaming, light simmer, minimal oil",
+          "Transforming phlegm (化痰) — Cutting heaviness with aroma and movement — Rising steam, brighter scent — Aged tangerine peel, perilla, daikon — Toasting peels, brief sauté, finishing with zest",
+          "Draining dampness (利湿) — Moving out excess wetness before it congeals — Clearer broth; dry‑fluffy grains — Job’s tears, barley, adzuki — Slow simmer, pan‑roast grains before boiling"
+        ]
+      },
+      {
+        "title": "Nearby terms that travel with “phlegm”",
+        "paragraphs": [
+          "A classical line often repeats that “the Spleen makes phlegm; the Lungs store it”—a way traditional texts assign roles to flavors and textures that manage moisture and breathy movement. Read it as metaphor guiding ingredient choice."
+        ],
+        "bullets": [
+          "Dampness (湿, shī): The run‑up to phlegm—soggy, heavy wetness. Many kitchen decisions aim to keep dampness from thickening.",
+          "“Warm” and “cool” (温/凉): Temperature qualities that color a dish’s profile. Warm aromatics perk up cold‑dull textures; cool, moistening foods soften baked‑on dryness.",
+          "Qi movement (气机): A compact way to say “circulation and flow.” In kitchen reading, it’s the difference between a stew that steams and breathes versus one that sits and slumps.",
+          "Bitter, pungent, aromatic: Flavor families tied to drying, venting, and lifting; they’re often featured when writers want to “open” a heavy pot."
+        ]
+      },
+      {
+        "title": "Kitchen‑reading examples",
+        "paragraphs": [
+          "Each example shows how the term “phlegm” organizes choices about balance: dry versus moist, heavy versus buoyant, dull versus aromatic."
+        ],
+        "bullets": [
+          "A fish congee recipe might add ginger, scallion, and a strip of chen pi. The headnote will say this keeps the bowl “open and moving” so it doesn’t turn dull or fishy. You’re meant to notice the steam’s lift and the clean finish.",
+          "A pork‑and‑daikon stew may be blanched first, then simmered long with skimming. Daikon adds movement while the simmer clarifies the pot—classic “transforming” language applied through time and technique.",
+          "A winter dessert soup of Asian pear with white wood ear and a drizzle of rock sugar is framed as moistening without greasing. The texture brief is silky, not sticky."
+        ]
+      },
+      {
+        "title": "What readers often miss",
+        "paragraphs": [
+          "Most importantly, the term spans pantry, technique, and plating. You’ll see it used to justify ingredient selection, heat control, and finishing touches."
+        ],
+        "bullets": [
+          "It’s metaphorical and practical, not a label. “Phlegm” is a shared way to talk about texture and movement in food writing. It isn’t a personal tag.",
+          "Context changes the call. Climate, season, and menu matter. A rainy‑day congee needs different moves than a dry‑season stir‑fry.",
+          "Opposites partner. Drying steps sit beside moistening ones; a peel is toasted while a mushroom supplies glide. The goal is poised, not stripped."
+        ]
+      },
+      {
+        "title": "Common questions",
+        "paragraphs": [
+          "Is “phlegm” here the same as mucus? Partly. It includes the literal substance, but the traditional kitchen vocabulary uses “phlegm” more broadly for thick, sticky, obstructive moisture. It’s a texture‑and‑movement idea that helps explain why certain flavors and methods are chosen.",
+          "Why do some recipes say an ingredient “produces” or “transforms” phlegm? That phrasing is shorthand. “Produces” means the food is heavy, greasy, or cloying in traditional eyes. “Transforms” means its aroma, bitterness, or technique lightens and disperses heaviness. Read the note as a cue for balancing moves, not as a personal directive.",
+          "What’s the difference between “phlegm‑cold” and “phlegm‑heat” in headnotes? They’re flavor‑temperature lenses. “Cold” points to thin‑but‑sluggish moisture that benefits from warm, moving aromatics. “Heat” points to thick‑dry stickiness that benefits from gentle moistening and cooling tones. It’s about kitchen direction—how to steer texture and steam—rather than a literal thermometer."
+        ]
+      },
+      {
+        "title": "About this page",
+        "paragraphs": [
+          "This Basics explainer decodes a traditional Chinese culinary term using food, flavor, and preparation language. It focuses on pantry choices, cooking techniques, and the cultural vocabulary cooks use to manage texture, aroma, and movement in the kitchen."
+        ]
+      }
     ],
+    "references": [
+      "What Is Phlegm in Traditional everyday life? https://herbguide.store/basics/what-is-phlegm/",
+      "Huangdi Neijing (Yellow Emperor’s Inner Canon), Chinese Text Project. https://ctext.org/huangdi-neijing — Classical sources that pair “spleen” with making phlegm and “lungs” with storing it in traditional phrasing."
+    ]
   },
   {
-    slug: "what-is-liver-qi-stagnation",
-    title: "What Is Liver Qi Stagnation?",
-    description:
-      "A comprehensive guide to the traditional concept of Liver Qi Stagnation — what the Liver represents, how stagnation manifests, traditional and dietary approaches, and practical lifestyle notes for moving Liver Qi.",
-    eyebrow: "Basics & Concepts",
-    intro:
-      "In traditional Chinese wellness practices, the 'Liver' (肝, Gān) refers to much more than the physical organ that detoxifies blood. It represents a systemic function responsible for ensuring the smooth, unhindered flow of energy (Qi), blood, and emotions throughout the body. Traditional theory states that the Liver 'loves movement and hates restriction.' When we are relaxed and our environment is harmonious, Liver Qi flows smoothly. When we are stressed, frustrated, or physically sedentary, this flow becomes blocked.",
-    sections: [
+    "slug": "what-is-liver-qi-stagnation",
+    "title": "What Is “Liver Qi Stagnation”? A plain‑English guide to traditional food and herb language",
+    "description": "A plain-English guide to liver qi stagnation in traditional food writing: movement described as stuck, and the light, aromatic ingredients that get it moving.",
+    "eyebrow": "Basics & Concepts",
+    "intro": "In traditional Chinese food and herb writing, the Liver is pictured as a steady organizer that keeps “qi” (vital movement) circulating. “Liver Qi Stagnation” is a stock phrase for when that movement is described as stuck or constrained. Writers use it to explain why light, aromatic, gently moving ingredients—think citrus peel, mint, rose, young greens, or a quick stir‑fry—are paired together. It’s reading language for flavor, form, and preparation, not a modern anatomy lesson or a personal label.",
+    "sections": [
       {
-        title: "Understanding Liver Qi Stagnation",
-        paragraphs: [
-          "'Liver Qi Stagnation' (肝气郁结, Gān Qì Yù Jié) is the traditional term for what happens when the smooth flow of energy is interrupted. In modern terms, it is the physical manifestation of chronic stress and emotional tension.",
-          "Because the Liver channel traverses the sides of the body, the chest, and the digestive organs, stagnation here can cause a wide variety of symptoms. Traditional practitioners often look for:",
-        ],
-        bullets: [
-          "A feeling of tightness, fullness, or distension in the chest, ribs, or upper abdomen",
-          "Frequent sighing (the body's subconscious attempt to move stuck Qi)",
-          "Irritability, mood swings, frustration, or a feeling of being 'wound up'",
-          "Digestive upset that worsens with stress (such as a nervous stomach or irregular bowel movements, traditionally described as 'Liver invading the Spleen')",
-          "Menstrual irregularities or premenstrual tension",
-        ],
+        "title": "The short answer",
+        "paragraphs": [
+          "“Liver Qi Stagnation” (肝气郁结, gān qì yù jié) is a traditional way to say “the flow feels pent up.” In this kitchen‑world vocabulary, the Liver is the planner of smooth movement. When texts say that Liver qi is stagnant, they mean the movement seems bound up—like steam without a vent or traffic crowding a narrow street. Recipes and herb notes then favor ingredients and methods that “move,” “soothe,” and “open” with fragrance, lift, and lightness."
+        ]
       },
       {
-        title: "Traditional Approaches to Moving Liver Qi",
-        paragraphs: [
-          "The traditional approach to resolving Liver Qi Stagnation focuses on movement—both physical and energetic.",
-          "From an herbal and dietary perspective, ingredients that are aromatic, slightly pungent, and moving are used to 'soothe' the Liver. Common examples include:",
+        "title": "Where you’ll see this phrase in herb, tea, and pantry notes",
+        "paragraphs": [
+          "You’ll encounter the phrase in:",
+          "In every case, the phrase organizes flavor choice and technique: airy aromatics, small amounts, brief cooking, and a clean finish."
         ],
-        bullets: [
-          "Mint (Bo He): Its aromatic, cooling nature helps gently disperse stuck energy and clear the head.",
-          "Rose Bud (Mei Gui Hua): Famous for gently moving Qi and Blood, particularly for emotional and menstrual comfort.",
-          "Citrus Peels (like Chen Pi): Used to break up stagnation in the chest and digestive tract.",
-          "Chrysanthemum: Used to clear heat that often builds up when Liver Qi is stagnant for too long.",
-        ],
+        "bullets": [
+          "Ingredient monographs: an entry might list actions such as “soothe the Liver” or “regulate qi,” then give flavor and form.",
+          "Tea blend blurbs: rose‑mint flowers, citrus peel, and light green teas are often framed as easing “constraint.”",
+          "Seasonal menus: spring pages lean into tender greens and sour notes to “course the Liver.”",
+          "Preparation tips: quick heat, thin slicing, and bright aromatics are said to disperse stuffiness rather than weigh it down."
+        ]
       },
       {
-        title: "Lifestyle and Kitchen Notes",
-        paragraphs: [
-          "Diet alone cannot fix Liver Qi Stagnation if the root cause is a highly stressful lifestyle. Traditional frameworks emphasize that physical movement (like walking, stretching, or Tai Chi) is essential to physically pump the Qi and break up stagnation. From a culinary standpoint, adding aromatic herbs (like mint, cilantro, and fennel) and slightly sour foods (like lemon or vinegar, as sour is the flavor associated with the Liver) can help gently encourage flow and release tension.",
+        "title": "A plain‑English vocabulary map",
+        "paragraphs": [
+          "Traditional writers reuse a tight set of verbs and images. This table translates common phrases into straightforward kitchen sense and shows how they cluster around “Liver Qi Stagnation.”"
         ],
+        "bullets": [
+          "Liver Qi Stagnation (肝气郁结) — Movement feels stuck or compressed — Aromatic, slightly bitter, lightly pungent — Stir‑fried greens with ginger and tangerine peel; rose‑mint tea — Constraint (郁), Distention (胀)",
+          "Soothe the Liver (疏肝) — Loosen what’s tight; vent gently — Fragrant herbs, floral notes, citrus — Dried rose buds with green tea; quick‑tossed scallion — Course the Liver (疏泄)",
+          "Regulate Qi (理气) — Arrange the flow; guide dispersal — Citrus peels, aged peels, pericarps — Chen pi (aged tangerine peel) in congee — Move Qi (行气)",
+          "Constraint/Depressed qi (郁) — Pent‑up feeling; closed lid — Vents and lifts: mint, basil, perilla — Mint in late‑cook finishing oil — Plum‑pit qi (梅核气)",
+          "Plum‑pit qi (梅核气) — Throat “knot” image in old texts — Aromatic vents, mood‑light flavors — Warm water with citrus zest and a sprig of mint — Phlegm‑qi binding (痰气互结)"
+        ]
       },
       {
-        title: "Read This Page in Context",
-        paragraphs: [
-          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        "title": "Kitchen‑reading examples: from pantry to teacup",
+        "paragraphs": [
+          "Picture a heavy pan of young bok choy. Instead of braising in rich sauce, a Liver‑qi frame suggests high heat, thin stems, a splash of rice vinegar, and a quick toss with slivered ginger and a pinch of aged tangerine peel. The dish lands bright and lifted, not cloaked.",
+          "Or consider a midday cup: a few dried rose buds with a leaf or two of mint. The aroma reaches first; the finish is clean and slightly sweet. Writers call this “soothing the Liver and moving qi,” shorthand for fragrance that opens and a feel that doesn’t linger heavily.",
+          "Other small moves you’ll see tied to this phrase:"
         ],
+        "bullets": [
+          "Finishing with scallion greens rather than long‑cooked alliums.",
+          "Zesting citrus into congee for lift.",
+          "Choosing vinegars and gently sour fruits to “course” without smothering.",
+          "Keeping portions light; leaving room for movement rather than weight."
+        ]
       },
+      {
+        "title": "Nearby traditional terms and how they differ",
+        "paragraphs": [
+          "Writers often contrast “Liver Qi Stagnation” with a few neighbors. The distinctions guide flavor and method:",
+          "These labels are tools for reading flavor logic, not modern categories."
+        ],
+        "bullets": [
+          "Liver Fire: hot, rising imagery; pages lean hard into cooling, settling, and sometimes bitter flavors. By contrast, Liver qi stagnation calls for venting aromatics and easy movement, not a cold plunge.",
+          "Blood Stasis: thicker, congealed imagery; texts bring in deeper movers like safflower or peony root. For basic cooking, the Liver‑qi frame points to lighter, more fragrant choices.",
+          "Spleen Qi Weakness: sluggish kitchen; foods emphasize warm, plain, and steady (think barley, dates, yams). When Liver qi feels stuck on top of that, writers pair gentle movers like citrus peel so the flow lifts without overwhelming a simple base.",
+          "Cold constraint vs. hot constraint: both feel “bound,” but cold notes steer you toward warming aromatics (ginger, perilla), while hotter notes steer you toward cooling lifts (chrysanthemum, mint). Either way, the through‑line is movement rather than mass."
+        ]
+      },
+      {
+        "title": "Flavor, form, and preparation often paired with this idea",
+        "paragraphs": [
+          "When a page names “Liver Qi Stagnation,” expect three kinds of choices:",
+          "Forms and techniques:",
+          "Writers caution—within this lens—against heavy, greasy sauces and overreduced glazes, which are described as “weighing down the flow.”"
+        ],
+        "bullets": [
+          "Aromatic and venting: mint, basil, perilla, rose, citrus peel, young scallion greens. Their fragrance is meant to open, not blanket.",
+          "Lightly bitter and clearing: chrysanthemum, certain spring greens. These introduce direction and finish without heaviness.",
+          "Gently sour and coursing: vinegars and tart fruits in small amounts, used to nudge, not pucker.",
+          "Teas and tisanes: brief infusions preserve top notes that “rise.”",
+          "Quick heat: stir‑fry, flash‑steam, or blanch, then season while steam is escaping.",
+          "Thin slicing and small pieces: more surface area for aroma to lift quickly.",
+          "Finishing additions: fresh herbs and citrus at the end rather than the beginning."
+        ]
+      },
+      {
+        "title": "The classical image: the Liver as the general",
+        "paragraphs": [
+          "Older texts give the Liver a “general” role: it plans, arranges, and ensures the smooth dispatch of movement, much like a kitchen expediter sending plates on time. From that image comes the language of “coursing,” “venting,” and “free flow.” When that imagined general is obstructed, the vocabulary turns to “constraint,” “distention,” and “stagnation.” The pantry then answers with lift (aroma), direction (light bitter), and finesse (sour), delivered by forms that travel quickly—steam, vapor, and thin slices."
+        ]
+      },
+      {
+        "title": "What readers often miss",
+        "paragraphs": [],
+        "bullets": [
+          "It isn’t modern anatomy. In this vocabulary, “Liver” names a role in a system of images. Don’t map it one‑to‑one onto an organ; read it as a job the kitchen is trying to support.",
+          "“Moving” isn’t the same as “spicy‑hot.” A dish can move without heat: think jasmine, rose, citrus peel, or chrysanthemum. Spicy‑hot can be moving, but writers are aiming for lift more than sweat.",
+          "Sour is directional, not just puckery. A touch of vinegar added late can “course” without turning a dish into a pickle.",
+          "Gentle wins. The Liver‑qi frame prefers small, frequent vents—brief infusions, short cooks, finishing herbs—over large, heavy interventions.",
+          "Context matters. The same page might mention “dampness,” “cold,” or “heat.” The total picture decides whether you reach for ginger or mint, vinegar or salt, flash‑fry or slow simmer."
+        ]
+      },
+      {
+        "title": "How to read ingredient pages with this lens",
+        "paragraphs": [],
+        "bullets": [
+          "Scan the “actions” line. Phrases like “soothe the Liver,” “regulate qi,” and “course” point to venting fragrance, lightness, and direction.",
+          "Note flavor and nature. “Aromatic,” “slightly bitter,” and “cool/light” often pair together when stagnation is front and center.",
+          "Watch form and dose. Peels, flowers, and tender tips show up more than roots; brief infusions and finishing pinches more than long boils.",
+          "Track pairings. Citrus peel with ginger; rose with mint; scallion greens with quick‑cooked greens. The pairs balance lift with warmth or clarity.",
+          "Read the finish. Descriptions that end with “clean,” “open,” or “uncloying” are aligned with this frame."
+        ]
+      },
+      {
+        "title": "Common questions",
+        "paragraphs": [
+          "Does “Liver Qi Stagnation” refer to my literal liver? No. In this traditional vocabulary, “Liver” names a coordinating role in a network of images. It’s a way to talk about smooth versus stuck movement in food and herb writing, not a statement about a specific organ in modern anatomy.",
+          "Why do texts pair citrus peel, rose, and mint with this phrase? They’re light, aromatic, and quickly expressive. Writers say these scents “open” and “course,” so they show up when the page describes constrained movement. Think vapor and lift rather than weight and cling.",
+          "Is this phrase meant for self‑checking? describe it as reading language. It helps you decode why a recipe or herb note chooses certain flavors and methods. It isn’t a personal label, and it isn’t a substitute for learning how individual ingredients taste and behave in the kitchen."
+        ]
+      },
+      {
+        "title": "About this page",
+        "paragraphs": [
+          "This explainer unpacks a traditional culinary vocabulary set—how phrases like “Liver Qi Stagnation” guide flavor choice, ingredient form, and preparation style in Chinese‑influenced food and herb writing. It stays with pantry images, cooking technique, and tasting notes so you can read classic descriptions with a clearer kitchen sense."
+        ]
+      }
     ],
+    "references": [
+      "HerbGuide Basics: What Is Liver Qi Stagnation? https://herbguide.store/basics/what-is-liver-qi-stagnation/",
+      "Huangdi Neijing (Yellow Emperor’s Inner Classic), via Chinese Text Project. Classical images for organ roles, including the Liver as “general.” https://ctext.org/huangdi-neijing"
+    ]
   },
   {
     slug: "what-is-yang-deficiency",
@@ -4158,64 +5085,139 @@ const rawBasicsArticles: ContentArticle[] = [
     ],
   },
   {
-    slug: "what-is-kidney-essence",
-    title: "What Is Kidney Essence (Jing)?",
-    description:
-      "A comprehensive guide to the traditional concept of Kidney Essence (Jing) — the body's deepest constitutional reserve, the difference between pre-natal and post-natal Jing, signs of depletion, and traditional approaches to conservation through diet and lifestyle.",
-    eyebrow: "Basics & Concepts",
-    intro:
-      "In traditional Chinese wellness practices, the 'Kidneys' (肾, Shèn) are considered the most fundamental organs in the body. They are often called the 'Root of Life.' They do not just filter urine; they store the body's deepest reserves of energy, govern growth, reproduction, and aging, and provide the foundational warmth (Yang) and moisture (Yin) for all other organs.",
-    sections: [
+    "slug": "what-is-kidney-essence",
+    "title": "What Is Kidney Essence (Jing) in Traditional Chinese Food Writing?",
+    "description": "A plain-English guide to kidney essence (jing) in traditional food writing: the body's deepest reserves and the dark, richly flavored foods said to nourish them.",
+    "eyebrow": "Basics & Concepts",
+    "intro": "In traditional Chinese herb and food writing, Kidney Essence—Jing (精)—is a way of talking about the body’s deepest reserves. Writers describe two sources: an inherited endowment (“pre‑natal”) and what is gathered after birth from food and breath (“post‑natal”). The Kidney system (肾, shèn) is the imagined storehouse for this reserve. You’ll see the term used to explain life stages, long-cooking dishes, and why certain ingredients—especially dark, richly flavored ones—are said to “nourish” or “store.”",
+    "sections": [
       {
-        title: "Understanding Essence (Jing)",
-        paragraphs: [
-          "At the core of the Kidney system is a concept called 'Essence' or 'Jing' (精). Jing is the dense, material foundation of life. You can think of it as your body's constitutional battery pack or your genetic inheritance.",
+        "title": "The short answer",
+        "paragraphs": [
+          "Kidney Essence (Jing) is traditional vocabulary for a concentrated reserve that underpins growth, maturation, and the steady fuel of later years. In this older kitchen language, the Kidneys are not just an anatomical organ but a whole idea-cluster: a storehouse, a hearth, and a root. Classical sources frequently call the Kidneys the “root” and tie them to bones and marrow, which is why many long-simmered soups and dense seeds are linked to this theme in recipe prefaces and herb notes.",
+          "Writers distinguish between:",
+          "This is metaphor and framework, not lab science. It’s how a cuisine and its herb literature talk about reserves, longevity of energy, and a life’s pacing."
         ],
-        bullets: [
-          "Pre-natal Jing: The fundamental constitution you inherit from your parents. This is a fixed reserve; you cannot add to it, you can only conserve it.",
-          "Post-natal Jing: The daily energy extracted from the food you eat and the air you breathe (managed by the Spleen and Lungs). This daily energy is used to support your activities, and any surplus is sent to the Kidneys to help protect and preserve your Pre-natal Jing.",
-        ],
+        "bullets": [
+          "Pre‑natal Jing (先天之精): an inherited baseline—fixed in quantity.",
+          "Post‑natal Jing (后天之精): nourishment taken in daily from grain, broth, and breath, refined by the Spleen and Lungs, with any surplus “stored” by the Kidneys."
+        ]
       },
       {
-        title: "Signs of Depleted Kidney Essence",
-        paragraphs: [
-          "Because Jing governs growth, maturation, and aging, the natural decline of Jing over decades is what causes the normal signs of aging. However, chronic overwork, severe stress, poor diet, or lack of sleep can deplete Jing prematurely.",
-          "Traditional practitioners look for signs that the body's deep reserves are running low, such as:",
+        "title": "Where you’ll see this word in recipes and herb notes",
+        "paragraphs": [
+          "You’ll meet “Kidney Essence/Jing” in several places:",
+          "When you see “Kidney Essence” on a page, read it as a cue about depth, storage, and pacing—how a dish feels, when it’s served, and what pantry items carry that feeling."
         ],
-        bullets: [
-          "Premature graying or thinning of hair",
-          "Weakness or chronic soreness in the lower back and knees",
-          "A decline in memory, focus, or cognitive sharpness",
-          "Issues with reproductive health or vitality",
-          "A profound, deep-seated fatigue that isn't cured by a single night of sleep",
-          "Dental issues or brittle bones (as the Kidneys traditionally 'govern the bones')",
-        ],
+        "bullets": [
+          "Congee and stew headnotes: Phrases like “nourishes essence,” “supports the root,” or “benefits marrow” often appear beside winter porridges, lamb stews, and bone-based broths.",
+          "Herb-shop cards and compendia: Ingredients such as black sesame (黑芝麻), walnuts (核桃), goji/wolfberry (枸杞), mulberry (桑椹), and dodder seed (菟丝子) are commonly annotated with Jing-related comments.",
+          "Seasonal essays: Winter is framed as the time to “store,” so dishes built around dark colors, slow heat, and richer fats get linked to the Kidney system.",
+          "Life-stage notes: Discussion of adolescence, midlife steadiness, and elder years uses Jing as a way to talk about growth curves and gradual decline.",
+          "Classical cross-references: Commentaries point back to passages that place the Kidneys at the root and associate them with bone and marrow imagery."
+        ]
       },
       {
-        title: "Traditional Approaches to Supporting Kidney Essence",
-        paragraphs: [
-          "Because you cannot easily replace lost Jing, traditional wellness focuses heavily on conservation. The primary strategy is to ensure your digestion (Spleen) is strong enough to extract maximum daily energy from food, so you don't have to draw from your deep Kidney reserves.",
+        "title": "A plain‑English vocabulary map",
+        "paragraphs": [
+          "Here’s a compact map that translates common phrases you’ll encounter into kitchen-reading cues.",
+          "Use this map to decode recipe notes: when a dish “nourishes Kidney Yin,” expect moister textures and quiet flavors; when it “warms Kidney Yang,” expect heavier cuts, spice, and longer heat."
         ],
-        bullets: [
-          "Black Sesame Seeds: Used to support hair health and deep nourishment.",
-          "Walnuts: Used to support the brain and warm the lower back.",
-          "Goji Berries: Used to nourish Kidney Yin and Liver Blood.",
-          "Bone Broths: Traditionally viewed as deeply restorative to the bones and marrow.",
-        ],
+        "bullets": [
+          "精 (Jing) — Essence, deep reserve — Dense, stored, concentrated — Seeds, nuts, marrow-rich stocks — Think “pantry of life”—compact, long-lasting fuel.",
+          "肾 (Shèn) — Kidney (system) — The storehouse and hearth — Dark-colored foods; long-simmered dishes — A system idea, not only the physical organ.",
+          "先天之精 — Pre‑natal Essence — Inherited baseline — Not a kitchen input — described as fixed; texts focus on conserving it.",
+          "后天之精 — Post‑natal Essence — Gathered after birth — Cooked grains, broths, stews — Made from daily eating and breath; surplus is “stored.”",
+          "肾阴 — Kidney Yin — Moistening, cooling reserve — Goji, mulberry, black sesame — Language leans toward fluids and quiet storage.",
+          "肾阳 — Kidney Yang — Warming, igniting reserve — Lamb, walnut, cinnamon bark — Language leans toward hearth heat and steady warmth."
+        ]
       },
       {
-        title: "Lifestyle and Kitchen Notes",
-        paragraphs: [
-          "The most important traditional advice for protecting Kidney Essence is lifestyle-based: prioritizing adequate sleep, avoiding chronic overexertion, and managing stress. In the kitchen, focusing on warm, cooked, nutrient-dense meals ensures that the body gets the daily energy it needs, allowing the Kidneys to rest and preserve their vital reserves.",
+        "title": "Kitchen-reading examples: how writers point to Kidney Essence",
+        "paragraphs": [
+          "You’ll rarely see “Kidney Essence” as a standalone instruction. Instead, writers hint at it through ingredients, color, texture, and time at the stove. A few typical patterns:",
+          "None of these lines tell you “this fixes X.” They frame a dish by season, life stage, and quality of energy—dense or light, moist or dry, simmered or quick."
         ],
+        "bullets": [
+          "Black sesame rice congee: Ground black sesame folded into a soft white-rice base, sometimes sweetened slightly and finished with a thread of sesame oil. The black color (one of the five-color links for the Kidney system) and the seed’s density signal “essence” themes.",
+          "Walnut–goji congee or tea: Walnuts bring a rich, slightly warming depth; goji adds gentle sweetness and color. Notes often say “benefits essence and blood,” tying a nut’s weight to storage and a berry’s fluid character to moistening language.",
+          "Lamb with goji and ginger: Where writers say “warms the gate and supports the root,” read “Kidney Yang” language. Ginger adds surface heat; lamb and long simmering point to inner hearth warmth.",
+          "Bone stock with black beans and seaweed: Marrow bones, dark legumes, and sea vegetables appear together in winter recipes with lines about marrow and essence. The pot stays at a bare wobble for hours; the headnote emphasizes patience and storage.",
+          "Mulberry syrup or soaked dried fruits: When dried mulberries are lightly simmered and reserved as a pantry syrup, annotations often link the dark color and moistening texture with Kidney Yin."
+        ]
       },
       {
-        title: "Read This Page in Context",
-        paragraphs: [
-          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        "title": "Nearby traditional ideas you’ll meet alongside Jing",
+        "paragraphs": [
+          "Traditional food writing works like a web. Read “Kidney Essence,” and a few neighbors often show up:"
         ],
+        "bullets": [
+          "“Gate of Vitality” (命门, mìngmén): A named warmth at the body’s center, paired with “Kidney Yang” language. In kitchen terms, this is hearth imagery—the steady coal bed under the pot.",
+          "Bones and marrow: Bones, teeth, and brain marrow appear in lists associated with the Kidney system. Hence marrow bones, long-soaked black beans, and sesame pastes are frequent companions in recipes and pantry talk.",
+          "Ears and lower back: You’ll see culinary writers borrow these associations when describing where a dish “reaches” or what qualities it “supports.”",
+          "Five colors and the Kidney link to black: Black sesame, black beans, black rice, seaweeds, and dark berries show up when a text leans on color as a teaching tool.",
+          "“Nourish” (补, bǔ) and “warm” (温, wēn): These verbs are ubiquitous in headnotes. “Nourish essence” hints at dense, gently sweet foods; “warm the Kidney” suggests longer heat, aromatics like ginger or cinnamon bark, and richer cuts."
+        ]
       },
+      {
+        "title": "Seasonal and life‑stage language in cookbooks and manuals",
+        "paragraphs": [
+          "Season and life stage shape how the term is used:",
+          "This is reading guidance, not a recommend—notice the metaphors, the color choices, and the pacing of heat."
+        ],
+        "bullets": [
+          "Winter storage: Menus turn inward—braises, porridges, and thicker soups. Writers talk about “storing essence” and “guarding the root.” Expect dark-hued ingredients, reduced broths, and gentle sweetness rather than sharp sourness.",
+          "Spring and early growth: Lighter grains and greens appear, but Jing language still shows up in simple congees intended to “nourish without burden,” a phrase that signals support without stoking too much heat.",
+          "Adolescence: Recipe colophons sometimes mention “filling marrow,” especially with congees that combine grains with small portions of meat stock.",
+          "Elder years: Texts lean on soft textures, longer cooking, and dishes that are easy to digest, with Jing mentioned as something to conserve rather than spend quickly."
+        ]
+      },
+      {
+        "title": "Sourcing and preparation notes from a cook’s point of view",
+        "paragraphs": [
+          "When a headnote mentions Kidney Essence, certain pantry treatments tend to follow:",
+          "For any dried spices you choose to use, U.S. guidance emphasizes sourcing from reputable suppliers and applying a heat step when recipes allow."
+        ],
+        "bullets": [
+          "Seeds and nuts benefit from light roasting and fine grinding. Black sesame paste thins into congee more smoothly when ground; walnuts release aroma after a quick toast before simmering.",
+          "Berries and fruits are rinsed, soaked, then folded in late. Goji softens fast; mulberries hold up longer. The resulting broth gains a soft sweetness associated with nourishing reserve.",
+          "Bones and long simmers build body. Parboil, rinse, and then keep the pot just below a boil for hours. Writers call this “coaxing the marrow,” both literally and as a metaphor for drawing on the deep store.",
+          "Warming aromatics are restrained. Ginger slices, a nub of cinnamon bark, or a few green onion whites show up, but seldom in aggressive quantity; the tone aims for steady heat, not fireworks.",
+          "Black foods and sea vegetables are measured. A handful of black beans, a strip of kelp, or spoonfuls of fermented black soybeans can tint a pot and set the color cue without dominating flavor."
+        ]
+      },
+      {
+        "title": "What readers often miss (and how to read more clearly)",
+        "paragraphs": [],
+        "bullets": [
+          "It’s a framework, not a lab test. “Kidney Essence” organizes food talk about reserves; it isn’t a modern organ function or a self-check label.",
+          "The Kidney system is bigger than the kidneys. It’s a conceptual system that ropes in bones, marrow, ears, and a central “gate.” Don’t flatten it to a single anatomical part.",
+          "Pre‑natal vs post‑natal isn’t about “boosting.” Traditional writers describe pre‑natal Jing as fixed; they focus on conserving it while cultivating post‑natal reserves through ordinary, well-cooked food.",
+          "Not all dark foods are automatic “essence” foods. The color cue is a teaching tool, not a blanket rule. Context—season, texture, headnote verbs—matters.",
+          "Slow doesn’t mean heavy. Many “essence” dishes are quiet and digestible: thin congees, clear soups, simple stews. The idea is storage and steadiness.",
+          "Translation traps: “Kidney tonic,” “marrow-filling,” or “supports the root” can sound grand. Read them as genre signals about warmth, density, and time at the stove."
+        ]
+      },
+      {
+        "title": "Common questions",
+        "paragraphs": [
+          "Is Kidney Essence the same thing as the physical kidneys? No. In this literature, “Kidney” names a system and storehouse idea. It gathers associations (bones, marrow, ears, central warmth) and gives writers a way to talk about reserves. It sits alongside other systems like Spleen and Liver in a shared vocabulary rather than being limited to one anatomical organ.",
+          "Can food “increase” pre‑natal Jing? Traditional phrasing says pre‑natal Jing is fixed. Food and breath build post‑natal reserves, and surplus is “stored” by the Kidney system. Recipe notes, therefore, focus on conserving and replenishing daily reserves rather than “adding” to the inherited endowment. Read phrases like “nourish essence” as pointing to steady, well-cooked fare.",
+          "Why are black foods linked to the Kidney system? The five-color teaching tool maps black to the Kidney system, so black sesame, black beans, black rice, seaweeds, and dark berries often appear when writers discuss Jing. Color is only one cue: texture (dense vs. light), cooking time (slow vs. quick), and flavor (gently sweet vs. sharp) round out the picture."
+        ]
+      },
+      {
+        "title": "About this page",
+        "paragraphs": [
+          "This page explains “Kidney Essence (Jing)” as culinary and cultural vocabulary. It translates common traditional phrases into plain kitchen language—flavor, color, texture, preparation, season—so you can read recipes, herb notes, and classic commentaries with more confidence and less confusion."
+        ]
+      }
     ],
+    "references": [
+      "What Is Kidney Essence (Jing)? https://herbguide.store/basics/what-is-kidney-essence/",
+      "Huangdi Neijing (Yellow Emperor’s Inner Classic), Chinese Text Project. https://ctext.org/huangdi-neijing (Classical links between the Kidney system, “root,” bones, and marrow are discussed across this corpus.)",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices (General spice-handling guidance referenced in Sourcing and preparation notes.)"
+    ]
   },
   {
     slug: "what-is-lung-qi",
@@ -4769,79 +5771,7 @@ const rawBasicsArticles: ContentArticle[] = [
     ],
   },
 
-  {
-    slug: "what-is-liver-qi-stagnation",
-    title: "What Is Liver Qi Stagnation?",
-    description:
-      "A plain-English guide to the traditional concept of Liver Qi Stagnation — what it means, signs, causes, traditional approaches to smoothing Liver Qi, and practical lifestyle and kitchen notes.",
-    eyebrow: "Basics & Concepts",
-    intro:
-      "In traditional Chinese wellness practices, the Liver (肝, Gān) is likened to a military general who plans and strategizes. One of its most important functions is ensuring the \"smooth and free flow\" of Qi (energy), Blood, and emotions throughout the entire body. When the Liver is functioning well, energy moves smoothly, digestion is coordinated, and emotions are balanced and resilient.",
-    sections: [
-      {
-        title: "The Concept of the Liver and Qi Flow",
-        paragraphs: [
-          "In traditional Chinese wellness practices, the Liver (肝, Gān) is likened to a military general who plans and strategizes. One of its most important functions is ensuring the \"smooth and free flow\" of Qi (energy), Blood, and emotions throughout the entire body.",
-          "When the Liver is functioning well, energy moves smoothly, digestion is coordinated, and emotions are balanced and resilient.",
-        ],
-      },
-      {
-        title: "Understanding Liver Qi Stagnation",
-        paragraphs: [
-          "\"Liver Qi Stagnation\" (肝气郁结, Gān Qì Yù Jié) occurs when the Liver's ability to maintain this smooth flow is compromised.",
-          "Instead of flowing freely like a clear river, the Qi becomes blocked, congested, and pressurized — like a traffic jam or water building up behind a dam. Because the Liver governs emotions, this physical stagnation is almost always linked to emotional stress.",
-        ],
-      },
-      {
-        title: "Signs of Liver Qi Stagnation",
-        paragraphs: [
-          "Because Qi is blocked, the primary symptom is a feeling of pressure, tightness, or distention, rather than sharp pain:",
-        ],
-        bullets: [
-          "Emotional Signs: Frequent sighing, mood swings, irritability, a short temper, and feeling easily frustrated or depressed.",
-          "Physical Tension: A feeling of tightness or distention in the chest, ribs, or upper abdomen. A sensation of a \"lump in the throat\" that cannot be swallowed or coughed up (traditionally called \"Plum Pit Qi\").",
-          "Digestive Upset: Because the Liver \"overacts\" on the Spleen and Stomach when it is stagnant, this can cause bloating, belching, and alternating constipation and loose stools (especially when stressed).",
-          "Women's Health: Premenstrual tension (PMS), breast distention before the cycle, and irregular or painful periods.",
-          "Physical Signs: A tongue with slightly red or swollen edges, and a \"wiry\" or tight pulse.",
-        ],
-      },
-      {
-        title: "Causes of Liver Qi Stagnation",
-        paragraphs: [
-          "Liver Qi Stagnation is arguably the most common imbalance in modern, fast-paced societies:",
-        ],
-        bullets: [
-          "Emotional Stress: Unexpressed anger, chronic frustration, resentment, and high-pressure work environments are the primary causes. The Liver hates being constrained.",
-          "Lack of Movement: A sedentary lifestyle contributes to physical stagnation, which in turn leads to Qi stagnation.",
-          "Poor Diet: Eating while angry or stressed, or consuming too many heavy, greasy foods that block the smooth flow of energy.",
-        ],
-      },
-      {
-        title: "Traditional Approaches to Smoothing Liver Qi",
-        paragraphs: [
-          "The traditional strategy is to \"Soothe the Liver and Regulate Qi\" using ingredients that are aromatic, light, and slightly pungent to break up the congestion.",
-        ],
-        bullets: [
-          "Chai Hu (Bupleurum): The most famous herb for soothing the Liver and releasing stagnant Qi.",
-          "Rose Bud (Mei Gui Hua): A gentle, aromatic flower that smooths Liver Qi and gently moves Blood, highly favored for emotional and menstrual balance.",
-          "Mint (Bo He): Its light, aromatic nature helps clear the head and release mild Liver constraint.",
-          "Chen Pi (Aged Tangerine Peel): Used to regulate Qi in the digestive system, addressing the bloating caused by a stagnant Liver.",
-        ],
-      },
-      {
-        title: "Lifestyle and Kitchen Notes",
-        paragraphs: [
-          "While herbs and foods can help, lifestyle changes are essential for resolving Liver Qi Stagnation. Physical movement is crucial — brisk walking, stretching, or yoga physically moves the body, which helps move the Qi. Finding healthy outlets for stress and frustration (rather than bottling them up) is equally important. In the kitchen, light, aromatic teas (like Rose and Mint) are excellent for gently releasing tension throughout the day.",
-        ],
-      },
-      {
-        title: "Read This Page in Context",
-        paragraphs: [
-          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
-        ],
-      },
-    ],
-  },
+
 
   {
     slug: "what-is-heart-yin-deficiency",
