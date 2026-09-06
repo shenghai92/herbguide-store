@@ -213,52 +213,52 @@ const rawBasicsCards = [
   {
     slug: "what-is-lung-qi",
     title: "What Is Lung Qi?",
-    text: "A comprehensive guide to the traditional concept of Lung Qi — the functional energy of the respiratory system, how the Lungs govern the body's defensive Wei Qi, and traditional approaches to supporting Lung Qi through diet and lifestyle.",
+        text: "A kitchen-reader's guide to Lung Qi (Fei Qi) in traditional food writing: the Lungs as a high canopy that draws in freshness and sends a fine mist outward.",
   },
   {
     slug: "what-is-heart-fire",
     title: "What Is Heart Fire?",
-    text: "A comprehensive guide to the traditional concept of Heart Fire — how excess heat in the Heart system manifests physically and emotionally, signs to recognize, and traditional approaches to clearing Heart Fire through diet and lifestyle.",
+        text: "A plain-English guide to Heart Fire (xin huo) in traditional food writing: an over-hot, overactive tendency answered with bitter-cool, clear, settling foods.",
   },
   {
     slug: "what-is-yang-deficiency",
     title: "What Is Yang Deficiency?",
-    text: "A comprehensive guide to the traditional concept of Yang Deficiency — what Yang represents, signs of internal coldness and sluggishness, causes, and traditional approaches to warming Yang through diet and lifestyle.",
+        text: "A traditional kitchen-language guide to yang deficiency (yang xu): not enough inner warmth and drive, matched with warming dishes and slow simmers.",
   },
   {
     slug: "what-is-blood-stasis",
     title: "What Is Blood Stasis?",
-    text: "A comprehensive guide to the traditional concept of Blood Stasis — what Blood represents, how stasis differs from stagnation, signs of localized blood obstruction, causes, and traditional approaches to moving Blood through diet and lifestyle.",
+        text: "A plain-English guide to blood stasis in traditional food writing: the image of holding, settling, or slowed movement in classical food and herb language.",
   },
   {
     slug: "what-is-spleen-qi-deficiency",
     title: "What Is Spleen Qi Deficiency?",
-    text: "A comprehensive guide to the traditional concept of Spleen Qi Deficiency — what the Spleen represents, signs of digestive sluggishness and fatigue, causes, and traditional approaches to tonifying Spleen Qi through diet and lifestyle.",
+        text: "A kitchen-language guide to Spleen Qi Deficiency: when the body's cooking fire for transforming food runs low, steered toward warm, simple dishes.",
   },
   {
     slug: "what-is-heart-blood-deficiency",
     title: "What Is Heart Blood Deficiency?",
-    text: "A comprehensive guide to the traditional concept of Heart Blood Deficiency — what Heart Blood represents, signs of sleep issues and restlessness, causes, and traditional approaches to nourishing Heart Blood through diet and lifestyle.",
+        text: "A plain-English guide to Heart Blood Deficiency in traditional food writing: a multi-part label combining Heart, Blood, and Deficiency as linked images.",
   },
   {
     slug: "what-is-qi-deficiency",
     title: "What Is Qi Deficiency?",
-    text: "A comprehensive guide to the traditional concept of Qi Deficiency — what Qi represents, signs of systemic depletion and profound fatigue, causes, and traditional approaches to tonifying Qi through diet and lifestyle.",
+        text: "A plain-English guide to qi deficiency in traditional food writing: historical vocabulary for reading ingredient descriptions, not a modern self-check.",
   },
   {
     slug: "what-is-wind-cold",
     title: "What Is Wind-Cold?",
-    text: "A comprehensive guide to the traditional concept of Wind-Cold — what Wind represents, how it combines with Cold to cause acute respiratory challenges, signs, traditional approaches to dispersing Wind-Cold, and lifestyle and kitchen notes.",
+        text: "A plain-English guide to Wind-Cold in traditional food writing: a weather-image phrase combining wind and cold for reading seasonal food language.",
   },
   {
     slug: "what-is-wind-heat",
     title: "What Is Wind-Heat?",
-    text: "A comprehensive guide to the traditional concept of Wind-Heat — what Wind represents, how it combines with Heat to cause inflammation and sore throat, signs, traditional approaches to dispersing Wind-Heat, and cooling lifestyle and kitchen notes.",
+        text: "A plain-English guide to Wind-Heat in traditional food writing: a weather-image phrase bringing together wind and heat in seasonal notes and ingredient lists.",
   },
   {
     slug: "what-is-liver-blood-deficiency",
     title: "What Is Liver Blood Deficiency?",
-    text: "A comprehensive guide to the traditional concept of Liver Blood Deficiency — what the Liver represents, how Blood Deficiency manifests in eyes, tendons, sleep, and women's health, signs, causes, traditional approaches, and lifestyle and kitchen notes.",
+        text: "A plain-English guide to Liver Blood Deficiency in traditional food writing: a three-part label combining Liver, Blood, and Deficiency as historical vocabulary.",
   },
 
   {

@@ -744,71 +744,95 @@ const rawBasicsArticles: ContentArticle[] = [
     ],
   },
   {
-    slug: "what-is-qi-deficiency",
-    title: "What Is Qi Deficiency?",
-    description:
-      "A comprehensive guide to the traditional concept of Qi Deficiency — what Qi represents, how deficiency manifests as systemic depletion, signs, causes, traditional approaches to tonifying Qi, and lifestyle and kitchen notes.",
-    eyebrow: "Basics & Concepts",
-    intro:
-      "In traditional Chinese wellness practices, 'Qi' (气) is the fundamental life force or vital energy that animates the body. It is responsible for all movement, transformation, protection, and warming within the body. While Qi is often translated simply as 'energy,' it is more accurately understood as the functional capacity of the organs. For example, Spleen Qi is the digestive capacity, Lung Qi is the respiratory capacity, and Heart Qi is the pumping capacity.",
-    sections: [
+    "slug": "what-is-qi-deficiency",
+    "title": "What Does “Qi Deficiency” Mean in Traditional Food Writing?",
+    "description": "A plain-English guide to qi deficiency in traditional food writing: historical vocabulary for reading ingredient descriptions, not a modern self-check.",
+    "eyebrow": "Basics & Concepts",
+    "intro": "“Qi Deficiency” is a traditional phrase that joins qi with deficiency in classical food writing. On HerbGuide, it is explained as historical vocabulary for reading ingredient descriptions, not as a modern self-check or a statement about any reader. Readers get the most value from the phrase when they separate its words, notice its setting, and then return to the concrete details of food: ingredient form, aroma, flavor, texture, and preparation.",
+    "sections": [
       {
-        title: "Understanding Qi Deficiency",
-        paragraphs: [
-          "'Qi Deficiency' (气虚, Qì Xū) occurs when the body lacks sufficient vital energy to perform its daily functions efficiently. It is a state of systemic depletion, similar to a battery that cannot hold a full charge.",
-          "When Qi is deficient, the organs cannot perform their jobs optimally. Digestion slows down, the immune barrier weakens, and physical stamina drops.",
-        ],
+        "title": "Start with the phrase, not a personal label",
+        "paragraphs": [
+          "Traditional food and herb writing uses compact phrases to organize a large web of images. A phrase can bring together a season, a food texture, a quality word, and a broader classical relationship in only a few syllables. That compactness is useful for readers who already know the system, but it can feel opaque in English.",
+          "A plain-English reading begins with restraint. The phrase is not an instruction and it is not a verdict. It is historical vocabulary. Read it as you would read a culinary term from another tradition: translate the words, learn the image behind them, and see how the page uses the phrase beside particular ingredients or preparation styles."
+        ]
       },
       {
-        title: "Signs of Qi Deficiency",
-        paragraphs: [
-          "Because Qi powers every function in the body, its deficiency manifests as a general lack of power and resilience:",
-        ],
-        bullets: [
-          "Profound Fatigue: A deep, physical exhaustion that is not fully relieved by sleep. The fatigue often worsens after physical exertion.",
-          "Weak Voice and Shortness of Breath: A reluctance to speak, a soft voice, and feeling out of breath after minor activity (signs of Lung Qi Deficiency).",
-          "Spontaneous Sweating: Sweating during the day without physical exertion or heat, because the Qi is too weak to keep the pores closed.",
-          "Digestive Sluggishness: Poor appetite, bloating after eating, and loose stools (signs of Spleen Qi Deficiency).",
-          "Physical Signs: A pale complexion, a pale and slightly swollen tongue (often with teeth marks), and a weak pulse.",
-        ],
+        "title": "Break the wording into its parts",
+        "paragraphs": [
+          "In this traditional vocabulary, **Qi** is a flexible traditional word often translated with ideas such as movement, activity, or functional vitality. The word gains its full sense from the words around it, the type of text, and the recipe or ingredient description in which it appears.",
+          "In this traditional vocabulary, **Deficiency** is a contrast word that signals “less than” within a traditional text. The word gains its full sense from the words around it, the type of text, and the recipe or ingredient description in which it appears.",
+          "When these words appear together, they create a layered expression. The goal is not to flatten that expression into a single modern word. The goal is to understand why a traditional writer selected these words rather than another nearby phrase."
+        ]
       },
       {
-        title: "Causes of Qi Deficiency",
-        paragraphs: [
-          "Qi is primarily generated from the food we eat and the air we breathe. Therefore, Qi Deficiency is usually caused by:",
+        "title": "A plain-English reading map",
+        "paragraphs": [
+          "The table is a reading tool, not a set of fixed rules. Once you can see the phrase as a group of words, ingredient pages become easier to navigate because you can ask a more precise question: *What role is this term playing in this description?*"
         ],
-        bullets: [
-          "Poor Diet or Weak Digestion: If the Spleen cannot extract energy from food, the body cannot produce new Qi.",
-          "Chronic Overwork: Physical, mental, or emotional overexertion that drains the body's reserves faster than they can be replenished.",
-          "Prolonged Illness: A lingering health challenge that consumes the body's vital energy over time.",
-          "Aging: A natural, gradual decline in the body's functional capacity.",
-        ],
+        "bullets": [
+          "Qi — A flexible traditional word often translated with ideas such as movement, activity, or functional vitality — Read it as a word in a historical food-writing system, then look at ingredient form and recipe context",
+          "Deficiency — A contrast word that signals “less than” within a traditional text — Read it as a word in a historical food-writing system, then look at ingredient form and recipe context",
+          "Surrounding words — The nearby vocabulary often changes the emphasis — Read the full phrase before drawing a kitchen connection",
+          "Surrounding words — The nearby vocabulary often changes the emphasis — Read the full phrase before drawing a kitchen connection",
+          "Surrounding words — The nearby vocabulary often changes the emphasis — Read the full phrase before drawing a kitchen connection"
+        ]
       },
       {
-        title: "Traditional Approaches to Tonifying Qi",
-        paragraphs: [
-          "The traditional strategy is to 'Tonify Qi' (补气) using ingredients that are 'Sweet,' 'Warm,' and nourishing, focusing heavily on supporting the Spleen and Lungs.",
-        ],
-        bullets: [
-          "Ginseng (Ren Shen) or Codonopsis (Dang Shen): The most powerful herbs for boosting core energy.",
-          "Astragalus Root (Huang Qi): Excellent for boosting Lung Qi, lifting energy, and stopping spontaneous sweating.",
-          "Chinese Yam (Shan Yao): A gentle, balanced food that supports the Spleen and Lungs.",
-          "Jujube (Red Date) and Licorice Root: Used to gently nourish the center and harmonize other ingredients.",
-        ],
+        "title": "Put the phrase back into kitchen context",
+        "paragraphs": [
+          "The clearest way to keep a traditional phrase grounded is to picture an actual kitchen scene. Think of a plain rice porridge that reads as quiet and simple beside a strongly roasted, aromatic pantry blend. This kind of image does not prove a single translation. Instead, it gives the reader a practical way to remember that classical vocabulary often moves between food, season, appearance, and preparation.",
+          "On a recipe page, begin with the ingredients before the label. Notice whether the writer is using fresh or dried material, whether the method is a quick steep or a long simmer, and whether the recipe is built around aroma, flavor, color, or texture. Those concrete details are more useful than trying to make one phrase carry every meaning on its own."
+        ]
       },
       {
-        title: "Lifestyle and Kitchen Notes",
-        paragraphs: [
-          "For those experiencing Qi Deficiency, rest is paramount. Traditional frameworks emphasize the need to balance activity with adequate recovery. In the kitchen, the focus should be on warm, cooked, easily digestible meals (like soups and stews) that require minimal energy to digest. Cold, raw, and greasy foods should be strictly avoided, as they force the already weak digestive system to work harder.",
-        ],
+        "title": "Notice the contrast words around it",
+        "paragraphs": [
+          "Traditional vocabulary often works through contrast. “Qi Deficiency” becomes easier to read beside tonifying, moving, and harmonizing language used elsewhere in traditional food writing. This does not mean the terms are opposites in every sentence. It means the surrounding language helps readers understand what the writer is emphasizing.",
+          "A good reading habit is to put two related pages side by side and underline the words that change. Look for changes in ingredient form, cooking method, season, aroma, and the traditional quality words placed next to an ingredient. This turns an unfamiliar phrase into a map of relationships rather than a memorization task."
+        ]
       },
       {
-        title: "Read This Page in Context",
-        paragraphs: [
-          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
-        ],
+        "title": "Ingredient form is part of the meaning",
+        "paragraphs": [
+          "A recipe’s method—quick steeping, simmering, roasting, or long cooking—often tells the reader more than a category word alone. Traditional writing often pays close attention to those differences. A page about a root, flower, berry, peel, grain, or mushroom may use related vocabulary while still making a different culinary point.",
+          "For that reason, do not collapse all ingredient forms into one generic entry. Let a recipe name the form it needs. Then use the flavor and preparation method to understand why that form was chosen. This approach is concrete, repeatable, and easier for English-language readers to carry from one page to the next."
+        ]
       },
+      {
+        "title": "A useful way to take notes",
+        "paragraphs": [
+          "When you meet a new traditional phrase, record three things: the exact phrase, the ingredient or recipe beside it, and the kitchen image it brings to mind. For “Qi Deficiency,” the nearby idea to compare is **What Does Qi Mean? and What Does Tonify Mean?**. A short note written in your own words is more valuable than copying a long definition.",
+          "Over time, these notes reveal patterns. Some words stay close to season and climate imagery. Some are often placed beside flavor or ingredient form. Others help a reader follow how a classical text groups foods and herbs. The pattern becomes clearer through comparison, not through one isolated page."
+        ]
+      },
+      {
+        "title": "What readers often miss",
+        "paragraphs": [
+          "The phrase does not need to sound familiar in modern English to be useful. Its value is descriptive and cultural: it helps readers see how traditional writers organized food language. A literal translation can be a starting point, but it is rarely the end of the story.",
+          "The most professional way to present this vocabulary is to keep the boundaries visible. Explain the words clearly. Give food and preparation examples. Link to the neighboring concepts that create context. Then allow the phrase to remain part of its own historical system rather than forcing it into a different one."
+        ]
+      },
+      {
+        "title": "Common questions",
+        "paragraphs": [
+          "Why is the phrase longer than a single English word? Traditional phrases often compress several ideas into one label. Reading each word separately first makes the full phrase easier to understand without stripping away the original structure.",
+          "Should I translate every traditional word literally? A literal translation is useful as a doorway, but the surrounding text supplies the fuller meaning. Ingredient form, recipe method, and neighboring terms often explain more than one dictionary equivalent.",
+          "What is the best next step after reading this page? Choose one related page and compare the vocabulary in context. Notice which words remain the same, which words change, and how the food or preparation example changes with them."
+        ]
+      },
+      {
+        "title": "About this page",
+        "paragraphs": [
+          "HerbGuide explains food, flavor, preparation, and cultural vocabulary. This page is designed for learning and kitchen context."
+        ]
+      }
     ],
+    "references": [
+      "HerbGuide. What Is Qi Deficiency?. https://herbguide.store/basics/what-is-qi-deficiency/",
+      "Chinese Text Project. Huangdi Neijing. https://ctext.org/huangdi-neijing",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices"
+    ]
   },
   {
     slug: "what-is-qi-stagnation",
@@ -2374,69 +2398,95 @@ const rawBasicsArticles: ContentArticle[] = [
     ]
   },
   {
-    slug: "what-is-blood-stasis",
-    title: "What Is Blood Stasis?",
-    description:
-      "A comprehensive guide to the traditional concept of Blood Stasis — what Blood represents, how stasis differs from stagnation, signs of localized blood obstruction, causes, traditional approaches to moving Blood, and lifestyle and kitchen notes.",
-    eyebrow: "Basics & Concepts",
-    intro:
-      "In traditional Chinese wellness practices, 'Blood' (血, Xuě) is more than just the red fluid in the veins. It is a dense, nourishing substance that provides the material foundation for the body and the mind. It moistens the tissues, nourishes the organs, and provides the physical 'home' for the Shen (spirit/mind). For Blood to perform its nourishing function, it must circulate smoothly and continuously, driven by the pumping action of Qi (energy).",
-    sections: [
+    "slug": "what-is-blood-stasis",
+    "title": "What Does “Blood Stasis” Mean in Traditional Food Writing?",
+    "description": "A plain-English guide to blood stasis in traditional food writing: the image of holding, settling, or slowed movement in classical food and herb language.",
+    "eyebrow": "Basics & Concepts",
+    "intro": "“Blood Stasis” is a traditional phrase that uses the image of holding, settling, or slowed movement in classical food and herb writing. It is a vocabulary label inside that writing system, not a modern description of a reader. Readers get the most value from the phrase when they separate its words, notice its setting, and then return to the concrete details of food: ingredient form, aroma, flavor, texture, and preparation.",
+    "sections": [
       {
-        title: "Understanding Blood Stasis",
-        paragraphs: [
-          "'Blood Stasis' (血瘀, Xuě Yū) occurs when the flow of blood slows down, pools, or becomes obstructed. In traditional theory, 'Where there is free flow, there is no pain; where there is pain, there is no free flow.' Blood Stasis is considered one of the primary traditional causes of localized, sharp discomfort.",
-          "You can think of Blood Stasis like a traffic jam on a highway. When cars (blood) stop moving smoothly, congestion builds up, causing pressure and localized issues.",
-        ],
+        "title": "Start with the phrase, not a personal label",
+        "paragraphs": [
+          "Traditional food and herb writing uses compact phrases to organize a large web of images. A phrase can bring together a season, a food texture, a quality word, and a broader classical relationship in only a few syllables. That compactness is useful for readers who already know the system, but it can feel opaque in English.",
+          "A plain-English reading begins with restraint. The phrase is not an instruction and it is not a verdict. It is historical vocabulary. Read it as you would read a culinary term from another tradition: translate the words, learn the image behind them, and see how the page uses the phrase beside particular ingredients or preparation styles."
+        ]
       },
       {
-        title: "Signs of Blood Stasis",
-        paragraphs: [
-          "Because Blood Stasis involves a physical blockage of circulation, its signs are often highly localized, fixed, and visible:",
-        ],
-        bullets: [
-          "Discomfort: Pain that is sharp, stabbing, and fixed in one specific location. Unlike Qi Stagnation (which causes a moving, dull ache or bloating), Blood Stasis pain does not move.",
-          "Visible Signs: Dark, purplish discoloration. This can manifest as dark circles under the eyes, purplish lips, spider veins, or a tendency to bruise easily.",
-          "Menstrual Signs: For women, Blood Stasis is often associated with dark menstrual blood, clots, and sharp cramps.",
-          "Physical Signs: A tongue that is dark purple or has distinct purple spots, and veins under the tongue that are dark and distended.",
-        ],
+        "title": "Break the wording into its parts",
+        "paragraphs": [
+          "In this traditional vocabulary, **Blood** is a broad traditional word that can carry ideas of nourishment, color, and stored material. The word gains its full sense from the words around it, the type of text, and the recipe or ingredient description in which it appears.",
+          "In this traditional vocabulary, **Stasis** is an image of staying, settling, or not moving as freely as the writer expects. The word gains its full sense from the words around it, the type of text, and the recipe or ingredient description in which it appears.",
+          "When these words appear together, they create a layered expression. The goal is not to flatten that expression into a single modern word. The goal is to understand why a traditional writer selected these words rather than another nearby phrase."
+        ]
       },
       {
-        title: "Causes of Blood Stasis",
-        paragraphs: [
-          "Blood Stasis rarely happens on its own; it is usually the result of another underlying imbalance:",
+        "title": "A plain-English reading map",
+        "paragraphs": [
+          "The table is a reading tool, not a set of fixed rules. Once you can see the phrase as a group of words, ingredient pages become easier to navigate because you can ask a more precise question: *What role is this term playing in this description?*"
         ],
-        bullets: [
-          "Qi Stagnation: If the energy (Qi) stops moving, it cannot push the blood. (Chronic stress leading to physical tension).",
-          "Cold: Just as a river freezes in winter, internal cold causes blood vessels to constrict and circulation to slow down.",
-          "Qi Deficiency: If the body is too weak, it lacks the force to pump the blood efficiently.",
-          "Physical Trauma: An injury, surgery, or impact physically disrupts the local blood vessels, causing immediate stasis (a bruise).",
-        ],
+        "bullets": [
+          "Blood — A broad traditional word that can carry ideas of nourishment, color, and stored material — Read it as a word in a historical food-writing system, then look at ingredient form and recipe context",
+          "Stasis — An image of staying, settling, or not moving as freely as the writer expects — Read it as a word in a historical food-writing system, then look at ingredient form and recipe context",
+          "Surrounding words — The nearby vocabulary often changes the emphasis — Read the full phrase before drawing a kitchen connection",
+          "Surrounding words — The nearby vocabulary often changes the emphasis — Read the full phrase before drawing a kitchen connection",
+          "Surrounding words — The nearby vocabulary often changes the emphasis — Read the full phrase before drawing a kitchen connection"
+        ]
       },
       {
-        title: "Traditional Approaches to Moving Blood",
-        paragraphs: [
-          "The traditional strategy is to 'invigorate' or 'move' the blood and break up the stasis using ingredients that are moving, slightly pungent, and sometimes warm (if cold is the root cause).",
-        ],
-        bullets: [
-          "Hawthorn Berry (Shan Zha): Traditionally used to move blood and disperse stasis, particularly in the chest and digestive tract.",
-          "Rose Bud (Mei Gui Hua): Gently moves Qi and Blood, commonly used for menstrual comfort.",
-          "Turmeric and Saffron: Potent spices traditionally used to invigorate circulation and ease joint and muscle discomfort.",
-        ],
+        "title": "Put the phrase back into kitchen context",
+        "paragraphs": [
+          "The clearest way to keep a traditional phrase grounded is to picture an actual kitchen scene. Think of a richly colored ingredient that settles at the bottom of a bowl rather than dispersing through a light broth. This kind of image does not prove a single translation. Instead, it gives the reader a practical way to remember that classical vocabulary often moves between food, season, appearance, and preparation.",
+          "On a recipe page, begin with the ingredients before the label. Notice whether the writer is using fresh or dried material, whether the method is a quick steep or a long simmer, and whether the recipe is built around aroma, flavor, color, or texture. Those concrete details are more useful than trying to make one phrase carry every meaning on its own."
+        ]
       },
       {
-        title: "Lifestyle and Kitchen Notes",
-        paragraphs: [
-          "Movement is the antidote to stasis. Regular, moderate cardiovascular exercise is considered essential for keeping the blood flowing smoothly. In the kitchen, incorporating warming, moving spices (like ginger, turmeric, and garlic) and slightly sour foods (like hawthorn or vinegar, which interact with the Liver channel that stores blood) can help support healthy circulation. It is also important to avoid overly cold foods, which can cause vessels to constrict.",
-        ],
+        "title": "Notice the contrast words around it",
+        "paragraphs": [
+          "Traditional vocabulary often works through contrast. “Blood Stasis” becomes easier to read beside flow, movement, and circulation language in the same traditional vocabulary. This does not mean the terms are opposites in every sentence. It means the surrounding language helps readers understand what the writer is emphasizing.",
+          "A good reading habit is to put two related pages side by side and underline the words that change. Look for changes in ingredient form, cooking method, season, aroma, and the traditional quality words placed next to an ingredient. This turns an unfamiliar phrase into a map of relationships rather than a memorization task."
+        ]
       },
       {
-        title: "Read This Page in Context",
-        paragraphs: [
-          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
-        ],
+        "title": "Ingredient form is part of the meaning",
+        "paragraphs": [
+          "Broth, tea, porridge, and concentrated pastes create very different food images even when an ingredient name remains the same. Traditional writing often pays close attention to those differences. A page about a root, flower, berry, peel, grain, or mushroom may use related vocabulary while still making a different culinary point.",
+          "For that reason, do not collapse all ingredient forms into one generic entry. Let a recipe name the form it needs. Then use the flavor and preparation method to understand why that form was chosen. This approach is concrete, repeatable, and easier for English-language readers to carry from one page to the next."
+        ]
       },
+      {
+        "title": "A useful way to take notes",
+        "paragraphs": [
+          "When you meet a new traditional phrase, record three things: the exact phrase, the ingredient or recipe beside it, and the kitchen image it brings to mind. For “Blood Stasis,” the nearby idea to compare is **Qi Stagnation and Nourish Blood**. A short note written in your own words is more valuable than copying a long definition.",
+          "Over time, these notes reveal patterns. Some words stay close to season and climate imagery. Some are often placed beside flavor or ingredient form. Others help a reader follow how a classical text groups foods and herbs. The pattern becomes clearer through comparison, not through one isolated page."
+        ]
+      },
+      {
+        "title": "What readers often miss",
+        "paragraphs": [
+          "The phrase does not need to sound familiar in modern English to be useful. Its value is descriptive and cultural: it helps readers see how traditional writers organized food language. A literal translation can be a starting point, but it is rarely the end of the story.",
+          "The most professional way to present this vocabulary is to keep the boundaries visible. Explain the words clearly. Give food and preparation examples. Link to the neighboring concepts that create context. Then allow the phrase to remain part of its own historical system rather than forcing it into a different one."
+        ]
+      },
+      {
+        "title": "Common questions",
+        "paragraphs": [
+          "Why is the phrase longer than a single English word? Traditional phrases often compress several ideas into one label. Reading each word separately first makes the full phrase easier to understand without stripping away the original structure.",
+          "Should I translate every traditional word literally? A literal translation is useful as a doorway, but the surrounding text supplies the fuller meaning. Ingredient form, recipe method, and neighboring terms often explain more than one dictionary equivalent.",
+          "What is the best next step after reading this page? Choose one related page and compare the vocabulary in context. Notice which words remain the same, which words change, and how the food or preparation example changes with them."
+        ]
+      },
+      {
+        "title": "About this page",
+        "paragraphs": [
+          "HerbGuide explains food, flavor, preparation, and cultural vocabulary. This page is designed for learning and kitchen context."
+        ]
+      }
     ],
+    "references": [
+      "HerbGuide. What Is Blood Stasis?. https://herbguide.store/basics/what-is-blood-stasis/",
+      "Chinese Text Project. Huangdi Neijing. https://ctext.org/huangdi-neijing",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices"
+    ]
   },
   {
     "slug": "what-is-food-stagnation",
@@ -2871,71 +2921,95 @@ const rawBasicsArticles: ContentArticle[] = [
     ]
   },
   {
-    slug: "what-is-wind-cold",
-    title: "What Is Wind-Cold?",
-    description:
-      "A comprehensive guide to the traditional concept of Wind-Cold — what Wind represents as the 'spearhead of a thousand diseases,' how it combines with Cold to cause acute respiratory challenges, signs, causes, traditional approaches to dispersing Wind-Cold, and lifestyle and kitchen notes.",
-    eyebrow: "Basics & Concepts",
-    intro:
-      "In traditional Chinese wellness practices, 'Wind' (风, Fēng) is considered the 'spearhead of a thousand diseases.' Just as wind in nature moves quickly, changes direction, and penetrates the environment, Wind in the body represents external stressors that strike suddenly, move rapidly, and often affect the upper body and the surface of the skin. Wind rarely acts alone; it usually carries other environmental factors with it, most commonly Cold or Heat.",
-    sections: [
+    "slug": "what-is-wind-cold",
+    "title": "What Does “Wind-Cold” Mean in Traditional Food Writing?",
+    "description": "A plain-English guide to Wind-Cold in traditional food writing: a weather-image phrase combining wind and cold for reading seasonal food language.",
+    "eyebrow": "Basics & Concepts",
+    "intro": "“Wind-Cold” is a weather-image phrase in traditional writing that combines wind and cold. It belongs to a long-running way of describing climate, season, and food language; it is not a modern label to apply to a reader. Readers get the most value from the phrase when they separate its words, notice its setting, and then return to the concrete details of food: ingredient form, aroma, flavor, texture, and preparation.",
+    "sections": [
       {
-        title: "Understanding Wind-Cold",
-        paragraphs: [
-          "'Wind-Cold' (风寒, Fēng Hán) is the traditional term for the acute onset of a cold or respiratory challenge triggered by exposure to chilly, drafty environments. When the body's defensive barrier (Wei Qi) is compromised, Wind and Cold penetrate the surface. The Cold constricts the pores and muscles, trapping the body's defensive energy and preventing normal circulation and sweating.",
-        ],
+        "title": "Start with the phrase, not a personal label",
+        "paragraphs": [
+          "Traditional food and herb writing uses compact phrases to organize a large web of images. A phrase can bring together a season, a food texture, a quality word, and a broader classical relationship in only a few syllables. That compactness is useful for readers who already know the system, but it can feel opaque in English.",
+          "A plain-English reading begins with restraint. The phrase is not an instruction and it is not a verdict. It is historical vocabulary. Read it as you would read a culinary term from another tradition: translate the words, learn the image behind them, and see how the page uses the phrase beside particular ingredients or preparation styles."
+        ]
       },
       {
-        title: "Signs of Wind-Cold",
-        paragraphs: [
-          "Because Wind-Cold involves a sudden, constricting attack on the body's exterior, the signs are usually immediate and focused on the upper respiratory tract and muscles:",
-        ],
-        bullets: [
-          "Aversion to Cold: A strong dislike of cold air or drafts, and a desire to bundle up in warm clothes.",
-          "Shivering and Chills: Feeling cold to the bone, often without sweating (because the Cold has constricted the pores).",
-          "Body Aches: Stiff, aching muscles, particularly in the neck, shoulders, and upper back.",
-          "Respiratory Signs: A runny nose with clear, watery mucus, sneezing, and a scratchy (but not severely sore or red) throat.",
-          "Headache: A tight, constricting headache, often at the back of the head or neck.",
-          "Physical Signs: A pale tongue with a thin white coating, and a tight, 'floating' pulse.",
-        ],
+        "title": "Break the wording into its parts",
+        "paragraphs": [
+          "In this traditional vocabulary, **Wind** is a classical image of movement, change, and shifting weather. The word gains its full sense from the words around it, the type of text, and the recipe or ingredient description in which it appears.",
+          "In this traditional vocabulary, **Cold** is a traditional quality word used to frame an ingredient, season, or cooking style. The word gains its full sense from the words around it, the type of text, and the recipe or ingredient description in which it appears.",
+          "When these words appear together, they create a layered expression. The goal is not to flatten that expression into a single modern word. The goal is to understand why a traditional writer selected these words rather than another nearby phrase."
+        ]
       },
       {
-        title: "Causes of Wind-Cold",
-        paragraphs: [
-          "Wind-Cold is primarily caused by external environmental factors:",
+        "title": "A plain-English reading map",
+        "paragraphs": [
+          "The table is a reading tool, not a set of fixed rules. Once you can see the phrase as a group of words, ingredient pages become easier to navigate because you can ask a more precise question: *What role is this term playing in this description?*"
         ],
-        bullets: [
-          "Exposure to sudden drops in temperature, cold winds, or drafts.",
-          "Sitting in strong air conditioning while sweating.",
-          "Going outside with wet hair in cool weather.",
-          "A pre-existing weakness in the body's Defensive Qi (Wei Qi), making it easier for the Wind-Cold to penetrate.",
-        ],
+        "bullets": [
+          "Wind — A classical image of movement, change, and shifting weather — Read it as a word in a historical food-writing system, then look at ingredient form and recipe context",
+          "Cold — A traditional quality word used to frame an ingredient, season, or cooking style — Read it as a word in a historical food-writing system, then look at ingredient form and recipe context",
+          "Surrounding words — The nearby vocabulary often changes the emphasis — Read the full phrase before drawing a kitchen connection",
+          "Surrounding words — The nearby vocabulary often changes the emphasis — Read the full phrase before drawing a kitchen connection",
+          "Surrounding words — The nearby vocabulary often changes the emphasis — Read the full phrase before drawing a kitchen connection"
+        ]
       },
       {
-        title: "Traditional Approaches to Dispersing Wind-Cold",
-        paragraphs: [
-          "The traditional strategy for addressing Wind-Cold is to 'Release the Exterior and Disperse Cold' (辛温解表). This is done using ingredients that are 'Pungent' (spicy) and 'Warm.' The goal is to open the pores, promote a light sweat, and push the Cold back out of the body.",
-        ],
-        bullets: [
-          "Fresh Ginger (Sheng Jiang): The premier kitchen remedy for warming the body and inducing a light sweat.",
-          "Scallion Whites (Cong Bai): Often boiled with ginger to help open the pores and disperse Wind-Cold.",
-          "Cinnamon Twig (Gui Zhi): Used to warm the muscles and promote circulation to the surface.",
-          "Perilla Leaf (Zi Su Ye): A warming, aromatic herb used to release the exterior and soothe the stomach.",
-        ],
+        "title": "Put the phrase back into kitchen context",
+        "paragraphs": [
+          "The clearest way to keep a traditional phrase grounded is to picture an actual kitchen scene. Think of a steaming bowl placed near an open window on a windy, cool day. This kind of image does not prove a single translation. Instead, it gives the reader a practical way to remember that classical vocabulary often moves between food, season, appearance, and preparation.",
+          "On a recipe page, begin with the ingredients before the label. Notice whether the writer is using fresh or dried material, whether the method is a quick steep or a long simmer, and whether the recipe is built around aroma, flavor, color, or texture. Those concrete details are more useful than trying to make one phrase carry every meaning on its own."
+        ]
       },
       {
-        title: "Lifestyle and Kitchen Notes",
-        paragraphs: [
-          "When Wind-Cold strikes, immediate action is key. Traditional frameworks recommend drinking a hot, spicy tea (like Ginger and Brown Sugar Tea) and immediately getting into a warm bed under heavy blankets to encourage a light sweat. It is crucial to stay out of drafts and avoid cold, raw foods during this time. Once the body sweats lightly and the shivering stops, the Wind-Cold is considered to have been 'pushed out.'",
-        ],
+        "title": "Notice the contrast words around it",
+        "paragraphs": [
+          "Traditional vocabulary often works through contrast. “Wind-Cold” becomes easier to read beside Wind-Heat and warming-versus-cooling food language. This does not mean the terms are opposites in every sentence. It means the surrounding language helps readers understand what the writer is emphasizing.",
+          "A good reading habit is to put two related pages side by side and underline the words that change. Look for changes in ingredient form, cooking method, season, aroma, and the traditional quality words placed next to an ingredient. This turns an unfamiliar phrase into a map of relationships rather than a memorization task."
+        ]
       },
       {
-        title: "Read This Page in Context",
-        paragraphs: [
-          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
-        ],
+        "title": "Ingredient form is part of the meaning",
+        "paragraphs": [
+          "Hot, room-temperature, and chilled serving styles are separate from the traditional descriptive quality assigned to an ingredient. Traditional writing often pays close attention to those differences. A page about a root, flower, berry, peel, grain, or mushroom may use related vocabulary while still making a different culinary point.",
+          "For that reason, do not collapse all ingredient forms into one generic entry. Let a recipe name the form it needs. Then use the flavor and preparation method to understand why that form was chosen. This approach is concrete, repeatable, and easier for English-language readers to carry from one page to the next."
+        ]
       },
+      {
+        "title": "A useful way to take notes",
+        "paragraphs": [
+          "When you meet a new traditional phrase, record three things: the exact phrase, the ingredient or recipe beside it, and the kitchen image it brings to mind. For “Wind-Cold,” the nearby idea to compare is **Wind-Heat and Warming vs Cooling Foods**. A short note written in your own words is more valuable than copying a long definition.",
+          "Over time, these notes reveal patterns. Some words stay close to season and climate imagery. Some are often placed beside flavor or ingredient form. Others help a reader follow how a classical text groups foods and herbs. The pattern becomes clearer through comparison, not through one isolated page."
+        ]
+      },
+      {
+        "title": "What readers often miss",
+        "paragraphs": [
+          "The phrase does not need to sound familiar in modern English to be useful. Its value is descriptive and cultural: it helps readers see how traditional writers organized food language. A literal translation can be a starting point, but it is rarely the end of the story.",
+          "The most professional way to present this vocabulary is to keep the boundaries visible. Explain the words clearly. Give food and preparation examples. Link to the neighboring concepts that create context. Then allow the phrase to remain part of its own historical system rather than forcing it into a different one."
+        ]
+      },
+      {
+        "title": "Common questions",
+        "paragraphs": [
+          "Why is the phrase longer than a single English word? Traditional phrases often compress several ideas into one label. Reading each word separately first makes the full phrase easier to understand without stripping away the original structure.",
+          "Should I translate every traditional word literally? A literal translation is useful as a doorway, but the surrounding text supplies the fuller meaning. Ingredient form, recipe method, and neighboring terms often explain more than one dictionary equivalent.",
+          "What is the best next step after reading this page? Choose one related page and compare the vocabulary in context. Notice which words remain the same, which words change, and how the food or preparation example changes with them."
+        ]
+      },
+      {
+        "title": "About this page",
+        "paragraphs": [
+          "HerbGuide explains food, flavor, preparation, and cultural vocabulary. This page is designed for learning and kitchen context."
+        ]
+      }
     ],
+    "references": [
+      "HerbGuide. What Is Wind-Cold?. https://herbguide.store/basics/what-is-wind-cold/",
+      "Chinese Text Project. Huangdi Neijing. https://ctext.org/huangdi-neijing",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices"
+    ]
   },
   {
     "slug": "chen-pi-vs-hawthorn-berry",
@@ -4501,70 +4575,119 @@ const rawBasicsArticles: ContentArticle[] = [
     ]
   },
   {
-    slug: "what-is-spleen-qi-deficiency",
-    title: "What Is Spleen Qi Deficiency?",
-    description:
-      "A comprehensive guide to the traditional concept of Spleen Qi Deficiency — what the Spleen represents, how deficiency manifests as digestive sluggishness, fatigue, and fluid retention, signs, causes, traditional approaches to tonifying Spleen Qi, and lifestyle and kitchen notes.",
-    eyebrow: "Basics & Concepts",
-    intro:
-      "In traditional Chinese wellness practices, the 'Spleen' (脾, Pí) is not merely the organ that filters blood (as in modern anatomy). Instead, it represents the entire digestive and metabolic engine of the body. The Spleen is responsible for 'Transformation and Transportation.' It takes the food and drink we consume, transforms them into usable energy (Qi) and Blood, and transports these vital substances throughout the body. It is often called the 'Root of Post-Natal Life.'",
-    sections: [
+    "slug": "what-is-spleen-qi-deficiency",
+    "title": "What Is “Spleen Qi Deficiency”? A kitchen-language guide to a traditional phrase",
+    "description": "A kitchen-language guide to Spleen Qi Deficiency: when the body's cooking fire for transforming food runs low, steered toward warm, simple dishes.",
+    "eyebrow": "Basics & Concepts",
+    "intro": "In traditional Chinese food writing, “Spleen Qi Deficiency” is a culinary way to say the body’s “cooking fire” for transforming food into usable vitality is running low. Think of a pot that only barely simmers: grains stay hard, flavors don’t develop, and moisture puddles instead of steaming off. Writers use this phrase to steer cooks toward warm, simply prepared dishes—congee, stews, gentle spices—and ingredients described as mildly sweet and easy to handle, all within that traditional kitchen vocabulary.",
+    "sections": [
       {
-        title: "Understanding Spleen Qi Deficiency",
-        paragraphs: [
-          "'Spleen Qi Deficiency' (脾气虚, Pí Qì Xū) occurs when this digestive engine becomes weak or sluggish. When the Spleen lacks the energy to process food efficiently, the body fails to produce enough Qi and Blood, and unprocessed fluids begin to accumulate (leading to Dampness).",
-          "You can think of Spleen Qi Deficiency like a slow, weak fire under a cooking pot. The food doesn't cook properly, leaving you without nourishment and creating a soggy, unappetizing mess inside the pot.",
-        ],
+        "title": "Short answer: the term in plain English",
+        "paragraphs": [
+          "“Spleen Qi Deficiency” is not modern anatomy. In traditional texts and recipe notes, “Spleen” stands for the center of digestion—the transforming-and-transporting “kitchen” that turns food and drink into everyday vitality. “Qi” is that everyday vitality you can picture as steam rising from a well-tended pot. “Deficiency” means the flame is low. With a weak flame, food doesn’t transform cleanly and extra moisture lingers. Classical lines summarize this as the Spleen’s role in “transformation and transportation”.",
+          "If you hold onto that stove image—underpowered flame, slow cook, damp pot—you’ve got the gist of the phrase in one scene."
+        ]
       },
       {
-        title: "Signs of Spleen Qi Deficiency",
-        paragraphs: [
-          "Because the Spleen governs digestion, energy production, and the muscles, signs of its deficiency are widespread:",
+        "title": "Where you’ll see this phrase in recipes and herb notes",
+        "paragraphs": [
+          "You’re most likely to meet “Spleen Qi Deficiency” in places where cooks talk about comfort-forward technique and pantry choices:",
+          "In all of these, the phrase acts like a headline for how heat, texture, and flavor should feel in the bowl."
         ],
-        bullets: [
-          "Digestive Sluggishness: Poor appetite, a feeling of bloating or fullness immediately after eating (even small amounts), and a tendency toward loose, unformed stools.",
-          "Fatigue: A profound, heavy tiredness, especially in the morning or after meals (when the weak Spleen is struggling to digest).",
-          "Muscle Weakness: Because the Spleen traditionally 'governs the muscles,' weakness in the limbs or a feeling of physical heaviness is common.",
-          "Fluid Retention: Unprocessed fluids can lead to mild swelling, a feeling of heaviness in the head, and a pale, swollen tongue with teeth marks on the edges.",
-          "Mental Fog: Often described as a 'heavy head,' caused by Dampness rising and obstructing clear thought.",
-        ],
+        "bullets": [
+          "Congee and porridge recipes that praise slow simmering, gentle grains, and easy additions like ginger or red dates.",
+          "Soup packs and stew mixes in Chinese groceries, where ingredient cards often say a blend is “suitable for the Spleen” or “strengthens Qi,” pointing to grounding broths and long simmers.",
+          "Herb monographs and kitchen write-ups for codonopsis, astragalus, Chinese yam, and similar pantry roots, framing them as “supportive of the center.”",
+          "Menu language in Cantonese soup shops and Taiwanese home-style eateries, especially on days featuring milky rice soups and gentle double-boiled broths.",
+          "Seasonal home-cooking guides that pair late-summer produce and grains with steady, warming technique, such as light braises and steamed dishes."
+        ]
       },
       {
-        title: "Causes of Spleen Qi Deficiency",
-        paragraphs: [
-          "The Spleen is most commonly damaged by dietary habits and mental overwork:",
+        "title": "A plain-English map: Spleen, Qi, and “deficiency”",
+        "paragraphs": [
+          "Here’s a quick vocabulary map so the wording lands without the jargon.",
+          "When you read “tonify the Spleen” or “enrich Qi,” it’s shorthand for dishes and ingredients that, in this vocabulary, coax the flame back to a steady, centered burn."
         ],
-        bullets: [
-          "Cold and Raw Foods: Ice water, raw salads, and cold smoothies force the Spleen to expend extra energy to 'warm up' the food before it can be digested, eventually exhausting its fire.",
-          "Over-thinking and Worry: In traditional theory, the emotion associated with the Spleen is 'pensiveness.' Chronic worrying or studying for long hours without rest directly depletes Spleen Qi.",
-          "Irregular Eating: Skipping meals, eating too quickly, or eating while stressed.",
-        ],
+        "bullets": [
+          "Spleen (脾, pí): In this framework, “Spleen” is the working kitchen of the body—the hearth where food is cooked down and distributed. It’s often linked with the earth phase: solid, centering, grain-forward. You’ll see it paired with words like “center,” “grounding,” “nourishing,” and “transporting.”",
+          "Qi (气/氣): Everyday usable vitality. If you visualize it as steam that lifts the lid and perfumes the room, you’re close. In kitchen talk, a dish that “boosts Qi” is imagined to build steady, practical energy from food.",
+          "Deficiency (虚/虛, xū): Not enough fuel or fire. The simmer slips to a tremble; starches stay chalky; moisture doesn’t clear. Writers often add another classical word, “Dampness,” as the puddled, heavy residue you get when cooking can’t keep up.",
+          "Dampness (湿/濕, shī): Excess moisture, soggy texture, sticky heaviness. Kitchen equivalents include under-rinsed rice that cooks gummy, stews that never reduce, and batters that won’t set. In traditional phrasing, Dampness can “accumulate” when the Spleen’s cooking job falls behind."
+        ]
       },
       {
-        title: "Traditional Approaches to Tonifying Spleen Qi",
-        paragraphs: [
-          "The traditional strategy is to 'warm the center' and 'tonify the Spleen' using ingredients that are 'Sweet,' 'Warm,' and easy to digest.",
+        "title": "Kitchen pictures: how cooks talk about it",
+        "paragraphs": [
+          "Traditional writers rarely stop at definitions—they paint scenes. Here are the ones that recur:",
+          "Read this way, the phrase isn’t a label for a person; it’s direction for fire management, texture, and taste."
         ],
-        bullets: [
-          "Chinese Yam (Shan Yao): A gentle, neutral food that builds Spleen Qi without being heavy.",
-          "Job's Tears (Yi Yi Ren): Helps drain the Dampness that often accompanies a weak Spleen.",
-          "Ginseng or Codonopsis (Dang Shen): Powerful tonics for boosting core energy.",
-          "Jujube (Red Date): A sweet, nourishing fruit that supports Spleen function and builds Blood.",
-        ],
+        "bullets": [
+          "“Warm the center.” The image is literal: heat that penetrates. Techniques include simmering, steaming, double boiling, and quick stir-fries that finish with covered resting time, letting heat reach the core.",
+          "“Cooked before it reaches you.” Congee, long-simmered soups, and soft stews are praised because the pot has already done the breaking-down. In English kitchen language: pre-digested by the flame.",
+          "“Mildly sweet, not cloying.” “Sweet” on the classical taste wheel points to grains, legumes, and some roots—rice, millet, Chinese yam, jujube—rather than dessert-level sugar. It reads as comforting and centering.",
+          "“A touch of warmth.” Ginger, scallion, and a little aged tangerine peel are the typical trio. They’re used like starter kindling: not fiery, just enough to start the pot breathing.",
+          "“Avoid chilling the pot.” You’ll see side notes about skipping large amounts of icy drinks with meals or softening raw salads with a hot dressing. The point is culinary: sudden cold lowers the flame in the traditional image.",
+          "“Lift the lid; reduce the puddles.” To address Dampness in kitchen terms, writers suggest lighter broths that still end glossy, barley-like grains that cook fluffy, and skimming techniques that keep textures clear."
+        ]
       },
       {
-        title: "Lifestyle and Kitchen Notes",
-        paragraphs: [
-          "For those experiencing Spleen Qi Deficiency, the most important change is dietary. Traditional frameworks insist that all food should be cooked and served warm. Soups, stews, and porridges (congee) are ideal because the 'cooking' has already been done outside the body, giving the Spleen a rest. It is also crucial to chew food thoroughly and avoid drinking large amounts of cold water during meals, which dilutes digestive fire.",
+        "title": "Flavor, nature, and texture: pantry items often linked to this phrase",
+        "paragraphs": [
+          "Traditional kitchen notes often pair “Spleen Qi Deficiency” with ingredients considered mildly sweet, warm-to-neutral, and easy to work with. Here’s a compact map you can picture on a cutting board.",
+          "This table reflects how traditional food writing groups pantry items by taste, “nature” (warm/cool/neutral), and texture, then chooses simple techniques that keep the pot steady."
         ],
+        "bullets": [
+          "Rice congee (mǐzhōu) — Sweet, neutral; soft, centering — Slow-cooked porridge — Breakfast congee with scallion and a few red dates for gentle sweetness",
+          "Fresh ginger (shēng jiāng) — Acrid, warm; sparks the pot — Smashed slices, quick saute, tea — Ginger-scallion oil spooned over steamed fish or tofu",
+          "Chinese yam (shān yào) — Sweet, neutral; silky, steady — Fresh batons or dried slices — Pork-rib and Chinese-yam soup with goji berries for body",
+          "Red dates/jujube (dà zǎo) — Sweet, warm; round, mellow — Whole dried fruit — Congee add-in or double-boiled chicken-and-date soup",
+          "Job’s tears/coix (yì yǐ rén) — Bland, slightly cool; dries Dampness — Soaked grain or simmered pearl — Light coix-and-rice porridge to keep textures clear"
+        ]
       },
       {
-        title: "Read This Page in Context",
-        paragraphs: [
-          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        "title": "Close-by terms and how they differ",
+        "paragraphs": [
+          "Because this vocabulary comes as a set, here are near neighbors you’ll often see—and how to keep them straight in kitchen language.",
+          "Knowing these neighbors makes it easier to parse a recipe headnote or herb card and see what the writer wants you to do with the flame, the knife, and the pot."
         ],
+        "bullets": [
+          "Spleen Qi Deficiency vs. Spleen Yang Deficiency: Both use the weak-flame image. “Qi” talks about fuel in general; “Yang” highlights warmth and outward movement. In the kitchen, the first points to gentle support and well-cooked grains; the second points to deeper warming—more ginger, long simmers, and stews that arrive to the table piping hot.",
+          "Dampness vs. Phlegm: Both relate to residual heaviness. “Dampness” is watery and diffuse—like a stew that refuses to reduce. “Phlegm” is thicker and congealed—like a glaze that’s turned sticky. Handling Dampness often calls for lighter broths and grains that cook dry and fluffy; handling Phlegm leans on aromatic warmers and skimming to keep textures clean.",
+          "Stomach vs. Spleen in traditional phrasing: The Stomach is the receiving pot; the Spleen is the cook who refines and delivers. Menu notes that “harmonize Stomach” tend to mind comfort at the first bite (acidity, gentleness), while “support Spleen” looks at the whole arc—from simmer to transport—often emphasizing grain-centered dishes and even heat.",
+          "“Food stagnation”: Another stock phrase, used when the pot feels overloaded—too much, too fast, not enough transforming time. Cookbooks answer with spacing meals, bitter-leafy moments, and light, aromatic teas—again, as imagery and technique, not as pronouncements about people."
+        ]
       },
+      {
+        "title": "What English readers often miss",
+        "paragraphs": [],
+        "bullets": [
+          "Spleen ≠ the single organ. In this vocabulary, “Spleen” names a system of cooking and conveying, not the anatomical part. It’s a teaching word that organizes flavor and heat.",
+          "“Sweet” rarely means dessert. It’s grain-sweet, root-sweet, broth-sweet—a calm baseline that carries other tastes.",
+          "“Warm” and “cool” are not just serving temperatures. They’re qualities assigned to ingredients and techniques. A cucumber salad tossed with hot oil, for instance, reads warmer than a fridge-cold smoothie.",
+          "Dampness is texture. Think gummy rice, clogged broths, and heavy batters. The “fixes” are kitchen choices: reduce, skim, choose fluffier grains, switch to aromatic heat.",
+          "The phrases are situational. Traditional writers mix and match—season, time of day, and the rest of the menu all matter. That’s why congee, broths, and light aromatics show up so often: they’re controllable, scalable, and friendly to the cook’s schedule.",
+          "It’s a reading lens, not a verdict. These terms help you picture process. Use them to understand why a dish is built a certain way and what the cook is asking from heat, time, and texture."
+        ]
+      },
+      {
+        "title": "Common questions",
+        "paragraphs": [
+          "Is this the same “spleen” as in modern anatomy? No. In this context, “Spleen” is a traditional kitchen-system word. It points to the cook-and-carry role that transforms food into everyday vitality. It’s a teaching image—like calling the wok the “heart of the kitchen”—used to organize heat, texture, and taste.",
+          "Does “Spleen Qi Deficiency” tell me what to eat? It doesn’t hand out one-size-fits-all menus. It signals a style: warm, steady cooking; mild sweetness from grains and roots; gentle aromatics; textures that are soft but not soggy. Think congee, light broths, and braises that finish glossy rather than heavy. Use the phrase to understand why a recipe chooses those moves.",
+          "Why do congee and soups show up so often with this phrase? Because they externalize “transformation.” The pot does the breaking down; the cook controls moisture and heat; the bowl arrives as something the traditional vocabulary calls centered and easy. Congee, steamed dishes, and long-simmered broths are classic examples of that approach."
+        ]
+      },
+      {
+        "title": "About this page",
+        "paragraphs": [
+          "This Basics page explains a traditional Chinese culinary phrase in plain English for readers exploring flavor, texture, cooking methods, and pantry language. It focuses on how the term appears in recipes and herb notes, how cooks picture heat and moisture, and how taste categories guide preparation."
+        ]
+      }
     ],
+    "references": [
+      "HerbGuide. “What Is Spleen Qi Deficiency?” https://herbguide.store/basics/what-is-spleen-qi-deficiency/",
+      "Chinese Text Project. Huangdi Neijing. https://ctext.org/huangdi-neijing (classical descriptions of the Spleen’s role in “transformation and transportation”)"
+    ]
   },
   {
     "slug": "what-is-blood-deficiency",
@@ -5019,70 +5142,131 @@ const rawBasicsArticles: ContentArticle[] = [
     ]
   },
   {
-    slug: "what-is-yang-deficiency",
-    title: "What Is Yang Deficiency?",
-    description:
-      "A comprehensive guide to the traditional concept of Yang Deficiency — what Yang represents, how deficiency manifests as internal coldness and sluggishness, signs, causes, traditional approaches to warming Yang, and lifestyle and kitchen notes.",
-    eyebrow: "Basics & Concepts",
-    intro:
-      "In the traditional philosophy of Yin and Yang, 'Yang' represents the warming, active, moving, and transformative aspects of the body. It is the metabolic fire that drives digestion, the energy that keeps the body warm, and the force that circulates fluids and blood. In the body, Yang is the functional energy—the 'pilot light' that keeps the physical structure (Yin) active and alive.",
-    sections: [
+    "slug": "what-is-yang-deficiency",
+    "title": "What Is Yang Deficiency? A traditional kitchen‑language explainer",
+    "description": "A traditional kitchen-language guide to yang deficiency (yang xu): not enough inner warmth and drive, matched with warming dishes and slow simmers.",
+    "eyebrow": "Basics & Concepts",
+    "intro": "In traditional Chinese food writing, “yang deficiency” (阳虚, yáng xū) is shorthand for a pattern described as not enough inner warmth and drive. Writers use it to explain why a person might be matched with “warming” dishes, slow simmers, and spice-forward broths rather than chilled salads or iced drinks. Think of it as cookbook language: a way to file ingredients and techniques by warmth, movement, and transformation, not a label for anyone in particular.",
+    "sections": [
       {
-        title: "Understanding Yang Deficiency",
-        paragraphs: [
-          "'Yang Deficiency' (阳虚, Yáng Xū) occurs when the body's warming and active energy is depleted. When there is not enough Yang (fire/warmth) to balance the Yin (water/coolness), the body experiences a state of internal coldness and sluggishness.",
-          "If Yin Deficiency is like an engine running hot because it lacks oil, Yang Deficiency is like an engine that cannot start because the battery is weak and the environment is freezing.",
-        ],
+        "title": "Short answer in plain English",
+        "paragraphs": [
+          "“Yang deficiency” is a traditional phrase that says, in kitchen terms, “the fire is low.” It belongs to the Yin–Yang toolbox that sorts ingredients and methods by qualities like warm vs. cool, drying vs. moistening, and moving vs. settling. When texts mention “yang deficiency,” they typically reach for foods and preparations that build heat, circulate aroma, and keep steam rising—ginger-forward soups, roasted roots, long-braised meats, toasted grains, and teas served hot rather than iced.",
+          "The phrase appears across classical commentaries and modern cookbooks influenced by those traditions. It’s culinary grammar: a way to talk about matching the feel of a dish—warm, active, transformative—with the situation described on the page."
+        ]
       },
       {
-        title: "Signs of Yang Deficiency",
-        paragraphs: [
-          "Because Yang Deficiency involves a lack of metabolic fire, traditional practitioners look for signs of chronic coldness, fluid retention, and sluggish function:",
+        "title": "Where this phrase appears in traditional food writing",
+        "paragraphs": [
+          "You’ll see “yang deficiency” in:",
+          "In short, the phrase shows up wherever a writer wants to cue warmth, activity, and circulation in the kitchen rather than coolness and stillness. References to Yin–Yang in this sense are part of a long textual tradition that links daily fare with cosmological metaphors from early Chinese sources."
         ],
-        bullets: [
-          "Coldness: A profound aversion to cold, feeling cold to the bone, and constantly having cold hands and feet.",
-          "Sluggish Digestion: Poor appetite, a feeling of heaviness after eating, and a tendency toward loose, watery stools (especially early in the morning).",
-          "Fluid Retention: Because there is not enough 'heat' to evaporate and circulate fluids, individuals may experience edema (swelling), particularly in the lower legs and ankles.",
-          "Lethargy: A deep, physical exhaustion, a desire to sleep excessively, and a lack of motivation or drive.",
-          "Physical Signs: A pale, swollen tongue (often with teeth marks on the edges) and a pale complexion.",
-        ],
+        "bullets": [
+          "Ingredient monographs and pantry lists that classify foods by “nature” (hot, warm, neutral, cool, cold) and “flavor” (pungent, sweet, bitter, sour, salty).",
+          "Seasonal menu notes, where cold months call for stews, congee, and roasted aromatics, and where iced or raw items are dialed back.",
+          "Recipe headnotes that explain pairing choices—why lamb with cumin in winter, or why fresh ginger is stirred into morning congee.",
+          "Tea and beverage sections that steer drinkers to warming infusions and away from heavy ice, especially in damp or chilly weather.",
+          "Commentary on cooking methods: steaming and quick poaching are described as gentle; roasting, baking, braising, and toasting are framed as adding “warmth” and movement."
+        ]
       },
       {
-        title: "Causes of Yang Deficiency",
-        paragraphs: [
-          "Yang naturally declines with age, which is why older adults often feel the cold more acutely. However, it can be accelerated by:",
+        "title": "A practical vocabulary map: Yang, Yin, Warm–Cool, and Qi",
+        "paragraphs": [
+          "Here’s a simple map that helps decode the language you’ll meet:",
+          "Within this map, “yang deficiency” simply says “the warm, moving side is low.” Cookbook logic follows: choose foods and methods that add warmth and movement, and avoid overemphasizing ice‑cold or heavy, dampening items. The language is metaphorical but consistent, helping cooks and readers picture balance in a meal."
         ],
-        bullets: [
-          "A diet excessively high in cold, raw foods (like iced drinks, raw salads, and ice cream), which forces the digestive 'fire' to work overtime.",
-          "Prolonged exposure to cold environments without adequate protection.",
-          "Chronic illness or severe physical exhaustion that drains the body's deep reserves.",
-        ],
+        "bullets": [
+          "Yang: In cooking imagery, yang is the flame, the sizzle, the rolling boil. It’s heat, movement, transformation—the moment when raw aromatics hit hot oil and bloom.",
+          "Yin: The vessel, the stock, the moisture—the part that holds, cools, and nourishes. Think broth, tofu, ripe fruit, and shade.",
+          "Warm–Cool scale: Ingredients and techniques are sorted along a spectrum. Ginger and cinnamon are “warm”; mint and cucumber are “cool.” Stir-frying, roasting, and baking add warmth; chilling, raw salads, or iced drinks add cool.",
+          "Qi: Often translated as “vital movement” in this context, qi is the idea of flow—steam rising from rice, aroma lifting from a cup of tea, circulation through a stew pot. Writers use the term to describe vigor in a dish, not just temperature."
+        ]
       },
       {
-        title: "Traditional Approaches to Warming Yang",
-        paragraphs: [
-          "The traditional strategy is to gently rebuild the body's internal fire using ingredients that are 'Warm' or 'Hot,' 'Sweet,' and often slightly pungent.",
+        "title": "Kitchen examples you can picture",
+        "paragraphs": [
+          "These examples aren’t prescriptions. They’re illustrations of how food writers connect the idea of warmth, motion, and transformation with ingredients and technique."
         ],
-        bullets: [
-          "Walnuts (He Tao Ren): Warms the Kidneys and the lower back.",
-          "Fresh Ginger (Sheng Jiang): Warms the Spleen and Stomach, driving out digestive cold.",
-          "Cinnamon and Clove: Highly warming spices used to stimulate circulation and metabolic fire.",
-          "Chestnuts (Li Zi): Gently warms and nourishes the Spleen and Kidneys.",
-        ],
+        "bullets": [
+          "Breakfast congee with fresh ginger and scallion: A softly simmered rice porridge carries steam and a gentle pungency. The dish is light but warm, often finished with toasted sesame oil for a fragrant lift.",
+          "Lamb stew with cinnamon and star anise: Long braising creates deep warmth. Cinnamon and anise sit on the “warm” side of the spice rack; root vegetables keep the texture grounding but not heavy.",
+          "Wok‑tossed cabbage with dried chili and black vinegar: Quick heat in oil brings movement; the dried chili contributes warmth, while a splash of vinegar wakes up the dish without cooling it down.",
+          "Roasted squash with clove and orange zest: The oven’s dry heat concentrates sweetness (“sweet” in traditional flavor language is considered building), while clove adds warming fragrance.",
+          "Hot tea vs. iced tea: The same leaves can be framed differently. Serving hot emphasizes warmth; adding slices of fresh ginger shifts the cup further toward the warm side. Choice of pot or cup can also change aroma and mouthfeel, nudging perception of “warmth” in the cup."
+        ]
       },
       {
-        title: "Lifestyle and Kitchen Notes",
-        paragraphs: [
-          "For those experiencing Yang Deficiency, traditional frameworks emphasize warmth in all aspects of life. In the kitchen, this means avoiding raw, cold foods entirely. Meals should consist of warm, cooked, easily digestible foods like soups, stews, and roasted root vegetables. Lifestyle adjustments include keeping the lower back, abdomen, and feet warmly dressed, and engaging in gentle, warming exercise (like walking or Tai Chi) to promote circulation without causing excessive sweating (which would further deplete energy).",
+        "title": "Nearby terms and how they differ",
+        "paragraphs": [
+          "Traditional vocabulary is a web. Here are terms you’ll often see beside “yang deficiency,” with plain-English distinctions:",
+          "Where “yang deficiency” appears, you’ll often see “cold” and “dampness” nearby, because the logic ties low warmth with sluggish moisture. Reading these as culinary metaphors keeps the map clear and useful."
         ],
+        "bullets": [
+          "Yin deficiency: Describes dryness and a lack of cool, moist, or substantial qualities. In food writing, you’ll see juicy fruits, tender stews, silken tofu, and seed or nut milks suggested to “enrich” rather than to “warm.”",
+          "Qi deficiency: Points to a low‑ebb feeling of movement or vigor. Writers may call for gently building meals—steamed grains, light broths, and mild aromatics—without a heavy push toward heat.",
+          "Cold (as a property): Not just temperature. “Cold” cucumbers or melon are considered cooling even at room temp. “Cold in the middle burner” in old phrasing just means a cooling tendency in the stomach area, so the text leans on warm spices or cooking methods.",
+          "Dampness: Language for heaviness, sogginess, or boggy texture. Foods like oily deep‑fries or very sweet, sticky desserts can be called “dampening,” especially in humid weather. Toasting barley or adding aged tangerine peel is a classic counter in recipe notes."
+        ]
       },
       {
-        title: "Read This Page in Context",
-        paragraphs: [
-          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        "title": "Reading menus and recipes: common pairings and methods",
+        "paragraphs": [
+          "When a recipe or menu note gestures at “yang deficiency,” here’s the kind of kitchen thinking it tends to showcase:",
+          "This doesn’t mean “no raw” or “no cold” across the board. It’s a lens for assembling a plate with a warm center of gravity."
         ],
+        "bullets": [
+          "Temperature and vessel: Hot soups over iced drinks; clay pot over chilled glass. Clay and cast iron hold heat and spread it slowly, echoing the idea of building warmth from the inside out.",
+          "Aromatic base: Ginger, scallion, garlic, and sometimes dried tangerine peel to “move” aroma. Cinnamon, clove, and fennel when deeper warmth is wanted; white pepper for a lighter touch.",
+          "Technique: Toasting, pan‑frying in modest oil, roasting, and braising are favored; long simmers over strong boils, so warmth accumulates without harshness.",
+          "Texture: Cooked grains (congee, millet porridge, steamed rice), roasted roots, and lightly wilted greens; crisp raw salads or iced desserts are used sparingly in this frame.",
+          "Timing: Mornings and colder seasons invite the warmest dishes; late summer humidity may add “dampness” concerns, so toasting and aromatic teas show up more often in the notes."
+        ]
       },
+      {
+        "title": "What people often miss about “warming” vs. “spicy”",
+        "paragraphs": [],
+        "bullets": [
+          "Spicy heat isn’t the whole story. Fresh chilies bring surface fire yet can be considered dispersing and, in some texts, slightly cooling because they promote sweat. Cinnamon, dried ginger, and clove are archetypal “warming” even without fiery sting.",
+          "Cooking changes nature. Fresh ginger is warm and lively; dried or roasted ginger is described as hotter and deeper. The wok, oven, and roaster shift ingredients along the warm–cool spectrum.",
+          "Sweet can be building. “Sweet” in traditional flavor language isn’t about dessert; it’s the mellow, grain‑sweetness of rice, squash, or barley that supports and anchors other elements.",
+          "Vessel and utensil matter. Porous clay vs. metal implements can alter how heat and aroma move, changing how “warm” a dish feels on the tongue and in the nose. Tea research shows the choice of pot and cup can shift perceived aroma and mouthfeel, which dovetails with this culinary logic.",
+          "It’s a reading tool, not a personal label. The vocabulary helps you see why a dish is built a certain way, or why a winter menu reads differently from a summer one."
+        ]
+      },
+      {
+        "title": "A warming pantry at a glance (traditional classifications)",
+        "paragraphs": [
+          "The entries below are common in warming recipes. Classifications reflect traditional food writing, not temperature on a thermometer.",
+          "Use this table as a reading key when you meet pantry lists that sort by “nature” and “flavor.”"
+        ],
+        "bullets": [
+          "Fresh ginger (Shēng Jiāng) — Warm, pungent — Sparks aroma; wakes soups and congee — Scallion, white pepper — Slice or julienne; add early to bloom fragrance",
+          "Cinnamon bark (Ròu Guì/Guì Pí) — Warm to hot, sweet-pungent — Deep winter warmth; braises and teas — Star anise, orange peel — Use in sticks; long simmer or steep",
+          "Clove (Dīng Xiāng) — Warm, aromatic — Perfumes stews; small quantity, big effect — Cinnamon, fennel seed — Toast lightly to reduce harshness",
+          "Lamb or mutton — Warm, rich — Hearty centerpiece for cold days — Cumin, ginger, daikon — Slow braise to concentrate juices",
+          "Toasted millet or oats — Neutral‑to‑warm, sweet — Comforting base; steady warmth — Red dates, goji, sesame — Dry‑toast grains before simmering"
+        ]
+      },
+      {
+        "title": "Common questions",
+        "paragraphs": [
+          "Does “yang deficiency” mean spicy food is always recommended? No. “Warming” and “spicy” overlap but aren’t identical. Cinnamon, clove, and dried ginger are classically warming without the sharp burn of chilies. Many warming recipes focus on steady heat from the pot—braises, roasts, congee—rather than on fiery spice alone.",
+          "Why do writers connect this phrase with winter menus? It’s a seasonal logic. When the air is cold and still, kitchens in this tradition emphasize warmth and movement: simmered grains, soups, roasted roots, and hot teas. The phrase gives a reasoned storyline for those choices, tying them to a long vocabulary of warm, active cooking.",
+          "Is “yang deficiency” a label? No. On HerbGuide it’s presented as culinary and cultural vocabulary. Think of it as a way to interpret pantry lists, techniques, and menu notes—not as a personal label or self‑assessment."
+        ]
+      },
+      {
+        "title": "About this page",
+        "paragraphs": [
+          "This page explains “yang deficiency” as a piece of traditional food and flavor language. It focuses on how writers classify ingredients (warm, cool), how cooking methods shift those qualities, and how seasonal menus use that vocabulary. It’s designed to help readers navigate herb monographs, pantry tables, and recipe headnotes without taking the terms as personal instructions."
+        ]
+      }
     ],
+    "references": [
+      "What Is Yang Deficiency? https://herbguide.store/basics/what-is-yang-deficiency/",
+      "Huangdi Neijing (Yellow Emperor’s Inner Classic), Chinese Text Project. Concepts of Yin–Yang as applied to daily life and diet appear throughout early chapters. https://ctext.org/huangdi-neijing",
+      "Guo, F., et al. “Influence of Various Tea Utensils on Sensory and Chemical Quality of Different Teas,” Plants (2024). On how vessel choice shapes sensory qualities, relevant to perceived “warmth” in tea service. https://doi.org/10.3390/plants13050669"
+    ]
   },
   {
     "slug": "what-is-kidney-essence",
@@ -5220,331 +5404,558 @@ const rawBasicsArticles: ContentArticle[] = [
     ]
   },
   {
-    slug: "what-is-lung-qi",
-    title: "What Is Lung Qi?",
-    description:
-      "A comprehensive guide to the traditional concept of Lung Qi — the functional energy of the respiratory system, how the Lungs govern the body's defensive barrier, signs of weakness, and traditional approaches to supporting Lung Qi through diet and lifestyle.",
-    eyebrow: "Basics & Concepts",
-    intro:
-      "In traditional Chinese wellness practices, the 'Lungs' (肺, Fèi) are often referred to as the 'Canopy' of the internal organs because of their high physical position in the chest. However, their traditional function extends far beyond respiration. The Lungs are considered the delicate intermediary between the body and the outside world. They are responsible for taking in fresh Qi from the air, mixing it with the Qi extracted from food by the Spleen, and distributing this energy throughout the body.",
-    sections: [
+    "slug": "what-is-lung-qi",
+    "title": "What Is Lung Qi? A kitchen-reader’s guide to the Lungs (Fèi) in traditional food writing",
+    "description": "A kitchen-reader's guide to Lung Qi (Fei Qi) in traditional food writing: the Lungs as a high canopy that draws in freshness and sends a fine mist outward.",
+    "eyebrow": "Basics & Concepts",
+    "intro": "In traditional Chinese culinary and herb writing, “Lung Qi” (肺气, Fèi Qì) is a functional idea, not anatomy. It describes how the “Lungs” are pictured as a high canopy that draws in freshness, sends a fine “mist” outward, and guides things gently downward. Writers use this term to explain flavor choices, cooking methods, and seasonal dishes—especially light aromatics, moistening foods, and techniques like steaming or slow simmering that keep fragrance and moisture in balance.",
+    "sections": [
       {
-        title: "Understanding Lung Qi",
-        paragraphs: [
-          "'Lung Qi' (肺气, Fèi Qì) specifically refers to the functional energy of the respiratory system and its associated pathways. Its primary traditional functions include:",
-        ],
-        bullets: [
-          "Governing Respiration: Taking in the 'clear' Qi of the air and expelling the 'turbid' Qi.",
-          "Diffusing and Descending: Sending energy and fluids outward to the skin (diffusing) and downward to the Kidneys and Bladder (descending).",
-          "Controlling the Exterior (Wei Qi): The Lungs manage the opening and closing of the pores and govern the Defensive Qi (Wei Qi), which acts as the body's protective shield against external stressors like wind and cold.",
-        ],
+        "title": "The short answer",
+        "paragraphs": [
+          "Lung Qi is a traditional phrase for the Lungs’ functional momentum—how breath-like movement directs aroma, moisture, and subtle circulation through the body’s “outer layer,” then descends to settle things down. In kitchen language, it’s the difference between a pot that steams and perfumes the room and a pot that gently condenses that fragrance back into the broth. You’ll see Lung Qi invoked to explain why a cook chooses pears over chilies, steaming over stir-frying, or a light tea over a heavy stew—especially in cool, dry weather."
+        ]
       },
       {
-        title: "Signs of Weak Lung Qi",
-        paragraphs: [
-          "Because the Lungs are in constant contact with the external environment, they are considered the most vulnerable organ system. When Lung Qi is weak, the body's protective barrier and respiratory functions are compromised. Traditional practitioners often look for:",
+        "title": "Where you’ll see this word",
+        "paragraphs": [
+          "You’ll most often meet Lung Qi in:",
+          "When you see Lung Qi on the page, read it as a culinary compass: it points you toward freshness, fragrance, moisture balance, and gentle downward settling."
         ],
-        bullets: [
-          "A weak, quiet voice or a reluctance to speak",
-          "Shortness of breath, especially after mild physical exertion",
-          "A chronic, weak cough",
-          "Frequent susceptibility to seasonal stressors (catching colds easily)",
-          "Spontaneous sweating during the day without exertion (because the Lungs are failing to regulate the pores)",
-          "A pale complexion and a general feeling of low energy",
-        ],
+        "bullets": [
+          "Classical cookbook notes and prefaces that discuss seasonal cooking in autumn, when writers favor moistening dishes and restrained heat.",
+          "Herb-shop labels or materia medica summaries that sort ingredients by flavor, temperature, and the “channels” they influence, with many light aromatics listed under the Lungs.",
+          "Tea descriptions that praise a tea’s “lifting fragrance” or “clear, pure steam,” imagery commonly tied to the Lung sphere.",
+          "Menu translations or home-kitchen blogs discussing “diffusing” or “opening the exterior,” a shorthand for letting light spice and steam circulate through the surface."
+        ]
       },
       {
-        title: "Traditional Approaches to Supporting Lung Qi",
-        paragraphs: [
-          "The traditional approach to supporting Lung Qi involves herbs and foods that are slightly warm, sweet, and nourishing, as well as practices that strengthen the Spleen (since the Spleen is traditionally viewed as the 'mother' of the Lungs, providing the raw material for Lung Qi).",
+        "title": "A plain-English vocabulary map",
+        "paragraphs": [
+          "Writers lean on four core verbs to sketch the Lungs’ role. Think of them as kitchen moves rather than lab terms:",
+          "These verbs shape pantry choices and technique: light aromatics for diffusing; moistening fruits, roots, and white mushrooms for descending and settling; careful heat so fragrance doesn’t scorch."
         ],
-        bullets: [
-          "Astragalus Root (Huang Qi): The premier herb for boosting Lung Qi and strengthening the defensive Wei Qi.",
-          "Codonopsis (Dang Shen) or Ginseng: Used to support both Spleen and Lung energy.",
-          "Chinese Yam (Shan Yao): A gentle, neutral food that supports the Spleen-Lung connection.",
-          "Walnuts: Used to help the Kidneys 'grasp' the Lung Qi, supporting deep, steady breathing.",
-        ],
+        "bullets": [
+          "Govern the breath-like exchange. The Lungs “take in the clear” and “send out the turbid,” a poetic way to say: take in what’s fresh, let go of what’s spent. In cooking, that feels like drawing in aroma and letting the steam carry off heaviness.",
+          "Diffuse. Send a fine, fragrant “mist” outward to the surface—like lifting the lid so steam kisses the room without boiling away flavor.",
+          "Descend. Gently guide things downward—like turning a lively boil into a quiet simmer so flavors settle and integrate.",
+          "Manage the exterior (Wei Qi). “Exterior” here means the pores and the felt boundary between you and the weather. Texts say the Lungs “open and close” this layer, an image cooks echo when they talk about a dish that lightly opens the surface (think scallion and ginger steam) versus one that soothes and contains (think pear-and-lily bulb syrup)."
+        ]
       },
       {
-        title: "Lifestyle and Kitchen Notes",
-        paragraphs: [
-          "From a lifestyle perspective, protecting the Lungs involves avoiding extreme exposure to cold, wind, and dry environments. Deep breathing exercises (like Qi Gong or simply mindful diaphragmatic breathing) are considered essential for maintaining strong Lung Qi. In the kitchen, avoiding overly cold or raw foods helps protect the Spleen, which in turn ensures the Lungs receive adequate nourishment.",
+        "title": "Kitchen-reading examples",
+        "paragraphs": [
+          "Cooks use ingredient families and methods that align with these images:",
+          "None of these are rules. They are patterns of taste and technique: light lift, fine moisture, and a gentle finish."
         ],
+        "bullets": [
+          "Diffusing with light aromatics. Scallion whites, perilla leaf, ginger, and mint are classic “open the exterior” flavors—notice their lift in the nose and quick movement across the tongue. In practice: a simple broth finished with slivered scallion and a thumb of ginger; a pot of mint tea served hot, lid briefly removed so the first vapor spreads.",
+          "Moistening and settling. Asian pear, soaked lily bulb (bai he), white wood ear mushroom, honey, and snow fungus appear in autumn kitchen notes. In practice: steamed pear halves with a spoon of rock sugar; lily bulb–pear congee, barely sweet, served warm.",
+          "Clear, gentle cooking. Steaming, double-boiling, and low simmering keep volatile aromatics intact and emphasize clarity. A clay pot or covered glass jar in a water bath is a favorite double-boil setup in Cantonese kitchens.",
+          "Clean, thin broths. “Clear soups” are praised for upright fragrance and easy sipping. A chicken bone broth aromatized with ginger and a few jujubes, simmered without clouding, is a common example.",
+          "Crisp-white vegetables. Daikon, napa ribs, lotus root, and tofu appear in many “Lung-leaning” recipes, both for their color symbolism (Metal phase, linked to the Lungs, is often associated with white) and for their clean texture."
+        ]
       },
       {
-        title: "Read This Page in Context",
-        paragraphs: [
-          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        "title": "Seasons and the Lungs: why autumn matters in food writing",
+        "paragraphs": [
+          "Classical almanac reading pairs the Lungs with the Metal phase and the dry clarity of autumn. In the kitchen, that becomes:",
+          "These are culinary rhythms, not strict directives: they help a kitchen feel in step with the air outside."
         ],
+        "bullets": [
+          "More steam, less scorch. Gentle heat preserves aroma and moisture when air is crisp and dry.",
+          "Fragrance up, sweetness down. Light aromatics and mild sweetness show up together—think a not-too-sweet pear dessert, scented with osmanthus.",
+          "Textural moisture. Dishes with a slick, tender bite—snow fungus, soaked lily bulb, white wood ear—are favored for their mouthfeel.",
+          "Wind at the threshold. On breezy days, you’ll see cooks lean on scallion, ginger, and perilla to “move the surface” briefly, then follow with a settling soup."
+        ]
       },
+      {
+        "title": "Nearby terms and how they relate",
+        "paragraphs": [
+          "Learning these neighboring ideas helps you parse recipe notes that stack metaphors: “diffuse the exterior,” “support the mother,” “descend and grasp.”"
+        ],
+        "bullets": [
+          "Qi. A catchall for life-like movement and motive force. Lung Qi is the Lung-shaped slice of that idea—breath-like movement with an outward mist and a downward glide.",
+          "Wei Qi. The “exterior” circulation said to patrol pores and the surface. Writers often say the Lungs “command” it—imagery for how light aromatics and gentle heat influence the boundary between inside and outside.",
+          "Spleen Qi. The Spleen “transforms food and drink,” lifting essence upward. Many texts call the Spleen the “mother” of the Lungs, suggesting that steady digestion feeds clear fragrance above. In the kitchen, that pairing explains why easy-to-digest congees and broths sit beside Lung-oriented dishes.",
+          "Kidneys “grasping” Qi. A well-known phrase: the Lungs descend; the Kidneys anchor. Kitchen writers echo this when they follow a lifting tea with a warm, settling soup.",
+          "Metal phase. Color: white; climate image: dryness; taste associations: pungent/acrid. Recipes that “speak Metal” often look pale, smell clean, and use light spice in measured amounts."
+        ]
+      },
+      {
+        "title": "What readers often miss",
+        "paragraphs": [
+          "Keeping these in mind helps you read recipes without trying to translate them into modern lab talk. They are their own system."
+        ],
+        "bullets": [
+          "“Lungs” are functional, not anatomical. The term points to movement qualities (lift, mist, descent), not to a physical lung in a textbook.",
+          "“Warm,” “cool,” and “acrid” are sensory families. Warm doesn’t mean hot on a thermometer; it means a felt quality in the mouth and nose (think ginger’s glow), used to map kitchen effects.",
+          "“Opening the exterior” is about surface sensation. It’s the tingling, nose-lifting move of scallion or mint, paired briefly with steam, not a claim about the body’s defenses.",
+          "Gentle heat is not weak. In this tradition, restraint is a technique: a covered steam, a double-boil, a quiet simmer that keeps aromas intact.",
+          "Color and texture matter. The white, crisp-tender, translucent palette often signals a Lung-oriented dish—part taste, part symbolism."
+        ]
+      },
+      {
+        "title": "A functional map you can taste",
+        "paragraphs": [
+          "Here’s a quick kitchen map for phrases you’ll see around Lung Qi:",
+          "These lines are kitchen metaphors, not modern directions. They help cooks choose flavors and methods that match a desired feel."
+        ],
+        "bullets": [
+          "Draw in freshness; let go of heaviness — “Take in the clear, send out the turbid” — Lifting the lid so clean steam rises, not greasy vapor — Skimming and gentle simmering — Clear chicken broth with ginger and jujube",
+          "Spread fragrance to the surface — “Diffuse to the exterior” — First waft of steam perfumes the room — Briefly uncovering a hot pot; quick steep — Scallion-and-ginger steam over rice",
+          "Guide things gently downward — “Descend” — Turning a lively boil down to a quiet, settling simmer — Covered simmer; double-boiling — Asian pear with soaked lily bulb",
+          "Manage the pores/outer layer — “Open/close the exterior (Wei Qi)” — Steam opens; a moist finish settles — Start with light aromatics; finish with moistening dish — Mint tea followed by snow fungus soup",
+          "Move moisture along the pathways — “Regulate water routes” — Fine droplets condense back into the soup — Steaming; clear soups with minimal oil — Lotus root and tofu soup"
+        ]
+      },
+      {
+        "title": "Ingredient notes and gentle technique",
+        "paragraphs": [
+          "If you’re reading a traditional recipe labeled for the Lungs, expect:",
+          "Again, this is reading guidance: a way to anticipate the moves a recipe will make."
+        ],
+        "bullets": [
+          "Light aromatics used early. Thin slices of ginger or crushed scallion whites may start a dish, then cook briefly so they lift without dominating.",
+          "Moistening ingredients featured late. Snow fungus, soaked lily bulb, or pear often enter near the end to preserve a tender bite.",
+          "Controlled heat. A bamboo steamer, ceramic double-boiler, or tightly lidded saucepan keeps moisture in. Research on tea suggests brewing vessels and materials can noticeably change aroma and taste, which mirrors why cooks choose clay, ceramic, or glass for delicate fragrances.",
+          "Mild sweetness. Rock sugar, honey, or ripe fruit balances pungency without tipping into syrupy heaviness.",
+          "Clean stocks. Bones blanched and rinsed before a long simmer yield clear broths that carry light spice without muddiness."
+        ]
+      },
+      {
+        "title": "Common questions",
+        "paragraphs": [
+          "Does Lung Qi just mean “breathing”? Not exactly. Breath is the starting image, but Lung Qi in traditional writing is a bundle of actions: drawing in freshness, diffusing a fine mist to the surface, and guiding things to descend and settle. It’s a movement map that cooks lean on when they talk about fragrance, moisture, and gentle finish, not a biology lesson.",
+          "Why are pears, lily bulb, and white mushrooms linked to the Lungs? Partly symbolism (the Metal phase is linked with white), partly mouthfeel (tender, moist, almost slippery textures), and partly fragrance (clean, high aromatics). Those qualities match the Lung Qi vocabulary of diffusion and descent, so you’ll see them together in autumn recipes and dessert soups.",
+          "What does “opening and closing the exterior” mean in a kitchen? It’s a surface sensation idea. “Opening” the exterior feels like the tingling, nose-clearing lift of scallion, ginger, mint, or perilla with warm steam. “Closing” or “containing” follows with moistening dishes—pear, snow fungus, or lily bulb—that feel settling and supple. Together, they sketch a brief lift, then a gentle landing."
+        ]
+      },
+      {
+        "title": "About this page",
+        "paragraphs": [
+          "This page explains Lung Qi as a piece of traditional Chinese culinary vocabulary. It focuses on food, flavor, cooking methods, seasonal imagery, and the metaphors recipe writers use—diffusing, descending, moistening—so English-language readers can follow kitchen notes without translating them into modern lab terms."
+        ]
+      }
     ],
+    "references": [
+      "HerbGuide Basics: What Is Lung Qi? — https://herbguide.store/basics/what-is-lung-qi/",
+      "Huangdi Neijing (Yellow Emperor’s Inner Canon), classical passages on the Lungs as “canopy” and the functions of diffusion, descent, and the exterior — https://ctext.org/huangdi-neijing",
+      "Guo et al., “Influence of Various Tea Utensils on Sensory and Chemical Quality of Different Teas,” Plants (2024). Notes that teaware materials can alter perceived aroma and taste — https://doi.org/10.3390/plants13050669"
+    ]
   },
   {
-    slug: "what-is-heart-blood-deficiency",
-    title: "What Is Heart Blood Deficiency?",
-    description:
-      "A comprehensive guide to the traditional concept of Heart Blood Deficiency — what Heart Blood represents, how deficiency manifests as sleep issues, restlessness, and palpitations, causes, traditional approaches to nourishing Heart Blood, and lifestyle and kitchen notes.",
-    eyebrow: "Basics & Concepts",
-    intro:
-      "In traditional Chinese wellness practices, the 'Heart' (心, Xīn) has two primary roles: it governs the physical circulation of Blood, and it houses the 'Shen' (神)—the spirit, consciousness, and mind. 'Heart Blood' (心血, Xīn Xuě) is the dense, nourishing substance that anchors the Shen. If the Shen is a ship, Heart Blood is the anchor. When the Blood is abundant, the mind is calm, sleep is deep, and emotions are stable.",
-    sections: [
+    "slug": "what-is-heart-blood-deficiency",
+    "title": "What Does “Heart Blood Deficiency” Mean in Traditional Food Writing?",
+    "description": "A plain-English guide to Heart Blood Deficiency in traditional food writing: a multi-part label combining Heart, Blood, and Deficiency as linked images.",
+    "eyebrow": "Basics & Concepts",
+    "intro": "“Heart Blood Deficiency” is a multi-part traditional label that combines Heart, Blood, and Deficiency in classical food writing. The phrase belongs to a historical vocabulary system and is best read as a set of linked images rather than a modern personal label. Readers get the most value from the phrase when they separate its words, notice its setting, and then return to the concrete details of food: ingredient form, aroma, flavor, texture, and preparation.",
+    "sections": [
       {
-        title: "Understanding Heart Blood Deficiency",
-        paragraphs: [
-          "'Heart Blood Deficiency' (心血虚, Xīn Xuě Xū) occurs when the body lacks sufficient Blood to properly nourish the Heart and anchor the mind. Without this grounding substance, the Shen 'floats,' leading to restlessness and a lack of mental rootedness.",
-          "It is important to note that 'Blood Deficiency' in traditional terms is not exactly the same as the modern medical definition of anemia (though they can overlap). It is a broader concept referring to the quality and nourishing capacity of the blood.",
-        ],
+        "title": "Start with the phrase, not a personal label",
+        "paragraphs": [
+          "Traditional food and herb writing uses compact phrases to organize a large web of images. A phrase can bring together a season, a food texture, a quality word, and a broader classical relationship in only a few syllables. That compactness is useful for readers who already know the system, but it can feel opaque in English.",
+          "A plain-English reading begins with restraint. The phrase is not an instruction and it is not a verdict. It is historical vocabulary. Read it as you would read a culinary term from another tradition: translate the words, learn the image behind them, and see how the page uses the phrase beside particular ingredients or preparation styles."
+        ]
       },
       {
-        title: "Signs of Heart Blood Deficiency",
-        paragraphs: [
-          "Because Heart Blood is responsible for calming the mind and nourishing the upper body, its deficiency manifests primarily in sleep, mood, and physical appearance:",
-        ],
-        bullets: [
-          "Sleep Issues: Difficulty falling asleep, easily waking up, and sleep disturbed by frequent, exhausting dreams (because the Shen has no anchor to rest upon).",
-          "Restlessness: Mild anxiety, a tendency to startle easily, and a feeling of being ungrounded or scatterbrained.",
-          "Palpitations: A fluttering feeling in the chest, often occurring when resting or trying to fall asleep.",
-          "Physical Signs: A pale, dull complexion, pale lips, and pale nail beds. The tongue is typically pale and thin.",
-          "Cognitive Signs: Poor memory and difficulty concentrating, as the brain is not receiving adequate nourishment.",
-        ],
+        "title": "Break the wording into its parts",
+        "paragraphs": [
+          "In this traditional vocabulary, **Heart** is a traditional network word with meanings broader than the anatomical organ. The word gains its full sense from the words around it, the type of text, and the recipe or ingredient description in which it appears.",
+          "In this traditional vocabulary, **Blood** is a traditional word often associated with nourishment, color, and stored material. The word gains its full sense from the words around it, the type of text, and the recipe or ingredient description in which it appears.",
+          "In this traditional vocabulary, **Deficiency** is a classical contrast word that signals “less than” within the vocabulary of a text. The word gains its full sense from the words around it, the type of text, and the recipe or ingredient description in which it appears.",
+          "When these words appear together, they create a layered expression. The goal is not to flatten that expression into a single modern word. The goal is to understand why a traditional writer selected these words rather than another nearby phrase."
+        ]
       },
       {
-        title: "Causes of Heart Blood Deficiency",
-        paragraphs: [
-          "Heart Blood Deficiency rarely happens overnight. It is usually the result of long-term depletion:",
+        "title": "A plain-English reading map",
+        "paragraphs": [
+          "The table is a reading tool, not a set of fixed rules. Once you can see the phrase as a group of words, ingredient pages become easier to navigate because you can ask a more precise question: *What role is this term playing in this description?*"
         ],
-        bullets: [
-          "Spleen Qi Deficiency: The Spleen is responsible for making Blood from food. If digestion is weak, the body cannot produce enough Blood to nourish the Heart.",
-          "Chronic Blood Loss: Heavy menstrual bleeding or recovery from childbirth/surgery without adequate restorative nutrition.",
-          "Mental Overwork: Intense, prolonged studying, chronic anxiety, or obsessive thinking 'burns' through Heart Blood.",
-        ],
+        "bullets": [
+          "Heart — A traditional network word with meanings broader than the anatomical organ — Read it as a word in a historical food-writing system, then look at ingredient form and recipe context",
+          "Blood — A traditional word often associated with nourishment, color, and stored material — Read it as a word in a historical food-writing system, then look at ingredient form and recipe context",
+          "Deficiency — A classical contrast word that signals “less than” within the vocabulary of a text — Read it as a word in a historical food-writing system, then look at ingredient form and recipe context",
+          "Surrounding words — The nearby vocabulary often changes the emphasis — Read the full phrase before drawing a kitchen connection",
+          "Surrounding words — The nearby vocabulary often changes the emphasis — Read the full phrase before drawing a kitchen connection"
+        ]
       },
       {
-        title: "Traditional Approaches to Nourishing Heart Blood",
-        paragraphs: [
-          "The traditional strategy is to 'Nourish Blood and Calm the Shen' using ingredients that are 'Sweet,' 'Warm,' and deeply restorative.",
-        ],
-        bullets: [
-          "Longan Aril (Long Yan Rou): A sweet, warming fruit specifically famous for nourishing Heart Blood and calming the mind.",
-          "Jujube (Red Date): A staple for building Blood and supporting the Spleen's ability to produce more Blood.",
-          "Dang Gui (Angelica Sinensis): One of the most famous traditional herbs for tonifying Blood.",
-          "Sour Jujube Seed (Suan Zao Ren): Traditionally used to nourish the Heart and support deep, restful sleep.",
-        ],
+        "title": "Put the phrase back into kitchen context",
+        "paragraphs": [
+          "The clearest way to keep a traditional phrase grounded is to picture an actual kitchen scene. Think of a quiet evening bowl with soft color, gentle aroma, and a simple ingredient list. This kind of image does not prove a single translation. Instead, it gives the reader a practical way to remember that classical vocabulary often moves between food, season, appearance, and preparation.",
+          "On a recipe page, begin with the ingredients before the label. Notice whether the writer is using fresh or dried material, whether the method is a quick steep or a long simmer, and whether the recipe is built around aroma, flavor, color, or texture. Those concrete details are more useful than trying to make one phrase carry every meaning on its own."
+        ]
       },
       {
-        title: "Lifestyle and Kitchen Notes",
-        paragraphs: [
-          "Because Blood is a dense substance, it takes time to rebuild. Traditional frameworks emphasize the importance of nutrient-dense, easily digestible foods. Bone broths, dark leafy greens, and red or black foods (like black beans, goji berries, and red dates) are highly recommended. Equally important is reducing mental strain; stepping away from screens before bed and practicing gentle, grounding activities helps the Shen settle, allowing the body to focus on rebuilding its reserves.",
-        ],
+        "title": "Notice the contrast words around it",
+        "paragraphs": [
+          "Traditional vocabulary often works through contrast. “Heart Blood Deficiency” becomes easier to read beside fullness, abundance, and more forceful kitchen imagery elsewhere in the same vocabulary. This does not mean the terms are opposites in every sentence. It means the surrounding language helps readers understand what the writer is emphasizing.",
+          "A good reading habit is to put two related pages side by side and underline the words that change. Look for changes in ingredient form, cooking method, season, aroma, and the traditional quality words placed next to an ingredient. This turns an unfamiliar phrase into a map of relationships rather than a memorization task."
+        ]
       },
       {
-        title: "Read This Page in Context",
-        paragraphs: [
-          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
-        ],
+        "title": "Ingredient form is part of the meaning",
+        "paragraphs": [
+          "A dried fruit, a grain, and a flower can be grouped in a recipe for flavor and texture without becoming interchangeable. Traditional writing often pays close attention to those differences. A page about a root, flower, berry, peel, grain, or mushroom may use related vocabulary while still making a different culinary point.",
+          "For that reason, do not collapse all ingredient forms into one generic entry. Let a recipe name the form it needs. Then use the flavor and preparation method to understand why that form was chosen. This approach is concrete, repeatable, and easier for English-language readers to carry from one page to the next."
+        ]
       },
+      {
+        "title": "A useful way to take notes",
+        "paragraphs": [
+          "When you meet a new traditional phrase, record three things: the exact phrase, the ingredient or recipe beside it, and the kitchen image it brings to mind. For “Heart Blood Deficiency,” the nearby idea to compare is **Blood Deficiency and Shen**. A short note written in your own words is more valuable than copying a long definition.",
+          "Over time, these notes reveal patterns. Some words stay close to season and climate imagery. Some are often placed beside flavor or ingredient form. Others help a reader follow how a classical text groups foods and herbs. The pattern becomes clearer through comparison, not through one isolated page."
+        ]
+      },
+      {
+        "title": "What readers often miss",
+        "paragraphs": [
+          "The phrase does not need to sound familiar in modern English to be useful. Its value is descriptive and cultural: it helps readers see how traditional writers organized food language. A literal translation can be a starting point, but it is rarely the end of the story.",
+          "The most professional way to present this vocabulary is to keep the boundaries visible. Explain the words clearly. Give food and preparation examples. Link to the neighboring concepts that create context. Then allow the phrase to remain part of its own historical system rather than forcing it into a different one."
+        ]
+      },
+      {
+        "title": "Common questions",
+        "paragraphs": [
+          "Why is the phrase longer than a single English word? Traditional phrases often compress several ideas into one label. Reading each word separately first makes the full phrase easier to understand without stripping away the original structure.",
+          "Should I translate every traditional word literally? A literal translation is useful as a doorway, but the surrounding text supplies the fuller meaning. Ingredient form, recipe method, and neighboring terms often explain more than one dictionary equivalent.",
+          "What is the best next step after reading this page? Choose one related page and compare the vocabulary in context. Notice which words remain the same, which words change, and how the food or preparation example changes with them."
+        ]
+      },
+      {
+        "title": "About this page",
+        "paragraphs": [
+          "HerbGuide explains food, flavor, preparation, and cultural vocabulary. This page is designed for learning and kitchen context."
+        ]
+      }
     ],
+    "references": [
+      "HerbGuide. What Is Heart Blood Deficiency?. https://herbguide.store/basics/what-is-heart-blood-deficiency/",
+      "Chinese Text Project. Huangdi Neijing. https://ctext.org/huangdi-neijing",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices"
+    ]
   },
   {
-    slug: "what-is-heart-fire",
-    title: "What Is Heart Fire?",
-    description:
-      "A comprehensive guide to the traditional concept of Heart Fire — how excess heat localized in the Heart system manifests physically and emotionally, signs to recognize, and traditional approaches to clearing Heart Fire through diet and lifestyle.",
-    eyebrow: "Basics & Concepts",
-    intro:
-      "In traditional Chinese wellness practices, the 'Heart' (心, Xīn) is considered the 'Emperor' or 'Monarch' of all the organ systems. It is responsible not only for circulating Blood through the vessels but also for housing the 'Shen' (神)—the spirit, mind, and consciousness. When the Heart is balanced, a person experiences clear thinking, restful sleep, and emotional steadiness. When it is out of balance, emotional and psychological symptoms are often the first to appear.",
-    sections: [
+    "slug": "what-is-heart-fire",
+    "title": "What Is “Heart Fire” in Traditional Chinese Food Writing?",
+    "description": "A plain-English guide to Heart Fire (xin huo) in traditional food writing: an over-hot, overactive tendency answered with bitter-cool, clear, settling foods.",
+    "eyebrow": "Basics & Concepts",
+    "intro": "“Heart fire” (心火, xīn huǒ) is a stock phrase in traditional Chinese herb and recipe notes. It uses kitchen imagery—fire as rising, drying, and intense; the Heart as a palace linked with clarity, joy, and the tongue—to flag an over-hot, overactive tendency in that corner of the flavor map. Writers often answer it with bitter-cool ingredients, gentle cooking, plenty of water, and preparations that feel clear, light, and settling.",
+    "sections": [
       {
-        title: "Understanding Heart Fire",
-        paragraphs: [
-          "'Heart Fire' (心火, Xīn Huǒ) is a traditional concept describing a state of hyperactive, excess heat localized in the Heart system. In traditional theory, 'Fire' always moves upward and outward, causing symptoms of restlessness and heat in the upper body.",
-          "This condition is most commonly triggered by chronic emotional stress, deep-seated frustration, anxiety, or consuming too many hot, spicy, or stimulating foods and beverages (like excess alcohol or coffee).",
-        ],
+        "title": "A kitchen metaphor first and foremost",
+        "paragraphs": [
+          "In this vocabulary, “fire” isn’t a literal flame inside the body. It’s a way to talk about qualities a cook recognizes at the stove: heat that climbs, spreads, and dries; a force that excites and speeds things up. Attach that “fire” to the “Heart” (心, xīn)—the monarch-palace in classical texts—and you get “Heart fire”: an image of upper-focused, excitable heat that wants to flare upward.",
+          "Because it’s a metaphor, you’ll see writers use culinary levers to “cool,” “drain,” or “settle” that heat: bitter flavor, cold or cool-natured foods, light broths and teas, and methods that add moisture rather than scorch. The imagery comes from early sources that link the Heart with the Fire phase, summer, the color red, and the tongue as its “opening”."
+        ]
       },
       {
-        title: "Signs of Heart Fire",
-        paragraphs: [
-          "Because the Heart houses the mind and traditionally 'opens into the tongue,' signs of Heart Fire manifest both emotionally and physically in the upper body:",
+        "title": "Where you’ll see this phrase in food and herb writing",
+        "paragraphs": [
+          "If you read “Heart fire” the way you’d read “spicy heat” or “broiler-hot,” the pages make more sense. It’s a shorthand for a bundle of qualities and typical kitchen responses."
         ],
-        bullets: [
-          "Severe restlessness, agitation, or a feeling of being constantly 'wired'",
-          "Difficulty falling asleep or sleep disturbed by vivid, exhausting dreams",
-          "A red, flushed face or a feeling of heat in the chest",
-          "Mouth sores, particularly on the tip of the tongue (the area of the tongue traditionally associated with the Heart)",
-          "A bitter taste in the mouth upon waking",
-          "Dark, scanty urine (as the heat consumes body fluids)",
-        ],
+        "bullets": [
+          "Ingredient blurbs and tea shop notes: “clears Heart fire,” “cooling to the upper burner,” or “settles the Shen” appear alongside lotus embryo, chrysanthemum, and similar items. These lines signal function in a traditional flavor logic, not a guarantee about personal experience.",
+          "Classical-style recipes: Congee, light soups, and chilled infusions sometimes carry side notes like “for Heart fire in summer.” That tag guides pairing, temperature, and cooking time, much as a chef might mark a dish “rich” or “refreshing.”",
+          "Tongue descriptions in tasting-style checklists: The tip of the tongue is said to mirror the Heart; red or prickly at the tip is often labeled “Heart fire” in that idiom.",
+          "Herb dictionaries and study guides: You’ll find entries under 心火 (xīn huǒ) connecting it to bitter-cold ingredients and to summer-season cooking."
+        ]
       },
       {
-        title: "Traditional Approaches to Clearing Heart Fire",
-        paragraphs: [
-          "The traditional strategy for addressing Heart Fire involves using ingredients that are 'Cold' or 'Cool' in nature and 'Bitter' in flavor, as the bitter flavor is traditionally believed to drain heat downward and clear the Heart.",
+        "title": "How “fire” behaves in this framework",
+        "paragraphs": [
+          "Fire rises. It moves outward. It dries. It excites. Those four cues drive a lot of pairing choices:",
+          "The Heart’s tie to the Fire phase in classical sources also places it in summer, a season of flourish and exuberance. That’s one reason summer recipes reach for cooling leaves, seed embryos, and light soups when they speak of Heart fire. None of this is about a thermometer reading; it’s about qualities a cook can taste and feel."
         ],
-        bullets: [
-          "Lotus Seed Heart (Lian Zi Xin): The green germ inside the lotus seed is intensely bitter and is a classic remedy for clearing Heart heat and calming the mind.",
-          "Chrysanthemum (Ju Hua): Often used as a cooling tea to gently clear heat from the upper body.",
-          "Mung Bean (Lu Dou): A classic cooling food used to clear systemic heat and soothe irritability.",
-          "Reishi Mushroom (Ling Zhi): While not strongly cold, its bitter nature helps calm the Shen and settle a restless mind.",
-        ],
+        "bullets": [
+          "Upward/outward calls for downward-directing or collecting flavors. Bitter is the classic “drain downward” note; sour gathers and contains.",
+          "Drying calls for moistening textures and high-water dishes: congees, light broths, soaked seeds, fresh fruit waters.",
+          "Excitable calls for calm, steady techniques. Think low simmering instead of high-heat searing."
+        ]
       },
       {
-        title: "Lifestyle and Kitchen Notes",
-        paragraphs: [
-          "Dietary adjustments are crucial when addressing Heart Fire. Traditional frameworks strongly advise eliminating spicy foods, heavy red meats, alcohol, and excessive caffeine, as these act like 'fuel' for the fire. Instead, the diet should focus on cooling, hydrating foods like cucumber, watermelon, celery, and green tea. Equally important is lifestyle modification: incorporating meditation, quiet rest, and activities that actively reduce emotional friction and stress.",
+        "title": "A quick vocabulary map",
+        "paragraphs": [
+          "Here’s a compact map of nearby terms you’ll meet while reading this topic. Use it like a legend on a recipe card.",
+          "This is reference language. It sets a mood for pairing, handling, and serving more than it dictates a single recipe."
         ],
+        "bullets": [
+          "Heart fire (心火) — Upward, excitable heat centered on the “Heart” palace; flares to tongue/face — Bitter-cold or bitter-cool; moistening broths and teas — Herb notes; summer recipes; tongue-tip descriptions",
+          "Heart heat (心热) — Gentler “too warm” quality in the same sphere — Mild cooling; sweet-bitter balance; longer steep in cool water — Everyday cookbooks; congee instructions",
+          "Fire element/phase (火) — Seasonal/symbolic category; bright, quick, expansive — Light, fresh, aromatic; avoid heavy scorching — Seasonal menus; five-flavor charts",
+          "“Opens to the tongue” — Tongue-tip cues linked to the Heart in descriptions — Bitter-cool rinses, clear teas — Tasting checklists; study guides",
+          "Clear heat/settle (清/泻) — Drain or clarify excess heat; calm the upward push — Bitter flavor; cool nature; gentle simmer or cold steep — Materia notes; tea blurbs"
+        ]
       },
       {
-        title: "Read This Page in Context",
-        paragraphs: [
-          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
+        "title": "Reading ingredient lists: classic pairings and how they’re prepared",
+        "paragraphs": [
+          "Traditional food writing often pairs certain ingredients with the phrase “clears Heart fire.” You’ll see a pattern in their flavor, color, and preparation.",
+          "You might also see reishi (灵芝, líng zhī) in this cluster. It’s not icy-cold in the flavor charts, but its bitter nature places it in the “settling” column. Preparation is usually a long, low simmer to pull out that deep bitter without scorch.",
+          "None of these items act as switches. They’re building blocks that let cooks push a dish toward clear, light, and downward-draining qualities."
         ],
+        "bullets": [
+          "Lotus seed heart (莲子心, lián zǐ xīn): The tiny green embryo inside the lotus seed is strikingly bitter. Tea notes suggest a brief hot rinse to remove dust, then a cool steep to draw out the bitter without harshness. Lotus embryo often appears with phrases like “directs downward” and “settles the Shen,” a reminder of its role in this flavor logic.",
+          "Chrysanthemum (菊花, jú huā): Pale yellow petals steeped as a light tea. Vendors describe it as “cooling to the upper,” which in kitchen terms means refreshing, slightly bitter, and aromatic rather than pungent. Many recipes pour water just off the boil and stop steeping after 2–3 minutes to keep it bright.",
+          "Mung bean (绿豆, lǜ dòu): Cooked into a thin soup, then thinned further with chilled water in some summer households. The bean’s tender skin and high water content support “clear, moist” textures. Some families simmer with a sliver of dried citrus peel to add lift without heat.",
+          "Asian pear and barley drink: Pear’s crisp, watery flesh and barley’s gentle sweetness show up together in “cooling” summer drinks. Blanching the barley first and simmering slowly produces a faintly viscous liquid that reads as moistening.",
+          "Fresh lily bulb (百合, bǎi hé): Slightly sweet, slightly bitter, petal-like scales used in stir-fries or simmered in dessert soups. Notes often emphasize a short cook to keep them tender-moist rather than dried out."
+        ]
       },
+      {
+        "title": "Cooking styles that read as “cooling” here",
+        "paragraphs": [
+          "Flavor-nature in this tradition belongs to the ingredient itself. Still, preparation can amplify or mute that nature. When pages talk about easing “fire,” they lean on:",
+          "By contrast, high-heat roasting, deep-frying, and heavy smoking are cast as “adding fire.” Even when useful for flavor, they’re usually balanced with watery sides, bitter greens, or citrus to keep a dish from reading as too upward and dry."
+        ],
+        "bullets": [
+          "Steeping and cold infusions: Draw fragrance and bitterness without adding stovetop aggression.",
+          "Light simmering and blanching: Keep textures wet and supple; avoid thick reductions.",
+          "Poaching and steaming: Gentle heat that doesn’t sear moisture away.",
+          "Chilling after cooking: Serving congees or soups at room temperature or lightly chilled in summer to underscore freshness."
+        ]
+      },
+      {
+        "title": "Nearby terms and how they differ",
+        "paragraphs": [
+          "“Heart fire” sits among a cluster of heat words. Sorting them prevents mix-ups.",
+          "You’ll also meet the phrase “the Heart opens to the tongue.” It’s a poetic way of linking taste and language to the Heart palace, which is why tongue-tip descriptions appear in these pages."
+        ],
+        "bullets": [
+          "Heart fire vs. Heart heat: “Fire” suggests a flare—more pushy and excitable. “Heat” is a milder over-warmth. A tea menu might save lotus embryo for “fire,” but lean on chrysanthemum alone for “heat.”",
+          "Heart fire vs. Liver fire: Same element, different palace. “Liver fire” leans toward irritability, rising to the eyes and sides in the imagery; it often calls for sour-bitter greens and cooling seeds. “Heart fire,” by contrast, speaks to the tongue, tip of the face, and a buzzy, restless quality in classical notes.",
+          "Heat vs. hot spice: Pungent chiles add sharpness and surface heat, but in this framework “fire” is deeper—more about the nature and direction of an ingredient than its capsaicin kick. A mint tea can feel cooling even when served warm; a chile oil feels hot even straight from the fridge."
+        ]
+      },
+      {
+        "title": "Kitchen-reading examples from traditional texts and modern menus",
+        "paragraphs": [
+          "Connecting the vocabulary to small, concrete kitchen choices helps it click:",
+          "These examples are about language and pairing. They show how a phrase like “clear Heart fire” guides selection and handling without implying a personal forecast."
+        ],
+        "bullets": [
+          "Tongue-tip teas: If a guide notes a “red tip” under its tongue diagram, a sidebar might propose a short chrysanthemum steep with two or three lotus embryos rather than a longer, stronger flower tea. The bitter-cool balances the upward flush without piling on flavor intensity.",
+          "Summer congee: A rice porridge thinned to a pourable consistency and finished with julienned cucumber, diced Asian pear, and a few soaked goji berries offers sweet, watery, and slightly bitter contrast to midday heat. Texture stays soft and moist.",
+          "“Cooling plate” at a tea house: Mung bean jelly (抹绿豆糕) drizzled with light syrup and a chrysanthemum–osmanthus tea served warm but not hot. The pair reads as calm, floral, and refreshing.",
+          "Late-night sips: Some study guides suggest a small, cool steep of lotus embryo in the evening instead of roasted oolong. The idea isn’t stronger flavor; it’s a downward, quieting bitter to offset the day’s upward push."
+        ]
+      },
+      {
+        "title": "What readers often miss",
+        "paragraphs": [
+          "Understanding those points keeps the phrase useful on the page and sensible at the stove."
+        ],
+        "bullets": [
+          "It’s not about fridge temperature. “Cool” here is a nature word. A warm cup of chrysanthemum tea can “cool,” and an iced espresso can read as “heating.”",
+          "Bitter’s job is direction, not punishment. The bitter here is meant to drain and settle. That’s why cooks often temper it with moist sweetness: pear, barley water, or a touch of honey.",
+          "More is rarely better. Lotus embryo is tiny and intensely bitter; notes usually call for only a few. Overshooting bitter-cold makes a dish feel hollow or thin rather than clear.",
+          "The Heart–Fire link is classical. The Heart is placed in the Fire phase, associated with summer, the color red, and the tongue in early texts, which roots the phrase “Heart fire” in a long-standing seasonal and sensory logic."
+        ]
+      },
+      {
+        "title": "Common questions",
+        "paragraphs": [
+          "Is “Heart fire” just another way of saying “spicy”? Not exactly. Spiciness is a surface sensation from pungent ingredients like chile and ginger. “Heart fire” is a broader metaphor for upward, excitable heat linked to the Heart palace. A peppery salad can be lively without touching this phrase, while a non-spicy bitter tea can be the classic answer to it.",
+          "Why does bitter flavor show up so often with this phrase? In this tradition, bitter is said to drain downward and clarify. When a page flags “Heart fire,” bitter-cool ingredients—lotus embryo, chrysanthemum, certain leafy greens—are paired with moist textures to counter an upward, drying push. The goal in recipe language is balance: clear, light, and settled rather than fiery and scattered.",
+          "Do cold drinks automatically count as “cooling” for Heart fire? No. Serving temperature can influence how a dish feels, but the tradition focuses on an ingredient’s inherent nature. A lightly warm chrysanthemum infusion can read as cooling; a fridge-cold fried cutlet can still read as hot because of its method and fat. Writers use water content, bitterness, and gentle technique more than ice to signal “cooling.”"
+        ]
+      },
+      {
+        "title": "About this page",
+        "paragraphs": [
+          "This Basics page explains “Heart fire” as a piece of traditional Chinese food and herb vocabulary. It focuses on flavor, cooking methods, and ingredient pairings used to express that idea in recipes, tea notes, and study guides. It does not offer personal guidance. Our aim is clarity for readers exploring classical kitchen language."
+        ]
+      }
     ],
+    "references": [
+      "HerbGuide, “What Is Heart Fire?” https://herbguide.store/basics/what-is-heart-fire/",
+      "Chinese Text Project, Huangdi Neijing. https://ctext.org/huangdi-neijing (Classical associations link the Heart with the Fire phase, summer, the color red, and the tongue, which shape this vocabulary.)"
+    ]
   },
   {
-    slug: "what-is-wind-heat",
-    title: "What Is Wind-Heat?",
-    description:
-      "A plain-English guide to the traditional concept of Wind-Heat — what it means, signs, causes, traditional approaches to dispersing it, and practical lifestyle and kitchen notes.",
-    eyebrow: "Basics & Concepts",
-    intro:
-      "In traditional Chinese wellness practices, \"Wind-Heat\" (风热, Fēng Rè) is the traditional term for an acute respiratory challenge characterized by heat, inflammation, and rapid onset. When Wind-Heat penetrates the body's defensive barrier, the Heat component immediately begins to dry up fluids and cause localized inflammation, particularly in the throat and respiratory tract.",
-    sections: [
+    "slug": "what-is-wind-heat",
+    "title": "What Does “Wind-Heat” Mean in Traditional Food Writing?",
+    "description": "A plain-English guide to Wind-Heat in traditional food writing: a weather-image phrase bringing together wind and heat in seasonal notes and ingredient lists.",
+    "eyebrow": "Basics & Concepts",
+    "intro": "“Wind-Heat” is a weather-image phrase in traditional writing that brings together wind and heat. It is useful for understanding the language of old food texts, seasonal notes, and ingredient lists, but it is not a modern personal label. Readers get the most value from the phrase when they separate its words, notice its setting, and then return to the concrete details of food: ingredient form, aroma, flavor, texture, and preparation.",
+    "sections": [
       {
-        title: "The Concept of Wind in Traditional Frameworks",
-        paragraphs: [
-          "In traditional Chinese wellness practices, \"Wind\" (风, Fēng) is considered the primary vehicle that carries external stressors into the body. It strikes suddenly, changes rapidly, and typically affects the upper parts of the body (head, throat, and lungs) and the surface of the skin.",
-          "While Wind can combine with Cold (causing shivering and clear mucus), it frequently combines with Heat, creating a very different set of symptoms.",
-        ],
+        "title": "Start with the phrase, not a personal label",
+        "paragraphs": [
+          "Traditional food and herb writing uses compact phrases to organize a large web of images. A phrase can bring together a season, a food texture, a quality word, and a broader classical relationship in only a few syllables. That compactness is useful for readers who already know the system, but it can feel opaque in English.",
+          "A plain-English reading begins with restraint. The phrase is not an instruction and it is not a verdict. It is historical vocabulary. Read it as you would read a culinary term from another tradition: translate the words, learn the image behind them, and see how the page uses the phrase beside particular ingredients or preparation styles."
+        ]
       },
       {
-        title: "Understanding Wind-Heat",
-        paragraphs: [
-          "\"Wind-Heat\" (风热, Fēng Rè) is the traditional term for an acute respiratory challenge characterized by heat, inflammation, and rapid onset.",
-          "When Wind-Heat penetrates the body's defensive barrier, the Heat component immediately begins to dry up fluids and cause localized inflammation, particularly in the throat and respiratory tract.",
-        ],
+        "title": "Break the wording into its parts",
+        "paragraphs": [
+          "In this traditional vocabulary, **Wind** is a classical image of movement, change, and shifting weather. The word gains its full sense from the words around it, the type of text, and the recipe or ingredient description in which it appears.",
+          "In this traditional vocabulary, **Heat** is a traditional quality word used to frame taste, aroma, season, and ingredient descriptions. The word gains its full sense from the words around it, the type of text, and the recipe or ingredient description in which it appears.",
+          "When these words appear together, they create a layered expression. The goal is not to flatten that expression into a single modern word. The goal is to understand why a traditional writer selected these words rather than another nearby phrase."
+        ]
       },
       {
-        title: "Signs of Wind-Heat",
-        paragraphs: [
-          "Because Heat is active, inflammatory, and drying, the signs of Wind-Heat are distinct from those of Wind-Cold:",
+        "title": "A plain-English reading map",
+        "paragraphs": [
+          "The table is a reading tool, not a set of fixed rules. Once you can see the phrase as a group of words, ingredient pages become easier to navigate because you can ask a more precise question: *What role is this term playing in this description?*"
         ],
-        bullets: [
-          "Fever and Sweating: A feeling of heat or a fever, often accompanied by mild sweating (unlike Wind-Cold, where the pores are locked tight).",
-          "Severe Sore Throat: A throat that is red, swollen, and painful to swallow. This is a hallmark sign of Wind-Heat.",
-          "Thirst: A strong desire for cold drinks, as the Heat consumes body fluids.",
-          "Respiratory Signs: A cough with thick, sticky, yellow or green mucus. The nose may run, but the discharge is thick and yellowish, not clear and watery.",
-          "Headache: A throbbing, expansive headache, often felt in the front of the head or behind the eyes.",
-          "Physical Signs: A red tongue tip or edges, often with a thin yellow coating, and a rapid pulse.",
-        ],
+        "bullets": [
+          "Wind — A classical image of movement, change, and shifting weather — Read it as a word in a historical food-writing system, then look at ingredient form and recipe context",
+          "Heat — A traditional quality word used to frame taste, aroma, season, and ingredient descriptions — Read it as a word in a historical food-writing system, then look at ingredient form and recipe context",
+          "Surrounding words — The nearby vocabulary often changes the emphasis — Read the full phrase before drawing a kitchen connection",
+          "Surrounding words — The nearby vocabulary often changes the emphasis — Read the full phrase before drawing a kitchen connection",
+          "Surrounding words — The nearby vocabulary often changes the emphasis — Read the full phrase before drawing a kitchen connection"
+        ]
       },
       {
-        title: "Causes of Wind-Heat",
-        paragraphs: [
-          "Wind-Heat can be caused by exposure to hot, windy environments, but it more commonly arises during seasonal transitions (like spring) when viral and bacterial challenges are prevalent. It can also occur when a Wind-Cold condition is not resolved quickly and \"transforms into Heat\" as it moves deeper into the body.",
-        ],
+        "title": "Put the phrase back into kitchen context",
+        "paragraphs": [
+          "The clearest way to keep a traditional phrase grounded is to picture an actual kitchen scene. Think of a light floral infusion whose aroma feels open and lifted rather than dark and roasted. This kind of image does not prove a single translation. Instead, it gives the reader a practical way to remember that classical vocabulary often moves between food, season, appearance, and preparation.",
+          "On a recipe page, begin with the ingredients before the label. Notice whether the writer is using fresh or dried material, whether the method is a quick steep or a long simmer, and whether the recipe is built around aroma, flavor, color, or texture. Those concrete details are more useful than trying to make one phrase carry every meaning on its own."
+        ]
       },
       {
-        title: "Traditional Approaches to Dispersing Wind-Heat",
-        paragraphs: [
-          "The traditional strategy for addressing Wind-Heat is to \"Release the Exterior and Clear Heat\" (辛凉解表). This is done using ingredients that are \"Pungent\" (to push the pathogen out) but \"Cool\" or \"Cold\" in nature (to clear the inflammation and soothe the throat).",
-        ],
-        bullets: [
-          "Mint (Bo He): Pungent and cooling, it is excellent for clearing the head, soothing a sore throat, and gently releasing Wind-Heat.",
-          "Chrysanthemum (Ju Hua): A cooling flower used to clear Heat from the upper body and soothe red, irritated eyes.",
-          "Mulberry Leaf (Sang Ye): Often combined with Chrysanthemum to clear Wind-Heat from the Lungs and moisten a dry cough.",
-          "Honeysuckle (Jin Yin Hua) and Forsythia (Lian Qiao): Two powerful cooling herbs traditionally used to clear strong Heat and resolve toxicity in the throat.",
-        ],
+        "title": "Notice the contrast words around it",
+        "paragraphs": [
+          "Traditional vocabulary often works through contrast. “Wind-Heat” becomes easier to read beside Wind-Cold and cooling-versus-warming language. This does not mean the terms are opposites in every sentence. It means the surrounding language helps readers understand what the writer is emphasizing.",
+          "A good reading habit is to put two related pages side by side and underline the words that change. Look for changes in ingredient form, cooking method, season, aroma, and the traditional quality words placed next to an ingredient. This turns an unfamiliar phrase into a map of relationships rather than a memorization task."
+        ]
       },
       {
-        title: "Lifestyle and Kitchen Notes",
-        paragraphs: [
-          "When dealing with Wind-Heat, traditional frameworks advise avoiding warming, spicy foods (like ginger, garlic, or chili) and heavy, greasy meals, as these will add fuel to the fire. Instead, the focus should be on cooling, hydrating foods. Drinking plenty of warm (not ice-cold) water, consuming light broths, and drinking cooling teas (like Chrysanthemum and Mint) can help soothe the throat and clear the heat.",
-        ],
+        "title": "Ingredient form is part of the meaning",
+        "paragraphs": [
+          "A flower, leaf, peel, or root can bring a different aroma to a cup even when preparation remains simple. Traditional writing often pays close attention to those differences. A page about a root, flower, berry, peel, grain, or mushroom may use related vocabulary while still making a different culinary point.",
+          "For that reason, do not collapse all ingredient forms into one generic entry. Let a recipe name the form it needs. Then use the flavor and preparation method to understand why that form was chosen. This approach is concrete, repeatable, and easier for English-language readers to carry from one page to the next."
+        ]
       },
       {
-        title: "Read This Page in Context",
-        paragraphs: [
-          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
-        ],
+        "title": "A useful way to take notes",
+        "paragraphs": [
+          "When you meet a new traditional phrase, record three things: the exact phrase, the ingredient or recipe beside it, and the kitchen image it brings to mind. For “Wind-Heat,” the nearby idea to compare is **Wind-Cold and What Does Clear Heat Mean?**. A short note written in your own words is more valuable than copying a long definition.",
+          "Over time, these notes reveal patterns. Some words stay close to season and climate imagery. Some are often placed beside flavor or ingredient form. Others help a reader follow how a classical text groups foods and herbs. The pattern becomes clearer through comparison, not through one isolated page."
+        ]
       },
+      {
+        "title": "What readers often miss",
+        "paragraphs": [
+          "The phrase does not need to sound familiar in modern English to be useful. Its value is descriptive and cultural: it helps readers see how traditional writers organized food language. A literal translation can be a starting point, but it is rarely the end of the story.",
+          "The most professional way to present this vocabulary is to keep the boundaries visible. Explain the words clearly. Give food and preparation examples. Link to the neighboring concepts that create context. Then allow the phrase to remain part of its own historical system rather than forcing it into a different one."
+        ]
+      },
+      {
+        "title": "Common questions",
+        "paragraphs": [
+          "Why is the phrase longer than a single English word? Traditional phrases often compress several ideas into one label. Reading each word separately first makes the full phrase easier to understand without stripping away the original structure.",
+          "Should I translate every traditional word literally? A literal translation is useful as a doorway, but the surrounding text supplies the fuller meaning. Ingredient form, recipe method, and neighboring terms often explain more than one dictionary equivalent.",
+          "What is the best next step after reading this page? Choose one related page and compare the vocabulary in context. Notice which words remain the same, which words change, and how the food or preparation example changes with them."
+        ]
+      },
+      {
+        "title": "About this page",
+        "paragraphs": [
+          "HerbGuide explains food, flavor, preparation, and cultural vocabulary. This page is designed for learning and kitchen context."
+        ]
+      }
     ],
+    "references": [
+      "HerbGuide. What Is Wind-Heat?. https://herbguide.store/basics/what-is-wind-heat/",
+      "Chinese Text Project. Huangdi Neijing. https://ctext.org/huangdi-neijing",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices"
+    ]
   },
 
   {
-    slug: "what-is-liver-blood-deficiency",
-    title: "What Is Liver Blood Deficiency?",
-    description:
-      "A plain-English guide to the traditional concept of Liver Blood Deficiency — what it means, signs, causes, traditional approaches to nourishing Liver Blood, and practical lifestyle and kitchen notes.",
-    eyebrow: "Basics & Concepts",
-    intro:
-      "In traditional Chinese wellness practices, the \"Liver\" (肝, Gān) is responsible for ensuring the smooth flow of Qi and emotions throughout the body. More importantly, it \"stores the Blood.\" When the body is active, Blood flows outward to nourish the muscles and tendons. When the body rests, Blood returns to the Liver to be stored, cleansed, and regenerated.",
-    sections: [
+    "slug": "what-is-liver-blood-deficiency",
+    "title": "What Does “Liver Blood Deficiency” Mean in Traditional Food Writing?",
+    "description": "A plain-English guide to Liver Blood Deficiency in traditional food writing: a three-part label combining Liver, Blood, and Deficiency as historical vocabulary.",
+    "eyebrow": "Basics & Concepts",
+    "intro": "“Liver Blood Deficiency” is a three-part label from traditional writing. It combines Liver, Blood, and Deficiency as historical vocabulary for discussing relationships within that system; it should not be read as a modern personal description. Readers get the most value from the phrase when they separate its words, notice its setting, and then return to the concrete details of food: ingredient form, aroma, flavor, texture, and preparation.",
+    "sections": [
       {
-        title: "The Concept of the Liver in Traditional Frameworks",
-        paragraphs: [
-          "In traditional Chinese wellness practices, the \"Liver\" (肝, Gān) is responsible for ensuring the smooth flow of Qi and emotions throughout the body. More importantly, it \"stores the Blood.\"",
-          "When the body is active, Blood flows outward to nourish the muscles and tendons. When the body rests (especially during sleep), Blood returns to the Liver to be stored, cleansed, and regenerated. The Liver also traditionally \"opens into the eyes\" and governs the tendons, nails, and menstrual cycle.",
-        ],
+        "title": "Start with the phrase, not a personal label",
+        "paragraphs": [
+          "Traditional food and herb writing uses compact phrases to organize a large web of images. A phrase can bring together a season, a food texture, a quality word, and a broader classical relationship in only a few syllables. That compactness is useful for readers who already know the system, but it can feel opaque in English.",
+          "A plain-English reading begins with restraint. The phrase is not an instruction and it is not a verdict. It is historical vocabulary. Read it as you would read a culinary term from another tradition: translate the words, learn the image behind them, and see how the page uses the phrase beside particular ingredients or preparation styles."
+        ]
       },
       {
-        title: "Understanding Liver Blood Deficiency",
-        paragraphs: [
-          "\"Liver Blood Deficiency\" (肝血虚, Gān Xuě Xū) occurs when the body lacks sufficient Blood to properly nourish the Liver and the areas it governs.",
-          "If the Liver is a reservoir, Liver Blood Deficiency means the water level has dropped too low. The surrounding \"land\" (the eyes, tendons, and skin) becomes dry and undernourished, and the Liver's ability to keep energy flowing smoothly is compromised.",
-        ],
+        "title": "Break the wording into its parts",
+        "paragraphs": [
+          "In this traditional vocabulary, **Liver** is a traditional network word with meanings broader than an anatomical organ. The word gains its full sense from the words around it, the type of text, and the recipe or ingredient description in which it appears.",
+          "In this traditional vocabulary, **Blood** is a traditional word often associated with nourishment, color, and stored material. The word gains its full sense from the words around it, the type of text, and the recipe or ingredient description in which it appears.",
+          "In this traditional vocabulary, **Deficiency** is a contrast word that signals “less than” inside a traditional text. The word gains its full sense from the words around it, the type of text, and the recipe or ingredient description in which it appears.",
+          "When these words appear together, they create a layered expression. The goal is not to flatten that expression into a single modern word. The goal is to understand why a traditional writer selected these words rather than another nearby phrase."
+        ]
       },
       {
-        title: "Signs of Liver Blood Deficiency",
-        paragraphs: [
-          "Because Liver Blood nourishes the eyes, tendons, and reproductive system, its deficiency manifests clearly in these areas:",
+        "title": "A plain-English reading map",
+        "paragraphs": [
+          "The table is a reading tool, not a set of fixed rules. Once you can see the phrase as a group of words, ingredient pages become easier to navigate because you can ask a more precise question: *What role is this term playing in this description?*"
         ],
-        bullets: [
-          "Eye Issues: Dry, gritty, or tired eyes, blurred vision, and \"floaters\" in the field of vision.",
-          "Tendon and Muscle Signs: Muscle cramps, spasms, numbness in the limbs, and tight, inflexible joints (because the tendons lack lubrication).",
-          "Physical Appearance: Pale, brittle, or ridged fingernails; dry, dull hair and skin; and a pale complexion.",
-          "Sleep and Mood: Difficulty falling asleep, vivid dreams, and a tendency toward mild anxiety or irritability.",
-          "Women's Health: A light, scanty menstrual flow, delayed cycles, or missed periods.",
-          "Physical Signs: A pale tongue, especially on the sides, and a thin, weak pulse.",
-        ],
+        "bullets": [
+          "Liver — A traditional network word with meanings broader than an anatomical organ — Read it as a word in a historical food-writing system, then look at ingredient form and recipe context",
+          "Blood — A traditional word often associated with nourishment, color, and stored material — Read it as a word in a historical food-writing system, then look at ingredient form and recipe context",
+          "Deficiency — A contrast word that signals “less than” inside a traditional text — Read it as a word in a historical food-writing system, then look at ingredient form and recipe context",
+          "Surrounding words — The nearby vocabulary often changes the emphasis — Read the full phrase before drawing a kitchen connection",
+          "Surrounding words — The nearby vocabulary often changes the emphasis — Read the full phrase before drawing a kitchen connection"
+        ]
       },
       {
-        title: "Causes of Liver Blood Deficiency",
-        paragraphs: [
-          "Liver Blood Deficiency is typically a chronic condition that develops over time:",
-        ],
-        bullets: [
-          "Spleen Qi Deficiency: The Spleen creates Blood from food. If digestion is weak, Blood production falls behind.",
-          "Chronic Blood Loss: Heavy menstrual bleeding or recovery from childbirth.",
-          "Overworking the Eyes: Staring at screens for long hours without rest directly consumes Liver Blood.",
-          "Lack of Rest: Staying up late prevents Blood from returning to the Liver to be regenerated.",
-        ],
+        "title": "Put the phrase back into kitchen context",
+        "paragraphs": [
+          "The clearest way to keep a traditional phrase grounded is to picture an actual kitchen scene. Think of an ingredient with deep color used beside a lighter aromatic ingredient in a simple pantry recipe. This kind of image does not prove a single translation. Instead, it gives the reader a practical way to remember that classical vocabulary often moves between food, season, appearance, and preparation.",
+          "On a recipe page, begin with the ingredients before the label. Notice whether the writer is using fresh or dried material, whether the method is a quick steep or a long simmer, and whether the recipe is built around aroma, flavor, color, or texture. Those concrete details are more useful than trying to make one phrase carry every meaning on its own."
+        ]
       },
       {
-        title: "Traditional Approaches to Nourishing Liver Blood",
-        paragraphs: [
-          "The traditional strategy is to \"Nourish Blood and Soften the Liver\" using ingredients that are \"Sweet,\" \"Sour,\" and deeply hydrating.",
-        ],
-        bullets: [
-          "Goji Berry (Gou Qi Zi): The premier fruit for nourishing Liver Blood and brightening the eyes.",
-          "White Peony Root (Bai Shao): Nourishes Blood and softens the Liver, helping to relieve muscle cramps.",
-          "Dang Gui (Angelica Sinensis): A powerful Blood tonic, especially used in women's wellness.",
-          "Longan Aril (Long Yan Rou): Nourishes both Heart and Liver Blood.",
-        ],
+        "title": "Notice the contrast words around it",
+        "paragraphs": [
+          "Traditional vocabulary often works through contrast. “Liver Blood Deficiency” becomes easier to read beside Liver Qi Stagnation and Nourish Blood language. This does not mean the terms are opposites in every sentence. It means the surrounding language helps readers understand what the writer is emphasizing.",
+          "A good reading habit is to put two related pages side by side and underline the words that change. Look for changes in ingredient form, cooking method, season, aroma, and the traditional quality words placed next to an ingredient. This turns an unfamiliar phrase into a map of relationships rather than a memorization task."
+        ]
       },
       {
-        title: "Lifestyle and Kitchen Notes",
-        paragraphs: [
-          "Dietary support is crucial. Traditional frameworks emphasize nutrient-dense, dark-colored foods: dark leafy greens (spinach, kale), black beans, black sesame seeds, and bone broths. Equally important is lifestyle: reducing screen time to protect the eyes, and ensuring adequate sleep before midnight so the Liver can properly store and regenerate Blood.",
-        ],
+        "title": "Ingredient form is part of the meaning",
+        "paragraphs": [
+          "Color, texture, and the difference between whole, sliced, and dried ingredients help a reader understand recipe intent. Traditional writing often pays close attention to those differences. A page about a root, flower, berry, peel, grain, or mushroom may use related vocabulary while still making a different culinary point.",
+          "For that reason, do not collapse all ingredient forms into one generic entry. Let a recipe name the form it needs. Then use the flavor and preparation method to understand why that form was chosen. This approach is concrete, repeatable, and easier for English-language readers to carry from one page to the next."
+        ]
       },
       {
-        title: "Read This Page in Context",
-        paragraphs: [
-          "This page is an educational reference built around traditional herb writing and concepts. It is not a wellness recommendation, a substitute for professional guidance, or a claim that these concepts apply to any specific medical situation.",
-        ],
+        "title": "A useful way to take notes",
+        "paragraphs": [
+          "When you meet a new traditional phrase, record three things: the exact phrase, the ingredient or recipe beside it, and the kitchen image it brings to mind. For “Liver Blood Deficiency,” the nearby idea to compare is **What Does Liver Mean? and What Does Nourish Blood Mean?**. A short note written in your own words is more valuable than copying a long definition.",
+          "Over time, these notes reveal patterns. Some words stay close to season and climate imagery. Some are often placed beside flavor or ingredient form. Others help a reader follow how a classical text groups foods and herbs. The pattern becomes clearer through comparison, not through one isolated page."
+        ]
       },
+      {
+        "title": "What readers often miss",
+        "paragraphs": [
+          "The phrase does not need to sound familiar in modern English to be useful. Its value is descriptive and cultural: it helps readers see how traditional writers organized food language. A literal translation can be a starting point, but it is rarely the end of the story.",
+          "The most professional way to present this vocabulary is to keep the boundaries visible. Explain the words clearly. Give food and preparation examples. Link to the neighboring concepts that create context. Then allow the phrase to remain part of its own historical system rather than forcing it into a different one."
+        ]
+      },
+      {
+        "title": "Common questions",
+        "paragraphs": [
+          "Why is the phrase longer than a single English word? Traditional phrases often compress several ideas into one label. Reading each word separately first makes the full phrase easier to understand without stripping away the original structure.",
+          "Should I translate every traditional word literally? A literal translation is useful as a doorway, but the surrounding text supplies the fuller meaning. Ingredient form, recipe method, and neighboring terms often explain more than one dictionary equivalent.",
+          "What is the best next step after reading this page? Choose one related page and compare the vocabulary in context. Notice which words remain the same, which words change, and how the food or preparation example changes with them."
+        ]
+      },
+      {
+        "title": "About this page",
+        "paragraphs": [
+          "HerbGuide explains food, flavor, preparation, and cultural vocabulary. This page is designed for learning and kitchen context."
+        ]
+      }
     ],
+    "references": [
+      "HerbGuide. What Is Liver Blood Deficiency?. https://herbguide.store/basics/what-is-liver-blood-deficiency/",
+      "Chinese Text Project. Huangdi Neijing. https://ctext.org/huangdi-neijing",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices"
+    ]
   },
 
 
