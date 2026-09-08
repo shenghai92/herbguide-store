@@ -264,19 +264,19 @@ const rawBasicsCards = [
   {
     slug: "what-is-stomach-yin-deficiency",
     title: "What Is Stomach Yin Deficiency?",
-    text: "A comprehensive guide to the traditional concept of Stomach Yin Deficiency — what Stomach Yin represents, how its deficiency causes digestive dryness and Empty Heat, signs, causes, traditional approaches, and lifestyle and kitchen notes.",
+        text: "A plain-English guide to Stomach Yin Deficiency in traditional food writing: a three-part label built from Stomach, Yin, and Deficiency, read as a phrase to translate rather than a modern category.",
   },
   {
     slug: "what-is-lung-yin-deficiency",
     title: "What Is Lung Yin Deficiency?",
-    text: "A comprehensive guide to the traditional concept of Lung Yin Deficiency — what Lung Yin represents, how its deficiency causes respiratory dryness and dry cough, signs, causes, traditional approaches, and lifestyle and kitchen notes.",
+        text: "A plain-English guide to Lung Yin Deficiency in traditional food writing: a phrase composed of Lung, Yin, and Deficiency from a historical vocabulary system.",
   },
 
 
   {
     slug: "what-is-kidney-yang-deficiency",
     title: "What Is Kidney Yang Deficiency?",
-    text: "A comprehensive guide to the traditional concept of Kidney Yang Deficiency — what Kidney Yang represents, how its deficiency causes systemic coldness and fluid issues, signs, causes, traditional approaches, and lifestyle and kitchen notes.",
+        text: "A plain-English guide to Kidney Yang Deficiency in traditional food writing: a compact phrase made of Kidney, Yang, and Deficiency from a historical system.",
   },
 
   {
@@ -288,19 +288,19 @@ const rawBasicsCards = [
   {
     slug: "what-is-heart-yin-deficiency",
     title: "What Is Heart Yin Deficiency?",
-    text: "A comprehensive guide to the traditional concept of Heart Yin Deficiency — what Heart Yin represents, how its deficiency causes insomnia, anxiety, and Empty Heat, signs, causes, traditional approaches, and lifestyle and kitchen notes.",
+        text: "A plain-English guide to Heart Yin Deficiency in traditional food writing: a phrase combining Heart, Yin, and Deficiency read as cultural food-writing language.",
   },
 
   {
     slug: "what-is-lung-qi-deficiency",
     title: "What Is Lung Qi Deficiency?",
-    text: "A comprehensive guide to the traditional concept of Lung Qi Deficiency — what Lung Qi represents, how its deficiency causes respiratory weakness, weak immunity, and frequent colds, signs, causes, traditional approaches, and lifestyle and kitchen notes.",
+        text: "A plain-English guide to Lung Qi Deficiency in traditional food writing: a phrase combining Lung, Qi, and Deficiency as compact historical vocabulary.",
   },
 
   {
     slug: "what-is-kidney-yin-deficiency",
     title: "What Is Kidney Yin Deficiency?",
-    text: "A comprehensive guide to the traditional concept of Kidney Yin Deficiency — what Kidney Yin represents, how its deficiency causes dryness, night sweats, and Empty Heat, signs, causes, traditional approaches, and lifestyle and kitchen notes.",
+        text: "A plain-English guide to Kidney Yin Deficiency in traditional food writing: a phrase composed of Kidney, Yin, and Deficiency from a historical system.",
   },
 
 ];
