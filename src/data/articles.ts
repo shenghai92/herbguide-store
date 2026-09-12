@@ -9505,4 +9505,269 @@ export const foodTherapyArticles: ContentArticle[] = [
       "[3] Healthline. Goji Berries: Nutrition Facts and Health Benefits. https://www.healthline.com/nutrition/goji-berry",
     ],
   },
+  {
+    "slug": "chamomile-tea-a-simple-floral-cup-for-your-evening-kitchen",
+    "title": "Chamomile Tea: A Simple Floral Cup for Your Evening Kitchen",
+    "description": "A simple chamomile tea recipe with dried chamomile flowers and orange peel: a gentle, floral evening cup with clear steeping steps, serving notes, and safety context.",
+    "eyebrow": "Kitchen Traditions",
+    "intro": "This food-first page turns chamomile flowers and orange peel into a clear, beginner-friendly kitchen project. The goal is a balanced flavor, a practical method, and enough context to make the recipe feel approachable. It is written for readers who want a simple recipe before moving into ingredient profiles or traditional vocabulary. The result is a cup or bowl meant for everyday cooking, not a promise about a particular outcome.",
+    "recipe": {
+      "recipeYield": "2 cups or 2 small bowls",
+      "prepTime": "PT10M",
+      "totalTime": "PT35M",
+      "ingredients": [
+        "2 teaspoons to 1 tablespoon food-grade chamomile flowers",
+        "1 modest portion of orange peel",
+        "3 cups fresh water or a mild, unsalted cooking base",
+        "Optional: a small pinch of salt or a little sweetener, added only after tasting",
+        "Optional garnish: a slice of citrus, a few sesame seeds, or a tender herb leaf"
+      ],
+      "steps": [
+        "Check the ingredient. Use food-grade ingredients that smell clean and are stored dry. Rinse fresh produce if used.",
+        "Build the base. Add the water or mild base to a small saucepan. Add chamomile flowers and orange peel.",
+        "Warm gently. Bring the liquid just to a simmer, then reduce the heat. For a tea-style preparation, cover and steep; for a bowl or broth, keep a quiet simmer.",
+        "Taste before adjusting. After 10 minutes, taste a spoonful. Continue only if the flavor needs more time. Strong spices become dominant quickly.",
+        "Strain or serve. Remove hard whole spices or woody pieces. Serve warm, or cool fully and refrigerate for a chilled version."
+      ],
+      "servingNotes": [
+        "Keep the first version deliberately plain. A small bowl of rice, sliced fruit, toast, or a lightly seasoned vegetable dish gives the flavor room to be noticed. If you make a larger batch, label it with the date and refrigerate promptly."
+      ],
+      "caution": [
+        "Use this as a recipe, not as a fixed routine for every reader. FDA guidance on spices emphasizes ordinary food-safety practices such as clean handling and appropriate cooking when needed. Concentrated products are different from food ingredients; NCCIH notes that supplement products may pose different considerations from everyday foods."
+      ]
+    },
+    "sections": [
+      {
+        "title": "A beginner-friendly kitchen structure",
+        "paragraphs": [
+          "A good first batch keeps the formula short: one lead ingredient, one supporting note, clean water or a simple base, and a measured cooking time. Here, chamomile flowers provides the main character while orange peel keeps the flavor familiar. Taste near the end instead of adding extra ingredients all at once.",
+          "In HerbGuide's kitchen writing, traditional food context is offered as a way to understand ingredients and pairings. It is not a personal label or a one-size-fits-all instruction."
+        ]
+      },
+      {
+        "title": "Why this recipe works in a home kitchen",
+        "paragraphs": [
+          "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
+        ]
+      }
+    ],
+    "references": [
+      "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
+      "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
+      "U.S. Food and Drug Administration. CPG Sec. 525.750: Spices—Definitions. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525750-spices-definitions"
+    ]
+  },
+  {
+    "slug": "iced-chamomile-tea-a-light-floral-drink-for-warm-afternoons",
+    "title": "Iced Chamomile Tea: A Light Floral Drink for Warm Afternoons",
+    "description": "A light iced chamomile tea recipe with chamomile flowers and lemon slices: a cooling, floral drink for warm afternoons with clear steps and serving notes.",
+    "eyebrow": "Kitchen Traditions",
+    "intro": "This food-first page turns chamomile flowers and lemon slices into a clear, beginner-friendly kitchen project. The goal is a balanced flavor, a practical method, and enough context to make the recipe feel approachable. It is written for readers who want a simple recipe before moving into ingredient profiles or traditional vocabulary. The result is a cup or bowl meant for everyday cooking, not a promise about a particular outcome.",
+    "recipe": {
+      "recipeYield": "2 cups or 2 small bowls",
+      "prepTime": "PT10M",
+      "totalTime": "PT35M",
+      "ingredients": [
+        "2 teaspoons to 1 tablespoon food-grade chamomile flowers",
+        "1 modest portion of lemon slices",
+        "3 cups fresh water or a mild, unsalted cooking base",
+        "Optional: a small pinch of salt or a little sweetener, added only after tasting",
+        "Optional garnish: a slice of citrus, a few sesame seeds, or a tender herb leaf"
+      ],
+      "steps": [
+        "Check the ingredient. Use food-grade ingredients that smell clean and are stored dry. Rinse fresh produce if used.",
+        "Build the base. Add the water or mild base to a small saucepan. Add chamomile flowers and lemon slices.",
+        "Warm gently. Bring the liquid just to a simmer, then reduce the heat. For a tea-style preparation, cover and steep; for a bowl or broth, keep a quiet simmer.",
+        "Taste before adjusting. After 10 minutes, taste a spoonful. Continue only if the flavor needs more time. Strong spices become dominant quickly.",
+        "Strain or serve. Remove hard whole spices or woody pieces. Serve warm, or cool fully and refrigerate for a chilled version."
+      ],
+      "servingNotes": [
+        "Keep the first version deliberately plain. A small bowl of rice, sliced fruit, toast, or a lightly seasoned vegetable dish gives the flavor room to be noticed. If you make a larger batch, label it with the date and refrigerate promptly."
+      ],
+      "caution": [
+        "Use this as a recipe, not as a fixed routine for every reader. FDA guidance on spices emphasizes ordinary food-safety practices such as clean handling and appropriate cooking when needed. Concentrated products are different from food ingredients; NCCIH notes that supplement products may pose different considerations from everyday foods."
+      ]
+    },
+    "sections": [
+      {
+        "title": "A beginner-friendly kitchen structure",
+        "paragraphs": [
+          "A good first batch keeps the formula short: one lead ingredient, one supporting note, clean water or a simple base, and a measured cooking time. Here, chamomile flowers provides the main character while lemon slices keeps the flavor familiar. Taste near the end instead of adding extra ingredients all at once.",
+          "In HerbGuide's kitchen writing, traditional food context is offered as a way to understand ingredients and pairings. It is not a personal label or a one-size-fits-all instruction."
+        ]
+      },
+      {
+        "title": "Why this recipe works in a home kitchen",
+        "paragraphs": [
+          "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
+        ]
+      }
+    ],
+    "references": [
+      "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
+      "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
+      "U.S. Food and Drug Administration. CPG Sec. 525.750: Spices—Definitions. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525750-spices-definitions"
+    ]
+  },
+  {
+    "slug": "peppermint-tea-a-bright-simple-pantry-infusion",
+    "title": "Peppermint Tea: A Bright, Simple Pantry Infusion",
+    "description": "A bright peppermint tea recipe with peppermint leaves and lemon peel: a simple pantry infusion with clear steeping steps, serving notes, and safety context.",
+    "eyebrow": "Kitchen Traditions",
+    "intro": "This food-first page turns peppermint leaves and lemon peel into a clear, beginner-friendly kitchen project. The goal is a balanced flavor, a practical method, and enough context to make the recipe feel approachable. It is written for readers who want a simple recipe before moving into ingredient profiles or traditional vocabulary. The result is a cup or bowl meant for everyday cooking, not a promise about a particular outcome.",
+    "recipe": {
+      "recipeYield": "2 cups or 2 small bowls",
+      "prepTime": "PT10M",
+      "totalTime": "PT35M",
+      "ingredients": [
+        "2 teaspoons to 1 tablespoon food-grade peppermint leaves",
+        "1 modest portion of lemon peel",
+        "3 cups fresh water or a mild, unsalted cooking base",
+        "Optional: a small pinch of salt or a little sweetener, added only after tasting",
+        "Optional garnish: a slice of citrus, a few sesame seeds, or a tender herb leaf"
+      ],
+      "steps": [
+        "Check the ingredient. Use food-grade ingredients that smell clean and are stored dry. Rinse fresh produce if used.",
+        "Build the base. Add the water or mild base to a small saucepan. Add peppermint leaves and lemon peel.",
+        "Warm gently. Bring the liquid just to a simmer, then reduce the heat. For a tea-style preparation, cover and steep; for a bowl or broth, keep a quiet simmer.",
+        "Taste before adjusting. After 10 minutes, taste a spoonful. Continue only if the flavor needs more time. Strong spices become dominant quickly.",
+        "Strain or serve. Remove hard whole spices or woody pieces. Serve warm, or cool fully and refrigerate for a chilled version."
+      ],
+      "servingNotes": [
+        "Keep the first version deliberately plain. A small bowl of rice, sliced fruit, toast, or a lightly seasoned vegetable dish gives the flavor room to be noticed. If you make a larger batch, label it with the date and refrigerate promptly."
+      ],
+      "caution": [
+        "Use this as a recipe, not as a fixed routine for every reader. FDA guidance on spices emphasizes ordinary food-safety practices such as clean handling and appropriate cooking when needed. Concentrated products are different from food ingredients; NCCIH notes that supplement products may pose different considerations from everyday foods."
+      ]
+    },
+    "sections": [
+      {
+        "title": "A beginner-friendly kitchen structure",
+        "paragraphs": [
+          "A good first batch keeps the formula short: one lead ingredient, one supporting note, clean water or a simple base, and a measured cooking time. Here, peppermint leaves provides the main character while lemon peel keeps the flavor familiar. Taste near the end instead of adding extra ingredients all at once.",
+          "In HerbGuide's kitchen writing, traditional food context is offered as a way to understand ingredients and pairings. It is not a personal label or a one-size-fits-all instruction."
+        ]
+      },
+      {
+        "title": "Why this recipe works in a home kitchen",
+        "paragraphs": [
+          "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
+        ]
+      }
+    ],
+    "references": [
+      "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
+      "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
+      "U.S. Food and Drug Administration. CPG Sec. 525.750: Spices—Definitions. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525750-spices-definitions"
+    ]
+  },
+  {
+    "slug": "iced-mint-tea-a-crisp-make-ahead-pitcher-recipe",
+    "title": "Iced Mint Tea: A Crisp Make-Ahead Pitcher Recipe",
+    "description": "A crisp iced mint tea recipe with fresh mint leaves and cucumber slices: a make-ahead pitcher drink with clear steps and serving notes.",
+    "eyebrow": "Kitchen Traditions",
+    "intro": "This food-first page turns fresh mint leaves and cucumber slices into a clear, beginner-friendly kitchen project. The goal is a balanced flavor, a practical method, and enough context to make the recipe feel approachable. It is written for readers who want a simple recipe before moving into ingredient profiles or traditional vocabulary. The result is a cup or bowl meant for everyday cooking, not a promise about a particular outcome.",
+    "recipe": {
+      "recipeYield": "2 cups or 2 small bowls",
+      "prepTime": "PT10M",
+      "totalTime": "PT35M",
+      "ingredients": [
+        "2 teaspoons to 1 tablespoon food-grade fresh mint leaves",
+        "1 modest portion of cucumber slices",
+        "3 cups fresh water or a mild, unsalted cooking base",
+        "Optional: a small pinch of salt or a little sweetener, added only after tasting",
+        "Optional garnish: a slice of citrus, a few sesame seeds, or a tender herb leaf"
+      ],
+      "steps": [
+        "Check the ingredient. Use food-grade ingredients that smell clean and are stored dry. Rinse fresh produce if used.",
+        "Build the base. Add the water or mild base to a small saucepan. Add fresh mint leaves and cucumber slices.",
+        "Warm gently. Bring the liquid just to a simmer, then reduce the heat. For a tea-style preparation, cover and steep; for a bowl or broth, keep a quiet simmer.",
+        "Taste before adjusting. After 10 minutes, taste a spoonful. Continue only if the flavor needs more time. Strong spices become dominant quickly.",
+        "Strain or serve. Remove hard whole spices or woody pieces. Serve warm, or cool fully and refrigerate for a chilled version."
+      ],
+      "servingNotes": [
+        "Keep the first version deliberately plain. A small bowl of rice, sliced fruit, toast, or a lightly seasoned vegetable dish gives the flavor room to be noticed. If you make a larger batch, label it with the date and refrigerate promptly."
+      ],
+      "caution": [
+        "Use this as a recipe, not as a fixed routine for every reader. FDA guidance on spices emphasizes ordinary food-safety practices such as clean handling and appropriate cooking when needed. Concentrated products are different from food ingredients; NCCIH notes that supplement products may pose different considerations from everyday foods."
+      ]
+    },
+    "sections": [
+      {
+        "title": "A beginner-friendly kitchen structure",
+        "paragraphs": [
+          "A good first batch keeps the formula short: one lead ingredient, one supporting note, clean water or a simple base, and a measured cooking time. Here, fresh mint leaves provides the main character while cucumber slices keeps the flavor familiar. Taste near the end instead of adding extra ingredients all at once.",
+          "In HerbGuide's kitchen writing, traditional food context is offered as a way to understand ingredients and pairings. It is not a personal label or a one-size-fits-all instruction."
+        ]
+      },
+      {
+        "title": "Why this recipe works in a home kitchen",
+        "paragraphs": [
+          "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
+        ]
+      }
+    ],
+    "references": [
+      "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
+      "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
+      "U.S. Food and Drug Administration. CPG Sec. 525.750: Spices—Definitions. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525750-spices-definitions"
+    ]
+  },
+  {
+    "slug": "hibiscus-tea-a-tart-ruby-pantry-infusion",
+    "title": "Hibiscus Tea: A Tart Ruby Pantry Infusion",
+    "description": "A tart hibiscus tea recipe with dried hibiscus flowers and orange peel: a ruby pantry infusion with clear steeping steps, serving notes, and safety context.",
+    "eyebrow": "Kitchen Traditions",
+    "intro": "This food-first page turns dried hibiscus flowers and orange peel into a clear, beginner-friendly kitchen project. The goal is a balanced flavor, a practical method, and enough context to make the recipe feel approachable. It is written for readers who want a simple recipe before moving into ingredient profiles or traditional vocabulary. The result is a cup or bowl meant for everyday cooking, not a promise about a particular outcome.",
+    "recipe": {
+      "recipeYield": "2 cups or 2 small bowls",
+      "prepTime": "PT10M",
+      "totalTime": "PT35M",
+      "ingredients": [
+        "2 teaspoons to 1 tablespoon food-grade dried hibiscus flowers",
+        "1 modest portion of orange peel",
+        "3 cups fresh water or a mild, unsalted cooking base",
+        "Optional: a small pinch of salt or a little sweetener, added only after tasting",
+        "Optional garnish: a slice of citrus, a few sesame seeds, or a tender herb leaf"
+      ],
+      "steps": [
+        "Check the ingredient. Use food-grade ingredients that smell clean and are stored dry. Rinse fresh produce if used.",
+        "Build the base. Add the water or mild base to a small saucepan. Add dried hibiscus flowers and orange peel.",
+        "Warm gently. Bring the liquid just to a simmer, then reduce the heat. For a tea-style preparation, cover and steep; for a bowl or broth, keep a quiet simmer.",
+        "Taste before adjusting. After 10 minutes, taste a spoonful. Continue only if the flavor needs more time. Strong spices become dominant quickly.",
+        "Strain or serve. Remove hard whole spices or woody pieces. Serve warm, or cool fully and refrigerate for a chilled version."
+      ],
+      "servingNotes": [
+        "Keep the first version deliberately plain. A small bowl of rice, sliced fruit, toast, or a lightly seasoned vegetable dish gives the flavor room to be noticed. If you make a larger batch, label it with the date and refrigerate promptly."
+      ],
+      "caution": [
+        "Use this as a recipe, not as a fixed routine for every reader. FDA guidance on spices emphasizes ordinary food-safety practices such as clean handling and appropriate cooking when needed. Concentrated products are different from food ingredients; NCCIH notes that supplement products may pose different considerations from everyday foods."
+      ]
+    },
+    "sections": [
+      {
+        "title": "A beginner-friendly kitchen structure",
+        "paragraphs": [
+          "A good first batch keeps the formula short: one lead ingredient, one supporting note, clean water or a simple base, and a measured cooking time. Here, dried hibiscus flowers provides the main character while orange peel keeps the flavor familiar. Taste near the end instead of adding extra ingredients all at once.",
+          "In HerbGuide's kitchen writing, traditional food context is offered as a way to understand ingredients and pairings. It is not a personal label or a one-size-fits-all instruction."
+        ]
+      },
+      {
+        "title": "Why this recipe works in a home kitchen",
+        "paragraphs": [
+          "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
+        ]
+      }
+    ],
+    "references": [
+      "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
+      "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
+      "U.S. Food and Drug Administration. CPG Sec. 525.750: Spices—Definitions. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525750-spices-definitions"
+    ]
+  },
 ];

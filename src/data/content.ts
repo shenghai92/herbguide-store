@@ -561,6 +561,31 @@ const rawRecipeCards = [
     title: "Ginger and Brown Sugar Tea for Cold Relief",
     text: "The immediate traditional response for cold and chills — fresh ginger and brown sugar promote a light sweat to push out Wind-Cold before it settles deeper into the body.",
   },
+  {
+    "slug": "chamomile-tea-a-simple-floral-cup-for-your-evening-kitchen",
+    "title": "Chamomile Tea: A Simple Floral Cup for Your Evening Kitchen",
+    "text": "A simple chamomile tea recipe with dried chamomile flowers and orange peel: a gentle, floral evening cup with clear steeping steps, serving notes, and safety context."
+  },
+  {
+    "slug": "iced-chamomile-tea-a-light-floral-drink-for-warm-afternoons",
+    "title": "Iced Chamomile Tea: A Light Floral Drink for Warm Afternoons",
+    "text": "A light iced chamomile tea recipe with chamomile flowers and lemon slices: a cooling, floral drink for warm afternoons with clear steps and serving notes."
+  },
+  {
+    "slug": "peppermint-tea-a-bright-simple-pantry-infusion",
+    "title": "Peppermint Tea: A Bright, Simple Pantry Infusion",
+    "text": "A bright peppermint tea recipe with peppermint leaves and lemon peel: a simple pantry infusion with clear steeping steps, serving notes, and safety context."
+  },
+  {
+    "slug": "iced-mint-tea-a-crisp-make-ahead-pitcher-recipe",
+    "title": "Iced Mint Tea: A Crisp Make-Ahead Pitcher Recipe",
+    "text": "A crisp iced mint tea recipe with fresh mint leaves and cucumber slices: a make-ahead pitcher drink with clear steps and serving notes."
+  },
+  {
+    "slug": "hibiscus-tea-a-tart-ruby-pantry-infusion",
+    "title": "Hibiscus Tea: A Tart Ruby Pantry Infusion",
+    "text": "A tart hibiscus tea recipe with dried hibiscus flowers and orange peel: a ruby pantry infusion with clear steeping steps, serving notes, and safety context."
+  },
 ];
 
 export const recipeCards = rawRecipeCards.map((card) => sanitizeContentCard(card));

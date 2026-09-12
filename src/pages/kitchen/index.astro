@@ -38,6 +38,11 @@ const recipeSearchThemes: Record<string, string[]> = {
   "cassia-seed-and-corn-silk-tea-basics": ["cassia seed tea", "corn silk tea", "seasonal tea", "pantry tea"],
   "astragalus-and-jujube-chicken-broth": ["warming", "winter soup", "astragalus", "chicken broth", "comfort"],
   "poria-and-coix-seed-congee": ["dampness", "congee", "grain", "digestive", "gentle"],
+  "chamomile-tea-a-simple-floral-cup-for-your-evening-kitchen": ["calming", "tea", "floral", "evening", "chamomile"],
+  "iced-chamomile-tea-a-light-floral-drink-for-warm-afternoons": ["cooling", "iced tea", "floral", "chamomile", "summer"],
+  "peppermint-tea-a-bright-simple-pantry-infusion": ["cooling", "tea", "mint", "pantry", "refreshing"],
+  "iced-mint-tea-a-crisp-make-ahead-pitcher-recipe": ["cooling", "iced tea", "mint", "pitcher", "summer"],
+  "hibiscus-tea-a-tart-ruby-pantry-infusion": ["cooling", "tea", "hibiscus", "tart", "ruby"],
 };
 
 const recipeCategoryMap: Record<string, string> = {
@@ -75,6 +80,11 @@ const recipeCategoryMap: Record<string, string> = {
   "cassia-seed-and-corn-silk-tea-basics": "Balanced",
   "astragalus-and-jujube-chicken-broth": "Warming",
   "poria-and-coix-seed-congee": "Digestive",
+  "chamomile-tea-a-simple-floral-cup-for-your-evening-kitchen": "Calming",
+  "iced-chamomile-tea-a-light-floral-drink-for-warm-afternoons": "Cooling",
+  "peppermint-tea-a-bright-simple-pantry-infusion": "Pantry Basics",
+  "iced-mint-tea-a-crisp-make-ahead-pitcher-recipe": "Cooling",
+  "hibiscus-tea-a-tart-ruby-pantry-infusion": "Cooling",
 };
 
 const recipeCategories = Array.from(new Set(recipeCards.map((card) => recipeCategoryMap[card.slug] ?? "Balanced")));

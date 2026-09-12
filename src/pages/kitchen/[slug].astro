@@ -269,6 +269,46 @@ const articleSeoMap: Record<
     heroNote:
       "Readers who search tangerine peel tea usually want a soft citrus cup with a gentle fruit finish, so this page keeps the simmer low and the ingredient list simple.",
   },
+  "chamomile-tea-a-simple-floral-cup-for-your-evening-kitchen": {
+    title: "Chamomile Tea Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A simple chamomile tea recipe with dried chamomile flowers and orange peel, clear steeping steps, serving notes, and food-first safety context.",
+    extraKeywords: ["chamomile tea", "chamomile tea recipe", "how to make chamomile tea", "floral tea recipe", "evening herbal tea"],
+    heroNote:
+      "Readers who search chamomile tea usually want a simple, gentle evening cup, so this page keeps the method clear and the ingredient list short.",
+  },
+  "iced-chamomile-tea-a-light-floral-drink-for-warm-afternoons": {
+    title: "Iced Chamomile Tea Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A light iced chamomile tea recipe with chamomile flowers and lemon, clear cooling steps, serving notes, and food-first safety context.",
+    extraKeywords: ["iced chamomile tea", "iced chamomile tea recipe", "cold chamomile tea", "floral iced tea", "chamomile lemon drink"],
+    heroNote:
+      "Readers who search iced chamomile tea usually want a light, cooling pitcher for warm afternoons, so this page keeps the method simple and the flavor gentle.",
+  },
+  "peppermint-tea-a-bright-simple-pantry-infusion": {
+    title: "Peppermint Tea Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A bright peppermint tea recipe with peppermint leaves and lemon peel, clear steeping steps, serving notes, and food-first safety context.",
+    extraKeywords: ["peppermint tea", "peppermint tea recipe", "mint tea", "peppermint infusion", "how to make peppermint tea"],
+    heroNote:
+      "Readers who search peppermint tea usually want a bright, refreshing pantry cup, so this page keeps the ingredient list short and the method direct.",
+  },
+  "iced-mint-tea-a-crisp-make-ahead-pitcher-recipe": {
+    title: "Iced Mint Tea Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A crisp iced mint tea recipe with fresh mint leaves and cucumber, a make-ahead pitcher method, serving notes, and food-first safety context.",
+    extraKeywords: ["iced mint tea", "iced mint tea recipe", "mint iced tea", "mint cucumber water", "make ahead iced tea"],
+    heroNote:
+      "Readers who search iced mint tea usually want a crisp make-ahead pitcher, so this page keeps the method simple and the flavor refreshing.",
+  },
+  "hibiscus-tea-a-tart-ruby-pantry-infusion": {
+    title: "Hibiscus Tea Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A tart hibiscus tea recipe with dried hibiscus flowers and orange peel, clear steeping steps, serving notes, and food-first safety context.",
+    extraKeywords: ["hibiscus tea", "hibiscus tea recipe", "dried hibiscus tea", "tart herbal tea", "ruby hibiscus drink"],
+    heroNote:
+      "Readers who search hibiscus tea usually want a tart, ruby pantry infusion, so this page keeps the method clear and the ingredient list short.",
+  },
 };
 const articleSeo = articleSeoMap[article.slug];
 const recipeSchemaImageMap: Record<string, { src: string; alt: string }> = {
@@ -454,6 +494,11 @@ const recipeCuisineMap: Record<string, string> = {
   "lotus-root-soup-basics": "Chinese-inspired soup",
   "astragalus-and-jujube-chicken-broth": "Chinese-inspired soup",
   "poria-and-coix-seed-congee": "Chinese-inspired congee",
+  "chamomile-tea-a-simple-floral-cup-for-your-evening-kitchen": "Chinese-inspired tea",
+  "iced-chamomile-tea-a-light-floral-drink-for-warm-afternoons": "Chinese-inspired tea",
+  "peppermint-tea-a-bright-simple-pantry-infusion": "Chinese-inspired tea",
+  "iced-mint-tea-a-crisp-make-ahead-pitcher-recipe": "Chinese-inspired tea",
+  "hibiscus-tea-a-tart-ruby-pantry-infusion": "Chinese-inspired tea",
 };
 const recipePageVisualMap: Record<string, { src: string; alt: string }> = {
   "5-easy-traditional-kitchen-ingredients-for-beginners": {
@@ -946,6 +991,31 @@ const recipeLinkMap: Record<string, Array<{ title: string; href: string }>> = {
     { title: "A Simple Warming Soup Guide for Cold Weather", href: "/kitchen/a-simple-warming-soup-guide-for-cold-weather/" },
     { title: "Perilla and Ginger Soup for Cool Days", href: "/kitchen/perilla-and-ginger-soup-for-cool-days/" },
     { title: "Chinese Yam and Carrot Soup Basics", href: "/kitchen/chinese-yam-and-carrot-soup-basics/" },
+  ],
+  "chamomile-tea-a-simple-floral-cup-for-your-evening-kitchen": [
+    { title: "Chrysanthemum Tea Basics", href: "/kitchen/chrysanthemum-tea-basics/" },
+    { title: "Iced Chamomile Tea for Warm Afternoons", href: "/kitchen/iced-chamomile-tea-a-light-floral-drink-for-warm-afternoons/" },
+    { title: "Jujube and Ginger Tea for Busy Weeks", href: "/kitchen/jujube-and-ginger-tea-for-busy-weeks/" },
+  ],
+  "iced-chamomile-tea-a-light-floral-drink-for-warm-afternoons": [
+    { title: "Chamomile Tea for Your Evening Kitchen", href: "/kitchen/chamomile-tea-a-simple-floral-cup-for-your-evening-kitchen/" },
+    { title: "Chrysanthemum and Mint Cooling Tea Basics", href: "/kitchen/chrysanthemum-and-mint-cooling-tea-basics/" },
+    { title: "Pear and Chrysanthemum Tea for Warm Afternoons", href: "/kitchen/pear-and-chrysanthemum-tea-for-warm-afternoons/" },
+  ],
+  "peppermint-tea-a-bright-simple-pantry-infusion": [
+    { title: "Iced Mint Tea Make-Ahead Pitcher", href: "/kitchen/iced-mint-tea-a-crisp-make-ahead-pitcher-recipe/" },
+    { title: "Chrysanthemum and Mint Cooling Tea Basics", href: "/kitchen/chrysanthemum-and-mint-cooling-tea-basics/" },
+    { title: "Hibiscus Tea Tart Ruby Infusion", href: "/kitchen/hibiscus-tea-a-tart-ruby-pantry-infusion/" },
+  ],
+  "iced-mint-tea-a-crisp-make-ahead-pitcher-recipe": [
+    { title: "Peppermint Tea Simple Pantry Infusion", href: "/kitchen/peppermint-tea-a-bright-simple-pantry-infusion/" },
+    { title: "Chrysanthemum and Mint Cooling Tea Basics", href: "/kitchen/chrysanthemum-and-mint-cooling-tea-basics/" },
+    { title: "Pear and Chrysanthemum Tea for Warm Afternoons", href: "/kitchen/pear-and-chrysanthemum-tea-for-warm-afternoons/" },
+  ],
+  "hibiscus-tea-a-tart-ruby-pantry-infusion": [
+    { title: "Peppermint Tea Simple Pantry Infusion", href: "/kitchen/peppermint-tea-a-bright-simple-pantry-infusion/" },
+    { title: "Chrysanthemum Tea Basics", href: "/kitchen/chrysanthemum-tea-basics/" },
+    { title: "Iced Mint Tea Make-Ahead Pitcher", href: "/kitchen/iced-mint-tea-a-crisp-make-ahead-pitcher-recipe/" },
   ],
 };
 const relatedRecipes = recipeLinkMap[article.slug] ?? [];
