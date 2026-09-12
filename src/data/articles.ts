@@ -9550,8 +9550,18 @@ export const foodTherapyArticles: ContentArticle[] = [
           "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
         ]
       }
+,
+      {
+        "title": "Why it works: Tradition meets science",
+        "paragraphs": [
+          "Chamomile has a long history as a gentle, apple-scented infusion in Western kitchens, traditionally served warm in the evening or after a meal. On HerbGuide it is treated as a food-first pantry ingredient — a floral cup made from dried flowers and a small strip of orange peel — rather than a treatment for any condition.",
+          "German chamomile (Matricaria chamomilla) is rich in flavonoids, especially apigenin, which researchers have examined in preliminary studies on sleep and mild anxiety with mixed but promising results. Orange peel adds citrus flavonoids such as hesperidin and the aromatic compound d-limonene, which keep the cup bright rather than heavy. The page keeps these notes culinary and descriptive rather than medical."
+        ]
+      },
     ],
     "references": [
+      "National Center for Complementary and Integrative Health. Chamomile. https://www.nccih.nih.gov/health/chamomile",
+      "Dai Y-L, Li Y, Wang Q, et al. Chamomile: a review of its traditional uses, chemical constituents, pharmacological activities and quality control studies. Molecules. 2022;28(1):133.",
       "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
       "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
       "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
@@ -9603,8 +9613,18 @@ export const foodTherapyArticles: ContentArticle[] = [
           "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
         ]
       }
+,
+      {
+        "title": "Why it works: Tradition meets science",
+        "paragraphs": [
+          "Served cold, chamomile shifts from a cozy bedtime cup into a light afternoon cooler. The habit of drinking floral infusions chilled over ice is shared by many tea traditions, and it is presented here as a simple kitchen technique rather than a wellness claim.",
+          "Chamomile's flavonoids, including apigenin, carry the flower's mild, honeyed character, while lemon contributes vitamin C and citric acid that brighten the brew and lift the finish. Chilling mutes some of the floral aroma and emphasizes the clean, cooling sip. These are flavor observations, not health advice."
+        ]
+      },
     ],
     "references": [
+      "National Center for Complementary and Integrative Health. Chamomile. https://www.nccih.nih.gov/health/chamomile",
+      "Dai Y-L, Li Y, Wang Q, et al. Chamomile: a review of its traditional uses, chemical constituents, pharmacological activities and quality control studies. Molecules. 2022;28(1):133.",
       "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
       "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
       "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
@@ -9656,8 +9676,18 @@ export const foodTherapyArticles: ContentArticle[] = [
           "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
         ]
       }
+,
+      {
+        "title": "Why it works: Tradition meets science",
+        "paragraphs": [
+          "Peppermint is a classic Western kitchen mint, traditionally steeped after meals as a bright, cooling cup. On HerbGuide it is framed as pantry language — a brisk, refreshing infusion made from dried leaves and a ribbon of lemon peel — not as a remedy.",
+          "Peppermint (Mentha x piperita) contains menthol and other volatile oils that give the tea its cool, clearing feel. Research has focused mainly on enteric-coated peppermint oil for digestive comfort, with the strongest evidence around irritable bowel symptoms, while peppermint tea has been studied for milder antioxidant and flavor effects. Lemon peel adds citrus flavonoids. The framing stays food-first."
+        ]
+      },
     ],
     "references": [
+      "National Center for Complementary and Integrative Health. Peppermint Oil. https://www.nccih.nih.gov/health/peppermint-oil",
+      "McKay DL, Blumberg JB. A review of the bioactivity and potential health benefits of peppermint tea (Mentha piperita L.). Phytotherapy Research. 2006;20(8):619-633.",
       "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
       "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
       "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
@@ -9709,8 +9739,18 @@ export const foodTherapyArticles: ContentArticle[] = [
           "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
         ]
       }
+,
+      {
+        "title": "Why it works: Tradition meets science",
+        "paragraphs": [
+          "Iced mint tea turns fresh mint into a crisp, make-ahead pitcher drink, a habit shared by many warm-weather kitchens. The cucumber slice adds a cool, watery note that stretches the mint without adding sweetness. This is presented as a simple kitchen project, not a health claim.",
+          "Mint's menthol gives the cool, tingling sensation on the palate, while cucumber is mostly water with a mild, fresh flavor and a few antioxidants. Chilling keeps the drink light and crisp. These are sensory and pantry notes rather than medical statements."
+        ]
+      },
     ],
     "references": [
+      "National Center for Complementary and Integrative Health. Peppermint Oil. https://www.nccih.nih.gov/health/peppermint-oil",
+      "McKay DL, Blumberg JB. A review of the bioactivity and potential health benefits of peppermint tea (Mentha piperita L.). Phytotherapy Research. 2006;20(8):619-633.",
       "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
       "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
       "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
@@ -9762,8 +9802,18 @@ export const foodTherapyArticles: ContentArticle[] = [
           "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
         ]
       }
+,
+      {
+        "title": "Why it works: Tradition meets science",
+        "paragraphs": [
+          "Hibiscus is a tart, ruby-red infusion known in many traditions — as karkade in the Middle East and North Africa and agua de jamaica in Mexico and Latin America — where it is usually served chilled and lightly sweetened as a cooling refresher. On HerbGuide it is a pantry drink, not a treatment.",
+          "The deep red color comes from anthocyanins and other polyphenols in Hibiscus sabdariffa; preliminary research has looked at hibiscus for blood-pressure support, though the evidence is still developing. Orange peel adds citrus flavonoids and a gentle bitter edge that balances the tartness. The page keeps the language culinary and descriptive."
+        ]
+      },
     ],
     "references": [
+      "Riaz G, Chopra R. A review on phytochemistry and therapeutic uses of Hibiscus sabdariffa L. Biomedicine & Pharmacotherapy. 2018;102:575-586.",
+      "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central: hibiscus and citrus ingredient profiles. https://fdc.nal.usda.gov/",
       "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
       "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
       "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
