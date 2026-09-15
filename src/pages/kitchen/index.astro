@@ -43,6 +43,11 @@ const recipeSearchThemes: Record<string, string[]> = {
   "peppermint-tea-a-bright-simple-pantry-infusion": ["cooling", "tea", "mint", "pantry", "refreshing"],
   "iced-mint-tea-a-crisp-make-ahead-pitcher-recipe": ["cooling", "iced tea", "mint", "pitcher", "summer"],
   "hibiscus-tea-a-tart-ruby-pantry-infusion": ["cooling", "tea", "hibiscus", "tart", "ruby"],
+  "iced-hibiscus-tea-a-tangy-make-ahead-summer-drink": ["cooling", "iced tea", "hibiscus", "tangy", "summer"],
+  "hibiscus-agua-fresca-a-tart-floral-kitchen-drink": ["cooling", "hibiscus", "agua fresca", "tart", "cinnamon"],
+  "lemongrass-tea-a-citrusy-stovetop-infusion": ["pantry", "tea", "lemongrass", "citrus", "stovetop"],
+  "lemongrass-ginger-tea-a-bright-warming-pantry-cup": ["warming", "tea", "lemongrass", "ginger", "pantry"],
+  "lemon-balm-tea-a-soft-citrus-herb-infusion": ["calming", "tea", "lemon balm", "citrus", "evening"],
 };
 
 const recipeCategoryMap: Record<string, string> = {
@@ -85,6 +90,11 @@ const recipeCategoryMap: Record<string, string> = {
   "peppermint-tea-a-bright-simple-pantry-infusion": "Pantry Basics",
   "iced-mint-tea-a-crisp-make-ahead-pitcher-recipe": "Cooling",
   "hibiscus-tea-a-tart-ruby-pantry-infusion": "Cooling",
+  "iced-hibiscus-tea-a-tangy-make-ahead-summer-drink": "Cooling",
+  "hibiscus-agua-fresca-a-tart-floral-kitchen-drink": "Cooling",
+  "lemongrass-tea-a-citrusy-stovetop-infusion": "Pantry Basics",
+  "lemongrass-ginger-tea-a-bright-warming-pantry-cup": "Warming",
+  "lemon-balm-tea-a-soft-citrus-herb-infusion": "Calming",
 };
 
 const recipeCategories = Array.from(new Set(recipeCards.map((card) => recipeCategoryMap[card.slug] ?? "Balanced")));

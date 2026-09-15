@@ -586,6 +586,31 @@ const rawRecipeCards = [
     "title": "Hibiscus Tea: A Tart Ruby Pantry Infusion",
     "text": "A tart hibiscus tea recipe with dried hibiscus flowers and orange peel: a ruby pantry infusion with clear steeping steps, serving notes, and safety context."
   },
+  {
+    "slug": "iced-hibiscus-tea-a-tangy-make-ahead-summer-drink",
+    "title": "Iced Hibiscus Tea: A Tangy Make-Ahead Summer Drink",
+    "text": "A tangy iced hibiscus tea recipe with dried hibiscus flowers and fresh lime: a make-ahead summer drink with clear steps and serving notes."
+  },
+  {
+    "slug": "hibiscus-agua-fresca-a-tart-floral-kitchen-drink",
+    "title": "Hibiscus Agua Fresca: A Tart Floral Kitchen Drink",
+    "text": "A tart hibiscus agua fresca recipe with dried hibiscus flowers and cinnamon: a floral kitchen drink with clear steps and serving notes."
+  },
+  {
+    "slug": "lemongrass-tea-a-citrusy-stovetop-infusion",
+    "title": "Lemongrass Tea: A Citrusy Stovetop Infusion",
+    "text": "A citrusy lemongrass tea recipe with fresh lemongrass and lime peel: a stovetop infusion with clear steps and serving notes."
+  },
+  {
+    "slug": "lemongrass-ginger-tea-a-bright-warming-pantry-cup",
+    "title": "Lemongrass Ginger Tea: A Bright Warming Pantry Cup",
+    "text": "A bright lemongrass ginger tea recipe with fresh lemongrass and ginger: a warming pantry cup with clear steps and serving notes."
+  },
+  {
+    "slug": "lemon-balm-tea-a-soft-citrus-herb-infusion",
+    "title": "Lemon Balm Tea: A Soft Citrus-Herb Infusion",
+    "text": "A soft lemon balm tea recipe with dried lemon balm and apple slices: a citrus-herb infusion with clear steps and serving notes."
+  },
 ];
 
 export const recipeCards = rawRecipeCards.map((card) => sanitizeContentCard(card));

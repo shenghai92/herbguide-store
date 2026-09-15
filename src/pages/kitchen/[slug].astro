@@ -309,6 +309,46 @@ const articleSeoMap: Record<
     heroNote:
       "Readers who search hibiscus tea usually want a tart, ruby pantry infusion, so this page keeps the method clear and the ingredient list short.",
   },
+  "iced-hibiscus-tea-a-tangy-make-ahead-summer-drink": {
+    title: "Iced Hibiscus Tea Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A tangy iced hibiscus tea recipe with dried hibiscus flowers and fresh lime, a make-ahead summer drink with clear steps and serving notes.",
+    extraKeywords: ["iced hibiscus tea", "iced hibiscus tea recipe", "hibiscus lime drink", "cold hibiscus tea", "jamaica iced tea"],
+    heroNote:
+      "Readers who search iced hibiscus tea usually want a tangy, make-ahead summer drink, so this page keeps the method simple and the flavor bright.",
+  },
+  "hibiscus-agua-fresca-a-tart-floral-kitchen-drink": {
+    title: "Hibiscus Agua Fresca Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A tart hibiscus agua fresca recipe with dried hibiscus flowers and cinnamon, a floral kitchen drink with clear steps and serving notes.",
+    extraKeywords: ["hibiscus agua fresca", "agua de jamaica", "hibiscus agua fresca recipe", "hibiscus cinnamon drink", "jamaica recipe"],
+    heroNote:
+      "Readers who search hibiscus agua fresca usually want the classic Mexican-style jamaica drink, so this page keeps the method clear and the flavor tart.",
+  },
+  "lemongrass-tea-a-citrusy-stovetop-infusion": {
+    title: "Lemongrass Tea Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A citrusy lemongrass tea recipe with fresh lemongrass and lime peel, a stovetop infusion with clear steps and serving notes.",
+    extraKeywords: ["lemongrass tea", "lemongrass tea recipe", "how to make lemongrass tea", "lemongrass infusion", "citrus herbal tea"],
+    heroNote:
+      "Readers who search lemongrass tea usually want a bright, citrusy stovetop cup, so this page keeps the method simple and the flavor clean.",
+  },
+  "lemongrass-ginger-tea-a-bright-warming-pantry-cup": {
+    title: "Lemongrass Ginger Tea Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A bright lemongrass ginger tea recipe with fresh lemongrass and ginger, a warming pantry cup with clear steps and serving notes.",
+    extraKeywords: ["lemongrass ginger tea", "lemongrass ginger tea recipe", "ginger lemongrass tea", "lemongrass ginger infusion", "warming herbal tea"],
+    heroNote:
+      "Readers who search lemongrass ginger tea usually want a bright but warming pantry cup, so this page keeps the ingredient list short and the method direct.",
+  },
+  "lemon-balm-tea-a-soft-citrus-herb-infusion": {
+    title: "Lemon Balm Tea Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A soft lemon balm tea recipe with dried lemon balm and apple slices, a citrus-herb infusion with clear steps and serving notes.",
+    extraKeywords: ["lemon balm tea", "lemon balm tea recipe", "melissa officinalis tea", "lemon balm infusion", "calming herbal tea"],
+    heroNote:
+      "Readers who search lemon balm tea usually want a soft, citrusy calming cup, so this page keeps the method gentle and the ingredient list short.",
+  },
 };
 const articleSeo = articleSeoMap[article.slug];
 const recipeSchemaImageMap: Record<string, { src: string; alt: string }> = {
@@ -499,6 +539,11 @@ const recipeCuisineMap: Record<string, string> = {
   "peppermint-tea-a-bright-simple-pantry-infusion": "Chinese-inspired tea",
   "iced-mint-tea-a-crisp-make-ahead-pitcher-recipe": "Chinese-inspired tea",
   "hibiscus-tea-a-tart-ruby-pantry-infusion": "Chinese-inspired tea",
+  "iced-hibiscus-tea-a-tangy-make-ahead-summer-drink": "Chinese-inspired tea",
+  "hibiscus-agua-fresca-a-tart-floral-kitchen-drink": "Chinese-inspired tea",
+  "lemongrass-tea-a-citrusy-stovetop-infusion": "Chinese-inspired tea",
+  "lemongrass-ginger-tea-a-bright-warming-pantry-cup": "Chinese-inspired tea",
+  "lemon-balm-tea-a-soft-citrus-herb-infusion": "Chinese-inspired tea",
 };
 const recipePageVisualMap: Record<string, { src: string; alt: string }> = {
   "5-easy-traditional-kitchen-ingredients-for-beginners": {
@@ -1016,6 +1061,31 @@ const recipeLinkMap: Record<string, Array<{ title: string; href: string }>> = {
     { title: "Peppermint Tea Simple Pantry Infusion", href: "/kitchen/peppermint-tea-a-bright-simple-pantry-infusion/" },
     { title: "Chrysanthemum Tea Basics", href: "/kitchen/chrysanthemum-tea-basics/" },
     { title: "Iced Mint Tea Make-Ahead Pitcher", href: "/kitchen/iced-mint-tea-a-crisp-make-ahead-pitcher-recipe/" },
+  ],
+  "iced-hibiscus-tea-a-tangy-make-ahead-summer-drink": [
+    { title: "Hibiscus Agua Fresca", href: "/kitchen/hibiscus-agua-fresca-a-tart-floral-kitchen-drink/" },
+    { title: "Hibiscus Tea Tart Ruby Infusion", href: "/kitchen/hibiscus-tea-a-tart-ruby-pantry-infusion/" },
+    { title: "Chrysanthemum Tea Basics", href: "/kitchen/chrysanthemum-tea-basics/" },
+  ],
+  "hibiscus-agua-fresca-a-tart-floral-kitchen-drink": [
+    { title: "Iced Hibiscus Tea Make-Ahead Summer Drink", href: "/kitchen/iced-hibiscus-tea-a-tangy-make-ahead-summer-drink/" },
+    { title: "Hibiscus Tea Tart Ruby Infusion", href: "/kitchen/hibiscus-tea-a-tart-ruby-pantry-infusion/" },
+    { title: "Chrysanthemum Tea Basics", href: "/kitchen/chrysanthemum-tea-basics/" },
+  ],
+  "lemongrass-tea-a-citrusy-stovetop-infusion": [
+    { title: "Lemongrass Ginger Tea Warming Pantry Cup", href: "/kitchen/lemongrass-ginger-tea-a-bright-warming-pantry-cup/" },
+    { title: "Tangerine Peel and Pear Warm Tea Basics", href: "/kitchen/tangerine-peel-and-pear-warm-tea-basics/" },
+    { title: "Lemon Balm Tea Soft Citrus-Herb Infusion", href: "/kitchen/lemon-balm-tea-a-soft-citrus-herb-infusion/" },
+  ],
+  "lemongrass-ginger-tea-a-bright-warming-pantry-cup": [
+    { title: "Lemongrass Tea Citrusy Stovetop Infusion", href: "/kitchen/lemongrass-tea-a-citrusy-stovetop-infusion/" },
+    { title: "Jujube and Ginger Tea for Busy Weeks", href: "/kitchen/jujube-and-ginger-tea-for-busy-weeks/" },
+    { title: "Peppermint Tea Simple Pantry Infusion", href: "/kitchen/peppermint-tea-a-bright-simple-pantry-infusion/" },
+  ],
+  "lemon-balm-tea-a-soft-citrus-herb-infusion": [
+    { title: "Chamomile Tea for Your Evening Kitchen", href: "/kitchen/chamomile-tea-a-simple-floral-cup-for-your-evening-kitchen/" },
+    { title: "Jasmine and Pear Tea Basics", href: "/kitchen/jasmine-and-pear-tea-basics/" },
+    { title: "Lemongrass Tea Citrusy Stovetop Infusion", href: "/kitchen/lemongrass-tea-a-citrusy-stovetop-infusion/" },
   ],
 };
 const relatedRecipes = recipeLinkMap[article.slug] ?? [];

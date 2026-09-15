@@ -9820,4 +9820,310 @@ export const foodTherapyArticles: ContentArticle[] = [
       "U.S. Food and Drug Administration. CPG Sec. 525.750: Spices—Definitions. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525750-spices-definitions"
     ]
   },
+  {
+    "slug": "iced-hibiscus-tea-a-tangy-make-ahead-summer-drink",
+    "title": "Iced Hibiscus Tea: A Tangy Make-Ahead Summer Drink",
+    "description": "A tangy iced hibiscus tea recipe with dried hibiscus flowers and fresh lime: a make-ahead summer drink with clear steps and serving notes.",
+    "eyebrow": "Kitchen Traditions",
+    "intro": "This food-first page turns dried hibiscus flowers and fresh lime into a clear, beginner-friendly kitchen project. The goal is a balanced flavor, a practical method, and enough context to make the recipe feel approachable. It is written for readers who want a simple recipe before moving into ingredient profiles or traditional vocabulary. The result is a cup or bowl meant for everyday cooking, not a promise about a particular outcome.",
+    "recipe": {
+      "recipeYield": "2 cups or 2 small bowls",
+      "prepTime": "PT10M",
+      "totalTime": "PT35M",
+      "ingredients": [
+        "2 teaspoons to 1 tablespoon food-grade dried hibiscus flowers",
+        "1 modest portion of fresh lime",
+        "3 cups fresh water or a mild, unsalted cooking base",
+        "Optional: a small pinch of salt or a little sweetener, added only after tasting",
+        "Optional garnish: a slice of citrus, a few sesame seeds, or a tender herb leaf"
+      ],
+      "steps": [
+        "Check the ingredient. Use food-grade ingredients that smell clean and are stored dry. Rinse fresh produce if used.",
+        "Build the base. Add the water or mild base to a small saucepan. Add dried hibiscus flowers and fresh lime.",
+        "Warm gently. Bring the liquid just to a simmer, then reduce the heat. For a tea-style preparation, cover and steep; for a bowl or broth, keep a quiet simmer.",
+        "Taste before adjusting. After 10 minutes, taste a spoonful. Continue only if the flavor needs more time. Strong spices become dominant quickly.",
+        "Strain or serve. Remove hard whole spices or woody pieces. Serve warm, or cool fully and refrigerate for a chilled version."
+      ],
+      "servingNotes": [
+        "Keep the first version deliberately plain. A small bowl of rice, sliced fruit, toast, or a lightly seasoned vegetable dish gives the flavor room to be noticed. If you make a larger batch, label it with the date and refrigerate promptly."
+      ],
+      "caution": [
+        "Use this as a recipe, not as a fixed routine for every reader. FDA guidance on spices emphasizes ordinary food-safety practices such as clean handling and appropriate cooking when needed. Concentrated products are different from food ingredients; NCCIH notes that supplement products may pose different considerations from everyday foods."
+      ]
+    },
+    "sections": [
+      {
+        "title": "A beginner-friendly kitchen structure",
+        "paragraphs": [
+          "A good first batch keeps the formula short: one lead ingredient, one supporting note, clean water or a simple base, and a measured cooking time. Here, dried hibiscus flowers provides the main character while fresh lime keeps the flavor familiar. Taste near the end instead of adding extra ingredients all at once.",
+          "In HerbGuide's kitchen writing, traditional food context is offered as a way to understand ingredients and pairings. It is not a personal label or a one-size-fits-all instruction."
+        ]
+      },
+      {
+        "title": "Why this recipe works in a home kitchen",
+        "paragraphs": [
+          "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
+        ]
+      },
+      {
+        "title": "Why it works: Tradition meets science",
+        "paragraphs": [
+          "Hibiscus is a tart, ruby-red infusion known as karkade in the Middle East and North Africa and agua de jamaica in Mexico and Latin America, where it is usually served chilled and lightly sweetened. This iced version adds fresh lime to sharpen the tang. On HerbGuide it is a pantry drink, not a treatment.",
+          "The deep red color comes from anthocyanins and other polyphenols in Hibiscus sabdariffa; preliminary research has looked at hibiscus for blood-pressure support, though the evidence is still developing. Lime contributes vitamin C and citric acid that brighten and balance the tartness. The page keeps the language culinary and descriptive."
+        ]
+      }
+    ],
+    "references": [
+      "Riaz G, Chopra R. A review on phytochemistry and therapeutic uses of Hibiscus sabdariffa L. Biomedicine & Pharmacotherapy. 2018;102:575-586.",
+      "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
+      "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
+      "U.S. Food and Drug Administration. CPG Sec. 525.750: Spices—Definitions. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525750-spices-definitions"
+    ]
+  },
+  {
+    "slug": "hibiscus-agua-fresca-a-tart-floral-kitchen-drink",
+    "title": "Hibiscus Agua Fresca: A Tart Floral Kitchen Drink",
+    "description": "A tart hibiscus agua fresca recipe with dried hibiscus flowers and cinnamon: a floral kitchen drink with clear steps and serving notes.",
+    "eyebrow": "Kitchen Traditions",
+    "intro": "This food-first page turns dried hibiscus flowers and cinnamon stick into a clear, beginner-friendly kitchen project. The goal is a balanced flavor, a practical method, and enough context to make the recipe feel approachable. It is written for readers who want a simple recipe before moving into ingredient profiles or traditional vocabulary. The result is a cup or bowl meant for everyday cooking, not a promise about a particular outcome.",
+    "recipe": {
+      "recipeYield": "2 cups or 2 small bowls",
+      "prepTime": "PT10M",
+      "totalTime": "PT35M",
+      "ingredients": [
+        "2 teaspoons to 1 tablespoon food-grade dried hibiscus flowers",
+        "1 modest portion of cinnamon stick",
+        "3 cups fresh water or a mild, unsalted cooking base",
+        "Optional: a small pinch of salt or a little sweetener, added only after tasting",
+        "Optional garnish: a slice of citrus, a few sesame seeds, or a tender herb leaf"
+      ],
+      "steps": [
+        "Check the ingredient. Use food-grade ingredients that smell clean and are stored dry. Rinse fresh produce if used.",
+        "Build the base. Add the water or mild base to a small saucepan. Add dried hibiscus flowers and cinnamon stick.",
+        "Warm gently. Bring the liquid just to a simmer, then reduce the heat. For a tea-style preparation, cover and steep; for a bowl or broth, keep a quiet simmer.",
+        "Taste before adjusting. After 10 minutes, taste a spoonful. Continue only if the flavor needs more time. Strong spices become dominant quickly.",
+        "Strain or serve. Remove hard whole spices or woody pieces. Serve warm, or cool fully and refrigerate for a chilled version."
+      ],
+      "servingNotes": [
+        "Keep the first version deliberately plain. A small bowl of rice, sliced fruit, toast, or a lightly seasoned vegetable dish gives the flavor room to be noticed. If you make a larger batch, label it with the date and refrigerate promptly."
+      ],
+      "caution": [
+        "Use this as a recipe, not as a fixed routine for every reader. FDA guidance on spices emphasizes ordinary food-safety practices such as clean handling and appropriate cooking when needed. Concentrated products are different from food ingredients; NCCIH notes that supplement products may pose different considerations from everyday foods."
+      ]
+    },
+    "sections": [
+      {
+        "title": "A beginner-friendly kitchen structure",
+        "paragraphs": [
+          "A good first batch keeps the formula short: one lead ingredient, one supporting note, clean water or a simple base, and a measured cooking time. Here, dried hibiscus flowers provides the main character while cinnamon stick keeps the flavor familiar. Taste near the end instead of adding extra ingredients all at once.",
+          "In HerbGuide's kitchen writing, traditional food context is offered as a way to understand ingredients and pairings. It is not a personal label or a one-size-fits-all instruction."
+        ]
+      },
+      {
+        "title": "Why this recipe works in a home kitchen",
+        "paragraphs": [
+          "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
+        ]
+      },
+      {
+        "title": "Why it works: Tradition meets science",
+        "paragraphs": [
+          "Agua fresca is the Mexican and Latin American tradition of lightly sweetened fruit-and-flower waters, and hibiscus (jamaica) is one of the best-known versions. A cinnamon stick adds a warm, spiced note that rounds the tartness. On HerbGuide it is presented as a simple kitchen drink rather than a health claim.",
+          "Hibiscus anthocyanins give the drink its ruby color and are the focus of preliminary blood-pressure research, while cinnamon's cinnamaldehyde contributes aroma and a gentle spice. Both are studied mainly for antioxidant and flavor properties. The page stays food-first and descriptive."
+        ]
+      }
+    ],
+    "references": [
+      "Riaz G, Chopra R. A review on phytochemistry and therapeutic uses of Hibiscus sabdariffa L. Biomedicine & Pharmacotherapy. 2018;102:575-586.",
+      "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
+      "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
+      "U.S. Food and Drug Administration. CPG Sec. 525.750: Spices—Definitions. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525750-spices-definitions"
+    ]
+  },
+  {
+    "slug": "lemongrass-tea-a-citrusy-stovetop-infusion",
+    "title": "Lemongrass Tea: A Citrusy Stovetop Infusion",
+    "description": "A citrusy lemongrass tea recipe with fresh lemongrass and lime peel: a stovetop infusion with clear steps and serving notes.",
+    "eyebrow": "Kitchen Traditions",
+    "intro": "This food-first page turns fresh lemongrass and lime peel into a clear, beginner-friendly kitchen project. The goal is a balanced flavor, a practical method, and enough context to make the recipe feel approachable. It is written for readers who want a simple recipe before moving into ingredient profiles or traditional vocabulary. The result is a cup or bowl meant for everyday cooking, not a promise about a particular outcome.",
+    "recipe": {
+      "recipeYield": "2 cups or 2 small bowls",
+      "prepTime": "PT10M",
+      "totalTime": "PT35M",
+      "ingredients": [
+        "2 teaspoons to 1 tablespoon food-grade fresh lemongrass",
+        "1 modest portion of lime peel",
+        "3 cups fresh water or a mild, unsalted cooking base",
+        "Optional: a small pinch of salt or a little sweetener, added only after tasting",
+        "Optional garnish: a slice of citrus, a few sesame seeds, or a tender herb leaf"
+      ],
+      "steps": [
+        "Check the ingredient. Use food-grade ingredients that smell clean and are stored dry. Rinse fresh produce if used.",
+        "Build the base. Add the water or mild base to a small saucepan. Add fresh lemongrass and lime peel.",
+        "Warm gently. Bring the liquid just to a simmer, then reduce the heat. For a tea-style preparation, cover and steep; for a bowl or broth, keep a quiet simmer.",
+        "Taste before adjusting. After 10 minutes, taste a spoonful. Continue only if the flavor needs more time. Strong spices become dominant quickly.",
+        "Strain or serve. Remove hard whole spices or woody pieces. Serve warm, or cool fully and refrigerate for a chilled version."
+      ],
+      "servingNotes": [
+        "Keep the first version deliberately plain. A small bowl of rice, sliced fruit, toast, or a lightly seasoned vegetable dish gives the flavor room to be noticed. If you make a larger batch, label it with the date and refrigerate promptly."
+      ],
+      "caution": [
+        "Use this as a recipe, not as a fixed routine for every reader. FDA guidance on spices emphasizes ordinary food-safety practices such as clean handling and appropriate cooking when needed. Concentrated products are different from food ingredients; NCCIH notes that supplement products may pose different considerations from everyday foods."
+      ]
+    },
+    "sections": [
+      {
+        "title": "A beginner-friendly kitchen structure",
+        "paragraphs": [
+          "A good first batch keeps the formula short: one lead ingredient, one supporting note, clean water or a simple base, and a measured cooking time. Here, fresh lemongrass provides the main character while lime peel keeps the flavor familiar. Taste near the end instead of adding extra ingredients all at once.",
+          "In HerbGuide's kitchen writing, traditional food context is offered as a way to understand ingredients and pairings. It is not a personal label or a one-size-fits-all instruction."
+        ]
+      },
+      {
+        "title": "Why this recipe works in a home kitchen",
+        "paragraphs": [
+          "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
+        ]
+      },
+      {
+        "title": "Why it works: Tradition meets science",
+        "paragraphs": [
+          "Lemongrass is a citrusy stalk herb central to Southeast Asian cooking, where it scents soups, curries, and simple tisanes. Steeped as a tea with a ribbon of lime peel, it reads bright and clean rather than heavy. On HerbGuide it is pantry language, not a remedy.",
+          "Lemongrass (Cymbopogon citratus) owes its lemon-lime aroma to citral, a blend of geranial and neral that is also studied for antioxidant and antimicrobial activity. Lime peel adds citrus flavonoids and a gentle bitter edge. The framing remains culinary and descriptive."
+        ]
+      }
+    ],
+    "references": [
+      "Shah G, Shri R, Panchal V, Sharma N, Singh B, Mann AS. Scientific basis for the therapeutic use of Cymbopogon citratus, stapf (Lemon grass). Journal of Advanced Pharmaceutical Technology & Research. 2011;2(1):3-8.",
+      "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
+      "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
+      "U.S. Food and Drug Administration. CPG Sec. 525.750: Spices—Definitions. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525750-spices-definitions"
+    ]
+  },
+  {
+    "slug": "lemongrass-ginger-tea-a-bright-warming-pantry-cup",
+    "title": "Lemongrass Ginger Tea: A Bright Warming Pantry Cup",
+    "description": "A bright lemongrass ginger tea recipe with fresh lemongrass and ginger: a warming pantry cup with clear steps and serving notes.",
+    "eyebrow": "Kitchen Traditions",
+    "intro": "This food-first page turns fresh lemongrass and fresh ginger into a clear, beginner-friendly kitchen project. The goal is a balanced flavor, a practical method, and enough context to make the recipe feel approachable. It is written for readers who want a simple recipe before moving into ingredient profiles or traditional vocabulary. The result is a cup or bowl meant for everyday cooking, not a promise about a particular outcome.",
+    "recipe": {
+      "recipeYield": "2 cups or 2 small bowls",
+      "prepTime": "PT10M",
+      "totalTime": "PT35M",
+      "ingredients": [
+        "2 teaspoons to 1 tablespoon food-grade fresh lemongrass",
+        "1 modest portion of fresh ginger",
+        "3 cups fresh water or a mild, unsalted cooking base",
+        "Optional: a small pinch of salt or a little sweetener, added only after tasting",
+        "Optional garnish: a slice of citrus, a few sesame seeds, or a tender herb leaf"
+      ],
+      "steps": [
+        "Check the ingredient. Use food-grade ingredients that smell clean and are stored dry. Rinse fresh produce if used.",
+        "Build the base. Add the water or mild base to a small saucepan. Add fresh lemongrass and fresh ginger.",
+        "Warm gently. Bring the liquid just to a simmer, then reduce the heat. For a tea-style preparation, cover and steep; for a bowl or broth, keep a quiet simmer.",
+        "Taste before adjusting. After 10 minutes, taste a spoonful. Continue only if the flavor needs more time. Strong spices become dominant quickly.",
+        "Strain or serve. Remove hard whole spices or woody pieces. Serve warm, or cool fully and refrigerate for a chilled version."
+      ],
+      "servingNotes": [
+        "Keep the first version deliberately plain. A small bowl of rice, sliced fruit, toast, or a lightly seasoned vegetable dish gives the flavor room to be noticed. If you make a larger batch, label it with the date and refrigerate promptly."
+      ],
+      "caution": [
+        "Use this as a recipe, not as a fixed routine for every reader. FDA guidance on spices emphasizes ordinary food-safety practices such as clean handling and appropriate cooking when needed. Concentrated products are different from food ingredients; NCCIH notes that supplement products may pose different considerations from everyday foods."
+      ]
+    },
+    "sections": [
+      {
+        "title": "A beginner-friendly kitchen structure",
+        "paragraphs": [
+          "A good first batch keeps the formula short: one lead ingredient, one supporting note, clean water or a simple base, and a measured cooking time. Here, fresh lemongrass provides the main character while fresh ginger keeps the flavor familiar. Taste near the end instead of adding extra ingredients all at once.",
+          "In HerbGuide's kitchen writing, traditional food context is offered as a way to understand ingredients and pairings. It is not a personal label or a one-size-fits-all instruction."
+        ]
+      },
+      {
+        "title": "Why this recipe works in a home kitchen",
+        "paragraphs": [
+          "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
+        ]
+      },
+      {
+        "title": "Why it works: Tradition meets science",
+        "paragraphs": [
+          "Lemongrass and ginger are a familiar Southeast Asian pairing: citrusy freshness from the stalk, warmth and gentle heat from the root. Together they make a bright but warming pantry cup that suits cooler days. On HerbGuide this is kitchen language, not medical advice.",
+          "Lemongrass contributes citral (geranial and neral), while fresh ginger contributes gingerols, the compounds behind its warm, peppery character and the focus of much digestive and anti-inflammatory research. The page keeps these notes descriptive rather than prescriptive."
+        ]
+      }
+    ],
+    "references": [
+      "Shah G, Shri R, Panchal V, Sharma N, Singh B, Mann AS. Scientific basis for the therapeutic use of Cymbopogon citratus, stapf (Lemon grass). Journal of Advanced Pharmaceutical Technology & Research. 2011;2(1):3-8.",
+      "National Center for Complementary and Integrative Health. Ginger. https://www.nccih.nih.gov/health/ginger",
+      "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
+      "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
+      "U.S. Food and Drug Administration. CPG Sec. 525.750: Spices—Definitions. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525750-spices-definitions"
+    ]
+  },
+  {
+    "slug": "lemon-balm-tea-a-soft-citrus-herb-infusion",
+    "title": "Lemon Balm Tea: A Soft Citrus-Herb Infusion",
+    "description": "A soft lemon balm tea recipe with dried lemon balm and apple slices: a citrus-herb infusion with clear steps and serving notes.",
+    "eyebrow": "Kitchen Traditions",
+    "intro": "This food-first page turns dried lemon balm and apple slices into a clear, beginner-friendly kitchen project. The goal is a balanced flavor, a practical method, and enough context to make the recipe feel approachable. It is written for readers who want a simple recipe before moving into ingredient profiles or traditional vocabulary. The result is a cup or bowl meant for everyday cooking, not a promise about a particular outcome.",
+    "recipe": {
+      "recipeYield": "2 cups or 2 small bowls",
+      "prepTime": "PT10M",
+      "totalTime": "PT35M",
+      "ingredients": [
+        "2 teaspoons to 1 tablespoon food-grade dried lemon balm",
+        "1 modest portion of apple slices",
+        "3 cups fresh water or a mild, unsalted cooking base",
+        "Optional: a small pinch of salt or a little sweetener, added only after tasting",
+        "Optional garnish: a slice of citrus, a few sesame seeds, or a tender herb leaf"
+      ],
+      "steps": [
+        "Check the ingredient. Use food-grade ingredients that smell clean and are stored dry. Rinse fresh produce if used.",
+        "Build the base. Add the water or mild base to a small saucepan. Add dried lemon balm and apple slices.",
+        "Warm gently. Bring the liquid just to a simmer, then reduce the heat. For a tea-style preparation, cover and steep; for a bowl or broth, keep a quiet simmer.",
+        "Taste before adjusting. After 10 minutes, taste a spoonful. Continue only if the flavor needs more time. Strong spices become dominant quickly.",
+        "Strain or serve. Remove hard whole spices or woody pieces. Serve warm, or cool fully and refrigerate for a chilled version."
+      ],
+      "servingNotes": [
+        "Keep the first version deliberately plain. A small bowl of rice, sliced fruit, toast, or a lightly seasoned vegetable dish gives the flavor room to be noticed. If you make a larger batch, label it with the date and refrigerate promptly."
+      ],
+      "caution": [
+        "Use this as a recipe, not as a fixed routine for every reader. FDA guidance on spices emphasizes ordinary food-safety practices such as clean handling and appropriate cooking when needed. Concentrated products are different from food ingredients; NCCIH notes that supplement products may pose different considerations from everyday foods."
+      ]
+    },
+    "sections": [
+      {
+        "title": "A beginner-friendly kitchen structure",
+        "paragraphs": [
+          "A good first batch keeps the formula short: one lead ingredient, one supporting note, clean water or a simple base, and a measured cooking time. Here, dried lemon balm provides the main character while apple slices keeps the flavor familiar. Taste near the end instead of adding extra ingredients all at once.",
+          "In HerbGuide's kitchen writing, traditional food context is offered as a way to understand ingredients and pairings. It is not a personal label or a one-size-fits-all instruction."
+        ]
+      },
+      {
+        "title": "Why this recipe works in a home kitchen",
+        "paragraphs": [
+          "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
+        ]
+      },
+      {
+        "title": "Why it works: Tradition meets science",
+        "paragraphs": [
+          "Lemon balm (Melissa officinalis) is a classic European garden herb with a soft lemon-mint scent, traditionally steeped as a calming cup and gentle after-dinner digestion. A few apple slices add mild sweetness without crowding the herb. On HerbGuide it is a pantry infusion, not a treatment.",
+          "Lemon balm's character comes from compounds like rosmarinic acid and citronellal; preliminary research has explored it for calm, mood, and sleep, with mixed but encouraging results. Apple contributes a little natural sweetness and fiber. The language stays food-first and descriptive."
+        ]
+      }
+    ],
+    "references": [
+      "Shakeri A, Sahebkar A, Javadi B. Melissa officinalis L. – A review of its traditional uses, phytochemistry and pharmacology. Journal of Ethnopharmacology. 2016;188:204-228.",
+      "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
+      "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
+      "U.S. Food and Drug Administration. CPG Sec. 525.750: Spices—Definitions. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525750-spices-definitions"
+    ]
+  },
 ];
