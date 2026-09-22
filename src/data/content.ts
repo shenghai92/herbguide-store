@@ -611,6 +611,31 @@ const rawRecipeCards = [
     "title": "Lemon Balm Tea: A Soft Citrus-Herb Infusion",
     "text": "A soft lemon balm tea recipe with dried lemon balm and apple slices: a citrus-herb infusion with clear steps and serving notes."
   },
+  {
+    "slug": "lavender-tea-a-light-floral-cup-for-a-quiet-kitchen-routine",
+    "title": "Lavender Tea: A Light Floral Cup for a Quiet Kitchen Routine",
+    "text": "A light lavender tea recipe with culinary lavender and honey: a floral cup for a quiet kitchen routine with clear steps and serving notes."
+  },
+  {
+    "slug": "fennel-tea-a-warm-seed-infusion-with-sweet-anise-notes",
+    "title": "Fennel Tea: A Warm Seed Infusion with Sweet Anise Notes",
+    "text": "A warm fennel tea recipe with fennel seeds and orange peel: a sweet anise seed infusion with clear steps and serving notes."
+  },
+  {
+    "slug": "coriander-seed-tea-a-toasted-seed-infusion-for-the-pantry",
+    "title": "Coriander Seed Tea: A Toasted Seed Infusion for the Pantry",
+    "text": "A toasted coriander seed tea recipe with coriander seeds and fresh ginger: a pantry infusion with clear steps and serving notes."
+  },
+  {
+    "slug": "cardamom-tea-a-fragrant-stovetop-cup-with-warm-spice",
+    "title": "Cardamom Tea: A Fragrant Stovetop Cup with Warm Spice",
+    "text": "A fragrant cardamom tea recipe with green cardamom pods and black tea: a warm stovetop cup with clear steps and serving notes."
+  },
+  {
+    "slug": "star-anise-tea-a-simple-whole-spice-infusion",
+    "title": "Star Anise Tea: A Simple Whole-Spice Infusion",
+    "text": "A simple star anise tea recipe with star anise and tangerine peel: a whole-spice infusion with clear steps and serving notes."
+  },
 ];
 
 export const recipeCards = rawRecipeCards.map((card) => sanitizeContentCard(card));

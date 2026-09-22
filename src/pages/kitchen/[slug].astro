@@ -349,6 +349,46 @@ const articleSeoMap: Record<
     heroNote:
       "Readers who search lemon balm tea usually want a soft, citrusy calming cup, so this page keeps the method gentle and the ingredient list short.",
   },
+  "lavender-tea-a-light-floral-cup-for-a-quiet-kitchen-routine": {
+    title: "Lavender Tea Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A light lavender tea recipe with culinary lavender and honey, a floral cup for a quiet kitchen routine with clear steps and serving notes.",
+    extraKeywords: ["lavender tea", "lavender tea recipe", "culinary lavender tea", "lavender honey tea", "floral herbal tea"],
+    heroNote:
+      "Readers who search lavender tea usually want a light, floral evening cup, so this page keeps the method gentle and the flavor calm.",
+  },
+  "fennel-tea-a-warm-seed-infusion-with-sweet-anise-notes": {
+    title: "Fennel Tea Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A warm fennel tea recipe with fennel seeds and orange peel, a sweet anise seed infusion with clear steps and serving notes.",
+    extraKeywords: ["fennel tea", "fennel tea recipe", "fennel seed tea", "anise tea", "fennel seed infusion"],
+    heroNote:
+      "Readers who search fennel tea usually want a warm, anise-scented digestive cup, so this page keeps the method simple and the flavor balanced.",
+  },
+  "coriander-seed-tea-a-toasted-seed-infusion-for-the-pantry": {
+    title: "Coriander Seed Tea Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A toasted coriander seed tea recipe with coriander seeds and fresh ginger, a pantry infusion with clear steps and serving notes.",
+    extraKeywords: ["coriander seed tea", "coriander tea recipe", "toasted coriander tea", "coriander seed infusion", "coriander ginger tea"],
+    heroNote:
+      "Readers who search coriander seed tea usually want a toasted, pantry-friendly infusion, so this page keeps the ingredient list short and the method direct.",
+  },
+  "cardamom-tea-a-fragrant-stovetop-cup-with-warm-spice": {
+    title: "Cardamom Tea Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A fragrant cardamom tea recipe with green cardamom pods and black tea, a warm stovetop cup with clear steps and serving notes.",
+    extraKeywords: ["cardamom tea", "cardamom tea recipe", "green cardamom tea", "cardamom black tea", "spiced tea recipe"],
+    heroNote:
+      "Readers who search cardamom tea usually want a fragrant, warming spiced cup, so this page keeps the method simple and the spice balanced.",
+  },
+  "star-anise-tea-a-simple-whole-spice-infusion": {
+    title: "Star Anise Tea Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A simple star anise tea recipe with star anise and tangerine peel, a whole-spice infusion with clear steps and serving notes.",
+    extraKeywords: ["star anise tea", "star anise tea recipe", "star anise infusion", "anise spice tea", "whole spice tea"],
+    heroNote:
+      "Readers who search star anise tea usually want a simple, licorice-warm whole-spice cup, so this page keeps the method clear and the flavor aromatic.",
+  },
 };
 const articleSeo = articleSeoMap[article.slug];
 const recipeSchemaImageMap: Record<string, { src: string; alt: string }> = {
@@ -544,6 +584,11 @@ const recipeCuisineMap: Record<string, string> = {
   "lemongrass-tea-a-citrusy-stovetop-infusion": "Chinese-inspired tea",
   "lemongrass-ginger-tea-a-bright-warming-pantry-cup": "Chinese-inspired tea",
   "lemon-balm-tea-a-soft-citrus-herb-infusion": "Chinese-inspired tea",
+  "lavender-tea-a-light-floral-cup-for-a-quiet-kitchen-routine": "Chinese-inspired tea",
+  "fennel-tea-a-warm-seed-infusion-with-sweet-anise-notes": "Chinese-inspired tea",
+  "coriander-seed-tea-a-toasted-seed-infusion-for-the-pantry": "Chinese-inspired tea",
+  "cardamom-tea-a-fragrant-stovetop-cup-with-warm-spice": "Chinese-inspired tea",
+  "star-anise-tea-a-simple-whole-spice-infusion": "Chinese-inspired tea",
 };
 const recipePageVisualMap: Record<string, { src: string; alt: string }> = {
   "5-easy-traditional-kitchen-ingredients-for-beginners": {
@@ -1086,6 +1131,31 @@ const recipeLinkMap: Record<string, Array<{ title: string; href: string }>> = {
     { title: "Chamomile Tea for Your Evening Kitchen", href: "/kitchen/chamomile-tea-a-simple-floral-cup-for-your-evening-kitchen/" },
     { title: "Jasmine and Pear Tea Basics", href: "/kitchen/jasmine-and-pear-tea-basics/" },
     { title: "Lemongrass Tea Citrusy Stovetop Infusion", href: "/kitchen/lemongrass-tea-a-citrusy-stovetop-infusion/" },
+  ],
+  "lavender-tea-a-light-floral-cup-for-a-quiet-kitchen-routine": [
+    { title: "Rose Bud and Mulberry Leaf Tea Basics", href: "/kitchen/rose-bud-and-mulberry-leaf-tea-basics/" },
+    { title: "Jasmine and Pear Tea Basics", href: "/kitchen/jasmine-and-pear-tea-basics/" },
+    { title: "Lemon Balm Tea Soft Citrus-Herb Infusion", href: "/kitchen/lemon-balm-tea-a-soft-citrus-herb-infusion/" },
+  ],
+  "fennel-tea-a-warm-seed-infusion-with-sweet-anise-notes": [
+    { title: "Chen Pi Tea for Heavy Meal Days", href: "/kitchen/chen-pi-tea-for-heavy-meal-days/" },
+    { title: "Hawthorn Berry Tea for Rich Meals", href: "/kitchen/hawthorn-berry-tea-for-rich-meals/" },
+    { title: "Star Anise Tea Whole-Spice Infusion", href: "/kitchen/star-anise-tea-a-simple-whole-spice-infusion/" },
+  ],
+  "coriander-seed-tea-a-toasted-seed-infusion-for-the-pantry": [
+    { title: "Chen Pi Tea for Heavy Meal Days", href: "/kitchen/chen-pi-tea-for-heavy-meal-days/" },
+    { title: "Lemongrass Ginger Tea Warming Pantry Cup", href: "/kitchen/lemongrass-ginger-tea-a-bright-warming-pantry-cup/" },
+    { title: "Cardamom Tea Fragrant Stovetop Cup", href: "/kitchen/cardamom-tea-a-fragrant-stovetop-cup-with-warm-spice/" },
+  ],
+  "cardamom-tea-a-fragrant-stovetop-cup-with-warm-spice": [
+    { title: "Ginger and Brown Sugar Tea for Cold Days", href: "/kitchen/ginger-and-brown-sugar-tea-for-cold-days/" },
+    { title: "Star Anise Tea Whole-Spice Infusion", href: "/kitchen/star-anise-tea-a-simple-whole-spice-infusion/" },
+    { title: "Lemongrass Ginger Tea Warming Pantry Cup", href: "/kitchen/lemongrass-ginger-tea-a-bright-warming-pantry-cup/" },
+  ],
+  "star-anise-tea-a-simple-whole-spice-infusion": [
+    { title: "Tangerine Peel and Pear Warm Tea Basics", href: "/kitchen/tangerine-peel-and-pear-warm-tea-basics/" },
+    { title: "Fennel Tea Warm Seed Infusion", href: "/kitchen/fennel-tea-a-warm-seed-infusion-with-sweet-anise-notes/" },
+    { title: "Cardamom Tea Fragrant Stovetop Cup", href: "/kitchen/cardamom-tea-a-fragrant-stovetop-cup-with-warm-spice/" },
   ],
 };
 const relatedRecipes = recipeLinkMap[article.slug] ?? [];

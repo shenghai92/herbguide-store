@@ -48,6 +48,11 @@ const recipeSearchThemes: Record<string, string[]> = {
   "lemongrass-tea-a-citrusy-stovetop-infusion": ["pantry", "tea", "lemongrass", "citrus", "stovetop"],
   "lemongrass-ginger-tea-a-bright-warming-pantry-cup": ["warming", "tea", "lemongrass", "ginger", "pantry"],
   "lemon-balm-tea-a-soft-citrus-herb-infusion": ["calming", "tea", "lemon balm", "citrus", "evening"],
+  "lavender-tea-a-light-floral-cup-for-a-quiet-kitchen-routine": ["calming", "tea", "lavender", "floral", "evening"],
+  "fennel-tea-a-warm-seed-infusion-with-sweet-anise-notes": ["digestive", "tea", "fennel", "anise", "post-meal"],
+  "coriander-seed-tea-a-toasted-seed-infusion-for-the-pantry": ["pantry", "tea", "coriander", "toasted", "seed"],
+  "cardamom-tea-a-fragrant-stovetop-cup-with-warm-spice": ["warming", "tea", "cardamom", "spice", "fragrant"],
+  "star-anise-tea-a-simple-whole-spice-infusion": ["warming", "tea", "star anise", "spice", "anise"],
 };
 
 const recipeCategoryMap: Record<string, string> = {
@@ -95,6 +100,11 @@ const recipeCategoryMap: Record<string, string> = {
   "lemongrass-tea-a-citrusy-stovetop-infusion": "Pantry Basics",
   "lemongrass-ginger-tea-a-bright-warming-pantry-cup": "Warming",
   "lemon-balm-tea-a-soft-citrus-herb-infusion": "Calming",
+  "lavender-tea-a-light-floral-cup-for-a-quiet-kitchen-routine": "Calming",
+  "fennel-tea-a-warm-seed-infusion-with-sweet-anise-notes": "Digestive",
+  "coriander-seed-tea-a-toasted-seed-infusion-for-the-pantry": "Pantry Basics",
+  "cardamom-tea-a-fragrant-stovetop-cup-with-warm-spice": "Warming",
+  "star-anise-tea-a-simple-whole-spice-infusion": "Warming",
 };
 
 const recipeCategories = Array.from(new Set(recipeCards.map((card) => recipeCategoryMap[card.slug] ?? "Balanced")));
