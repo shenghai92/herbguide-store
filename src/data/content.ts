@@ -636,6 +636,31 @@ const rawRecipeCards = [
     "title": "Star Anise Tea: A Simple Whole-Spice Infusion",
     "text": "A simple star anise tea recipe with star anise and tangerine peel: a whole-spice infusion with clear steps and serving notes."
   },
+  {
+    "slug": "clove-tea-a-short-steep-whole-spice-kitchen-recipe",
+    "title": "Clove Tea: A Short-Steep Whole-Spice Kitchen Recipe",
+    "text": "A short-steep clove tea recipe with whole cloves and apple slices: a warm whole-spice kitchen recipe with clear steps and serving notes."
+  },
+  {
+    "slug": "cinnamon-apple-tea-a-cozy-stovetop-fruit-infusion",
+    "title": "Cinnamon Apple Tea: A Cozy Stovetop Fruit Infusion",
+    "text": "A cozy cinnamon apple tea recipe with cinnamon stick and apple slices: a stovetop fruit infusion with clear steps and serving notes."
+  },
+  {
+    "slug": "turmeric-tea-a-golden-pantry-drink-with-gentle-spice",
+    "title": "Turmeric Tea: A Golden Pantry Drink with Gentle Spice",
+    "text": "A golden turmeric tea recipe with ground turmeric and fresh ginger: a pantry drink with gentle spice and clear steps and serving notes."
+  },
+  {
+    "slug": "golden-milk-a-simple-turmeric-spice-drink-for-beginners",
+    "title": "Golden Milk: A Simple Turmeric Spice Drink for Beginners",
+    "text": "A simple golden milk recipe with ground turmeric and oat milk: a warming turmeric spice drink for beginners with clear steps and serving notes."
+  },
+  {
+    "slug": "ginger-turmeric-tea-a-bright-stovetop-spice-infusion",
+    "title": "Ginger Turmeric Tea: A Bright Stovetop Spice Infusion",
+    "text": "A bright ginger turmeric tea recipe with fresh ginger and ground turmeric: a stovetop spice infusion with clear steps and serving notes."
+  },
 ];
 
 export const recipeCards = rawRecipeCards.map((card) => sanitizeContentCard(card));

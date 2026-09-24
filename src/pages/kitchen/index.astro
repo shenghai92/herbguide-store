@@ -53,6 +53,11 @@ const recipeSearchThemes: Record<string, string[]> = {
   "coriander-seed-tea-a-toasted-seed-infusion-for-the-pantry": ["pantry", "tea", "coriander", "toasted", "seed"],
   "cardamom-tea-a-fragrant-stovetop-cup-with-warm-spice": ["warming", "tea", "cardamom", "spice", "fragrant"],
   "star-anise-tea-a-simple-whole-spice-infusion": ["warming", "tea", "star anise", "spice", "anise"],
+  "clove-tea-a-short-steep-whole-spice-kitchen-recipe": ["warming", "tea", "clove", "spice", "short steep"],
+  "cinnamon-apple-tea-a-cozy-stovetop-fruit-infusion": ["warming", "tea", "cinnamon", "apple", "fruit"],
+  "turmeric-tea-a-golden-pantry-drink-with-gentle-spice": ["warming", "tea", "turmeric", "ginger", "golden"],
+  "golden-milk-a-simple-turmeric-spice-drink-for-beginners": ["warming", "golden milk", "turmeric", "milk", "creamy"],
+  "ginger-turmeric-tea-a-bright-stovetop-spice-infusion": ["warming", "tea", "ginger", "turmeric", "spice"],
 };
 
 const recipeCategoryMap: Record<string, string> = {
@@ -105,6 +110,11 @@ const recipeCategoryMap: Record<string, string> = {
   "coriander-seed-tea-a-toasted-seed-infusion-for-the-pantry": "Pantry Basics",
   "cardamom-tea-a-fragrant-stovetop-cup-with-warm-spice": "Warming",
   "star-anise-tea-a-simple-whole-spice-infusion": "Warming",
+  "clove-tea-a-short-steep-whole-spice-kitchen-recipe": "Warming",
+  "cinnamon-apple-tea-a-cozy-stovetop-fruit-infusion": "Warming",
+  "turmeric-tea-a-golden-pantry-drink-with-gentle-spice": "Warming",
+  "golden-milk-a-simple-turmeric-spice-drink-for-beginners": "Warming",
+  "ginger-turmeric-tea-a-bright-stovetop-spice-infusion": "Warming",
 };
 
 const recipeCategories = Array.from(new Set(recipeCards.map((card) => recipeCategoryMap[card.slug] ?? "Balanced")));

@@ -10431,4 +10431,312 @@ export const foodTherapyArticles: ContentArticle[] = [
       "U.S. Food and Drug Administration. CPG Sec. 525.750: Spices—Definitions. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525750-spices-definitions"
     ]
   },
+  {
+    "slug": "clove-tea-a-short-steep-whole-spice-kitchen-recipe",
+    "title": "Clove Tea: A Short-Steep Whole-Spice Kitchen Recipe",
+    "description": "A short-steep clove tea recipe with whole cloves and apple slices: a warm whole-spice kitchen recipe with clear steps and serving notes.",
+    "eyebrow": "Kitchen Traditions",
+    "intro": "This food-first page turns whole cloves and apple slices into a clear, beginner-friendly kitchen project. The goal is a balanced flavor, a practical method, and enough context to make the recipe feel approachable. It is written for readers who want a simple recipe before moving into ingredient profiles or traditional vocabulary. The result is a cup or bowl meant for everyday cooking, not a promise about a particular outcome.",
+    "recipe": {
+      "recipeYield": "2 cups or 2 small bowls",
+      "prepTime": "PT10M",
+      "totalTime": "PT35M",
+      "ingredients": [
+        "2 teaspoons to 1 tablespoon food-grade whole cloves",
+        "1 modest portion of apple slices",
+        "3 cups fresh water or a mild, unsalted cooking base",
+        "Optional: a small pinch of salt or a little sweetener, added only after tasting",
+        "Optional garnish: a slice of citrus, a few sesame seeds, or a tender herb leaf"
+      ],
+      "steps": [
+        "Check the ingredient. Use food-grade ingredients that smell clean and are stored dry. Rinse fresh produce if used.",
+        "Build the base. Add the water or mild base to a small saucepan. Add whole cloves and apple slices.",
+        "Warm gently. Bring the liquid just to a simmer, then reduce the heat. For a tea-style preparation, cover and steep; for a bowl or broth, keep a quiet simmer.",
+        "Taste before adjusting. After 10 minutes, taste a spoonful. Continue only if the flavor needs more time. Strong spices become dominant quickly.",
+        "Strain or serve. Remove hard whole spices or woody pieces. Serve warm, or cool fully and refrigerate for a chilled version."
+      ],
+      "servingNotes": [
+        "Keep the first version deliberately plain. A small bowl of rice, sliced fruit, toast, or a lightly seasoned vegetable dish gives the flavor room to be noticed. If you make a larger batch, label it with the date and refrigerate promptly."
+      ],
+      "caution": [
+        "Use this as a recipe, not as a fixed routine for every reader. FDA guidance on spices emphasizes ordinary food-safety practices such as clean handling and appropriate cooking when needed. Concentrated products are different from food ingredients; NCCIH notes that supplement products may pose different considerations from everyday foods."
+      ]
+    },
+    "sections": [
+      {
+        "title": "A beginner-friendly kitchen structure",
+        "paragraphs": [
+          "A good first batch keeps the formula short: one lead ingredient, one supporting note, clean water or a simple base, and a measured cooking time. Here, whole cloves provides the main character while apple slices keeps the flavor familiar. Taste near the end instead of adding extra ingredients all at once.",
+          "In HerbGuide's kitchen writing, traditional food context is offered as a way to understand ingredients and pairings. It is not a personal label or a one-size-fits-all instruction."
+        ]
+      },
+      {
+        "title": "Why this recipe works in a home kitchen",
+        "paragraphs": [
+          "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
+        ]
+      },
+      {
+        "title": "Why it works: Tradition meets science",
+        "paragraphs": [
+          "Whole cloves are an intensely aromatic baking spice, traditionally used sparingly in mulled drinks, stewed fruit, and holiday bakes for their warm, sweet-pungent character. A few apple slices mellow the cup and add natural sweetness. On HerbGuide it is a pantry spice, not a treatment.",
+          "Clove's character comes from eugenol, the compound that makes up most of clove oil and is studied for antimicrobial and antioxidant activity. Apple contributes mild sweetness and fiber. Because cloves are strong, the page keeps the amount small and the steep short. The language stays culinary and descriptive."
+        ]
+      }
+    ],
+    "references": [
+      "Cortés-Rojas DF, de Souza CR, Oliveira WP. Clove (Syzygium aromaticum): a precious spice. Asian Pacific Journal of Tropical Biomedicine. 2014;4(2):90-96.",
+      "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
+      "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
+      "U.S. Food and Drug Administration. CPG Sec. 525.750: Spices—Definitions. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525750-spices-definitions"
+    ]
+  },
+  {
+    "slug": "cinnamon-apple-tea-a-cozy-stovetop-fruit-infusion",
+    "title": "Cinnamon Apple Tea: A Cozy Stovetop Fruit Infusion",
+    "description": "A cozy cinnamon apple tea recipe with cinnamon stick and apple slices: a stovetop fruit infusion with clear steps and serving notes.",
+    "eyebrow": "Kitchen Traditions",
+    "intro": "This food-first page turns cinnamon stick and apple slices into a clear, beginner-friendly kitchen project. The goal is a balanced flavor, a practical method, and enough context to make the recipe feel approachable. It is written for readers who want a simple recipe before moving into ingredient profiles or traditional vocabulary. The result is a cup or bowl meant for everyday cooking, not a promise about a particular outcome.",
+    "recipe": {
+      "recipeYield": "2 cups or 2 small bowls",
+      "prepTime": "PT10M",
+      "totalTime": "PT35M",
+      "ingredients": [
+        "2 teaspoons to 1 tablespoon food-grade cinnamon stick",
+        "1 modest portion of apple slices",
+        "3 cups fresh water or a mild, unsalted cooking base",
+        "Optional: a small pinch of salt or a little sweetener, added only after tasting",
+        "Optional garnish: a slice of citrus, a few sesame seeds, or a tender herb leaf"
+      ],
+      "steps": [
+        "Check the ingredient. Use food-grade ingredients that smell clean and are stored dry. Rinse fresh produce if used.",
+        "Build the base. Add the water or mild base to a small saucepan. Add cinnamon stick and apple slices.",
+        "Warm gently. Bring the liquid just to a simmer, then reduce the heat. For a tea-style preparation, cover and steep; for a bowl or broth, keep a quiet simmer.",
+        "Taste before adjusting. After 10 minutes, taste a spoonful. Continue only if the flavor needs more time. Strong spices become dominant quickly.",
+        "Strain or serve. Remove hard whole spices or woody pieces. Serve warm, or cool fully and refrigerate for a chilled version."
+      ],
+      "servingNotes": [
+        "Keep the first version deliberately plain. A small bowl of rice, sliced fruit, toast, or a lightly seasoned vegetable dish gives the flavor room to be noticed. If you make a larger batch, label it with the date and refrigerate promptly."
+      ],
+      "caution": [
+        "Use this as a recipe, not as a fixed routine for every reader. FDA guidance on spices emphasizes ordinary food-safety practices such as clean handling and appropriate cooking when needed. Concentrated products are different from food ingredients; NCCIH notes that supplement products may pose different considerations from everyday foods."
+      ]
+    },
+    "sections": [
+      {
+        "title": "A beginner-friendly kitchen structure",
+        "paragraphs": [
+          "A good first batch keeps the formula short: one lead ingredient, one supporting note, clean water or a simple base, and a measured cooking time. Here, cinnamon stick provides the main character while apple slices keeps the flavor familiar. Taste near the end instead of adding extra ingredients all at once.",
+          "In HerbGuide's kitchen writing, traditional food context is offered as a way to understand ingredients and pairings. It is not a personal label or a one-size-fits-all instruction."
+        ]
+      },
+      {
+        "title": "Why this recipe works in a home kitchen",
+        "paragraphs": [
+          "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
+        ]
+      },
+      {
+        "title": "Why it works: Tradition meets science",
+        "paragraphs": [
+          "Cinnamon sticks are a cozy cold-weather staple, traditionally simmered with apple and other fruit for warm, spiced infusions and ciders. The apple softens the spice and adds body. On HerbGuide it is a kitchen tradition, not a remedy.",
+          "Cinnamon's character comes from cinnamaldehyde, the compound behind its sweet, warming aroma and the focus of antioxidant research; preliminary studies have also looked at cinnamon for blood-glucose support, though evidence is mixed. Apple adds sweetness and pectin. The page keeps the framing food-first."
+        ]
+      }
+    ],
+    "references": [
+      "Rao PV, Gan SH. Cinnamon: a multifaceted medicinal plant. Evidence-Based Complementary and Alternative Medicine. 2014;2014:642942.",
+      "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
+      "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
+      "U.S. Food and Drug Administration. CPG Sec. 525.750: Spices—Definitions. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525750-spices-definitions"
+    ]
+  },
+  {
+    "slug": "turmeric-tea-a-golden-pantry-drink-with-gentle-spice",
+    "title": "Turmeric Tea: A Golden Pantry Drink with Gentle Spice",
+    "description": "A golden turmeric tea recipe with ground turmeric and fresh ginger: a pantry drink with gentle spice and clear steps and serving notes.",
+    "eyebrow": "Kitchen Traditions",
+    "intro": "This food-first page turns ground turmeric and fresh ginger into a clear, beginner-friendly kitchen project. The goal is a balanced flavor, a practical method, and enough context to make the recipe feel approachable. It is written for readers who want a simple recipe before moving into ingredient profiles or traditional vocabulary. The result is a cup or bowl meant for everyday cooking, not a promise about a particular outcome.",
+    "recipe": {
+      "recipeYield": "2 cups or 2 small bowls",
+      "prepTime": "PT10M",
+      "totalTime": "PT35M",
+      "ingredients": [
+        "2 teaspoons to 1 tablespoon food-grade ground turmeric",
+        "1 modest portion of fresh ginger",
+        "3 cups fresh water or a mild, unsalted cooking base",
+        "Optional: a small pinch of salt or a little sweetener, added only after tasting",
+        "Optional garnish: a slice of citrus, a few sesame seeds, or a tender herb leaf"
+      ],
+      "steps": [
+        "Check the ingredient. Use food-grade ingredients that smell clean and are stored dry. Rinse fresh produce if used.",
+        "Build the base. Add the water or mild base to a small saucepan. Add ground turmeric and fresh ginger.",
+        "Warm gently. Bring the liquid just to a simmer, then reduce the heat. For a tea-style preparation, cover and steep; for a bowl or broth, keep a quiet simmer.",
+        "Taste before adjusting. After 10 minutes, taste a spoonful. Continue only if the flavor needs more time. Strong spices become dominant quickly.",
+        "Strain or serve. Remove hard whole spices or woody pieces. Serve warm, or cool fully and refrigerate for a chilled version."
+      ],
+      "servingNotes": [
+        "Keep the first version deliberately plain. A small bowl of rice, sliced fruit, toast, or a lightly seasoned vegetable dish gives the flavor room to be noticed. If you make a larger batch, label it with the date and refrigerate promptly."
+      ],
+      "caution": [
+        "Use this as a recipe, not as a fixed routine for every reader. FDA guidance on spices emphasizes ordinary food-safety practices such as clean handling and appropriate cooking when needed. Concentrated products are different from food ingredients; NCCIH notes that supplement products may pose different considerations from everyday foods."
+      ]
+    },
+    "sections": [
+      {
+        "title": "A beginner-friendly kitchen structure",
+        "paragraphs": [
+          "A good first batch keeps the formula short: one lead ingredient, one supporting note, clean water or a simple base, and a measured cooking time. Here, ground turmeric provides the main character while fresh ginger keeps the flavor familiar. Taste near the end instead of adding extra ingredients all at once.",
+          "In HerbGuide's kitchen writing, traditional food context is offered as a way to understand ingredients and pairings. It is not a personal label or a one-size-fits-all instruction."
+        ]
+      },
+      {
+        "title": "Why this recipe works in a home kitchen",
+        "paragraphs": [
+          "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
+        ]
+      },
+      {
+        "title": "Why it works: Tradition meets science",
+        "paragraphs": [
+          "Turmeric is the golden root behind many South Asian spice blends and curries, valued as much for color as for its earthy, gently bitter warmth. Paired with fresh ginger, the cup is bright and peppery. On HerbGuide it is pantry language, not medical advice.",
+          "Turmeric's yellow comes from curcumin, a compound studied for anti-inflammatory and antioxidant effects, though it is poorly absorbed on its own and is often paired with black pepper and a little fat. Ginger adds gingerols, its warm, peppery counterpart. The page keeps these notes descriptive rather than prescriptive."
+        ]
+      }
+    ],
+    "references": [
+      "National Center for Complementary and Integrative Health. Turmeric. https://www.nccih.nih.gov/health/turmeric",
+      "Hewlings SJ, Kalman DS. Curcumin: A review of its effects on human health. Foods. 2017;6(10):92.",
+      "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
+      "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
+      "U.S. Food and Drug Administration. CPG Sec. 525.750: Spices—Definitions. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525750-spices-definitions"
+    ]
+  },
+  {
+    "slug": "golden-milk-a-simple-turmeric-spice-drink-for-beginners",
+    "title": "Golden Milk: A Simple Turmeric Spice Drink for Beginners",
+    "description": "A simple golden milk recipe with ground turmeric and oat milk: a warming turmeric spice drink for beginners with clear steps and serving notes.",
+    "eyebrow": "Kitchen Traditions",
+    "intro": "This food-first page turns ground turmeric and oat milk into a clear, beginner-friendly kitchen project. The goal is a balanced flavor, a practical method, and enough context to make the recipe feel approachable. It is written for readers who want a simple recipe before moving into ingredient profiles or traditional vocabulary. The result is a cup or bowl meant for everyday cooking, not a promise about a particular outcome.",
+    "recipe": {
+      "recipeYield": "2 cups or 2 small bowls",
+      "prepTime": "PT10M",
+      "totalTime": "PT35M",
+      "ingredients": [
+        "2 teaspoons to 1 tablespoon food-grade ground turmeric",
+        "1 modest portion of oat milk",
+        "3 cups fresh water or a mild, unsalted cooking base",
+        "Optional: a small pinch of salt or a little sweetener, added only after tasting",
+        "Optional garnish: a slice of citrus, a few sesame seeds, or a tender herb leaf"
+      ],
+      "steps": [
+        "Check the ingredient. Use food-grade ingredients that smell clean and are stored dry. Rinse fresh produce if used.",
+        "Build the base. Add the water or mild base to a small saucepan. Add ground turmeric and oat milk.",
+        "Warm gently. Bring the liquid just to a simmer, then reduce the heat. For a tea-style preparation, cover and steep; for a bowl or broth, keep a quiet simmer.",
+        "Taste before adjusting. After 10 minutes, taste a spoonful. Continue only if the flavor needs more time. Strong spices become dominant quickly.",
+        "Strain or serve. Remove hard whole spices or woody pieces. Serve warm, or cool fully and refrigerate for a chilled version."
+      ],
+      "servingNotes": [
+        "Keep the first version deliberately plain. A small bowl of rice, sliced fruit, toast, or a lightly seasoned vegetable dish gives the flavor room to be noticed. If you make a larger batch, label it with the date and refrigerate promptly."
+      ],
+      "caution": [
+        "Use this as a recipe, not as a fixed routine for every reader. FDA guidance on spices emphasizes ordinary food-safety practices such as clean handling and appropriate cooking when needed. Concentrated products are different from food ingredients; NCCIH notes that supplement products may pose different considerations from everyday foods."
+      ]
+    },
+    "sections": [
+      {
+        "title": "A beginner-friendly kitchen structure",
+        "paragraphs": [
+          "A good first batch keeps the formula short: one lead ingredient, one supporting note, clean water or a simple base, and a measured cooking time. Here, ground turmeric provides the main character while oat milk keeps the flavor familiar. Taste near the end instead of adding extra ingredients all at once.",
+          "In HerbGuide's kitchen writing, traditional food context is offered as a way to understand ingredients and pairings. It is not a personal label or a one-size-fits-all instruction."
+        ]
+      },
+      {
+        "title": "Why this recipe works in a home kitchen",
+        "paragraphs": [
+          "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
+        ]
+      },
+      {
+        "title": "Why it works: Tradition meets science",
+        "paragraphs": [
+          "Golden milk is a warm turmeric-and-milk drink with roots in South Asian home cooking, traditionally made with dairy or plant milk, a little fat, and warming spices. This version uses oat milk for a gentle, beginner-friendly base. On HerbGuide it is a pantry drink, not a treatment.",
+          "Turmeric's curcumin is fat-soluble, which is one reason golden milk pairs the spice with milk; research on curcumin has focused on its anti-inflammatory and antioxidant properties, though it is poorly absorbed without black pepper. Oat milk adds a creamy, dairy-free base with soluble fiber. The language stays food-first."
+        ]
+      }
+    ],
+    "references": [
+      "National Center for Complementary and Integrative Health. Turmeric. https://www.nccih.nih.gov/health/turmeric",
+      "Hewlings SJ, Kalman DS. Curcumin: A review of its effects on human health. Foods. 2017;6(10):92.",
+      "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
+      "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
+      "U.S. Food and Drug Administration. CPG Sec. 525.750: Spices—Definitions. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525750-spices-definitions"
+    ]
+  },
+  {
+    "slug": "ginger-turmeric-tea-a-bright-stovetop-spice-infusion",
+    "title": "Ginger Turmeric Tea: A Bright Stovetop Spice Infusion",
+    "description": "A bright ginger turmeric tea recipe with fresh ginger and ground turmeric: a stovetop spice infusion with clear steps and serving notes.",
+    "eyebrow": "Kitchen Traditions",
+    "intro": "This food-first page turns fresh ginger and ground turmeric into a clear, beginner-friendly kitchen project. The goal is a balanced flavor, a practical method, and enough context to make the recipe feel approachable. It is written for readers who want a simple recipe before moving into ingredient profiles or traditional vocabulary. The result is a cup or bowl meant for everyday cooking, not a promise about a particular outcome.",
+    "recipe": {
+      "recipeYield": "2 cups or 2 small bowls",
+      "prepTime": "PT10M",
+      "totalTime": "PT35M",
+      "ingredients": [
+        "2 teaspoons to 1 tablespoon food-grade fresh ginger",
+        "1 modest portion of ground turmeric",
+        "3 cups fresh water or a mild, unsalted cooking base",
+        "Optional: a small pinch of salt or a little sweetener, added only after tasting",
+        "Optional garnish: a slice of citrus, a few sesame seeds, or a tender herb leaf"
+      ],
+      "steps": [
+        "Check the ingredient. Use food-grade ingredients that smell clean and are stored dry. Rinse fresh produce if used.",
+        "Build the base. Add the water or mild base to a small saucepan. Add fresh ginger and ground turmeric.",
+        "Warm gently. Bring the liquid just to a simmer, then reduce the heat. For a tea-style preparation, cover and steep; for a bowl or broth, keep a quiet simmer.",
+        "Taste before adjusting. After 10 minutes, taste a spoonful. Continue only if the flavor needs more time. Strong spices become dominant quickly.",
+        "Strain or serve. Remove hard whole spices or woody pieces. Serve warm, or cool fully and refrigerate for a chilled version."
+      ],
+      "servingNotes": [
+        "Keep the first version deliberately plain. A small bowl of rice, sliced fruit, toast, or a lightly seasoned vegetable dish gives the flavor room to be noticed. If you make a larger batch, label it with the date and refrigerate promptly."
+      ],
+      "caution": [
+        "Use this as a recipe, not as a fixed routine for every reader. FDA guidance on spices emphasizes ordinary food-safety practices such as clean handling and appropriate cooking when needed. Concentrated products are different from food ingredients; NCCIH notes that supplement products may pose different considerations from everyday foods."
+      ]
+    },
+    "sections": [
+      {
+        "title": "A beginner-friendly kitchen structure",
+        "paragraphs": [
+          "A good first batch keeps the formula short: one lead ingredient, one supporting note, clean water or a simple base, and a measured cooking time. Here, fresh ginger provides the main character while ground turmeric keeps the flavor familiar. Taste near the end instead of adding extra ingredients all at once.",
+          "In HerbGuide's kitchen writing, traditional food context is offered as a way to understand ingredients and pairings. It is not a personal label or a one-size-fits-all instruction."
+        ]
+      },
+      {
+        "title": "Why this recipe works in a home kitchen",
+        "paragraphs": [
+          "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
+        ]
+      },
+      {
+        "title": "Why it works: Tradition meets science",
+        "paragraphs": [
+          "Ginger and turmeric are a classic South Asian pairing, often simmered together for a bright, warming, golden cup. Ginger leads with heat, turmeric with earthy color and gentle bitterness. On HerbGuide it is kitchen language, not medical advice.",
+          "Ginger's gingerols and turmeric's curcumin are the compounds behind this pairing; both are studied for anti-inflammatory and antioxidant effects, and curcumin benefits from a little fat and black pepper for absorption. The page keeps these notes descriptive rather than prescriptive."
+        ]
+      }
+    ],
+    "references": [
+      "National Center for Complementary and Integrative Health. Turmeric. https://www.nccih.nih.gov/health/turmeric",
+      "National Center for Complementary and Integrative Health. Ginger. https://www.nccih.nih.gov/health/ginger",
+      "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
+      "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
+      "U.S. Food and Drug Administration. CPG Sec. 525.750: Spices—Definitions. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525750-spices-definitions"
+    ]
+  },
 ];

@@ -389,6 +389,46 @@ const articleSeoMap: Record<
     heroNote:
       "Readers who search star anise tea usually want a simple, licorice-warm whole-spice cup, so this page keeps the method clear and the flavor aromatic.",
   },
+  "clove-tea-a-short-steep-whole-spice-kitchen-recipe": {
+    title: "Clove Tea Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A short-steep clove tea recipe with whole cloves and apple slices, a warm whole-spice kitchen recipe with clear steps and serving notes.",
+    extraKeywords: ["clove tea", "clove tea recipe", "whole clove tea", "clove spice tea", "clove infusion"],
+    heroNote:
+      "Readers who search clove tea usually want a short-steep, warm whole-spice cup, so this page keeps the amount small and the method simple.",
+  },
+  "cinnamon-apple-tea-a-cozy-stovetop-fruit-infusion": {
+    title: "Cinnamon Apple Tea Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A cozy cinnamon apple tea recipe with cinnamon stick and apple slices, a stovetop fruit infusion with clear steps and serving notes.",
+    extraKeywords: ["cinnamon apple tea", "cinnamon apple tea recipe", "cinnamon tea", "apple cinnamon infusion", "apple cinnamon drink"],
+    heroNote:
+      "Readers who search cinnamon apple tea usually want a cozy, spiced fruit cup, so this page keeps the method simple and the flavor warm.",
+  },
+  "turmeric-tea-a-golden-pantry-drink-with-gentle-spice": {
+    title: "Turmeric Tea Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A golden turmeric tea recipe with ground turmeric and fresh ginger, a pantry drink with gentle spice and clear steps and serving notes.",
+    extraKeywords: ["turmeric tea", "turmeric tea recipe", "turmeric ginger tea", "golden turmeric drink", "turmeric infusion"],
+    heroNote:
+      "Readers who search turmeric tea usually want a warm, golden pantry drink, so this page keeps the spice gentle and the method direct.",
+  },
+  "golden-milk-a-simple-turmeric-spice-drink-for-beginners": {
+    title: "Golden Milk Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A simple golden milk recipe with ground turmeric and oat milk, a warming turmeric spice drink for beginners with clear steps and serving notes.",
+    extraKeywords: ["golden milk", "golden milk recipe", "turmeric milk", "turmeric golden milk", "turmeric latte recipe"],
+    heroNote:
+      "Readers who search golden milk usually want a simple, warming turmeric drink, so this page keeps the base gentle and the method beginner-friendly.",
+  },
+  "ginger-turmeric-tea-a-bright-stovetop-spice-infusion": {
+    title: "Ginger Turmeric Tea Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A bright ginger turmeric tea recipe with fresh ginger and ground turmeric, a stovetop spice infusion with clear steps and serving notes.",
+    extraKeywords: ["ginger turmeric tea", "ginger turmeric tea recipe", "turmeric ginger tea", "ginger turmeric infusion", "spiced tea recipe"],
+    heroNote:
+      "Readers who search ginger turmeric tea usually want a bright, warming spice cup, so this page keeps the ingredient list short and the method clear.",
+  },
 };
 const articleSeo = articleSeoMap[article.slug];
 const recipeSchemaImageMap: Record<string, { src: string; alt: string }> = {
@@ -589,6 +629,11 @@ const recipeCuisineMap: Record<string, string> = {
   "coriander-seed-tea-a-toasted-seed-infusion-for-the-pantry": "Chinese-inspired tea",
   "cardamom-tea-a-fragrant-stovetop-cup-with-warm-spice": "Chinese-inspired tea",
   "star-anise-tea-a-simple-whole-spice-infusion": "Chinese-inspired tea",
+  "clove-tea-a-short-steep-whole-spice-kitchen-recipe": "Chinese-inspired tea",
+  "cinnamon-apple-tea-a-cozy-stovetop-fruit-infusion": "Chinese-inspired tea",
+  "turmeric-tea-a-golden-pantry-drink-with-gentle-spice": "Chinese-inspired tea",
+  "golden-milk-a-simple-turmeric-spice-drink-for-beginners": "Chinese-inspired kitchen",
+  "ginger-turmeric-tea-a-bright-stovetop-spice-infusion": "Chinese-inspired tea",
 };
 const recipePageVisualMap: Record<string, { src: string; alt: string }> = {
   "5-easy-traditional-kitchen-ingredients-for-beginners": {
@@ -1156,6 +1201,31 @@ const recipeLinkMap: Record<string, Array<{ title: string; href: string }>> = {
     { title: "Tangerine Peel and Pear Warm Tea Basics", href: "/kitchen/tangerine-peel-and-pear-warm-tea-basics/" },
     { title: "Fennel Tea Warm Seed Infusion", href: "/kitchen/fennel-tea-a-warm-seed-infusion-with-sweet-anise-notes/" },
     { title: "Cardamom Tea Fragrant Stovetop Cup", href: "/kitchen/cardamom-tea-a-fragrant-stovetop-cup-with-warm-spice/" },
+  ],
+  "clove-tea-a-short-steep-whole-spice-kitchen-recipe": [
+    { title: "Ginger and Brown Sugar Tea for Cold Days", href: "/kitchen/ginger-and-brown-sugar-tea-for-cold-days/" },
+    { title: "Cinnamon Apple Tea Cozy Stovetop Infusion", href: "/kitchen/cinnamon-apple-tea-a-cozy-stovetop-fruit-infusion/" },
+    { title: "Star Anise Tea Whole-Spice Infusion", href: "/kitchen/star-anise-tea-a-simple-whole-spice-infusion/" },
+  ],
+  "cinnamon-apple-tea-a-cozy-stovetop-fruit-infusion": [
+    { title: "Clove Tea Short-Steep Whole-Spice", href: "/kitchen/clove-tea-a-short-steep-whole-spice-kitchen-recipe/" },
+    { title: "Monk Fruit and Pear Tea Basics", href: "/kitchen/monk-fruit-and-pear-tea-basics/" },
+    { title: "Ginger and Brown Sugar Tea for Cold Days", href: "/kitchen/ginger-and-brown-sugar-tea-for-cold-days/" },
+  ],
+  "turmeric-tea-a-golden-pantry-drink-with-gentle-spice": [
+    { title: "Ginger Turmeric Tea Bright Stovetop Infusion", href: "/kitchen/ginger-turmeric-tea-a-bright-stovetop-spice-infusion/" },
+    { title: "Golden Milk Simple Turmeric Drink", href: "/kitchen/golden-milk-a-simple-turmeric-spice-drink-for-beginners/" },
+    { title: "Ginger and Brown Sugar Tea for Cold Days", href: "/kitchen/ginger-and-brown-sugar-tea-for-cold-days/" },
+  ],
+  "golden-milk-a-simple-turmeric-spice-drink-for-beginners": [
+    { title: "Turmeric Tea Golden Pantry Drink", href: "/kitchen/turmeric-tea-a-golden-pantry-drink-with-gentle-spice/" },
+    { title: "Black Sesame Breakfast Ideas for Beginners", href: "/kitchen/black-sesame-breakfast-ideas-for-beginners/" },
+    { title: "Ginger Turmeric Tea Bright Stovetop Infusion", href: "/kitchen/ginger-turmeric-tea-a-bright-stovetop-spice-infusion/" },
+  ],
+  "ginger-turmeric-tea-a-bright-stovetop-spice-infusion": [
+    { title: "Turmeric Tea Golden Pantry Drink", href: "/kitchen/turmeric-tea-a-golden-pantry-drink-with-gentle-spice/" },
+    { title: "Golden Milk Simple Turmeric Drink", href: "/kitchen/golden-milk-a-simple-turmeric-spice-drink-for-beginners/" },
+    { title: "Jujube and Ginger Tea for Busy Weeks", href: "/kitchen/jujube-and-ginger-tea-for-busy-weeks/" },
   ],
 };
 const relatedRecipes = recipeLinkMap[article.slug] ?? [];
