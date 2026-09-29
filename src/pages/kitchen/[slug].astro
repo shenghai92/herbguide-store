@@ -429,6 +429,46 @@ const articleSeoMap: Record<
     heroNote:
       "Readers who search ginger turmeric tea usually want a bright, warming spice cup, so this page keeps the ingredient list short and the method clear.",
   },
+  "roasted-barley-tea-a-toasty-pantry-drink-for-beginners": {
+    title: "Roasted Barley Tea Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A toasty roasted barley tea recipe with roasted barley and water, a caffeine-free pantry drink for beginners with clear steps and serving notes.",
+    extraKeywords: ["roasted barley tea", "barley tea recipe", "mugicha", "boricha", "caffeine free tea"],
+    heroNote:
+      "Readers who search roasted barley tea usually want a toasty, caffeine-free pantry drink, so this page keeps the method simple and the flavor warm.",
+  },
+  "roasted-corn-tea-a-nutty-stovetop-grain-infusion": {
+    title: "Roasted Corn Tea Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A nutty roasted corn tea recipe with roasted corn kernels and water, a stovetop grain infusion with clear steps and serving notes.",
+    extraKeywords: ["roasted corn tea", "corn tea recipe", "oksusucha", "roasted corn drink", "grain tea"],
+    heroNote:
+      "Readers who search roasted corn tea usually want a nutty, caffeine-free grain infusion, so this page keeps the method simple and the flavor toasty.",
+  },
+  "genmaicha-tea-how-to-brew-japanese-green-tea-with-roasted-rice": {
+    title: "Genmaicha Tea Brewing Guide | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A genmaicha tea brewing guide for Japanese green tea with roasted rice, with clear steps, serving notes, and pantry context.",
+    extraKeywords: ["genmaicha tea", "genmaicha brewing", "genmaicha recipe", "green tea with roasted rice", "japanese rice tea"],
+    heroNote:
+      "Readers who search genmaicha tea usually want a clear brewing guide for green tea with roasted rice, so this page keeps the method straightforward.",
+  },
+  "hojicha-tea-a-roasted-green-tea-brewing-guide": {
+    title: "Hojicha Tea Brewing Guide | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A hojicha tea brewing guide for roasted green tea, with clear steps, serving notes, and pantry context.",
+    extraKeywords: ["hojicha tea", "hojicha brewing", "roasted green tea", "hojicha recipe", "low caffeine tea"],
+    heroNote:
+      "Readers who search hojicha tea usually want a clear guide to roasted green tea, so this page keeps the method simple and notes its lower caffeine.",
+  },
+  "hojicha-latte-a-toasty-tea-drink-for-your-home-kitchen": {
+    title: "Hojicha Latte Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A toasty hojicha latte recipe with hojicha tea leaves and milk or oat milk, a home kitchen tea drink with clear steps and serving notes.",
+    extraKeywords: ["hojicha latte", "hojicha latte recipe", "roasted green tea latte", "hojicha milk tea", "toasty latte"],
+    heroNote:
+      "Readers who search hojicha latte usually want a creamy, toasty tea drink, so this page keeps the base gentle and the method beginner-friendly.",
+  },
 };
 const articleSeo = articleSeoMap[article.slug];
 const recipeSchemaImageMap: Record<string, { src: string; alt: string }> = {
@@ -634,6 +674,11 @@ const recipeCuisineMap: Record<string, string> = {
   "turmeric-tea-a-golden-pantry-drink-with-gentle-spice": "Chinese-inspired tea",
   "golden-milk-a-simple-turmeric-spice-drink-for-beginners": "Chinese-inspired kitchen",
   "ginger-turmeric-tea-a-bright-stovetop-spice-infusion": "Chinese-inspired tea",
+  "roasted-barley-tea-a-toasty-pantry-drink-for-beginners": "East Asian-inspired tea",
+  "roasted-corn-tea-a-nutty-stovetop-grain-infusion": "East Asian-inspired tea",
+  "genmaicha-tea-how-to-brew-japanese-green-tea-with-roasted-rice": "Japanese-inspired tea",
+  "hojicha-tea-a-roasted-green-tea-brewing-guide": "Japanese-inspired tea",
+  "hojicha-latte-a-toasty-tea-drink-for-your-home-kitchen": "Japanese-inspired tea",
 };
 const recipePageVisualMap: Record<string, { src: string; alt: string }> = {
   "5-easy-traditional-kitchen-ingredients-for-beginners": {
@@ -1226,6 +1271,31 @@ const recipeLinkMap: Record<string, Array<{ title: string; href: string }>> = {
     { title: "Turmeric Tea Golden Pantry Drink", href: "/kitchen/turmeric-tea-a-golden-pantry-drink-with-gentle-spice/" },
     { title: "Golden Milk Simple Turmeric Drink", href: "/kitchen/golden-milk-a-simple-turmeric-spice-drink-for-beginners/" },
     { title: "Jujube and Ginger Tea for Busy Weeks", href: "/kitchen/jujube-and-ginger-tea-for-busy-weeks/" },
+  ],
+  "roasted-barley-tea-a-toasty-pantry-drink-for-beginners": [
+    { title: "Barley Sprout and Chen Pi Tea Basics", href: "/kitchen/barley-sprout-and-chen-pi-tea-basics/" },
+    { title: "Roasted Corn Tea Nutty Grain Infusion", href: "/kitchen/roasted-corn-tea-a-nutty-stovetop-grain-infusion/" },
+    { title: "Hojicha Tea Roasted Green Tea Guide", href: "/kitchen/hojicha-tea-a-roasted-green-tea-brewing-guide/" },
+  ],
+  "roasted-corn-tea-a-nutty-stovetop-grain-infusion": [
+    { title: "Cassia Seed and Corn Silk Tea Basics", href: "/kitchen/cassia-seed-and-corn-silk-tea-basics/" },
+    { title: "Roasted Barley Tea Toasty Pantry Drink", href: "/kitchen/roasted-barley-tea-a-toasty-pantry-drink-for-beginners/" },
+    { title: "Genmaicha Tea with Roasted Rice", href: "/kitchen/genmaicha-tea-how-to-brew-japanese-green-tea-with-roasted-rice/" },
+  ],
+  "genmaicha-tea-how-to-brew-japanese-green-tea-with-roasted-rice": [
+    { title: "Hojicha Tea Roasted Green Tea Guide", href: "/kitchen/hojicha-tea-a-roasted-green-tea-brewing-guide/" },
+    { title: "Chrysanthemum Tea Basics", href: "/kitchen/chrysanthemum-tea-basics/" },
+    { title: "Roasted Barley Tea Toasty Pantry Drink", href: "/kitchen/roasted-barley-tea-a-toasty-pantry-drink-for-beginners/" },
+  ],
+  "hojicha-tea-a-roasted-green-tea-brewing-guide": [
+    { title: "Hojicha Latte Toasty Tea Drink", href: "/kitchen/hojicha-latte-a-toasty-tea-drink-for-your-home-kitchen/" },
+    { title: "Genmaicha Tea with Roasted Rice", href: "/kitchen/genmaicha-tea-how-to-brew-japanese-green-tea-with-roasted-rice/" },
+    { title: "Roasted Barley Tea Toasty Pantry Drink", href: "/kitchen/roasted-barley-tea-a-toasty-pantry-drink-for-beginners/" },
+  ],
+  "hojicha-latte-a-toasty-tea-drink-for-your-home-kitchen": [
+    { title: "Hojicha Tea Roasted Green Tea Guide", href: "/kitchen/hojicha-tea-a-roasted-green-tea-brewing-guide/" },
+    { title: "Black Sesame Breakfast Ideas for Beginners", href: "/kitchen/black-sesame-breakfast-ideas-for-beginners/" },
+    { title: "Golden Milk Simple Turmeric Drink", href: "/kitchen/golden-milk-a-simple-turmeric-spice-drink-for-beginners/" },
   ],
 };
 const relatedRecipes = recipeLinkMap[article.slug] ?? [];

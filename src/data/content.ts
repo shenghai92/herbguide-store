@@ -661,6 +661,31 @@ const rawRecipeCards = [
     "title": "Ginger Turmeric Tea: A Bright Stovetop Spice Infusion",
     "text": "A bright ginger turmeric tea recipe with fresh ginger and ground turmeric: a stovetop spice infusion with clear steps and serving notes."
   },
+  {
+    "slug": "roasted-barley-tea-a-toasty-pantry-drink-for-beginners",
+    "title": "Roasted Barley Tea: A Toasty Pantry Drink for Beginners",
+    "text": "A toasty roasted barley tea recipe with roasted barley and water: a caffeine-free pantry drink for beginners with clear steps and serving notes."
+  },
+  {
+    "slug": "roasted-corn-tea-a-nutty-stovetop-grain-infusion",
+    "title": "Roasted Corn Tea: A Nutty Stovetop Grain Infusion",
+    "text": "A nutty roasted corn tea recipe with roasted corn kernels and water: a stovetop grain infusion with clear steps and serving notes."
+  },
+  {
+    "slug": "genmaicha-tea-how-to-brew-japanese-green-tea-with-roasted-rice",
+    "title": "Genmaicha Tea: How to Brew Japanese Green Tea with Roasted Rice",
+    "text": "A genmaicha tea brewing guide for Japanese green tea with roasted rice: clear steps, serving notes, and pantry context."
+  },
+  {
+    "slug": "hojicha-tea-a-roasted-green-tea-brewing-guide",
+    "title": "Hojicha Tea: A Roasted Green Tea Brewing Guide",
+    "text": "A hojicha tea brewing guide for roasted green tea: clear steps, serving notes, and pantry context."
+  },
+  {
+    "slug": "hojicha-latte-a-toasty-tea-drink-for-your-home-kitchen",
+    "title": "Hojicha Latte: A Toasty Tea Drink for Your Home Kitchen",
+    "text": "A toasty hojicha latte recipe with hojicha tea leaves and milk or oat milk: a home kitchen tea drink with clear steps and serving notes."
+  },
 ];
 
 export const recipeCards = rawRecipeCards.map((card) => sanitizeContentCard(card));
