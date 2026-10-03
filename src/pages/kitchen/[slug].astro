@@ -469,6 +469,46 @@ const articleSeoMap: Record<
     heroNote:
       "Readers who search hojicha latte usually want a creamy, toasty tea drink, so this page keeps the base gentle and the method beginner-friendly.",
   },
+  "jasmine-green-tea-a-simple-brewing-guide-for-floral-tea": {
+    title: "Jasmine Green Tea Brewing Guide | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A jasmine green tea brewing guide for floral tea, with clear steeping steps, serving notes, and pantry context.",
+    extraKeywords: ["jasmine green tea", "jasmine green tea recipe", "how to brew jasmine green tea", "jasmine tea guide", "floral green tea"],
+    heroNote:
+      "Readers who search jasmine green tea usually want a simple floral brewing guide, so this page keeps the method direct and the ingredient list short.",
+  },
+  "osmanthus-tea-a-floral-kitchen-cup-with-honeyed-aroma": {
+    title: "Osmanthus Tea Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A floral osmanthus tea recipe with dried osmanthus flowers and black tea, a honeyed kitchen cup with clear steps and serving notes.",
+    extraKeywords: ["osmanthus tea", "osmanthus tea recipe", "dried osmanthus tea", "osmanthus black tea", "gui hua tea"],
+    heroNote:
+      "Readers who search osmanthus tea usually want a honeyed floral cup, so this page keeps the steep gentle and the aroma front and center.",
+  },
+  "rose-tea-a-floral-pantry-infusion-with-simple-steeping-steps": {
+    title: "Rose Tea Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A floral rose tea recipe with dried rose buds and lemon peel, a pantry infusion with simple steeping steps and serving notes.",
+    extraKeywords: ["rose tea", "rose tea recipe", "rose bud tea", "dried rose tea", "floral tea recipe"],
+    heroNote:
+      "Readers who search rose tea usually want a soft, aromatic floral cup, so this page keeps the steps simple and the flavor delicate.",
+  },
+  "butterfly-pea-tea-a-blue-floral-drink-with-citrus-color-change": {
+    title: "Butterfly Pea Tea Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A blue butterfly pea tea recipe with butterfly pea flowers and fresh lemon, a floral drink with a citrus color change and clear steps.",
+    extraKeywords: ["butterfly pea tea", "butterfly pea tea recipe", "blue tea", "butterfly pea lemon", "color changing tea"],
+    heroNote:
+      "Readers who search butterfly pea tea usually want the blue floral drink and its citrus color change, so this page keeps the method simple and the lemon step clear.",
+  },
+  "rooibos-tea-a-naturally-caffeine-free-pantry-cup": {
+    title: "Rooibos Tea Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A naturally caffeine-free rooibos tea recipe with rooibos tea and orange peel, a pantry cup with clear steps and serving notes.",
+    extraKeywords: ["rooibos tea", "rooibos tea recipe", "caffeine free tea", "red bush tea", "rooibos orange peel"],
+    heroNote:
+      "Readers who search rooibos tea usually want a naturally caffeine-free herbal cup, so this page keeps the method simple and the flavor smooth.",
+  },
 };
 const articleSeo = articleSeoMap[article.slug];
 const recipeSchemaImageMap: Record<string, { src: string; alt: string }> = {
@@ -679,6 +719,11 @@ const recipeCuisineMap: Record<string, string> = {
   "genmaicha-tea-how-to-brew-japanese-green-tea-with-roasted-rice": "Japanese-inspired tea",
   "hojicha-tea-a-roasted-green-tea-brewing-guide": "Japanese-inspired tea",
   "hojicha-latte-a-toasty-tea-drink-for-your-home-kitchen": "Japanese-inspired tea",
+  "jasmine-green-tea-a-simple-brewing-guide-for-floral-tea": "Chinese-inspired tea",
+  "osmanthus-tea-a-floral-kitchen-cup-with-honeyed-aroma": "Chinese-inspired tea",
+  "rose-tea-a-floral-pantry-infusion-with-simple-steeping-steps": "Middle Eastern-inspired tea",
+  "butterfly-pea-tea-a-blue-floral-drink-with-citrus-color-change": "Southeast Asian-inspired tea",
+  "rooibos-tea-a-naturally-caffeine-free-pantry-cup": "South African-inspired tea",
 };
 const recipePageVisualMap: Record<string, { src: string; alt: string }> = {
   "5-easy-traditional-kitchen-ingredients-for-beginners": {
@@ -1296,6 +1341,31 @@ const recipeLinkMap: Record<string, Array<{ title: string; href: string }>> = {
     { title: "Hojicha Tea Roasted Green Tea Guide", href: "/kitchen/hojicha-tea-a-roasted-green-tea-brewing-guide/" },
     { title: "Black Sesame Breakfast Ideas for Beginners", href: "/kitchen/black-sesame-breakfast-ideas-for-beginners/" },
     { title: "Golden Milk Simple Turmeric Drink", href: "/kitchen/golden-milk-a-simple-turmeric-spice-drink-for-beginners/" },
+  ],
+  "jasmine-green-tea-a-simple-brewing-guide-for-floral-tea": [
+    { title: "Jasmine and Pear Tea Basics", href: "/kitchen/jasmine-and-pear-tea-basics/" },
+    { title: "Osmanthus Tea Floral Kitchen Cup", href: "/kitchen/osmanthus-tea-a-floral-kitchen-cup-with-honeyed-aroma/" },
+    { title: "Rose Tea Floral Pantry Infusion", href: "/kitchen/rose-tea-a-floral-pantry-infusion-with-simple-steeping-steps/" },
+  ],
+  "osmanthus-tea-a-floral-kitchen-cup-with-honeyed-aroma": [
+    { title: "Osmanthus and Pear Tea Basics", href: "/kitchen/osmanthus-and-pear-tea-basics/" },
+    { title: "Jasmine Green Tea Brewing Guide", href: "/kitchen/jasmine-green-tea-a-simple-brewing-guide-for-floral-tea/" },
+    { title: "Rose Tea Floral Pantry Infusion", href: "/kitchen/rose-tea-a-floral-pantry-infusion-with-simple-steeping-steps/" },
+  ],
+  "rose-tea-a-floral-pantry-infusion-with-simple-steeping-steps": [
+    { title: "Rose Bud and Mulberry Leaf Tea Basics", href: "/kitchen/rose-bud-and-mulberry-leaf-tea-basics/" },
+    { title: "Butterfly Pea Tea Blue Floral Drink", href: "/kitchen/butterfly-pea-tea-a-blue-floral-drink-with-citrus-color-change/" },
+    { title: "Lavender Tea Light Floral Cup", href: "/kitchen/lavender-tea-a-light-floral-cup-for-a-quiet-kitchen-routine/" },
+  ],
+  "butterfly-pea-tea-a-blue-floral-drink-with-citrus-color-change": [
+    { title: "Chrysanthemum Tea Basics", href: "/kitchen/chrysanthemum-tea-basics/" },
+    { title: "Rose Tea Floral Pantry Infusion", href: "/kitchen/rose-tea-a-floral-pantry-infusion-with-simple-steeping-steps/" },
+    { title: "Hibiscus Tea Tart Ruby Pantry Infusion", href: "/kitchen/hibiscus-tea-a-tart-ruby-pantry-infusion/" },
+  ],
+  "rooibos-tea-a-naturally-caffeine-free-pantry-cup": [
+    { title: "Hojicha Tea Roasted Green Tea Guide", href: "/kitchen/hojicha-tea-a-roasted-green-tea-brewing-guide/" },
+    { title: "Cinnamon Apple Tea Cozy Stovetop Infusion", href: "/kitchen/cinnamon-apple-tea-a-cozy-stovetop-fruit-infusion/" },
+    { title: "Lemon Balm Tea Soft Citrus Herb Infusion", href: "/kitchen/lemon-balm-tea-a-soft-citrus-herb-infusion/" },
   ],
 };
 const relatedRecipes = recipeLinkMap[article.slug] ?? [];

@@ -63,6 +63,11 @@ const recipeSearchThemes: Record<string, string[]> = {
   "genmaicha-tea-how-to-brew-japanese-green-tea-with-roasted-rice": ["pantry", "tea", "genmaicha", "green tea", "roasted rice"],
   "hojicha-tea-a-roasted-green-tea-brewing-guide": ["pantry", "tea", "hojicha", "roasted", "green tea"],
   "hojicha-latte-a-toasty-tea-drink-for-your-home-kitchen": ["pantry", "latte", "hojicha", "toasty", "milk"],
+  "jasmine-green-tea-a-simple-brewing-guide-for-floral-tea": ["pantry", "tea", "jasmine", "green tea", "floral"],
+  "osmanthus-tea-a-floral-kitchen-cup-with-honeyed-aroma": ["calming", "tea", "osmanthus", "floral", "honeyed"],
+  "rose-tea-a-floral-pantry-infusion-with-simple-steeping-steps": ["calming", "tea", "rose", "floral", "pantry"],
+  "butterfly-pea-tea-a-blue-floral-drink-with-citrus-color-change": ["cooling", "tea", "butterfly pea", "blue", "color change"],
+  "rooibos-tea-a-naturally-caffeine-free-pantry-cup": ["pantry", "tea", "rooibos", "caffeine-free", "herbal"],
 };
 
 const recipeCategoryMap: Record<string, string> = {
@@ -125,6 +130,11 @@ const recipeCategoryMap: Record<string, string> = {
   "genmaicha-tea-how-to-brew-japanese-green-tea-with-roasted-rice": "Pantry Basics",
   "hojicha-tea-a-roasted-green-tea-brewing-guide": "Pantry Basics",
   "hojicha-latte-a-toasty-tea-drink-for-your-home-kitchen": "Pantry Basics",
+  "jasmine-green-tea-a-simple-brewing-guide-for-floral-tea": "Pantry Basics",
+  "osmanthus-tea-a-floral-kitchen-cup-with-honeyed-aroma": "Calming",
+  "rose-tea-a-floral-pantry-infusion-with-simple-steeping-steps": "Calming",
+  "butterfly-pea-tea-a-blue-floral-drink-with-citrus-color-change": "Cooling",
+  "rooibos-tea-a-naturally-caffeine-free-pantry-cup": "Pantry Basics",
 };
 
 const recipeCategories = Array.from(new Set(recipeCards.map((card) => recipeCategoryMap[card.slug] ?? "Balanced")));

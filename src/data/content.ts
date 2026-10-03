@@ -686,6 +686,31 @@ const rawRecipeCards = [
     "title": "Hojicha Latte: A Toasty Tea Drink for Your Home Kitchen",
     "text": "A toasty hojicha latte recipe with hojicha tea leaves and milk or oat milk: a home kitchen tea drink with clear steps and serving notes."
   },
+  {
+    "slug": "jasmine-green-tea-a-simple-brewing-guide-for-floral-tea",
+    "title": "Jasmine Green Tea: A Simple Brewing Guide for Floral Tea",
+    "text": "A jasmine green tea brewing guide for floral tea: clear steps, serving notes, and pantry context."
+  },
+  {
+    "slug": "osmanthus-tea-a-floral-kitchen-cup-with-honeyed-aroma",
+    "title": "Osmanthus Tea: A Floral Kitchen Cup with Honeyed Aroma",
+    "text": "A floral osmanthus tea recipe with dried osmanthus flowers and black tea: a honeyed kitchen cup with clear steps and serving notes."
+  },
+  {
+    "slug": "rose-tea-a-floral-pantry-infusion-with-simple-steeping-steps",
+    "title": "Rose Tea: A Floral Pantry Infusion with Simple Steeping Steps",
+    "text": "A floral rose tea recipe with dried rose buds and lemon peel: a pantry infusion with simple steeping steps and serving notes."
+  },
+  {
+    "slug": "butterfly-pea-tea-a-blue-floral-drink-with-citrus-color-change",
+    "title": "Butterfly Pea Tea: A Blue Floral Drink with Citrus Color Change",
+    "text": "A blue butterfly pea tea recipe with butterfly pea flowers and fresh lemon: a floral drink with a citrus color change and clear steps."
+  },
+  {
+    "slug": "rooibos-tea-a-naturally-caffeine-free-pantry-cup",
+    "title": "Rooibos Tea: A Naturally Caffeine-Free Pantry Cup",
+    "text": "A naturally caffeine-free rooibos tea recipe with rooibos tea and orange peel: a pantry cup with clear steps and serving notes."
+  },
 ];
 
 export const recipeCards = rawRecipeCards.map((card) => sanitizeContentCard(card));
