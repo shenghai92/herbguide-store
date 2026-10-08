@@ -68,6 +68,11 @@ const recipeSearchThemes: Record<string, string[]> = {
   "rose-tea-a-floral-pantry-infusion-with-simple-steeping-steps": ["calming", "tea", "rose", "floral", "pantry"],
   "butterfly-pea-tea-a-blue-floral-drink-with-citrus-color-change": ["cooling", "tea", "butterfly pea", "blue", "color change"],
   "rooibos-tea-a-naturally-caffeine-free-pantry-cup": ["pantry", "tea", "rooibos", "caffeine-free", "herbal"],
+  "honeybush-tea-a-honey-scented-herbal-cup-for-beginners": ["pantry", "tea", "honeybush", "caffeine-free", "herbal"],
+  "masala-chai-a-home-kitchen-guide-to-spiced-milk-tea": ["warming", "tea", "masala chai", "spiced", "milk"],
+  "chinese-tea-eggs-a-simple-five-spice-pantry-recipe": ["pantry", "eggs", "tea", "five-spice", "soy sauce"],
+  "tea-smoked-mushrooms-a-savory-kitchen-project-with-black-tea": ["pantry", "mushrooms", "smoked", "black tea", "savory"],
+  "shiitake-mushroom-soup-a-simple-savory-broth-for-weeknights": ["balanced", "soup", "shiitake", "mushroom", "tofu"],
 };
 
 const recipeCategoryMap: Record<string, string> = {
@@ -135,6 +140,11 @@ const recipeCategoryMap: Record<string, string> = {
   "rose-tea-a-floral-pantry-infusion-with-simple-steeping-steps": "Calming",
   "butterfly-pea-tea-a-blue-floral-drink-with-citrus-color-change": "Cooling",
   "rooibos-tea-a-naturally-caffeine-free-pantry-cup": "Pantry Basics",
+  "honeybush-tea-a-honey-scented-herbal-cup-for-beginners": "Pantry Basics",
+  "masala-chai-a-home-kitchen-guide-to-spiced-milk-tea": "Warming",
+  "chinese-tea-eggs-a-simple-five-spice-pantry-recipe": "Pantry Basics",
+  "tea-smoked-mushrooms-a-savory-kitchen-project-with-black-tea": "Pantry Basics",
+  "shiitake-mushroom-soup-a-simple-savory-broth-for-weeknights": "Balanced",
 };
 
 const recipeCategories = Array.from(new Set(recipeCards.map((card) => recipeCategoryMap[card.slug] ?? "Balanced")));

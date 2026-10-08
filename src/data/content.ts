@@ -711,6 +711,31 @@ const rawRecipeCards = [
     "title": "Rooibos Tea: A Naturally Caffeine-Free Pantry Cup",
     "text": "A naturally caffeine-free rooibos tea recipe with rooibos tea and orange peel: a pantry cup with clear steps and serving notes."
   },
+  {
+    "slug": "honeybush-tea-a-honey-scented-herbal-cup-for-beginners",
+    "title": "Honeybush Tea: A Honey-Scented Herbal Cup for Beginners",
+    "text": "A honeybush tea recipe with honeybush tea and vanilla bean: a honey-scented, naturally caffeine-free herbal cup for beginners with clear steps and serving notes."
+  },
+  {
+    "slug": "masala-chai-a-home-kitchen-guide-to-spiced-milk-tea",
+    "title": "Masala Chai: A Home Kitchen Guide to Spiced Milk Tea",
+    "text": "A masala chai recipe with black tea and cardamom and cinnamon: a spiced milk tea home-kitchen guide with clear steps and serving notes."
+  },
+  {
+    "slug": "chinese-tea-eggs-a-simple-five-spice-pantry-recipe",
+    "title": "Chinese Tea Eggs: A Simple Five-Spice Pantry Recipe",
+    "text": "A Chinese tea eggs recipe with black tea and star anise and soy sauce: a simple five-spice pantry recipe with clear steps and serving notes."
+  },
+  {
+    "slug": "tea-smoked-mushrooms-a-savory-kitchen-project-with-black-tea",
+    "title": "Tea-Smoked Mushrooms: A Savory Kitchen Project with Black Tea",
+    "text": "A tea-smoked mushrooms recipe with black tea leaves and shiitake mushrooms: a savory kitchen project with clear steps and serving notes."
+  },
+  {
+    "slug": "shiitake-mushroom-soup-a-simple-savory-broth-for-weeknights",
+    "title": "Shiitake Mushroom Soup: A Simple Savory Broth for Weeknights",
+    "text": "A shiitake mushroom soup recipe with dried shiitake mushrooms and tofu: a simple savory broth for weeknights with clear steps and serving notes."
+  },
 ];
 
 export const recipeCards = rawRecipeCards.map((card) => sanitizeContentCard(card));
