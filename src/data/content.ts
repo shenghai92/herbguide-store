@@ -736,6 +736,31 @@ const rawRecipeCards = [
     "title": "Shiitake Mushroom Soup: A Simple Savory Broth for Weeknights",
     "text": "A shiitake mushroom soup recipe with dried shiitake mushrooms and tofu: a simple savory broth for weeknights with clear steps and serving notes."
   },
+  {
+    "slug": "tofu-and-mushroom-soup-a-light-pantry-bowl-with-ginger",
+    "title": "Tofu and Mushroom Soup: A Light Pantry Bowl with Ginger",
+    "text": "A tofu and mushroom soup recipe with firm tofu and shiitake mushrooms: a light pantry bowl with ginger, with clear steps and serving notes."
+  },
+  {
+    "slug": "winter-melon-soup-a-light-chinese-kitchen-recipe",
+    "title": "Winter Melon Soup: A Light Chinese Kitchen Recipe",
+    "text": "A winter melon soup recipe with winter melon and ginger slices: a light Chinese kitchen recipe with clear steps and serving notes."
+  },
+  {
+    "slug": "daikon-radish-soup-a-clear-broth-with-ginger-and-scallions",
+    "title": "Daikon Radish Soup: A Clear Broth with Ginger and Scallions",
+    "text": "A daikon radish soup recipe with daikon radish and fresh ginger: a clear broth with scallions, with clear steps and serving notes."
+  },
+  {
+    "slug": "napa-cabbage-soup-a-light-pantry-broth-with-tofu",
+    "title": "Napa Cabbage Soup: A Light Pantry Broth with Tofu",
+    "text": "A napa cabbage soup recipe with napa cabbage and firm tofu: a light pantry broth with clear steps and serving notes."
+  },
+  {
+    "slug": "five-spice-vegetable-broth-a-fragrant-base-for-noodles-and-rice",
+    "title": "Five-Spice Vegetable Broth: A Fragrant Base for Noodles and Rice",
+    "text": "A five-spice vegetable broth recipe with Chinese five-spice and carrot and mushroom: a fragrant base for noodles and rice with clear steps and serving notes."
+  },
 ];
 
 export const recipeCards = rawRecipeCards.map((card) => sanitizeContentCard(card));

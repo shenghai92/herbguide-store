@@ -549,6 +549,46 @@ const articleSeoMap: Record<
     heroNote:
       "Readers who search shiitake mushroom soup usually want a simple savory weeknight broth, so this page keeps the ingredient list short and the simmer gentle.",
   },
+  "tofu-and-mushroom-soup-a-light-pantry-bowl-with-ginger": {
+    title: "Tofu and Mushroom Soup Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A light tofu and mushroom soup recipe with firm tofu, shiitake mushrooms, and ginger, a pantry bowl with clear steps and serving notes.",
+    extraKeywords: ["tofu mushroom soup", "tofu and mushroom soup", "tofu soup recipe", "mushroom tofu soup", "ginger tofu soup"],
+    heroNote:
+      "Readers who search tofu mushroom soup usually want a light, savory pantry bowl, so this page keeps the ingredient list short and the simmer gentle.",
+  },
+  "winter-melon-soup-a-light-chinese-kitchen-recipe": {
+    title: "Winter Melon Soup Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A light winter melon soup recipe with winter melon and ginger slices, a Chinese kitchen recipe with clear steps and serving notes.",
+    extraKeywords: ["winter melon soup", "winter melon soup recipe", "chinese winter melon soup", "wax gourd soup", "light chinese soup"],
+    heroNote:
+      "Readers who search winter melon soup usually want a light, clear Chinese soup, so this page keeps the method simple and the flavor delicate.",
+  },
+  "daikon-radish-soup-a-clear-broth-with-ginger-and-scallions": {
+    title: "Daikon Radish Soup Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A clear daikon radish soup recipe with daikon radish, fresh ginger, and scallions, a light broth with clear steps and serving notes.",
+    extraKeywords: ["daikon radish soup", "daikon soup recipe", "white radish soup", "daikon ginger soup", "clear chinese broth"],
+    heroNote:
+      "Readers who search daikon radish soup usually want a clear, light broth, so this page keeps the steps simple and the flavor clean.",
+  },
+  "napa-cabbage-soup-a-light-pantry-broth-with-tofu": {
+    title: "Napa Cabbage Soup Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A light napa cabbage soup recipe with napa cabbage and firm tofu, a pantry broth with clear steps and serving notes.",
+    extraKeywords: ["napa cabbage soup", "napa cabbage soup recipe", "chinese cabbage soup", "cabbage tofu soup", "light pantry soup"],
+    heroNote:
+      "Readers who search napa cabbage soup usually want a light pantry broth, so this page keeps the ingredient list short and the simmer gentle.",
+  },
+  "five-spice-vegetable-broth-a-fragrant-base-for-noodles-and-rice": {
+    title: "Five-Spice Vegetable Broth Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A fragrant five-spice vegetable broth recipe with Chinese five-spice and carrot and mushroom, a base for noodles and rice with clear steps and serving notes.",
+    extraKeywords: ["five spice vegetable broth", "five spice broth", "chinese five spice broth", "vegetable broth recipe", "noodle broth base"],
+    heroNote:
+      "Readers who search five-spice vegetable broth usually want a fragrant base for noodles and rice, so this page keeps the spice blend simple and the simmer steady.",
+  },
 };
 const articleSeo = articleSeoMap[article.slug];
 const recipeSchemaImageMap: Record<string, { src: string; alt: string }> = {
@@ -769,6 +809,11 @@ const recipeCuisineMap: Record<string, string> = {
   "chinese-tea-eggs-a-simple-five-spice-pantry-recipe": "Chinese-inspired snack",
   "tea-smoked-mushrooms-a-savory-kitchen-project-with-black-tea": "Chinese-inspired kitchen",
   "shiitake-mushroom-soup-a-simple-savory-broth-for-weeknights": "Chinese-inspired soup",
+  "tofu-and-mushroom-soup-a-light-pantry-bowl-with-ginger": "Chinese-inspired soup",
+  "winter-melon-soup-a-light-chinese-kitchen-recipe": "Chinese-inspired soup",
+  "daikon-radish-soup-a-clear-broth-with-ginger-and-scallions": "Chinese-inspired soup",
+  "napa-cabbage-soup-a-light-pantry-broth-with-tofu": "Chinese-inspired soup",
+  "five-spice-vegetable-broth-a-fragrant-base-for-noodles-and-rice": "Chinese-inspired soup",
 };
 const recipePageVisualMap: Record<string, { src: string; alt: string }> = {
   "5-easy-traditional-kitchen-ingredients-for-beginners": {
@@ -1436,6 +1481,31 @@ const recipeLinkMap: Record<string, Array<{ title: string; href: string }>> = {
     { title: "Chinese Yam and Carrot Soup Basics", href: "/kitchen/chinese-yam-and-carrot-soup-basics/" },
     { title: "Tea-Smoked Mushrooms Savory Project", href: "/kitchen/tea-smoked-mushrooms-a-savory-kitchen-project-with-black-tea/" },
     { title: "Chinese Tea Eggs Five-Spice Pantry Recipe", href: "/kitchen/chinese-tea-eggs-a-simple-five-spice-pantry-recipe/" },
+  ],
+  "tofu-and-mushroom-soup-a-light-pantry-bowl-with-ginger": [
+    { title: "Shiitake Mushroom Soup Weeknight Broth", href: "/kitchen/shiitake-mushroom-soup-a-simple-savory-broth-for-weeknights/" },
+    { title: "Chinese Yam and Carrot Soup Basics", href: "/kitchen/chinese-yam-and-carrot-soup-basics/" },
+    { title: "Napa Cabbage Soup Light Pantry Broth", href: "/kitchen/napa-cabbage-soup-a-light-pantry-broth-with-tofu/" },
+  ],
+  "winter-melon-soup-a-light-chinese-kitchen-recipe": [
+    { title: "Chinese Yam and Carrot Soup Basics", href: "/kitchen/chinese-yam-and-carrot-soup-basics/" },
+    { title: "Daikon Radish Soup Clear Broth", href: "/kitchen/daikon-radish-soup-a-clear-broth-with-ginger-and-scallions/" },
+    { title: "Napa Cabbage Soup Light Pantry Broth", href: "/kitchen/napa-cabbage-soup-a-light-pantry-broth-with-tofu/" },
+  ],
+  "daikon-radish-soup-a-clear-broth-with-ginger-and-scallions": [
+    { title: "Winter Melon Soup Light Chinese Recipe", href: "/kitchen/winter-melon-soup-a-light-chinese-kitchen-recipe/" },
+    { title: "Chinese Yam and Carrot Soup Basics", href: "/kitchen/chinese-yam-and-carrot-soup-basics/" },
+    { title: "Perilla and Ginger Soup for Cool Days", href: "/kitchen/perilla-and-ginger-soup-for-cool-days/" },
+  ],
+  "napa-cabbage-soup-a-light-pantry-broth-with-tofu": [
+    { title: "Chinese Yam and Carrot Soup Basics", href: "/kitchen/chinese-yam-and-carrot-soup-basics/" },
+    { title: "Tofu and Mushroom Soup Light Pantry Bowl", href: "/kitchen/tofu-and-mushroom-soup-a-light-pantry-bowl-with-ginger/" },
+    { title: "Winter Melon Soup Light Chinese Recipe", href: "/kitchen/winter-melon-soup-a-light-chinese-kitchen-recipe/" },
+  ],
+  "five-spice-vegetable-broth-a-fragrant-base-for-noodles-and-rice": [
+    { title: "Chinese Tea Eggs Five-Spice Pantry Recipe", href: "/kitchen/chinese-tea-eggs-a-simple-five-spice-pantry-recipe/" },
+    { title: "Star Anise Tea Simple Whole Spice Infusion", href: "/kitchen/star-anise-tea-a-simple-whole-spice-infusion/" },
+    { title: "Shiitake Mushroom Soup Weeknight Broth", href: "/kitchen/shiitake-mushroom-soup-a-simple-savory-broth-for-weeknights/" },
   ],
 };
 const relatedRecipes = recipeLinkMap[article.slug] ?? [];

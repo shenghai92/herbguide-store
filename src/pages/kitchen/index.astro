@@ -73,6 +73,11 @@ const recipeSearchThemes: Record<string, string[]> = {
   "chinese-tea-eggs-a-simple-five-spice-pantry-recipe": ["pantry", "eggs", "tea", "five-spice", "soy sauce"],
   "tea-smoked-mushrooms-a-savory-kitchen-project-with-black-tea": ["pantry", "mushrooms", "smoked", "black tea", "savory"],
   "shiitake-mushroom-soup-a-simple-savory-broth-for-weeknights": ["balanced", "soup", "shiitake", "mushroom", "tofu"],
+  "tofu-and-mushroom-soup-a-light-pantry-bowl-with-ginger": ["balanced", "soup", "tofu", "mushroom", "ginger"],
+  "winter-melon-soup-a-light-chinese-kitchen-recipe": ["balanced", "soup", "winter melon", "light", "ginger"],
+  "daikon-radish-soup-a-clear-broth-with-ginger-and-scallions": ["balanced", "soup", "daikon", "radish", "ginger"],
+  "napa-cabbage-soup-a-light-pantry-broth-with-tofu": ["balanced", "soup", "napa cabbage", "tofu", "light"],
+  "five-spice-vegetable-broth-a-fragrant-base-for-noodles-and-rice": ["pantry", "broth", "five-spice", "vegetable", "noodles"],
 };
 
 const recipeCategoryMap: Record<string, string> = {
@@ -145,6 +150,11 @@ const recipeCategoryMap: Record<string, string> = {
   "chinese-tea-eggs-a-simple-five-spice-pantry-recipe": "Pantry Basics",
   "tea-smoked-mushrooms-a-savory-kitchen-project-with-black-tea": "Pantry Basics",
   "shiitake-mushroom-soup-a-simple-savory-broth-for-weeknights": "Balanced",
+  "tofu-and-mushroom-soup-a-light-pantry-bowl-with-ginger": "Balanced",
+  "winter-melon-soup-a-light-chinese-kitchen-recipe": "Balanced",
+  "daikon-radish-soup-a-clear-broth-with-ginger-and-scallions": "Balanced",
+  "napa-cabbage-soup-a-light-pantry-broth-with-tofu": "Balanced",
+  "five-spice-vegetable-broth-a-fragrant-base-for-noodles-and-rice": "Pantry Basics",
 };
 
 const recipeCategories = Array.from(new Set(recipeCards.map((card) => recipeCategoryMap[card.slug] ?? "Balanced")));

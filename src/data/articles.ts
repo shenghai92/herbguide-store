@@ -11654,4 +11654,309 @@ export const foodTherapyArticles: ContentArticle[] = [
       "U.S. Food and Drug Administration. CPG Sec. 525.750: Spices—Definitions. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525750-spices-definitions"
     ]
   },
+  {
+    "slug": "tofu-and-mushroom-soup-a-light-pantry-bowl-with-ginger",
+    "title": "Tofu and Mushroom Soup: A Light Pantry Bowl with Ginger",
+    "description": "A tofu and mushroom soup recipe with firm tofu and shiitake mushrooms: a light pantry bowl with ginger, with clear steps and serving notes.",
+    "eyebrow": "Kitchen Traditions",
+    "intro": "This food-first page turns firm tofu and shiitake mushrooms into a clear, beginner-friendly kitchen project. The goal is a balanced flavor, a practical method, and enough context to make the recipe feel approachable. It is written for readers who want a simple recipe before moving into ingredient profiles or traditional vocabulary. The result is a cup or bowl meant for everyday cooking, not a promise about a particular outcome.",
+    "recipe": {
+      "recipeYield": "2 cups or 2 small bowls",
+      "prepTime": "PT10M",
+      "totalTime": "PT35M",
+      "ingredients": [
+        "2 teaspoons to 1 tablespoon food-grade firm tofu",
+        "1 modest portion of shiitake mushrooms",
+        "3 cups fresh water or a mild, unsalted cooking base",
+        "Optional: a small pinch of salt or a little sweetener, added only after tasting",
+        "Optional garnish: a slice of citrus, a few sesame seeds, or a tender herb leaf"
+      ],
+      "steps": [
+        "Check the ingredient. Use food-grade ingredients that smell clean and are stored dry. Rinse fresh produce if used.",
+        "Build the base. Add the water or mild base to a small saucepan. Add firm tofu and shiitake mushrooms.",
+        "Warm gently. Bring the liquid just to a simmer, then reduce the heat. For a tea-style preparation, cover and steep; for a bowl or broth, keep a quiet simmer.",
+        "Taste before adjusting. After 10 minutes, taste a spoonful. Continue only if the flavor needs more time. Strong spices become dominant quickly.",
+        "Strain or serve. Remove hard whole spices or woody pieces. Serve warm, or cool fully and refrigerate for a chilled version."
+      ],
+      "servingNotes": [
+        "Keep the first version deliberately plain. A small bowl of rice, sliced fruit, toast, or a lightly seasoned vegetable dish gives the flavor room to be noticed. If you make a larger batch, label it with the date and refrigerate promptly."
+      ],
+      "caution": [
+        "Use this as a recipe, not as a fixed routine for every reader. FDA guidance on spices emphasizes ordinary food-safety practices such as clean handling and appropriate cooking when needed. Concentrated products are different from food ingredients; NCCIH notes that supplement products may pose different considerations from everyday foods."
+      ]
+    },
+    "sections": [
+      {
+        "title": "A beginner-friendly kitchen structure",
+        "paragraphs": [
+          "A good first batch keeps the formula short: one lead ingredient, one supporting note, clean water or a simple base, and a measured cooking time. Here, firm tofu provides the main character while shiitake mushrooms keeps the flavor familiar. Taste near the end instead of adding extra ingredients all at once.",
+          "In HerbGuide's kitchen writing, traditional food context is offered as a way to understand ingredients and pairings. It is not a personal label or a one-size-fits-all instruction."
+        ]
+      },
+      {
+        "title": "Why this recipe works in a home kitchen",
+        "paragraphs": [
+          "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
+        ]
+      },
+      {
+        "title": "Why it works: Tradition meets science",
+        "paragraphs": [
+          "Tofu and mushroom soup is a light East Asian pantry bowl built on soft protein and earthy mushrooms, finished with a slice or two of ginger for a clean, warming note. Firm tofu holds its shape through simmering, and shiitake mushrooms lend the broth a savory depth. On HerbGuide it is a pantry recipe, not a treatment.",
+          "Shiitake contributes umami through glutamate and guanylate and is rich in the antioxidant ergothioneine, while tofu is a gentle source of soy protein. Ginger's warmth comes from compounds such as gingerol. The page keeps these notes culinary and descriptive."
+        ]
+      }
+    ],
+    "references": [
+      "National Center for Complementary and Integrative Health. Ginger. https://www.nccih.nih.gov/health/ginger",
+      "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
+      "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
+      "U.S. Food and Drug Administration. CPG Sec. 525.750: Spices—Definitions. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525750-spices-definitions"
+    ]
+  },
+  {
+    "slug": "winter-melon-soup-a-light-chinese-kitchen-recipe",
+    "title": "Winter Melon Soup: A Light Chinese Kitchen Recipe",
+    "description": "A winter melon soup recipe with winter melon and ginger slices: a light Chinese kitchen recipe with clear steps and serving notes.",
+    "eyebrow": "Kitchen Traditions",
+    "intro": "This food-first page turns winter melon and ginger slices into a clear, beginner-friendly kitchen project. The goal is a balanced flavor, a practical method, and enough context to make the recipe feel approachable. It is written for readers who want a simple recipe before moving into ingredient profiles or traditional vocabulary. The result is a cup or bowl meant for everyday cooking, not a promise about a particular outcome.",
+    "recipe": {
+      "recipeYield": "2 cups or 2 small bowls",
+      "prepTime": "PT10M",
+      "totalTime": "PT35M",
+      "ingredients": [
+        "2 teaspoons to 1 tablespoon food-grade winter melon",
+        "1 modest portion of ginger slices",
+        "3 cups fresh water or a mild, unsalted cooking base",
+        "Optional: a small pinch of salt or a little sweetener, added only after tasting",
+        "Optional garnish: a slice of citrus, a few sesame seeds, or a tender herb leaf"
+      ],
+      "steps": [
+        "Check the ingredient. Use food-grade ingredients that smell clean and are stored dry. Rinse fresh produce if used.",
+        "Build the base. Add the water or mild base to a small saucepan. Add winter melon and ginger slices.",
+        "Warm gently. Bring the liquid just to a simmer, then reduce the heat. For a tea-style preparation, cover and steep; for a bowl or broth, keep a quiet simmer.",
+        "Taste before adjusting. After 10 minutes, taste a spoonful. Continue only if the flavor needs more time. Strong spices become dominant quickly.",
+        "Strain or serve. Remove hard whole spices or woody pieces. Serve warm, or cool fully and refrigerate for a chilled version."
+      ],
+      "servingNotes": [
+        "Keep the first version deliberately plain. A small bowl of rice, sliced fruit, toast, or a lightly seasoned vegetable dish gives the flavor room to be noticed. If you make a larger batch, label it with the date and refrigerate promptly."
+      ],
+      "caution": [
+        "Use this as a recipe, not as a fixed routine for every reader. FDA guidance on spices emphasizes ordinary food-safety practices such as clean handling and appropriate cooking when needed. Concentrated products are different from food ingredients; NCCIH notes that supplement products may pose different considerations from everyday foods."
+      ]
+    },
+    "sections": [
+      {
+        "title": "A beginner-friendly kitchen structure",
+        "paragraphs": [
+          "A good first batch keeps the formula short: one lead ingredient, one supporting note, clean water or a simple base, and a measured cooking time. Here, winter melon provides the main character while ginger slices keeps the flavor familiar. Taste near the end instead of adding extra ingredients all at once.",
+          "In HerbGuide's kitchen writing, traditional food context is offered as a way to understand ingredients and pairings. It is not a personal label or a one-size-fits-all instruction."
+        ]
+      },
+      {
+        "title": "Why this recipe works in a home kitchen",
+        "paragraphs": [
+          "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
+        ]
+      },
+      {
+        "title": "Why it works: Tradition meets science",
+        "paragraphs": [
+          "Winter melon (Benincasa hispida) is a mild Chinese gourd simmered into clear, light soups, prized for its clean flavor and soft, almost translucent texture. A few ginger slices give the bowl a gentle warmth without weighing it down. On HerbGuide it is a kitchen recipe, not a treatment.",
+          "Winter melon is mostly water with a little soluble fiber, which is why it makes such a light, low-energy broth; ginger adds gingerol and related aroma compounds for warmth. The page keeps the language food-first and descriptive."
+        ]
+      }
+    ],
+    "references": [
+      "Zaini NAM, Anwar F, Hamid AA, Saari N. Kundur [Benincasa hispida (Thunb.) Cogn.]: a potential source for valuable nutrients and functional foods. Food Research International. 2011;44(7):2368-2376.",
+      "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
+      "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
+      "U.S. Food and Drug Administration. CPG Sec. 525.750: Spices—Definitions. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525750-spices-definitions"
+    ]
+  },
+  {
+    "slug": "daikon-radish-soup-a-clear-broth-with-ginger-and-scallions",
+    "title": "Daikon Radish Soup: A Clear Broth with Ginger and Scallions",
+    "description": "A daikon radish soup recipe with daikon radish and fresh ginger: a clear broth with scallions, with clear steps and serving notes.",
+    "eyebrow": "Kitchen Traditions",
+    "intro": "This food-first page turns daikon radish and fresh ginger into a clear, beginner-friendly kitchen project. The goal is a balanced flavor, a practical method, and enough context to make the recipe feel approachable. It is written for readers who want a simple recipe before moving into ingredient profiles or traditional vocabulary. The result is a cup or bowl meant for everyday cooking, not a promise about a particular outcome.",
+    "recipe": {
+      "recipeYield": "2 cups or 2 small bowls",
+      "prepTime": "PT10M",
+      "totalTime": "PT35M",
+      "ingredients": [
+        "2 teaspoons to 1 tablespoon food-grade daikon radish",
+        "1 modest portion of fresh ginger",
+        "3 cups fresh water or a mild, unsalted cooking base",
+        "Optional: a small pinch of salt or a little sweetener, added only after tasting",
+        "Optional garnish: a slice of citrus, a few sesame seeds, or a tender herb leaf"
+      ],
+      "steps": [
+        "Check the ingredient. Use food-grade ingredients that smell clean and are stored dry. Rinse fresh produce if used.",
+        "Build the base. Add the water or mild base to a small saucepan. Add daikon radish and fresh ginger.",
+        "Warm gently. Bring the liquid just to a simmer, then reduce the heat. For a tea-style preparation, cover and steep; for a bowl or broth, keep a quiet simmer.",
+        "Taste before adjusting. After 10 minutes, taste a spoonful. Continue only if the flavor needs more time. Strong spices become dominant quickly.",
+        "Strain or serve. Remove hard whole spices or woody pieces. Serve warm, or cool fully and refrigerate for a chilled version."
+      ],
+      "servingNotes": [
+        "Keep the first version deliberately plain. A small bowl of rice, sliced fruit, toast, or a lightly seasoned vegetable dish gives the flavor room to be noticed. If you make a larger batch, label it with the date and refrigerate promptly."
+      ],
+      "caution": [
+        "Use this as a recipe, not as a fixed routine for every reader. FDA guidance on spices emphasizes ordinary food-safety practices such as clean handling and appropriate cooking when needed. Concentrated products are different from food ingredients; NCCIH notes that supplement products may pose different considerations from everyday foods."
+      ]
+    },
+    "sections": [
+      {
+        "title": "A beginner-friendly kitchen structure",
+        "paragraphs": [
+          "A good first batch keeps the formula short: one lead ingredient, one supporting note, clean water or a simple base, and a measured cooking time. Here, daikon radish provides the main character while fresh ginger keeps the flavor familiar. Taste near the end instead of adding extra ingredients all at once.",
+          "In HerbGuide's kitchen writing, traditional food context is offered as a way to understand ingredients and pairings. It is not a personal label or a one-size-fits-all instruction."
+        ]
+      },
+      {
+        "title": "Why this recipe works in a home kitchen",
+        "paragraphs": [
+          "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
+        ]
+      },
+      {
+        "title": "Why it works: Tradition meets science",
+        "paragraphs": [
+          "Daikon radish (Raphanus sativus) is a long white root that turns mild and slightly sweet when simmered, a staple of clear Chinese broths. Fresh ginger and scallions round out the bowl with a clean, aromatic finish. On HerbGuide it is a kitchen recipe, not a treatment.",
+          "Daikon is a cruciferous root whose gentle peppery note comes from glucosinolates that break down into isothiocyanates, and it is mostly water and low in energy. Ginger adds warmth. The framing stays food-first."
+        ]
+      }
+    ],
+    "references": [
+      "Gutiérrez RMP, Perez RL. Raphanus sativus (Radish): their chemistry and biology. The Scientific World Journal. 2004;4:811-837.",
+      "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
+      "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
+      "U.S. Food and Drug Administration. CPG Sec. 525.750: Spices—Definitions. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525750-spices-definitions"
+    ]
+  },
+  {
+    "slug": "napa-cabbage-soup-a-light-pantry-broth-with-tofu",
+    "title": "Napa Cabbage Soup: A Light Pantry Broth with Tofu",
+    "description": "A napa cabbage soup recipe with napa cabbage and firm tofu: a light pantry broth with clear steps and serving notes.",
+    "eyebrow": "Kitchen Traditions",
+    "intro": "This food-first page turns napa cabbage and firm tofu into a clear, beginner-friendly kitchen project. The goal is a balanced flavor, a practical method, and enough context to make the recipe feel approachable. It is written for readers who want a simple recipe before moving into ingredient profiles or traditional vocabulary. The result is a cup or bowl meant for everyday cooking, not a promise about a particular outcome.",
+    "recipe": {
+      "recipeYield": "2 cups or 2 small bowls",
+      "prepTime": "PT10M",
+      "totalTime": "PT35M",
+      "ingredients": [
+        "2 teaspoons to 1 tablespoon food-grade napa cabbage",
+        "1 modest portion of firm tofu",
+        "3 cups fresh water or a mild, unsalted cooking base",
+        "Optional: a small pinch of salt or a little sweetener, added only after tasting",
+        "Optional garnish: a slice of citrus, a few sesame seeds, or a tender herb leaf"
+      ],
+      "steps": [
+        "Check the ingredient. Use food-grade ingredients that smell clean and are stored dry. Rinse fresh produce if used.",
+        "Build the base. Add the water or mild base to a small saucepan. Add napa cabbage and firm tofu.",
+        "Warm gently. Bring the liquid just to a simmer, then reduce the heat. For a tea-style preparation, cover and steep; for a bowl or broth, keep a quiet simmer.",
+        "Taste before adjusting. After 10 minutes, taste a spoonful. Continue only if the flavor needs more time. Strong spices become dominant quickly.",
+        "Strain or serve. Remove hard whole spices or woody pieces. Serve warm, or cool fully and refrigerate for a chilled version."
+      ],
+      "servingNotes": [
+        "Keep the first version deliberately plain. A small bowl of rice, sliced fruit, toast, or a lightly seasoned vegetable dish gives the flavor room to be noticed. If you make a larger batch, label it with the date and refrigerate promptly."
+      ],
+      "caution": [
+        "Use this as a recipe, not as a fixed routine for every reader. FDA guidance on spices emphasizes ordinary food-safety practices such as clean handling and appropriate cooking when needed. Concentrated products are different from food ingredients; NCCIH notes that supplement products may pose different considerations from everyday foods."
+      ]
+    },
+    "sections": [
+      {
+        "title": "A beginner-friendly kitchen structure",
+        "paragraphs": [
+          "A good first batch keeps the formula short: one lead ingredient, one supporting note, clean water or a simple base, and a measured cooking time. Here, napa cabbage provides the main character while firm tofu keeps the flavor familiar. Taste near the end instead of adding extra ingredients all at once.",
+          "In HerbGuide's kitchen writing, traditional food context is offered as a way to understand ingredients and pairings. It is not a personal label or a one-size-fits-all instruction."
+        ]
+      },
+      {
+        "title": "Why this recipe works in a home kitchen",
+        "paragraphs": [
+          "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
+        ]
+      },
+      {
+        "title": "Why it works: Tradition meets science",
+        "paragraphs": [
+          "Napa cabbage (Brassica rapa subsp. pekinensis) is a soft, mild Chinese cabbage that sweetens as it simmers, a natural partner to tofu in light East Asian broths. It gives a pantry soup both body and a gentle sweetness. On HerbGuide it is a pantry recipe, not a treatment.",
+          "Napa cabbage is a cruciferous vegetable that supplies glucosinolates and vitamin C, and it is mostly water, so it stays light; firm tofu adds gentle soy protein to the bowl. The page keeps these notes descriptive."
+        ]
+      }
+    ],
+    "references": [
+      "Cartea ME, Velasco P. Glucosinolates in Brassica foods: bioavailability in food and significance for human health. Phytochemistry Reviews. 2008;7:213-229.",
+      "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
+      "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
+      "U.S. Food and Drug Administration. CPG Sec. 525.750: Spices—Definitions. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525750-spices-definitions"
+    ]
+  },
+  {
+    "slug": "five-spice-vegetable-broth-a-fragrant-base-for-noodles-and-rice",
+    "title": "Five-Spice Vegetable Broth: A Fragrant Base for Noodles and Rice",
+    "description": "A five-spice vegetable broth recipe with Chinese five-spice and carrot and mushroom: a fragrant base for noodles and rice with clear steps and serving notes.",
+    "eyebrow": "Kitchen Traditions",
+    "intro": "This food-first page turns Chinese five-spice and carrot and mushroom into a clear, beginner-friendly kitchen project. The goal is a balanced flavor, a practical method, and enough context to make the recipe feel approachable. It is written for readers who want a simple recipe before moving into ingredient profiles or traditional vocabulary. The result is a cup or bowl meant for everyday cooking, not a promise about a particular outcome.",
+    "recipe": {
+      "recipeYield": "2 cups or 2 small bowls",
+      "prepTime": "PT10M",
+      "totalTime": "PT35M",
+      "ingredients": [
+        "2 teaspoons to 1 tablespoon food-grade Chinese five-spice",
+        "1 modest portion of carrot and mushroom",
+        "3 cups fresh water or a mild, unsalted cooking base",
+        "Optional: a small pinch of salt or a little sweetener, added only after tasting",
+        "Optional garnish: a slice of citrus, a few sesame seeds, or a tender herb leaf"
+      ],
+      "steps": [
+        "Check the ingredient. Use food-grade ingredients that smell clean and are stored dry. Rinse fresh produce if used.",
+        "Build the base. Add the water or mild base to a small saucepan. Add Chinese five-spice and carrot and mushroom.",
+        "Warm gently. Bring the liquid just to a simmer, then reduce the heat. For a tea-style preparation, cover and steep; for a bowl or broth, keep a quiet simmer.",
+        "Taste before adjusting. After 10 minutes, taste a spoonful. Continue only if the flavor needs more time. Strong spices become dominant quickly.",
+        "Strain or serve. Remove hard whole spices or woody pieces. Serve warm, or cool fully and refrigerate for a chilled version."
+      ],
+      "servingNotes": [
+        "Keep the first version deliberately plain. A small bowl of rice, sliced fruit, toast, or a lightly seasoned vegetable dish gives the flavor room to be noticed. If you make a larger batch, label it with the date and refrigerate promptly."
+      ],
+      "caution": [
+        "Use this as a recipe, not as a fixed routine for every reader. FDA guidance on spices emphasizes ordinary food-safety practices such as clean handling and appropriate cooking when needed. Concentrated products are different from food ingredients; NCCIH notes that supplement products may pose different considerations from everyday foods."
+      ]
+    },
+    "sections": [
+      {
+        "title": "A beginner-friendly kitchen structure",
+        "paragraphs": [
+          "A good first batch keeps the formula short: one lead ingredient, one supporting note, clean water or a simple base, and a measured cooking time. Here, Chinese five-spice provides the main character while carrot and mushroom keeps the flavor familiar. Taste near the end instead of adding extra ingredients all at once.",
+          "In HerbGuide's kitchen writing, traditional food context is offered as a way to understand ingredients and pairings. It is not a personal label or a one-size-fits-all instruction."
+        ]
+      },
+      {
+        "title": "Why this recipe works in a home kitchen",
+        "paragraphs": [
+          "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
+        ]
+      },
+      {
+        "title": "Why it works: Tradition meets science",
+        "paragraphs": [
+          "Chinese five-spice is a pantry blend that usually combines star anise, cinnamon, cloves, Sichuan pepper, and fennel seeds, used to perfume broths for noodles and rice. Carrots add sweetness while mushrooms add umami, making a fragrant base. On HerbGuide it is a pantry recipe, not a treatment.",
+          "The blend's aroma comes from compounds such as anethole from star anise and cinnamaldehyde from cinnamon; the long simmer lets those volatile aromas move into the broth. The framing stays food-first."
+        ]
+      }
+    ],
+    "references": [
+      "Wang GW, Hu WT, Huang BK, Qin LP. Illicium verum: a review on its botany, traditional use, chemistry and pharmacology. Journal of Ethnopharmacology. 2011;136(1):10-20.",
+      "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
+      "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
+      "U.S. Food and Drug Administration. CPG Sec. 525.750: Spices—Definitions. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525750-spices-definitions"
+    ]
+  },
 ];
