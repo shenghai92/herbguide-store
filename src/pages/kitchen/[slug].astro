@@ -589,6 +589,46 @@ const articleSeoMap: Record<
     heroNote:
       "Readers who search five-spice vegetable broth usually want a fragrant base for noodles and rice, so this page keeps the spice blend simple and the simmer steady.",
   },
+  "rice-cooker-congee-an-easy-everyday-porridge-method": {
+    title: "Rice Cooker Congee Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "An easy rice cooker congee recipe with white rice and fresh ginger, an everyday porridge method with clear steps and serving notes.",
+    extraKeywords: ["rice cooker congee", "rice cooker congee recipe", "congee recipe", "rice porridge", "easy congee"],
+    heroNote:
+      "Readers who search rice cooker congee usually want an easy, hands-off porridge method, so this page keeps the steps simple and the ratio clear.",
+  },
+  "instant-pot-congee-a-straightforward-weeknight-porridge": {
+    title: "Instant Pot Congee Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A straightforward Instant Pot congee recipe with white rice and scallions, a weeknight porridge with clear steps and serving notes.",
+    extraKeywords: ["instant pot congee", "instant pot congee recipe", "pressure cooker congee", "congee recipe", "weeknight porridge"],
+    heroNote:
+      "Readers who search Instant Pot congee usually want a fast weeknight porridge, so this page keeps the method simple and the timing clear.",
+  },
+  "chicken-congee-a-savory-rice-porridge-for-the-home-kitchen": {
+    title: "Chicken Congee Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A savory chicken congee recipe with chicken thighs and fresh ginger, a rice porridge for the home kitchen with clear steps and serving notes.",
+    extraKeywords: ["chicken congee", "chicken congee recipe", "chicken rice porridge", "chicken jook", "ginger chicken congee"],
+    heroNote:
+      "Readers who search chicken congee usually want a savory, comforting rice porridge, so this page keeps the ingredient list short and the simmer gentle.",
+  },
+  "savory-tofu-congee-a-gentle-plant-based-rice-bowl": {
+    title: "Savory Tofu Congee Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A gentle savory tofu congee recipe with firm tofu and white rice, a plant-based rice bowl with clear steps and serving notes.",
+    extraKeywords: ["tofu congee", "tofu congee recipe", "savory tofu congee", "plant based congee", "tofu rice porridge"],
+    heroNote:
+      "Readers who search tofu congee usually want a gentle plant-based rice bowl, so this page keeps the method simple and the seasoning light.",
+  },
+  "millet-porridge-a-simple-golden-grain-breakfast-bowl": {
+    title: "Millet Porridge Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A simple millet porridge recipe with millet and jujube, a golden grain breakfast bowl with clear steps and serving notes.",
+    extraKeywords: ["millet porridge", "millet porridge recipe", "millet breakfast", "golden grain porridge", "millet jujube porridge"],
+    heroNote:
+      "Readers who search millet porridge usually want a simple golden grain breakfast bowl, so this page keeps the ingredient list short and the simmer gentle.",
+  },
 };
 const articleSeo = articleSeoMap[article.slug];
 const recipeSchemaImageMap: Record<string, { src: string; alt: string }> = {
@@ -814,6 +854,11 @@ const recipeCuisineMap: Record<string, string> = {
   "daikon-radish-soup-a-clear-broth-with-ginger-and-scallions": "Chinese-inspired soup",
   "napa-cabbage-soup-a-light-pantry-broth-with-tofu": "Chinese-inspired soup",
   "five-spice-vegetable-broth-a-fragrant-base-for-noodles-and-rice": "Chinese-inspired soup",
+  "rice-cooker-congee-an-easy-everyday-porridge-method": "Chinese-inspired congee",
+  "instant-pot-congee-a-straightforward-weeknight-porridge": "Chinese-inspired congee",
+  "chicken-congee-a-savory-rice-porridge-for-the-home-kitchen": "Chinese-inspired congee",
+  "savory-tofu-congee-a-gentle-plant-based-rice-bowl": "Chinese-inspired congee",
+  "millet-porridge-a-simple-golden-grain-breakfast-bowl": "Chinese-inspired porridge",
 };
 const recipePageVisualMap: Record<string, { src: string; alt: string }> = {
   "5-easy-traditional-kitchen-ingredients-for-beginners": {
@@ -1506,6 +1551,31 @@ const recipeLinkMap: Record<string, Array<{ title: string; href: string }>> = {
     { title: "Chinese Tea Eggs Five-Spice Pantry Recipe", href: "/kitchen/chinese-tea-eggs-a-simple-five-spice-pantry-recipe/" },
     { title: "Star Anise Tea Simple Whole Spice Infusion", href: "/kitchen/star-anise-tea-a-simple-whole-spice-infusion/" },
     { title: "Shiitake Mushroom Soup Weeknight Broth", href: "/kitchen/shiitake-mushroom-soup-a-simple-savory-broth-for-weeknights/" },
+  ],
+  "rice-cooker-congee-an-easy-everyday-porridge-method": [
+    { title: "Goji Berry Porridge Gentle Mornings", href: "/kitchen/goji-berry-porridge-for-gentle-mornings/" },
+    { title: "Chinese Yam and Jujube Porridge Basics", href: "/kitchen/chinese-yam-and-jujube-porridge-basics/" },
+    { title: "Instant Pot Congee Weeknight Porridge", href: "/kitchen/instant-pot-congee-a-straightforward-weeknight-porridge/" },
+  ],
+  "instant-pot-congee-a-straightforward-weeknight-porridge": [
+    { title: "Rice Cooker Congee Everyday Porridge", href: "/kitchen/rice-cooker-congee-an-easy-everyday-porridge-method/" },
+    { title: "Goji Berry Porridge Gentle Mornings", href: "/kitchen/goji-berry-porridge-for-gentle-mornings/" },
+    { title: "Jujube and Lotus Seed Congee Quiet Evenings", href: "/kitchen/jujube-and-lotus-seed-congee-for-quiet-evenings/" },
+  ],
+  "chicken-congee-a-savory-rice-porridge-for-the-home-kitchen": [
+    { title: "Astragalus and Jujube Chicken Broth", href: "/kitchen/astragalus-and-jujube-chicken-broth/" },
+    { title: "Rice Cooker Congee Everyday Porridge", href: "/kitchen/rice-cooker-congee-an-easy-everyday-porridge-method/" },
+    { title: "Goji Berry Porridge Gentle Mornings", href: "/kitchen/goji-berry-porridge-for-gentle-mornings/" },
+  ],
+  "savory-tofu-congee-a-gentle-plant-based-rice-bowl": [
+    { title: "Goji Berry Porridge Gentle Mornings", href: "/kitchen/goji-berry-porridge-for-gentle-mornings/" },
+    { title: "Chinese Yam and Jujube Porridge Basics", href: "/kitchen/chinese-yam-and-jujube-porridge-basics/" },
+    { title: "Tofu and Mushroom Soup Light Pantry Bowl", href: "/kitchen/tofu-and-mushroom-soup-a-light-pantry-bowl-with-ginger/" },
+  ],
+  "millet-porridge-a-simple-golden-grain-breakfast-bowl": [
+    { title: "Chinese Yam and Jujube Porridge Basics", href: "/kitchen/chinese-yam-and-jujube-porridge-basics/" },
+    { title: "Goji Berry Porridge Gentle Mornings", href: "/kitchen/goji-berry-porridge-for-gentle-mornings/" },
+    { title: "Black Sesame Breakfast Ideas for Beginners", href: "/kitchen/black-sesame-breakfast-ideas-for-beginners/" },
   ],
 };
 const relatedRecipes = recipeLinkMap[article.slug] ?? [];

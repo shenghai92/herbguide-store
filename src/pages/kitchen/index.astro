@@ -78,6 +78,11 @@ const recipeSearchThemes: Record<string, string[]> = {
   "daikon-radish-soup-a-clear-broth-with-ginger-and-scallions": ["balanced", "soup", "daikon", "radish", "ginger"],
   "napa-cabbage-soup-a-light-pantry-broth-with-tofu": ["balanced", "soup", "napa cabbage", "tofu", "light"],
   "five-spice-vegetable-broth-a-fragrant-base-for-noodles-and-rice": ["pantry", "broth", "five-spice", "vegetable", "noodles"],
+  "rice-cooker-congee-an-easy-everyday-porridge-method": ["pantry", "congee", "rice", "porridge", "ginger"],
+  "instant-pot-congee-a-straightforward-weeknight-porridge": ["pantry", "congee", "instant pot", "rice", "porridge"],
+  "chicken-congee-a-savory-rice-porridge-for-the-home-kitchen": ["balanced", "congee", "chicken", "rice", "ginger"],
+  "savory-tofu-congee-a-gentle-plant-based-rice-bowl": ["balanced", "congee", "tofu", "rice", "plant-based"],
+  "millet-porridge-a-simple-golden-grain-breakfast-bowl": ["nourishing", "porridge", "millet", "jujube", "breakfast"],
 };
 
 const recipeCategoryMap: Record<string, string> = {
@@ -155,6 +160,11 @@ const recipeCategoryMap: Record<string, string> = {
   "daikon-radish-soup-a-clear-broth-with-ginger-and-scallions": "Balanced",
   "napa-cabbage-soup-a-light-pantry-broth-with-tofu": "Balanced",
   "five-spice-vegetable-broth-a-fragrant-base-for-noodles-and-rice": "Pantry Basics",
+  "rice-cooker-congee-an-easy-everyday-porridge-method": "Pantry Basics",
+  "instant-pot-congee-a-straightforward-weeknight-porridge": "Pantry Basics",
+  "chicken-congee-a-savory-rice-porridge-for-the-home-kitchen": "Balanced",
+  "savory-tofu-congee-a-gentle-plant-based-rice-bowl": "Balanced",
+  "millet-porridge-a-simple-golden-grain-breakfast-bowl": "Nourishing",
 };
 
 const recipeCategories = Array.from(new Set(recipeCards.map((card) => recipeCategoryMap[card.slug] ?? "Balanced")));

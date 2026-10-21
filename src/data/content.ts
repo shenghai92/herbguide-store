@@ -761,6 +761,31 @@ const rawRecipeCards = [
     "title": "Five-Spice Vegetable Broth: A Fragrant Base for Noodles and Rice",
     "text": "A five-spice vegetable broth recipe with Chinese five-spice and carrot and mushroom: a fragrant base for noodles and rice with clear steps and serving notes."
   },
+  {
+    "slug": "rice-cooker-congee-an-easy-everyday-porridge-method",
+    "title": "Rice Cooker Congee: An Easy Everyday Porridge Method",
+    "text": "A rice cooker congee recipe with white rice and fresh ginger: an easy everyday porridge method with clear steps and serving notes."
+  },
+  {
+    "slug": "instant-pot-congee-a-straightforward-weeknight-porridge",
+    "title": "Instant Pot Congee: A Straightforward Weeknight Porridge",
+    "text": "An Instant Pot congee recipe with white rice and scallions: a straightforward weeknight porridge with clear steps and serving notes."
+  },
+  {
+    "slug": "chicken-congee-a-savory-rice-porridge-for-the-home-kitchen",
+    "title": "Chicken Congee: A Savory Rice Porridge for the Home Kitchen",
+    "text": "A chicken congee recipe with chicken thighs and fresh ginger: a savory rice porridge for the home kitchen with clear steps and serving notes."
+  },
+  {
+    "slug": "savory-tofu-congee-a-gentle-plant-based-rice-bowl",
+    "title": "Savory Tofu Congee: A Gentle Plant-Based Rice Bowl",
+    "text": "A savory tofu congee recipe with firm tofu and white rice: a gentle plant-based rice bowl with clear steps and serving notes."
+  },
+  {
+    "slug": "millet-porridge-a-simple-golden-grain-breakfast-bowl",
+    "title": "Millet Porridge: A Simple Golden Grain Breakfast Bowl",
+    "text": "A millet porridge recipe with millet and jujube: a simple golden grain breakfast bowl with clear steps and serving notes."
+  },
 ];
 
 export const recipeCards = rawRecipeCards.map((card) => sanitizeContentCard(card));
