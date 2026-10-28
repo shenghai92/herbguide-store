@@ -786,6 +786,31 @@ const rawRecipeCards = [
     "title": "Millet Porridge: A Simple Golden Grain Breakfast Bowl",
     "text": "A millet porridge recipe with millet and jujube: a simple golden grain breakfast bowl with clear steps and serving notes."
   },
+  {
+    "slug": "pumpkin-congee-a-creamy-rice-porridge-with-pantry-comfort",
+    "title": "Pumpkin Congee: A Creamy Rice Porridge with Pantry Comfort",
+    "text": "A pumpkin congee recipe with pumpkin and white rice: a creamy rice porridge with pantry comfort, with clear steps and serving notes."
+  },
+  {
+    "slug": "black-rice-porridge-a-nutty-breakfast-bowl-with-jujube",
+    "title": "Black Rice Porridge: A Nutty Breakfast Bowl with Jujube",
+    "text": "A black rice porridge recipe with black rice and jujube: a nutty whole-grain breakfast bowl with clear steps and serving notes."
+  },
+  {
+    "slug": "barley-congee-a-soft-grain-bowl-for-a-simple-pantry-breakfast",
+    "title": "Barley Congee: A Soft Grain Bowl for a Simple Pantry Breakfast",
+    "text": "A barley congee recipe with pearled barley and carrot: a soft grain bowl for a simple pantry breakfast with clear steps and serving notes."
+  },
+  {
+    "slug": "sweet-rice-porridge-a-soft-breakfast-bowl-with-asian-pear",
+    "title": "Sweet Rice Porridge: A Soft Breakfast Bowl with Asian Pear",
+    "text": "A sweet rice porridge recipe with sweet rice and Asian pear: a soft breakfast bowl with clear steps and serving notes."
+  },
+  {
+    "slug": "asian-pear-crisp-a-simple-baked-dessert-with-warm-spice",
+    "title": "Asian Pear Crisp: A Simple Baked Dessert with Warm Spice",
+    "text": "An Asian pear crisp recipe with Asian pear and oats and cinnamon: a simple baked dessert with warm spice and clear steps."
+  },
 ];
 
 export const recipeCards = rawRecipeCards.map((card) => sanitizeContentCard(card));

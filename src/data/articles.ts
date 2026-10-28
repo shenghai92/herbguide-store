@@ -12264,4 +12264,309 @@ export const foodTherapyArticles: ContentArticle[] = [
       "U.S. Food and Drug Administration. CPG Sec. 525.750: Spices—Definitions. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525750-spices-definitions"
     ]
   },
+  {
+    "slug": "pumpkin-congee-a-creamy-rice-porridge-with-pantry-comfort",
+    "title": "Pumpkin Congee: A Creamy Rice Porridge with Pantry Comfort",
+    "description": "A pumpkin congee recipe with pumpkin and white rice: a creamy rice porridge with pantry comfort, with clear steps and serving notes.",
+    "eyebrow": "Kitchen Traditions",
+    "intro": "This food-first page turns pumpkin and white rice into a clear, beginner-friendly kitchen project. The goal is a balanced flavor, a practical method, and enough context to make the recipe feel approachable. It is written for readers who want a simple recipe before moving into ingredient profiles or traditional vocabulary. The result is a cup or bowl meant for everyday cooking, not a promise about a particular outcome.",
+    "recipe": {
+      "recipeYield": "2 cups or 2 small bowls",
+      "prepTime": "PT10M",
+      "totalTime": "PT35M",
+      "ingredients": [
+        "2 teaspoons to 1 tablespoon food-grade pumpkin",
+        "1 modest portion of white rice",
+        "3 cups fresh water or a mild, unsalted cooking base",
+        "Optional: a small pinch of salt or a little sweetener, added only after tasting",
+        "Optional garnish: a slice of citrus, a few sesame seeds, or a tender herb leaf"
+      ],
+      "steps": [
+        "Check the ingredient. Use food-grade ingredients that smell clean and are stored dry. Rinse fresh produce if used.",
+        "Build the base. Add the water or mild base to a small saucepan. Add pumpkin and white rice.",
+        "Warm gently. Bring the liquid just to a simmer, then reduce the heat. For a tea-style preparation, cover and steep; for a bowl or broth, keep a quiet simmer.",
+        "Taste before adjusting. After 10 minutes, taste a spoonful. Continue only if the flavor needs more time. Strong spices become dominant quickly.",
+        "Strain or serve. Remove hard whole spices or woody pieces. Serve warm, or cool fully and refrigerate for a chilled version."
+      ],
+      "servingNotes": [
+        "Keep the first version deliberately plain. A small bowl of rice, sliced fruit, toast, or a lightly seasoned vegetable dish gives the flavor room to be noticed. If you make a larger batch, label it with the date and refrigerate promptly."
+      ],
+      "caution": [
+        "Use this as a recipe, not as a fixed routine for every reader. FDA guidance on spices emphasizes ordinary food-safety practices such as clean handling and appropriate cooking when needed. Concentrated products are different from food ingredients; NCCIH notes that supplement products may pose different considerations from everyday foods."
+      ]
+    },
+    "sections": [
+      {
+        "title": "A beginner-friendly kitchen structure",
+        "paragraphs": [
+          "A good first batch keeps the formula short: one lead ingredient, one supporting note, clean water or a simple base, and a measured cooking time. Here, pumpkin provides the main character while white rice keeps the flavor familiar. Taste near the end instead of adding extra ingredients all at once.",
+          "In HerbGuide's kitchen writing, traditional food context is offered as a way to understand ingredients and pairings. It is not a personal label or a one-size-fits-all instruction."
+        ]
+      },
+      {
+        "title": "Why this recipe works in a home kitchen",
+        "paragraphs": [
+          "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
+        ]
+      },
+      {
+        "title": "Why it works: Tradition meets science",
+        "paragraphs": [
+          "Pumpkin congee is a golden, creamy rice porridge made by simmering soft pumpkin into white rice until both break down into a comforting, naturally sweet bowl. It is a pantry-friendly way to turn squash into a warming meal. On HerbGuide it is a pantry recipe, not a treatment.",
+          "Pumpkin (Cucurbita) supplies beta-carotene, the orange pigment the body can convert to vitamin A, along with fiber; the white rice releases starch to give the porridge its creamy body. The page keeps these notes culinary and descriptive."
+        ]
+      }
+    ],
+    "references": [
+      "Yadav M, Jain S, Tomar R, Prasad GBKS, Yadav H. Medicinal and biological potential of pumpkin: an updated review. Nutrition Research Reviews. 2010;23(2):184-190.",
+      "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
+      "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
+      "U.S. Food and Drug Administration. CPG Sec. 525.750: Spices—Definitions. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525750-spices-definitions"
+    ]
+  },
+  {
+    "slug": "black-rice-porridge-a-nutty-breakfast-bowl-with-jujube",
+    "title": "Black Rice Porridge: A Nutty Breakfast Bowl with Jujube",
+    "description": "A black rice porridge recipe with black rice and jujube: a nutty whole-grain breakfast bowl with clear steps and serving notes.",
+    "eyebrow": "Kitchen Traditions",
+    "intro": "This food-first page turns black rice and jujube into a clear, beginner-friendly kitchen project. The goal is a balanced flavor, a practical method, and enough context to make the recipe feel approachable. It is written for readers who want a simple recipe before moving into ingredient profiles or traditional vocabulary. The result is a cup or bowl meant for everyday cooking, not a promise about a particular outcome.",
+    "recipe": {
+      "recipeYield": "2 cups or 2 small bowls",
+      "prepTime": "PT10M",
+      "totalTime": "PT35M",
+      "ingredients": [
+        "2 teaspoons to 1 tablespoon food-grade black rice",
+        "1 modest portion of jujube",
+        "3 cups fresh water or a mild, unsalted cooking base",
+        "Optional: a small pinch of salt or a little sweetener, added only after tasting",
+        "Optional garnish: a slice of citrus, a few sesame seeds, or a tender herb leaf"
+      ],
+      "steps": [
+        "Check the ingredient. Use food-grade ingredients that smell clean and are stored dry. Rinse fresh produce if used.",
+        "Build the base. Add the water or mild base to a small saucepan. Add black rice and jujube.",
+        "Warm gently. Bring the liquid just to a simmer, then reduce the heat. For a tea-style preparation, cover and steep; for a bowl or broth, keep a quiet simmer.",
+        "Taste before adjusting. After 10 minutes, taste a spoonful. Continue only if the flavor needs more time. Strong spices become dominant quickly.",
+        "Strain or serve. Remove hard whole spices or woody pieces. Serve warm, or cool fully and refrigerate for a chilled version."
+      ],
+      "servingNotes": [
+        "Keep the first version deliberately plain. A small bowl of rice, sliced fruit, toast, or a lightly seasoned vegetable dish gives the flavor room to be noticed. If you make a larger batch, label it with the date and refrigerate promptly."
+      ],
+      "caution": [
+        "Use this as a recipe, not as a fixed routine for every reader. FDA guidance on spices emphasizes ordinary food-safety practices such as clean handling and appropriate cooking when needed. Concentrated products are different from food ingredients; NCCIH notes that supplement products may pose different considerations from everyday foods."
+      ]
+    },
+    "sections": [
+      {
+        "title": "A beginner-friendly kitchen structure",
+        "paragraphs": [
+          "A good first batch keeps the formula short: one lead ingredient, one supporting note, clean water or a simple base, and a measured cooking time. Here, black rice provides the main character while jujube keeps the flavor familiar. Taste near the end instead of adding extra ingredients all at once.",
+          "In HerbGuide's kitchen writing, traditional food context is offered as a way to understand ingredients and pairings. It is not a personal label or a one-size-fits-all instruction."
+        ]
+      },
+      {
+        "title": "Why this recipe works in a home kitchen",
+        "paragraphs": [
+          "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
+        ]
+      },
+      {
+        "title": "Why it works: Tradition meets science",
+        "paragraphs": [
+          "Black rice is a whole-grain rice with a deep purple-black bran that turns nutty and slightly chewy as it simmers into porridge, and jujube (red date) adds natural sweetness. Together they make a hearty breakfast bowl. On HerbGuide it is a pantry recipe, not a treatment.",
+          "Black rice gets its dark color from anthocyanins, the same pigment family found in blueberries, and it keeps its bran layer, so it supplies more fiber than polished white rice; jujube adds polyphenols and vitamin C. The framing stays food-first."
+        ]
+      }
+    ],
+    "references": [
+      "Deng GF, Xu XR, Zhang Y, Li D, Gan RY, Li HB. Phenolic compounds and bioactivities of pigmented rice. Critical Reviews in Food Science and Nutrition. 2013;53(3):296-306.",
+      "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
+      "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
+      "U.S. Food and Drug Administration. CPG Sec. 525.750: Spices—Definitions. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525750-spices-definitions"
+    ]
+  },
+  {
+    "slug": "barley-congee-a-soft-grain-bowl-for-a-simple-pantry-breakfast",
+    "title": "Barley Congee: A Soft Grain Bowl for a Simple Pantry Breakfast",
+    "description": "A barley congee recipe with pearled barley and carrot: a soft grain bowl for a simple pantry breakfast with clear steps and serving notes.",
+    "eyebrow": "Kitchen Traditions",
+    "intro": "This food-first page turns pearled barley and carrot into a clear, beginner-friendly kitchen project. The goal is a balanced flavor, a practical method, and enough context to make the recipe feel approachable. It is written for readers who want a simple recipe before moving into ingredient profiles or traditional vocabulary. The result is a cup or bowl meant for everyday cooking, not a promise about a particular outcome.",
+    "recipe": {
+      "recipeYield": "2 cups or 2 small bowls",
+      "prepTime": "PT10M",
+      "totalTime": "PT35M",
+      "ingredients": [
+        "2 teaspoons to 1 tablespoon food-grade pearled barley",
+        "1 modest portion of carrot",
+        "3 cups fresh water or a mild, unsalted cooking base",
+        "Optional: a small pinch of salt or a little sweetener, added only after tasting",
+        "Optional garnish: a slice of citrus, a few sesame seeds, or a tender herb leaf"
+      ],
+      "steps": [
+        "Check the ingredient. Use food-grade ingredients that smell clean and are stored dry. Rinse fresh produce if used.",
+        "Build the base. Add the water or mild base to a small saucepan. Add pearled barley and carrot.",
+        "Warm gently. Bring the liquid just to a simmer, then reduce the heat. For a tea-style preparation, cover and steep; for a bowl or broth, keep a quiet simmer.",
+        "Taste before adjusting. After 10 minutes, taste a spoonful. Continue only if the flavor needs more time. Strong spices become dominant quickly.",
+        "Strain or serve. Remove hard whole spices or woody pieces. Serve warm, or cool fully and refrigerate for a chilled version."
+      ],
+      "servingNotes": [
+        "Keep the first version deliberately plain. A small bowl of rice, sliced fruit, toast, or a lightly seasoned vegetable dish gives the flavor room to be noticed. If you make a larger batch, label it with the date and refrigerate promptly."
+      ],
+      "caution": [
+        "Use this as a recipe, not as a fixed routine for every reader. FDA guidance on spices emphasizes ordinary food-safety practices such as clean handling and appropriate cooking when needed. Concentrated products are different from food ingredients; NCCIH notes that supplement products may pose different considerations from everyday foods."
+      ]
+    },
+    "sections": [
+      {
+        "title": "A beginner-friendly kitchen structure",
+        "paragraphs": [
+          "A good first batch keeps the formula short: one lead ingredient, one supporting note, clean water or a simple base, and a measured cooking time. Here, pearled barley provides the main character while carrot keeps the flavor familiar. Taste near the end instead of adding extra ingredients all at once.",
+          "In HerbGuide's kitchen writing, traditional food context is offered as a way to understand ingredients and pairings. It is not a personal label or a one-size-fits-all instruction."
+        ]
+      },
+      {
+        "title": "Why this recipe works in a home kitchen",
+        "paragraphs": [
+          "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
+        ]
+      },
+      {
+        "title": "Why it works: Tradition meets science",
+        "paragraphs": [
+          "Barley congee is a soft grain porridge built on pearled barley, which keeps a gentle chew as it simmers, with carrot adding color and a touch of sweetness. It makes a simple, pantry-friendly breakfast. On HerbGuide it is a pantry recipe, not a treatment.",
+          "Barley is a whole grain that is naturally rich in the soluble fiber beta-glucan, the same fiber the FDA links to heart health when eaten as part of a diet low in saturated fat and cholesterol; carrot adds beta-carotene. The page keeps these notes descriptive."
+        ]
+      }
+    ],
+    "references": [
+      "U.S. Food and Drug Administration. CFR — Code of Federal Regulations Title 21, Sec. 101.81: Health claims — soluble fiber from certain foods and risk of coronary heart disease.",
+      "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
+      "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
+      "U.S. Food and Drug Administration. CPG Sec. 525.750: Spices—Definitions. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525750-spices-definitions"
+    ]
+  },
+  {
+    "slug": "sweet-rice-porridge-a-soft-breakfast-bowl-with-asian-pear",
+    "title": "Sweet Rice Porridge: A Soft Breakfast Bowl with Asian Pear",
+    "description": "A sweet rice porridge recipe with sweet rice and Asian pear: a soft breakfast bowl with clear steps and serving notes.",
+    "eyebrow": "Kitchen Traditions",
+    "intro": "This food-first page turns sweet rice and Asian pear into a clear, beginner-friendly kitchen project. The goal is a balanced flavor, a practical method, and enough context to make the recipe feel approachable. It is written for readers who want a simple recipe before moving into ingredient profiles or traditional vocabulary. The result is a cup or bowl meant for everyday cooking, not a promise about a particular outcome.",
+    "recipe": {
+      "recipeYield": "2 cups or 2 small bowls",
+      "prepTime": "PT10M",
+      "totalTime": "PT35M",
+      "ingredients": [
+        "2 teaspoons to 1 tablespoon food-grade sweet rice",
+        "1 modest portion of Asian pear",
+        "3 cups fresh water or a mild, unsalted cooking base",
+        "Optional: a small pinch of salt or a little sweetener, added only after tasting",
+        "Optional garnish: a slice of citrus, a few sesame seeds, or a tender herb leaf"
+      ],
+      "steps": [
+        "Check the ingredient. Use food-grade ingredients that smell clean and are stored dry. Rinse fresh produce if used.",
+        "Build the base. Add the water or mild base to a small saucepan. Add sweet rice and Asian pear.",
+        "Warm gently. Bring the liquid just to a simmer, then reduce the heat. For a tea-style preparation, cover and steep; for a bowl or broth, keep a quiet simmer.",
+        "Taste before adjusting. After 10 minutes, taste a spoonful. Continue only if the flavor needs more time. Strong spices become dominant quickly.",
+        "Strain or serve. Remove hard whole spices or woody pieces. Serve warm, or cool fully and refrigerate for a chilled version."
+      ],
+      "servingNotes": [
+        "Keep the first version deliberately plain. A small bowl of rice, sliced fruit, toast, or a lightly seasoned vegetable dish gives the flavor room to be noticed. If you make a larger batch, label it with the date and refrigerate promptly."
+      ],
+      "caution": [
+        "Use this as a recipe, not as a fixed routine for every reader. FDA guidance on spices emphasizes ordinary food-safety practices such as clean handling and appropriate cooking when needed. Concentrated products are different from food ingredients; NCCIH notes that supplement products may pose different considerations from everyday foods."
+      ]
+    },
+    "sections": [
+      {
+        "title": "A beginner-friendly kitchen structure",
+        "paragraphs": [
+          "A good first batch keeps the formula short: one lead ingredient, one supporting note, clean water or a simple base, and a measured cooking time. Here, sweet rice provides the main character while Asian pear keeps the flavor familiar. Taste near the end instead of adding extra ingredients all at once.",
+          "In HerbGuide's kitchen writing, traditional food context is offered as a way to understand ingredients and pairings. It is not a personal label or a one-size-fits-all instruction."
+        ]
+      },
+      {
+        "title": "Why this recipe works in a home kitchen",
+        "paragraphs": [
+          "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
+        ]
+      },
+      {
+        "title": "Why it works: Tradition meets science",
+        "paragraphs": [
+          "Sweet rice, also called glutinous or sticky rice, simmers into an especially soft, clingy porridge, and crisp Asian pear adds a light, juicy sweetness to the bowl. It makes a gentle breakfast or dessert-style porridge. On HerbGuide it is a pantry recipe, not a treatment.",
+          "Sweet rice is high in the starch amylopectin, which is what gives the porridge its sticky, soft texture; Asian pear is crisp and high in water with a little fiber. Pear fruit has been studied mainly for its fiber and modest nutrient content. The framing stays food-first."
+        ]
+      }
+    ],
+    "references": [
+      "Reiland H, Slavin J. Systematic review of pears and health. Nutrition Today. 2015;50(6):301-305.",
+      "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
+      "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
+      "U.S. Food and Drug Administration. CPG Sec. 525.750: Spices—Definitions. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525750-spices-definitions"
+    ]
+  },
+  {
+    "slug": "asian-pear-crisp-a-simple-baked-dessert-with-warm-spice",
+    "title": "Asian Pear Crisp: A Simple Baked Dessert with Warm Spice",
+    "description": "An Asian pear crisp recipe with Asian pear and oats and cinnamon: a simple baked dessert with warm spice and clear steps.",
+    "eyebrow": "Kitchen Traditions",
+    "intro": "This food-first page turns Asian pear and oats and cinnamon into a clear, beginner-friendly kitchen project. The goal is a balanced flavor, a practical method, and enough context to make the recipe feel approachable. It is written for readers who want a simple recipe before moving into ingredient profiles or traditional vocabulary. The result is a cup or bowl meant for everyday cooking, not a promise about a particular outcome.",
+    "recipe": {
+      "recipeYield": "2 cups or 2 small bowls",
+      "prepTime": "PT10M",
+      "totalTime": "PT35M",
+      "ingredients": [
+        "2 teaspoons to 1 tablespoon food-grade Asian pear",
+        "1 modest portion of oats and cinnamon",
+        "3 cups fresh water or a mild, unsalted cooking base",
+        "Optional: a small pinch of salt or a little sweetener, added only after tasting",
+        "Optional garnish: a slice of citrus, a few sesame seeds, or a tender herb leaf"
+      ],
+      "steps": [
+        "Check the ingredient. Use food-grade ingredients that smell clean and are stored dry. Rinse fresh produce if used.",
+        "Build the base. Add the water or mild base to a small saucepan. Add Asian pear and oats and cinnamon.",
+        "Warm gently. Bring the liquid just to a simmer, then reduce the heat. For a tea-style preparation, cover and steep; for a bowl or broth, keep a quiet simmer.",
+        "Taste before adjusting. After 10 minutes, taste a spoonful. Continue only if the flavor needs more time. Strong spices become dominant quickly.",
+        "Strain or serve. Remove hard whole spices or woody pieces. Serve warm, or cool fully and refrigerate for a chilled version."
+      ],
+      "servingNotes": [
+        "Keep the first version deliberately plain. A small bowl of rice, sliced fruit, toast, or a lightly seasoned vegetable dish gives the flavor room to be noticed. If you make a larger batch, label it with the date and refrigerate promptly."
+      ],
+      "caution": [
+        "Use this as a recipe, not as a fixed routine for every reader. FDA guidance on spices emphasizes ordinary food-safety practices such as clean handling and appropriate cooking when needed. Concentrated products are different from food ingredients; NCCIH notes that supplement products may pose different considerations from everyday foods."
+      ]
+    },
+    "sections": [
+      {
+        "title": "A beginner-friendly kitchen structure",
+        "paragraphs": [
+          "A good first batch keeps the formula short: one lead ingredient, one supporting note, clean water or a simple base, and a measured cooking time. Here, Asian pear provides the main character while oats and cinnamon keeps the flavor familiar. Taste near the end instead of adding extra ingredients all at once.",
+          "In HerbGuide's kitchen writing, traditional food context is offered as a way to understand ingredients and pairings. It is not a personal label or a one-size-fits-all instruction."
+        ]
+      },
+      {
+        "title": "Why this recipe works in a home kitchen",
+        "paragraphs": [
+          "This preparation works because it asks for a small, recognizable ingredient list and uses a gentle method. USDA FoodData Central can help readers compare ordinary food items and ingredients when they want more neutral food-data context. The flavor lesson is equally important: blooming, steeping, or slow simmering changes how aroma moves into the liquid."
+        ]
+      },
+      {
+        "title": "Why it works: Tradition meets science",
+        "paragraphs": [
+          "Asian pear crisp is a simple baked dessert that tosses sliced pear with a topping of oats and cinnamon, then bakes until the fruit softens and the top turns golden. It is a pantry-friendly way to use crisp Asian pears. On HerbGuide it is a pantry recipe, not a treatment.",
+          "Asian pear is crisp and high in water, so it softens without turning mushy, while oats add fiber and cinnamon contributes its warm aroma compound cinnamaldehyde. The page keeps these notes culinary and descriptive."
+        ]
+      }
+    ],
+    "references": [
+      "National Center for Complementary and Integrative Health. Cinnamon. https://www.nccih.nih.gov/health/cinnamon",
+      "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/",
+      "U.S. Food and Drug Administration. Questions & Answers on Improving the Safety of Spices. https://www.fda.gov/food/risk-and-safety-assessments-food/questions-answers-improving-safety-spices",
+      "National Center for Complementary and Integrative Health. Dietary and Herbal Supplements. https://www.nccih.nih.gov/health/dietary-and-herbal-supplements",
+      "U.S. Food and Drug Administration. CPG Sec. 525.750: Spices—Definitions. https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-525750-spices-definitions"
+    ]
+  },
 ];

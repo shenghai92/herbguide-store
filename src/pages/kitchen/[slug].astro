@@ -629,6 +629,46 @@ const articleSeoMap: Record<
     heroNote:
       "Readers who search millet porridge usually want a simple golden grain breakfast bowl, so this page keeps the ingredient list short and the simmer gentle.",
   },
+  "pumpkin-congee-a-creamy-rice-porridge-with-pantry-comfort": {
+    title: "Pumpkin Congee Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A creamy pumpkin congee recipe with pumpkin and white rice, a pantry-comfort rice porridge with clear steps and serving notes.",
+    extraKeywords: ["pumpkin congee", "pumpkin congee recipe", "pumpkin rice porridge", "creamy congee", "pumpkin porridge"],
+    heroNote:
+      "Readers who search pumpkin congee usually want a creamy, comforting rice porridge, so this page keeps the ingredient list short and the simmer gentle.",
+  },
+  "black-rice-porridge-a-nutty-breakfast-bowl-with-jujube": {
+    title: "Black Rice Porridge Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A nutty black rice porridge recipe with black rice and jujube, a whole-grain breakfast bowl with clear steps and serving notes.",
+    extraKeywords: ["black rice porridge", "black rice porridge recipe", "black rice breakfast", "jujube porridge", "nutty rice bowl"],
+    heroNote:
+      "Readers who search black rice porridge usually want a nutty, whole-grain breakfast bowl, so this page keeps the method simple and the ratio clear.",
+  },
+  "barley-congee-a-soft-grain-bowl-for-a-simple-pantry-breakfast": {
+    title: "Barley Congee Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A soft barley congee recipe with pearled barley and carrot, a simple pantry breakfast grain bowl with clear steps and serving notes.",
+    extraKeywords: ["barley congee", "barley congee recipe", "barley porridge", "pearled barley breakfast", "barley carrot bowl"],
+    heroNote:
+      "Readers who search barley congee usually want a soft grain breakfast bowl, so this page keeps the ingredient list short and the simmer gentle.",
+  },
+  "sweet-rice-porridge-a-soft-breakfast-bowl-with-asian-pear": {
+    title: "Sweet Rice Porridge Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A soft sweet rice porridge recipe with sweet rice and Asian pear, a breakfast bowl with clear steps and serving notes.",
+    extraKeywords: ["sweet rice porridge", "sweet rice porridge recipe", "glutinous rice porridge", "sticky rice porridge", "asian pear porridge"],
+    heroNote:
+      "Readers who search sweet rice porridge usually want a soft, sticky breakfast bowl, so this page keeps the method simple and the flavor light.",
+  },
+  "asian-pear-crisp-a-simple-baked-dessert-with-warm-spice": {
+    title: "Asian Pear Crisp Recipe | Ingredients, Steps, and Kitchen Notes",
+    description:
+      "A simple Asian pear crisp recipe with Asian pear and oats and cinnamon, a baked dessert with warm spice and clear steps.",
+    extraKeywords: ["asian pear crisp", "asian pear crisp recipe", "pear crisp recipe", "baked pear dessert", "asian pear dessert"],
+    heroNote:
+      "Readers who search Asian pear crisp usually want a simple baked pear dessert, so this page keeps the topping simple and the spice warm.",
+  },
 };
 const articleSeo = articleSeoMap[article.slug];
 const recipeSchemaImageMap: Record<string, { src: string; alt: string }> = {
@@ -859,6 +899,11 @@ const recipeCuisineMap: Record<string, string> = {
   "chicken-congee-a-savory-rice-porridge-for-the-home-kitchen": "Chinese-inspired congee",
   "savory-tofu-congee-a-gentle-plant-based-rice-bowl": "Chinese-inspired congee",
   "millet-porridge-a-simple-golden-grain-breakfast-bowl": "Chinese-inspired porridge",
+  "pumpkin-congee-a-creamy-rice-porridge-with-pantry-comfort": "Chinese-inspired congee",
+  "black-rice-porridge-a-nutty-breakfast-bowl-with-jujube": "Chinese-inspired porridge",
+  "barley-congee-a-soft-grain-bowl-for-a-simple-pantry-breakfast": "Chinese-inspired congee",
+  "sweet-rice-porridge-a-soft-breakfast-bowl-with-asian-pear": "Chinese-inspired porridge",
+  "asian-pear-crisp-a-simple-baked-dessert-with-warm-spice": "Chinese-inspired dessert",
 };
 const recipePageVisualMap: Record<string, { src: string; alt: string }> = {
   "5-easy-traditional-kitchen-ingredients-for-beginners": {
@@ -1576,6 +1621,31 @@ const recipeLinkMap: Record<string, Array<{ title: string; href: string }>> = {
     { title: "Chinese Yam and Jujube Porridge Basics", href: "/kitchen/chinese-yam-and-jujube-porridge-basics/" },
     { title: "Goji Berry Porridge Gentle Mornings", href: "/kitchen/goji-berry-porridge-for-gentle-mornings/" },
     { title: "Black Sesame Breakfast Ideas for Beginners", href: "/kitchen/black-sesame-breakfast-ideas-for-beginners/" },
+  ],
+  "pumpkin-congee-a-creamy-rice-porridge-with-pantry-comfort": [
+    { title: "Goji Berry Porridge Gentle Mornings", href: "/kitchen/goji-berry-porridge-for-gentle-mornings/" },
+    { title: "Black Sesame Breakfast Ideas for Beginners", href: "/kitchen/black-sesame-breakfast-ideas-for-beginners/" },
+    { title: "Black Rice Porridge Nutty Breakfast Bowl", href: "/kitchen/black-rice-porridge-a-nutty-breakfast-bowl-with-jujube/" },
+  ],
+  "black-rice-porridge-a-nutty-breakfast-bowl-with-jujube": [
+    { title: "Black Sesame and Jujube Breakfast Bowl", href: "/kitchen/black-sesame-and-jujube-breakfast-bowl/" },
+    { title: "Millet Porridge Golden Grain Breakfast Bowl", href: "/kitchen/millet-porridge-a-simple-golden-grain-breakfast-bowl/" },
+    { title: "Pumpkin Congee Creamy Rice Porridge", href: "/kitchen/pumpkin-congee-a-creamy-rice-porridge-with-pantry-comfort/" },
+  ],
+  "barley-congee-a-soft-grain-bowl-for-a-simple-pantry-breakfast": [
+    { title: "Job's Tears Porridge for Heavy Days", href: "/kitchen/jobs-tears-porridge-for-heavy-days/" },
+    { title: "Barley Sprout and Chen Pi Tea Basics", href: "/kitchen/barley-sprout-and-chen-pi-tea-basics/" },
+    { title: "Pumpkin Congee Creamy Rice Porridge", href: "/kitchen/pumpkin-congee-a-creamy-rice-porridge-with-pantry-comfort/" },
+  ],
+  "sweet-rice-porridge-a-soft-breakfast-bowl-with-asian-pear": [
+    { title: "Tremella and Pear Sweet Soup Basics", href: "/kitchen/tremella-and-pear-sweet-soup-basics/" },
+    { title: "Pear and Lily Bulb Soup for Dry Days", href: "/kitchen/pear-and-lily-bulb-soup-for-dry-days/" },
+    { title: "Asian Pear Crisp Baked Dessert", href: "/kitchen/asian-pear-crisp-a-simple-baked-dessert-with-warm-spice/" },
+  ],
+  "asian-pear-crisp-a-simple-baked-dessert-with-warm-spice": [
+    { title: "Pear and Lily Bulb Soup for Dry Days", href: "/kitchen/pear-and-lily-bulb-soup-for-dry-days/" },
+    { title: "Sweet Rice Porridge Soft Breakfast Bowl", href: "/kitchen/sweet-rice-porridge-a-soft-breakfast-bowl-with-asian-pear/" },
+    { title: "Cinnamon Apple Tea Cozy Stovetop Infusion", href: "/kitchen/cinnamon-apple-tea-a-cozy-stovetop-fruit-infusion/" },
   ],
 };
 const relatedRecipes = recipeLinkMap[article.slug] ?? [];

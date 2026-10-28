@@ -83,6 +83,11 @@ const recipeSearchThemes: Record<string, string[]> = {
   "chicken-congee-a-savory-rice-porridge-for-the-home-kitchen": ["balanced", "congee", "chicken", "rice", "ginger"],
   "savory-tofu-congee-a-gentle-plant-based-rice-bowl": ["balanced", "congee", "tofu", "rice", "plant-based"],
   "millet-porridge-a-simple-golden-grain-breakfast-bowl": ["nourishing", "porridge", "millet", "jujube", "breakfast"],
+  "pumpkin-congee-a-creamy-rice-porridge-with-pantry-comfort": ["nourishing", "congee", "pumpkin", "rice", "porridge"],
+  "black-rice-porridge-a-nutty-breakfast-bowl-with-jujube": ["nourishing", "porridge", "black rice", "jujube", "breakfast"],
+  "barley-congee-a-soft-grain-bowl-for-a-simple-pantry-breakfast": ["pantry", "congee", "barley", "grain", "breakfast"],
+  "sweet-rice-porridge-a-soft-breakfast-bowl-with-asian-pear": ["nourishing", "porridge", "sweet rice", "asian pear", "breakfast"],
+  "asian-pear-crisp-a-simple-baked-dessert-with-warm-spice": ["pantry", "dessert", "asian pear", "oats", "cinnamon"],
 };
 
 const recipeCategoryMap: Record<string, string> = {
@@ -165,6 +170,11 @@ const recipeCategoryMap: Record<string, string> = {
   "chicken-congee-a-savory-rice-porridge-for-the-home-kitchen": "Balanced",
   "savory-tofu-congee-a-gentle-plant-based-rice-bowl": "Balanced",
   "millet-porridge-a-simple-golden-grain-breakfast-bowl": "Nourishing",
+  "pumpkin-congee-a-creamy-rice-porridge-with-pantry-comfort": "Nourishing",
+  "black-rice-porridge-a-nutty-breakfast-bowl-with-jujube": "Nourishing",
+  "barley-congee-a-soft-grain-bowl-for-a-simple-pantry-breakfast": "Pantry Basics",
+  "sweet-rice-porridge-a-soft-breakfast-bowl-with-asian-pear": "Nourishing",
+  "asian-pear-crisp-a-simple-baked-dessert-with-warm-spice": "Pantry Basics",
 };
 
 const recipeCategories = Array.from(new Set(recipeCards.map((card) => recipeCategoryMap[card.slug] ?? "Balanced")));
