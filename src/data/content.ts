@@ -811,6 +811,31 @@ const rawRecipeCards = [
     "title": "Asian Pear Crisp: A Simple Baked Dessert with Warm Spice",
     "text": "An Asian pear crisp recipe with Asian pear and oats and cinnamon: a simple baked dessert with warm spice and clear steps."
   },
+  {
+    "slug": "asian-pear-salad-a-crisp-fresh-kitchen-side-with-sesame",
+    "title": "Asian Pear Salad: A Crisp, Fresh Kitchen Side with Sesame",
+    "text": "An Asian pear salad recipe with Asian pear and toasted sesame: a crisp, fresh kitchen side with clear steps and serving notes."
+  },
+  {
+    "slug": "steamed-asian-pear-dessert-a-soft-fruit-bowl-with-dates",
+    "title": "Steamed Asian Pear Dessert: A Soft Fruit Bowl with Dates",
+    "text": "A steamed Asian pear dessert recipe with Asian pear and jujube: a soft fruit bowl with dates and clear steps and serving notes."
+  },
+  {
+    "slug": "black-sesame-cookies-a-toasty-pantry-baking-project",
+    "title": "Black Sesame Cookies: A Toasty Pantry Baking Project",
+    "text": "A black sesame cookies recipe with black sesame seeds and all-purpose flour: a toasty pantry baking project with clear steps and serving notes."
+  },
+  {
+    "slug": "red-bean-mochi-a-beginner-friendly-sweet-rice-treat",
+    "title": "Red Bean Mochi: A Beginner-Friendly Sweet Rice Treat",
+    "text": "A red bean mochi recipe with sweet rice flour and adzuki bean paste: a beginner-friendly sweet rice treat with clear steps and serving notes."
+  },
+  {
+    "slug": "tang-yuan-sweet-rice-balls-with-black-sesame-filling",
+    "title": "Tang Yuan: Sweet Rice Balls with Black Sesame Filling",
+    "text": "A tang yuan recipe with glutinous rice flour and black sesame filling: sweet rice balls with clear steps and serving notes."
+  },
 ];
 
 export const recipeCards = rawRecipeCards.map((card) => sanitizeContentCard(card));
